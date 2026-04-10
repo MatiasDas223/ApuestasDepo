@@ -31,3 +31,6 @@ logs/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Cache de odds (se generan en tiempo de ejecucion)
+data/odds/*.json

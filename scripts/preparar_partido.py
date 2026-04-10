@@ -3,14 +3,17 @@ Prepara los datos para analizar un partido.
 
 Uso:
     python preparar_partido.py "Boca Juniors" "Independiente"
-    python preparar_partido.py "Real Madrid" "Barcelona" --liga "La Liga"
+    python preparar_partido.py "Real Madrid" "Barcelona"
+    python preparar_partido.py "Boca Juniors" "Independiente" --fixture 1492015
 
 Para cada equipo:
   - Si no esta en la DB lo busca en la API y lo registra.
   - Descarga solo los partidos nuevos (los que ya estan en el CSV se saltean).
   - Agrega las filas al CSV historico.
 
-Al terminar muestra cuantos partidos tiene cada equipo en el historico.
+Al terminar busca el proximo fixture entre los dos equipos, descarga las odds
+de Bet365 y muestra el dict ODDS listo para pegar en analizar_partido.py.
+Si no encuentra el fixture automaticamente, pasar --fixture <id>.
 """
 
 import csv
@@ -320,6 +323,26 @@ def fetch_new_matches(team_id, team_name, allowed_leagues,
 
     return new_rows
 
+# ── Busqueda de fixture proximo ───────────────────────────────────────────────
+
+def find_upcoming_fixture(local_id, visita_id, next_n=10):
+    """
+    Busca el proximo fixture entre local_id y visita_id en la API.
+    Devuelve (fixture_id, league_id, fecha) o (None, None, None) si no encuentra.
+    """
+    resp = api_get('fixtures', {'team': local_id, 'next': next_n})
+    time.sleep(0.3)
+    for fix in resp:
+        h = fix['teams']['home']['id']
+        a = fix['teams']['away']['id']
+        if (h == local_id and a == visita_id) or (h == visita_id and a == local_id):
+            fid   = fix['fixture']['id']
+            lid   = fix['league']['id']
+            fecha = fix['fixture']['date'][:10]
+            return fid, lid, fecha
+    return None, None, None
+
+
 # ── Resumen historico ─────────────────────────────────────────────────────────
 
 def resumen_equipo(team_id, team_name, ligas_by_id):
@@ -336,13 +359,31 @@ def resumen_equipo(team_id, team_name, ligas_by_id):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 if __name__ == '__main__':
-    args = [a for a in sys.argv[1:] if not a.startswith('--')]
-    if len(args) < 2:
-        print("Uso: python preparar_partido.py \"Equipo Local\" \"Equipo Visitante\"")
+    raw_args = sys.argv[1:]
+
+    # Parsear argumentos: posicionales y --fixture <id>
+    fixture_arg = None
+    pos_args    = []
+    skip_next   = False
+    for i, a in enumerate(raw_args):
+        if skip_next:
+            skip_next = False
+            continue
+        if a == '--fixture':
+            if i + 1 < len(raw_args):
+                fixture_arg = int(raw_args[i + 1])
+                skip_next   = True
+        elif a.startswith('--'):
+            pass   # flags desconocidos: ignorar
+        else:
+            pos_args.append(a)
+
+    if len(pos_args) < 2:
+        print("Uso: python preparar_partido.py \"Equipo Local\" \"Equipo Visitante\" [--fixture <id>]")
         sys.exit(1)
 
-    team_local_name  = args[0]
-    team_visita_name = args[1]
+    team_local_name  = pos_args[0]
+    team_visita_name = pos_args[1]
 
     print(f"\n{'='*60}")
     print(f"  Preparando: {team_local_name} vs {team_visita_name}")
@@ -354,13 +395,20 @@ if __name__ == '__main__':
 
     print(f"CSV actual: {len(existing_fixture_ids)} fixtures registrados\n")
 
-    all_new = []
+    all_new      = []
+    local_id_res = None
+    visita_id_res = None
 
-    for team_name in [team_local_name, team_visita_name]:
+    for i, team_name in enumerate([team_local_name, team_visita_name]):
         print(f"[{team_name}]")
         team_id, allowed = find_or_register_team(
             team_name, equipos_by_id, equipos_by_name, ligas_by_id
         )
+        if i == 0:
+            local_id_res  = team_id
+        else:
+            visita_id_res = team_id
+
         new = fetch_new_matches(
             team_id, team_name, allowed,
             existing_fixture_ids, equipos_by_id, ligas_by_id
@@ -375,14 +423,60 @@ if __name__ == '__main__':
         print("No hay partidos nuevos. El CSV ya esta al dia.\n")
 
     print("Historico disponible:")
+    equipos_by_id2, equipos_by_name2 = load_equipos()
     for name in [team_local_name, team_visita_name]:
-        _, names = load_equipos()
-        tid = names.get(name.lower().strip())
+        tid = equipos_by_name2.get(name.lower().strip())
         if tid:
             resumen_equipo(tid, name, ligas_by_id)
 
-    print(f"\nListo. Ahora podes editar analizar_partido.py con:")
+    # ── Odds ──────────────────────────────────────────────────────────────────
+    print(f"\n{'='*60}")
+    print(f"  BUSCANDO ODDS BET365")
+    print(f"{'='*60}")
+
+    # Determinar fixture_id
+    upcoming_fixture_id = fixture_arg
+    upcoming_league_id  = None
+    upcoming_fecha      = None
+
+    if not upcoming_fixture_id and local_id_res and visita_id_res:
+        print(f"\n  Buscando proximo fixture {team_local_name} vs {team_visita_name}...")
+        upcoming_fixture_id, upcoming_league_id, upcoming_fecha = find_upcoming_fixture(
+            local_id_res, visita_id_res
+        )
+        if upcoming_fixture_id:
+            liga_nombre = ligas_by_id.get(upcoming_league_id, {}).get('nombre', upcoming_league_id)
+            print(f"  Encontrado: fixture={upcoming_fixture_id}  {upcoming_fecha}  {liga_nombre}")
+        else:
+            print(f"  No se encontro fixture proximo entre los dos equipos.")
+            print(f"  Pasa el ID manualmente con: --fixture <id>")
+
+    if upcoming_fixture_id:
+        try:
+            import sys as _sys
+            import importlib.util as _ilu
+            _spec = _ilu.spec_from_file_location(
+                'fetch_odds',
+                Path(__file__).parent / 'fetch_odds.py'
+            )
+            _fo = _ilu.module_from_spec(_spec)
+            _spec.loader.exec_module(_fo)
+
+            odds, resumen = _fo.get_odds(upcoming_fixture_id, force=False)
+            _fo.print_odds_report(odds, resumen, team_local_name, team_visita_name)
+            _fo.print_odds_dict(odds, team_local_name, team_visita_name)
+        except Exception as e:
+            print(f"  Error al obtener odds: {e}")
+
+    # ── Resumen final ─────────────────────────────────────────────────────────
+    comp_sugerida = ligas_by_id.get(upcoming_league_id, {}).get('nombre', '???') \
+                    if upcoming_league_id else '???'
+    print(f"\n{'='*60}")
+    print(f"  CONFIG PARA analizar_partido.py")
+    print(f"{'='*60}")
     print(f"  TEAM_LOCAL  = '{team_local_name}'")
     print(f"  TEAM_VISITA = '{team_visita_name}'")
-    print(f"  COMPETITION = '...'")
-    print(f"  y correr: python analizar_partido.py\n")
+    print(f"  COMPETITION = '{comp_sugerida}'")
+    if upcoming_fixture_id:
+        print(f"  FIXTURE_ID  = {upcoming_fixture_id}")
+    print(f"\n  Correr: python analizar_partido.py\n")
