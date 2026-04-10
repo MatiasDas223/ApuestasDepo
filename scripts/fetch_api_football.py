@@ -16,16 +16,17 @@ import sys
 import time
 import urllib.request
 import urllib.parse
-from datetime import datetime
 from pathlib import Path
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Configuracion
 # ─────────────────────────────────────────────────────────────────────────────
 
-API_KEY  = '5a7d5d038454c3640c8771ce2274c18c'
-BASE_URL = 'https://v3.football.api-sports.io'
-CSV_PATH = Path(r'C:\Users\Matt\Apuestas Deportivas\data\historico\partidos_historicos.csv')
+API_KEY      = '5a7d5d038454c3640c8771ce2274c18c'
+BASE_URL     = 'https://v3.football.api-sports.io'
+CSV_PATH     = Path(r'C:\Users\Matt\Apuestas Deportivas\data\historico\partidos_historicos.csv')
+EQUIPOS_PATH = Path(r'C:\Users\Matt\Apuestas Deportivas\data\db\equipos.csv')
+LIGAS_PATH   = Path(r'C:\Users\Matt\Apuestas Deportivas\data\db\ligas.csv')
 
 LAST_N   = 20   # cuantos ultimos partidos traer por equipo
 
@@ -64,8 +65,8 @@ LEAGUE_MAP = {
 }
 
 CSV_FIELDS = [
-    'fecha', 'competicion',
-    'equipo_local', 'equipo_visitante',
+    'fecha', 'liga_id',
+    'equipo_local_id', 'equipo_visitante_id',
     'goles_local', 'goles_visitante',
     'tiros_local', 'tiros_visitante',
     'tiros_arco_local', 'tiros_arco_visitante',
@@ -106,6 +107,54 @@ def stat_value(stats_list, stat_type):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Base de datos de equipos y ligas
+# ─────────────────────────────────────────────────────────────────────────────
+
+def load_db():
+    """Carga equipos.csv y ligas.csv. Devuelve (api_name→team_id, api_league→liga_id)."""
+    # Equipos: id, nombre, pais, liga_id_principal
+    team_by_id   = {}   # id_int -> nombre
+    team_by_name = {}   # nombre_lower -> id_int
+    with open(EQUIPOS_PATH, newline='', encoding='utf-8') as f:
+        for row in csv.DictReader(f):
+            tid  = int(row['id'])
+            name = row['nombre']
+            team_by_id[tid]              = name
+            team_by_name[name.lower()]   = tid
+
+    # Ligas: id, nombre, pais
+    liga_by_id   = {}
+    liga_by_name = {}
+    with open(LIGAS_PATH, newline='', encoding='utf-8') as f:
+        for row in csv.DictReader(f):
+            lid  = int(row['id'])
+            name = row['nombre']
+            liga_by_id[lid]            = name
+            liga_by_name[name.lower()] = lid
+
+    return team_by_id, team_by_name, liga_by_id, liga_by_name
+
+
+def register_team(api_id, api_name, country, primary_league_id):
+    """Agrega un equipo nuevo a equipos.csv si no existe."""
+    with open(EQUIPOS_PATH, newline='', encoding='utf-8') as f:
+        rows = list(csv.DictReader(f))
+    existing_ids = {int(r['id']) for r in rows}
+    if api_id in existing_ids:
+        return False  # ya existe
+    rows.append({
+        'id': api_id, 'nombre': api_name, 'pais': country,
+        'liga_id_principal': primary_league_id,
+    })
+    rows.sort(key=lambda r: int(r['id']))
+    with open(EQUIPOS_PATH, 'w', newline='', encoding='utf-8') as f:
+        w = csv.DictWriter(f, fieldnames=['id','nombre','pais','liga_id_principal'])
+        w.writeheader(); w.writerows(rows)
+    print(f"   [DB] Equipo nuevo registrado: {api_id}  {api_name}")
+    return True
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Logica principal
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -115,28 +164,22 @@ def load_existing_csv():
         return [], set()
     with open(CSV_PATH, newline='', encoding='utf-8') as f:
         rows = list(csv.DictReader(f))
-    # Clave unica: fecha + local + visitante (normalizado)
+    # Clave unica: fecha + local_id + visitante_id + liga_id
     keys = {
-        (r['fecha'], r['equipo_local'].lower(), r['equipo_visitante'].lower())
+        (r['fecha'], int(r['equipo_local_id']),
+         int(r['equipo_visitante_id']), int(r['liga_id']))
         for r in rows
     }
     return rows, keys
 
 
-def normalize_team(api_name):
-    """Convierte nombre de API a nuestro nombre normalizado."""
-    return API_NAME_MAP.get(api_name, api_name)
-
-
-def normalize_league(api_league_name):
-    """Convierte nombre de liga de API a nuestro nombre."""
-    return LEAGUE_MAP.get(api_league_name, api_league_name)
-
-
-def fetch_team_matches(team_csv_name, team_id, allowed_leagues, existing_keys, dry_run=False):
+def fetch_team_matches(team_csv_name, team_id, allowed_leagues,
+                       existing_keys, team_by_id, team_by_name,
+                       liga_by_id, liga_by_name, dry_run=False):
     """
     Descarga los ultimos partidos del equipo, filtra por liga y
-    extrae estadisticas. Devuelve lista de filas nuevas.
+    extrae estadisticas. Devuelve lista de filas nuevas (con IDs).
+    Si el rival no está en la DB, lo registra automaticamente.
     """
     print(f"\n[{team_csv_name}]  team_id={team_id}")
     print(f"   Descargando ultimos {LAST_N} fixtures...")
@@ -158,25 +201,40 @@ def fetch_team_matches(team_csv_name, team_id, allowed_leagues, existing_keys, d
         if league_id not in allowed_leagues:
             continue
 
+        # Si la liga no está en nuestra DB, la saltamos
+        if league_id not in liga_by_id:
+            continue
+
         # Fecha
-        date_str = fix['fixture']['date'][:10]   # YYYY-MM-DD
+        date_str = fix['fixture']['date'][:10]
 
-        # Equipos
-        home_api = fix['teams']['home']['name']
-        away_api = fix['teams']['away']['name']
-        home_csv = normalize_team(home_api)
-        away_csv = normalize_team(away_api)
-        comp_csv = normalize_league(league_name)
+        # IDs de equipo directo desde la API
+        home_api_id   = fix['teams']['home']['id']
+        away_api_id   = fix['teams']['away']['id']
+        home_api_name = fix['teams']['home']['name']
+        away_api_name = fix['teams']['away']['name']
 
-        # Verificar duplicado
-        key = (date_str, home_csv.lower(), away_csv.lower())
+        # Registrar rivales desconocidos en la DB automaticamente
+        for api_id, api_name in [(home_api_id, home_api_name), (away_api_id, away_api_name)]:
+            if api_id not in team_by_id:
+                country = fix['teams']['home']['name'] if api_id == home_api_id else fix['teams']['away']['name']
+                register_team(api_id, api_name, '?', league_id)
+                team_by_id[api_id]             = api_name
+                team_by_name[api_name.lower()] = api_id
+
+        # Verificar duplicado por IDs
+        key = (date_str, home_api_id, away_api_id, league_id)
         if key in existing_keys:
-            print(f"   [skip] {date_str}  {home_csv} vs {away_csv}  (ya existe)")
+            h = team_by_id.get(home_api_id, home_api_name)
+            a = team_by_id.get(away_api_id, away_api_name)
+            print(f"   [skip] {date_str}  {h} vs {a}  (ya existe)")
             continue
 
         # Estadisticas
-        print(f"   Descargando stats  fixture={fixture_id}  {date_str}  {home_csv} vs {away_csv}...", end='')
-        time.sleep(0.3)   # respetar rate limit (~450 req/min en premium)
+        h_name = team_by_id.get(home_api_id, home_api_name)
+        a_name = team_by_id.get(away_api_id, away_api_name)
+        print(f"   Descargando stats  {date_str}  {h_name} vs {a_name}...", end='')
+        time.sleep(0.3)
 
         try:
             stats = api_get('fixtures/statistics', {'fixture': fixture_id})
@@ -188,19 +246,24 @@ def fetch_team_matches(team_csv_name, team_id, allowed_leagues, existing_keys, d
             print(f"  sin estadisticas")
             continue
 
-        # Mapear home/away a local/visitante segun team ID
-        home_id = fix['teams']['home']['id']
-        s_home  = next((s['statistics'] for s in stats if s['team']['id'] == home_id), [])
-        s_away  = next((s['statistics'] for s in stats if s['team']['id'] != home_id), [])
+        s_home = next((s['statistics'] for s in stats if s['team']['id'] == home_api_id), [])
+        s_away = next((s['statistics'] for s in stats if s['team']['id'] != home_api_id), [])
 
         goles_l = fix['goals']['home'] or 0
         goles_v = fix['goals']['away'] or 0
 
+        pl = stat_value(s_home, 'Ball Possession')
+        pv = stat_value(s_away, 'Ball Possession')
+        if pl > 0 and pv == 0:
+            pv = 100 - pl
+        elif pv > 0 and pl == 0:
+            pl = 100 - pv
+
         row = {
             'fecha':                date_str,
-            'competicion':          comp_csv,
-            'equipo_local':         home_csv,
-            'equipo_visitante':     away_csv,
+            'liga_id':              league_id,
+            'equipo_local_id':      home_api_id,
+            'equipo_visitante_id':  away_api_id,
             'goles_local':          goles_l,
             'goles_visitante':      goles_v,
             'tiros_local':          stat_value(s_home, 'Total Shots'),
@@ -209,27 +272,19 @@ def fetch_team_matches(team_csv_name, team_id, allowed_leagues, existing_keys, d
             'tiros_arco_visitante': stat_value(s_away, 'Shots on Goal'),
             'corners_local':        stat_value(s_home, 'Corner Kicks'),
             'corners_visitante':    stat_value(s_away, 'Corner Kicks'),
-            'posesion_local':       stat_value(s_home, 'Ball Possession'),
-            'posesion_visitante':   stat_value(s_away, 'Ball Possession'),
+            'posesion_local':       pl,
+            'posesion_visitante':   pv,
             'tarjetas_local':       stat_value(s_home, 'Yellow Cards') + stat_value(s_home, 'Red Cards'),
             'tarjetas_visitante':   stat_value(s_away, 'Yellow Cards') + stat_value(s_away, 'Red Cards'),
         }
 
-        # Correccion: si posesion no suma ~100 usar complemento
-        pl = row['posesion_local']
-        pv = row['posesion_visitante']
-        if pl > 0 and pv == 0:
-            row['posesion_visitante'] = 100 - pl
-        elif pv > 0 and pl == 0:
-            row['posesion_local'] = 100 - pv
-
         new_rows.append(row)
-        existing_keys.add(key)   # evitar duplicar si el mismo partido aparece en 2 equipos
+        existing_keys.add(key)
 
         print(f"  OK  (goles {goles_l}-{goles_v}, tiros {row['tiros_local']}/{row['tiros_visitante']}, "
               f"arco {row['tiros_arco_local']}/{row['tiros_arco_visitante']}, "
               f"corners {row['corners_local']}/{row['corners_visitante']}, "
-              f"pos {row['posesion_local']}%/{row['posesion_visitante']}%)")
+              f"pos {pl}%/{pv}%)")
 
     print(f"   Filas nuevas para {team_csv_name}: {len(new_rows)}")
     return new_rows
@@ -259,8 +314,9 @@ if __name__ == '__main__':
     if dry_run:
         print("=== DRY RUN — no se guardara nada ===")
 
+    team_by_id, team_by_name, liga_by_id, liga_by_name = load_db()
     existing_rows, existing_keys = load_existing_csv()
-    print(f"CSV actual: {len(existing_rows)} filas")
+    print(f"CSV actual: {len(existing_rows)} filas  |  DB: {len(team_by_id)} equipos, {len(liga_by_id)} ligas")
 
     all_new = []
 
@@ -269,7 +325,8 @@ if __name__ == '__main__':
             continue
         new = fetch_team_matches(
             team_name, cfg['id'], cfg['leagues'],
-            existing_keys, dry_run=dry_run
+            existing_keys, team_by_id, team_by_name,
+            liga_by_id, liga_by_name, dry_run=dry_run
         )
         all_new.extend(new)
 

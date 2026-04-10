@@ -1,0 +1,69 @@
+id,nombre,pais,liga_id_principal
+34,Newcastle,England,39
+47,Tottenham,England,39
+451,Boca Juniors,Argentina,128
+453,Independiente,Argentina,128
+435,River Plate,Argentina,128
+436,Racing Club,Argentina,128
+437,Rosario Central,Argentina,128
+438,Velez Sarsfield,Argentina,128
+439,Godoy Cruz,Argentina,128
+440,Belgrano Cordoba,Argentina,128
+441,Union Santa Fe,Argentina,128
+442,Defensa Y Justicia,Argentina,128
+443,Olimpo Bahia Blanca,Argentina,130
+445,Huracan,Argentina,128
+446,Lanus,Argentina,128
+449,Banfield,Argentina,128
+450,Estudiantes L.P.,Argentina,128
+452,Tigre,Argentina,128
+454,Temperley,Argentina,130
+455,Atletico Tucuman,Argentina,128
+456,Talleres Cordoba,Argentina,128
+457,Newells Old Boys,Argentina,128
+458,Argentinos JRS,Argentina,128
+460,San Lorenzo,Argentina,128
+461,San Martin S.J.,Argentina,130
+462,Agropecuario,Argentina,130
+463,Aldosivi,Argentina,128
+465,Atletico DE Rafaela,Argentina,130
+469,Deportivo Moron,Argentina,130
+473,Independ. Rivadavia,Argentina,128
+474,Sarmiento Junin,Argentina,128
+476,Deportivo Riestra,Argentina,128
+478,Instituto Cordoba,Argentina,128
+479,Gimnasia Jujuy,Argentina,130
+485,San Martin Tucuman,Argentina,130
+529,Barcelona,Spain,140
+530,Atletico Madrid,Spain,140
+531,Athletic Club,Spain,140
+532,Valencia,Spain,140
+533,Villarreal,Spain,140
+536,Sevilla,Spain,140
+538,Celta Vigo,Spain,140
+539,Levante,Spain,140
+540,Espanyol,Spain,140
+541,Real Madrid,Spain,140
+542,Alaves,Spain,140
+543,Real Betis,Spain,140
+546,Getafe,Spain,140
+547,Girona,Spain,140
+548,Real Sociedad,Spain,140
+569,Club Brugge,Belgium,144
+718,Oviedo,Spain,140
+722,Albacete,Spain,141
+727,Osasuna,Spain,140
+728,Rayo Vallecano,Spain,140
+797,Elche,Spain,140
+798,Mallorca,Spain,140
+1064,Platense,Argentina,128
+1065,Central Cordoba,Argentina,128
+1066,Gimnasia Mendoza,Argentina,128
+1929,Deportivo Madryn,Argentina,130
+1931,Sportivo Barracas,Argentina,130
+2422,Real Pilar,Argentina,130
+2424,Estudiantes RC,Argentina,128
+2432,Barracas Central,Argentina,128
+2994,Universidad Catolica,Chile,13
+21043,Sportivo Atenas,Argentina,130
+25758,Gimnasia Chivilcoy,Argentina,130

@@ -31,7 +31,9 @@ from pathlib import Path
 # Config
 # ─────────────────────────────────────────────────────────────────────────────
 
-CSV_PATH = Path(r'C:\Users\Matt\Apuestas Deportivas\data\historico\partidos_historicos.csv')
+CSV_PATH     = Path(r'C:\Users\Matt\Apuestas Deportivas\data\historico\partidos_historicos.csv')
+EQUIPOS_PATH = Path(r'C:\Users\Matt\Apuestas Deportivas\data\db\equipos.csv')
+LIGAS_PATH   = Path(r'C:\Users\Matt\Apuestas Deportivas\data\db\ligas.csv')
 N_SIM_DEFAULT = 100_000
 MIN_EDGE = 0.04          # 4 % de ventaja mínima para declarar value bet
 MIN_MATCHES = 2          # mínimo de partidos para usar stats propias del equipo
@@ -83,6 +85,58 @@ def safe_std(vals: list, mean: float) -> float:
 def load_csv(path: Path = CSV_PATH) -> list[dict]:
     with open(path, newline='', encoding='utf-8') as f:
         return list(csv.DictReader(f))
+
+
+def load_teams_db(path: Path = EQUIPOS_PATH) -> tuple[dict, dict]:
+    """
+    Carga equipos.csv.
+    Devuelve ({id_int: nombre}, {nombre_norm: id_int}).
+    """
+    id_to_name, name_to_id = {}, {}
+    with open(path, newline='', encoding='utf-8') as f:
+        for row in csv.DictReader(f):
+            tid  = int(row['id'])
+            name = row['nombre']
+            id_to_name[tid] = name
+            name_to_id[norm(name)] = tid
+    return id_to_name, name_to_id
+
+
+def load_leagues_db(path: Path = LIGAS_PATH) -> tuple[dict, dict]:
+    """
+    Carga ligas.csv.
+    Devuelve ({id_int: nombre}, {nombre_norm: id_int}).
+    """
+    id_to_name, name_to_id = {}, {}
+    with open(path, newline='', encoding='utf-8') as f:
+        for row in csv.DictReader(f):
+            lid  = int(row['id'])
+            name = row['nombre']
+            id_to_name[lid] = name
+            name_to_id[norm(name)] = lid
+    return id_to_name, name_to_id
+
+
+def resolve_team_id(team: str | int, name_to_id: dict) -> int | None:
+    """Acepta nombre (str) o ID directo (int/str numérico). Devuelve ID o None."""
+    if isinstance(team, int):
+        return team
+    try:
+        return int(team)
+    except (ValueError, TypeError):
+        pass
+    return name_to_id.get(norm(str(team)))
+
+
+def resolve_liga_id(liga: str | int, name_to_id: dict) -> int | None:
+    """Acepta nombre de liga o ID. Devuelve ID o None."""
+    if isinstance(liga, int):
+        return liga
+    try:
+        return int(liga)
+    except (ValueError, TypeError):
+        pass
+    return name_to_id.get(norm(str(liga)))
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -144,24 +198,27 @@ class TeamRecord:
 
 
 def build_records(rows: list[dict],
-                  competition_filter: str | None = None) -> dict[str, TeamRecord]:
-    """Construye TeamRecord para todos los equipos, opcionalmente filtrando competición."""
-    records: dict[str, TeamRecord] = defaultdict(TeamRecord)
+                  liga_id_filter: int | None = None) -> dict[int, TeamRecord]:
+    """
+    Construye TeamRecord para todos los equipos indexado por team_id (int).
+    Filtra opcionalmente por liga_id.
+    """
+    records: dict[int, TeamRecord] = defaultdict(TeamRecord)
     for row in rows:
-        if competition_filter and norm(row['competicion']) != norm(competition_filter):
+        if liga_id_filter and int(row['liga_id']) != liga_id_filter:
             continue
-        local = row['equipo_local']
-        vis   = row['equipo_visitante']
-        records[local].add_home_row(row)
-        records[vis].add_away_row(row)
+        local_id = int(row['equipo_local_id'])
+        vis_id   = int(row['equipo_visitante_id'])
+        records[local_id].add_home_row(row)
+        records[vis_id].add_away_row(row)
     return records
 
 
 def league_avgs(rows: list[dict],
-                competition_filter: str | None = None) -> dict[str, float]:
+                liga_id_filter: int | None = None) -> dict[str, float]:
     """Calcula promedios de liga para usar como baseline."""
-    filtered = [r for r in rows if not competition_filter
-                or norm(r['competicion']) == norm(competition_filter)]
+    filtered = [r for r in rows if not liga_id_filter
+                or int(r['liga_id']) == liga_id_filter]
     if len(filtered) < 3:
         filtered = rows          # fallback a todo el histórico
 
@@ -214,11 +271,13 @@ def _best_record(records_comp: dict, records_all: dict,
     return None
 
 
-def compute_match_params(team_local: str, team_visitante: str,
+def compute_match_params(team_local: str | int, team_visitante: str | int,
                          rows: list[dict],
-                         competition: str | None = None) -> dict:
+                         competition: str | int | None = None) -> dict:
     """
     Estima todos los parámetros necesarios para la simulación Monte Carlo.
+    Acepta nombres de equipo (str) o IDs directos (int).
+    Acepta nombre de competición (str) o liga_id (int).
 
     Modelo de goles (Poisson):
         λ_local   = avg_goles_local_liga × atk_rating_local × def_rating_visitante
@@ -227,68 +286,81 @@ def compute_match_params(team_local: str, team_visitante: str,
     Modelo de corners (Poisson) — ídem estructura
     Modelo de tiros   (Normal)  — ídem estructura
     """
-    recs_comp = build_records(rows, competition) if competition else {}
-    recs_all  = build_records(rows)
-    la        = league_avgs(rows, competition)
+    # Resolver nombres → IDs usando la DB
+    _, name_to_id_teams   = load_teams_db()
+    _, name_to_id_leagues = load_leagues_db()
 
-    def ga(team, ctx, field):
-        return _best_record(recs_comp, recs_all, team, ctx, field)
+    local_id = resolve_team_id(team_local,    name_to_id_teams)
+    vis_id   = resolve_team_id(team_visitante, name_to_id_teams)
+    liga_id  = resolve_liga_id(competition, name_to_id_leagues) if competition else None
+
+    if local_id is None:
+        raise ValueError(f"Equipo local no encontrado en DB: '{team_local}'")
+    if vis_id is None:
+        raise ValueError(f"Equipo visitante no encontrado en DB: '{team_visitante}'")
+
+    recs_comp = build_records(rows, liga_id) if liga_id else {}
+    recs_all  = build_records(rows)
+    la        = league_avgs(rows, liga_id)
+
+    def ga(team_id, ctx, field):
+        return _best_record(recs_comp, recs_all, team_id, ctx, field)
 
     # ── Conteo de partidos disponibles ────────────────────────────────────────
-    def n_ctx(team, ctx):
+    def n_ctx(team_id, ctx):
         for recs in (recs_comp, recs_all):
-            rec = recs.get(team)
+            rec = recs.get(team_id)
             if rec and rec.n(ctx) >= 1:
                 return rec.n(ctx)
         return 0
 
-    n_local_home = n_ctx(team_local,    'home')
-    n_vis_away   = n_ctx(team_visitante, 'away')
+    n_local_home = n_ctx(local_id, 'home')
+    n_vis_away   = n_ctx(vis_id,   'away')
 
     # ── Ratings ───────────────────────────────────────────────────────────────
     # Goles
-    atk_l = _rating(ga(team_local,     'home', 'goals'),           la['home_goals'])
-    def_v = _rating(ga(team_visitante, 'away', 'goals_conceded'),  la['home_goals'])
-    atk_v = _rating(ga(team_visitante, 'away', 'goals'),           la['away_goals'])
-    def_l = _rating(ga(team_local,     'home', 'goals_conceded'),  la['away_goals'])
+    atk_l = _rating(ga(local_id, 'home', 'goals'),           la['home_goals'])
+    def_v = _rating(ga(vis_id,   'away', 'goals_conceded'),  la['home_goals'])
+    atk_v = _rating(ga(vis_id,   'away', 'goals'),           la['away_goals'])
+    def_l = _rating(ga(local_id, 'home', 'goals_conceded'),  la['away_goals'])
 
     lambda_local = max(0.15, la['home_goals'] * atk_l * def_v)
     lambda_vis   = max(0.15, la['away_goals'] * atk_v * def_l)
 
     # Corners
-    atk_cl = _rating(ga(team_local,     'home', 'corners'),           la['home_corners'])
-    def_cv = _rating(ga(team_visitante, 'away', 'corners_conceded'),  la['home_corners'])
-    atk_cv = _rating(ga(team_visitante, 'away', 'corners'),           la['away_corners'])
-    def_cl = _rating(ga(team_local,     'home', 'corners_conceded'),  la['away_corners'])
+    atk_cl = _rating(ga(local_id, 'home', 'corners'),           la['home_corners'])
+    def_cv = _rating(ga(vis_id,   'away', 'corners_conceded'),  la['home_corners'])
+    atk_cv = _rating(ga(vis_id,   'away', 'corners'),           la['away_corners'])
+    def_cl = _rating(ga(local_id, 'home', 'corners_conceded'),  la['away_corners'])
 
     mu_corners_local = max(0.5, la['home_corners'] * atk_cl * def_cv)
     mu_corners_vis   = max(0.5, la['away_corners'] * atk_cv * def_cl)
 
     # Tiros
-    atk_sl = _rating(ga(team_local,     'home', 'shots'),           la['home_shots'])
-    def_sv = _rating(ga(team_visitante, 'away', 'shots_conceded'),  la['home_shots'])
-    atk_sv = _rating(ga(team_visitante, 'away', 'shots'),           la['away_shots'])
-    def_sl = _rating(ga(team_local,     'home', 'shots_conceded'),  la['away_shots'])
+    atk_sl = _rating(ga(local_id, 'home', 'shots'),           la['home_shots'])
+    def_sv = _rating(ga(vis_id,   'away', 'shots_conceded'),  la['home_shots'])
+    atk_sv = _rating(ga(vis_id,   'away', 'shots'),           la['away_shots'])
+    def_sl = _rating(ga(local_id, 'home', 'shots_conceded'),  la['away_shots'])
 
     mu_shots_local = max(1.0, la['home_shots'] * atk_sl * def_sv)
     mu_shots_vis   = max(1.0, la['away_shots'] * atk_sv * def_sl)
 
     # σ tiros — usa el std histórico propio si disponible
-    def shot_std(team, ctx, mu):
+    def shot_std(team_id, ctx, mu):
         for recs in (recs_comp, recs_all):
-            rec = recs.get(team)
+            rec = recs.get(team_id)
             if rec and rec.n(ctx) >= MIN_MATCHES:
                 s = rec.std(ctx, 'shots')
                 if s > 0:
                     return s
         return mu * 0.30   # 30 % del promedio como fallback
 
-    sigma_shots_local = shot_std(team_local,     'home', mu_shots_local)
-    sigma_shots_vis   = shot_std(team_visitante, 'away', mu_shots_vis)
+    sigma_shots_local = shot_std(local_id, 'home', mu_shots_local)
+    sigma_shots_vis   = shot_std(vis_id,   'away', mu_shots_vis)
 
     # ── Posesión esperada ─────────────────────────────────────────────────────
-    raw_poss_l = ga(team_local,     'home', 'possession') or 50.0
-    raw_poss_v = ga(team_visitante, 'away', 'possession') or 50.0
+    raw_poss_l = ga(local_id, 'home', 'possession') or 50.0
+    raw_poss_v = ga(vis_id,   'away', 'possession') or 50.0
     total_poss  = raw_poss_l + raw_poss_v
     poss_local  = 100.0 * raw_poss_l / total_poss if total_poss > 0 else 50.0
 

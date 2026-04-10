@@ -8,7 +8,7 @@ sys.path.insert(0, r'C:\Users\Matt\Apuestas Deportivas\scripts')
 
 from modelo_v2 import (load_csv, compute_match_params, run_simulation,
                        _remove_vig, MIN_EDGE, poisson_sample, norm as norm_text,
-                       MIN_MATCHES)
+                       MIN_MATCHES, load_teams_db, resolve_team_id)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -28,49 +28,55 @@ def compute_arco_params(team_local, team_visita, rows, competition=None):
         atk_local = avg_arco_generados_local(home) / la_arco_home
         def_vis   = avg_arco_concedidos_vis(away)  / la_arco_home
     """
-    # Liga: promedios de referencia (filtrado por competición con fallback)
+    # Liga: promedios de referencia (filtrado por liga_id con fallback)
+    from modelo_v2 import load_leagues_db, resolve_liga_id
+    _, name_to_id_leagues = load_leagues_db()
+    liga_id_filter = resolve_liga_id(competition, name_to_id_leagues) if competition else None
     comp_rows = [r for r in rows
-                 if not competition or norm_text(r['competicion']) == norm_text(competition)]
+                 if not liga_id_filter or int(r['liga_id']) == liga_id_filter]
     if len(comp_rows) < 3:
         comp_rows = rows
 
     la_home = sum(int(r['tiros_arco_local'])    for r in comp_rows) / len(comp_rows)
     la_away = sum(int(r['tiros_arco_visitante']) for r in comp_rows) / len(comp_rows)
 
-    def avg_home_gen(team):
-        vals = [int(r['tiros_arco_local']) for r in rows if r['equipo_local'] == team]
+    # Resolver nombres → IDs
+    _, name_to_id = load_teams_db()
+    local_id = resolve_team_id(team_local,  name_to_id)
+    vis_id   = resolve_team_id(team_visita, name_to_id)
+
+    def avg_home_gen(tid):
+        vals = [int(r['tiros_arco_local']) for r in rows if int(r['equipo_local_id']) == tid]
         return sum(vals) / len(vals) if len(vals) >= MIN_MATCHES else None
 
-    def avg_away_gen(team):
-        vals = [int(r['tiros_arco_visitante']) for r in rows if r['equipo_visitante'] == team]
+    def avg_away_gen(tid):
+        vals = [int(r['tiros_arco_visitante']) for r in rows if int(r['equipo_visitante_id']) == tid]
         return sum(vals) / len(vals) if len(vals) >= MIN_MATCHES else None
 
-    def avg_home_con(team):
-        # Arco concedidos como local = tiros_arco del rival cuando team es local
-        vals = [int(r['tiros_arco_visitante']) for r in rows if r['equipo_local'] == team]
+    def avg_home_con(tid):
+        vals = [int(r['tiros_arco_visitante']) for r in rows if int(r['equipo_local_id']) == tid]
         return sum(vals) / len(vals) if len(vals) >= MIN_MATCHES else None
 
-    def avg_away_con(team):
-        # Arco concedidos como visitante = tiros_arco del rival cuando team es visitante
-        vals = [int(r['tiros_arco_local']) for r in rows if r['equipo_visitante'] == team]
+    def avg_away_con(tid):
+        vals = [int(r['tiros_arco_local']) for r in rows if int(r['equipo_visitante_id']) == tid]
         return sum(vals) / len(vals) if len(vals) >= MIN_MATCHES else None
 
     def rating(val, base):
         return (val / base) if val is not None and base > 0 else 1.0
 
     # Ratings de ataque (cuántos arco genera)
-    atk_local = rating(avg_home_gen(team_local),  la_home)
-    atk_vis   = rating(avg_away_gen(team_visita), la_away)
+    atk_local = rating(avg_home_gen(local_id), la_home)
+    atk_vis   = rating(avg_away_gen(vis_id),   la_away)
 
     # Ratings de defensa (cuántos arco concede al rival)
-    def_local = rating(avg_home_con(team_local),  la_away)
-    def_vis   = rating(avg_away_con(team_visita), la_home)
+    def_local = rating(avg_home_con(local_id), la_away)
+    def_vis   = rating(avg_away_con(vis_id),   la_home)
 
     mu_local = la_home * atk_local * def_vis
     mu_vis   = la_away * atk_vis   * def_local
 
-    n_local = len([r for r in rows if r['equipo_local']     == team_local])
-    n_vis   = len([r for r in rows if r['equipo_visitante'] == team_visita])
+    n_local = len([r for r in rows if int(r['equipo_local_id'])     == local_id])
+    n_vis   = len([r for r in rows if int(r['equipo_visitante_id']) == vis_id])
 
     return {
         'mu_arco_local': max(0.1, mu_local),
