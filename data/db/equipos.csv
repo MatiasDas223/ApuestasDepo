@@ -1,8 +1,8 @@
 id,nombre,pais,liga_id_principal
 34,Newcastle,England,39
 47,Tottenham,England,39
-451,Boca Juniors,Argentina,128
-453,Independiente,Argentina,128
+327,Bodo/Glimt,?,2
+400,FC Copenhagen,?,2
 435,River Plate,Argentina,128
 436,Racing Club,Argentina,128
 437,Rosario Central,Argentina,128
@@ -16,7 +16,9 @@ id,nombre,pais,liga_id_principal
 446,Lanus,Argentina,128
 449,Banfield,Argentina,128
 450,Estudiantes L.P.,Argentina,128
+451,Boca Juniors,Argentina,128
 452,Tigre,Argentina,128
+453,Independiente,Argentina,128
 454,Temperley,Argentina,130
 455,Atletico Tucuman,Argentina,128
 456,Talleres Cordoba,Argentina,128
@@ -49,7 +51,9 @@ id,nombre,pais,liga_id_principal
 546,Getafe,Spain,140
 547,Girona,Spain,140
 548,Real Sociedad,Spain,140
+560,Slavia Praha,?,2
 569,Club Brugge,Belgium,144
+645,Galatasaray,?,2
 718,Oviedo,Spain,140
 722,Albacete,Spain,141
 727,Osasuna,Spain,140
