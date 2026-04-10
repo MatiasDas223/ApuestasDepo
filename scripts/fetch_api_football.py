@@ -65,7 +65,7 @@ LEAGUE_MAP = {
 }
 
 CSV_FIELDS = [
-    'fecha', 'liga_id',
+    'fixture_id', 'fecha', 'liga_id',
     'equipo_local_id', 'equipo_visitante_id',
     'goles_local', 'goles_visitante',
     'tiros_local', 'tiros_visitante',
@@ -159,22 +159,19 @@ def register_team(api_id, api_name, country, primary_league_id):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def load_existing_csv():
-    """Carga el CSV y devuelve (rows, existing_keys)."""
+    """Carga el CSV y devuelve (rows, existing_fixture_ids).
+    Usa fixture_id como clave unica. Filas con fixture_id=0 son datos legacy."""
     if not CSV_PATH.exists():
         return [], set()
     with open(CSV_PATH, newline='', encoding='utf-8') as f:
         rows = list(csv.DictReader(f))
-    # Clave unica: fecha + local_id + visitante_id + liga_id
-    keys = {
-        (r['fecha'], int(r['equipo_local_id']),
-         int(r['equipo_visitante_id']), int(r['liga_id']))
-        for r in rows
-    }
-    return rows, keys
+    # Clave unica: fixture_id de la API (int > 0)
+    existing_ids = {int(r['fixture_id']) for r in rows if int(r['fixture_id']) > 0}
+    return rows, existing_ids
 
 
 def fetch_team_matches(team_csv_name, team_id, allowed_leagues,
-                       existing_keys, team_by_id, team_by_name,
+                       existing_fixture_ids, team_by_id, team_by_name,
                        liga_by_id, liga_by_name, dry_run=False):
     """
     Descarga los ultimos partidos del equipo, filtra por liga y
@@ -222,12 +219,11 @@ def fetch_team_matches(team_csv_name, team_id, allowed_leagues,
                 team_by_id[api_id]             = api_name
                 team_by_name[api_name.lower()] = api_id
 
-        # Verificar duplicado por IDs
-        key = (date_str, home_api_id, away_api_id, league_id)
-        if key in existing_keys:
+        # Verificar duplicado por fixture_id (clave unica real)
+        if fixture_id in existing_fixture_ids:
             h = team_by_id.get(home_api_id, home_api_name)
             a = team_by_id.get(away_api_id, away_api_name)
-            print(f"   [skip] {date_str}  {h} vs {a}  (ya existe)")
+            print(f"   [skip] {date_str}  {h} vs {a}  fixture={fixture_id} (ya existe)")
             continue
 
         # Estadisticas
@@ -260,6 +256,7 @@ def fetch_team_matches(team_csv_name, team_id, allowed_leagues,
             pl = 100 - pv
 
         row = {
+            'fixture_id':           fixture_id,
             'fecha':                date_str,
             'liga_id':              league_id,
             'equipo_local_id':      home_api_id,
@@ -279,7 +276,7 @@ def fetch_team_matches(team_csv_name, team_id, allowed_leagues,
         }
 
         new_rows.append(row)
-        existing_keys.add(key)
+        existing_fixture_ids.add(fixture_id)
 
         print(f"  OK  (goles {goles_l}-{goles_v}, tiros {row['tiros_local']}/{row['tiros_visitante']}, "
               f"arco {row['tiros_arco_local']}/{row['tiros_arco_visitante']}, "
@@ -292,7 +289,7 @@ def fetch_team_matches(team_csv_name, team_id, allowed_leagues,
 
 def save_csv(all_rows):
     """Guarda el CSV ordenado por fecha."""
-    all_rows.sort(key=lambda r: r['fecha'])
+    all_rows.sort(key=lambda r: (r['fecha'], int(r.get('fixture_id', 0))))
     with open(CSV_PATH, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
         writer.writeheader()
@@ -315,7 +312,7 @@ if __name__ == '__main__':
         print("=== DRY RUN — no se guardara nada ===")
 
     team_by_id, team_by_name, liga_by_id, liga_by_name = load_db()
-    existing_rows, existing_keys = load_existing_csv()
+    existing_rows, existing_fixture_ids = load_existing_csv()
     print(f"CSV actual: {len(existing_rows)} filas  |  DB: {len(team_by_id)} equipos, {len(liga_by_id)} ligas")
 
     all_new = []
@@ -325,7 +322,7 @@ if __name__ == '__main__':
             continue
         new = fetch_team_matches(
             team_name, cfg['id'], cfg['leagues'],
-            existing_keys, team_by_id, team_by_name,
+            existing_fixture_ids, team_by_id, team_by_name,
             liga_by_id, liga_by_name, dry_run=dry_run
         )
         all_new.extend(new)
