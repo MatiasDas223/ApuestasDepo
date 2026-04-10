@@ -655,105 +655,122 @@ def print_analisis(team_local, team_visita, competition, params, probs, value_be
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# CONFIGURACIÓN DEL PARTIDO
+# CONFIGURACIÓN DEL PARTIDO  [AUTO — generado por preparar_partido.py]
 # ─────────────────────────────────────────────────────────────────────────────
-
-TEAM_LOCAL  = 'Boca Juniors'
-TEAM_VISITA = 'Independiente'
+# ── BEGIN PARTIDO CONFIG ─
+TEAM_LOCAL  = 'Belgrano Cordoba'
+TEAM_VISITA = 'Aldosivi'
 COMPETITION = 'Liga Profesional'
+FIXTURE_ID  = 1492014
 N_SIM = 200_000
 
 ODDS = {
     # 1X2
-    '1': 2.30,  'X': 3.00,  '2': 3.60,
+    '1': 1.62,  'X': 3.5,  '2': 6.5,
+
+    # BTTS
+    'btts_si': 2.5,  'btts_no': 1.5,
 
     # Goles totales
-    # "Más de N"   = estrictamente > N goles = Over N.5
-    # "Menos de N" = estrictamente < N goles = Under (N-1).5
-    # Fila N=1 "Menos de" (Under 0.5) = 6.50
-    # Fila N=2 "Menos de" (Under 1.5) = 2.50
-    # Fila N=3 "Menos de" (Under 2.5) = 1.50  etc.
-    'g_over_0.5': 1.11,  'g_under_0.5': 6.50,   # Más de 0 / Menos de 1 (0 goles)
-    'g_over_1.5': 1.50,  'g_under_1.5': 2.50,   # Más de 1 / Menos de 2 (0 o 1 goles)
-    'g_over_2.5': 2.50,  'g_under_2.5': 1.50,   # Más de 2 / Menos de 3
-    'g_over_3.5': 5.00,  'g_under_3.5': 1.16,   # Más de 3 / Menos de 4
-    'g_over_4.5': 11.00, 'g_under_4.5': 1.05,   # Más de 4 / Menos de 5
+    'g_over_0.5': 1.1,  'g_under_0.5': 7.0,
+    'g_over_1.5': 1.5,  'g_under_1.5': 2.5,
+    'g_over_2.5': 2.5,  'g_under_2.5': 1.5,
+    'g_over_3.5': 5.0,  'g_under_3.5': 1.17,
+    'g_over_4.5': 11.0,  'g_under_4.5': 1.05,
 
-    # Goles Boca (local)
-    'gl_over_0.5': 1.33,  'gl_under_0.5': 3.25,
-    'gl_over_1.5': 2.62,  'gl_under_1.5': 1.44,
-    'gl_over_2.5': 7.00,  'gl_under_2.5': 1.10,
+    # Goles Belgrano Cordoba (local)
+    'gl_over_0.5': 1.22,  'gl_under_0.5': 4.0,
+    'gl_over_1.5': 2.0,  'gl_under_1.5': 1.73,
+    'gl_over_2.5': 4.33,  'gl_under_2.5': 1.2,
+    'gl_over_3.5': 11.0,  'gl_under_3.5': 1.05,
 
-    # Goles Independiente (visita)
-    'gv_over_0.5': 1.53,  'gv_under_0.5': 2.37,
-    'gv_over_1.5': 3.75,  'gv_under_1.5': 1.25,
-    'gv_over_2.5': 11.00, 'gv_under_2.5': 1.05,
+    # Goles Aldosivi (visita)
+    'gv_over_0.5': 2.0,  'gv_under_0.5': 1.73,
+    'gv_over_1.5': 7.0,  'gv_under_1.5': 1.1,
+    'gv_over_2.5': 26.0,  'gv_under_2.5': 1.01,
+    'gv_over_3.5': None,  'gv_under_3.5': None,
 
-    # Tiros totales (remates)
-    'ts_over_15.5': 1.071, 'ts_under_15.5': 7.50,
-    'ts_over_17.5': 1.20,  'ts_under_17.5': 4.33,
-    'ts_over_19.5': 1.44,  'ts_under_19.5': 2.62,
-    'ts_over_21.5': 1.83,  'ts_under_21.5': 1.83,
-    'ts_over_23.5': 2.62,  'ts_under_23.5': 1.44,
-    'ts_over_25.5': 4.00,  'ts_under_25.5': 1.22,
-    'ts_over_27.5': 6.50,  'ts_under_27.5': 1.10,
+    # Corners totales
+    'tc_over_7.5': None,  'tc_under_7.5': None,
+    'tc_over_8.5': 1.67,  'tc_under_8.5': 2.1,
+    'tc_over_9.5': None,  'tc_under_9.5': None,
+    'tc_over_10.5': None,  'tc_under_10.5': None,
+    'tc_over_11.5': None,  'tc_under_11.5': None,
 
-    # Tiros Boca (local)
-    'sl_over_6.5':  1.10,  'sl_under_6.5':  6.50,
-    'sl_over_7.5':  1.16,  'sl_under_7.5':  4.50,
-    'sl_over_8.5':  1.30,  'sl_under_8.5':  3.40,
-    'sl_over_9.5':  1.50,  'sl_under_9.5':  2.50,
-    'sl_over_10.5': 1.72,  'sl_under_10.5': 2.00,
-    'sl_over_11.5': 2.10,  'sl_under_11.5': 1.66,
-    'sl_over_12.5': 2.62,  'sl_under_12.5': 1.44,
-    'sl_over_13.5': 3.40,  'sl_under_13.5': 1.30,
-    'sl_over_14.5': 4.33,  'sl_under_14.5': 1.20,
-    'sl_over_15.5': 5.50,  'sl_under_15.5': 1.12,
-    'sl_over_16.5': 7.00,  'sl_under_16.5': 1.083,
-    'sl_over_17.5': 8.50,  'sl_under_17.5': 1.05,
+    # Corners Belgrano Cordoba (local)
+    'cl_over_3.5': None,  'cl_under_3.5': None,
+    'cl_over_4.5': None,  'cl_under_4.5': None,
+    'cl_over_5.5': 2.0,  'cl_under_5.5': 1.73,
+    'cl_over_6.5': None,  'cl_under_6.5': None,
 
-    # Tiros Independiente (visita)
-    'sv_over_5.5':  1.071, 'sv_under_5.5':  7.50,
-    'sv_over_6.5':  1.14,  'sv_under_6.5':  5.00,
-    'sv_over_7.5':  1.25,  'sv_under_7.5':  3.75,
-    'sv_over_8.5':  1.44,  'sv_under_8.5':  2.62,
-    'sv_over_9.5':  1.66,  'sv_under_9.5':  2.10,
-    'sv_over_10.5': 2.00,  'sv_under_10.5': 1.72,
-    'sv_over_11.5': 2.50,  'sv_under_11.5': 1.50,
-    'sv_over_12.5': 3.25,  'sv_under_12.5': 1.33,
-    'sv_over_13.5': 4.33,  'sv_under_13.5': 1.20,
-    'sv_over_14.5': 5.00,  'sv_under_14.5': 1.14,
-    'sv_over_15.5': 7.00,  'sv_under_15.5': 1.083,
-    'sv_over_16.5': 8.50,  'sv_under_16.5': 1.05,
+    # Corners Aldosivi (visita)
+    'cv_over_2.5': None,  'cv_under_2.5': None,
+    'cv_over_3.5': 2.0,  'cv_under_3.5': 1.73,
+    'cv_over_4.5': None,  'cv_under_4.5': None,
+    'cv_over_5.5': None,  'cv_under_5.5': None,
 
-    # ── Remates al arco totales ──────────────────────────────────────────────
-    # Over exactas del bookmaker; Unders estimados con margen ~5%
-    'ta_over_3.5':  1.05,  'ta_under_3.5':  10.00,
-    'ta_over_4.5':  1.12,  'ta_under_4.5':   6.00,
-    'ta_over_5.5':  1.28,  'ta_under_5.5':   3.60,
-    'ta_over_6.5':  1.57,  'ta_under_6.5':   2.30,
-    'ta_over_7.5':  2.00,  'ta_under_7.5':   1.80,
-    'ta_over_8.5':  2.75,  'ta_under_8.5':   1.44,
-    'ta_over_9.5':  4.00,  'ta_under_9.5':   1.22,
-    'ta_over_10.5': 6.00,  'ta_under_10.5':  1.10,
-    'ta_over_11.5': 8.50,  'ta_under_11.5':  1.05,
+    # Tiros totales — completar manualmente desde bookie
+    'ts_over_15.5': None,  'ts_under_15.5': None,
+    'ts_over_17.5': None,  'ts_under_17.5': None,
+    'ts_over_19.5': None,  'ts_under_19.5': None,
+    'ts_over_21.5': None,  'ts_under_21.5': None,
+    'ts_over_23.5': None,  'ts_under_23.5': None,
+    'ts_over_25.5': None,  'ts_under_25.5': None,
+    'ts_over_27.5': None,  'ts_under_27.5': None,
 
-    # ── Remates al arco Boca (local) ─────────────────────────────────────────
-    'sla_over_1.5': 1.10,  'sla_under_1.5':  7.00,
-    'sla_over_2.5': 1.33,  'sla_under_2.5':  3.25,
-    'sla_over_3.5': 1.80,  'sla_under_3.5':  2.00,
-    'sla_over_4.5': 2.62,  'sla_under_4.5':  1.47,
-    'sla_over_5.5': 4.33,  'sla_under_5.5':  1.20,
-    'sla_over_6.5': 7.00,  'sla_under_6.5':  1.08,
+    # Tiros Belgrano Cordoba (local) — completar manualmente
+    'sl_over_6.5': None,  'sl_under_6.5': None,
+    'sl_over_7.5': None,  'sl_under_7.5': None,
+    'sl_over_8.5': None,  'sl_under_8.5': None,
+    'sl_over_9.5': None,  'sl_under_9.5': None,
+    'sl_over_10.5': None,  'sl_under_10.5': None,
+    'sl_over_11.5': None,  'sl_under_11.5': None,
+    'sl_over_12.5': None,  'sl_under_12.5': None,
+    'sl_over_13.5': None,  'sl_under_13.5': None,
 
-    # ── Remates al arco Independiente (visita) ───────────────────────────────
-    'sva_over_1.5': 1.14,  'sva_under_1.5':  5.50,
-    'sva_over_2.5': 1.44,  'sva_under_2.5':  2.75,
-    'sva_over_3.5': 2.00,  'sva_under_3.5':  1.80,
-    'sva_over_4.5': 3.25,  'sva_under_4.5':  1.33,
-    'sva_over_5.5': 5.00,  'sva_under_5.5':  1.16,
-    'sva_over_6.5': 8.00,  'sva_under_6.5':  1.06,
+    # Tiros Aldosivi (visita) — completar manualmente
+    'sv_over_5.5': None,  'sv_under_5.5': None,
+    'sv_over_6.5': None,  'sv_under_6.5': None,
+    'sv_over_7.5': None,  'sv_under_7.5': None,
+    'sv_over_8.5': None,  'sv_under_8.5': None,
+    'sv_over_9.5': None,  'sv_under_9.5': None,
+    'sv_over_10.5': None,  'sv_under_10.5': None,
+    'sv_over_11.5': None,  'sv_under_11.5': None,
+    'sv_over_12.5': None,  'sv_under_12.5': None,
+
+    # Remates al arco totales
+    'ta_over_4.5': None,  'ta_under_4.5': None,
+    'ta_over_5.5': None,  'ta_under_5.5': None,
+    'ta_over_6.5': None,  'ta_under_6.5': None,
+    'ta_over_7.5': 2.0,  'ta_under_7.5': 1.73,
+    'ta_over_8.5': None,  'ta_under_8.5': None,
+    'ta_over_9.5': None,  'ta_under_9.5': None,
+    'ta_over_10.5': None,  'ta_under_10.5': None,
+    'ta_over_11.5': None,  'ta_under_11.5': None,
+
+    # Remates al arco Belgrano Cordoba (local) — completar manualmente
+    'sla_over_1.5': None,  'sla_under_1.5': None,
+    'sla_over_2.5': None,  'sla_under_2.5': None,
+    'sla_over_3.5': None,  'sla_under_3.5': None,
+    'sla_over_4.5': None,  'sla_under_4.5': None,
+    'sla_over_5.5': None,  'sla_under_5.5': None,
+    'sla_over_6.5': None,  'sla_under_6.5': None,
+
+    # Remates al arco Aldosivi (visita) — completar manualmente
+    'sva_over_1.5': None,  'sva_under_1.5': None,
+    'sva_over_2.5': None,  'sva_under_2.5': None,
+    'sva_over_3.5': None,  'sva_under_3.5': None,
+    'sva_over_4.5': None,  'sva_under_4.5': None,
+    'sva_over_5.5': None,  'sva_under_5.5': None,
+    'sva_over_6.5': None,  'sva_under_6.5': None,
+
+    # Tarjetas totales
+    'cards_over_3.5': None,  'cards_under_3.5': None,
+    'cards_over_4.5': None,  'cards_under_4.5': None,
+    'cards_over_5.5': 2.1,  'cards_under_5.5': 1.67,
+    'cards_over_6.5': None,  'cards_under_6.5': None,
 }
+# ── END PARTIDO CONFIG ─
 
 # ─────────────────────────────────────────────────────────────────────────────
 # EJECUCIÓN

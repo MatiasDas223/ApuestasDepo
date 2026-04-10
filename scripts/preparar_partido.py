@@ -25,10 +25,14 @@ import urllib.parse
 from pathlib import Path
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-BASE         = Path(r'C:\Users\Matt\Apuestas Deportivas')
-CSV_PATH     = BASE / 'data/historico/partidos_historicos.csv'
-EQUIPOS_PATH = BASE / 'data/db/equipos.csv'
-LIGAS_PATH   = BASE / 'data/db/ligas.csv'
+BASE           = Path(r'C:\Users\Matt\Apuestas Deportivas')
+CSV_PATH       = BASE / 'data/historico/partidos_historicos.csv'
+EQUIPOS_PATH   = BASE / 'data/db/equipos.csv'
+LIGAS_PATH     = BASE / 'data/db/ligas.csv'
+ANALIZAR_PATH  = BASE / 'scripts/analizar_partido.py'
+
+MARKER_BEGIN = '# ── BEGIN PARTIDO CONFIG ─'
+MARKER_END   = '# ── END PARTIDO CONFIG ─'
 
 API_KEY  = '5a7d5d038454c3640c8771ce2274c18c'
 BASE_URL = 'https://v3.football.api-sports.io'
@@ -323,6 +327,72 @@ def fetch_new_matches(team_id, team_name, allowed_leagues,
 
     return new_rows
 
+# ── Escritura de config en analizar_partido.py ───────────────────────────────
+
+def build_config_block(team_local, team_visita, competition, fixture_id, odds, team_local_full=None, team_visita_full=None):
+    """
+    Genera el bloque completo de configuracion del partido (entre los marcadores).
+    odds puede ser {} si no hay fixture disponible: todos los valores quedan None.
+    """
+    import importlib.util as _ilu
+    _spec = _ilu.spec_from_file_location('fetch_odds', Path(__file__).parent / 'fetch_odds.py')
+    _fo = _ilu.module_from_spec(_spec)
+    _spec.loader.exec_module(_fo)
+
+    odds_str  = _fo.build_odds_dict_str(odds, team_local_full or team_local,
+                                         team_visita_full or team_visita)
+    fix_str   = str(fixture_id) if fixture_id else 'None'
+
+    lines = [
+        MARKER_BEGIN,
+        f"TEAM_LOCAL  = '{team_local}'",
+        f"TEAM_VISITA = '{team_visita}'",
+        f"COMPETITION = '{competition}'",
+        f"FIXTURE_ID  = {fix_str}",
+        "N_SIM = 200_000",
+        "",
+        odds_str,
+        MARKER_END,
+    ]
+    return "\n".join(lines)
+
+
+def write_config_to_analizar(team_local, team_visita, competition, fixture_id, odds,
+                              team_local_full=None, team_visita_full=None):
+    """
+    Reemplaza el bloque de configuracion en analizar_partido.py entre los marcadores.
+    Si los marcadores no existen los agrega antes de la seccion de EJECUCION.
+    """
+    with open(ANALIZAR_PATH, encoding='utf-8') as f:
+        content = f.read()
+
+    new_block = build_config_block(team_local, team_visita, competition, fixture_id, odds,
+                                   team_local_full, team_visita_full)
+
+    i_begin = content.find(MARKER_BEGIN)
+    i_end   = content.find(MARKER_END)
+
+    if i_begin != -1 and i_end != -1:
+        # Reemplazar desde inicio de la linea del BEGIN hasta el fin de la linea del END
+        line_start = content.rfind('\n', 0, i_begin) + 1
+        line_end   = content.find('\n', i_end)
+        line_end   = line_end + 1 if line_end != -1 else len(content)
+        new_content = content[:line_start] + new_block + "\n" + content[line_end:]
+    else:
+        # Insertar antes de la seccion EJECUCION
+        exec_marker = '# ─' * 5
+        idx = content.find('\n# EJECUCIÓN')
+        if idx == -1:
+            idx = content.find('\nif __name__')
+        if idx == -1:
+            idx = len(content)
+        new_content = content[:idx] + "\n" + new_block + "\n" + content[idx:]
+
+    with open(ANALIZAR_PATH, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    print(f"  analizar_partido.py actualizado  ({team_local} vs {team_visita}  {competition})")
+
+
 # ── Busqueda de fixture proximo ───────────────────────────────────────────────
 
 def find_upcoming_fixture(local_id, visita_id, next_n=10):
@@ -451,32 +521,43 @@ if __name__ == '__main__':
             print(f"  No se encontro fixture proximo entre los dos equipos.")
             print(f"  Pasa el ID manualmente con: --fixture <id>")
 
+    # ── Odds y escritura de config ────────────────────────────────────────────
+    odds_dict     = {}
+    comp_sugerida = ligas_by_id.get(upcoming_league_id, {}).get('nombre', '???') \
+                    if upcoming_league_id else '???'
+
     if upcoming_fixture_id:
         try:
-            import sys as _sys
             import importlib.util as _ilu
             _spec = _ilu.spec_from_file_location(
-                'fetch_odds',
-                Path(__file__).parent / 'fetch_odds.py'
+                'fetch_odds', Path(__file__).parent / 'fetch_odds.py'
             )
             _fo = _ilu.module_from_spec(_spec)
             _spec.loader.exec_module(_fo)
 
-            odds, resumen = _fo.get_odds(upcoming_fixture_id, force=False)
-            _fo.print_odds_report(odds, resumen, team_local_name, team_visita_name)
-            _fo.print_odds_dict(odds, team_local_name, team_visita_name)
+            odds_dict, resumen = _fo.get_odds(upcoming_fixture_id, force=False)
+            _fo.print_odds_report(odds_dict, resumen, team_local_name, team_visita_name)
         except Exception as e:
             print(f"  Error al obtener odds: {e}")
 
-    # ── Resumen final ─────────────────────────────────────────────────────────
-    comp_sugerida = ligas_by_id.get(upcoming_league_id, {}).get('nombre', '???') \
-                    if upcoming_league_id else '???'
+    # ── Escribir config en analizar_partido.py ────────────────────────────────
     print(f"\n{'='*60}")
-    print(f"  CONFIG PARA analizar_partido.py")
+    print(f"  ACTUALIZANDO analizar_partido.py")
     print(f"{'='*60}")
-    print(f"  TEAM_LOCAL  = '{team_local_name}'")
-    print(f"  TEAM_VISITA = '{team_visita_name}'")
-    print(f"  COMPETITION = '{comp_sugerida}'")
-    if upcoming_fixture_id:
-        print(f"  FIXTURE_ID  = {upcoming_fixture_id}")
-    print(f"\n  Correr: python analizar_partido.py\n")
+
+    # Nombre completo del equipo para los comentarios del ODDS dict
+    local_full  = equipos_by_id2.get(equipos_by_name2.get(team_local_name.lower().strip()), {}).get('nombre', team_local_name)
+    visita_full = equipos_by_id2.get(equipos_by_name2.get(team_visita_name.lower().strip()), {}).get('nombre', team_visita_name)
+
+    write_config_to_analizar(
+        team_local=team_local_name,
+        team_visita=team_visita_name,
+        competition=comp_sugerida,
+        fixture_id=upcoming_fixture_id,
+        odds=odds_dict,
+        team_local_full=local_full,
+        team_visita_full=visita_full,
+    )
+
+    print(f"\n  Listo. Correr:")
+    print(f"    python analizar_partido.py\n")

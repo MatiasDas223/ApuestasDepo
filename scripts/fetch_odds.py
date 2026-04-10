@@ -327,6 +327,88 @@ def print_odds_report(odds, resumen, team_local, team_visita):
     print()
 
 
+def build_odds_dict_str(odds, team_local, team_visita):
+    """
+    Construye el bloque ODDS como string Python listo para escribir en analizar_partido.py.
+    Usa el valor real de la API donde está disponible, None donde no.
+    """
+    def v(key):
+        val = odds.get(key)
+        if val is None:
+            return 'None'
+        return str(val)
+
+    def pair(k_over, k_under):
+        return f"    '{k_over}': {v(k_over)},  '{k_under}': {v(k_under)},"
+
+    L = team_local
+    V = team_visita
+    lines = ["ODDS = {"]
+
+    lines += [
+        "    # 1X2",
+        f"    '1': {v('1')},  'X': {v('X')},  '2': {v('2')},",
+        "",
+        "    # BTTS",
+        f"    'btts_si': {v('btts_si')},  'btts_no': {v('btts_no')},",
+        "",
+        "    # Goles totales",
+    ]
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5]:
+        lines.append(pair(f'g_over_{thr}', f'g_under_{thr}'))
+
+    lines += ["", f"    # Goles {L} (local)"]
+    for thr in [0.5, 1.5, 2.5, 3.5]:
+        lines.append(pair(f'gl_over_{thr}', f'gl_under_{thr}'))
+
+    lines += ["", f"    # Goles {V} (visita)"]
+    for thr in [0.5, 1.5, 2.5, 3.5]:
+        lines.append(pair(f'gv_over_{thr}', f'gv_under_{thr}'))
+
+    lines += ["", "    # Corners totales"]
+    for thr in [7.5, 8.5, 9.5, 10.5, 11.5]:
+        lines.append(pair(f'tc_over_{thr}', f'tc_under_{thr}'))
+
+    lines += ["", f"    # Corners {L} (local)"]
+    for thr in [3.5, 4.5, 5.5, 6.5]:
+        lines.append(pair(f'cl_over_{thr}', f'cl_under_{thr}'))
+
+    lines += ["", f"    # Corners {V} (visita)"]
+    for thr in [2.5, 3.5, 4.5, 5.5]:
+        lines.append(pair(f'cv_over_{thr}', f'cv_under_{thr}'))
+
+    lines += ["", "    # Tiros totales — completar manualmente desde bookie"]
+    for thr in [15.5, 17.5, 19.5, 21.5, 23.5, 25.5, 27.5]:
+        lines.append(pair(f'ts_over_{thr}', f'ts_under_{thr}'))
+
+    lines += ["", f"    # Tiros {L} (local) — completar manualmente"]
+    for thr in [6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5]:
+        lines.append(pair(f'sl_over_{thr}', f'sl_under_{thr}'))
+
+    lines += ["", f"    # Tiros {V} (visita) — completar manualmente"]
+    for thr in [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5]:
+        lines.append(pair(f'sv_over_{thr}', f'sv_under_{thr}'))
+
+    lines += ["", "    # Remates al arco totales"]
+    for thr in [4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5]:
+        lines.append(pair(f'ta_over_{thr}', f'ta_under_{thr}'))
+
+    lines += ["", f"    # Remates al arco {L} (local) — completar manualmente"]
+    for thr in [1.5, 2.5, 3.5, 4.5, 5.5, 6.5]:
+        lines.append(pair(f'sla_over_{thr}', f'sla_under_{thr}'))
+
+    lines += ["", f"    # Remates al arco {V} (visita) — completar manualmente"]
+    for thr in [1.5, 2.5, 3.5, 4.5, 5.5, 6.5]:
+        lines.append(pair(f'sva_over_{thr}', f'sva_under_{thr}'))
+
+    lines += ["", "    # Tarjetas totales"]
+    for thr in [3.5, 4.5, 5.5, 6.5]:
+        lines.append(pair(f'cards_over_{thr}', f'cards_under_{thr}'))
+
+    lines.append("}")
+    return "\n".join(lines)
+
+
 def print_odds_dict(odds, team_local, team_visita):
     """Imprime el dict ODDS listo para pegar en analizar_partido.py."""
     print("\n# ── Pegar en analizar_partido.py ─────────────────────────────")
