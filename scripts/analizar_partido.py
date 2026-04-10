@@ -655,6 +655,79 @@ def print_analisis(team_local, team_visita, competition, params, probs, value_be
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# SEGUIMIENTO DE VALUE BETS
+# ─────────────────────────────────────────────────────────────────────────────
+
+import csv as _csv
+from datetime import datetime as _dt
+from pathlib import Path as _Path
+
+_VB_CSV  = _Path(r'C:\Users\Matt\Apuestas Deportivas\data\apuestas\value_bets.csv')
+_VB_COLS = [
+    'fecha_analisis', 'fixture_id', 'partido', 'competicion',
+    'mercado', 'lado', 'odds', 'modelo_prob', 'implied_prob',
+    'edge', 'ev_pct', 'metodo', 'resultado',
+]
+
+def guardar_value_bets(value_bets, team_local, team_visita, competition,
+                       fixture_id=None, metodo='v2'):
+    """
+    Agrega las value bets detectadas al CSV de seguimiento.
+    Deduplica por (fixture_id, mercado, lado) — correr el analisis varias
+    veces no genera filas duplicadas.
+    La columna 'resultado' queda vacía para completar manualmente: W / L / V
+    """
+    _VB_CSV.parent.mkdir(parents=True, exist_ok=True)
+
+    # Cargar existentes
+    existing, seen = [], set()
+    if _VB_CSV.exists():
+        with open(_VB_CSV, newline='', encoding='utf-8') as f:
+            for r in _csv.DictReader(f):
+                existing.append(r)
+                seen.add((r['fixture_id'], r['mercado'], r['lado']))
+
+    partido = f"{team_local} vs {team_visita}"
+    ahora   = _dt.now().strftime('%Y-%m-%d %H:%M')
+    fid_str = str(fixture_id) if fixture_id else ''
+
+    nuevas = []
+    for vb in value_bets:
+        key = (fid_str, vb['market'], vb['lado'])
+        if key in seen:
+            continue
+        nuevas.append({
+            'fecha_analisis': ahora,
+            'fixture_id':     fid_str,
+            'partido':        partido,
+            'competicion':    competition,
+            'mercado':        vb['market'],
+            'lado':           vb['lado'],
+            'odds':           f"{vb['odds']:.2f}",
+            'modelo_prob':    f"{vb['model_p']:.1%}",
+            'implied_prob':   f"{vb['implied_p']:.1%}",
+            'edge':           f"{vb['edge']:+.1%}",
+            'ev_pct':         f"{vb['EV_%']:+.1f}",
+            'metodo':         metodo,
+            'resultado':      '',
+        })
+        seen.add(key)
+
+    if not nuevas:
+        print(f"\n  [tracking] Sin value bets nuevas (ya registradas o ninguna detectada)")
+        return
+
+    all_rows = existing + nuevas
+    with open(_VB_CSV, 'w', newline='', encoding='utf-8') as f:
+        w = _csv.DictWriter(f, fieldnames=_VB_COLS)
+        w.writeheader()
+        w.writerows(all_rows)
+
+    print(f"\n  [tracking] {len(nuevas)} value bet(s) guardadas -> {_VB_CSV.name}")
+    print(f"  [tracking] Completar columna 'resultado' con:  W (ganada)  L (perdida)  V (void)")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # CONFIGURACIÓN DEL PARTIDO  [AUTO — generado por preparar_partido.py]
 # ─────────────────────────────────────────────────────────────────────────────
 # ── BEGIN PARTIDO CONFIG ─
@@ -713,54 +786,55 @@ ODDS = {
     'ts_over_15.5': None,  'ts_under_15.5': None,
     'ts_over_17.5': None,  'ts_under_17.5': None,
     'ts_over_19.5': None,  'ts_under_19.5': None,
+    'ts_over_20.5': 1.25,  'ts_under_20.5': 3.75,
     'ts_over_21.5': None,  'ts_under_21.5': None,
-    'ts_over_23.5': None,  'ts_under_23.5': None,
-    'ts_over_25.5': None,  'ts_under_25.5': None,
-    'ts_over_27.5': None,  'ts_under_27.5': None,
+    'ts_over_22.5': 1.53,  'ts_under_22.5': 2.37,
+    'ts_over_26.5': 2.75,  'ts_under_26.5': 1.40,
+    'ts_over_28.5': 4.33,  'ts_under_28.5': 1.20,
 
     # Tiros Belgrano Cordoba (local) — completar manualmente
     'sl_over_6.5': None,  'sl_under_6.5': None,
     'sl_over_7.5': None,  'sl_under_7.5': None,
     'sl_over_8.5': None,  'sl_under_8.5': None,
     'sl_over_9.5': None,  'sl_under_9.5': None,
-    'sl_over_10.5': None,  'sl_under_10.5': None,
-    'sl_over_11.5': None,  'sl_under_11.5': None,
-    'sl_over_12.5': None,  'sl_under_12.5': None,
-    'sl_over_13.5': None,  'sl_under_13.5': None,
+    'sl_over_10.5': 1.25,  'sl_under_10.5': 3.75,
+    'sl_over_11.5': 1.36,  'sl_under_11.5': 3.00,
+    'sl_over_12.5': 1.53,  'sl_under_12.5': 2.37,
+    'sl_over_13.5': 1.80,  'sl_under_13.5': 1.90,
 
     # Tiros Aldosivi (visita) — completar manualmente
     'sv_over_5.5': None,  'sv_under_5.5': None,
     'sv_over_6.5': None,  'sv_under_6.5': None,
-    'sv_over_7.5': None,  'sv_under_7.5': None,
-    'sv_over_8.5': None,  'sv_under_8.5': None,
-    'sv_over_9.5': None,  'sv_under_9.5': None,
-    'sv_over_10.5': None,  'sv_under_10.5': None,
-    'sv_over_11.5': None,  'sv_under_11.5': None,
-    'sv_over_12.5': None,  'sv_under_12.5': None,
+    'sv_over_7.5': 1.28,  'sv_under_7.5': 3.50,
+    'sv_over_8.5': 1.44,  'sv_under_8.5': 2.62,
+    'sv_over_9.5': 1.72,  'sv_under_9.5': 2.00,
+    'sv_over_10.5': 2.10,  'sv_under_10.5': 1.66,
+    'sv_over_11.5': 2.62,  'sv_under_11.5': 1.44,
+    'sv_over_12.5': 3.50,  'sv_under_12.5': 1.28,
 
     # Remates al arco totales
     'ta_over_4.5': None,  'ta_under_4.5': None,
-    'ta_over_5.5': None,  'ta_under_5.5': None,
-    'ta_over_6.5': None,  'ta_under_6.5': None,
-    'ta_over_7.5': 2.0,  'ta_under_7.5': 1.73,
-    'ta_over_8.5': None,  'ta_under_8.5': None,
-    'ta_over_9.5': None,  'ta_under_9.5': None,
+    'ta_over_5.5': 1.33,  'ta_under_5.5': 3.25,
+    'ta_over_6.5': 1.66,  'ta_under_6.5': 2.10,
+    'ta_over_7.5': 2.2,  'ta_under_7.5': 1.61,
+    'ta_over_8.5': 3.25,  'ta_under_8.5': 1.61,
+    'ta_over_9.5': 4.5,  'ta_under_9.5': 1.33,
     'ta_over_10.5': None,  'ta_under_10.5': None,
     'ta_over_11.5': None,  'ta_under_11.5': None,
 
     # Remates al arco Belgrano Cordoba (local) — completar manualmente
     'sla_over_1.5': None,  'sla_under_1.5': None,
-    'sla_over_2.5': None,  'sla_under_2.5': None,
-    'sla_over_3.5': None,  'sla_under_3.5': None,
-    'sla_over_4.5': None,  'sla_under_4.5': None,
-    'sla_over_5.5': None,  'sla_under_5.5': None,
+    'sla_over_2.5': 1.22,  'sla_under_2.5': 4.00,
+    'sla_over_3.5': 1.53,  'sla_under_3.5': 2.37,
+    'sla_over_4.5': 2.10,  'sla_under_4.5': 1.66,
+    'sla_over_5.5': 3.25,  'sla_under_5.5': 1.33,
     'sla_over_6.5': None,  'sla_under_6.5': None,
 
     # Remates al arco Aldosivi (visita) — completar manualmente
-    'sva_over_1.5': None,  'sva_under_1.5': None,
-    'sva_over_2.5': None,  'sva_under_2.5': None,
-    'sva_over_3.5': None,  'sva_under_3.5': None,
-    'sva_over_4.5': None,  'sva_under_4.5': None,
+    'sva_over_1.5': 1.30,  'sva_under_1.5': 3.40,
+    'sva_over_2.5': 1.83,  'sva_under_2.5': 1.83,
+    'sva_over_3.5': 3.00,  'sva_under_3.5': 1.36,
+    'sva_over_4.5': 5.00,  'sva_under_4.5': 1.14,
     'sva_over_5.5': None,  'sva_under_5.5': None,
     'sva_over_6.5': None,  'sva_under_6.5': None,
 
@@ -798,6 +872,7 @@ if __name__ == '__main__':
     probs = compute_all_probs(sim)
     vb    = analizar_value_bets(probs, ODDS, TEAM_LOCAL, TEAM_VISITA)
     print_analisis(TEAM_LOCAL, TEAM_VISITA, COMPETITION, params, probs, vb)
+    guardar_value_bets(vb, TEAM_LOCAL, TEAM_VISITA, COMPETITION, FIXTURE_ID)
 
     # ─────────────────────────────────────────────────────────────────────────
     # APUESTAS COMBINADAS — editá esta sección con tus selecciones
