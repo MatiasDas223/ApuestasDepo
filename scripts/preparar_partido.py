@@ -1,0 +1,388 @@
+"""
+Prepara los datos para analizar un partido.
+
+Uso:
+    python preparar_partido.py "Boca Juniors" "Independiente"
+    python preparar_partido.py "Real Madrid" "Barcelona" --liga "La Liga"
+
+Para cada equipo:
+  - Si no esta en la DB lo busca en la API y lo registra.
+  - Descarga solo los partidos nuevos (los que ya estan en el CSV se saltean).
+  - Agrega las filas al CSV historico.
+
+Al terminar muestra cuantos partidos tiene cada equipo en el historico.
+"""
+
+import csv
+import json
+import sys
+import time
+import urllib.request
+import urllib.parse
+from pathlib import Path
+
+# ── Paths ─────────────────────────────────────────────────────────────────────
+BASE         = Path(r'C:\Users\Matt\Apuestas Deportivas')
+CSV_PATH     = BASE / 'data/historico/partidos_historicos.csv'
+EQUIPOS_PATH = BASE / 'data/db/equipos.csv'
+LIGAS_PATH   = BASE / 'data/db/ligas.csv'
+
+API_KEY  = '5a7d5d038454c3640c8771ce2274c18c'
+BASE_URL = 'https://v3.football.api-sports.io'
+LAST_N   = 20   # ultimos partidos a traer por equipo
+
+CSV_FIELDS = [
+    'fixture_id', 'fecha', 'liga_id',
+    'equipo_local_id', 'equipo_visitante_id',
+    'goles_local', 'goles_visitante',
+    'tiros_local', 'tiros_visitante',
+    'tiros_arco_local', 'tiros_arco_visitante',
+    'corners_local', 'corners_visitante',
+    'posesion_local', 'posesion_visitante',
+    'tarjetas_local', 'tarjetas_visitante',
+]
+
+# ── API ───────────────────────────────────────────────────────────────────────
+
+def api_get(endpoint, params=None):
+    url = f"{BASE_URL}/{endpoint}"
+    if params:
+        url += '?' + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={'x-apisports-key': API_KEY})
+    with urllib.request.urlopen(req, timeout=15) as r:
+        data = json.loads(r.read())
+    if data.get('errors'):
+        raise RuntimeError(f"API error en /{endpoint}: {data['errors']}")
+    return data.get('response', [])
+
+
+def stat_value(stats_list, stat_type):
+    for s in stats_list:
+        if s['type'] == stat_type:
+            v = s['value']
+            if v is None:
+                return 0
+            if isinstance(v, str) and v.endswith('%'):
+                return int(v.rstrip('%'))
+            return int(v)
+    return 0
+
+# ── DB helpers ────────────────────────────────────────────────────────────────
+
+def load_equipos():
+    """Devuelve {id: row_dict} y {nombre_lower: id}."""
+    by_id, by_name = {}, {}
+    with open(EQUIPOS_PATH, newline='', encoding='utf-8') as f:
+        for r in csv.DictReader(f):
+            tid = int(r['id'])
+            by_id[tid]              = r
+            by_name[r['nombre'].lower()] = tid
+    return by_id, by_name
+
+
+def load_ligas():
+    """Devuelve {id: row_dict} y {nombre_lower: id}."""
+    by_id, by_name = {}, {}
+    with open(LIGAS_PATH, newline='', encoding='utf-8') as f:
+        for r in csv.DictReader(f):
+            lid = int(r['id'])
+            by_id[lid]              = r
+            by_name[r['nombre'].lower()] = lid
+    return by_id, by_name
+
+
+def save_equipos(by_id):
+    rows = sorted(by_id.values(), key=lambda r: int(r['id']))
+    with open(EQUIPOS_PATH, 'w', newline='', encoding='utf-8') as f:
+        w = csv.DictWriter(f, fieldnames=['id','nombre','pais','liga_id_principal'])
+        w.writeheader(); w.writerows(rows)
+
+
+def save_ligas(by_id):
+    rows = sorted(by_id.values(), key=lambda r: int(r['id']))
+    with open(LIGAS_PATH, 'w', newline='', encoding='utf-8') as f:
+        w = csv.DictWriter(f, fieldnames=['id','nombre','pais'])
+        w.writeheader(); w.writerows(rows)
+
+
+def load_csv_fixture_ids():
+    """Devuelve set de fixture_ids ya en el CSV."""
+    if not CSV_PATH.exists():
+        return set()
+    with open(CSV_PATH, newline='', encoding='utf-8') as f:
+        return {int(r['fixture_id']) for r in csv.DictReader(f) if int(r['fixture_id']) > 0}
+
+
+def append_to_csv(new_rows):
+    """Agrega filas nuevas al CSV y reordena por fecha."""
+    existing = []
+    if CSV_PATH.exists():
+        with open(CSV_PATH, newline='', encoding='utf-8') as f:
+            existing = list(csv.DictReader(f))
+    all_rows = existing + new_rows
+    all_rows.sort(key=lambda r: (r['fecha'], int(r.get('fixture_id', 0))))
+    with open(CSV_PATH, 'w', newline='', encoding='utf-8') as f:
+        w = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+        w.writeheader(); w.writerows(all_rows)
+    return len(all_rows)
+
+# ── Busqueda y registro de equipos ────────────────────────────────────────────
+
+def find_or_register_team(name, equipos_by_id, equipos_by_name, ligas_by_id):
+    """
+    Busca el equipo en la DB local. Si no esta, lo busca en la API,
+    lo muestra al usuario y lo registra.
+    Devuelve (team_id, allowed_league_ids).
+    """
+    key = name.lower().strip()
+
+    # Busqueda exacta en DB
+    if key in equipos_by_name:
+        tid  = equipos_by_name[key]
+        row  = equipos_by_id[tid]
+        liga = int(row['liga_id_principal'])
+        print(f"  [{name}] encontrado en DB  id={tid}  liga_principal={ligas_by_id.get(liga, {}).get('nombre', liga)}")
+        return tid, _leagues_for_team(tid, liga)
+
+    # Busqueda parcial en DB (contiene el nombre)
+    matches = [(k, v) for k, v in equipos_by_name.items() if key in k or k in key]
+    if len(matches) == 1:
+        tid  = matches[0][1]
+        row  = equipos_by_id[tid]
+        liga = int(row['liga_id_principal'])
+        print(f"  [{name}] -> '{row['nombre']}' en DB  id={tid}")
+        return tid, _leagues_for_team(tid, liga)
+
+    # No esta en DB: buscar en API
+    print(f"  [{name}] no encontrado en DB, buscando en API...")
+    results = api_get('teams', {'search': name})
+    time.sleep(0.3)
+
+    if not results:
+        raise ValueError(f"Equipo '{name}' no encontrado en la API. Verificar el nombre.")
+
+    # Mostrar opciones si hay varias
+    if len(results) > 1:
+        print(f"  Multiples resultados para '{name}':")
+        for i, r in enumerate(results[:5]):
+            t = r['team']
+            print(f"    [{i}] id={t['id']}  {t['name']}  ({t['country']})")
+        choice = input(f"  Elegir numero [0]: ").strip()
+        idx = int(choice) if choice.isdigit() else 0
+    else:
+        idx = 0
+
+    chosen = results[idx]
+    t = chosen['team']
+    tid  = t['id']
+    tname = t['name']
+    tpais = t['country']
+
+    # Detectar liga principal del equipo
+    seasons = api_get('teams/seasons', {'team': tid})
+    time.sleep(0.3)
+    # Buscar en que ligas juega este season
+    season = max(seasons) if seasons else 2025
+    leagues_resp = api_get('leagues', {'team': tid, 'season': season, 'current': 'true'})
+    time.sleep(0.3)
+
+    liga_principal = 0
+    allowed = []
+    for lr in leagues_resp:
+        lid = lr['league']['id']
+        lname = lr['league']['name']
+        lpais = lr['league']['country']
+        allowed.append(lid)
+        if liga_principal == 0:
+            liga_principal = lid
+        # Registrar liga si no existe
+        if lid not in ligas_by_id:
+            ligas_by_id[lid] = {'id': lid, 'nombre': lname, 'pais': lpais}
+            save_ligas(ligas_by_id)
+            print(f"  [DB] Liga nueva registrada: {lid}  {lname}")
+
+    # Registrar equipo
+    equipos_by_id[tid] = {'id': tid, 'nombre': tname, 'pais': tpais,
+                          'liga_id_principal': liga_principal}
+    equipos_by_name[tname.lower()] = tid
+    save_equipos(equipos_by_id)
+    print(f"  [DB] Equipo nuevo registrado: id={tid}  {tname}  ({tpais})  liga={liga_principal}")
+
+    return tid, allowed if allowed else [liga_principal]
+
+
+def _leagues_for_team(team_id, liga_principal):
+    """Devuelve la lista de ligas relevantes para el equipo según su liga principal."""
+    # Ligas principales + copas asociadas
+    LIGA_EXTRAS = {
+        128: [128, 130, 13],    # Liga Profesional + Copa Arg + Libertadores
+        140: [140, 848, 2],     # La Liga + Copa del Rey + Champions
+        39:  [39, 45, 2],       # Premier League + FA Cup + Champions
+        61:  [61, 65, 2],       # Ligue 1 + Coupe de France + Champions
+        78:  [78, 81, 2],       # Bundesliga + DFB Pokal + Champions
+        135: [135, 136, 2],     # Serie A + Coppa Italia + Champions
+    }
+    return LIGA_EXTRAS.get(liga_principal, [liga_principal])
+
+# ── Fetch de partidos ─────────────────────────────────────────────────────────
+
+def fetch_new_matches(team_id, team_name, allowed_leagues,
+                      existing_fixture_ids, equipos_by_id, ligas_by_id):
+    """
+    Descarga los ultimos LAST_N partidos del equipo.
+    Agrega solo los que no estan en el CSV (deduplicacion por fixture_id).
+    Devuelve lista de filas nuevas.
+    """
+    fixtures = api_get('fixtures', {'team': team_id, 'last': LAST_N})
+    time.sleep(0.3)
+
+    new_rows = []
+
+    for fix in fixtures:
+        league_id  = fix['league']['id']
+        status     = fix['fixture']['status']['short']
+        fixture_id = fix['fixture']['id']
+
+        if status not in ('FT', 'AET', 'PEN'):
+            continue
+        if league_id not in allowed_leagues:
+            continue
+        if fixture_id in existing_fixture_ids:
+            h = equipos_by_id.get(fix['teams']['home']['id'], {}).get('nombre', '?')
+            a = equipos_by_id.get(fix['teams']['away']['id'], {}).get('nombre', '?')
+            print(f"    [skip] fixture={fixture_id}  {h} vs {a}  (ya en CSV)")
+            continue
+
+        date_str     = fix['fixture']['date'][:10]
+        home_api_id  = fix['teams']['home']['id']
+        away_api_id  = fix['teams']['away']['id']
+        home_api_name = fix['teams']['home']['name']
+        away_api_name = fix['teams']['away']['name']
+
+        # Registrar rivales desconocidos en DB
+        for api_id, api_name in [(home_api_id, home_api_name), (away_api_id, away_api_name)]:
+            if api_id not in equipos_by_id:
+                equipos_by_id[api_id] = {'id': api_id, 'nombre': api_name,
+                                          'pais': '?', 'liga_id_principal': league_id}
+                save_equipos(equipos_by_id)
+                print(f"    [DB] Rival nuevo: id={api_id}  {api_name}")
+
+        h_name = equipos_by_id[home_api_id]['nombre']
+        a_name = equipos_by_id[away_api_id]['nombre']
+        print(f"    Descargando  fixture={fixture_id}  {date_str}  {h_name} vs {a_name}...", end='')
+        time.sleep(0.3)
+
+        try:
+            stats = api_get('fixtures/statistics', {'fixture': fixture_id})
+        except Exception as e:
+            print(f"  ERROR stats: {e}")
+            continue
+
+        if len(stats) < 2:
+            print(f"  sin estadisticas")
+            continue
+
+        s_home = next((s['statistics'] for s in stats if s['team']['id'] == home_api_id), [])
+        s_away = next((s['statistics'] for s in stats if s['team']['id'] != home_api_id), [])
+
+        pl = stat_value(s_home, 'Ball Possession')
+        pv = stat_value(s_away, 'Ball Possession')
+        if pl > 0 and pv == 0: pv = 100 - pl
+        if pv > 0 and pl == 0: pl = 100 - pv
+
+        row = {
+            'fixture_id':           fixture_id,
+            'fecha':                date_str,
+            'liga_id':              league_id,
+            'equipo_local_id':      home_api_id,
+            'equipo_visitante_id':  away_api_id,
+            'goles_local':          fix['goals']['home'] or 0,
+            'goles_visitante':      fix['goals']['away'] or 0,
+            'tiros_local':          stat_value(s_home, 'Total Shots'),
+            'tiros_visitante':      stat_value(s_away, 'Total Shots'),
+            'tiros_arco_local':     stat_value(s_home, 'Shots on Goal'),
+            'tiros_arco_visitante': stat_value(s_away, 'Shots on Goal'),
+            'corners_local':        stat_value(s_home, 'Corner Kicks'),
+            'corners_visitante':    stat_value(s_away, 'Corner Kicks'),
+            'posesion_local':       pl,
+            'posesion_visitante':   pv,
+            'tarjetas_local':       stat_value(s_home, 'Yellow Cards') + stat_value(s_home, 'Red Cards'),
+            'tarjetas_visitante':   stat_value(s_away, 'Yellow Cards') + stat_value(s_away, 'Red Cards'),
+        }
+
+        gl, gv = row['goles_local'], row['goles_visitante']
+        print(f"  OK  {gl}-{gv}  tiros {row['tiros_local']}/{row['tiros_visitante']}  "
+              f"arco {row['tiros_arco_local']}/{row['tiros_arco_visitante']}  "
+              f"corners {row['corners_local']}/{row['corners_visitante']}  pos {pl}%")
+
+        new_rows.append(row)
+        existing_fixture_ids.add(fixture_id)
+
+    return new_rows
+
+# ── Resumen historico ─────────────────────────────────────────────────────────
+
+def resumen_equipo(team_id, team_name, ligas_by_id):
+    rows = list(csv.DictReader(open(CSV_PATH, encoding='utf-8')))
+    partidos = [r for r in rows
+                if int(r['equipo_local_id']) == team_id
+                or int(r['equipo_visitante_id']) == team_id]
+    partidos.sort(key=lambda r: r['fecha'])
+    n = len(partidos)
+    ultimo = partidos[-1]['fecha'] if partidos else '-'
+    primero = partidos[0]['fecha'] if partidos else '-'
+    print(f"  {team_name:<25}  {n:>2} partidos en CSV  ({primero} -> {ultimo})")
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+
+if __name__ == '__main__':
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    if len(args) < 2:
+        print("Uso: python preparar_partido.py \"Equipo Local\" \"Equipo Visitante\"")
+        sys.exit(1)
+
+    team_local_name  = args[0]
+    team_visita_name = args[1]
+
+    print(f"\n{'='*60}")
+    print(f"  Preparando: {team_local_name} vs {team_visita_name}")
+    print(f"{'='*60}\n")
+
+    equipos_by_id, equipos_by_name = load_equipos()
+    ligas_by_id, _                 = load_ligas()
+    existing_fixture_ids           = load_csv_fixture_ids()
+
+    print(f"CSV actual: {len(existing_fixture_ids)} fixtures registrados\n")
+
+    all_new = []
+
+    for team_name in [team_local_name, team_visita_name]:
+        print(f"[{team_name}]")
+        team_id, allowed = find_or_register_team(
+            team_name, equipos_by_id, equipos_by_name, ligas_by_id
+        )
+        new = fetch_new_matches(
+            team_id, team_name, allowed,
+            existing_fixture_ids, equipos_by_id, ligas_by_id
+        )
+        print(f"  -> {len(new)} partidos nuevos agregados\n")
+        all_new.extend(new)
+
+    if all_new:
+        total = append_to_csv(all_new)
+        print(f"CSV actualizado: {total} filas totales ({len(all_new)} nuevas)\n")
+    else:
+        print("No hay partidos nuevos. El CSV ya esta al dia.\n")
+
+    print("Historico disponible:")
+    for name in [team_local_name, team_visita_name]:
+        _, names = load_equipos()
+        tid = names.get(name.lower().strip())
+        if tid:
+            resumen_equipo(tid, name, ligas_by_id)
+
+    print(f"\nListo. Ahora podes editar analizar_partido.py con:")
+    print(f"  TEAM_LOCAL  = '{team_local_name}'")
+    print(f"  TEAM_VISITA = '{team_visita_name}'")
+    print(f"  COMPETITION = '...'")
+    print(f"  y correr: python analizar_partido.py\n")
