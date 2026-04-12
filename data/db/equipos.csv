@@ -3,6 +3,7 @@ id,nombre,pais,liga_id_principal
 47,Tottenham,England,39
 327,Bodo/Glimt,?,2
 400,FC Copenhagen,?,2
+434,Gimnasia L.P.,?,128
 435,River Plate,Argentina,128
 436,Racing Club,Argentina,128
 437,Rosario Central,Argentina,128
@@ -63,11 +64,18 @@ id,nombre,pais,liga_id_principal
 1064,Platense,Argentina,128
 1065,Central Cordoba,Argentina,128
 1066,Gimnasia Mendoza,Argentina,128
+1128,Independiente Medellin,?,13
 1929,Deportivo Madryn,Argentina,130
 1931,Sportivo Barracas,Argentina,130
+1935,San Martin Formosa,?,130
+1948,Atlanta,?,130
+1954,Deportivo Maipu,?,130
 2422,Real Pilar,Argentina,130
 2424,Estudiantes RC,Argentina,128
 2432,Barracas Central,Argentina,128
 2994,Universidad Catolica,Chile,13
+8379,San Miguel,?,130
+8386,Ituzaingó,?,130
+16612,Ciudad de Bolívar,?,130
 21043,Sportivo Atenas,Argentina,130
 25758,Gimnasia Chivilcoy,Argentina,130

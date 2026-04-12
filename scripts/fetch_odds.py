@@ -1,6 +1,7 @@
 """
-Descarga las odds de Bet365 (o cualquier bookmaker) desde API Football
-para un fixture dado y las mapea al formato interno de analizar_partido.py.
+Descarga las odds de Bet365 desde dos fuentes:
+  1. API Football (v3.football.api-sports.io) — goles, BTTS, 1X2
+  2. odds-api.io — corners por equipo, tiros, tiros al arco, tarjetas
 
 Uso standalone:
     python fetch_odds.py 1492015           # fixture_id
@@ -12,18 +13,51 @@ Uso como modulo:
 """
 
 import json
+import re
 import sys
 import time
 import urllib.request
 import urllib.parse
 from pathlib import Path
 
+# ── API Football ──────────────────────────────────────────────────────────────
 API_KEY    = '5a7d5d038454c3640c8771ce2274c18c'
 BASE_URL   = 'https://v3.football.api-sports.io'
 ODDS_DIR   = Path(r'C:\Users\Matt\Apuestas Deportivas\data\odds')
 BK_DEFAULT = 8   # Bet365
 
 ODDS_DIR.mkdir(parents=True, exist_ok=True)
+
+# ── odds-api.io ───────────────────────────────────────────────────────────────
+ODDSAPI_KEY  = '042f6b8774e4a4e05fea98b9f997de3a27a33656db6d901e73ae5949e8723a34'
+ODDSAPI_BASE = 'https://api.odds-api.io/v3'
+ODDSAPI_DIR  = ODDS_DIR / 'oddsapi'
+ODDSAPI_DIR.mkdir(parents=True, exist_ok=True)
+
+# Mercados de odds-api.io -> (prefix_over, prefix_under) en nuestro formato
+_ODDSAPI_MARKET_MAP = {
+    # Corners (Alternative da multiples lineas — tiene prioridad)
+    'Alternative Corners':          ('tc_over', 'tc_under'),
+    'Corners Totals':               ('tc_over', 'tc_under'),
+    'Team Corners Home':            ('cl_over', 'cl_under'),
+    'Team Corners Away':            ('cv_over', 'cv_under'),
+    # Tiros
+    'Match Shots':                  ('ts_over', 'ts_under'),
+    'Team Shots Home':              ('sl_over', 'sl_under'),
+    'Team Shots Away':              ('sv_over', 'sv_under'),
+    # Tiros al arco
+    'Match Shots on Target':        ('ta_over', 'ta_under'),
+    'Team Shots on Target Home':    ('sla_over', 'sla_under'),
+    'Team Shots on Target Away':    ('sva_over', 'sva_under'),
+    # Tarjetas
+    'Bookings Totals':              ('cards_over', 'cards_under'),
+    'Number of Cards In Match':     ('cards_over', 'cards_under'),
+    # Goles (complemento a API Football)
+    'Alternative Match Goals':      ('g_over', 'g_under'),
+    'Match Totals':                 ('g_over', 'g_under'),
+    'Team Totals Home':             ('gl_over', 'gl_under'),
+    'Team Totals Away':             ('gv_over', 'gv_under'),
+}
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Helpers
@@ -57,7 +91,177 @@ def is_over(value_str):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Mapeo de mercados API → claves internas
+# odds-api.io helpers
+# ─────────────────────────────────────────────────────────────────────────────
+
+def oddsapi_get(endpoint, params=None):
+    """GET a odds-api.io. Agrega apiKey automaticamente."""
+    p = dict(params or {})
+    p['apiKey'] = ODDSAPI_KEY
+    url = f"{ODDSAPI_BASE}/{endpoint}?" + urllib.parse.urlencode(p)
+    req = urllib.request.Request(url)
+    with urllib.request.urlopen(req, timeout=15) as r:
+        return json.loads(r.read())
+
+
+def _norm_team(s):
+    """Normaliza nombre de equipo para comparacion fuzzy."""
+    s = s.lower()
+    s = re.sub(r'\s*\([a-z]+\)\s*$', '', s)          # quita " (ARG)" etc.
+    for pfx in ['ca ', 'club atletico ', 'club ', 'atletico ']:
+        if s.startswith(pfx):
+            s = s[len(pfx):]
+            break
+    return s.strip()
+
+
+def find_event_oddsapi(team_local, team_visita,
+                       league_slug='argentina-liga-profesional'):
+    """
+    Busca el evento en odds-api.io para el partido dado.
+    Retorna (event_id, home_api_name, away_api_name) o (None, None, None).
+    """
+    try:
+        resp = oddsapi_get('events', {
+            'sport': 'football',
+            'league': league_slug,
+            'status': 'pending',
+        })
+        time.sleep(0.3)
+    except Exception as e:
+        print(f"  [oddsapi] Error buscando eventos: {e}")
+        return None, None, None
+
+    # La respuesta puede venir directamente como lista o en 'data'
+    if isinstance(resp, dict):
+        resp = resp.get('data', [])
+    if not isinstance(resp, list):
+        resp = []
+
+    ln = _norm_team(team_local)
+    vn = _norm_team(team_visita)
+
+    best_local  = None
+    best_visita = None
+
+    for ev in resp:
+        h  = ev.get('home', '')
+        a  = ev.get('away', '')
+        hn = _norm_team(h)
+        an = _norm_team(a)
+
+        local_match  = ln in hn or hn in ln
+        visita_match = vn in an or an in vn
+
+        if local_match and visita_match:
+            return ev['id'], h, a
+
+    # Fallback: mostrar opciones disponibles
+    print(f"  [oddsapi] No se encontro evento {team_local} vs {team_visita}")
+    print(f"  [oddsapi] Eventos disponibles en {league_slug}:")
+    for ev in resp[:15]:
+        print(f"    id={ev.get('id')}  {ev.get('home')} vs {ev.get('away')}  {ev.get('date','')[:10]}")
+    return None, None, None
+
+
+def get_odds_oddsapi(event_id, force=False):
+    """
+    Descarga y parsea odds de odds-api.io para un evento.
+    Cachea en data/odds/oddsapi/{event_id}.json.
+    Retorna (odds_dict, resumen_dict).
+    """
+    cache_path = ODDSAPI_DIR / f"{event_id}.json"
+
+    if cache_path.exists() and not force:
+        with open(cache_path, encoding='utf-8') as f:
+            cached = json.load(f)
+        return cached['odds'], cached['resumen']
+
+    print(f"  [oddsapi] Descargando odds event={event_id}...")
+    try:
+        resp = oddsapi_get('odds', {'eventId': event_id, 'bookmakers': 'Bet365'})
+        time.sleep(0.3)
+    except Exception as e:
+        print(f"  [oddsapi] Error: {e}")
+        return {}, {}
+
+    # resp puede ser dict del evento o lista
+    if isinstance(resp, list):
+        event_data = resp[0] if resp else {}
+    else:
+        event_data = resp
+
+    bet365_markets = event_data.get('bookmakers', {}).get('Bet365', [])
+    if not bet365_markets:
+        print(f"  [oddsapi] Sin odds Bet365 para event={event_id}")
+        return {}, {}
+
+    odds    = {}
+    mapeados = []
+    seen     = set()   # prefixes ya procesados (para el resumen)
+
+    # Procesar primero Alternative Corners (tiene mas lineas que Corners Totals)
+    def _priority(m):
+        name = m.get('name', '')
+        return 0 if name.startswith('Alternative') else 1
+
+    for market in sorted(bet365_markets, key=_priority):
+        name = market.get('name', '')
+        if name not in _ODDSAPI_MARKET_MAP:
+            continue
+
+        over_pfx, under_pfx = _ODDSAPI_MARKET_MAP[name]
+        added = 0
+
+        for entry in market.get('odds', []):
+            hdp = entry.get('hdp')
+            if hdp is None:
+                continue
+            hdp = float(hdp)
+
+            # Mercados de linea entera (ej. "Over 8 corners") se convierten a half-point:
+            # "Over N"  (integer) → win: corners ≥ N+1 ≡ tc_over_{N+0.5}
+            # "Under N" (integer) → win: corners ≤ N-1 ≡ tc_under_{N-0.5}
+            # Esto garantiza que Over/Under se emparejen al mismo threshold en check2
+            # (tc_over_8.5 de "Over 8" + tc_under_8.5 de "Under 9" son complementarios)
+            if hdp == int(hdp):
+                # linea entera
+                over_hdp  = hdp + 0.5
+                under_hdp = hdp - 0.5
+            else:
+                # linea de medio punto — ya tiene el formato correcto
+                over_hdp  = hdp
+                under_hdp = hdp
+
+            ok = f'{over_pfx}_{over_hdp}'
+            uk = f'{under_pfx}_{under_hdp}'
+
+            if under_hdp < 0:
+                # Evitar claves con threshold negativo
+                uk = None
+
+            if entry.get('over') is not None and ok not in odds:
+                odds[ok] = float(entry['over'])
+                added += 1
+            if uk and entry.get('under') is not None and uk not in odds:
+                odds[uk] = float(entry['under'])
+                added += 1
+
+        if added > 0 and over_pfx not in seen:
+            seen.add(over_pfx)
+            mapeados.append(f'{name} ({added // 2} lineas)')
+
+    resumen = {'mapeados': mapeados, 'no_disponibles': [], 'parciales': []}
+
+    # Guardar cache
+    with open(cache_path, 'w', encoding='utf-8') as f:
+        json.dump({'event_id': event_id, 'odds': odds, 'resumen': resumen}, f, indent=2)
+
+    return odds, resumen
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Mapeo de mercados API Football → claves internas
 # ─────────────────────────────────────────────────────────────────────────────
 
 def parse_bets(bets_list):
@@ -366,43 +570,43 @@ def build_odds_dict_str(odds, team_local, team_visita):
         lines.append(pair(f'gv_over_{thr}', f'gv_under_{thr}'))
 
     lines += ["", "    # Corners totales"]
-    for thr in [7.5, 8.5, 9.5, 10.5, 11.5]:
+    for thr in [3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5]:
         lines.append(pair(f'tc_over_{thr}', f'tc_under_{thr}'))
 
     lines += ["", f"    # Corners {L} (local)"]
-    for thr in [3.5, 4.5, 5.5, 6.5]:
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5]:
         lines.append(pair(f'cl_over_{thr}', f'cl_under_{thr}'))
 
     lines += ["", f"    # Corners {V} (visita)"]
-    for thr in [2.5, 3.5, 4.5, 5.5]:
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5]:
         lines.append(pair(f'cv_over_{thr}', f'cv_under_{thr}'))
 
-    lines += ["", "    # Tiros totales — completar manualmente desde bookie"]
-    for thr in [15.5, 17.5, 19.5, 21.5, 23.5, 25.5, 27.5]:
+    lines += ["", "    # Tiros totales"]
+    for thr in [13.5, 15.5, 17.5, 19.5, 21.5, 23.5, 25.5, 27.5, 29.5]:
         lines.append(pair(f'ts_over_{thr}', f'ts_under_{thr}'))
 
-    lines += ["", f"    # Tiros {L} (local) — completar manualmente"]
-    for thr in [6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5]:
+    lines += ["", f"    # Tiros {L} (local)"]
+    for thr in [4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5]:
         lines.append(pair(f'sl_over_{thr}', f'sl_under_{thr}'))
 
-    lines += ["", f"    # Tiros {V} (visita) — completar manualmente"]
-    for thr in [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5]:
+    lines += ["", f"    # Tiros {V} (visita)"]
+    for thr in [4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5]:
         lines.append(pair(f'sv_over_{thr}', f'sv_under_{thr}'))
 
     lines += ["", "    # Remates al arco totales"]
-    for thr in [4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5]:
+    for thr in [3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5]:
         lines.append(pair(f'ta_over_{thr}', f'ta_under_{thr}'))
 
-    lines += ["", f"    # Remates al arco {L} (local) — completar manualmente"]
-    for thr in [1.5, 2.5, 3.5, 4.5, 5.5, 6.5]:
+    lines += ["", f"    # Remates al arco {L} (local)"]
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5]:
         lines.append(pair(f'sla_over_{thr}', f'sla_under_{thr}'))
 
-    lines += ["", f"    # Remates al arco {V} (visita) — completar manualmente"]
-    for thr in [1.5, 2.5, 3.5, 4.5, 5.5, 6.5]:
+    lines += ["", f"    # Remates al arco {V} (visita)"]
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5]:
         lines.append(pair(f'sva_over_{thr}', f'sva_under_{thr}'))
 
     lines += ["", "    # Tarjetas totales"]
-    for thr in [3.5, 4.5, 5.5, 6.5]:
+    for thr in [3.5, 4.5, 5.5, 6.5, 7.5]:
         lines.append(pair(f'cards_over_{thr}', f'cards_under_{thr}'))
 
     lines.append("}")

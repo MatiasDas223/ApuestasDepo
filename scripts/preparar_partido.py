@@ -526,19 +526,46 @@ if __name__ == '__main__':
     comp_sugerida = ligas_by_id.get(upcoming_league_id, {}).get('nombre', '???') \
                     if upcoming_league_id else '???'
 
-    if upcoming_fixture_id:
-        try:
-            import importlib.util as _ilu
-            _spec = _ilu.spec_from_file_location(
-                'fetch_odds', Path(__file__).parent / 'fetch_odds.py'
-            )
-            _fo = _ilu.module_from_spec(_spec)
-            _spec.loader.exec_module(_fo)
+    # Cargar fetch_odds una sola vez
+    import importlib.util as _ilu
+    _spec = _ilu.spec_from_file_location(
+        'fetch_odds', Path(__file__).parent / 'fetch_odds.py'
+    )
+    _fo = _ilu.module_from_spec(_spec)
+    _spec.loader.exec_module(_fo)
 
+    if upcoming_fixture_id:
+        # Fuente 1: API Football (goles, BTTS, 1X2, handicaps)
+        try:
             odds_dict, resumen = _fo.get_odds(upcoming_fixture_id, force=False)
             _fo.print_odds_report(odds_dict, resumen, team_local_name, team_visita_name)
         except Exception as e:
-            print(f"  Error al obtener odds: {e}")
+            print(f"  Error al obtener odds API Football: {e}")
+
+    # Fuente 2: odds-api.io (corners, tiros, arco, tarjetas — por equipo y totales)
+    print(f"\n{'='*60}")
+    print(f"  BUSCANDO ODDS odds-api.io")
+    print(f"{'='*60}")
+    try:
+        oddsapi_event_id, home_api, away_api = _fo.find_event_oddsapi(
+            team_local_name, team_visita_name
+        )
+        if oddsapi_event_id:
+            print(f"  Evento encontrado: id={oddsapi_event_id}  {home_api} vs {away_api}")
+            oddsapi_odds, oddsapi_resumen = _fo.get_odds_oddsapi(oddsapi_event_id, force=False)
+            if oddsapi_odds:
+                print(f"\n  Mercados obtenidos de odds-api.io:")
+                for m in oddsapi_resumen.get('mapeados', []):
+                    print(f"    + {m}")
+                # Merge: odds-api.io completa los mercados que API Football no trae
+                merged = 0
+                for k, v in oddsapi_odds.items():
+                    if k not in odds_dict:
+                        odds_dict[k] = v
+                        merged += 1
+                print(f"  -> {merged} claves nuevas agregadas al ODDS dict")
+    except Exception as e:
+        print(f"  Error al obtener odds de odds-api.io: {e}")
 
     # ── Escribir config en analizar_partido.py ────────────────────────────────
     print(f"\n{'='*60}")

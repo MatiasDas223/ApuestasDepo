@@ -131,8 +131,8 @@ def compute_all_probs(sim):
     p['btts_si'] = sum(gl[i] > 0 and gv[i] > 0 for i in range(n)) / n
     p['btts_no'] = 1 - p['btts_si']
 
-    # Tiros totales — thresholds del bookmaker
-    for thr in [15.5, 17.5, 19.5, 21.5, 23.5, 25.5, 27.5]:
+    # Tiros totales — cobertura completa half-integer
+    for thr in [i + 0.5 for i in range(11, 32)]:   # 11.5 .. 31.5
         p[f'ts_over_{thr}']  = over(ts, thr)
         p[f'ts_under_{thr}'] = under(ts, thr)
 
@@ -147,17 +147,17 @@ def compute_all_probs(sim):
         p[f'sv_under_{thr}'] = under(sv, thr)
 
     # Corners totales
-    for thr in [7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5]:
+    for thr in [3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5]:
         p[f'tc_over_{thr}']  = over(tc, thr)
         p[f'tc_under_{thr}'] = under(tc, thr)
 
     # Corners local
-    for thr in [3.5, 4.5, 5.5, 6.5, 7.5]:
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5]:
         p[f'cl_over_{thr}']  = over(cl, thr)
         p[f'cl_under_{thr}'] = under(cl, thr)
 
     # Corners visita
-    for thr in [2.5, 3.5, 4.5, 5.5, 6.5]:
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5]:
         p[f'cv_over_{thr}']  = over(cv, thr)
         p[f'cv_under_{thr}'] = under(cv, thr)
 
@@ -501,7 +501,7 @@ def analizar_value_bets(probs, odds, team_local, team_visita, min_edge=MIN_EDGE)
                o.get(f'gv_over_{thr}'), o.get(f'gv_under_{thr}'))
 
     # Tiros totales
-    for thr in [15.5, 17.5, 19.5, 21.5, 23.5, 25.5, 27.5]:
+    for thr in [i + 0.5 for i in range(11, 32)]:
         check2(f'Tiros tot. O/U {thr}', f'ts_over_{thr}', f'ts_under_{thr}',
                o.get(f'ts_over_{thr}'), o.get(f'ts_under_{thr}'))
 
@@ -515,6 +515,21 @@ def analizar_value_bets(probs, odds, team_local, team_visita, min_edge=MIN_EDGE)
         check2(f'Tiros {team_visita} O/U {thr}', f'sv_over_{thr}', f'sv_under_{thr}',
                o.get(f'sv_over_{thr}'), o.get(f'sv_under_{thr}'))
 
+    # Corners totales
+    for thr in [3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5]:
+        check2(f'Corners tot. O/U {thr}', f'tc_over_{thr}', f'tc_under_{thr}',
+               o.get(f'tc_over_{thr}'), o.get(f'tc_under_{thr}'))
+
+    # Corners local
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5]:
+        check2(f'Corners {team_local} O/U {thr}', f'cl_over_{thr}', f'cl_under_{thr}',
+               o.get(f'cl_over_{thr}'), o.get(f'cl_under_{thr}'))
+
+    # Corners visita
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5]:
+        check2(f'Corners {team_visita} O/U {thr}', f'cv_over_{thr}', f'cv_under_{thr}',
+               o.get(f'cv_over_{thr}'), o.get(f'cv_under_{thr}'))
+
     # Remates al arco totales
     for thr in [3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5]:
         check2(f'Arco tot. O/U {thr}', f'ta_over_{thr}', f'ta_under_{thr}',
@@ -526,7 +541,7 @@ def analizar_value_bets(probs, odds, team_local, team_visita, min_edge=MIN_EDGE)
                o.get(f'sla_over_{thr}'), o.get(f'sla_under_{thr}'))
 
     # Remates al arco visita
-    for thr in [1.5, 2.5, 3.5, 4.5, 5.5, 6.5]:
+    for thr in [1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5]:
         check2(f'Arco {team_visita} O/U {thr}', f'sva_over_{thr}', f'sva_under_{thr}',
                o.get(f'sva_over_{thr}'), o.get(f'sva_under_{thr}'))
 
@@ -731,118 +746,149 @@ def guardar_value_bets(value_bets, team_local, team_visita, competition,
 # CONFIGURACIÓN DEL PARTIDO  [AUTO — generado por preparar_partido.py]
 # ─────────────────────────────────────────────────────────────────────────────
 # ── BEGIN PARTIDO CONFIG ─
-TEAM_LOCAL  = 'Belgrano Cordoba'
-TEAM_VISITA = 'Aldosivi'
+TEAM_LOCAL  = 'Racing Club'
+TEAM_VISITA = 'River Plate'
 COMPETITION = 'Liga Profesional'
-FIXTURE_ID  = 1492014
+FIXTURE_ID  = 1492025
 N_SIM = 200_000
 
 ODDS = {
     # 1X2
-    '1': 1.62,  'X': 3.5,  '2': 6.5,
+    '1': 2.8,  'X': 3.0,  '2': 2.8,
 
     # BTTS
-    'btts_si': 2.5,  'btts_no': 1.5,
+    'btts_si': 2.05,  'btts_no': 1.7,
 
     # Goles totales
-    'g_over_0.5': 1.1,  'g_under_0.5': 7.0,
+    'g_over_0.5': 1.11,  'g_under_0.5': 6.5,
     'g_over_1.5': 1.5,  'g_under_1.5': 2.5,
     'g_over_2.5': 2.5,  'g_under_2.5': 1.5,
     'g_over_3.5': 5.0,  'g_under_3.5': 1.17,
     'g_over_4.5': 11.0,  'g_under_4.5': 1.05,
 
-    # Goles Belgrano Cordoba (local)
-    'gl_over_0.5': 1.22,  'gl_under_0.5': 4.0,
-    'gl_over_1.5': 2.0,  'gl_under_1.5': 1.73,
-    'gl_over_2.5': 4.33,  'gl_under_2.5': 1.2,
-    'gl_over_3.5': 11.0,  'gl_under_3.5': 1.05,
+    # Goles Racing Club (local)
+    'gl_over_0.5': 1.44,  'gl_under_0.5': 2.62,
+    'gl_over_1.5': 3.25,  'gl_under_1.5': 1.33,
+    'gl_over_2.5': 9.0,  'gl_under_2.5': 1.07,
+    'gl_over_3.5': 26.0,  'gl_under_3.5': 1.01,
 
-    # Goles Aldosivi (visita)
-    'gv_over_0.5': 2.0,  'gv_under_0.5': 1.73,
-    'gv_over_1.5': 7.0,  'gv_under_1.5': 1.1,
-    'gv_over_2.5': 26.0,  'gv_under_2.5': 1.01,
-    'gv_over_3.5': None,  'gv_under_3.5': None,
+    # Goles River Plate (visita)
+    'gv_over_0.5': 1.44,  'gv_under_0.5': 2.62,
+    'gv_over_1.5': 3.25,  'gv_under_1.5': 1.33,
+    'gv_over_2.5': 9.0,  'gv_under_2.5': 1.07,
+    'gv_over_3.5': 26.0,  'gv_under_3.5': 1.01,
 
     # Corners totales
-    'tc_over_7.5': None,  'tc_under_7.5': None,
-    'tc_over_8.5': 1.67,  'tc_under_8.5': 2.1,
-    'tc_over_9.5': None,  'tc_under_9.5': None,
-    'tc_over_10.5': None,  'tc_under_10.5': None,
-    'tc_over_11.5': None,  'tc_under_11.5': None,
+    'tc_over_3.5': None,  'tc_under_3.5': 23.0,
+    'tc_over_4.5': 1.04,  'tc_under_4.5': 13.0,
+    'tc_over_5.5': 1.111,  'tc_under_5.5': 6.5,
+    'tc_over_6.5': 1.25,  'tc_under_6.5': 3.75,
+    'tc_over_7.5': 1.444,  'tc_under_7.5': 2.625,
+    'tc_over_8.5': 1.8,  'tc_under_8.5': 2.0,
+    'tc_over_9.5': 2.1,  'tc_under_9.5': 1.67,
+    'tc_over_10.5': 3.25,  'tc_under_10.5': 1.333,
+    'tc_over_11.5': 4.333,  'tc_under_11.5': 1.2,
+    'tc_over_12.5': 6.5,  'tc_under_12.5': 1.111,
+    'tc_over_13.5': 11.0,  'tc_under_13.5': 1.05,
+    'tc_over_14.5': 17.0,  'tc_under_14.5': 1.025,
 
-    # Corners Belgrano Cordoba (local)
+    # Corners Racing Club (local)
+    'cl_over_0.5': None,  'cl_under_0.5': None,
+    'cl_over_1.5': None,  'cl_under_1.5': None,
+    'cl_over_2.5': None,  'cl_under_2.5': None,
     'cl_over_3.5': None,  'cl_under_3.5': None,
-    'cl_over_4.5': None,  'cl_under_4.5': None,
-    'cl_over_5.5': 2.0,  'cl_under_5.5': 1.73,
+    'cl_over_4.5': 1.8,  'cl_under_4.5': 1.91,
+    'cl_over_5.5': None,  'cl_under_5.5': None,
     'cl_over_6.5': None,  'cl_under_6.5': None,
+    'cl_over_7.5': None,  'cl_under_7.5': None,
+    'cl_over_8.5': None,  'cl_under_8.5': None,
+    'cl_over_9.5': None,  'cl_under_9.5': None,
 
-    # Corners Aldosivi (visita)
+    # Corners River Plate (visita)
+    'cv_over_0.5': None,  'cv_under_0.5': None,
+    'cv_over_1.5': None,  'cv_under_1.5': None,
     'cv_over_2.5': None,  'cv_under_2.5': None,
-    'cv_over_3.5': 2.0,  'cv_under_3.5': 1.73,
-    'cv_over_4.5': None,  'cv_under_4.5': None,
+    'cv_over_3.5': 1.67,  'cv_under_3.5': 2.1,
+    'cv_over_4.5': 2.2,  'cv_under_4.5': 1.62,
     'cv_over_5.5': None,  'cv_under_5.5': None,
+    'cv_over_6.5': None,  'cv_under_6.5': None,
+    'cv_over_7.5': None,  'cv_under_7.5': None,
+    'cv_over_8.5': None,  'cv_under_8.5': None,
+    'cv_over_9.5': None,  'cv_under_9.5': None,
+    'cv_over_10.5': None,  'cv_under_10.5': None,
 
-    # Tiros totales — completar manualmente desde bookie
+    # Tiros totales
+    'ts_over_13.5': None,  'ts_under_13.5': None,
     'ts_over_15.5': None,  'ts_under_15.5': None,
     'ts_over_17.5': None,  'ts_under_17.5': None,
     'ts_over_19.5': None,  'ts_under_19.5': None,
-    'ts_over_20.5': 1.25,  'ts_under_20.5': 3.75,
     'ts_over_21.5': None,  'ts_under_21.5': None,
-    'ts_over_22.5': 1.53,  'ts_under_22.5': 2.37,
-    'ts_over_26.5': 2.75,  'ts_under_26.5': 1.40,
-    'ts_over_28.5': 4.33,  'ts_under_28.5': 1.20,
+    'ts_over_23.5': None,  'ts_under_23.5': None,
+    'ts_over_25.5': None,  'ts_under_25.5': None,
+    'ts_over_27.5': None,  'ts_under_27.5': None,
+    'ts_over_29.5': None,  'ts_under_29.5': None,
 
-    # Tiros Belgrano Cordoba (local) — completar manualmente
+    # Tiros Racing Club (local)
+    'sl_over_4.5': None,  'sl_under_4.5': None,
+    'sl_over_5.5': None,  'sl_under_5.5': None,
     'sl_over_6.5': None,  'sl_under_6.5': None,
     'sl_over_7.5': None,  'sl_under_7.5': None,
     'sl_over_8.5': None,  'sl_under_8.5': None,
     'sl_over_9.5': None,  'sl_under_9.5': None,
-    'sl_over_10.5': 1.25,  'sl_under_10.5': 3.75,
-    'sl_over_11.5': 1.36,  'sl_under_11.5': 3.00,
-    'sl_over_12.5': 1.53,  'sl_under_12.5': 2.37,
-    'sl_over_13.5': 1.80,  'sl_under_13.5': 1.90,
+    'sl_over_10.5': None,  'sl_under_10.5': None,
+    'sl_over_11.5': 1.833,  'sl_under_11.5': 1.833,
+    'sl_over_12.5': None,  'sl_under_12.5': None,
+    'sl_over_13.5': None,  'sl_under_13.5': None,
 
-    # Tiros Aldosivi (visita) — completar manualmente
+    # Tiros River Plate (visita)
+    'sv_over_4.5': None,  'sv_under_4.5': None,
     'sv_over_5.5': None,  'sv_under_5.5': None,
     'sv_over_6.5': None,  'sv_under_6.5': None,
-    'sv_over_7.5': 1.28,  'sv_under_7.5': 3.50,
-    'sv_over_8.5': 1.44,  'sv_under_8.5': 2.62,
-    'sv_over_9.5': 1.72,  'sv_under_9.5': 2.00,
-    'sv_over_10.5': 2.10,  'sv_under_10.5': 1.66,
-    'sv_over_11.5': 2.62,  'sv_under_11.5': 1.44,
-    'sv_over_12.5': 3.50,  'sv_under_12.5': 1.28,
+    'sv_over_7.5': None,  'sv_under_7.5': None,
+    'sv_over_8.5': None,  'sv_under_8.5': None,
+    'sv_over_9.5': None,  'sv_under_9.5': None,
+    'sv_over_10.5': None,  'sv_under_10.5': None,
+    'sv_over_11.5': None,  'sv_under_11.5': None,
+    'sv_over_12.5': 1.909,  'sv_under_12.5': 1.8,
+    'sv_over_13.5': None,  'sv_under_13.5': None,
 
     # Remates al arco totales
+    'ta_over_3.5': None,  'ta_under_3.5': None,
     'ta_over_4.5': None,  'ta_under_4.5': None,
-    'ta_over_5.5': 1.33,  'ta_under_5.5': 3.25,
-    'ta_over_6.5': 1.66,  'ta_under_6.5': 2.10,
-    'ta_over_7.5': 2.2,  'ta_under_7.5': 1.61,
-    'ta_over_8.5': 3.25,  'ta_under_8.5': 1.61,
-    'ta_over_9.5': 4.5,  'ta_under_9.5': 1.33,
+    'ta_over_5.5': None,  'ta_under_5.5': None,
+    'ta_over_6.5': None,  'ta_under_6.5': None,
+    'ta_over_7.5': 1.73,  'ta_under_7.5': 2.0,
+    'ta_over_8.5': None,  'ta_under_8.5': None,
+    'ta_over_9.5': None,  'ta_under_9.5': None,
     'ta_over_10.5': None,  'ta_under_10.5': None,
     'ta_over_11.5': None,  'ta_under_11.5': None,
 
-    # Remates al arco Belgrano Cordoba (local) — completar manualmente
+    # Remates al arco Racing Club (local)
+    'sla_over_0.5': None,  'sla_under_0.5': None,
     'sla_over_1.5': None,  'sla_under_1.5': None,
-    'sla_over_2.5': 1.22,  'sla_under_2.5': 4.00,
-    'sla_over_3.5': 1.53,  'sla_under_3.5': 2.37,
-    'sla_over_4.5': 2.10,  'sla_under_4.5': 1.66,
-    'sla_over_5.5': 3.25,  'sla_under_5.5': 1.33,
+    'sla_over_2.5': None,  'sla_under_2.5': None,
+    'sla_over_3.5': 1.727,  'sla_under_3.5': 2.0,
+    'sla_over_4.5': None,  'sla_under_4.5': None,
+    'sla_over_5.5': None,  'sla_under_5.5': None,
     'sla_over_6.5': None,  'sla_under_6.5': None,
+    'sla_over_7.5': None,  'sla_under_7.5': None,
 
-    # Remates al arco Aldosivi (visita) — completar manualmente
-    'sva_over_1.5': 1.30,  'sva_under_1.5': 3.40,
-    'sva_over_2.5': 1.83,  'sva_under_2.5': 1.83,
-    'sva_over_3.5': 3.00,  'sva_under_3.5': 1.36,
-    'sva_over_4.5': 5.00,  'sva_under_4.5': 1.14,
+    # Remates al arco River Plate (visita)
+    'sva_over_0.5': None,  'sva_under_0.5': None,
+    'sva_over_1.5': None,  'sva_under_1.5': None,
+    'sva_over_2.5': None,  'sva_under_2.5': None,
+    'sva_over_3.5': 1.727,  'sva_under_3.5': 2.0,
+    'sva_over_4.5': None,  'sva_under_4.5': None,
     'sva_over_5.5': None,  'sva_under_5.5': None,
     'sva_over_6.5': None,  'sva_under_6.5': None,
+    'sva_over_7.5': None,  'sva_under_7.5': None,
 
     # Tarjetas totales
     'cards_over_3.5': None,  'cards_under_3.5': None,
     'cards_over_4.5': None,  'cards_under_4.5': None,
-    'cards_over_5.5': 2.1,  'cards_under_5.5': 1.67,
-    'cards_over_6.5': None,  'cards_under_6.5': None,
+    'cards_over_5.5': 1.8,  'cards_under_5.5': 1.91,
+    'cards_over_6.5': 2.1,  'cards_under_6.5': 1.67,
+    'cards_over_7.5': None,  'cards_under_7.5': None,
 }
 # ── END PARTIDO CONFIG ─
 
