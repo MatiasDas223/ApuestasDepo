@@ -582,8 +582,8 @@ def print_analisis(team_local, team_visita, competition, params, probs, value_be
           f"(local={params['mu_corners_local']:.2f}  visita={params['mu_corners_vis']:.2f}  "
           f"share={params['share_corners_loc']:.1%}  k={params['k_corners']:.1f})")
     print(f"   mu tarjetas: local={params['mu_tarjetas_local']:.2f}  visita={params['mu_tarjetas_vis']:.2f}")
-    print(f"   mu tiros   : local={params['mu_shots_local']:.1f}+/-{params['sigma_shots_local']:.1f}  "
-          f"visita={params['mu_shots_vis']:.1f}+/-{params['sigma_shots_vis']:.1f}")
+    print(f"   mu tiros   : local={params['mu_shots_local']:.1f} (k={params['k_shots_local']:.1f})  "
+          f"visita={params['mu_shots_vis']:.1f} (k={params['k_shots_vis']:.1f})")
     if arco_info:
         print(f"   mu arco    : local={arco_info['mu_arco_local']:.2f}  "
               f"visita={arco_info['mu_arco_vis']:.2f}")

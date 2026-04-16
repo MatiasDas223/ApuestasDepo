@@ -48,6 +48,11 @@ python scripts/analisis_corners_v31.py --n-sim 50000
 python scripts/comparar_corners_v3_v31.py
 python scripts/comparar_corners_v3_v31.py --n-sim 100000
 
+# Análisis de tiros NegBin v3.2
+python scripts/correlacion_tiros.py
+python scripts/calibracion_full_negbin.py
+python scripts/roi_tiros_negbin.py
+
 # Gestión de aliases para odds-api.io
 python scripts/manage_aliases.py --status
 python scripts/manage_aliases.py --auto-ligas 128
@@ -80,7 +85,7 @@ API Football  (goles, BTTS, 1X2, hándicaps)
 | `pipeline.py` | Orquestador completo: pasos 0–5 (historia → odds → simulación → value bets) |
 | `preparar_partido.py` | Modo interactivo para un partido específico; escribe el bloque de config en `analizar_partido.py` |
 | `analizar_partido.py` | Lee el bloque `# ── BEGIN PARTIDO CONFIG ─` y ejecuta el análisis completo; también exportable como módulo |
-| `modelo_v3.py` | Motor estadístico: ratings Bayesianos con shrinkage + decaimiento exponencial por recencia + factor forma; `compute_match_params` → `run_simulation` → Poisson |
+| `modelo_v3.py` | Motor estadístico: ratings Bayesianos con shrinkage + decaimiento exponencial por recencia + factor forma; goles=Poisson, corners=NegBin+Binomial, tiros=NegBin(k por equipo) |
 | `fetch_odds.py` | Descarga y normaliza odds de dos fuentes; caché en disco por `fixture_id` |
 | `fetch_historia.py` | Descarga masiva reanudable; progreso en `data/historico/fetch_historia_progress.json` |
 | `manage_aliases.py` | Mapea nombres de equipos/ligas entre API Football y odds-api.io |
@@ -88,6 +93,9 @@ API Football  (goles, BTTS, 1X2, hándicaps)
 | `analisis_corners_v31.py` | Análisis de rendimiento exclusivo para corners con probs v3.1 re-computadas. Separa Totales/Local/Visita |
 | `comparar_corners_v3_v31.py` | Compara corners v3 (Poisson) vs v3.1 (NegBin+Binomial): ROI, calibración, mu precision |
 | `backtest_v3.py` | Walk-forward: re-calcula apuestas históricas dejando fuera el fixture evaluado |
+| `correlacion_tiros.py` | Análisis exploratorio de predictores de tiros (intra-match, predictivo, pace, variabilidad) |
+| `calibracion_full_negbin.py` | Calibración walk-forward NegBin sobre todos los partidos del histórico (54k+ predicciones) |
+| `roi_tiros_negbin.py` | ROI de tiros NegBin por cuota, EV, probabilidad, edge — separado por Total/Local/Visita |
 
 ### Data files
 
@@ -118,6 +126,15 @@ API Football  (goles, BTTS, 1X2, hándicaps)
 - Reparto: `Binomial(total_NegBin, share_local)`
 - Solo se buscan value bets en corners individuales (local/visita), no en totales
 
+**Tiros (v3.2)**: NegBin independiente por equipo, k por equipo con shrinkage:
+- `mu_local = liga_avg_home × atk_local × def_vis × forma` (misma estructura que goles)
+- `k_local = (n_team * k_team_raw + K_SHOTS_SHRINK * k_league) / (n_team + K_SHOTS_SHRINK)` con `K_SHOTS_SHRINK=6`
+- k estimado por método de momentos sobre tiros del equipo en su venue (home/away)
+- Valores típicos: k=5 (Villarreal, variable) a k=700+ (Barcelona, estable)
+- Antes era Normal(mu, sigma) — NegBin modela mejor la sobredispersión real (var/media=2.16)
+- Calibración walk-forward sobre 54,468 predicciones: delta max 1.2pp (excelente)
+- Tiros local Over en cuotas 1.50-2.10 es el sub-mercado más prometedor
+
 **General**: `MIN_EDGE=0.04` (4%) para declarar una apuesta como value bet
 
 ### Config de partido en analizar_partido.py
@@ -140,19 +157,23 @@ ODDS = {...}
 - Bookmaker por defecto: Bet365 (`BK_DEFAULT = 8`)
 - Rate limiting manual: `time.sleep(0.3)` entre llamadas
 
-### Estado del CSV histórico (al 2026-04-15)
+### Estado del CSV histórico (al 2026-04-16)
 
-- **6705 partidos** totales en `partidos_historicos.csv`
-- **6608 con datos extendidos completos** (backfill_stats.py corrido)
-- **97 sin stats extendidas** — rondas clasificatorias Europa/Champions julio-agosto 2024 y Copa del Rey dic 2025; la API no tiene esos datos y se dejaron así intencionalmente
-- `xg_local` puede estar vacío en filas válidas (la API no siempre provee xG); el sentinel real de "pendiente" en `backfill_stats.py` es `tiros_dentro_local`
+- **1576 partidos** actualmente en `partidos_historicos.csv` (29 columnas completas, stats extendidas integradas)
+- **~5251 partidos pendientes de descarga** — cupo API se agota diariamente, se reinicia a las 00 UTC
+- **PENDIENTE**: correr `fetch_historia.py` diariamente hasta completar ~6800 partidos. El cupo de API Football es ~7500 calls/día. El script para automáticamente al recibir 429.
+- El progreso se guarda en `data/historico/fetch_historia_progress.json` (reanudable). Dedup: el script chequea contra el CSV (`existing_fids`) y contra `prog['fetched']` antes de descargar.
+- `fetch_historia.py` descarga las 29 columnas en una sola consulta (antes requería backfill_stats.py por separado)
+- Orden de descarga: temporadas actuales primero, luego hacia atrás
+- Bug corregido: 6 scripts que reescribían el CSV preservan columnas existentes (extrasaction='ignore') para no truncar datos
 
 ### Estado del modelo por mercado
 
 - **Goles (1X2, O/U, BTTS)**: modelo más acertado, en producción
 - **Corners individuales (local/visita)**: EN PRODUCCION — NegBin total + Binomial reparto (v3.1). ROI +74% local, +54% visita sobre 38 bets confirmadas
 - **Corners totales**: DESACTIVADO — backtest demostró ROI -31.4% sobre 38 bets. Comentados en BINARY_MARKETS de modelo_v3.py. Se siguen calculando probabilidades como referencia pero no se buscan value bets. Se eliminaron 313 entradas históricas de value_bets.csv
-- **Tiros y Tiros al arco**: rendimiento bajo, pendiente de mejora
+- **Tiros**: NegBin con k por equipo (v3.2). Calibración excelente (delta <2pp). ROI histórico: local -4.7%, total -31.8%, visita -65.0%. Recolectando datos para validar mejora.
+- **Tiros al arco**: Poisson simple en analizar_partido.py. ROI -30.8%, pendiente de mejora.
 
 ### Modelo de corners v3.1 — decisiones y hallazgos
 
@@ -172,6 +193,34 @@ ODDS = {...}
 - Liga Profesional es el mercado más rentable (+47% ROI corners, +121% local, +86% visita)
 - Calibración: el modelo subestima probabilidades en rango 50-80% (delta +9-12pp) — conservador, las bets que detecta son reales
 - Corners totales: pierde en todos los rangos de edge, cuota y threshold. Over totales 0W/12L en cuotas >3.00
+
+### Modelo de tiros v3.2 — decisiones y hallazgos
+
+**Distribución**: NegBin(mu, k) independiente por equipo (local y visita simulados por separado).
+- Antes: Normal(mu, sigma) truncada a >=0. Problema: sobredispersión real var/media=2.16 no capturada.
+- Ahora: NegBin con k estimado POR EQUIPO con shrinkage bayesiano hacia k de liga (`K_SHOTS_SHRINK=6`).
+- k por equipo captura que Barcelona (k=700+) es muy estable en tiros mientras Villarreal (k=5) es variable.
+
+**Análisis exploratorio (`correlacion_tiros.py`)**:
+- Mejor predictor individual: `atk_home * def_away` (r=0.468 con tiros locales)
+- Posesión correlaciona con tiros individuales (r=0.315) — NO integrado al modelo aún
+- Pace (métrica compuesta): r=-0.03 después de controlar por hist_shots — NO agrega info
+- CV intra-equipo: tiros=0.37 (más predecible), SOT=0.51 (ruidoso), goles=0.88
+- Liga Profesional es la más difícil de predecir (r=0.13 vs r=0.40 en Brasileirao)
+
+**Calibración walk-forward (`calibracion_full_negbin.py`, 54,468 predicciones)**:
+- Global: delta max 1.2pp en todos los rangos de probabilidad (excelente)
+- Local: delta max 1.4pp — casi perfecta
+- Visita: sesgo leve en colas (+3.9pp en <10%, -3.9pp en >90%)
+- Totales: sesgo leve 2-4pp, subestima overs, sobreestima unders
+
+**ROI sobre 101 value bets reales (`roi_tiros_negbin.py`)**:
+- Tiros local: ROI -4.7% (35 bets). Over local ROI +13.3%. Edge 4-8% ROI +83.3%. Prob 70-80% ROI +35.9%.
+- Tiros total: ROI -31.8% (29 bets). Pierde en casi todos los rangos.
+- Tiros visita: ROI -65.0% (37 bets). Sobreestima 30-50pp en todas las franjas. Irrecuperable.
+- Cuotas >3.50: 0W en 10 bets — evitar completamente.
+
+**Conclusión**: el modelo está bien calibrado pero el mercado de tiros es eficiente. Tiros local Over en cuotas 1.50-2.10 es el único sub-mercado con potencial. Se necesitan más datos para confirmar.
 
 ### Ligas configuradas en el pipeline
 

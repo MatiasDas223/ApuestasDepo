@@ -348,8 +348,7 @@ def league_avgs(rows: list[dict],
         'away_corners': avg_field(lambda r: int(r['corners_visitante'])),
         'home_shots':   avg_field(lambda r: int(r['tiros_local'])),
         'away_shots':   avg_field(lambda r: int(r['tiros_visitante'])),
-        'home_shots_std': 4.0,
-        'away_shots_std': 4.0,
+        # home_shots_std / away_shots_std eliminados — ahora se usa k_shots (NegBin)
         'home_cards':   avg_field(lambda r: int(r['tarjetas_local'])),
         'away_cards':   avg_field(lambda r: int(r['tarjetas_visitante'])),
     }
@@ -452,7 +451,7 @@ def compute_match_params(team_local: str | int, team_visitante: str | int,
                                 × forma_atk_visita
 
     Modelo de corners (Poisson) — ídem estructura
-    Modelo de tiros   (Normal)  — ídem estructura
+    Modelo de tiros   (NegBin, k por equipo)  — ídem estructura
     """
     _, name_to_id_teams   = load_teams_db()
     _, name_to_id_leagues = load_leagues_db()
@@ -529,18 +528,9 @@ def compute_match_params(team_local: str | int, team_visitante: str | int,
     mu_shots_local = max(1.0, la['home_shots'] * r_atk_sl * r_def_sv * f_s_l)
     mu_shots_vis   = max(1.0, la['away_shots'] * r_atk_sv * r_def_sl * f_s_v)
 
-    # σ tiros — usa std histórico propio si disponible
-    def shot_std(team, ctx, mu):
-        for recs in (recs_comp, recs_all):
-            rec = recs.get(team)
-            if rec and rec.n(ctx) >= MIN_MATCHES:
-                s = rec.std(ctx, 'shots')
-                if s > 0:
-                    return s
-        return mu * 0.30
-
-    sigma_shots_local = shot_std(local_id, 'home', mu_shots_local)
-    sigma_shots_vis   = shot_std(vis_id,   'away', mu_shots_vis)
+    # k tiros — dispersión NegBin por equipo con shrinkage hacia liga
+    k_shots_local = estimate_shots_k_team(local_id, 'home', rows, liga_id)
+    k_shots_vis   = estimate_shots_k_team(vis_id,   'away', rows, liga_id)
 
     # ── Tarjetas ─────────────────────────────────────────────────────────────
     # Modelo simple: las tarjetas que un equipo recibe dependen de su propio
@@ -574,9 +564,9 @@ def compute_match_params(team_local: str | int, team_visitante: str | int,
         'mu_tarjetas_local':   mu_tarjetas_local,
         'mu_tarjetas_vis':     mu_tarjetas_vis,
         'mu_shots_local':      mu_shots_local,
-        'mu_shots_vis':      mu_shots_vis,
-        'sigma_shots_local': max(0.5, sigma_shots_local),
-        'sigma_shots_vis':   max(0.5, sigma_shots_vis),
+        'mu_shots_vis':        mu_shots_vis,
+        'k_shots_local':       k_shots_local,
+        'k_shots_vis':         k_shots_vis,
         'poss_local':        poss_local,
         'n_local_home':      n_local_home,
         'n_vis_away':        n_vis_away,
@@ -590,7 +580,7 @@ def compute_match_params(team_local: str | int, team_visitante: str | int,
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Simulación Monte Carlo  (sin cambios respecto a V2)
+# Simulación Monte Carlo
 # ─────────────────────────────────────────────────────────────────────────────
 
 def run_simulation(params: dict, n: int = N_SIM_DEFAULT) -> dict:
@@ -601,8 +591,8 @@ def run_simulation(params: dict, n: int = N_SIM_DEFAULT) -> dict:
     mu_tv  = params['mu_tarjetas_vis']
     mu_sl  = params['mu_shots_local']
     mu_sv  = params['mu_shots_vis']
-    sig_sl = params['sigma_shots_local']
-    sig_sv = params['sigma_shots_vis']
+    k_sl   = params['k_shots_local']
+    k_sv   = params['k_shots_vis']
 
     # Corners — MODELO V4: NegBin total + Binomial por equipo
     mu_ct      = params['mu_corners_total']
@@ -621,8 +611,8 @@ def run_simulation(params: dict, n: int = N_SIM_DEFAULT) -> dict:
         gv.append(poisson_sample(lam_v))
         tl.append(poisson_sample(mu_tl))
         tv.append(poisson_sample(mu_tv))
-        sl.append(normal_sample_pos(mu_sl, sig_sl))
-        sv.append(normal_sample_pos(mu_sv, sig_sv))
+        sl.append(negbinom_sample(mu_sl, k_sl))
+        sv.append(negbinom_sample(mu_sv, k_sv))
 
         # Corners V4: NegBin total → Binomial reparto
         T = negbinom_sample(mu_ct, k_c)
@@ -859,8 +849,8 @@ def print_report(team_local: str, team_visitante: str,
     print(f"   lambda goles visita   : {params['lambda_vis']:.3f}")
     print(f"   mu corners local      : {params['mu_corners_local']:.2f}")
     print(f"   mu corners visita     : {params['mu_corners_vis']:.2f}")
-    print(f"   mu tiros local        : {params['mu_shots_local']:.1f} +/- {params['sigma_shots_local']:.1f}")
-    print(f"   mu tiros visita       : {params['mu_shots_vis']:.1f} +/- {params['sigma_shots_vis']:.1f}")
+    print(f"   mu tiros local        : {params['mu_shots_local']:.1f}  (NegBin k={params['k_shots_local']:.1f})")
+    print(f"   mu tiros visita       : {params['mu_shots_vis']:.1f}  (NegBin k={params['k_shots_vis']:.1f})")
     print(f"   Posesion local        : {params['poss_local']:.1f}%")
 
     if '_ratings' in params:
@@ -1392,6 +1382,90 @@ def estimate_corners_k(rows: list[dict],
 
     k = mu ** 2 / (var - mu)
     return max(1.0, min(k, 999.0))   # clamp: [1, 999]
+
+
+K_SHOTS_SHRINK = 6   # partidos virtuales para shrinkage de k hacia liga
+
+
+def _k_from_vals(vals: list[int]) -> float | None:
+    """Estima k por método de momentos. Retorna None si insuficientes datos."""
+    n = len(vals)
+    if n < 5:
+        return None
+    mu  = sum(vals) / n
+    var = sum((x - mu) ** 2 for x in vals) / (n - 1)
+    if var <= mu or mu <= 0:
+        return 999.0   # underdispersed → Poisson
+    return mu ** 2 / (var - mu)
+
+
+def estimate_shots_k_league(rows: list[dict],
+                            liga_id_filter: int | None = None,
+                            min_matches: int = 30) -> float:
+    """k de liga como prior — promedio de dispersión de tiros en la liga."""
+    filtered = [r for r in rows
+                if not liga_id_filter or int(r['liga_id']) == liga_id_filter]
+    if len(filtered) < min_matches:
+        filtered = rows
+
+    vals = []
+    for r in filtered:
+        sl = int(r.get('tiros_local', 0))
+        sv = int(r.get('tiros_visitante', 0))
+        if sl + sv > 0:
+            vals.extend([sl, sv])
+
+    k = _k_from_vals(vals)
+    if k is None:
+        return 12.0
+    return max(2.0, min(k, 999.0))
+
+
+def estimate_shots_k_team(team_id: int,
+                          venue: str,
+                          rows: list[dict],
+                          liga_id: int | None = None) -> float:
+    """
+    Estima k de NegBin para tiros de un equipo específico en un venue.
+
+    Usa shrinkage bayesiano: mezcla k del equipo con k de liga según
+    cuántos partidos tiene el equipo.
+
+        k_final = (n_team * k_team + K_SHRINK * k_league) / (n_team + K_SHRINK)
+
+    Parámetros:
+        team_id   : ID del equipo
+        venue     : 'home' o 'away'
+        rows      : histórico completo
+        liga_id   : para estimar k_league como prior
+
+    Valores típicos: k = 5 (Villarreal, variable) a 200+ (Barcelona, estable)
+    """
+    k_league = estimate_shots_k_league(rows, liga_id)
+
+    # Recoger tiros del equipo en el venue especificado
+    if venue == 'home':
+        vals = [int(r['tiros_local']) for r in rows
+                if int(r['equipo_local_id']) == team_id
+                and int(r['tiros_local']) + int(r['tiros_visitante']) > 0]
+    else:
+        vals = [int(r['tiros_visitante']) for r in rows
+                if int(r['equipo_visitante_id']) == team_id
+                and int(r['tiros_local']) + int(r['tiros_visitante']) > 0]
+
+    k_team = _k_from_vals(vals)
+    n_team = len(vals)
+
+    if k_team is None:
+        return k_league   # sin datos del equipo → usar liga
+
+    # Shrinkage: blend team k con league k según muestra
+    # Clamp ambos a rango razonable antes de mezclar
+    k_team_c  = max(2.0, min(k_team,  999.0))
+    k_league_c = max(2.0, min(k_league, 999.0))
+    k_final = (n_team * k_team_c + K_SHOTS_SHRINK * k_league_c) / (n_team + K_SHOTS_SHRINK)
+
+    return max(2.0, min(k_final, 999.0))
 
 
 def simulate_corners_nb(mu_total: float,
