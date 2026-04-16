@@ -1,0 +1,33 @@
+{
+  "event_id": 69340216,
+  "odds": {
+    "cards_over_5.5": 2.025,
+    "cards_under_4.5": 1.775,
+    "sla_over_5.5": 2.1,
+    "sla_under_5.5": 1.666,
+    "sl_over_16.5": 1.8,
+    "sl_under_16.5": 1.909,
+    "cards_over_4.5": 1.727,
+    "sva_over_3.5": 1.833,
+    "sva_under_3.5": 1.833,
+    "sv_over_8.5": 1.727,
+    "sv_under_8.5": 2.0,
+    "ts_over_26.5": 2.0,
+    "ts_under_26.5": 1.727,
+    "ta_over_8.5": 1.666,
+    "ta_under_8.5": 2.1
+  },
+  "resumen": {
+    "mapeados": [
+      "Bookings Totals (1 lineas)",
+      "Team Shots on Target Home (1 lineas)",
+      "Team Shots Home (1 lineas)",
+      "Team Shots on Target Away (1 lineas)",
+      "Team Shots Away (1 lineas)",
+      "Match Shots (1 lineas)",
+      "Match Shots on Target (1 lineas)"
+    ],
+    "no_disponibles": [],
+    "parciales": []
+  }
+}

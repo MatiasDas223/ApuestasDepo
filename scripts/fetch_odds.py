@@ -104,9 +104,76 @@ def oddsapi_get(endpoint, params=None):
         return json.loads(r.read())
 
 
+DB_DIR         = Path(r'C:\Users\Matt\Apuestas Deportivas\data\db')
+TEAM_ALIASES   = DB_DIR / 'team_aliases.csv'
+LEAGUE_ALIASES = DB_DIR / 'league_aliases.csv'
+
+
+def _load_team_aliases() -> dict:
+    """Carga {nombre_db_lower: oddsapi_name} desde team_aliases.csv."""
+    result = {}
+    if not TEAM_ALIASES.exists():
+        return result
+    import csv as _csv
+    with open(TEAM_ALIASES, newline='', encoding='utf-8') as f:
+        for r in _csv.DictReader(f):
+            name = r.get('oddsapi_name', '').strip()
+            if name:
+                result[r['nombre_db'].lower().strip()] = name
+    return result
+
+
+def _load_team_aliases_by_id() -> dict:
+    """Carga {team_id (int): oddsapi_name} desde team_aliases.csv."""
+    result = {}
+    if not TEAM_ALIASES.exists():
+        return result
+    import csv as _csv
+    with open(TEAM_ALIASES, newline='', encoding='utf-8') as f:
+        for r in _csv.DictReader(f):
+            name = r.get('oddsapi_name', '').strip()
+            if name:
+                try:
+                    result[int(r['team_id'])] = name
+                except (ValueError, KeyError):
+                    pass
+    return result
+
+
+def resolve_oddsapi_name_by_id(team_id: int) -> str | None:
+    """
+    Retorna el nombre en odds-api.io para un team_id.
+    None si no hay alias configurado.
+    """
+    return _load_team_aliases_by_id().get(team_id)
+
+
+def _load_league_aliases() -> dict:
+    """Carga {liga_id (int): oddsapi_slug} desde league_aliases.csv."""
+    result = {}
+    if not LEAGUE_ALIASES.exists():
+        return result
+    import csv as _csv
+    with open(LEAGUE_ALIASES, newline='', encoding='utf-8') as f:
+        for r in _csv.DictReader(f):
+            slug = r.get('oddsapi_slug', '').strip()
+            if slug:
+                result[int(r['liga_id'])] = slug
+    return result
+
+
+def get_league_slug(liga_id: int) -> str | None:
+    """Retorna el slug de oddsapi para una liga_id. None si no esta mapeado."""
+    return _load_league_aliases().get(liga_id)
+
+
 def _norm_team(s):
     """Normaliza nombre de equipo para comparacion fuzzy."""
-    s = s.lower()
+    import unicodedata
+    s = ''.join(
+        c for c in unicodedata.normalize('NFD', s)
+        if unicodedata.category(c) != 'Mn'
+    ).lower()
     s = re.sub(r'\s*\([a-z]+\)\s*$', '', s)          # quita " (ARG)" etc.
     for pfx in ['ca ', 'club atletico ', 'club ', 'atletico ']:
         if s.startswith(pfx):
@@ -115,10 +182,42 @@ def _norm_team(s):
     return s.strip()
 
 
+def _resolve_oddsapi_name(db_name: str) -> str:
+    """
+    Resuelve el nombre de oddsapi para un equipo de la DB.
+    Prioridad: 1) alias exacto en team_aliases.csv  2) nombre original (fuzzy)
+    """
+    aliases = _load_team_aliases()
+    key = db_name.lower().strip()
+    return aliases.get(key, db_name)
+
+
+def _sim(a: str, b: str) -> float:
+    """Similitud entre dos strings normalizados (0-1). Substring = 1.0."""
+    from difflib import SequenceMatcher
+    if not a or not b:
+        return 0.0
+    if a in b or b in a:
+        return 1.0
+    return SequenceMatcher(None, a, b).ratio()
+
+
+FUZZY_THRESHOLD = 0.72   # umbral minimo para aceptar match
+
+
 def find_event_oddsapi(team_local, team_visita,
-                       league_slug='argentina-liga-profesional'):
+                       league_slug='argentina-liga-profesional',
+                       home_id=None, away_id=None):
     """
     Busca el evento en odds-api.io para el partido dado.
+    Resolucion de nombre por prioridad:
+      1) team_id en team_aliases.csv (home_id / away_id si se pasan)
+      2) nombre_db en team_aliases.csv (lookup exacto)
+      3) nombre original
+    Matching:
+      - Primero busca substring (rapido)
+      - Si no encuentra, usa SequenceMatcher (maneja typos y prefijos distintos)
+      - Prueba ambas orientaciones home/away (oddsapi puede tenerlos invertidos)
     Retorna (event_id, home_api_name, away_api_name) o (None, None, None).
     """
     try:
@@ -132,17 +231,25 @@ def find_event_oddsapi(team_local, team_visita,
         print(f"  [oddsapi] Error buscando eventos: {e}")
         return None, None, None
 
-    # La respuesta puede venir directamente como lista o en 'data'
     if isinstance(resp, dict):
         resp = resp.get('data', [])
     if not isinstance(resp, list):
         resp = []
 
-    ln = _norm_team(team_local)
-    vn = _norm_team(team_visita)
+    # Resolver nombres: prioridad ID > nombre_db > original
+    id_aliases = _load_team_aliases_by_id() if (home_id or away_id) else {}
+    local_resolved  = (id_aliases.get(home_id)
+                       if home_id and home_id in id_aliases
+                       else _resolve_oddsapi_name(team_local))
+    visita_resolved = (id_aliases.get(away_id)
+                       if away_id and away_id in id_aliases
+                       else _resolve_oddsapi_name(team_visita))
 
-    best_local  = None
-    best_visita = None
+    ln = _norm_team(local_resolved)
+    vn = _norm_team(visita_resolved)
+
+    # Buscar el mejor match entre todos los eventos (normal o con home/away invertidos)
+    best_ev, best_score, best_h, best_a = None, 0.0, None, None
 
     for ev in resp:
         h  = ev.get('home', '')
@@ -150,17 +257,34 @@ def find_event_oddsapi(team_local, team_visita,
         hn = _norm_team(h)
         an = _norm_team(a)
 
-        local_match  = ln in hn or hn in ln
-        visita_match = vn in an or an in vn
+        # Orientacion normal (local=home, visita=away)
+        score_normal  = min(_sim(ln, hn), _sim(vn, an))
+        # Orientacion invertida (local=away, visita=home en oddsapi)
+        score_swapped = min(_sim(ln, an), _sim(vn, hn))
 
-        if local_match and visita_match:
-            return ev['id'], h, a
+        score = max(score_normal, score_swapped)
+        if score > best_score:
+            best_score = score
+            best_ev    = ev
+            best_h, best_a = h, a
 
-    # Fallback: mostrar opciones disponibles
-    print(f"  [oddsapi] No se encontro evento {team_local} vs {team_visita}")
-    print(f"  [oddsapi] Eventos disponibles en {league_slug}:")
-    for ev in resp[:15]:
-        print(f"    id={ev.get('id')}  {ev.get('home')} vs {ev.get('away')}  {ev.get('date','')[:10]}")
+    if best_ev and best_score >= FUZZY_THRESHOLD:
+        if best_score < 1.0:
+            print(f"  [oddsapi] Match fuzzy (score={best_score:.2f}): "
+                  f"'{local_resolved}'/'{visita_resolved}' -> '{best_h}'/'{best_a}'")
+        return best_ev['id'], best_h, best_a
+
+    # Sin match: mostrar opciones disponibles
+    print(f"  [oddsapi] No se encontro '{local_resolved}' vs '{visita_resolved}' "
+          f"en '{league_slug}' (mejor score={best_score:.2f})")
+    if resp:
+        print(f"  [oddsapi] Equipos disponibles:")
+        equipos_vistos = set()
+        for ev in resp:
+            for name in [ev.get('home', ''), ev.get('away', '')]:
+                if name and name not in equipos_vistos:
+                    equipos_vistos.add(name)
+                    print(f"    '{name}'")
     return None, None, None
 
 
@@ -220,8 +344,8 @@ def get_odds_oddsapi(event_id, force=False):
             hdp = float(hdp)
 
             # Mercados de linea entera (ej. "Over 8 corners") se convierten a half-point:
-            # "Over N"  (integer) → win: corners ≥ N+1 ≡ tc_over_{N+0.5}
-            # "Under N" (integer) → win: corners ≤ N-1 ≡ tc_under_{N-0.5}
+            # "Over N"  (integer) -> win: corners ≥ N+1 ≡ tc_over_{N+0.5}
+            # "Under N" (integer) -> win: corners ≤ N-1 ≡ tc_under_{N-0.5}
             # Esto garantiza que Over/Under se emparejen al mismo threshold en check2
             # (tc_over_8.5 de "Over 8" + tc_under_8.5 de "Under 9" son complementarios)
             if hdp == int(hdp):
@@ -261,7 +385,7 @@ def get_odds_oddsapi(event_id, force=False):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Mapeo de mercados API Football → claves internas
+# Mapeo de mercados API Football -> claves internas
 # ─────────────────────────────────────────────────────────────────────────────
 
 def parse_bets(bets_list):

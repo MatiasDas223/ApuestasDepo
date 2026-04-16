@@ -288,10 +288,22 @@ def fetch_team_matches(team_csv_name, team_id, allowed_leagues,
 
 
 def save_csv(all_rows):
-    """Guarda el CSV ordenado por fecha."""
+    """Guarda el CSV ordenado por fecha, preservando columnas existentes."""
+    file_fields = None
+    if CSV_PATH.exists():
+        with open(CSV_PATH, newline='', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            file_fields = list(reader.fieldnames) if reader.fieldnames else None
+    if file_fields:
+        merged = list(file_fields)
+        for col in CSV_FIELDS:
+            if col not in merged:
+                merged.append(col)
+    else:
+        merged = list(CSV_FIELDS)
     all_rows.sort(key=lambda r: (r['fecha'], int(r.get('fixture_id', 0))))
     with open(CSV_PATH, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+        writer = csv.DictWriter(f, fieldnames=merged, extrasaction='ignore')
         writer.writeheader()
         writer.writerows(all_rows)
     print(f"\nCSV guardado: {CSV_PATH}  ({len(all_rows)} filas total)")

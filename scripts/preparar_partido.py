@@ -123,13 +123,24 @@ def load_csv_fixture_ids():
 def append_to_csv(new_rows):
     """Agrega filas nuevas al CSV y reordena por fecha."""
     existing = []
+    file_fields = None
     if CSV_PATH.exists():
         with open(CSV_PATH, newline='', encoding='utf-8') as f:
-            existing = list(csv.DictReader(f))
+            reader = csv.DictReader(f)
+            file_fields = list(reader.fieldnames) if reader.fieldnames else None
+            existing = list(reader)
+    # Preservar columnas existentes (ej. stats extendidas de backfill)
+    if file_fields:
+        merged = list(file_fields)
+        for col in CSV_FIELDS:
+            if col not in merged:
+                merged.append(col)
+    else:
+        merged = list(CSV_FIELDS)
     all_rows = existing + new_rows
     all_rows.sort(key=lambda r: (r['fecha'], int(r.get('fixture_id', 0))))
     with open(CSV_PATH, 'w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+        w = csv.DictWriter(f, fieldnames=merged, extrasaction='ignore')
         w.writeheader(); w.writerows(all_rows)
     return len(all_rows)
 
@@ -222,12 +233,13 @@ def _leagues_for_team(team_id, liga_principal):
     """Devuelve la lista de ligas relevantes para el equipo según su liga principal."""
     # Ligas principales + copas asociadas
     LIGA_EXTRAS = {
-        128: [128, 130, 13],    # Liga Profesional + Copa Arg + Libertadores
-        140: [140, 848, 2],     # La Liga + Copa del Rey + Champions
-        39:  [39, 45, 2],       # Premier League + FA Cup + Champions
-        61:  [61, 65, 2],       # Ligue 1 + Coupe de France + Champions
-        78:  [78, 81, 2],       # Bundesliga + DFB Pokal + Champions
-        135: [135, 136, 2],     # Serie A + Coppa Italia + Champions
+        128: [128, 130, 13, 11],  # Liga Profesional + Copa Arg + Libertadores + Sudamericana
+        140: [140, 143, 848, 2],  # La Liga + Copa del Rey + Champions
+         39: [39, 45, 2],         # Premier League + FA Cup + Champions
+         61: [61, 65, 2],         # Ligue 1 + Coupe de France + Champions
+         78: [78, 81, 2, 3],      # Bundesliga + DFB Pokal + Champions + Europa
+        135: [135, 136, 2, 3],    # Serie A + Coppa Italia + Champions + Europa
+         71: [71, 13, 11],        # Brasileirao + Libertadores + Sudamericana
     }
     return LIGA_EXTRAS.get(liga_principal, [liga_principal])
 
@@ -547,8 +559,12 @@ if __name__ == '__main__':
     print(f"  BUSCANDO ODDS odds-api.io")
     print(f"{'='*60}")
     try:
+        liga_slug = (_fo.get_league_slug(upcoming_league_id)
+                     if upcoming_league_id else 'argentina-liga-profesional')
         oddsapi_event_id, home_api, away_api = _fo.find_event_oddsapi(
-            team_local_name, team_visita_name
+            team_local_name, team_visita_name,
+            league_slug=liga_slug or 'argentina-liga-profesional',
+            home_id=local_id_res, away_id=visita_id_res,
         )
         if oddsapi_event_id:
             print(f"  Evento encontrado: id={oddsapi_event_id}  {home_api} vs {away_api}")

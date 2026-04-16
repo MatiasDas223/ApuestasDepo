@@ -57,6 +57,7 @@ NAME_TO_ID = {
     # Central Cordoba
     'central c\u00f3rdoba': 1065,
     'central cordoba': 1065,
+    'central cordoba de santiago': 1065,
     # Gimnasia Mendoza
     'gimnasia m.': 1066,
     'gimnasia mendoza': 1066,
@@ -294,7 +295,7 @@ def migrate(dry_run=False):
         'tarjetas_local', 'tarjetas_visitante',
     ]
     with open(CSV_NEW, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fields)
+        writer = csv.DictWriter(f, fieldnames=fields, extrasaction='ignore')
         writer.writeheader()
         writer.writerows(new_rows)
 

@@ -6,7 +6,7 @@ Uso: editar TEAM_LOCAL, TEAM_VISITA, COMPETITION y ODDS al final del archivo.
 import sys
 sys.path.insert(0, r'C:\Users\Matt\Apuestas Deportivas\scripts')
 
-from modelo_v2 import (load_csv, compute_match_params, run_simulation,
+from modelo_v3 import (load_csv, compute_match_params, run_simulation,
                        _remove_vig, MIN_EDGE, poisson_sample, norm as norm_text,
                        MIN_MATCHES, load_teams_db, resolve_team_id)
 
@@ -29,7 +29,7 @@ def compute_arco_params(team_local, team_visita, rows, competition=None):
         def_vis   = avg_arco_concedidos_vis(away)  / la_arco_home
     """
     # Liga: promedios de referencia (filtrado por liga_id con fallback)
-    from modelo_v2 import load_leagues_db, resolve_liga_id
+    from modelo_v3 import load_leagues_db, resolve_liga_id
     _, name_to_id_leagues = load_leagues_db()
     liga_id_filter = resolve_liga_id(competition, name_to_id_leagues) if competition else None
     comp_rows = [r for r in rows
@@ -160,6 +160,17 @@ def compute_all_probs(sim):
     for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5]:
         p[f'cv_over_{thr}']  = over(cv, thr)
         p[f'cv_under_{thr}'] = under(cv, thr)
+
+    # Tarjetas totales (vienen de run_simulation via mu_tarjetas_local/vis)
+    if 'tl' in sim:
+        tl_s = sim['tl']
+        tv_s = sim['tv']
+        tt_s = [tl_s[i] + tv_s[i] for i in range(n)]
+        for thr in [2.5, 3.5, 4.5, 5.5, 6.5, 7.5]:
+            p[f'cards_over_{thr}']  = over(tt_s, thr)
+            p[f'cards_under_{thr}'] = under(tt_s, thr)
+        p['E_tl'] = sum(tl_s) / n
+        p['E_tv'] = sum(tv_s) / n
 
     # Remates al arco (solo si el sim fue enriquecido con sla_arco/sva_arco)
     if 'sla_arco' in sim:
@@ -545,6 +556,11 @@ def analizar_value_bets(probs, odds, team_local, team_visita, min_edge=MIN_EDGE)
         check2(f'Arco {team_visita} O/U {thr}', f'sva_over_{thr}', f'sva_under_{thr}',
                o.get(f'sva_over_{thr}'), o.get(f'sva_under_{thr}'))
 
+    # Tarjetas totales
+    for thr in [2.5, 3.5, 4.5, 5.5, 6.5, 7.5]:
+        check2(f'Tarjetas tot. O/U {thr}', f'cards_over_{thr}', f'cards_under_{thr}',
+               o.get(f'cards_over_{thr}'), o.get(f'cards_under_{thr}'))
+
     vb.sort(key=lambda x: -x['edge'])
     return vb
 
@@ -562,7 +578,10 @@ def print_analisis(team_local, team_visita, competition, params, probs, value_be
     arco_info = sim.get('arco_params', {})
     print(f"\n[PARAMETROS]  (local n={params['n_local_home']}  visita n={params['n_vis_away']})")
     print(f"   lambda goles: local={params['lambda_local']:.3f}  visita={params['lambda_vis']:.3f}")
-    print(f"   mu corners : local={params['mu_corners_local']:.2f}  visita={params['mu_corners_vis']:.2f}")
+    print(f"   mu corners : total={params['mu_corners_total']:.2f}  "
+          f"(local={params['mu_corners_local']:.2f}  visita={params['mu_corners_vis']:.2f}  "
+          f"share={params['share_corners_loc']:.1%}  k={params['k_corners']:.1f})")
+    print(f"   mu tarjetas: local={params['mu_tarjetas_local']:.2f}  visita={params['mu_tarjetas_vis']:.2f}")
     print(f"   mu tiros   : local={params['mu_shots_local']:.1f}+/-{params['sigma_shots_local']:.1f}  "
           f"visita={params['mu_shots_vis']:.1f}+/-{params['sigma_shots_vis']:.1f}")
     if arco_info:
@@ -574,9 +593,12 @@ def print_analisis(team_local, team_visita, competition, params, probs, value_be
     E_s = probs['E_sl']+probs['E_sv']
     E_c = probs['E_cl']+probs['E_cv']
     print(f"\n[VALORES ESPERADOS]")
-    print(f"   Goles  : {E_g:.2f}  ({team_local}:{probs['E_gl']:.2f}  {team_visita}:{probs['E_gv']:.2f})")
-    print(f"   Tiros  : {E_s:.2f}  ({team_local}:{probs['E_sl']:.2f}  {team_visita}:{probs['E_sv']:.2f})")
-    print(f"   Corners: {E_c:.2f}  ({team_local}:{probs['E_cl']:.2f}  {team_visita}:{probs['E_cv']:.2f})")
+    print(f"   Goles    : {E_g:.2f}  ({team_local}:{probs['E_gl']:.2f}  {team_visita}:{probs['E_gv']:.2f})")
+    print(f"   Tiros    : {E_s:.2f}  ({team_local}:{probs['E_sl']:.2f}  {team_visita}:{probs['E_sv']:.2f})")
+    print(f"   Corners  : {E_c:.2f}  ({team_local}:{probs['E_cl']:.2f}  {team_visita}:{probs['E_cv']:.2f})")
+    if 'E_tl' in probs:
+        E_t = probs['E_tl'] + probs['E_tv']
+        print(f"   Tarjetas : {E_t:.2f}  ({team_local}:{probs['E_tl']:.2f}  {team_visita}:{probs['E_tv']:.2f})")
 
     def j(p): return f"{1/p:.2f}" if p > 0.001 else ">999"
 
@@ -685,7 +707,7 @@ _VB_COLS = [
 ]
 
 def guardar_value_bets(value_bets, team_local, team_visita, competition,
-                       fixture_id=None, metodo='v2'):
+                       fixture_id=None, metodo='v3.1'):
     """
     Agrega las value bets detectadas al CSV de seguimiento.
     Deduplica por (fixture_id, mercado, lado) — correr el analisis varias
@@ -719,10 +741,10 @@ def guardar_value_bets(value_bets, team_local, team_visita, competition,
             'mercado':        vb['market'],
             'lado':           vb['lado'],
             'odds':           f"{vb['odds']:.2f}",
-            'modelo_prob':    f"{vb['model_p']:.1%}",
-            'implied_prob':   f"{vb['implied_p']:.1%}",
-            'edge':           f"{vb['edge']:+.1%}",
-            'ev_pct':         f"{vb['EV_%']:+.1f}",
+            'modelo_prob':    f"{vb['model_p']:.4f}",
+            'implied_prob':   f"{vb['implied_p']:.4f}",
+            'edge':           f"{vb['edge']:.4f}",
+            'ev_pct':         f"{vb['EV_%']/100:.4f}",
             'metodo':         metodo,
             'resultado':      '',
         })
@@ -740,6 +762,215 @@ def guardar_value_bets(value_bets, team_local, team_visita, competition,
 
     print(f"\n  [tracking] {len(nuevas)} value bet(s) guardadas -> {_VB_CSV.name}")
     print(f"  [tracking] Completar columna 'resultado' con:  W (ganada)  L (perdida)  V (void)")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SEGUIMIENTO DE PRONÓSTICOS (todos los mercados, con o sin valor)
+# ─────────────────────────────────────────────────────────────────────────────
+
+_PRON_CSV  = _Path(r'C:\Users\Matt\Apuestas Deportivas\data\apuestas\pronosticos.csv')
+_PRON_COLS = [
+    'fecha_analisis', 'fixture_id', 'partido', 'competicion',
+    'mercado', 'lado', 'odds', 'modelo_prob', 'implied_prob',
+    'edge', 'ev_pct', 'metodo', 'resultado',
+]
+
+
+def _collect_all_market_entries(probs, odds, team_local, team_visita):
+    """
+    Genera una lista con TODAS las entradas de mercado, sin filtro de edge.
+    Cada entrada: dict con market, lado, model_p, odds, implied_p, edge, ev_pct.
+    Si no hay cuota para ese lado: odds/implied_p/edge/ev_pct = None.
+    """
+    entries = []
+    o = odds
+
+    def _vig2(bk_o, bk_u):
+        if bk_o and bk_u:
+            return _remove_vig(bk_o, bk_u)
+        return (1/bk_o if bk_o else None), (1/bk_u if bk_u else None)
+
+    def add2(label, pk_o, pk_u, bk_over, bk_under):
+        fp_over, fp_under = _vig2(bk_over, bk_under)
+        for pk, fp, bk, lado in [
+            (pk_o, fp_over,  bk_over,  'Over/Si'),
+            (pk_u, fp_under, bk_under, 'Under/No'),
+        ]:
+            if pk not in probs:
+                continue
+            model_p = probs[pk]
+            if fp is not None and bk is not None:
+                edge   = model_p - fp
+                ev_pct = (model_p * bk - 1) * 100
+            else:
+                edge = ev_pct = None
+            entries.append({
+                'market': label, 'lado': lado,
+                'model_p': model_p,
+                'odds': bk, 'implied_p': fp,
+                'edge': edge, 'ev_pct': ev_pct,
+            })
+
+    # 1X2
+    if all(k in o for k in ('1', 'X', '2')):
+        fp1, fpx, fp2 = _remove_vig(o['1'], o['X'], o['2'])
+        for pk, fp, bk, lbl, lado in [
+            ('1', fp1, o['1'], f'1X2 -> {team_local} gana',   ''),
+            ('X', fpx, o['X'], '1X2 -> Empate',               ''),
+            ('2', fp2, o['2'], f'1X2 -> {team_visita} gana',  ''),
+        ]:
+            if pk not in probs:
+                continue
+            model_p = probs[pk]
+            edge   = model_p - fp
+            ev_pct = (model_p * bk - 1) * 100
+            entries.append({
+                'market': lbl, 'lado': lado,
+                'model_p': model_p,
+                'odds': bk, 'implied_p': fp,
+                'edge': edge, 'ev_pct': ev_pct,
+            })
+    else:
+        # Sin cuotas: guardar igual con probabilidad del modelo
+        for pk, lbl, lado in [
+            ('1', f'1X2 -> {team_local} gana',   ''),
+            ('X', '1X2 -> Empate',               ''),
+            ('2', f'1X2 -> {team_visita} gana',  ''),
+        ]:
+            if pk in probs:
+                entries.append({'market': lbl, 'lado': lado,
+                                'model_p': probs[pk],
+                                'odds': None, 'implied_p': None,
+                                'edge': None, 'ev_pct': None})
+
+    # BTTS
+    add2('BTTS', 'btts_si', 'btts_no', o.get('btts_si'), o.get('btts_no'))
+
+    # Goles totales
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5]:
+        add2(f'Goles tot. O/U {thr}', f'g_over_{thr}', f'g_under_{thr}',
+             o.get(f'g_over_{thr}'), o.get(f'g_under_{thr}'))
+
+    # Goles local
+    for thr in [0.5, 1.5, 2.5]:
+        add2(f'Goles {team_local} O/U {thr}', f'gl_over_{thr}', f'gl_under_{thr}',
+             o.get(f'gl_over_{thr}'), o.get(f'gl_under_{thr}'))
+
+    # Goles visita
+    for thr in [0.5, 1.5, 2.5]:
+        add2(f'Goles {team_visita} O/U {thr}', f'gv_over_{thr}', f'gv_under_{thr}',
+             o.get(f'gv_over_{thr}'), o.get(f'gv_under_{thr}'))
+
+    # Tiros totales
+    for thr in [i + 0.5 for i in range(11, 32)]:
+        add2(f'Tiros tot. O/U {thr}', f'ts_over_{thr}', f'ts_under_{thr}',
+             o.get(f'ts_over_{thr}'), o.get(f'ts_under_{thr}'))
+
+    # Tiros local
+    for thr in [6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5, 15.5, 16.5, 17.5]:
+        add2(f'Tiros {team_local} O/U {thr}', f'sl_over_{thr}', f'sl_under_{thr}',
+             o.get(f'sl_over_{thr}'), o.get(f'sl_under_{thr}'))
+
+    # Tiros visita
+    for thr in [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5, 15.5, 16.5]:
+        add2(f'Tiros {team_visita} O/U {thr}', f'sv_over_{thr}', f'sv_under_{thr}',
+             o.get(f'sv_over_{thr}'), o.get(f'sv_under_{thr}'))
+
+    # Corners totales
+    for thr in [3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5]:
+        add2(f'Corners tot. O/U {thr}', f'tc_over_{thr}', f'tc_under_{thr}',
+             o.get(f'tc_over_{thr}'), o.get(f'tc_under_{thr}'))
+
+    # Corners local
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5]:
+        add2(f'Corners {team_local} O/U {thr}', f'cl_over_{thr}', f'cl_under_{thr}',
+             o.get(f'cl_over_{thr}'), o.get(f'cl_under_{thr}'))
+
+    # Corners visita
+    for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5]:
+        add2(f'Corners {team_visita} O/U {thr}', f'cv_over_{thr}', f'cv_under_{thr}',
+             o.get(f'cv_over_{thr}'), o.get(f'cv_under_{thr}'))
+
+    # Remates al arco totales
+    for thr in [3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5]:
+        add2(f'Arco tot. O/U {thr}', f'ta_over_{thr}', f'ta_under_{thr}',
+             o.get(f'ta_over_{thr}'), o.get(f'ta_under_{thr}'))
+
+    # Remates al arco local
+    for thr in [1.5, 2.5, 3.5, 4.5, 5.5, 6.5]:
+        add2(f'Arco {team_local} O/U {thr}', f'sla_over_{thr}', f'sla_under_{thr}',
+             o.get(f'sla_over_{thr}'), o.get(f'sla_under_{thr}'))
+
+    # Remates al arco visita
+    for thr in [1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5]:
+        add2(f'Arco {team_visita} O/U {thr}', f'sva_over_{thr}', f'sva_under_{thr}',
+             o.get(f'sva_over_{thr}'), o.get(f'sva_under_{thr}'))
+
+    # Tarjetas totales
+    for thr in [2.5, 3.5, 4.5, 5.5, 6.5, 7.5]:
+        add2(f'Tarjetas tot. O/U {thr}', f'cards_over_{thr}', f'cards_under_{thr}',
+             o.get(f'cards_over_{thr}'), o.get(f'cards_under_{thr}'))
+
+    return entries
+
+
+def guardar_pronosticos(probs, odds, team_local, team_visita, competition,
+                        fixture_id=None, metodo='v3.1'):
+    """
+    Guarda TODOS los pronósticos (todos los mercados) en pronosticos.csv,
+    tengan valor o no. Útil para calibración posterior del modelo.
+    Deduplica por (fixture_id, mercado, lado).
+    La columna 'resultado' queda vacía para completar manualmente: W / L / V
+    """
+    _PRON_CSV.parent.mkdir(parents=True, exist_ok=True)
+
+    # Cargar existentes
+    existing, seen = [], set()
+    if _PRON_CSV.exists():
+        with open(_PRON_CSV, newline='', encoding='utf-8') as f:
+            for r in _csv.DictReader(f):
+                existing.append(r)
+                seen.add((r['fixture_id'], r['mercado'], r['lado']))
+
+    partido = f"{team_local} vs {team_visita}"
+    ahora   = _dt.now().strftime('%Y-%m-%d %H:%M')
+    fid_str = str(fixture_id) if fixture_id else ''
+
+    entries = _collect_all_market_entries(probs, odds, team_local, team_visita)
+
+    nuevas = []
+    for e in entries:
+        key = (fid_str, e['market'], e['lado'])
+        if key in seen:
+            continue
+        nuevas.append({
+            'fecha_analisis': ahora,
+            'fixture_id':     fid_str,
+            'partido':        partido,
+            'competicion':    competition,
+            'mercado':        e['market'],
+            'lado':           e['lado'],
+            'odds':           f"{e['odds']:.2f}"    if e['odds']     is not None else '',
+            'modelo_prob':    f"{e['model_p']:.4f}" if e['model_p']  is not None else '',
+            'implied_prob':   f"{e['implied_p']:.4f}" if e['implied_p'] is not None else '',
+            'edge':           f"{e['edge']:.4f}"    if e['edge']     is not None else '',
+            'ev_pct':         f"{e['ev_pct']/100:.4f}" if e['ev_pct'] is not None else '',
+            'metodo':         metodo,
+            'resultado':      '',
+        })
+        seen.add(key)
+
+    if not nuevas:
+        print(f"  [pronosticos] Sin entradas nuevas (ya registradas o fixture sin datos)")
+        return
+
+    all_rows = existing + nuevas
+    with open(_PRON_CSV, 'w', newline='', encoding='utf-8') as f:
+        w = _csv.DictWriter(f, fieldnames=_PRON_COLS)
+        w.writeheader()
+        w.writerows(all_rows)
+
+    print(f"  [pronosticos] {len(nuevas)} entrada(s) guardadas -> {_PRON_CSV.name}")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -919,6 +1150,7 @@ if __name__ == '__main__':
     vb    = analizar_value_bets(probs, ODDS, TEAM_LOCAL, TEAM_VISITA)
     print_analisis(TEAM_LOCAL, TEAM_VISITA, COMPETITION, params, probs, vb)
     guardar_value_bets(vb, TEAM_LOCAL, TEAM_VISITA, COMPETITION, FIXTURE_ID)
+    guardar_pronosticos(probs, ODDS, TEAM_LOCAL, TEAM_VISITA, COMPETITION, FIXTURE_ID)
 
     # ─────────────────────────────────────────────────────────────────────────
     # APUESTAS COMBINADAS — editá esta sección con tus selecciones

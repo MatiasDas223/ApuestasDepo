@@ -1,8 +1,106 @@
 id,nombre,pais,liga_id_principal
+33,Manchester United,?,3
 34,Newcastle,England,39
+35,Bournemouth,?,39
+36,Fulham,?,39
+39,Wolves,?,39
+40,Liverpool,?,2
+41,Southampton,?,39
+42,Arsenal,?,2
+44,Burnley,?,39
+45,Everton,?,39
+46,Leicester,?,39
 47,Tottenham,England,39
+48,West Ham,?,39
+49,Chelsea,?,39
+50,Manchester City,?,2
+51,Brighton,?,39
+52,Crystal Palace,?,39
+55,Brentford,?,39
+57,Ipswich,?,39
+62,Sheffield Utd,?,39
+63,Leeds,?,39
+65,Nottingham Forest,?,39
+66,Aston Villa,?,2
+79,Lille,?,2
+80,Lyon,?,3
+81,Marseille,?,2
+84,Nice,?,3
+85,Paris Saint Germain,?,2
+91,Monaco,?,2
+95,Strasbourg,?,848
+106,Stade Brestois 29,?,2
+118,Bahia,?,13
+119,Internacional,?,13
+120,Botafogo,?,13
+121,Palmeiras,?,13
+123,Sport Recife,?,71
+124,Fluminense,?,11
+126,Sao Paulo,?,13
+127,Flamengo,?,13
+128,Santos,?,71
+129,Ceara,?,71
+130,Gremio,?,11
+131,Corinthians,?,11
+132,Chapecoense-sc,?,71
+133,Vasco DA Gama,?,11
+134,Atletico Paranaense,?,71
+135,Cruzeiro,?,11
+136,Vitoria,?,11
+140,Criciuma,?,71
+144,Atletico Goianiense,?,71
+147,Coritiba,?,71
+152,Juventude,?,71
+154,Fortaleza EC,?,13
+157,Bayern München,?,2
+158,Fortuna Dusseldorf,?,78
+159,Hertha BSC,?,81
+160,SC Freiburg,?,78
+161,VfL Wolfsburg,?,78
+162,Werder Bremen,?,78
+163,Borussia Monchengladbach,?,78
+164,FSV Mainz 05,?,78
+165,Borussia Dortmund,?,2
+167,1899 Hoffenheim,?,3
+168,Bayer Leverkusen,?,2
+169,Eintracht Frankfurt,?,3
+170,FC Augsburg,?,78
+172,VfB Stuttgart,?,2
+173,RB Leipzig,?,2
+175,Hamburger SV,?,78
+176,Vfl Bochum,?,78
+180,FC Heidenheim,?,78
+181,SV Darmstadt 98,?,78
+182,Union Berlin,?,78
+186,FC St. Pauli,?,78
+191,Holstein Kiel,?,78
+192,1. FC Köln,?,78
+194,Ajax,?,3
+197,PSV Eindhoven,?,2
+201,AZ Alkmaar,?,3
+209,Feyenoord,?,2
+211,Benfica,?,2
+212,FC Porto,?,3
+217,SC Braga,?,3
+228,Sporting CP,?,2
+247,Celtic,?,2
+250,Kilmarnock,?,3
+254,Heart Of Midlothian,?,3
+257,Rangers,?,3
+276,Breidablik,?,848
+278,Vikingur Reykjavik,?,2
 327,Bodo/Glimt,?,2
+329,Molde,?,3
+336,Jagiellonia,?,2
+338,Wisla Krakow,?,3
+354,The New Saints,?,2
+372,IF Elfsborg,?,3
+375,Malmo FF,?,3
+394,Dinamo Minsk,?,2
+397,FC Midtjylland,?,3
 400,FC Copenhagen,?,2
+410,GO Ahead Eagles,?,3
+415,Twente,?,3
 434,Gimnasia L.P.,?,128
 435,River Plate,Argentina,128
 436,Racing Club,Argentina,128
@@ -15,6 +113,8 @@ id,nombre,pais,liga_id_principal
 443,Olimpo Bahia Blanca,Argentina,130
 445,Huracan,Argentina,128
 446,Lanus,Argentina,128
+447,Chacarita Juniors,?,130
+448,Colon Santa Fe,?,130
 449,Banfield,Argentina,128
 450,Estudiantes L.P.,Argentina,128
 451,Boca Juniors,Argentina,128
@@ -25,57 +125,470 @@ id,nombre,pais,liga_id_principal
 456,Talleres Cordoba,Argentina,128
 457,Newells Old Boys,Argentina,128
 458,Argentinos JRS,Argentina,128
+459,Arsenal Sarandi,?,130
 460,San Lorenzo,Argentina,128
 461,San Martin S.J.,Argentina,130
 462,Agropecuario,Argentina,130
 463,Aldosivi,Argentina,128
+464,All Boys,?,130
 465,Atletico DE Rafaela,Argentina,130
+466,Atletico Mitre,?,130
 469,Deportivo Moron,Argentina,130
 473,Independ. Rivadavia,Argentina,128
 474,Sarmiento Junin,Argentina,128
+475,Santamarina,?,130
 476,Deportivo Riestra,Argentina,128
 478,Instituto Cordoba,Argentina,128
 479,Gimnasia Jujuy,Argentina,130
+480,Quilmes,?,130
+483,Los Andes,?,130
+484,Nueva Chicago,?,130
 485,San Martin Tucuman,Argentina,130
+487,Lazio,?,3
+488,Sassuolo,?,135
+489,AC Milan,?,2
+490,Cagliari,?,135
+492,Napoli,?,135
+494,Udinese,?,135
+495,Genoa,?,135
+496,Juventus,?,2
+497,AS Roma,?,3
+498,Sampdoria,?,136
+499,Atalanta,?,2
+500,Bologna,?,2
+502,Fiorentina,?,135
+503,Torino,?,135
+504,Hellas Verona,?,135
+505,Inter,?,2
+508,Bari,?,136
+509,Cesena,?,136
+511,Empoli,?,135
+512,Frosinone,?,135
+514,Salernitana,?,135
+515,Spezia,?,136
+517,Venezia,?,135
+520,Cremonese,?,135
+522,Palermo,?,136
+523,Parma,?,135
+525,Pescara,?,136
+527,Virtus Entella,?,136
+528,Avellino,?,136
 529,Barcelona,Spain,140
 530,Atletico Madrid,Spain,140
 531,Athletic Club,Spain,140
 532,Valencia,Spain,140
 533,Villarreal,Spain,140
+534,Las Palmas,?,140
+535,Malaga,?,143
 536,Sevilla,Spain,140
+537,Leganes,?,140
 538,Celta Vigo,Spain,140
 539,Levante,Spain,140
 540,Espanyol,Spain,140
 541,Real Madrid,Spain,140
 542,Alaves,Spain,140
 543,Real Betis,Spain,140
+544,Deportivo La Coruna,?,143
+545,Eibar,?,143
 546,Getafe,Spain,140
 547,Girona,Spain,140
 548,Real Sociedad,Spain,140
+549,Beşiktaş,?,3
+550,Shakhtar Donetsk,?,2
+552,Maribor,?,3
+553,Olympiakos Piraeus,?,3
+554,Anderlecht,?,3
+556,Qarabag,?,3
+559,FCSB,?,2
 560,Slavia Praha,?,2
+561,HNK Rijeka,?,3
+565,BSC Young Boys,?,2
+566,Ludogorets,?,3
+567,Plzen,?,3
+568,Sheriff Tiraspol,?,3
 569,Club Brugge,Belgium,144
+571,Red Bull Salzburg,?,2
+572,Dynamo Kyiv,?,3
+573,FK Partizan,?,2
+575,AEK Athens FC,?,848
+593,Europa Fc,?,143
+598,FK Crvena Zvezda,?,2
+604,Maccabi Tel Aviv,?,3
+606,FC Lugano,?,2
+611,Fenerbahçe,?,3
+617,Panathinaikos,?,3
+619,PAOK,?,3
+620,Dinamo Zagreb,?,2
+628,Sparta Praha,?,2
+632,Universitatea Craiova,?,848
+634,Botev Plovdiv,?,3
+637,Sturm Graz,?,2
 645,Galatasaray,?,2
+648,Zira,?,3
+649,HJK Helsinki,?,2
+651,Ferencvarosi TC,?,3
+652,Shamrock Rovers,?,2
+656,Slovan Bratislava,?,2
+664,Kairat Almaty,?,2
+667,Lincoln Red Imps FC,?,2
+684,FC Differdange 03,?,2
+687,Flora Tallinn,?,2
+692,Ordabasy,?,2
+701,KI Klaksvik,?,2
+702,Vojvodina,?,3
+703,UE Santa Coloma,?,2
+705,Dinamo Batumi,?,2
+709,Pyunik Yerevan,?,2
+711,Alcorcon,?,143
+713,Cordoba,?,143
+714,Gimnastic,?,143
+715,Granada CF,?,140
+717,Numancia,?,143
 718,Oviedo,Spain,140
+719,Tenerife,?,143
+720,Valladolid,?,140
 722,Albacete,Spain,141
+723,Almeria,?,140
+724,Cadiz,?,140
+725,Cultural Leonesa,?,143
+726,Huesca,?,143
 727,Osasuna,Spain,140
 728,Rayo Vallecano,Spain,140
+731,Sporting Gijon,?,143
+732,Zaragoza,?,143
+741,Cercle Brugge,?,3
+742,Genk,?,3
+746,Sunderland,?,39
+781,Rapid Vienna,?,3
+789,Douglas Haig,?,130
+790,Central Cordoba,?,130
+794,RB Bragantino,?,71
 797,Elche,Spain,140
 798,Mallorca,Spain,140
+799,Mirandes,?,143
+800,Ucam Murcia,?,143
+801,Pisa,?,135
+861,Rayo Majadahonda,?,143
+863,Juve Stabia,?,136
+867,Lecce,?,135
+870,Padova,?,136
+880,Reggiana,?,136
+895,Como,?,135
+899,Modena,?,136
+998,Trabzonspor,?,3
+1026,Lask Linz,?,3
+1062,Atletico-MG,?,11
 1064,Platense,Argentina,128
 1065,Central Cordoba,Argentina,128
 1066,Gimnasia Mendoza,Argentina,128
+1067,Defensores De Belgrano,?,130
+1125,Millonarios,?,11
 1128,Independiente Medellin,?,13
+1131,Bucaramanga,?,13
+1135,Junior,?,11
+1136,Once Caldas,?,11
+1137,Atletico Nacional,?,13
+1138,America de Cali,?,11
+1139,Santa Fe,?,13
+1142,Deportes Tolima,?,13
+1150,El Nacional,?,13
+1152,Barcelona SC,?,13
+1153,Independiente del Valle,?,13
+1154,Deportivo Cuenca,?,11
+1155,Macara,?,11
+1156,Aucas,?,11
+1157,Universidad Catolica,?,11
+1158,LDU de Quito,?,13
+1162,Mushuc Runa SC,?,11
+1174,Club Guarani,?,11
+1175,Nacional Asuncion,?,13
+1176,Cerro Porteno,?,13
+1179,Libertad Asuncion,?,13
+1182,Olimpia,?,13
+1183,Sportivo Luqueno,?,11
+1193,Cuiaba,?,71
+1198,Remo,?,71
+1359,Luton,?,39
+1380,Macclesfield,?,45
+1393,Union St. Gilloise,?,2
+1578,Sudtirol,?,136
+1579,Monza,?,135
+1581,Carrarese,?,136
+1660,SV Elversberg,?,78
+1687,Catanzaro,?,136
+1693,Mantova,?,136
+1837,Wrexham,?,45
+1924,Deportivo Laferrere,?,130
+1927,Talleres Remedios,?,130
+1928,Gimnasia Y Tiro,?,130
 1929,Deportivo Madryn,Argentina,130
 1931,Sportivo Barracas,Argentina,130
+1932,San Telmo,?,130
 1935,San Martin Formosa,?,130
+1936,CA Estudiantes,?,130
+1938,Villa Mitre,?,130
+1946,Chaco For Ever,?,130
 1948,Atlanta,?,130
+1950,Sportivo Las Parejas,?,130
+1951,Central Norte,?,130
 1954,Deportivo Maipu,?,130
+1955,General Lamadrid,?,130
+1957,Racing Cordoba,?,130
+1959,Deportivo Rincon,?,130
+1960,Independiente De Chivilcoy,?,130
+1963,Midland,?,130
+1965,Tristan Suarez,?,130
+1966,Sportivo Belgrano,?,130
+1992,Orense SC,?,11
+2073,Silkeborg,?,3
+2140,2 de Mayo,?,11
+2184,Servette FC,?,3
+2247,Apoel Nicosia,?,2
+2259,FK Tobol Kostanay,?,3
+2271,Petrocub,?,3
+2315,Colo Colo,?,13
+2318,Palestino,?,11
+2319,Deportes Iquique,?,13
+2320,O'Higgins,?,11
+2321,Union Espanola,?,11
+2323,Universidad de Chile,?,13
+2325,Everton de Vina,?,11
+2328,Huachipato,?,13
+2329,A. Italiano,?,11
+2330,Coquimbo Unido,?,13
+2331,Cobresal,?,11
+2337,Nublense,?,13
+2348,Penarol,?,13
+2350,Defensor Sporting,?,13
+2352,Danubio,?,11
+2353,Juventud,?,11
+2356,Club Nacional,?,13
+2358,Liverpool Montevideo,?,13
+2359,Racing Montevideo,?,11
+2360,Wanderers,?,11
+2361,Boston River,?,11
+2365,Atletico Torque,?,11
+2369,Cerro Largo,?,11
+2390,Paks,?,3
 2422,Real Pilar,Argentina,130
 2424,Estudiantes RC,Argentina,128
+2425,Acassuso,?,130
+2427,Deportivo Armenio,?,130
+2430,Argentino de Merlo,?,130
 2432,Barracas Central,Argentina,128
+2540,Universitario,?,13
+2546,Sporting Cristal,?,13
+2553,Alianza Lima,?,13
+2554,FBC Melgar,?,11
+2560,Alianza Atletico,?,11
+2562,Cienciano,?,11
+2564,Atletico Grau,?,11
+2646,TSC Backa Topola,?,3
+2807,Deportivo Tachira FC,?,13
+2808,Caracas FC,?,11
+2810,Carabobo FC,?,13
+2811,Monagas SC,?,13
+2813,Deportivo La Guaira,?,11
+2825,Metropolitanos FC,?,11
+2827,Puerto Cabello,?,11
+2840,UCV,?,13
 2994,Universidad Catolica,Chile,13
+3327,Egnatia Rrogozhinë,?,2
+3364,Borac Banja Luka,?,2
+3403,Pafos,?,3
+3549,Ružomberok,?,3
+3603,Samsunspor,?,848
+3637,Aurora,?,11
+3700,Always Ready,?,13
+3701,Blooming,?,13
+3702,Bolívar,?,11
+3704,Guabirá,?,11
+3706,Nacional Potosí,?,11
+3711,The Strongest,?,13
+3745,Dečić,?,2
+3874,Panevėžys,?,2
+3943,Deportivo Camioneros,?,130
+3947,Juventud Unida Univ.,?,130
+3975,Kimberley Mar del Plata,?,130
+4160,Rīgas FS,?,2
+4346,Struga,?,2
+4360,Celje,?,2
+4495,Maccabi Petah Tikva,?,3
+4626,Hamrun Spartans,?,2
+4665,Racing Santander,?,143
+4666,Hércules,?,143
+4907,Ponferradina,?,143
+5250,Badalona,?,143
+5251,Barakaldo,?,143
+5253,CF Talavera,?,143
+5254,Castellón,?,143
+5256,Compostela,?,143
+5257,Conquense,?,143
+5259,Don Benito,?,143
+5261,Ebro,?,143
+5262,FC Cartagena,?,143
+5265,Langreo,?,143
+5266,Lleida Esportiu,?,143
+5267,Marbella,?,143
+5270,Mutilvera,?,143
+5271,Navalcarnero,?,143
+5273,Poblense,?,143
+5274,Real Jaén,?,143
+5275,Real Murcia,?,143
+5277,Sant Andreu,?,143
+5278,Teruel,?,143
+5279,Tudelano,?,143
+5280,UD Logroñés,?,143
+5281,Unionistas de Salamanca,?,143
+5283,Yeclano,?,143
+5308,Virtus,?,2
+5354,Larne,?,2
+6489,Kryvbas KR,?,3
+7522,Antoniano,?,143
+7524,Melilla CD,?,143
+7848,Mirassol,?,13
+8008,Comunicaciones,?,130
+8157,FC Andorra,?,143
+8375,Almirante Brown,?,130
+8376,Argentino Quilmes,?,130
+8377,Colegiales,?,130
 8379,San Miguel,?,130
+8381,Deportivo Español,?,130
+8382,Berazategui,?,130
+8384,El Porvenir,?,130
+8385,Excursionistas,?,130
 8386,Ituzaingó,?,130
+8387,San Martín Burzaco,?,130
+8390,Centro Español,?,130
+8391,Claypole,?,130
+9380,Amorebieta,?,143
+9381,Atlético Baleares,?,143
+9383,Bergantiños,?,143
+9384,Cacereño,?,143
+9386,Escobedo,?,143
+9387,Gimnástica Segoviana,?,143
+9388,Guijuelo,?,143
+9390,Ibiza,?,143
+9392,L'Hospitalet,?,143
+9394,Laredo,?,143
+9395,Las Rozas,?,143
+9400,Lorca Deportiva,?,143
+9403,Olot,?,143
+9404,Orihuela,?,143
+9407,Pontevedra,?,143
+9408,Portugalete,?,143
+9409,Racing Ferrol,?,143
+9411,SD Logroñés,?,143
+9412,SS Reyes,?,143
+9416,Tarazona,?,143
+9418,Zamora,?,143
+9578,Arenas Getxo,?,143
+9580,Burgos,?,143
+9588,Salamanca UDS,?,143
+9589,Ejea,?,143
+9593,Sabadell,?,143
+9600,San Fernando CD,?,143
+9612,Ourense CF,?,143
+9617,UD Ourense,?,143
+9619,Caudal,?,143
+9627,Llanera,?,143
+9632,Real Avilés,?,143
+9645,Selaya,?,143
+9648,Sámano,?,143
+9649,Textil Escudo,?,143
+9651,Tropezón,?,143
+9657,Beasain,?,143
+9684,Roda,?,143
+9692,Eldense,?,143
+9694,Jove Español,?,143
+9712,Móstoles,?,143
+9714,RSD Alcalá,?,143
+9723,Atlético Astorga,?,143
+9724,Atlético Tordesillas,?,143
+9736,Real Ávila,?,143
+9742,Antequera,?,143
+9750,Maracena,?,143
+9756,Ciudad de Lucena,?,143
+9764,Puente Genil,?,143
+9770,Xerez,?,143
+9776,Constància,?,143
+9781,Ibiza Islas Pitiusas,?,143
+9791,Atlético Paso,?,143
+9797,Lanzarote,?,143
+9811,Deportiva Minera,?,143
+9814,Los Garres,?,143
+9823,Águilas,?,143
+9826,Azuaga,?,143
+9827,CD Coria,?,143
+9843,Baztán,?,143
+9849,Cortes,?,143
+9852,Lourdes,?,143
+9858,Valle Egüés,?,143
+9859,Alberite,?,143
+9860,Alfaro,?,143
+9868,Náxara,?,143
+9879,Barbastro,?,143
+9886,Cuarte,?,143
+9891,Utebo,?,143
+9900,Guadalajara,?,143
+9906,Quintanar del Rey,?,143
+9908,Toledo,?,143
+10013,Cusco,?,11
+10139,AD Ceuta FC,?,143
+10140,Mérida AD,?,143
+10476,Deportivo Recoleta,?,11
+10487,Sportivo Ameliano,?,11
+10492,ADT,?,11
+12733,Ballkani,?,2
+14395,Llapi,?,3
+15315,La Unión Atlético,?,143
+15318,Campanario,?,143
+15348,Torrent,?,143
+15358,Estepona,?,143
+15359,Juventud Torremolinos,?,143
+15702,Independiente Petrolero,?,11
 16612,Ciudad de Bolívar,?,130
+17562,UD San Pedro,?,143
+17760,San Antonio Bulo Bulo,?,13
+17762,Universitario de Vinto,?,11
+18090,Ceuta 6 de Junio,?,143
+18762,Libertad,?,11
+18764,Argentino Monte Maíz,?,130
+20034,Corvinul Hunedoara,?,3
+20259,Aurrerá Vitoria,?,143
+20277,Cieza,?,143
+20450,Universitario FC,?,143
+20960,Deportivo Garcilaso,?,11
 21043,Sportivo Atenas,Argentina,130
+21905,Chiclana,?,143
+22136,Reddis,?,143
+22145,Atlético Melilla,?,143
+22266,Gualberto Villarroel SJ,?,11
+23255,Sarmiento de La Banda,?,130
+24574,Atlètic Lleida,?,143
+24612,Extremadura 1924,?,143
+25030,Astur,?,143
+25031,Dolorense,?,143
+25032,Gévora,?,143
+25033,Manises,?,143
+25034,Ontiñena,?,143
+25035,Parla Escuela,?,143
+25036,Playas Sotavento,?,143
+25037,Promesas EDF,?,143
+25038,San Tirso,?,143
+25039,Sonseca,?,143
+25040,Sporting Mahón,?,143
+25041,Vic,?,143
+25042,Villamuriel,?,143
 25758,Gimnasia Chivilcoy,Argentina,130
+26727,Atletico Calatayud,?,143
+26728,Betis Valladolid,?,143
+26729,CD Sant Jordi,?,143
+26730,CD Yuncos,?,143
+26731,Deportivo Getxo,?,143
+26732,Inter de Valdemoro,?,143
+26733,Palma del Rio,?,143
+26734,Puerto de Vega,?,143
+26735,SD Negreira,?,143
+26736,Sant Just,?,143
+26737,Sporting Ceuta,?,143
