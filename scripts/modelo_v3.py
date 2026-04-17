@@ -798,6 +798,12 @@ def find_value_bets(probs: dict, odds: dict, min_edge: float = MIN_EDGE) -> list
         ('odds_shots_visita_over_7.5',  'odds_shots_visita_under_7.5',  'shots_visita_over_7.5',  'shots_visita_under_7.5',  'Tiros visita O/U 7.5'),
         ('odds_shots_visita_over_9.5',  'odds_shots_visita_under_9.5',  'shots_visita_over_9.5',  'shots_visita_under_9.5',  'Tiros visita O/U 9.5'),
         ('odds_shots_visita_over_11.5', 'odds_shots_visita_under_11.5', 'shots_visita_over_11.5', 'shots_visita_under_11.5', 'Tiros visita O/U 11.5'),
+        ('odds_cards_over_2.5',  'odds_cards_under_2.5',  'cards_over_2.5',  'cards_under_2.5',  'Tarjetas tot. O/U 2.5'),
+        ('odds_cards_over_3.5',  'odds_cards_under_3.5',  'cards_over_3.5',  'cards_under_3.5',  'Tarjetas tot. O/U 3.5'),
+        ('odds_cards_over_4.5',  'odds_cards_under_4.5',  'cards_over_4.5',  'cards_under_4.5',  'Tarjetas tot. O/U 4.5'),
+        ('odds_cards_over_5.5',  'odds_cards_under_5.5',  'cards_over_5.5',  'cards_under_5.5',  'Tarjetas tot. O/U 5.5'),
+        ('odds_cards_over_6.5',  'odds_cards_under_6.5',  'cards_over_6.5',  'cards_under_6.5',  'Tarjetas tot. O/U 6.5'),
+        ('odds_cards_over_7.5',  'odds_cards_under_7.5',  'cards_over_7.5',  'cards_under_7.5',  'Tarjetas tot. O/U 7.5'),
     ]
 
     for ok_over, ok_under, pk_over, pk_under, label in BINARY_MARKETS:
