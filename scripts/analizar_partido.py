@@ -15,21 +15,17 @@ from modelo_v3 import (load_csv, compute_match_params, run_simulation,
 # Parámetros para remates al arco (tiros_arco)
 # ─────────────────────────────────────────────────────────────────────────────
 
+K_PREC_SHRINK = 8   # partidos de shrinkage para precisión SOT
+
 def compute_arco_params(team_local, team_visita, rows, competition=None):
     """
-    Estima mu_arco_local y mu_arco_vis mediante ratings multiplicativos
-    sobre tiros_arco_local / tiros_arco_visitante del CSV histórico.
+    Estima la tasa de precisión (SOT / tiros totales) por equipo con
+    shrinkage bayesiano hacia la media de la liga.
 
-    Modelo:
-        mu_local = la_arco_home * atk_local * def_vis
-        mu_vis   = la_arco_away * atk_vis   * def_local
-
-    donde:
-        atk_local = avg_arco_generados_local(home) / la_arco_home
-        def_vis   = avg_arco_concedidos_vis(away)  / la_arco_home
+    En la simulación, SOT se genera como Binomial(tiros_simulados, precision).
     """
-    # Liga: promedios de referencia (filtrado por liga_id con fallback)
     from modelo_v3 import load_leagues_db, resolve_liga_id
+
     _, name_to_id_leagues = load_leagues_db()
     liga_id_filter = resolve_liga_id(competition, name_to_id_leagues) if competition else None
     comp_rows = [r for r in rows
@@ -37,52 +33,57 @@ def compute_arco_params(team_local, team_visita, rows, competition=None):
     if len(comp_rows) < 3:
         comp_rows = rows
 
-    la_home = sum(int(r['tiros_arco_local'])    for r in comp_rows) / len(comp_rows)
-    la_away = sum(int(r['tiros_arco_visitante']) for r in comp_rows) / len(comp_rows)
+    # Precisión media de la liga
+    total_shots_league = 0
+    total_sot_league = 0
+    for r in comp_rows:
+        sl = int(r.get('tiros_local', 0) or 0)
+        sv = int(r.get('tiros_visitante', 0) or 0)
+        al = int(r.get('tiros_arco_local', 0) or 0)
+        av = int(r.get('tiros_arco_visitante', 0) or 0)
+        if sl > 0:
+            total_shots_league += sl
+            total_sot_league += al
+        if sv > 0:
+            total_shots_league += sv
+            total_sot_league += av
+    prec_liga = total_sot_league / total_shots_league if total_shots_league > 0 else 0.34
 
     # Resolver nombres → IDs
     _, name_to_id = load_teams_db()
     local_id = resolve_team_id(team_local,  name_to_id)
     vis_id   = resolve_team_id(team_visita, name_to_id)
 
-    def avg_home_gen(tid):
-        vals = [int(r['tiros_arco_local']) for r in rows if int(r['equipo_local_id']) == tid]
-        return sum(vals) / len(vals) if len(vals) >= MIN_MATCHES else None
+    def team_precision(tid):
+        """Precisión del equipo (SOT/shots) con shrinkage hacia liga."""
+        team_rows = [r for r in rows
+                     if int(r['equipo_local_id']) == tid or int(r['equipo_visitante_id']) == tid]
+        shots, sot = 0, 0
+        for r in team_rows:
+            if int(r['equipo_local_id']) == tid:
+                s = int(r.get('tiros_local', 0) or 0)
+                a = int(r.get('tiros_arco_local', 0) or 0)
+            else:
+                s = int(r.get('tiros_visitante', 0) or 0)
+                a = int(r.get('tiros_arco_visitante', 0) or 0)
+            if s > 0:
+                shots += s
+                sot += a
+        n = len(team_rows)
+        if n < MIN_MATCHES or shots == 0:
+            return prec_liga, 0
+        raw_prec = sot / shots
+        # Shrinkage: (n * raw + K * liga) / (n + K)
+        prec = (n * raw_prec + K_PREC_SHRINK * prec_liga) / (n + K_PREC_SHRINK)
+        return prec, n
 
-    def avg_away_gen(tid):
-        vals = [int(r['tiros_arco_visitante']) for r in rows if int(r['equipo_visitante_id']) == tid]
-        return sum(vals) / len(vals) if len(vals) >= MIN_MATCHES else None
-
-    def avg_home_con(tid):
-        vals = [int(r['tiros_arco_visitante']) for r in rows if int(r['equipo_local_id']) == tid]
-        return sum(vals) / len(vals) if len(vals) >= MIN_MATCHES else None
-
-    def avg_away_con(tid):
-        vals = [int(r['tiros_arco_local']) for r in rows if int(r['equipo_visitante_id']) == tid]
-        return sum(vals) / len(vals) if len(vals) >= MIN_MATCHES else None
-
-    def rating(val, base):
-        return (val / base) if val is not None and base > 0 else 1.0
-
-    # Ratings de ataque (cuántos arco genera)
-    atk_local = rating(avg_home_gen(local_id), la_home)
-    atk_vis   = rating(avg_away_gen(vis_id),   la_away)
-
-    # Ratings de defensa (cuántos arco concede al rival)
-    def_local = rating(avg_home_con(local_id), la_away)
-    def_vis   = rating(avg_away_con(vis_id),   la_home)
-
-    mu_local = la_home * atk_local * def_vis
-    mu_vis   = la_away * atk_vis   * def_local
-
-    n_local = len([r for r in rows if int(r['equipo_local_id'])     == local_id])
-    n_vis   = len([r for r in rows if int(r['equipo_visitante_id']) == vis_id])
+    prec_local, n_local = team_precision(local_id)
+    prec_vis,   n_vis   = team_precision(vis_id)
 
     return {
-        'mu_arco_local': max(0.1, mu_local),
-        'mu_arco_vis':   max(0.1, mu_vis),
-        'la_arco_home':  la_home,
-        'la_arco_away':  la_away,
+        'prec_local':    prec_local,
+        'prec_vis':      prec_vis,
+        'prec_liga':     prec_liga,
         'n_arco_local':  n_local,
         'n_arco_vis':    n_vis,
     }
@@ -111,6 +112,11 @@ def compute_all_probs(sim):
     p['1'] = sum(gl[i] > gv[i] for i in range(n)) / n
     p['X'] = sum(gl[i] == gv[i] for i in range(n)) / n
     p['2'] = sum(gv[i] > gl[i] for i in range(n)) / n
+
+    # Doble oportunidad
+    p['1X'] = p['1'] + p['X']
+    p['X2'] = p['X'] + p['2']
+    p['12'] = p['1'] + p['2']
 
     # Goles totales
     for thr in [0.5, 1.5, 2.5, 3.5, 4.5, 5.5]:
@@ -469,8 +475,8 @@ def analizar_value_bets(probs, odds, team_local, team_visita, min_edge=MIN_EDGE)
                 continue
             model_p = probs[pk]
             edge = model_p - fp
-            if edge >= min_edge:
-                ev = model_p * bk - 1
+            ev = model_p * bk - 1
+            if edge >= min_edge and ev >= 0:
                 vb.append({'market': label, 'lado': lado,
                            'odds': bk, 'model_p': model_p,
                            'implied_p': fp, 'edge': edge, 'EV_%': ev*100})
@@ -486,8 +492,25 @@ def analizar_value_bets(probs, odds, team_local, team_visita, min_edge=MIN_EDGE)
             ('2', fp2, o['2'], f'1X2 -> {team_visita} gana'),
         ]:
             edge = probs[pk] - fp
-            if edge >= min_edge:
-                ev = probs[pk]*bk - 1
+            ev = probs[pk]*bk - 1
+            if edge >= min_edge and ev >= 0:
+                vb.append({'market': lbl, 'lado': '',
+                           'odds': bk, 'model_p': probs[pk],
+                           'implied_p': fp, 'edge': edge, 'EV_%': ev*100})
+
+    # Doble oportunidad
+    if all(k in o for k in ('dc_1x', 'dc_12', 'dc_x2')):
+        fp_1x, fp_12, fp_x2 = _remove_vig(o['dc_1x'], o['dc_12'], o['dc_x2'])
+        for pk, fp, bk, lbl in [
+            ('1X', fp_1x, o['dc_1x'], f'DC -> {team_local} o Empate (1X)'),
+            ('12', fp_12, o['dc_12'], f'DC -> {team_local} o {team_visita} (12)'),
+            ('X2', fp_x2, o['dc_x2'], f'DC -> Empate o {team_visita} (X2)'),
+        ]:
+            if pk not in probs:
+                continue
+            edge = probs[pk] - fp
+            ev = probs[pk]*bk - 1
+            if edge >= min_edge and ev >= 0:
                 vb.append({'market': lbl, 'lado': '',
                            'odds': bk, 'model_p': probs[pk],
                            'implied_p': fp, 'edge': edge, 'EV_%': ev*100})
@@ -575,7 +598,6 @@ def print_analisis(team_local, team_visita, competition, params, probs, value_be
     print(f"  {team_local} vs {team_visita}  |  {competition}")
     print(sep)
 
-    arco_info = sim.get('arco_params', {})
     print(f"\n[PARAMETROS]  (local n={params['n_local_home']}  visita n={params['n_vis_away']})")
     print(f"   lambda goles: local={params['lambda_local']:.3f}  visita={params['lambda_vis']:.3f}")
     print(f"   mu corners : total={params['mu_corners_total']:.2f}  "
@@ -584,9 +606,7 @@ def print_analisis(team_local, team_visita, competition, params, probs, value_be
     print(f"   mu tarjetas: local={params['mu_tarjetas_local']:.2f}  visita={params['mu_tarjetas_vis']:.2f}")
     print(f"   mu tiros   : local={params['mu_shots_local']:.1f} (k={params['k_shots_local']:.1f})  "
           f"visita={params['mu_shots_vis']:.1f} (k={params['k_shots_vis']:.1f})")
-    if arco_info:
-        print(f"   mu arco    : local={arco_info['mu_arco_local']:.2f}  "
-              f"visita={arco_info['mu_arco_vis']:.2f}")
+    print(f"   prec arco  : local={params['prec_local']:.3f}  visita={params['prec_vis']:.3f}")
     print(f"   Posesion local: {params['poss_local']:.1f}%")
 
     E_g = probs['E_gl']+probs['E_gv']
@@ -606,6 +626,11 @@ def print_analisis(team_local, team_visita, competition, params, probs, value_be
     print(f"   {team_local:<22} {probs['1']:6.1%}  odds justas: {j(probs['1'])}")
     print(f"   {'Empate':<22} {probs['X']:6.1%}  odds justas: {j(probs['X'])}")
     print(f"   {team_visita:<22} {probs['2']:6.1%}  odds justas: {j(probs['2'])}")
+
+    print(f"\n[DOBLE OPORTUNIDAD]")
+    print(f"   {team_local+' o Empate (1X)':<30} {probs['1X']:6.1%}  odds justas: {j(probs['1X'])}")
+    print(f"   {team_local+' o '+team_visita+' (12)':<30} {probs['12']:6.1%}  odds justas: {j(probs['12'])}")
+    print(f"   {'Empate o '+team_visita+' (X2)':<30} {probs['X2']:6.1%}  odds justas: {j(probs['X2'])}")
 
     print(f"\n[GOLES TOTALES]")
     for thr in [0.5, 1.5, 2.5, 3.5, 4.5]:
@@ -703,24 +728,71 @@ _VB_CSV  = _Path(r'C:\Users\Matt\Apuestas Deportivas\data\apuestas\value_bets.cs
 _VB_COLS = [
     'fecha_analisis', 'fixture_id', 'partido', 'competicion',
     'mercado', 'lado', 'odds', 'modelo_prob', 'implied_prob',
-    'edge', 'ev_pct', 'metodo', 'resultado',
+    'edge', 'ev_pct', 'metodo', 'categoria', 'alcance', 'resultado',
+    'odds_close', 'clv_pct', 'fecha_cierre',
 ]
 
+
+def _clasificar_mercado(mercado, partido):
+    """Clasifica un mercado en (categoria, alcance) para filtrar en BI."""
+    m = mercado.lower()
+    partes = partido.split(' vs ')
+    local  = partes[0].strip() if len(partes) > 1 else ''
+    visita = partes[1].strip() if len(partes) > 1 else ''
+
+    # Categoria
+    if mercado.startswith('1X2'):
+        cat = '1X2'
+    elif mercado.startswith('DC'):
+        cat = 'Doble Oportunidad'
+    elif 'btts' in m:
+        cat = 'BTTS'
+    elif 'tarjetas' in m:
+        cat = 'Tarjetas'
+    elif 'arco' in m:
+        cat = 'Arco'
+    elif 'corners' in m:
+        cat = 'Corners'
+    elif 'tiros' in m:
+        cat = 'Tiros'
+    elif 'goles' in m:
+        cat = 'Goles'
+    else:
+        cat = 'Otros'
+
+    # Alcance
+    if 'tot.' in m or cat in ('1X2', 'Doble Oportunidad', 'BTTS'):
+        alcance = 'Total'
+    elif local and local in mercado:
+        alcance = 'Local'
+    elif visita and visita in mercado:
+        alcance = 'Visitante'
+    else:
+        alcance = 'Total'
+
+    return cat, alcance
+
 def guardar_value_bets(value_bets, team_local, team_visita, competition,
-                       fixture_id=None, metodo='v3.1'):
+                       fixture_id=None, metodo='v3.2', csv_path=None):
     """
     Agrega las value bets detectadas al CSV de seguimiento.
     Deduplica por (fixture_id, mercado, lado) — correr el analisis varias
     veces no genera filas duplicadas.
     La columna 'resultado' queda vacía para completar manualmente: W / L / V
+    `csv_path` permite sobreescribir el destino (útil para modelo calibrado).
     """
-    _VB_CSV.parent.mkdir(parents=True, exist_ok=True)
+    csv_file = _Path(csv_path) if csv_path else _VB_CSV
+    csv_file.parent.mkdir(parents=True, exist_ok=True)
 
-    # Cargar existentes
+    # Cargar existentes (backfill categoria/alcance si faltan)
     existing, seen = [], set()
-    if _VB_CSV.exists():
-        with open(_VB_CSV, newline='', encoding='utf-8') as f:
+    if csv_file.exists():
+        with open(csv_file, newline='', encoding='utf-8') as f:
             for r in _csv.DictReader(f):
+                if not r.get('categoria') or not r.get('alcance'):
+                    c, a = _clasificar_mercado(r['mercado'], r.get('partido', ''))
+                    r['categoria'] = c
+                    r['alcance'] = a
                 existing.append(r)
                 seen.add((r['fixture_id'], r['mercado'], r['lado']))
 
@@ -733,6 +805,7 @@ def guardar_value_bets(value_bets, team_local, team_visita, competition,
         key = (fid_str, vb['market'], vb['lado'])
         if key in seen:
             continue
+        cat, alc = _clasificar_mercado(vb['market'], partido)
         nuevas.append({
             'fecha_analisis': ahora,
             'fixture_id':     fid_str,
@@ -746,6 +819,8 @@ def guardar_value_bets(value_bets, team_local, team_visita, competition,
             'edge':           f"{vb['edge']:.4f}",
             'ev_pct':         f"{vb['EV_%']/100:.4f}",
             'metodo':         metodo,
+            'categoria':      cat,
+            'alcance':        alc,
             'resultado':      '',
         })
         seen.add(key)
@@ -755,13 +830,49 @@ def guardar_value_bets(value_bets, team_local, team_visita, competition,
         return
 
     all_rows = existing + nuevas
-    with open(_VB_CSV, 'w', newline='', encoding='utf-8') as f:
+    with open(csv_file, 'w', newline='', encoding='utf-8') as f:
         w = _csv.DictWriter(f, fieldnames=_VB_COLS)
         w.writeheader()
         w.writerows(all_rows)
 
-    print(f"\n  [tracking] {len(nuevas)} value bet(s) guardadas -> {_VB_CSV.name}")
+    print(f"\n  [tracking] {len(nuevas)} value bet(s) guardadas -> {csv_file.name}")
     print(f"  [tracking] Completar columna 'resultado' con:  W (ganada)  L (perdida)  V (void)")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# ESTRATEGIA FILTRADA (descubierta por backtest sobre value_bets.csv)
+#   BTTS     + Over/Si  + edge >= 0.06  -> +30.2% ROI historico
+#   Corners  + Over/Si  + edge >= 0.10  -> +12.3% ROI historico
+#   Goles    + Over/Si  + edge >= 0.15  -> +40.4% ROI historico
+#   Tarjetas + Under/No + edge >= 0.06  -> +20.1% ROI historico
+# Resto de categorias (1X2, Arco, Tiros, Doble Oportunidad) descartadas.
+# Cap de cuota aplicado globalmente: cuotas >= 4.00 tienen -45.9% ROI y son
+# el leak principal del modelo; 3.0-4.0 tambien pierde en Goles Over.
+# ─────────────────────────────────────────────────────────────────────────────
+
+ESTRATEGIA_FILTRADA = {
+    ('BTTS',     'Over/Si'):  0.06,
+    ('Corners',  'Over/Si'):  0.10,
+    ('Goles',    'Over/Si'):  0.15,
+    ('Tarjetas', 'Under/No'): 0.06,
+}
+
+ODDS_MAX = 3.50
+
+
+def filtrar_estrategia(value_bets, team_local, team_visita):
+    """Aplica la estrategia filtrada: cat+lado+min_edge especificos por categoria,
+    mas cap de cuota global (ODDS_MAX)."""
+    partido = f"{team_local} vs {team_visita}"
+    out = []
+    for vb in value_bets:
+        if vb['odds'] >= ODDS_MAX:
+            continue
+        cat, _ = _clasificar_mercado(vb['market'], partido)
+        min_e = ESTRATEGIA_FILTRADA.get((cat, vb['lado']))
+        if min_e is not None and vb['edge'] >= min_e:
+            out.append(vb)
+    return out
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -772,7 +883,7 @@ _PRON_CSV  = _Path(r'C:\Users\Matt\Apuestas Deportivas\data\apuestas\pronosticos
 _PRON_COLS = [
     'fecha_analisis', 'fixture_id', 'partido', 'competicion',
     'mercado', 'lado', 'odds', 'modelo_prob', 'implied_prob',
-    'edge', 'ev_pct', 'metodo', 'resultado',
+    'edge', 'ev_pct', 'metodo', 'categoria', 'alcance', 'resultado',
 ]
 
 
@@ -836,6 +947,37 @@ def _collect_all_market_entries(probs, odds, team_local, team_visita):
             ('1', f'1X2 -> {team_local} gana',   ''),
             ('X', '1X2 -> Empate',               ''),
             ('2', f'1X2 -> {team_visita} gana',  ''),
+        ]:
+            if pk in probs:
+                entries.append({'market': lbl, 'lado': lado,
+                                'model_p': probs[pk],
+                                'odds': None, 'implied_p': None,
+                                'edge': None, 'ev_pct': None})
+
+    # Doble oportunidad
+    if all(k in o for k in ('dc_1x', 'dc_12', 'dc_x2')):
+        fp_1x, fp_12, fp_x2 = _remove_vig(o['dc_1x'], o['dc_12'], o['dc_x2'])
+        for pk, fp, bk, lbl, lado in [
+            ('1X', fp_1x, o['dc_1x'], f'DC -> {team_local} o Empate (1X)',       ''),
+            ('12', fp_12, o['dc_12'], f'DC -> {team_local} o {team_visita} (12)', ''),
+            ('X2', fp_x2, o['dc_x2'], f'DC -> Empate o {team_visita} (X2)',       ''),
+        ]:
+            if pk not in probs:
+                continue
+            model_p = probs[pk]
+            edge   = model_p - fp
+            ev_pct = (model_p * bk - 1) * 100
+            entries.append({
+                'market': lbl, 'lado': lado,
+                'model_p': model_p,
+                'odds': bk, 'implied_p': fp,
+                'edge': edge, 'ev_pct': ev_pct,
+            })
+    else:
+        for pk, lbl, lado in [
+            ('1X', f'DC -> {team_local} o Empate (1X)',       ''),
+            ('12', f'DC -> {team_local} o {team_visita} (12)', ''),
+            ('X2', f'DC -> Empate o {team_visita} (X2)',       ''),
         ]:
             if pk in probs:
                 entries.append({'market': lbl, 'lado': lado,
@@ -915,20 +1057,26 @@ def _collect_all_market_entries(probs, odds, team_local, team_visita):
 
 
 def guardar_pronosticos(probs, odds, team_local, team_visita, competition,
-                        fixture_id=None, metodo='v3.1'):
+                        fixture_id=None, metodo='v3.2', csv_path=None):
     """
     Guarda TODOS los pronósticos (todos los mercados) en pronosticos.csv,
     tengan valor o no. Útil para calibración posterior del modelo.
     Deduplica por (fixture_id, mercado, lado).
     La columna 'resultado' queda vacía para completar manualmente: W / L / V
+    `csv_path` permite sobreescribir el destino (útil para modelo calibrado).
     """
-    _PRON_CSV.parent.mkdir(parents=True, exist_ok=True)
+    csv_file = _Path(csv_path) if csv_path else _PRON_CSV
+    csv_file.parent.mkdir(parents=True, exist_ok=True)
 
-    # Cargar existentes
+    # Cargar existentes (backfill categoria/alcance si faltan)
     existing, seen = [], set()
-    if _PRON_CSV.exists():
-        with open(_PRON_CSV, newline='', encoding='utf-8') as f:
+    if csv_file.exists():
+        with open(csv_file, newline='', encoding='utf-8') as f:
             for r in _csv.DictReader(f):
+                if not r.get('categoria') or not r.get('alcance'):
+                    c, a = _clasificar_mercado(r['mercado'], r.get('partido', ''))
+                    r['categoria'] = c
+                    r['alcance'] = a
                 existing.append(r)
                 seen.add((r['fixture_id'], r['mercado'], r['lado']))
 
@@ -943,6 +1091,7 @@ def guardar_pronosticos(probs, odds, team_local, team_visita, competition,
         key = (fid_str, e['market'], e['lado'])
         if key in seen:
             continue
+        cat, alc = _clasificar_mercado(e['market'], partido)
         nuevas.append({
             'fecha_analisis': ahora,
             'fixture_id':     fid_str,
@@ -956,6 +1105,8 @@ def guardar_pronosticos(probs, odds, team_local, team_visita, competition,
             'edge':           f"{e['edge']:.4f}"    if e['edge']     is not None else '',
             'ev_pct':         f"{e['ev_pct']/100:.4f}" if e['ev_pct'] is not None else '',
             'metodo':         metodo,
+            'categoria':      cat,
+            'alcance':        alc,
             'resultado':      '',
         })
         seen.add(key)
@@ -965,12 +1116,12 @@ def guardar_pronosticos(probs, odds, team_local, team_visita, competition,
         return
 
     all_rows = existing + nuevas
-    with open(_PRON_CSV, 'w', newline='', encoding='utf-8') as f:
+    with open(csv_file, 'w', newline='', encoding='utf-8') as f:
         w = _csv.DictWriter(f, fieldnames=_PRON_COLS)
         w.writeheader()
         w.writerows(all_rows)
 
-    print(f"  [pronosticos] {len(nuevas)} entrada(s) guardadas -> {_PRON_CSV.name}")
+    print(f"  [pronosticos] {len(nuevas)} entrada(s) guardadas -> {csv_file.name}")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1137,14 +1288,13 @@ if __name__ == '__main__':
     sim['team_local']  = TEAM_LOCAL
     sim['team_visita'] = TEAM_VISITA
 
-    # ── Simular remates al arco ──────────────────────────────────────────────
-    arco_p = compute_arco_params(TEAM_LOCAL, TEAM_VISITA, rows, COMPETITION)
-    sim['sla_arco'] = [poisson_sample(arco_p['mu_arco_local']) for _ in range(N_SIM)]
-    sim['sva_arco'] = [poisson_sample(arco_p['mu_arco_vis'])   for _ in range(N_SIM)]
-    sim['arco_params'] = arco_p
-    print(f"   mu_arco: {TEAM_LOCAL}={arco_p['mu_arco_local']:.2f}  "
-          f"{TEAM_VISITA}={arco_p['mu_arco_vis']:.2f}  "
-          f"(liga home={arco_p['la_arco_home']:.2f} away={arco_p['la_arco_away']:.2f})")
+    # arco ya se simula dentro de run_simulation como Binomial(tiros, precision)
+    sim['arco_params'] = {
+        'prec_local': params['prec_local'],
+        'prec_vis':   params['prec_vis'],
+    }
+    print(f"   precision arco: {TEAM_LOCAL}={params['prec_local']:.3f}  "
+          f"{TEAM_VISITA}={params['prec_vis']:.3f}")
 
     probs = compute_all_probs(sim)
     vb    = analizar_value_bets(probs, ODDS, TEAM_LOCAL, TEAM_VISITA)

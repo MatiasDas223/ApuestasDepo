@@ -76,6 +76,10 @@ HALF_LIFE_DAYS = 90      # días en que el peso de un partido se reduce a la mit
 # ── [V3-5] Forma ────────────────────────────────────────────────────────────
 N_FORM        = 5        # últimos N partidos para el factor forma
 FORM_WEIGHT   = 0.20     # 20% forma reciente, 80% promedio ponderado de temporada
+USE_XG_FOR_GOALS = False # si True, usa xg/xg_conceded en lugar de goals/goals_conceded
+                         # para ratings atk/def/forma (fallback automatico a goals si faltan)
+XG_BLEND      = 1.0      # cuando USE_XG activo: 1.0=solo xG, 0.0=solo goles, 0.5=blend 50/50
+                         # solo se aplica cuando el equipo tiene suficiente historia de xG
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -234,6 +238,7 @@ class TeamRecord:
 
     FIELDS = [
         'goals', 'goals_conceded',
+        'xg', 'xg_conceded',  # usado si USE_XG_FOR_GOALS esta activo
         'shots', 'shots_conceded',
         'shots_on_target', 'shots_on_target_conceded',  # [V3-6]
         'corners', 'corners_conceded',
@@ -241,16 +246,28 @@ class TeamRecord:
     ]
 
     def __init__(self):
-        # Cada campo: lista de (valor: int, fecha_ordinal: int)
-        self.home: dict[str, list[tuple[int, int]]] = defaultdict(list)
-        self.away: dict[str, list[tuple[int, int]]] = defaultdict(list)
+        # Cada campo: lista de (valor: int|float, fecha_ordinal: int)
+        self.home: dict[str, list[tuple[float, int]]] = defaultdict(list)
+        self.away: dict[str, list[tuple[float, int]]] = defaultdict(list)
 
     def _add(self, store: dict, row: dict, is_home: bool):
         date_ord = _parse_date(row.get('fecha', ''))
 
+        def _f(v):
+            """xG puede venir vacio o como float; devuelve None si falta."""
+            if v is None or v == '' or (isinstance(v, float) and math.isnan(v)):
+                return None
+            try:
+                return float(v)
+            except (ValueError, TypeError):
+                return None
+
         if is_home:
             store['goals'].append(              (int(row['goles_local']),               date_ord))
             store['goals_conceded'].append(     (int(row['goles_visitante']),            date_ord))
+            xg_l = _f(row.get('xg_local'));  xg_v = _f(row.get('xg_visitante'))
+            if xg_l is not None: store['xg'].append(          (xg_l, date_ord))
+            if xg_v is not None: store['xg_conceded'].append( (xg_v, date_ord))
             store['shots'].append(              (int(row['tiros_local']),                date_ord))
             store['shots_conceded'].append(     (int(row['tiros_visitante']),            date_ord))
             store['shots_on_target'].append(    (int(row.get('tiros_arco_local',  0)),   date_ord))
@@ -262,6 +279,9 @@ class TeamRecord:
         else:
             store['goals'].append(              (int(row['goles_visitante']),            date_ord))
             store['goals_conceded'].append(     (int(row['goles_local']),                date_ord))
+            xg_l = _f(row.get('xg_local'));  xg_v = _f(row.get('xg_visitante'))
+            if xg_v is not None: store['xg'].append(          (xg_v, date_ord))
+            if xg_l is not None: store['xg_conceded'].append( (xg_l, date_ord))
             store['shots'].append(              (int(row['tiros_visitante']),            date_ord))
             store['shots_conceded'].append(     (int(row['tiros_local']),                date_ord))
             store['shots_on_target'].append(    (int(row.get('tiros_arco_visitante', 0)), date_ord))
@@ -341,9 +361,21 @@ def league_avgs(rows: list[dict],
     def avg_field(fn):
         return sum(fn(r) for r in filtered) / n
 
+    # Promedio de xG sobre partidos que tengan el dato (puede ser subset)
+    def avg_xg(key):
+        vals = []
+        for r in filtered:
+            v = r.get(key, '')
+            if v in ('', None): continue
+            try: vals.append(float(v))
+            except (ValueError, TypeError): pass
+        return sum(vals)/len(vals) if vals else None
+
     return {
         'home_goals':   avg_field(lambda r: int(r['goles_local'])),
         'away_goals':   avg_field(lambda r: int(r['goles_visitante'])),
+        'home_xg':      avg_xg('xg_local'),
+        'away_xg':      avg_xg('xg_visitante'),
         'home_corners': avg_field(lambda r: int(r['corners_local'])),
         'away_corners': avg_field(lambda r: int(r['corners_visitante'])),
         'home_shots':   avg_field(lambda r: int(r['tiros_local'])),
@@ -484,13 +516,48 @@ def compute_match_params(team_local: str | int, team_visitante: str | int,
     _, n_vis_away   = _get_team_stat(recs_comp, recs_all, vis_id,   'away', 'goals', today_ord)
 
     # ── Goles ─────────────────────────────────────────────────────────────────
-    r_atk_l = rating(local_id, 'home', 'goals',          la['home_goals'])
-    r_def_v = rating(vis_id,   'away', 'goals_conceded',  la['home_goals'])
-    r_atk_v = rating(vis_id,   'away', 'goals',           la['away_goals'])
-    r_def_l = rating(local_id, 'home', 'goals_conceded',  la['away_goals'])
+    # Si USE_XG_FOR_GOALS, computa un segundo rating basado en xG y lo blend-ea
+    # con el rating de goles segun XG_BLEND (fallback a goles si falta xG).
+    def goals_rating(team, ctx, atk_or_def):
+        """Devuelve el rating combinado goles/xG segun config."""
+        field_g  = 'goals' if atk_or_def == 'atk' else 'goals_conceded'
+        la_g     = la['home_goals'] if ctx == 'home' else la['away_goals']
+        r_g = rating(team, ctx, field_g, la_g)
+        if not USE_XG_FOR_GOALS or XG_BLEND <= 0:
+            return r_g
+        field_xg = 'xg' if atk_or_def == 'atk' else 'xg_conceded'
+        la_xg    = la.get('home_xg') if ctx == 'home' else la.get('away_xg')
+        if not la_xg:
+            return r_g  # liga sin xG
+        # Pedir _get_team_stat directamente para saber si hay n xG suficiente
+        avg_xg, n_xg = _get_team_stat(recs_comp, recs_all, team, ctx, field_xg, today_ord)
+        if n_xg < 3:
+            return r_g  # poco xG para este equipo
+        r_xg = _rating_shrunk(avg_xg, la_xg, n_xg)
+        return (1 - XG_BLEND) * r_g + XG_BLEND * r_xg
 
-    f_atk_l = forma(local_id, 'home', 'goals')
-    f_atk_v = forma(vis_id,   'away', 'goals')
+    def goals_forma(team, ctx):
+        """Forma multiplicativa, usa xG si activo y con datos, si no goals."""
+        f_g = forma(team, ctx, 'goals')
+        if not USE_XG_FOR_GOALS or XG_BLEND <= 0:
+            return f_g
+        # Usa forma de xG si el equipo tiene xG en al menos N_FORM partidos
+        recs = recs_comp.get(team) or recs_all.get(team)
+        if not recs:
+            return f_g
+        store = recs.home if ctx == 'home' else recs.away
+        if len(store.get('xg', [])) < N_FORM:
+            return f_g
+        f_xg = _form_multiplier(recs_comp, recs_all, team, ctx, 'xg')
+        return (1 - XG_BLEND) * f_g + XG_BLEND * f_xg
+
+    r_atk_l = goals_rating(local_id, 'home', 'atk')
+    r_def_v = goals_rating(vis_id,   'away', 'def')
+    r_atk_v = goals_rating(vis_id,   'away', 'atk')
+    r_def_l = goals_rating(local_id, 'home', 'def')
+
+    f_atk_l = goals_forma(local_id, 'home')
+    f_atk_v = goals_forma(vis_id,   'away')
 
     lambda_local = max(0.15, la['home_goals'] * r_atk_l * r_def_v * f_atk_l)
     lambda_vis   = max(0.15, la['away_goals'] * r_atk_v * r_def_l * f_atk_v)
@@ -544,6 +611,12 @@ def compute_match_params(team_local: str | int, team_visitante: str | int,
     mu_tarjetas_local = max(0.1, la['home_cards'] * r_cards_l * f_cards_l)
     mu_tarjetas_vis   = max(0.1, la['away_cards'] * r_cards_v * f_cards_v)
 
+    # ── Tiros al arco (SOT) — precisión por equipo con shrinkage ─────────────
+    from analizar_partido import compute_arco_params as _compute_arco
+    _arco_p = _compute_arco(team_local, team_visitante, rows, competition)
+    prec_local = _arco_p['prec_local']
+    prec_vis   = _arco_p['prec_vis']
+
     # ── Posesión ──────────────────────────────────────────────────────────────
     poss_avg_l, _ = _get_team_stat(recs_comp, recs_all, local_id, 'home', 'possession', today_ord)
     poss_avg_v, _ = _get_team_stat(recs_comp, recs_all, vis_id,   'away', 'possession', today_ord)
@@ -567,6 +640,8 @@ def compute_match_params(team_local: str | int, team_visitante: str | int,
         'mu_shots_vis':        mu_shots_vis,
         'k_shots_local':       k_shots_local,
         'k_shots_vis':         k_shots_vis,
+        'prec_local':          prec_local,
+        'prec_vis':            prec_vis,
         'poss_local':        poss_local,
         'n_local_home':      n_local_home,
         'n_vis_away':        n_vis_away,
@@ -594,25 +669,33 @@ def run_simulation(params: dict, n: int = N_SIM_DEFAULT) -> dict:
     k_sl   = params['k_shots_local']
     k_sv   = params['k_shots_vis']
 
+    # Tiros al arco — Binomial(tiros_simulados, precision)
+    prec_l = params['prec_local']
+    prec_v = params['prec_vis']
+
     # Corners — MODELO V4: NegBin total + Binomial por equipo
     mu_ct      = params['mu_corners_total']
     share_loc  = params['share_corners_loc']
     k_c        = params['k_corners']
 
-    # ── MODELO ANTERIOR corners (Poisson independiente) — COMENTADO ──────────
-    # mu_cl = params['mu_corners_local']
-    # mu_cv = params['mu_corners_vis']
-    # ─────────────────────────────────────────────────────────────────────────
-
     gl, gv, cl, cv, tl, tv, sl, sv = [], [], [], [], [], [], [], []
+    sla, sva = [], []   # shots on target (arco)
 
     for _ in range(n):
         gl.append(poisson_sample(lam_l))
         gv.append(poisson_sample(lam_v))
         tl.append(poisson_sample(mu_tl))
         tv.append(poisson_sample(mu_tv))
-        sl.append(negbinom_sample(mu_sl, k_sl))
-        sv.append(negbinom_sample(mu_sv, k_sv))
+
+        # Tiros NegBin
+        s_l = negbinom_sample(mu_sl, k_sl)
+        s_v = negbinom_sample(mu_sv, k_sv)
+        sl.append(s_l)
+        sv.append(s_v)
+
+        # Tiros al arco = Binomial(tiros, precision)
+        sla.append(binomial_sample(s_l, prec_l))
+        sva.append(binomial_sample(s_v, prec_v))
 
         # Corners V4: NegBin total → Binomial reparto
         T = negbinom_sample(mu_ct, k_c)
@@ -620,16 +703,12 @@ def run_simulation(params: dict, n: int = N_SIM_DEFAULT) -> dict:
         cl.append(c_local)
         cv.append(T - c_local)
 
-        # ── MODELO ANTERIOR corners — COMENTADO ──────────────────────────────
-        # cl.append(poisson_sample(mu_cl))
-        # cv.append(poisson_sample(mu_cv))
-        # ─────────────────────────────────────────────────────────────────────
-
     return {
         'gl': gl, 'gv': gv,
         'cl': cl, 'cv': cv,
         'tl': tl, 'tv': tv,
         'sl': sl, 'sv': sv,
+        'sla_arco': sla, 'sva_arco': sva,
         'n': n,
     }
 
@@ -745,8 +824,8 @@ def find_value_bets(probs: dict, odds: dict, min_edge: float = MIN_EDGE) -> list
 
     def check(label, model_p, book_odds, fair_p):
         edge = model_p - fair_p
-        if edge >= min_edge:
-            ev = model_p * book_odds - 1
+        ev = model_p * book_odds - 1
+        if edge >= min_edge and ev >= 0:
             vb.append({
                 'market':    label,
                 'odds':      book_odds,
@@ -761,6 +840,13 @@ def find_value_bets(probs: dict, odds: dict, min_edge: float = MIN_EDGE) -> list
         check('1X2 ->Local (1)',   probs['1'], odds['1'], fp1)
         check('1X2 ->Empate (X)',  probs['X'], odds['X'], fpx)
         check('1X2 ->Visita (2)',  probs['2'], odds['2'], fp2)
+
+    # Doble oportunidad
+    if all(k in odds for k in ('dc_1x', 'dc_12', 'dc_x2')):
+        fp_1x, fp_12, fp_x2 = _remove_vig(odds['dc_1x'], odds['dc_12'], odds['dc_x2'])
+        check('DC ->Local o Empate (1X)',  probs['1X'], odds['dc_1x'], fp_1x)
+        check('DC ->Local o Visita (12)',  probs['12'], odds['dc_12'], fp_12)
+        check('DC ->Empate o Visita (X2)', probs['X2'], odds['dc_x2'], fp_x2)
 
     BINARY_MARKETS = [
         ('odds_over_1.5',  'odds_under_1.5',  'over_1.5',  'under_1.5',  'Goles tot. O/U 1.5'),
@@ -883,6 +969,11 @@ def print_report(team_local: str, team_visitante: str,
     print(f"   Local  (1): {probs['1']:6.1%}   odds justas: {j(probs['1'])}")
     print(f"   Empate (X): {probs['X']:6.1%}   odds justas: {j(probs['X'])}")
     print(f"   Visita (2): {probs['2']:6.1%}   odds justas: {j(probs['2'])}")
+
+    print(f"\n[DOBLE OPORTUNIDAD]")
+    print(f"   Local o Empate (1X): {probs['1X']:6.1%}   odds justas: {j(probs['1X'])}")
+    print(f"   Local o Visita (12): {probs['12']:6.1%}   odds justas: {j(probs['12'])}")
+    print(f"   Empate o Visita (X2): {probs['X2']:6.1%}   odds justas: {j(probs['X2'])}")
 
     def show_market_block(title, rows_mkts):
         print(f"\n{title}")

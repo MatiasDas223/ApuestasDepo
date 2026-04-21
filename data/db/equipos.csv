@@ -16,12 +16,21 @@ id,nombre,pais,liga_id_principal
 50,Manchester City,?,2
 51,Brighton,?,39
 52,Crystal Palace,?,39
+54,Birmingham,?,45
 55,Brentford,?,39
 57,Ipswich,?,39
+58,Millwall,?,45
 62,Sheffield Utd,?,39
 63,Leeds,?,39
+64,Hull City,?,45
 65,Nottingham Forest,?,39
 66,Aston Villa,?,2
+69,Derby,?,45
+70,Middlesbrough,?,45
+71,Norwich,?,45
+72,QPR,?,45
+74,Sheffield Wednesday,?,45
+75,Stoke City,?,45
 79,Lille,?,2
 80,Lyon,?,3
 81,Marseille,?,2
@@ -94,8 +103,17 @@ id,nombre,pais,liga_id_principal
 336,Jagiellonia,?,2
 338,Wisla Krakow,?,3
 354,The New Saints,?,2
+363,Hammarby FF,?,113
+364,Djurgardens IF,?,113
+366,IFK Goteborg,?,113
+367,BK Hacken,?,113
+370,Sirius,?,113
+371,IF Brommapojkarna,?,113
 372,IF Elfsborg,?,3
+374,Kalmar FF,?,113
 375,Malmo FF,?,3
+377,AIK Stockholm,?,113
+378,IFK Norrkoping,?,113
 394,Dinamo Minsk,?,2
 397,FC Midtjylland,?,3
 400,FC Copenhagen,?,2
@@ -202,6 +220,7 @@ id,nombre,pais,liga_id_principal
 559,FCSB,?,2
 560,Slavia Praha,?,2
 561,HNK Rijeka,?,3
+564,Başakşehir,?,203
 565,BSC Young Boys,?,2
 566,Ludogorets,?,3
 567,Plzen,?,3
@@ -215,6 +234,7 @@ id,nombre,pais,liga_id_principal
 598,FK Crvena Zvezda,?,2
 604,Maccabi Tel Aviv,?,3
 606,FC Lugano,?,2
+607,Konyaspor,?,203
 611,Fenerbahçe,?,3
 617,Panathinaikos,?,3
 619,PAOK,?,3
@@ -259,6 +279,8 @@ id,nombre,pais,liga_id_principal
 741,Cercle Brugge,?,3
 742,Genk,?,3
 746,Sunderland,?,39
+748,Burton Albion,?,45
+766,Halmstad,?,113
 781,Rapid Vienna,?,3
 789,Douglas Haig,?,130
 790,Central Cordoba,?,130
@@ -275,7 +297,15 @@ id,nombre,pais,liga_id_principal
 880,Reggiana,?,136
 895,Como,?,135
 899,Modena,?,136
+994,Göztepe,?,203
+996,Alanyaspor,?,203
+997,Gençlerbirliği S.K.,?,203
 998,Trabzonspor,?,3
+1001,Kayserispor,?,203
+1002,Sivasspor,?,203
+1004,Kasımpaşa,?,203
+1005,Antalyaspor,?,203
+1007,Rizespor,?,203
 1026,Lask Linz,?,3
 1062,Atletico-MG,?,11
 1064,Platense,Argentina,128
@@ -308,7 +338,12 @@ id,nombre,pais,liga_id_principal
 1183,Sportivo Luqueno,?,11
 1193,Cuiaba,?,71
 1198,Remo,?,71
+1338,Oxford United,?,45
+1351,Port Vale,?,45
+1352,Shrewsbury,?,45
 1359,Luton,?,39
+1365,Grimsby,?,45
+1374,Mansfield Town,?,45
 1380,Macclesfield,?,45
 1393,Union St. Gilloise,?,2
 1578,Sudtirol,?,136
@@ -342,7 +377,14 @@ id,nombre,pais,liga_id_principal
 1992,Orense SC,?,11
 2073,Silkeborg,?,3
 2140,2 de Mayo,?,11
+2163,IFK Varnamo,?,113
+2166,Orgryte IS,?,113
+2170,Gais,?,113
+2172,Degerfors IF,?,113
+2174,Osters IF,?,113
 2184,Servette FC,?,3
+2240,Mjallby AIF,?,113
+2241,Vasteras SK FK,?,113
 2247,Apoel Nicosia,?,2
 2259,FK Tobol Kostanay,?,3
 2271,Petrocub,?,3
@@ -397,6 +439,12 @@ id,nombre,pais,liga_id_principal
 3364,Borac Banja Luka,?,2
 3403,Pafos,?,3
 3549,Ružomberok,?,3
+3563,Adana Demirspor,?,203
+3573,Gaziantep FK,?,203
+3575,Hatayspor,?,203
+3583,Bodrum FK,?,203
+3588,Eyüpspor,?,203
+3589,Fatih Karagümrük,?,203
 3603,Samsunspor,?,848
 3637,Aurora,?,11
 3700,Always Ready,?,13
@@ -444,6 +492,7 @@ id,nombre,pais,liga_id_principal
 5308,Virtus,?,2
 5354,Larne,?,2
 6489,Kryvbas KR,?,3
+7411,Kocaelispor,?,203
 7522,Antoniano,?,143
 7524,Melilla CD,?,143
 7848,Mirassol,?,13
@@ -484,6 +533,7 @@ id,nombre,pais,liga_id_principal
 9418,Zamora,?,143
 9578,Arenas Getxo,?,143
 9580,Burgos,?,143
+9585,Real Sociedad II,?,141
 9588,Salamanca UDS,?,143
 9589,Ejea,?,143
 9593,Sabadell,?,143

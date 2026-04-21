@@ -74,6 +74,7 @@ CSV_FIELDS = [
     'tiros_bloqueados_local', 'tiros_bloqueados_visitante',
     'atajadas_local', 'atajadas_visitante',
     'goles_prevenidos_local', 'goles_prevenidos_visitante',
+    'referee',
 ]
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -92,6 +93,10 @@ FUENTES = [
     ( 78, 2025, 'Bundesliga 2025/26 (actual)',       False),
     (135, 2025, 'Serie A 2025/26 (actual)',          False),
     ( 71, 2025, 'Brasileirao 2025 (actual)',         False),
+    # ── Ligas exoticas (test de mercados menos eficientes) ───────────────────
+    (113, 2026, 'Allsvenskan 2026 (actual)',         False),  # Suecia, calendario
+    (141, 2025, 'LaLiga 2 2025/26 (actual)',         False),  # Espana 2a
+    (203, 2025, 'Super Lig 2025/26 (actual)',        False),  # Turquia
     # ── Copas / internacionales actuales — solo equipos en DB ────────────────
     ( 13, 2025, 'Copa Libertadores 2025',           True),
     ( 11, 2025, 'Copa Sudamericana 2025',           True),
@@ -108,6 +113,10 @@ FUENTES = [
     ( 71, 2024, 'Brasileirao 2024',                 False),
     (130, 2024, 'Copa Argentina 2024',              True),
     (143, 2024, 'Copa del Rey 2024/25',             True),
+    # ── Ligas exoticas — temporadas previas ─────────────────────────────────
+    (113, 2025, 'Allsvenskan 2025',                 False),
+    (141, 2024, 'LaLiga 2 2024/25',                 False),
+    (203, 2024, 'Super Lig 2024/25',                False),
     # ── Temporadas más viejas (tercer nivel) ──────────────────────────────────
     (140, 2023, 'La Liga 2023/24',                  False),
     ( 39, 2023, 'Premier League 2023/24',           False),
@@ -306,6 +315,7 @@ def build_pending(equipos_by_id, existing_fids, prog):
                 'away_name':   fix['teams']['away']['name'],
                 'home_goals':  gh,
                 'away_goals':  ga,
+                'referee':     (fix['fixture'].get('referee') or '').strip(),
                 'desc':        desc,
             })
 
@@ -422,6 +432,7 @@ def fetch_fixture_stats(fix_info, equipos_by_id, ligas_by_id):
         'atajadas_visitante':    stat_value(away_stats, 'Goalkeeper Saves'),
         'goles_prevenidos_local':    stat_value(home_stats, 'goals_prevented', as_float=True),
         'goles_prevenidos_visitante':stat_value(away_stats, 'goals_prevented', as_float=True),
+        'referee':                   fix_info.get('referee', ''),
     }
 
 

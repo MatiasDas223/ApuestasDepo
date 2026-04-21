@@ -39,11 +39,17 @@ def _load(name):
 _ap = _load('analizar_partido')
 _fo = _load('fetch_odds')
 _pp = _load('preparar_partido')
+_cal = _load('modelo_v3_calibrado')
+_inj = _load('fetch_injuries')
+_lin = _load('fetch_lineups')
 
 from modelo_v3 import (load_csv as load_hist, compute_match_params,
-                        run_simulation, poisson_sample)
+                        run_simulation)
 
-VB_CSV = BASE / 'data/apuestas/value_bets.csv'
+VB_CSV      = BASE / 'data/apuestas/value_bets.csv'
+VB_CAL_CSV  = BASE / 'data/apuestas/value_bets_calibrado.csv'
+VB_FIL_CSV  = BASE / 'data/apuestas/value_bets_filtrados.csv'
+PRON_CAL_CSV = BASE / 'data/apuestas/pronosticos_calibrado.csv'
 N_SIM  = 100_000   # menos iteraciones que analizar_partido.py para velocidad
 
 # Liga API Football id → (nombre, solo_equipos_en_db)
@@ -72,11 +78,15 @@ LIGAS = {
      13: ('Copa Libertadores',   True),
      11: ('Copa Sudamericana',   True),
     130: ('Copa Argentina',      True),
+    # ── Ligas exoticas (test: mercados menos eficientes) ─────────────────────
+    113: ('Allsvenskan',         False),  # Suecia, temporada Abr-Nov (calendario)
+    141: ('LaLiga 2',            False),  # 2a division Espana, Ago-May
+    203: ('Super Lig',           False),  # Turquia, Ago-May
 }
 
 # Ligas europeas: temporada = año en que empieza (Aug-Jul)
-# Resto (Argentina, Brasil, Libertadores...): temporada = año calendario
-_EUROPEAN_LEAGUES = {140, 39, 61, 78, 135, 2, 3, 848, 45, 65, 81, 136, 143}
+# Resto (Argentina, Brasil, Libertadores, Allsvenskan...): temporada = año calendario
+_EUROPEAN_LEAGUES = {140, 39, 61, 78, 135, 2, 3, 848, 45, 65, 81, 136, 143, 141, 203}
 
 def _season_for(liga_id: int) -> int:
     from datetime import date
@@ -319,6 +329,8 @@ def _resolver_resultado(mercado, lado, partido, stats):
     cv = int(stats.get('corners_visitante',     0))
     al = int(stats.get('tiros_arco_local',      0))
     av = int(stats.get('tiros_arco_visitante',  0))
+    yl = int(stats.get('tarjetas_local',        0))
+    yv = int(stats.get('tarjetas_visitante',    0))
 
     # 1X2
     if mercado.startswith('1X2'):
@@ -328,6 +340,18 @@ def _resolver_resultado(mercado, lado, partido, stats):
             ganó = gl > gv
         elif visita in mercado:
             ganó = gv > gl
+        else:
+            return None
+        return 'W' if ganó else 'L'
+
+    # Doble oportunidad
+    if mercado.startswith('DC'):
+        if '(1X)' in mercado:
+            ganó = gl >= gv   # local gana o empate
+        elif '(12)' in mercado:
+            ganó = gl != gv   # local o visita gana (no empate)
+        elif '(X2)' in mercado:
+            ganó = gv >= gl   # visita gana o empate
         else:
             return None
         return 'W' if ganó else 'L'
@@ -359,6 +383,9 @@ def _resolver_resultado(mercado, lado, partido, stats):
     elif 'corners tot.' in m_low:                     stat = cl + cv
     elif 'corners'    in m_low and local  in mercado: stat = cl
     elif 'corners'    in m_low and visita in mercado: stat = cv
+    elif 'tarjetas tot.' in m_low:                   stat = yl + yv
+    elif 'tarjetas'  in m_low and local  in mercado: stat = yl
+    elif 'tarjetas'  in m_low and visita in mercado: stat = yv
 
     if stat is None:
         return None
@@ -366,21 +393,22 @@ def _resolver_resultado(mercado, lado, partido, stats):
     return 'W' if (stat > thr) == es_over else 'L'
 
 
-def actualizar_resultados():
-    """Paso 1: Completa la columna 'resultado' en value_bets.csv."""
-    if not VB_CSV.exists():
-        print("  value_bets.csv no encontrado — nada que actualizar")
+def actualizar_resultados(csv_path=None, label='value_bets.csv'):
+    """Paso 1: Completa la columna 'resultado' en un CSV de value_bets."""
+    vb_csv = Path(csv_path) if csv_path else VB_CSV
+    if not vb_csv.exists():
+        print(f"  {label} no encontrado — nada que actualizar")
         return
 
-    with open(VB_CSV, newline='', encoding='utf-8') as f:
+    with open(vb_csv, newline='', encoding='utf-8') as f:
         rows = list(csv.DictReader(f))
 
     pendientes = [r for r in rows if not r.get('resultado', '').strip()]
     if not pendientes:
-        print("  Todas las apuestas ya tienen resultado")
+        print(f"  [{label}] Todas las apuestas ya tienen resultado")
         return
 
-    print(f"  {len(pendientes)} apuesta(s) pendientes de resultado")
+    print(f"  [{label}] {len(pendientes)} apuesta(s) pendientes de resultado")
 
     stats_cache = {}
     actualizadas = 0
@@ -406,12 +434,76 @@ def actualizar_resultados():
             actualizadas += 1
 
     fieldnames = list(rows[0].keys()) if rows else []
-    with open(VB_CSV, 'w', newline='', encoding='utf-8') as f:
+    with open(vb_csv, 'w', newline='', encoding='utf-8') as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
         w.writerows(rows)
 
-    print(f"  -> {actualizadas} resultado(s) completados")
+    print(f"  [{label}] -> {actualizadas} resultado(s) completados")
+
+
+PRON_CSV = BASE / 'data/apuestas/pronosticos.csv'
+
+
+def actualizar_resultados_pronosticos(csv_path=None, label='pron'):
+    """Completa la columna 'resultado' en un CSV de pronósticos."""
+    pron_csv = Path(csv_path) if csv_path else PRON_CSV
+    if not pron_csv.exists():
+        print(f"  {pron_csv.name} no encontrado — nada que actualizar")
+        return
+
+    with open(pron_csv, newline='', encoding='utf-8') as f:
+        rows = list(csv.DictReader(f))
+
+    pendientes = [r for r in rows if not r.get('resultado', '').strip()]
+    if not pendientes:
+        print(f"  [{label}] Todos los pronosticos ya tienen resultado")
+        return
+
+    # Agrupar por fixture_id para no repetir consultas
+    fids_pendientes = set()
+    for r in pendientes:
+        fid_str = str(r.get('fixture_id', '')).strip()
+        if fid_str.isdigit():
+            fids_pendientes.add(int(fid_str))
+
+    print(f"  [{label}] {len(pendientes)} pronostico(s) pendientes en {len(fids_pendientes)} fixture(s)")
+
+    stats_cache = {}
+    actualizadas = 0
+    no_resueltos = 0
+
+    for fid in fids_pendientes:
+        if fid not in stats_cache:
+            stats_cache[fid] = _get_fixture_stats(fid)
+
+    for row in rows:
+        if row.get('resultado', '').strip():
+            continue
+        fid_str = str(row.get('fixture_id', '')).strip()
+        if not fid_str.isdigit():
+            continue
+        fid = int(fid_str)
+
+        stats = stats_cache.get(fid)
+        if stats is None:
+            no_resueltos += 1
+            continue
+
+        res = _resolver_resultado(row['mercado'], row['lado'], row['partido'], stats)
+        if res:
+            row['resultado'] = res
+            actualizadas += 1
+        else:
+            no_resueltos += 1
+
+    fieldnames = list(rows[0].keys()) if rows else []
+    with open(pron_csv, 'w', newline='', encoding='utf-8') as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        w.writerows(rows)
+
+    print(f"  [{label}] -> {actualizadas} resultado(s) completados, {no_resueltos} sin resolver")
 
 
 # -----------------------------------------------------------------------------
@@ -455,9 +547,15 @@ def get_upcoming_matches(horas=48):
             except ValueError:
                 continue
 
-            # Solo partidos no jugados aun
+            # Solo partidos que NO hayan empezado (whitelist, no blacklist — evita
+            # aceptar in-play como 1H/HT/2H/ET/BT/P/SUSP/INT con cuotas ajustadas
+            # al resultado parcial)
             status = fix['fixture']['status']['short']
-            if status in ('FT', 'AET', 'PEN', 'CANC', 'ABD', 'AWD', 'WO'):
+            if status not in ('NS', 'TBD'):
+                continue
+
+            # Guardia extra: KO debe ser futuro (un NS con KO pasado es estado raro)
+            if fecha <= datetime.now(timezone.utc):
                 continue
 
             found.append({
@@ -471,9 +569,66 @@ def get_upcoming_matches(horas=48):
                 'home_name':    fix['teams']['home']['name'],
                 'away_id':      fix['teams']['away']['id'],
                 'away_name':    fix['teams']['away']['name'],
+                'referee':      (fix['fixture'].get('referee') or '').strip(),
+                'ko_dt':        fecha,   # datetime aware UTC
             })
 
     return found
+
+
+# -----------------------------------------------------------------------------
+# Contexto pre-partido (referee, injuries, lineups)
+# -----------------------------------------------------------------------------
+
+def fetch_contexto(fix, force=False):
+    """
+    Baja referee + injuries + lineups para un fixture y deja todo cacheado
+    en data/contexto/. No falla si la API responde vacío.
+
+    Política de timing:
+      - Injuries: TTL 3h (manejado por fetch_injuries internamente)
+      - Lineups:  TTL 5min si pending, 24h si confirmado
+      - Lineups solo se intenta si el KO está a < 4h (antes nunca está publicado)
+    """
+    fid    = fix['fixture_id']
+    home   = fix['home_name']
+    away   = fix['away_name']
+    ref    = fix.get('referee') or ''
+    ko_dt  = fix.get('ko_dt')
+
+    print(f"  [ctx] referee : {ref or '(sin asignar)'}")
+
+    # Injuries: siempre que se procese el partido (cache TTL 3h)
+    try:
+        _, inj_res = _inj.get_injuries(fixture_id=fid, force=force)
+        print(f"  [ctx] injuries: home={inj_res['home_total']} "
+              f"({inj_res['home_missing']} missing, {inj_res['home_questionable']} ?)  "
+              f"away={inj_res['away_total']} "
+              f"({inj_res['away_missing']} missing, {inj_res['away_questionable']} ?)")
+    except Exception as e:
+        print(f"  [ctx] injuries error: {e}")
+
+    # Lineups: solo intentar si KO está cerca (no malgastar requests)
+    horas_al_ko = None
+    if ko_dt:
+        delta = ko_dt - datetime.now(timezone.utc)
+        horas_al_ko = delta.total_seconds() / 3600
+
+    if horas_al_ko is not None and horas_al_ko > 4:
+        print(f"  [ctx] lineups : skip (KO en {horas_al_ko:.1f}h, lineups suelen "
+              f"publicarse a 30-90min)")
+    else:
+        try:
+            _, lin_res = _lin.get_lineups(fid, force=force)
+            if lin_res['confirmed']:
+                print(f"  [ctx] lineups : CONFIRMADO  "
+                      f"home={lin_res['home_formation']} ({lin_res['home_coach']})  "
+                      f"away={lin_res['away_formation']} ({lin_res['away_coach']})")
+            else:
+                print(f"  [ctx] lineups : pending  "
+                      f"(home XI={lin_res['home_xi_size']}, away XI={lin_res['away_xi_size']})")
+        except Exception as e:
+            print(f"  [ctx] lineups error: {e}")
 
 
 # -----------------------------------------------------------------------------
@@ -588,6 +743,14 @@ def procesar_partido(fix, force_odds=False):
         print("  Sin odds disponibles — partido saltado")
         return
 
+    # -- 4b. Contexto pre-partido (referee, injuries, lineups) ----------------
+    # Se cachea en data/contexto/ — el modelo aún no lo usa, pero queda
+    # disponible para análisis posterior y para integrarlo en una próxima fase.
+    try:
+        fetch_contexto(fix, force=force_odds)
+    except Exception as e:
+        print(f"  [ctx] error inesperado: {e}")
+
     # -- 5. Simulacion + value bets --------------------------------------------
     try:
         hist   = load_hist()
@@ -598,35 +761,67 @@ def procesar_partido(fix, force_odds=False):
         sim['team_local']  = home
         sim['team_visita'] = away
 
-        arco_p = _ap.compute_arco_params(sim_home, sim_away, hist, liga)
-        sim['sla_arco']    = [poisson_sample(arco_p['mu_arco_local']) for _ in range(N_SIM)]
-        sim['sva_arco']    = [poisson_sample(arco_p['mu_arco_vis'])   for _ in range(N_SIM)]
-        sim['arco_params'] = arco_p
+        # arco ya se simula dentro de run_simulation como Binomial(tiros, precision)
+        sim['arco_params'] = {
+            'prec_local': params['prec_local'],
+            'prec_vis':   params['prec_vis'],
+        }
 
-        probs = _ap.compute_all_probs(sim)
-        vbs   = _ap.analizar_value_bets(probs, odds, home, away)
+        probs     = _ap.compute_all_probs(sim)
+        probs_cal = _cal.calibrar_probs(probs)
+        vbs       = _ap.analizar_value_bets(probs, odds, home, away)
+        vbs_cal   = _ap.analizar_value_bets(probs_cal, odds, home, away)
+        vbs_fil   = _ap.filtrar_estrategia(vbs, home, away)
 
     except Exception as e:
         print(f"  [sim] Error: {e}")
         return
 
+    # -- Modelo raw (v3.2) -----------------------------------------------------
     if vbs:
-        print(f"\n  VALUE BETS ({len(vbs)}):")
+        print(f"\n  VALUE BETS RAW ({len(vbs)}):")
         hdr = f"  {'Mercado':<38} {'Lado':<10} {'Odds':>5}  {'Edge':>7}  {'EV%':>7}"
         print(hdr)
         print(f"  {'-'*70}")
         for vb in vbs:
             print(f"  {vb['market']:<38} {vb['lado']:<10} "
                   f"{vb['odds']:>5.2f}  {vb['edge']:>+6.1%}  {vb['EV_%']:>+6.1f}%")
-        _ap.guardar_value_bets(vbs, home, away, liga, fid, metodo='v3.1')
+        _ap.guardar_value_bets(vbs, home, away, liga, fid, metodo='v3.2')
     else:
-        print("  Sin value bets detectadas")
+        print("  Sin value bets detectadas (raw)")
 
-    # Guardar todos los pronósticos (para calibración)
     try:
-        _ap.guardar_pronosticos(probs, odds, home, away, liga, fid, metodo='v3.1')
+        _ap.guardar_pronosticos(probs, odds, home, away, liga, fid, metodo='v3.2')
     except Exception as e:
         print(f"  [pronosticos] Error al guardar: {e}")
+
+    # -- Modelo calibrado (v3.2-cal) -------------------------------------------
+    if vbs_cal:
+        print(f"\n  VALUE BETS CALIBRADO ({len(vbs_cal)}):")
+        for vb in vbs_cal:
+            print(f"  {vb['market']:<38} {vb['lado']:<10} "
+                  f"{vb['odds']:>5.2f}  {vb['edge']:>+6.1%}  {vb['EV_%']:>+6.1f}%")
+        _ap.guardar_value_bets(vbs_cal, home, away, liga, fid,
+                               metodo='v3.2-cal', csv_path=VB_CAL_CSV)
+    else:
+        print("  Sin value bets detectadas (calibrado)")
+
+    try:
+        _ap.guardar_pronosticos(probs_cal, odds, home, away, liga, fid,
+                                 metodo='v3.2-cal', csv_path=PRON_CAL_CSV)
+    except Exception as e:
+        print(f"  [pronosticos-cal] Error al guardar: {e}")
+
+    # -- Estrategia filtrada (v3.2-fil) ----------------------------------------
+    if vbs_fil:
+        print(f"\n  VALUE BETS FILTRADAS ({len(vbs_fil)}):")
+        for vb in vbs_fil:
+            print(f"  {vb['market']:<38} {vb['lado']:<10} "
+                  f"{vb['odds']:>5.2f}  {vb['edge']:>+6.1%}  {vb['EV_%']:>+6.1f}%")
+        _ap.guardar_value_bets(vbs_fil, home, away, liga, fid,
+                               metodo='v3.2-fil', csv_path=VB_FIL_CSV)
+    else:
+        print("  Sin value bets detectadas (filtrado)")
 
 
 # -----------------------------------------------------------------------------
@@ -663,7 +858,11 @@ def main():
     print(f"\n{'-'*60}")
     print(f"  [1/3] Actualizando resultados W/L")
     print(f"{'-'*60}")
-    actualizar_resultados()
+    actualizar_resultados(label='raw')
+    actualizar_resultados(csv_path=VB_CAL_CSV, label='cal')
+    actualizar_resultados(csv_path=VB_FIL_CSV, label='fil')
+    actualizar_resultados_pronosticos(label='pron raw')
+    actualizar_resultados_pronosticos(csv_path=PRON_CAL_CSV, label='pron cal')
 
     if solo_wl:
         print("\nModo --solo-wl completado.\n")
@@ -694,6 +893,16 @@ def main():
             procesar_partido(fix, force_odds=force_odds)
         except Exception as e:
             print(f"  ERROR {fix['home_name']} vs {fix['away_name']}: {e}")
+
+    # -- Fallback: snapshot de closing line para bets con KO cercano ----------
+    print(f"\n{'-'*60}")
+    print(f"  [fallback] Snapshot cuotas de cierre (CLV)")
+    print(f"{'-'*60}")
+    try:
+        _sc = _load('snapshot_cierre')
+        _sc.run(window_min=60, verbose=False)
+    except Exception as e:
+        print(f"  [snapshot] error: {e}")
 
     print(f"\n{sep}")
     print(f"  Pipeline completado")

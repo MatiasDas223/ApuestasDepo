@@ -1,0 +1,361 @@
+{
+  "fetched_at": "2026-04-20 21:30:02",
+  "data": {
+    "fixture_id": 1492039,
+    "home": {
+      "team_id": 460,
+      "team_name": "San Lorenzo",
+      "formation": "3-4-2-1",
+      "coach_id": 28185,
+      "coach_name": "Gustavo Alvarez",
+      "startXI": [
+        {
+          "id": 70852,
+          "name": "Orlando Gill",
+          "number": 12,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 362571,
+          "name": "Ezequiel Herrera",
+          "number": 32,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 127420,
+          "name": "Jhohan Romaña",
+          "number": 4,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 463842,
+          "name": "Lautaro Montenegro",
+          "number": 55,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 5938,
+          "name": "Nicolas Tripichio",
+          "number": 24,
+          "pos": "M",
+          "grid": "3:4"
+        },
+        {
+          "id": 6618,
+          "name": "Manuel Insaurralde",
+          "number": 8,
+          "pos": "M",
+          "grid": "3:3"
+        },
+        {
+          "id": 657005,
+          "name": "Facundo Gulli",
+          "number": 10,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 354062,
+          "name": "Mathias de Ritis",
+          "number": 6,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 5925,
+          "name": "Alexis Cuello",
+          "number": 9,
+          "pos": "F",
+          "grid": "4:2"
+        },
+        {
+          "id": 170829,
+          "name": "Matias Reali",
+          "number": 11,
+          "pos": "F",
+          "grid": "4:1"
+        },
+        {
+          "id": 198386,
+          "name": "Rodrigo Auzmendi",
+          "number": 29,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 311320,
+          "name": "Francisco Perruzzi",
+          "number": 21,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 19036,
+          "name": "Luciano Vietto",
+          "number": 19,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 6613,
+          "name": "Nahuel Barrios",
+          "number": 28,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 6595,
+          "name": "José Devecchi",
+          "number": 25,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 51566,
+          "name": "Guzmán Corujo",
+          "number": 16,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 506494,
+          "name": "Teo Rodríguez Pagano",
+          "number": 3,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 355287,
+          "name": "Fabricio López",
+          "number": 34,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 499177,
+          "name": "Agustin Ladstatter",
+          "number": 14,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 290051,
+          "name": "Gonzalo Abrego",
+          "number": 26,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 319396,
+          "name": "Gregorio Rodriguez",
+          "number": 17,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 13526,
+          "name": "Diego Herazo",
+          "number": 18,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 369729,
+          "name": "Matías Hernández",
+          "number": 44,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 438,
+      "team_name": "Velez Sarsfield",
+      "formation": "4-2-3-1",
+      "coach_id": 1972,
+      "coach_name": "Guilermo Barros Schelotto",
+      "startXI": [
+        {
+          "id": 2481,
+          "name": "Álvaro Montero",
+          "number": 12,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 129896,
+          "name": "Joaquín García",
+          "number": 4,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 1201,
+          "name": "Emanuel Mammana",
+          "number": 2,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 534,
+          "name": "Lisandro Magallan",
+          "number": 16,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 6704,
+          "name": "Elias Gomez",
+          "number": 3,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 516771,
+          "name": "Tobías Andrada",
+          "number": 50,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 6065,
+          "name": "Lucas Robertone",
+          "number": 8,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 6411,
+          "name": "Matías Pellegrini",
+          "number": 11,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 2561,
+          "name": "Diego Valdes",
+          "number": 10,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 2473,
+          "name": "Manuel Lanzini",
+          "number": 22,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 196743,
+          "name": "Florián Monzón",
+          "number": 23,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 310180,
+          "name": "Aarón Quirós",
+          "number": 6,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 5343,
+          "name": "Tomás Marchiori",
+          "number": 1,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 516774,
+          "name": "Demian Dominguez",
+          "number": 49,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 645338,
+          "name": "Alexis Pereyra",
+          "number": 47,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 475730,
+          "name": "Thiago Silvero",
+          "number": 32,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 6028,
+          "name": "Rodrigo Aliendro",
+          "number": 29,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 472576,
+          "name": "Alex Verón",
+          "number": 17,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 44435,
+          "name": "Claudio Baeza",
+          "number": 5,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 516770,
+          "name": "Dilan Godoy",
+          "number": 15,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 10149,
+          "name": "Braian Romero",
+          "number": 9,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 51350,
+          "name": "Rodrigo Piñeiro",
+          "number": 14,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 524416,
+          "name": "Matias Arias",
+          "number": 35,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
+  },
+  "resumen": {
+    "fixture_id": 1492039,
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "3-4-2-1",
+    "away_formation": "4-2-3-1",
+    "home_coach": "Gustavo Alvarez",
+    "away_coach": "Guilermo Barros Schelotto"
+  }
+}

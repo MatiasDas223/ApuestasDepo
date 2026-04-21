@@ -21,6 +21,11 @@ python scripts/pipeline.py --horas 48
 # Forzar re-descarga de odds (ignorar caché)
 python scripts/pipeline.py --force
 
+# Capturar closing line (cuota de cierre) y calcular CLV
+# Pensado para correr via Windows Task Scheduler cada 5 min con ventana 20 min
+python scripts/snapshot_cierre.py --window 20
+# El pipeline.py corre automaticamente snapshot_cierre con window=60 como fallback al final
+
 # Preparar un partido específico (descarga histórico + odds → escribe config en analizar_partido.py)
 python scripts/preparar_partido.py "Boca Juniors" "Independiente"
 python scripts/preparar_partido.py "Real Madrid" "Barcelona" --fixture 1492015
@@ -106,7 +111,7 @@ API Football  (goles, BTTS, 1X2, hándicaps)
 | `data/db/ligas.csv` | `id, nombre, pais` |
 | `data/db/team_aliases.csv` | Mapeo `team_id` → nombre en odds-api.io |
 | `data/db/league_aliases.csv` | Mapeo `liga_id` → slug en odds-api.io |
-| `data/apuestas/value_bets.csv` | Apuestas detectadas con edge, EV, cuota, resultado W/L |
+| `data/apuestas/value_bets.csv` | Apuestas detectadas con edge, EV, cuota, resultado W/L + `odds_close` / `clv_pct` / `fecha_cierre` (CLV capturado por snapshot_cierre.py) |
 | `data/apuestas/pronosticos.csv` | Todas las probabilidades calculadas (para calibración) |
 | `data/odds/*.json` | Caché de odds de API Football por `fixture_id` |
 | `data/odds/oddsapi/*.json` | Caché de odds de odds-api.io por `event_id` |
@@ -173,7 +178,7 @@ ODDS = {...}
 - **Corners individuales (local/visita)**: EN PRODUCCION — NegBin total + Binomial reparto (v3.1). ROI +74% local, +54% visita sobre 38 bets confirmadas
 - **Corners totales**: DESACTIVADO — backtest demostró ROI -31.4% sobre 38 bets. Comentados en BINARY_MARKETS de modelo_v3.py. Se siguen calculando probabilidades como referencia pero no se buscan value bets. Se eliminaron 313 entradas históricas de value_bets.csv
 - **Tiros**: NegBin con k por equipo (v3.2). Calibración excelente (delta <2pp). ROI histórico: local -4.7%, total -31.8%, visita -65.0%. Recolectando datos para validar mejora.
-- **Tiros al arco**: Poisson simple en analizar_partido.py. ROI -30.8%, pendiente de mejora.
+- **Tiros al arco (SOT)**: `Binomial(tiros_simulados, precision)` acoplado al NegBin de tiros. Precisión por equipo (`SOT/tiros`) con shrinkage bayesiano hacia media de liga (`K_PREC_SHRINK`). `compute_arco_params()` en `analizar_partido.py`, invocada desde `modelo_v3.py` dentro del Monte Carlo. Reemplaza Poisson simple anterior (ROI -30.8%). Pendiente validar ROI con datos nuevos.
 
 ### Modelo de corners v3.1 — decisiones y hallazgos
 
