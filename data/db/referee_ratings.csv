@@ -1,0 +1,800 @@
+referee,n,avg_cards,liga_avg,factor_raw,factor,ligas
+A. Taylor,68,4.103,4.268,0.9613,0.9663,"2,3,39,45"
+M. Oliver,65,4.631,4.232,1.0941,1.0816,"2,3,39"
+C. Kavanagh,53,4.868,4.31,1.1295,1.1089,"2,3,39,45"
+S. Hooper,51,4.745,4.249,1.1166,1.0975,"39,45"
+José Sánchez,51,5.118,4.846,1.0561,1.0469,"2,3,140,141,143"
+D. Massa,48,4.604,4.17,1.104,1.0861,"2,3,135"
+"Dario Herrera, Argentina",48,6.25,5.402,1.1569,1.1298,"11,13,128"
+R. Jones,46,4.891,4.261,1.148,1.1215,"2,3,39"
+F. Zwayer,46,4.717,4.151,1.1364,1.112,"2,3,78"
+D. Siebert,46,4.717,4.145,1.138,1.1133,"2,3,78"
+M. Mariani,46,3.87,4.17,0.928,0.9409,"2,3,135"
+C. Pawson,44,4.545,4.261,1.0667,1.0543,"3,39,45"
+A. Madley,44,3.841,4.252,0.9034,0.9213,"39,45"
+J. Brooks,43,4.651,4.303,1.0809,1.0656,"3,39,45"
+T. Stieler,41,4.244,4.157,1.0209,1.0168,"2,3,78"
+S. Barrott,40,4.075,4.248,0.9592,0.9674,"39,45"
+S. Jablonski,39,4.0,4.273,0.9361,0.9492,"2,3,78,848"
+J. Gillett,38,4.474,4.251,1.0524,1.0415,"39,45"
+S. Attwell,37,4.459,4.251,1.049,1.0386,"39,45"
+T. Robinson,37,4.405,4.251,1.0363,1.0286,"39,45"
+"Alejandro Hernandez, Spain",37,4.838,4.819,1.0038,1.003,"140,143"
+"Miguel Angel Ortiz Arias, Spain",36,4.306,4.831,0.8912,0.9149,"140,143"
+"Ricardo De Burgos Bengoetxea, Spain",36,4.028,4.806,0.838,0.8733,"140,143"
+H. Osmers,36,4.111,4.202,0.9784,0.9831,"2,3,78"
+S. Stegemann,36,4.556,4.224,1.0784,1.0613,"3,78"
+"Davi de Oliveira Lacerda, Brazil",36,4.389,5.329,0.8237,0.862,71
+P. Bankes,34,4.441,4.251,1.0448,1.0346,"39,45"
+"Victor Garcia Verdura, Spain",34,3.882,4.817,0.8059,0.85,"140,143"
+D. Doveri,34,3.412,4.189,0.8145,0.8567,135
+D. England,34,4.588,4.247,1.0803,1.0621,"39,45"
+S. Sozza,34,4.324,4.274,1.0116,1.0089,"2,3,135"
+"Andres Merlos, Argentina",34,5.588,5.505,1.015,1.0116,128
+"Wilton Pereira Sampaio, Brazil",34,5.471,5.293,1.0336,1.026,"11,13,71"
+"Raphael Claus, Brazil",34,4.235,5.278,0.8024,0.8473,"11,13,71"
+"Jesus Gil Manzano, Spain",33,4.636,4.816,0.9626,0.9713,"140,143"
+"Isidro Diaz de Mera Escuderos, Spain",33,5.333,4.816,1.1073,1.0824,"140,143"
+"Anderson Daronco, Brazil",33,4.848,5.262,0.9214,0.9397,"11,13,71"
+"Facundo Raul Tello Figueroa, Argentina",33,5.394,5.421,0.9949,0.9961,"11,13,128"
+A. Colombo,32,5.125,4.189,1.2236,1.1703,135
+"Mateo Busquets Ferrer, Spain",32,5.719,4.83,1.1841,1.1403,"140,143"
+"Rodrigo Jose Pereira de Lima, Brazil",32,5.375,5.329,1.0087,1.0066,71
+"Sebastian Zunino, Argentina",32,5.5,5.505,0.999,0.9993,128
+"Yael Falcon Perez, Argentina",32,6.188,5.445,1.1363,1.1039,"11,13,128"
+"Javier Alberola Rojas, Spain",31,4.0,4.815,0.8308,0.8721,"140,143"
+"José Luis Munuera Montero, Spain",31,5.226,4.815,1.0854,1.0646,"140,143"
+M. Fabbri,31,4.129,4.189,0.9858,0.9892,135
+"Flavio Rodrigues De Souza, Brazil",31,5.452,5.25,1.0385,1.0291,"11,13,71"
+"Leandro Rey Hilfer, Argentina",31,5.129,5.427,0.945,0.9584,"11,13,128"
+D. Schlager,30,4.233,4.153,1.0194,1.0145,"3,78"
+"Guillermo Cuadra Fernandez, Spain",30,5.633,4.829,1.1666,1.125,"140,143"
+B. Brand,30,4.833,4.13,1.1702,1.1277,78
+"Pablo Dovalo, Argentina",30,4.567,5.505,0.8295,0.8721,128
+A. Rapuano,29,5.034,4.189,1.2019,1.1502,135
+L. Pairetto,29,4.655,4.21,1.1057,1.0786,"3,135"
+B. Dankert,29,3.724,4.154,0.8966,0.9231,"3,78"
+"Juan Martinez Munuera, Spain",29,4.517,4.828,0.9356,0.9521,"140,143"
+M. Guida,29,4.379,4.169,1.0505,1.0376,"2,135"
+F. La Penna,29,4.793,4.189,1.1443,1.1073,135
+G. Manganiello,29,3.724,4.189,0.8891,0.9175,135
+"Fernando Echenique, Argentina",29,6.207,5.505,1.1274,1.0947,128
+"Hernan Mastrangelo, Argentina",29,4.448,5.505,0.808,0.8572,128
+"Bruno Arleu de Araujo, Brazil",29,5.586,5.312,1.0517,1.0384,"11,71"
+"Anthony Taylor, England",29,4.034,4.254,0.9483,0.9616,39
+"Michael Oliver, England",29,3.034,4.254,0.7133,0.7868,39
+"Francisco Hernandez Maeso, Spain",28,4.393,4.812,0.913,0.9359,"140,143"
+C. Dingert,28,4.214,4.13,1.0203,1.015,78
+M. Piccinini,28,4.0,4.189,0.955,0.9668,135
+T. Harrington,28,4.107,4.254,0.9654,0.9745,39
+"Pablo Echavarria, Argentina",28,4.571,5.505,0.8304,0.875,128
+"Rafael Rodrigo Klein, Brazil",28,5.286,5.329,0.992,0.9941,71
+"Lucas Paulo Torezin, Brazil",28,5.0,5.329,0.9383,0.9546,71
+"Nicolas Ramirez, Argentina",28,6.964,5.389,1.2923,1.2154,"11,13,128"
+M. Salisbury,27,3.741,4.254,0.8793,0.9119,39
+M. Di Bello,27,3.704,4.212,0.8794,0.912,"3,135"
+Alejandro Hernández,27,5.0,4.712,1.0611,1.0446,"2,3,140,143"
+"Sebastian Nicolas Martinez, Argentina",27,6.333,5.505,1.1504,1.1097,128
+"Nicolas Lamolina, Argentina",27,5.037,5.505,0.9149,0.9379,128
+"Nazareno Arasa, Argentina",27,6.0,5.481,1.0947,1.0691,"11,128"
+F. Badstübner,26,4.115,4.13,0.9964,0.9974,78
+P. Tierney,26,3.846,4.25,0.9051,0.9314,"39,45"
+J. Sacchi,26,4.154,4.189,0.9917,0.994,135
+D. Chiffi,26,3.962,4.189,0.9458,0.9608,135
+Guillermo Cuadra,26,4.615,4.74,0.9736,0.9809,"2,3,140,143"
+Ricardo De Burgos,26,4.038,4.786,0.8438,0.8872,"3,140,143"
+Gil Manzano,26,5.538,4.662,1.188,1.1358,"2,3,140,143"
+"Peter Bankes, England",26,4.038,4.254,0.9492,0.9633,39
+M. Jöllenbeck,25,4.56,4.13,1.104,1.0743,78
+L. Marinelli,25,3.96,4.189,0.9454,0.961,135
+"Paulo Cesar Zanovelli da Silva, Brazil",25,5.36,5.26,1.019,1.0136,"11,13,71"
+"Alex Gomes Stefano, Brazil",25,6.64,5.329,1.2461,1.1758,71
+"Mohammed Al-Hakim, Sweden",25,2.92,3.965,0.7364,0.8117,113
+"Chris Kavanagh, England",25,3.88,4.254,0.912,0.9371,39
+D. Aytekin,24,3.5,4.13,0.8474,0.8923,78
+R. Hartmann,24,4.167,4.13,1.0088,1.0062,78
+F. Maresca,24,5.333,4.181,1.2757,1.1946,"2,135"
+Davi de Oliveira Lacerda,24,5.042,5.329,0.9462,0.962,71
+Dámaso Arcediano,24,4.917,5.221,0.9417,0.9589,"141,143"
+Javier Alberola,24,3.333,4.769,0.699,0.7875,"140,143"
+Manuel Pérez,24,5.333,5.221,1.0215,1.0152,"141,143"
+"Samuel Barrott, England",24,3.75,4.254,0.8814,0.9163,39
+"Thomas Bramall, England",24,4.042,4.254,0.95,0.9647,39
+T. Bramall,23,4.739,4.249,1.1154,1.0804,"39,45"
+F. Brych,23,2.826,4.13,0.6842,0.7799,78
+E. Feliciani,23,2.957,4.189,0.7059,0.795,135
+M. Marchetti,23,3.783,4.189,0.9031,0.9324,135
+T. Reichel,23,4.783,4.13,1.1579,1.1101,78
+M. Petersen,23,4.696,4.13,1.1369,1.0954,78
+C. Aydın,23,4.043,4.969,0.8137,0.8702,203
+Miguel Sesma,23,4.87,5.257,0.9263,0.9486,141
+Eder Mallo,23,5.0,5.219,0.958,0.9707,"141,143"
+Álvaro Moreno,23,4.478,5.182,0.8642,0.9054,"141,143"
+Pablo González,23,3.739,4.785,0.7814,0.8477,"140,143"
+H. Meler,23,4.043,4.715,0.8575,0.9007,"2,203"
+José Munuera,23,5.217,4.765,1.0949,1.0661,"140,143"
+Iosu Galech,23,4.304,5.257,0.8188,0.8737,141
+Andrés Fuentes,23,4.87,5.182,0.9397,0.958,"141,143"
+Mateo Busquets,23,5.826,4.765,1.2226,1.1551,"140,143"
+Jon González,23,4.696,5.219,0.8997,0.9301,"141,143"
+"Adam Ladeback, Sweden",23,3.826,3.965,0.9649,0.9756,113
+"Savio Pereira Sampaio, Brazil",23,4.609,5.329,0.8649,0.9058,71
+"Felipe Fernandes de Lima, Brazil",23,4.826,5.329,0.9057,0.9343,71
+"Matheus Delgado Candançan, Brazil",23,3.565,5.329,0.6691,0.7694,71
+"Luis Lobo Medina, Argentina",23,5.565,5.505,1.0109,1.0076,128
+D. Coote,22,5.409,4.254,1.2714,1.1866,39
+F. Willenborg,22,4.773,4.13,1.1555,1.1069,78
+Anderson Daronco,22,4.364,5.329,0.8189,0.8755,71
+Rafael Rodrigo Klein,22,6.545,5.329,1.2284,1.157,71
+César Soto,22,4.682,4.842,0.9669,0.9772,"3,140"
+A. Şansalan,22,4.955,4.969,0.9971,0.998,203
+M. Türkmen,22,3.364,4.969,0.6769,0.7779,203
+Alejandro Muñiz,22,4.364,4.803,0.9086,0.9371,"140,143"
+Miguel Ortiz,22,3.909,4.782,0.8174,0.8745,"140,143"
+Saúl Ais,22,5.909,5.218,1.1325,1.0911,"141,143"
+Daniel Palencia,22,5.727,5.218,1.0977,1.0671,"141,143"
+Mario Melero,22,4.136,4.782,0.8649,0.9071,"140,143"
+Sergiu Muresan,22,5.091,5.218,0.9757,0.9833,"141,143"
+Germán Cid,22,5.545,5.218,1.0628,1.0432,"141,143"
+Carlos Muñiz,22,3.591,5.218,0.6882,0.7856,"141,143"
+O. Ergün,22,5.318,4.969,1.0703,1.0483,203
+"Kristoffer Karlsson, Sweden",22,4.636,3.965,1.1693,1.1164,113
+"Darren England, England",22,4.545,4.254,1.0684,1.047,39
+"Stuart Attwell, England",22,4.773,4.254,1.1218,1.0838,39
+"Cesar Soto Grado, Spain",21,5.619,4.844,1.1601,1.1084,140
+L. Zufferli,21,2.905,4.189,0.6935,0.7924,135
+Wilton Pereira Sampaio,21,5.476,5.317,1.03,1.0203,"13,71"
+Ramon Abatti,21,6.0,5.329,1.126,1.0854,71
+A. Karaoğlan,21,6.095,4.969,1.2267,1.1535,203
+O. Çakır,21,4.333,4.969,0.8721,0.9133,203
+Miguel González,21,4.952,5.175,0.957,0.9709,"141,143"
+José Guzmán,21,4.095,5.257,0.779,0.8503,141
+Oliver De La Fuente,21,4.571,5.257,0.8696,0.9117,141
+Rubén Ávalos,21,5.667,5.257,1.0779,1.0528,141
+Víctor García,21,4.714,4.801,0.982,0.9878,"140,143"
+"Victor Wolf, Sweden",21,3.905,3.965,0.9848,0.9897,113
+"Fredrik Klitte, Sweden",21,4.571,3.965,1.1529,1.1036,113
+"Damaso Arcediano Monescillo, Spain",21,6.0,5.257,1.1413,1.0958,141
+"Jarred Gillett, Australia",21,3.81,4.254,0.8954,0.9292,39
+"Daniele Doveri, Italy",21,3.571,4.239,0.8426,0.8934,"135,136"
+"Jose Maria Sanchez Martinez, Spain",20,5.85,4.844,1.2078,1.1385,140
+"Juan Luis Pulido Santana, Spain",20,5.65,4.844,1.1665,1.111,140
+M. Marcenaro,20,5.3,4.189,1.2653,1.1769,135
+"Jorge Figueroa Vazquez, Spain",20,5.25,4.844,1.0839,1.0559,140
+T. Welz,20,4.6,4.13,1.1137,1.0758,78
+Raphael Claus,20,4.6,5.304,0.8672,0.9115,"13,71"
+Z. Küçük,20,5.0,4.969,1.0062,1.0042,203
+Francisco Hernández,20,4.9,4.821,1.0164,1.0109,"140,143"
+Alejandro Quintero,20,4.35,4.821,0.9023,0.9348,"140,143"
+Salvador Lax,20,5.3,5.214,1.0165,1.011,"141,143"
+Isidro Díaz de Mera,20,4.55,4.799,0.9482,0.9655,"140,143"
+Adrián Cordero,20,5.25,4.821,1.089,1.0593,"140,143"
+Rafael Sánchez,20,3.95,5.214,0.7576,0.8384,"141,143"
+Juan Martínez,20,5.55,4.779,1.1614,1.1076,"2,140,143"
+Manuel Orellana,20,5.3,5.257,1.0082,1.0055,141
+"Oscar Johnson, Sweden",20,4.7,3.965,1.1853,1.1236,113
+"Ramon Abatti Abel, Brazil",20,5.25,5.255,0.999,0.9993,"11,71"
+"Granit Maqedonci, Sweden",20,3.25,3.965,0.8196,0.8798,113
+"Jon Ander Gonzalez Esteban, Spain",20,4.4,5.257,0.837,0.8913,141
+"Ali Yilmaz, Türkiye",20,4.95,4.969,0.9962,0.9975,203
+"Gorka Etayo Herrera, Spain",20,5.15,5.214,0.9878,0.9918,"141,143"
+"Luis Bestard Servera, Spain",20,5.6,5.257,1.0653,1.0435,141
+"Giuseppe Collu, Italy",20,4.45,4.32,1.0301,1.0201,"135,136"
+"Simone Sozza, Italy",20,4.75,4.294,1.1063,1.0708,"135,136"
+"Andy Madley, England",20,3.4,4.254,0.7992,0.8661,39
+"Javier Iglesias Villanueva, Spain",19,4.474,4.844,0.9236,0.95,140
+D. Bond,19,4.316,4.254,1.0144,1.0095,39
+G. Ayroldi,19,6.632,4.189,1.5832,1.3821,135
+R. Schröder,19,3.579,4.13,0.8665,0.9125,78
+R. Abisso,19,4.632,4.189,1.1058,1.0693,135
+Matheus Delgado Candançan,19,4.579,5.329,0.8593,0.9078,71
+"Fernando Espinoza, Argentina",19,5.632,5.505,1.0229,1.015,128
+"Adi Aganovic, Sweden",19,3.474,3.965,0.8761,0.9188,113
+"Craig Pawson, England",19,2.263,4.254,0.532,0.6934,39
+"Robert Jones, England",19,4.368,4.254,1.0268,1.0176,39
+"Cihan Aydin, Türkiye",19,4.316,4.969,0.8686,0.9139,203
+"Alvaro Moreno Aragon, Spain",19,5.579,5.257,1.0613,1.0401,141
+"Luca Zufferli, Italy",19,3.211,4.272,0.7516,0.8373,"135,136"
+"Manuel Angel Perez Hernandez, Spain",19,6.842,5.211,1.3129,1.205,"141,143"
+"Matteo Marcenaro, Italy",19,4.526,4.299,1.0528,1.0346,"135,136"
+"Rafael Sanchez Lopez, Spain",19,5.158,5.257,0.9812,0.9877,141
+"Valerio Crezzini, Italy",19,3.737,4.41,0.8474,0.9,"135,136"
+"Alejandro Muniz Ruiz, Spain",18,5.833,4.844,1.2043,1.1313,140
+T. Gerach,18,4.111,4.13,0.9954,0.997,78
+S. Storks,18,4.5,4.13,1.0895,1.0575,78
+Braulio da Silva Machado,18,6.444,5.329,1.2094,1.1346,71
+Alex Gomes,18,4.778,5.329,0.8966,0.9336,71
+K. Sağlam,18,6.278,4.969,1.2634,1.1693,203
+Marta Huerta,18,5.0,5.257,0.9511,0.9686,141
+"Andres Gariano, Argentina",18,5.611,5.505,1.0192,1.0123,128
+"Lucas Casagrande, Brazil",18,5.0,5.329,0.9383,0.9604,71
+"Richard Sundell, Sweden",18,3.611,3.965,0.9107,0.9426,113
+"Daniel Palencia Caballero, Spain",18,5.556,5.257,1.0568,1.0365,141
+"Saul Ais Reig, Spain",18,4.833,5.257,0.9194,0.9482,141
+"Yasin Kol, Türkiye",18,6.056,4.969,1.2187,1.1406,203
+"Eder Mallo Fernandez, Spain",18,6.111,5.257,1.1625,1.1045,141
+"Giovanni Ayroldi, Italy",18,5.611,4.422,1.2688,1.1728,"135,136"
+"Felix Zwayer, Germany",18,4.778,4.13,1.1568,1.1008,78
+"César Soto Grado, Spain",18,5.667,4.719,1.2009,1.1292,"140,143"
+"Marco Guida, Italy",18,4.167,4.218,0.9879,0.9922,"135,136"
+"Alejandro Morilla Turrion, Spain",18,5.389,5.257,1.0251,1.0161,141
+"German Cid Camacho, Spain",18,6.222,5.257,1.1836,1.118,141
+"Alejandro Ojaos Valera, Spain",18,5.722,5.257,1.0885,1.0569,141
+"Andres Fuentes Molina, Spain",18,5.389,5.257,1.0251,1.0161,141
+"Ermanno Feliciani, Italy",18,2.722,4.276,0.6366,0.7664,"135,136"
+Flavio Rodrigues De Souza,17,5.353,5.329,1.0046,1.0029,71
+Y. Kol,17,5.882,4.969,1.1838,1.1157,203
+"Ariel Penel, Argentina",17,4.588,5.505,0.8334,0.8951,128
+"Adnan Deniz Kayatepe, Türkiye",17,4.588,4.969,0.9234,0.9518,203
+"Davide Massa, Italy",17,5.294,4.189,1.2639,1.1662,135
+"Alonso De Ena Wolf, Spain",17,6.706,5.257,1.2756,1.1735,141
+"Jose Antonio Sanchez Villalobos, Spain",17,7.059,5.257,1.3428,1.2158,141
+"Federico La Penna, Italy",17,4.412,4.281,1.0305,1.0192,"135,136"
+"Kevin Bonacina, Italy",17,4.353,4.374,0.9952,0.9969,"135,136"
+"Sven Jablonski, Germany",17,2.941,4.181,0.7034,0.8132,"78,81"
+"Daniele Chiffi, Italy",17,2.647,4.25,0.6228,0.7625,"135,136"
+"Salvador Lax Franco, Spain",17,4.765,5.257,0.9064,0.941,141
+"Carlos Muniz Munoz, Spain",17,4.235,5.257,0.8057,0.8776,141
+"Manuel Jesus Orellana Cid, Spain",17,7.235,5.257,1.3763,1.2369,141
+G. Aureliano,16,4.312,4.189,1.0296,1.0182,135
+A. Giua,16,4.312,4.189,1.0296,1.0182,135
+"Mario Melero Lopez, Spain",16,4.625,4.844,0.9549,0.9722,140
+F. Fourneau,16,4.25,4.189,1.0147,1.009,135
+Rodrigo José Pereira de Lima,16,5.0,5.329,0.9383,0.9621,71
+D. Tonusluoğlu,16,5.188,4.969,1.044,1.0271,203
+"Piero Maza, Chile",16,3.625,5.039,0.7194,0.8273,"11,13"
+"Sergui Claudiu Muresan, Spain",16,4.062,5.257,0.7728,0.8602,141
+"Marta Huerta de Aza, Spain",16,4.625,5.257,0.8798,0.926,141
+"Matthias Jollenbeck, Germany",16,4.062,4.185,0.9708,0.982,"78,81"
+"Alberto Ruben Arena, Italy",16,3.562,4.32,0.8246,0.8921,"135,136"
+"Maurizio Mariani, Italy",16,3.938,4.221,0.9327,0.9586,"135,136"
+"Rosario Abisso, Italy",16,4.25,4.32,0.9838,0.99,"135,136"
+"Andrea Colombo, Italy",16,4.875,4.221,1.1548,1.0953,"135,136"
+"Oguzhan Cakir, Türkiye",16,4.125,4.969,0.8302,0.8955,203
+"Michael Fabbri, Italy",16,4.312,4.189,1.0296,1.0182,135
+D. Orsato,15,5.0,4.189,1.1937,1.1162,135
+M. Fritz,15,5.133,4.13,1.2428,1.1457,78
+Paulo Cesar Zanovelli da Silva,15,5.4,5.312,1.0165,1.0099,"13,71"
+Felipe Fernandes de Lima,15,6.667,5.329,1.2511,1.1507,71
+Gustavo Ervino Bauermann,15,6.133,5.329,1.151,1.0906,71
+M. Metoğlu,15,6.2,4.969,1.2477,1.1486,203
+Juan Pulido,15,5.133,4.844,1.0598,1.0359,140
+Ç. Altay,15,5.2,4.969,1.0465,1.0279,203
+C. Turpin,15,2.933,4.159,0.7053,0.8232,"2,3"
+"Jorge Balino, Argentina",15,4.733,5.505,0.8598,0.9159,128
+"Ali Sansalan, Türkiye",15,5.0,4.969,1.0062,1.0037,203
+"Mehmet Turkmen, Türkiye",15,3.467,4.969,0.6977,0.8186,203
+"Simon Hooper, England",15,4.067,4.254,0.9559,0.9735,39
+"Halil Umut Meler, Türkiye",15,4.933,4.969,0.9928,0.9957,203
+"Harm Osmers, Germany",15,4.867,4.13,1.1783,1.107,78
+"Benjamin Brand, Germany",15,3.467,4.13,0.8393,0.9036,78
+"Daniel Schlager, Germany",15,4.733,4.13,1.146,1.0876,78
+"Marco Di Bello, Italy",15,3.067,4.224,0.7261,0.8356,"135,136"
+Bruno Arleu de Araujo,14,6.929,5.329,1.3003,1.1752,71
+"Bryan Ferreyra,",14,4.643,5.505,0.8433,0.9086,128
+"Glenn Nyberg, Sweden",14,4.429,3.965,1.1169,1.0682,113
+"Atilla Karaoglan, Türkiye",14,6.0,4.969,1.2075,1.121,203
+"Kadir Saglam, Türkiye",14,6.0,4.969,1.2075,1.121,203
+"Florian Badstubner, Germany",14,2.214,4.13,0.5361,0.7294,78
+"Daniel Siebert, Germany",14,3.429,4.13,0.8301,0.9009,78
+"Gianluca Manganiello, Italy",14,3.571,4.339,0.8231,0.8968,"135,136"
+"Alejandro Quintero Gonzalez, Spain",14,5.857,4.779,1.2255,1.1315,"140,143"
+"Matteo Marchetti, Italy",14,3.786,4.189,0.9038,0.9439,135
+"Tobias Welz, Germany",14,5.571,4.192,1.3289,1.1919,"78,81"
+"Bastian Dankert, Germany",14,3.357,4.13,0.8128,0.8908,78
+"Marco Piccinini, Italy",14,4.5,4.451,1.0109,1.0064,"135,136"
+"John Brooks, England",14,4.571,4.254,1.0745,1.0435,39
+F. Dionisi,13,3.923,4.189,0.9366,0.9642,135
+P. Ittrich,13,3.846,4.197,0.9164,0.9527,"78,81"
+I. Peljto,13,3.692,4.246,0.8695,0.9263,"2,3"
+B. Pakkan,13,7.231,4.969,1.4552,1.2573,203
+A. Akarsu,13,4.462,4.969,0.8979,0.9423,203
+"Juan Pafundi, Argentina",13,4.385,5.505,0.7964,0.8849,128
+"Hilfer, Leandro Rey, Argentina",13,5.0,5.371,0.931,0.961,"11,13,128"
+"Alexis Herrera, Venezuela",13,4.923,4.953,0.994,0.9966,"11,13"
+"Joakim Ostling, Sweden",13,4.769,3.965,1.2028,1.1146,113
+"Jose Luis Guzman Mansilla, Spain",13,4.538,4.841,0.9375,0.9647,"140,141,143"
+"Alper Akarsu, Türkiye",13,3.769,4.969,0.7586,0.8635,203
+"Batuhan Kolak, Türkiye",13,5.308,4.969,1.0682,1.0385,203
+"Ozan Ergun, Türkiye",13,5.462,4.969,1.0991,1.056,203
+"Iosu Galech Apezteguia, Spain",13,5.615,4.844,1.1593,1.0901,140
+"Tony Harrington, England",13,3.077,4.254,0.7232,0.8436,39
+"Michael Salisbury, England",13,4.615,4.254,1.0849,1.048,39
+"Robert Hartmann, Germany",13,3.538,4.13,0.8567,0.919,78
+"Sascha Stegemann, Germany",13,4.0,4.13,0.9685,0.9822,78
+"Tobias Stieler, Germany",13,3.077,4.13,0.745,0.8558,78
+"Livio Marinelli, Italy",13,4.231,4.431,0.9548,0.9744,"135,136"
+"Florian Exner, Germany",13,4.923,4.13,1.1919,1.1085,78
+"Sören Storks, Germany",13,6.0,4.13,1.4527,1.2559,78
+"Deniz Aytekin, Germany",13,4.077,4.13,0.9871,0.9927,78
+"Antonio Rapuano, Italy",13,4.923,4.391,1.1212,1.0685,"135,136"
+"Luca Pairetto, Italy",13,5.923,4.229,1.4006,1.2264,"135,136"
+"Juan Luca Sacchi, Italy",13,3.385,4.269,0.7927,0.8829,"135,136"
+F. Exner,12,5.333,4.13,1.2913,1.1589,78
+Jonathan Benkenstein Pinheiro,12,3.0,5.329,0.563,0.7616,71
+Marcelo de Lima Henrique,12,5.0,5.329,0.9383,0.9664,71
+A. Kardeşler,12,4.0,4.956,0.8072,0.8948,"3,203"
+G. Nyberg,12,2.833,4.197,0.6751,0.8228,"2,3,113"
+S. Vinčić,12,4.333,4.078,1.0627,1.0342,"2,203"
+"Daniel Zamora, Argentina",12,5.75,5.505,1.0444,1.0242,128
+"Cagdas Altay, Türkiye",12,3.417,4.969,0.6876,0.8296,203
+"Miguel Gonzalez Diaz, Spain",12,5.833,5.257,1.1096,1.0598,141
+"Adrian Cordero Vega, Spain",12,3.75,4.844,0.7742,0.8768,140
+"Christian Dingert, Germany",12,3.833,4.13,0.9281,0.9608,78
+"Tim Robinson, England",12,4.833,4.254,1.1361,1.0742,39
+"Ivano Pezzuto, Italy",12,3.833,4.627,0.8285,0.9065,"135,136"
+"Fabio Maresca, Italy",12,4.5,4.32,1.0417,1.0227,"135,136"
+L. Smith,11,4.364,4.232,1.0312,1.0163,"39,45"
+I. Kovács,11,3.727,4.144,0.8994,0.9473,"2,3"
+F. Letexier,11,4.727,4.07,1.1614,1.0845,"2,3"
+"Bruno Amiconi, Argentina",11,5.818,5.505,1.0568,1.0298,128
+"Jefferson Ferreira de Moraes, Brazil",11,6.818,5.329,1.2796,1.1464,71
+"Alejandro Muñiz Ruiz, Spain",11,6.545,4.803,1.3629,1.1901,"140,143"
+"Miguel Sesma Espinosa, Spain",11,2.455,4.803,0.5111,0.7439,"140,143"
+"Francesco Fourneau, Italy",11,4.0,4.189,0.955,0.9764,135
+"Fernando Antonio Mendes de Salles Nascimento Filho, Brazil",11,6.091,5.329,1.1431,1.0749,71
+"Patrick Ittrich, Germany",11,3.091,4.13,0.7484,0.8682,78
+"Federico Dionisi, Italy",11,5.727,4.619,1.24,1.1257,"135,136"
+"Davide Di Marco, Italy",11,4.091,4.523,0.9044,0.9499,"135,136"
+"Maria Sole Ferrieri Caputi, Italy",11,4.636,4.666,0.9935,0.9966,"135,136"
+"Pablo Gonzales Fuertes, Spain",10,3.6,4.844,0.7432,0.8716,140
+L. Massimi,10,4.1,4.189,0.9788,0.9894,135
+M. Ferrieri Caputi,10,4.5,4.189,1.0743,1.0372,135
+A. Prontera,10,3.7,4.189,0.8834,0.9417,135
+"Pablo González Fuertes, Spain",10,5.8,4.844,1.1974,1.0987,140
+João Gobi,10,6.2,5.329,1.1636,1.0818,71
+Lucas Torezin,10,6.2,5.329,1.1636,1.0818,71
+Luiz Flávio,10,6.3,5.329,1.1823,1.0912,71
+S. Marciniak,10,4.4,4.159,1.058,1.029,"2,3"
+S. Schärer,10,4.6,4.321,1.0645,1.0322,"2,3"
+E. Eskås,10,5.0,4.159,1.2022,1.1011,"2,3"
+D. Makkelie,10,3.8,4.159,0.9137,0.9568,"2,3"
+"Erik Mattsson, Sweden",10,3.5,3.965,0.8827,0.9413,113
+"José María Sánchez Martínez, Spain",10,4.7,4.799,0.9794,0.9897,"140,143"
+"Oguzhan Aksu, Türkiye",10,3.2,4.969,0.644,0.822,203
+"Paride Tremolada, Italy",10,5.9,4.609,1.2801,1.14,"135,136"
+"Frank Willenborg, Germany",10,3.5,4.13,0.8474,0.9237,78
+"Tobias Reichel, Germany",10,3.5,4.13,0.8474,0.9237,78
+"Martin Petersen, Germany",10,4.5,4.13,1.0895,1.0448,78
+"Daniele Perenzoni, Italy",10,4.3,4.662,0.9224,0.9612,"135,136"
+A. Hernandez,10,4.9,4.544,1.0782,1.0391,"2,140,143"
+"Giuseppe Mucera, Italy",10,3.4,4.609,0.7377,0.8688,"135,136"
+"Luca Massimi, Italy",10,4.9,4.662,1.0511,1.0256,"135,136"
+"Niccolo Turrini, Italy",10,3.5,4.714,0.7424,0.8712,136
+"Simone Galipo, Italy",10,5.9,4.714,1.2515,1.1258,136
+J. Smith,9,3.889,4.227,0.9201,0.9622,"39,45"
+G. Collu,9,3.778,4.189,0.9019,0.9535,135
+Wagner do Nascimento Magalhaes,9,4.222,5.329,0.7924,0.9017,71
+E. Kargın,9,6.444,4.969,1.2969,1.1407,203
+Ü. Öztürk,9,4.667,4.969,0.9392,0.9712,203
+B. Bastien,9,4.222,4.177,1.0108,1.0051,"2,3"
+A. Merlos,9,4.889,5.505,0.888,0.947,128
+"Kevin Ortega, Peru",9,5.667,4.921,1.1515,1.0717,"11,13"
+"Falcon Perez, Yael, Argentina",9,7.111,5.385,1.3206,1.1519,"11,13,128"
+"Andres Matonte, Uruguay",9,6.111,4.976,1.2282,1.1081,"11,13"
+"Tess Olofsson, Sweden",9,4.222,3.965,1.0648,1.0307,113
+"Timo Gerach, Germany",9,4.556,4.13,1.103,1.0488,78
+"Robin Braun, Germany",9,5.111,4.13,1.2375,1.1125,78
+"Jonathan Benkenstein Pinheiro, Brazil",9,5.111,5.329,0.9592,0.9807,71
+M. Sesma,9,3.333,4.744,0.7027,0.8592,"140,143"
+A. Ruiz,9,4.556,4.744,0.9604,0.9812,"140,143"
+"Andrea Calzavara, Italy",9,4.667,4.656,1.0023,1.0011,"135,136"
+"Paul Tierney, England",9,3.444,4.254,0.8096,0.9098,39
+J. Manzano,9,5.444,4.923,1.106,1.0502,"2,140,848"
+J. Sanchez,9,4.444,4.557,0.9752,0.9883,"2,3,140"
+P. Tremolada,8,5.0,4.189,1.1937,1.0861,135
+M. Jug,8,6.0,4.707,1.2747,1.1221,"2,3"
+G. Kabakov,8,5.0,4.403,1.1357,1.0603,"2,3"
+B. Taşkınsoy,8,3.75,4.969,0.7547,0.891,203
+João Pedro Pinheiro,8,3.5,4.301,0.8138,0.9172,"2,3"
+"Medina, Luis Lobo, Argentina",8,5.5,5.505,0.999,0.9996,128
+"Arasa, Nazareno, Argentina",8,4.875,5.505,0.8855,0.9491,128
+"Derlis Lopez, Paraguay",8,5.25,4.962,1.058,1.0258,"11,13"
+"Gery Vargas, Bolivia",8,6.75,4.931,1.3688,1.1639,"11,13"
+"Marcelo de Lima Henrique, Brazil",8,5.5,5.329,1.0322,1.0143,71
+"Edina Alves Batista, Brazil",8,8.125,5.206,1.5606,1.2492,"11,71"
+"Yigit Arslan, Türkiye",8,4.5,4.969,0.9056,0.9581,203
+"Omer Tolga Guldibi, Türkiye",8,5.25,4.969,1.0566,1.0251,203
+M. Ortiz,8,3.5,4.731,0.7398,0.8843,"140,143"
+C. Soto Grado,8,5.25,4.731,1.1097,1.0487,"140,143"
+"Andrea Zanotti, Italy",8,3.5,4.714,0.7424,0.8855,136
+"Claudio Giuseppe Allegretta, Italy",8,4.0,4.714,0.8485,0.9327,136
+"Mario Perri, Italy",8,4.875,4.714,1.0341,1.0152,136
+Bruno Pereira Vasconcelos,7,6.571,5.329,1.2333,1.096,71
+Edina Alves Batista,7,5.429,5.329,1.0188,1.0077,71
+G. Kruashvili,7,2.857,4.577,0.6243,0.8453,"2,3"
+T. Doman,7,5.571,4.969,1.1212,1.0499,203
+R. Obrenović,7,4.143,4.345,0.9536,0.9809,"2,3"
+Bruno Arleu de Araújo,7,6.0,5.329,1.126,1.0519,71
+L. Lobo,7,6.429,5.505,1.1677,1.069,128
+A. Penel,7,3.857,5.505,0.7006,0.8767,128
+"Gariano, Andres, Argentina",7,4.0,5.505,0.7266,0.8874,128
+"Jhon Alexander Ospina Londono, Colombia",7,5.0,4.98,1.0041,1.0017,"11,13"
+"Bruno Pereira Vasconcelos, Brazil",7,5.286,5.329,0.992,0.9967,71
+"Jesús Valenzuela, Venezuela",7,4.429,5.015,0.8831,0.9519,"11,13"
+"Esteban Ostojich, Uruguay",7,4.714,4.98,0.9467,0.9781,"11,13"
+"Wilmar Roldan, Colombia",7,5.0,5.05,0.9902,0.996,"11,13"
+A. Quintero,7,5.143,4.779,1.0761,1.0313,"140,143"
+I. Diaz,7,6.857,4.844,1.4157,1.1712,140
+J. Alberola,7,3.286,4.844,0.6784,0.8676,140
+G. Scott,6,2.833,4.254,0.666,0.8747,39
+D. Sylwestrzak,6,4.5,4.673,0.9629,0.9861,"2,3"
+Luís Godinho,6,3.667,4.809,0.7625,0.911,3
+N. Minaković,6,3.333,4.809,0.6932,0.885,3
+S. Gishamer,6,5.333,4.809,1.1091,1.0409,3
+M. Lukjančukas,6,3.667,4.267,0.8593,0.9472,"2,3"
+I. Kružliak,6,4.5,4.267,1.0546,1.0205,"2,3"
+M. Balakin,6,2.167,4.403,0.4921,0.8096,"2,3"
+R. Petrescu,6,5.167,4.403,1.1736,1.0651,"2,3"
+D. Rumšas,6,4.0,4.403,0.9086,0.9657,"2,3"
+E. Lambrechts,6,3.167,4.267,0.7421,0.9033,"2,3"
+"Facundo Tello, Argentina",6,6.5,5.505,1.1807,1.0677,128
+"Zunino, Sebastian, Argentina",6,6.167,5.505,1.1201,1.045,128
+"Ramirez, Nicolas, Argentina",6,6.167,5.394,1.1432,1.0537,"11,128"
+"Cristian Garay, Chile",6,3.833,4.88,0.7855,0.9195,"11,13"
+N. Arasa,6,5.667,5.505,1.0293,1.011,128
+"Joao Vitor Gobi, Brazil",6,3.667,5.329,0.6881,0.883,71
+"Wagner do Nascimento Magalhaes, Brazil",6,5.333,5.329,1.0009,1.0003,71
+"Carlos Andres Gariano, Argentina",6,4.667,5.505,0.8477,0.9429,128
+"Umit Ozturk, Türkiye",6,5.333,4.969,1.0733,1.0275,203
+"Joakim Sars,",6,5.0,3.965,1.261,1.0979,113
+F. Maeso,6,3.833,4.769,0.8039,0.9264,"140,143"
+A. Cordero,6,4.333,4.769,0.9087,0.9658,"140,143"
+"Robert Schröder, Germany",6,3.833,4.13,0.9281,0.973,78
+V. Garcia,6,4.5,4.844,0.929,0.9734,140
+J. Guzman,6,5.833,4.844,1.2043,1.0766,140
+J. Munuera,6,4.333,4.844,0.8946,0.9605,140
+J. Martinez,6,4.167,4.838,0.8613,0.948,"3,140"
+A. Gariano,6,6.833,5.505,1.2412,1.0905,128
+S. Allison,5,4.8,4.254,1.1282,1.0427,39
+Sávio Pereira,5,5.6,5.329,1.051,1.017,71
+J. Beaton,5,5.0,4.646,1.0762,1.0254,"2,3"
+Ə. Ağayev,5,4.2,4.484,0.9367,0.9789,"2,3"
+A. Lindhout,5,5.4,4.484,1.2044,1.0681,"2,3"
+F. Glova,5,5.4,4.809,1.123,1.041,3
+O. Grinfeeld,5,5.6,4.484,1.249,1.083,"2,3"
+J. Xhaja,5,4.4,4.809,0.915,0.9717,3
+N. Walsh,5,9.0,4.646,1.9371,1.3124,"2,3"
+A. Papapetrou,5,4.2,4.809,0.8735,0.9578,3
+R. Saggi,5,5.2,4.321,1.2033,1.0678,"2,3"
+M. Krogh,5,3.4,4.809,0.7071,0.9024,3
+N. Dabanović,5,3.4,4.646,0.7318,0.9106,"2,3"
+L. Visser,5,6.8,4.809,1.4142,1.1381,3
+Y. Falcón,5,6.6,5.505,1.1988,1.0663,128
+"Silvio Trucco, Argentina",5,6.4,5.505,1.1625,1.0542,128
+F. Echenique,5,5.4,5.505,0.9809,0.9936,128
+C. Gariano,5,3.8,5.505,0.6902,0.8967,128
+A. Kayatepe,5,4.8,4.969,0.966,0.9887,203
+"Yender Herrera, Venezuela",5,5.0,4.84,1.0331,1.011,11
+"Andres Rojas, Colombia",5,6.4,5.036,1.2709,1.0903,"11,13"
+"Augusto Bergelio Aragon Bautista, Ecuador",5,3.4,4.889,0.6955,0.8985,"11,13"
+"Felipe Viola, Argentina",5,5.8,5.505,1.0535,1.0178,128
+"Zorbay Kucuk, Türkiye",5,5.6,4.969,1.127,1.0423,203
+"Thomas Kirk, England",5,4.4,4.254,1.0342,1.0114,39
+G. Cuadra,5,4.2,4.844,0.8671,0.9557,140
+M. Busquets,5,6.0,4.844,1.2387,1.0796,140
+R. De Burgos,5,5.0,4.844,1.0323,1.0108,140
+E. Eskas,5,3.0,4.647,0.6455,0.8818,"2,848"
+J. Pinheiro,5,6.0,4.647,1.2911,1.097,"2,848"
+S. Vincic,5,3.0,3.997,0.7507,0.9169,2
+L. Lobo Medina,5,4.6,5.505,0.8355,0.9452,128
+Maguielson Lima Barbosa,4,9.0,5.329,1.689,1.1969,71
+D. Di Marco,4,2.75,4.189,0.6565,0.9019,135
+Caio Max Augusto Vieira,4,4.75,5.329,0.8914,0.969,71
+A. Stavrev,4,4.25,4.606,0.9228,0.9779,"2,3"
+A. Sidiropoulos,4,5.25,4.809,1.0918,1.0262,3
+K. Tohver,4,4.75,4.809,0.9878,0.9965,3
+H. Feșnic,4,5.5,4.606,1.1942,1.0555,"2,3"
+A. Treimanis,4,9.5,4.809,1.9757,1.2788,3
+I. Pajač,4,2.5,4.809,0.5199,0.8628,3
+J. Brisard,4,4.25,4.809,0.8838,0.9668,3
+U. Schnyder,4,5.75,4.2,1.3692,1.1055,"2,3"
+S. Gözübüyük,4,5.5,4.403,1.2493,1.0712,"2,3"
+M. Barbu,4,3.25,4.809,0.6759,0.9074,3
+K. Bonacina,4,3.25,4.189,0.7759,0.936,135
+P. Echavarría,4,5.5,5.505,0.999,0.9997,128
+"Aragon Bautista, Augusto Bergelio, Ecuador",4,4.25,4.901,0.8672,0.9621,"11,13"
+S. Martínez,4,7.25,5.505,1.3169,1.0905,128
+L. Rey Hilfer,4,6.75,5.505,1.2261,1.0646,128
+"Perez Gutierrez, Roberto, Peru",4,3.0,4.901,0.6121,0.8892,"11,13"
+"Abel, Ramon Abatti, Brazil",4,5.25,5.268,0.9967,0.999,"13,71"
+"Jose Cabero, Chile",4,3.75,4.84,0.7749,0.9357,11
+"Gustavo Tejera, Uruguay",4,4.0,4.962,0.8061,0.9446,"11,13"
+"Byran Loayza, Ecuador",4,5.0,4.84,1.0331,1.0095,11
+"Juan Gabriel Benitez, Paraguay",4,3.25,4.901,0.6632,0.9038,"11,13"
+"Augusto Menendez, Peru",4,3.0,4.84,0.6199,0.8914,11
+Gustavo Tejera,4,5.5,5.023,1.0949,1.0271,"11,13"
+"Francisco Gilabert, Chile",4,3.75,4.84,0.7749,0.9357,11
+Cristián Marcelo Garay Reyes,4,4.25,5.085,0.8358,0.9531,13
+"Yuri Elino Ferreira Da Cruz, Brazil",4,4.25,5.329,0.7976,0.9422,71
+"Andrew Kitchen, England",4,3.5,4.254,0.8227,0.9493,39
+"Gurcan Hasova, Türkiye",4,6.75,4.969,1.3584,1.1024,203
+P. Echavarria,4,3.75,5.505,0.6812,0.9089,128
+I. Galech,4,5.25,4.844,1.0839,1.024,140
+F. Cosso,3,4.333,4.189,1.0346,1.008,135
+A. Santoro,3,5.0,4.189,1.1937,1.0447,135
+Denis Ribeiro Serafim,3,6.333,5.329,1.1886,1.0435,71
+António Nobre,3,1.667,4.538,0.3673,0.854,"2,3"
+M. Al Hakim,3,4.333,4.809,0.9012,0.9772,3
+B. Berke,3,5.0,4.809,1.0398,1.0092,3
+J. Weinberger,3,4.667,4.809,0.9705,0.9932,3
+E. Özdamar,3,6.0,4.969,1.2075,1.0479,203
+P. Dóvalo,3,2.0,5.505,0.3633,0.8531,128
+B. Ferreyra,3,4.667,5.505,0.8477,0.9648,128
+J. Baliño,3,2.667,5.505,0.4844,0.881,128
+"Mario Alberto Diaz de Vivar Bogado, Paraguay",3,4.0,5.003,0.7995,0.9537,"11,13"
+G. Guerrero,3,3.667,4.921,0.7451,0.9412,"11,13"
+E. Ostojich,3,6.333,5.085,1.2456,1.0567,13
+C. Garay,3,5.0,4.921,1.016,1.0037,"11,13"
+P. Maza,3,6.667,5.085,1.3111,1.0718,13
+"Benitez, Carlos P., Paraguay",3,9.667,4.921,1.9643,1.2225,"11,13"
+S. Zunino,3,5.667,5.505,1.0293,1.0068,128
+B. Kolak,3,4.0,4.969,0.805,0.955,203
+"Ostling, Joakim, Sweden",3,4.667,3.965,1.1769,1.0408,113
+Wilmar Alexander Roldán Pérez,3,7.667,5.085,1.5078,1.1172,13
+Juan Gabriel Benítez,3,5.0,5.085,0.9834,0.9962,13
+Felipe Andrés González Alveal,3,5.0,5.085,0.9834,0.9962,13
+"Guillermo Enrique Guerrero Alcivar, Ecuador",3,3.0,4.921,0.6096,0.9099,"11,13"
+"Felipe Gonzalez, Chile",3,5.0,4.921,1.016,1.0037,"11,13"
+Andrés José Rojas Noguera,3,5.333,5.085,1.0489,1.0113,13
+"Mathias De Armas, Uruguay",3,4.333,4.921,0.8805,0.9724,"11,13"
+"Roberto Perez Gutierrez, Peru",3,5.667,4.84,1.1709,1.0394,11
+"Jose Mendez, Paraguay",3,4.333,4.84,0.8954,0.9759,11
+"Arda Kardesler, Türkiye",3,5.667,4.969,1.1404,1.0324,203
+"Carlos Betancur, Colombia",3,6.333,4.921,1.2869,1.0662,"11,13"
+"Erdem Mertoglu, Türkiye",3,6.667,4.969,1.3417,1.0788,203
+"Andre Luis Skettino Policarpo Bento, Brazil",3,6.667,5.329,1.2511,1.058,71
+"Matt Donohue, England",3,5.0,4.254,1.1753,1.0404,39
+S. Gozubuyuk,3,4.0,3.997,1.0009,1.0002,2
+"Farai Hallam, England",3,3.0,4.254,0.7052,0.932,39
+"Resat Onur Coskunses, Türkiye",3,5.0,4.969,1.0062,1.0014,203
+Y. Perez,3,3.0,5.283,0.5678,0.9003,"11,128"
+I. Kovacs,3,5.333,4.267,1.2498,1.0577,"2,3"
+F. Hallam,3,2.667,4.129,0.6458,0.9183,45
+D. Ghersini,2,1.5,4.189,0.3581,0.893,135
+R. Welch,2,4.5,4.254,1.0577,1.0096,39
+André Luiz,2,8.0,5.329,1.5014,1.0836,71
+Paulo Belence Alves dos Prazeres Filho,2,5.0,5.329,0.9383,0.9897,71
+Bruno Mota Correia,2,4.5,5.329,0.8445,0.9741,71
+Fabio Augusto Santos Sá Junior,2,4.5,5.329,0.8445,0.9741,71
+M. Donohue,2,6.5,4.254,1.5278,1.088,39
+Kleber Ariel Gonçalves da Silva,2,6.5,5.329,1.2199,1.0366,71
+Jefferson Ferreira de Moraes,2,4.0,5.329,0.7507,0.9584,71
+M. Radina,2,5.0,4.809,1.0398,1.0066,3
+E. Jorgji,2,4.0,4.809,0.8319,0.972,3
+O. Berka,2,5.5,4.809,1.1438,1.024,3
+T. Bognár,2,4.5,4.809,0.9358,0.9893,3
+M. Burda,2,3.0,4.13,0.7263,0.9544,78
+D. Strukan,2,4.5,4.809,0.9358,0.9893,3
+R. Braun,2,4.5,4.13,1.0895,1.0149,78
+Lucas Casagrande,2,4.5,5.329,0.8445,0.9741,71
+"Pablo Gimenez, Argentina",2,6.5,5.505,1.1807,1.0301,128
+H. Mastrángelo,2,8.0,5.505,1.4531,1.0755,128
+"Mendez Chavez, Ivo Nigel, Bolivia",2,3.5,4.962,0.7053,0.9509,"11,13"
+D. Zamora,2,6.0,5.505,1.0898,1.015,128
+"Ostojich, Esteban, Uruguay",2,7.5,5.085,1.475,1.0792,13
+F. Tello,2,6.0,5.505,1.0898,1.015,128
+"Wolf, Victor, Sweden",2,5.0,3.965,1.261,1.0435,113
+"Fernandes de Lima, Felipe, Brazil",2,4.0,5.329,0.7507,0.9584,71
+"Johnson, Oscar, Sweden",2,5.0,3.965,1.261,1.0435,113
+"Klitte, Fredrik, Sweden",2,2.5,3.965,0.6305,0.9384,113
+"Alves Batista, Edina, Brazil",2,5.0,5.084,0.9835,0.9972,"11,71"
+Carlos Paul Benitez Achar,2,7.0,5.085,1.3767,1.0628,13
+Esteban Ostojich,2,6.5,5.085,1.2784,1.0464,13
+Yael Falcón Pérez,2,4.0,5.295,0.7554,0.9592,"13,128"
+C. Ortega,2,7.5,4.84,1.5497,1.0916,11
+D. Perenzoni,2,5.5,4.189,1.3131,1.0522,135
+"Aganovic, Adi, Sweden",2,3.0,3.965,0.7566,0.9594,113
+"Maqedonci, Granit, Sweden",2,2.5,3.965,0.6305,0.9384,113
+"Sundell, Richard, Sweden",2,4.5,3.965,1.1349,1.0225,113
+Derlis Fabián López López,2,2.5,5.085,0.4917,0.9153,13
+Maximiliano Ramírez,2,7.0,5.085,1.3767,1.0628,13
+"Braulio Da Silva Machado, Brazil",2,6.5,5.329,1.2199,1.0366,71
+A. Kitchen,2,2.0,4.254,0.4701,0.9117,39
+"Carlos Ortega, Colombia",2,5.5,4.962,1.1084,1.0181,"11,13"
+"Juan Carlos Andrade Arreaga, Ecuador",2,2.5,4.84,0.5166,0.9194,11
+Piero Maza Gomez,2,5.5,5.085,1.0817,1.0136,13
+"Diego Ulloa Angulo, Colombia",2,3.0,4.84,0.6199,0.9366,11
+D. Webb,2,3.5,4.254,0.8227,0.9704,39
+A. Yılmaz,2,2.5,4.969,0.5031,0.9172,203
+N. Ramírez,2,8.0,5.505,1.4531,1.0755,128
+"Carlos P. Benitez, Paraguay",2,4.5,4.962,0.9069,0.9845,"11,13"
+Jesús Valenzuela Sáez,2,6.5,5.085,1.2784,1.0464,13
+"Ivo Nigel Mendez Chavez, Bolivia",2,6.0,4.84,1.2398,1.04,11
+Carlos Andrés Betancur Gutiérrez,2,5.0,5.085,0.9834,0.9972,13
+"Jose Burgos, Uruguay",2,3.5,4.84,0.7232,0.9539,11
+"Alex Fabricio Cajas Torres, Ecuador",2,4.0,4.84,0.8265,0.9711,11
+Andrés Matonte,2,6.0,5.085,1.18,1.03,13
+"Gustavo Ervino Bauermann, Brazil",2,3.5,5.329,0.6568,0.9428,71
+S. Lax,2,3.0,4.825,0.6217,0.937,"141,143"
+C. Muniz,2,6.5,4.825,1.3471,1.0578,"141,143"
+Stuart Attwell,2,6.0,4.254,1.4103,1.0684,39
+Chris Kavanagh,2,3.0,4.254,0.7052,0.9509,39
+A. Morilla,2,3.0,4.825,0.6217,0.937,"141,143"
+Luis Lobo Medina,2,7.0,5.505,1.2715,1.0452,128
+"Andre Luiz Skettino Policarpo Bento, Brazil",2,6.0,5.329,1.126,1.021,71
+G. Cid,2,2.0,4.393,0.4552,0.9092,143
+T. Kirk,2,7.0,4.129,1.6953,1.1159,45
+"Omer Faruk Turtay, Türkiye",2,2.5,4.969,0.5031,0.9172,203
+F. Viola,2,5.5,5.505,0.999,0.9998,128
+P. Dovalo,2,2.0,5.505,0.3633,0.8939,128
+F. Vejar,2,6.0,4.962,1.2092,1.0349,"11,13"
+A. Aragon,2,3.5,4.962,0.7053,0.9509,"11,13"
+N. Ramirez,2,6.0,5.505,1.0898,1.015,128
+"Juan Pablo Loustau, Argentina",2,5.0,5.505,0.9082,0.9847,128
+W. Roldan,2,3.0,5.085,0.59,0.9317,13
+"Alvaro Caranza, Argentina",2,4.5,5.505,0.8174,0.9696,128
+"Jose Cabero Rebolledo, Chile",2,4.0,5.085,0.7867,0.9644,13
+G. A. Vargas Carreno,2,5.0,4.84,1.0331,1.0055,11
+A. Rojas,2,8.5,4.84,1.7564,1.1261,11
+H. Heras,2,6.5,4.84,1.3431,1.0572,11
+C. Benitez,2,8.0,4.84,1.653,1.1088,11
+"Antonio Alberola Rojas, Spain",1,4.0,4.844,0.8258,0.9842,140
+R. Madley,1,3.0,4.254,0.7052,0.9732,39
+"Alejandro Ruiz Aguilera, Spain",1,6.0,4.844,1.2387,1.0217,140
+I. Pezzuto,1,9.0,4.189,2.1487,1.1044,135
+"Ignacio Iglesias Villanueva, Spain",1,6.0,4.844,1.2387,1.0217,140
+S. Singh,1,5.0,4.254,1.1753,1.0159,39
+Yuri Elino Ferreira da Cruz,1,15.0,5.329,2.815,1.165,71
+Arthur Gomes Rabelo,1,8.0,5.329,1.5014,1.0456,71
+"Miguel Martinez Munuera, Spain",1,7.0,4.844,1.4452,1.0405,140
+Anderson Ribeiro Gonçalves,1,8.0,5.329,1.5014,1.0456,71
+Emerson Ricardo de Almeida Andrade,1,9.0,5.329,1.689,1.0626,71
+D. Dickinson,1,6.0,4.809,1.2478,1.0225,3
+D. Panchyshyn,1,6.0,4.809,1.2478,1.0225,3
+M. Aslam,1,5.0,4.809,1.0398,1.0036,3
+A. Dudic,1,2.0,4.809,0.4159,0.9469,3
+M. Nagtegaal,1,6.0,4.809,1.2478,1.0225,3
+K. Athanasiou,1,8.0,4.809,1.6637,1.0603,3
+V. Romanov,1,4.0,4.809,0.8319,0.9847,3
+G. Laibuvitz,1,6.0,4.809,1.2478,1.0225,3
+P. Kralovic,1,5.0,4.809,1.0398,1.0036,3
+B. Saryev,1,5.0,4.809,1.0398,1.0036,3
+T. Farrugia Cann,1,4.0,4.809,0.8319,0.9847,3
+M. Redder,1,3.0,4.809,0.6239,0.9658,3
+Tiago Martins,1,9.0,3.997,2.252,1.1138,2
+A. Bitigen,1,2.0,3.997,0.5004,0.9546,2
+Luciano da Silva Miranda Filho,1,12.0,5.329,2.252,1.1138,71
+M. Dohál,1,2.0,4.809,0.4159,0.9469,3
+A. Ladebäck,1,3.0,4.809,0.6239,0.9658,3
+P. Farrugia,1,3.0,4.809,0.6239,0.9658,3
+M. Al Emara,1,2.0,4.809,0.4159,0.9469,3
+D. Fuxman,1,4.0,4.809,0.8319,0.9847,3
+J. Sundberg,1,1.0,3.997,0.2502,0.9318,2
+F. San,1,4.0,3.997,1.0009,1.0001,2
+V. Spasjoņņikovs,1,4.0,3.997,1.0009,1.0001,2
+R. Hennessy,1,7.0,3.997,1.7515,1.0683,2
+A. Čulina,1,3.0,4.809,0.6239,0.9658,3
+L. Bilbija,1,2.0,4.809,0.4159,0.9469,3
+E. Manouchos,1,4.0,4.809,0.8319,0.9847,3
+S. Amland,1,6.0,4.809,1.2478,1.0225,3
+I. Frid,1,6.0,4.809,1.2478,1.0225,3
+S. van der Eijk,1,2.0,4.809,0.4159,0.9469,3
+O. Hațegan,1,10.0,4.809,2.0796,1.0981,3
+Ö. Güldibi,1,6.0,4.969,1.2075,1.0189,203
+V. Bayarslan,1,9.0,4.969,1.8112,1.0737,203
+W. Delajod,1,3.0,4.809,0.6239,0.9658,3
+José Lax,1,8.0,5.257,1.5218,1.0474,141
+Francisco Expósito,1,6.0,4.393,1.3657,1.0332,143
+Thaillan Azevedo Gomes,1,1.0,5.329,0.1877,0.9262,71
+S. Trucco,1,7.0,5.505,1.2715,1.0247,128
+F. Espinoza,1,7.0,5.505,1.2715,1.0247,128
+C. Betancur,1,5.0,5.085,0.9834,0.9985,13
+W. Roldán,1,7.0,5.085,1.3767,1.0342,13
+"Betancur, Carlos, Colombia",1,4.0,4.84,0.8265,0.9842,11
+"Leodan Frankin Gonzalez Cabrera, Uruguay",1,4.0,5.085,0.7867,0.9806,13
+B. Loayza,1,2.0,4.84,0.4133,0.9467,11
+J. Pafundi,1,5.0,5.505,0.9082,0.9917,128
+"Ortiz Novoa, Jose Alexander, Colombia",1,12.0,4.84,2.4796,1.1345,11
+Jhon Alexander Ospina Londoño,1,3.0,5.085,0.59,0.9627,13
+Joel Alarcón,1,3.0,5.085,0.59,0.9627,13
+"Fernando Andre Vejar Diaz, Chile",1,5.0,4.84,1.0331,1.003,11
+"Michael Espinoza, Peru",1,6.0,4.84,1.2398,1.0218,11
+"Olofsson, Tess, Sweden",1,4.0,3.965,1.0088,1.0008,113
+Dênis da Silva Ribeiro Serafim,1,7.0,5.329,1.3137,1.0285,71
+"Paulo Belence Alves Dos Prazeres Filho, Brazil",1,4.0,5.329,0.7507,0.9773,71
+Alexis Herrera,1,4.0,5.085,0.7867,0.9806,13
+Kevin Paolo Ortega Pimentel,1,3.0,5.085,0.59,0.9627,13
+A. Arena,1,3.0,4.189,0.7162,0.9742,135
+Wagner do Nascimento Magalhães,1,4.0,5.329,0.7507,0.9773,71
+"Lucas Canetto Bellote, Brazil",1,5.0,5.329,0.9383,0.9944,71
+V. Crezzini,1,5.0,4.189,1.1937,1.0176,135
+Byran Loayza,1,4.0,5.085,0.7867,0.9806,13
+Facundo Raúl Tello Figueroa,1,9.0,5.085,1.77,1.07,13
+"Dione Rissios,",1,4.0,4.84,0.8265,0.9842,11
+"Joel Alarcon, Peru",1,2.0,4.84,0.4133,0.9467,11
+"David Ojeda, Paraguay",1,5.0,4.84,1.0331,1.003,11
+Ö. Turtay,1,5.0,4.969,1.0062,1.0006,203
+M. Monaldi,1,7.0,4.189,1.6712,1.061,135
+D. Rutella,1,1.0,4.189,0.2387,0.9308,135
+O. Aksu,1,1.0,4.969,0.2012,0.9274,203
+F. Tokail,1,7.0,4.969,1.4087,1.0372,203
+G. Hasova,1,8.0,4.969,1.61,1.0555,203
+Y. Arslan,1,4.0,4.969,0.805,0.9823,203
+Augusto Menéndez,1,1.0,5.085,0.1967,0.927,13
+"Alejandro Velasquez, Venezuela",1,6.0,4.84,1.2398,1.0218,11
+Carlos Arturo Ortega Jaimes,1,5.0,5.085,0.9834,0.9985,13
+"Emikar Caldera Barrera, Venezuela",1,5.0,4.84,1.0331,1.003,11
+"Javier Revollo, Bolivia",1,5.0,4.84,1.0331,1.003,11
+"Blas Romero, Paraguay",1,3.0,4.84,0.6199,0.9654,11
+"Hernan Heras, Uruguay",1,7.0,4.84,1.4464,1.0406,11
+S. Saka,1,2.0,4.969,0.4025,0.9457,203
+A. Şen,1,3.0,4.969,0.6037,0.964,203
+Iosu Galech Apezteguía,1,6.0,5.257,1.1413,1.0128,141
+Miguel Sesma Espinosa,1,4.0,5.257,0.7609,0.9783,141
+Lucas Paulo Torezin,1,6.0,5.329,1.126,1.0115,71
+Lucas Canetto Bellote,1,7.0,5.329,1.3137,1.0285,71
+"Leandro Fedele, Argentina",1,7.0,5.505,1.2715,1.0247,128
+Darío Herrera,1,2.0,5.085,0.3933,0.9448,13
+M. Orellana,1,6.0,5.257,1.1413,1.0128,141
+J. A. Gonzalez Esteban,1,7.0,5.257,1.3316,1.0301,141
+A. Fuentes,1,3.0,5.257,0.5707,0.961,141
+Anthony Taylor,1,6.0,4.254,1.4103,1.0373,39
+"Edgardo Zamora, Argentina",1,6.0,5.505,1.0898,1.0082,128
+Simon Hooper,1,6.0,4.254,1.4103,1.0373,39
+A. Ojaos,1,5.0,5.257,0.9511,0.9956,141
+"Afro Rocha De Carvalho Filho, Brazil",1,6.0,5.329,1.126,1.0115,71
+Sebastián Nicolás Martínez,1,4.0,5.505,0.7266,0.9751,128
+Darren England,1,4.0,4.254,0.9402,0.9946,39
+Craig Pawson,1,0.0,4.254,0.0,0.9091,39
+Nazareno Arasa,1,2.0,5.505,0.3633,0.9421,128
+Hernán Mastrángelo,1,2.0,5.505,0.3633,0.9421,128
+Fernando Espinoza,1,6.0,5.505,1.0898,1.0082,128
+Pablo Dóvalo,1,3.0,5.505,0.5449,0.9586,128
+"Giovanni Baccini, Italy",1,7.0,4.189,1.6712,1.061,135
+"Murilo Ugolini Klein, Brazil",1,2.0,5.329,0.3753,0.9432,71
+"Direnc Tonusluoglu, Türkiye",1,5.0,4.969,1.0062,1.0006,203
+S. Ais,1,1.0,4.393,0.2276,0.9298,143
+S. Muresan,1,6.0,4.393,1.3657,1.0332,143
+M. Gonzalez,1,3.0,4.393,0.6828,0.9712,143
+L. Bestard Servera,1,5.0,4.393,1.1381,1.0126,143
+D. Palencia,1,7.0,4.393,1.5933,1.0539,143
+A. de Ena Wolf,1,3.0,4.393,0.6828,0.9712,143
+"Victor Garcia Acosta,",1,4.0,4.393,0.9104,0.9919,143
+"Maria Eugenia Gil, Spain",1,8.0,4.844,1.6516,1.0592,140
+A. Backhouse,1,4.0,4.129,0.9688,0.9972,45
+S. Martin,1,3.0,4.129,0.7266,0.9751,45
+"Jose Maria Sanchez Santos, Spain",1,5.0,4.393,1.1381,1.0126,143
+R. Obrenovic,1,5.0,3.997,1.2511,1.0228,2
+M. Al-Hakim,1,3.0,4.809,0.6239,0.9658,3
+I. Kruzliak,1,1.0,3.997,0.2502,0.9318,2
+E. D. Zamora,1,6.0,5.505,1.0898,1.0082,128
+F. Badstubner,1,3.0,5.0,0.6,0.9636,81
+S. Martinez,1,6.0,5.505,1.0898,1.0082,128
+"Jose David Martinez Montalban, Spain",1,9.0,4.393,2.0485,1.0953,143
+G. Ward,1,6.0,4.129,1.4531,1.0412,45
+"Fatih Tokail, Türkiye",1,9.0,4.969,1.8112,1.0737,203
+"Javier Feres, Uruguay",1,9.0,5.085,1.77,1.07,13
+"Lewis Smith, England",1,7.0,4.254,1.6454,1.0587,39
+"Maximiliano Macheroni, Argentina",1,10.0,5.505,1.8164,1.0742,128
+R. Claus,1,4.0,5.329,0.7507,0.9773,71
+H. U. Meler,1,7.0,3.997,1.7515,1.0683,2
+"Asen Albayrak, Türkiye",1,6.0,4.969,1.2075,1.0189,203
+"Mitja Stegemann, Germany",1,3.0,4.13,0.7263,0.9751,78
+N. Lamolina,1,4.0,5.505,0.7266,0.9751,128
+P. Raczkowski,1,0.0,3.997,0.0,0.9091,2
+D. Lacerda,1,7.0,5.329,1.3137,1.0285,71
+"Antonio Sanchez Sanchez, Spain",1,3.0,5.257,0.5707,0.961,141
+C. A. Betancur Gutierrez,1,7.0,4.84,1.4464,1.0406,11
+A. Menendez,1,4.0,4.84,0.8265,0.9842,11
+P. Zanovelli,1,9.0,4.84,1.8597,1.0782,11
+G. Tejera,1,6.0,5.085,1.18,1.0164,13
+D. Lopez,1,2.0,5.085,0.3933,0.9448,13
+A. Herrera,1,7.0,5.085,1.3767,1.0342,13
+M. Ramirez,1,4.0,5.085,0.7867,0.9806,13
+D. Herrera,1,8.0,4.84,1.653,1.0594,11
+B. L. Salazar,1,8.0,4.84,1.653,1.0594,11
+D. Benitez,1,5.0,4.84,1.0331,1.003,11
+A. Diaz,1,2.0,5.085,0.3933,0.9448,13
+R. B. Perez,1,5.0,5.085,0.9834,0.9985,13
+R. Abatti,1,3.0,5.085,0.59,0.9627,13
+A. Daronco,1,5.0,4.84,1.0331,1.003,11
+K. Ortega,1,4.0,4.84,0.8265,0.9842,11
+R. Klein,1,5.0,4.84,1.0331,1.003,11
+J. Benitez,1,1.0,5.085,0.1967,0.927,13
+J. Ospina,1,5.0,5.085,0.9834,0.9985,13
+J. Espinoza,1,4.0,5.085,0.7867,0.9806,13
+"Abdullah Bugra Taskinsoy, Türkiye",1,8.0,4.969,1.61,1.0555,203
+I. N. Mendez Chavez,1,2.0,4.84,0.4133,0.9467,11
+Y. Herrera,1,3.0,4.84,0.6199,0.9654,11
+B. Amiconi,1,7.0,5.505,1.2715,1.0247,128

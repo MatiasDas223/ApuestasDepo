@@ -42,14 +42,22 @@ _pp = _load('preparar_partido')
 _cal = _load('modelo_v3_calibrado')
 _inj = _load('fetch_injuries')
 _lin = _load('fetch_lineups')
+_ref = _load('modelo_v3_ref')
 
 from modelo_v3 import (load_csv as load_hist, compute_match_params,
                         run_simulation)
 
-VB_CSV      = BASE / 'data/apuestas/value_bets.csv'
-VB_CAL_CSV  = BASE / 'data/apuestas/value_bets_calibrado.csv'
-VB_FIL_CSV  = BASE / 'data/apuestas/value_bets_filtrados.csv'
+VB_CSV       = BASE / 'data/apuestas/value_bets.csv'
+VB_CAL_CSV   = BASE / 'data/apuestas/value_bets_calibrado.csv'
+VB_FIL_CSV   = BASE / 'data/apuestas/value_bets_filtrados.csv'
+VB_V33_CSV   = BASE / 'data/apuestas/value_bets_v33ref.csv'
 PRON_CAL_CSV = BASE / 'data/apuestas/pronosticos_calibrado.csv'
+PRON_V33_CSV = BASE / 'data/apuestas/pronosticos_v33ref.csv'
+
+# Alpha del ajuste por árbitro en v3.3-ref (intensidad del multiplicador).
+# 0=desactivar, 0.5=half-effect, 1.0=full. Configurable por env var.
+import os
+V33_REF_ALPHA = float(os.environ.get('V33_REF_ALPHA', '0.5'))
 N_SIM  = 100_000   # menos iteraciones que analizar_partido.py para velocidad
 
 # Liga API Football id → (nombre, solo_equipos_en_db)
@@ -773,6 +781,26 @@ def procesar_partido(fix, force_odds=False):
         vbs_cal   = _ap.analizar_value_bets(probs_cal, odds, home, away)
         vbs_fil   = _ap.filtrar_estrategia(vbs, home, away)
 
+        # ── v3.3-ref shadow: re-simular con factor del árbitro en tarjetas ──
+        # Solo afecta mu_tarjetas_*; las demás distribuciones quedan iguales.
+        # Si no hay árbitro asignado en el fixture, queda igual que v3.2 raw.
+        vbs_v33 = []
+        probs_v33 = None
+        try:
+            params_ref = dict(params)   # shallow copy — alteramos solo mus
+            _ref.apply_referee_factor(params_ref,
+                                       referee=fix.get('referee'),
+                                       alpha=V33_REF_ALPHA,
+                                       verbose=False)
+            sim_v33 = run_simulation(params_ref, N_SIM)
+            sim_v33['team_local']  = home
+            sim_v33['team_visita'] = away
+            sim_v33['arco_params'] = sim['arco_params']
+            probs_v33 = _ap.compute_all_probs(sim_v33)
+            vbs_v33   = _ap.analizar_value_bets(probs_v33, odds, home, away)
+        except Exception as e:
+            print(f"  [v3.3-ref] error: {e}")
+
     except Exception as e:
         print(f"  [sim] Error: {e}")
         return
@@ -823,6 +851,25 @@ def procesar_partido(fix, force_odds=False):
     else:
         print("  Sin value bets detectadas (filtrado)")
 
+    # -- Modelo v3.3-ref (shadow — multiplicador por árbitro en tarjetas) -----
+    if vbs_v33:
+        ref_tag = fix.get('referee') or '(sin árbitro)'
+        print(f"\n  VALUE BETS v3.3-REF ({len(vbs_v33)})  α={V33_REF_ALPHA}  ref={ref_tag}:")
+        for vb in vbs_v33:
+            print(f"  {vb['market']:<38} {vb['lado']:<10} "
+                  f"{vb['odds']:>5.2f}  {vb['edge']:>+6.1%}  {vb['EV_%']:>+6.1f}%")
+        _ap.guardar_value_bets(vbs_v33, home, away, liga, fid,
+                               metodo='v3.3-ref', csv_path=VB_V33_CSV)
+    else:
+        print("  Sin value bets detectadas (v3.3-ref)")
+
+    if probs_v33 is not None:
+        try:
+            _ap.guardar_pronosticos(probs_v33, odds, home, away, liga, fid,
+                                     metodo='v3.3-ref', csv_path=PRON_V33_CSV)
+        except Exception as e:
+            print(f"  [pronosticos-v33] Error al guardar: {e}")
+
 
 # -----------------------------------------------------------------------------
 # Main
@@ -861,8 +908,10 @@ def main():
     actualizar_resultados(label='raw')
     actualizar_resultados(csv_path=VB_CAL_CSV, label='cal')
     actualizar_resultados(csv_path=VB_FIL_CSV, label='fil')
+    actualizar_resultados(csv_path=VB_V33_CSV, label='v33ref')
     actualizar_resultados_pronosticos(label='pron raw')
     actualizar_resultados_pronosticos(csv_path=PRON_CAL_CSV, label='pron cal')
+    actualizar_resultados_pronosticos(csv_path=PRON_V33_CSV, label='pron v33')
 
     if solo_wl:
         print("\nModo --solo-wl completado.\n")

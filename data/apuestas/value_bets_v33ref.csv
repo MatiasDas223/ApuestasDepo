@@ -1,0 +1,13 @@
+fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,implied_prob,edge,ev_pct,metodo,categoria,alcance,resultado,odds_close,clv_pct,fecha_cierre
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",DC -> Empate o Osasuna (X2),,1.91,0.5499,0.2499,0.3000,0.0503,v3.3-ref,Doble Oportunidad,Total,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",Arco tot. O/U 8.5,Under/No,2.00,0.6402,0.4634,0.1769,0.2805,v3.3-ref,Arco,Total,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",Arco Osasuna O/U 3.5,Under/No,1.73,0.7105,0.5366,0.1739,0.2270,v3.3-ref,Arco,Visitante,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",Goles Osasuna O/U 0.5,Over/Si,1.57,0.6827,0.5890,0.0937,0.0719,v3.3-ref,Goles,Visitante,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",Tiros tot. O/U 23.5,Under/No,2.00,0.5541,0.4634,0.0907,0.1082,v3.3-ref,Tiros,Total,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",Arco Athletic Club O/U 5.5,Under/No,1.73,0.6267,0.5366,0.0901,0.0824,v3.3-ref,Arco,Local,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",1X2 -> Osasuna gana,,4.20,0.2945,0.2221,0.0724,0.2368,v3.3-ref,1X2,Total,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",Tiros Athletic Club O/U 15.5,Under/No,1.80,0.5824,0.5147,0.0677,0.0483,v3.3-ref,Tiros,Local,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",Goles Osasuna O/U 1.5,Over/Si,3.75,0.3155,0.2500,0.0655,0.1831,v3.3-ref,Goles,Visitante,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",Tiros Osasuna O/U 8.5,Under/No,1.80,0.5747,0.5147,0.0600,0.0345,v3.3-ref,Tiros,Visitante,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",BTTS,Over/Si,1.95,0.5260,0.4800,0.0460,0.0256,v3.3-ref,BTTS,Total,,,,
+2026-04-20 22:31,1391139,Athletic Club vs Osasuna,"('La Liga', False)",Corners Athletic Club O/U 5.5,Over/Si,1.80,0.5588,0.5148,0.0439,0.0058,v3.3-ref,Corners,Local,,,,
