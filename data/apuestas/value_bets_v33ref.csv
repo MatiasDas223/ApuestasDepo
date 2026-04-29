@@ -2329,18 +2329,18 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 0.5,Under/No,15.00,0.1278,0.0643,0.0636,0.9173,v3.3-ref,Goles,Total,,15.00,+0.00,2026-04-29 21:40,,,exact
 2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",BTTS,Under/No,1.70,0.6090,0.5467,0.0623,0.0353,v3.3-ref,BTTS,Total,,1.67,+1.80,2026-04-29 21:40,,,exact
 2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners Mirassol O/U 6.5,Under/No,2.10,0.5048,0.4430,0.0618,0.0600,v3.3-ref,Corners,Local,,1.83,+14.75,2026-04-29 21:40,,,exact
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles Barcelona SC O/U 1.5,Under/No,1.57,0.7867,0.5890,0.1977,0.2352,v3.3-ref,Goles,Local,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles Barcelona SC O/U 0.5,Under/No,3.50,0.4242,0.2678,0.1564,0.4846,v3.3-ref,Goles,Local,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",DC -> Empate o U. Catolica (X2),,1.67,0.7137,0.5649,0.1487,0.1918,v3.3-ref,Doble Oportunidad,Total,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",1X2 -> U. Catolica gana,,3.50,0.4029,0.2711,0.1318,0.4103,v3.3-ref,1X2,Total,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,1.65,0.6937,0.5714,0.1222,0.1445,v3.3-ref,Goles,Total,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles Barcelona SC O/U 2.5,Under/No,1.14,0.9426,0.8283,0.1143,0.0745,v3.3-ref,Goles,Local,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Under/No,3.00,0.4228,0.3119,0.1109,0.2684,v3.3-ref,Goles,Total,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.22,0.8682,0.7663,0.1019,0.0592,v3.3-ref,Goles,Total,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",BTTS,Under/No,1.80,0.6208,0.5200,0.1008,0.1174,v3.3-ref,BTTS,Total,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Corners U. Catolica O/U 3.5,Under/No,2.20,0.5014,0.4241,0.0773,0.1031,v3.3-ref,Corners,Visitante,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.07,0.9523,0.8937,0.0586,0.0190,v3.3-ref,Goles,Total,,,,,,,
-2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Corners tot. O/U 9.5,Under/No,1.67,0.6131,0.5570,0.0561,0.0239,v3.3-ref,Corners,Total,,,,,,,
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles Barcelona SC O/U 1.5,Under/No,1.57,0.7867,0.5890,0.1977,0.2352,v3.3-ref,Goles,Local,,1.57,+0.00,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles Barcelona SC O/U 0.5,Under/No,3.50,0.4242,0.2678,0.1564,0.4846,v3.3-ref,Goles,Local,,3.75,-6.67,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",DC -> Empate o U. Catolica (X2),,1.67,0.7137,0.5649,0.1487,0.1918,v3.3-ref,Doble Oportunidad,Total,,1.67,+0.00,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",1X2 -> U. Catolica gana,,3.50,0.4029,0.2711,0.1318,0.4103,v3.3-ref,1X2,Total,,3.40,+2.94,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,1.65,0.6937,0.5714,0.1222,0.1445,v3.3-ref,Goles,Total,,1.62,+1.85,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles Barcelona SC O/U 2.5,Under/No,1.14,0.9426,0.8283,0.1143,0.0745,v3.3-ref,Goles,Local,,1.14,+0.00,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Under/No,3.00,0.4228,0.3119,0.1109,0.2684,v3.3-ref,Goles,Total,,3.00,+0.00,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.22,0.8682,0.7663,0.1019,0.0592,v3.3-ref,Goles,Total,,1.22,+0.00,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",BTTS,Under/No,1.80,0.6208,0.5200,0.1008,0.1174,v3.3-ref,BTTS,Total,,1.80,+0.00,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Corners U. Catolica O/U 3.5,Under/No,2.20,0.5014,0.4241,0.0773,0.1031,v3.3-ref,Corners,Visitante,,1.91,+15.18,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.07,0.9523,0.8937,0.0586,0.0190,v3.3-ref,Goles,Total,,1.07,+0.00,2026-04-29 23:10,,,exact
+2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Corners tot. O/U 9.5,Under/No,1.67,0.6131,0.5570,0.0561,0.0239,v3.3-ref,Corners,Total,,1.67,+0.00,2026-04-29 23:10,,,exact
 2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Arco Estudiantes L.P. O/U 3.5,Over/Si,2.00,0.7397,0.4634,0.2763,0.4794,v3.3-ref,Arco,Local,,,,,,,
 2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Tiros Estudiantes L.P. O/U 12.5,Over/Si,1.91,0.7102,0.4853,0.2249,0.3557,v3.3-ref,Tiros,Local,,,,,,,
 2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Arco tot. O/U 6.5,Over/Si,1.67,0.7647,0.5570,0.2077,0.2771,v3.3-ref,Arco,Total,,,,,,,
@@ -2647,8 +2647,8 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 23:50,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 0.5,Over/Si,2.10,0.5430,0.4430,0.1000,0.1402,v3.3-ref,Goles,Visitante,,2.00,+5.00,2026-04-29 21:40,,,exact
 2026-04-28 23:50,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,2.10,0.4963,0.4430,0.0534,0.0423,v3.3-ref,Tarjetas,Total,,2.10,+0.00,2026-04-29 21:40,,,exact
 2026-04-28 23:50,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 1.5,Over/Si,7.00,0.1837,0.1358,0.0479,0.2861,v3.3-ref,Goles,Visitante,,6.50,+7.69,2026-04-29 21:40,,,exact
-2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.82,0.6642,0.5211,0.1431,0.2088,v3.3-ref,Tarjetas,Total,,,,,,,
-2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Tarjetas tot. O/U 4.5,Under/No,2.10,0.4905,0.4430,0.0475,0.0300,v3.3-ref,Tarjetas,Total,,,,,,,
+2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.82,0.6642,0.5211,0.1431,0.2088,v3.3-ref,Tarjetas,Total,,1.80,+1.11,2026-04-29 23:10,,,exact
+2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Tarjetas tot. O/U 4.5,Under/No,2.10,0.4905,0.4430,0.0475,0.0300,v3.3-ref,Tarjetas,Total,,2.10,+0.00,2026-04-29 23:10,,,exact
 2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Arco tot. O/U 7.5,Over/Si,1.73,0.6533,0.5362,0.1171,0.1302,v3.3-ref,Arco,Total,,,,,,,
 2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Flamengo O/U 1.5,Under/No,1.44,0.7086,0.6453,0.0632,0.0203,v3.3-ref,Goles,Visitante,,,,,,,
 2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Flamengo O/U 0.5,Under/No,3.25,0.3423,0.2904,0.0519,0.1123,v3.3-ref,Goles,Visitante,,,,,,,
@@ -3017,3 +3017,4 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 12.5,Under/No,1.17,0.8698,0.8109,0.0589,0.0141,v3.3-ref,Corners,Total,,,,,,,
 2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 13.5,Under/No,1.10,0.9193,0.8642,0.0551,0.0113,v3.3-ref,Corners,Total,,,,,,,
 2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 7.5,Under/No,3.25,0.3404,0.2909,0.0496,0.1063,v3.3-ref,Corners,Total,,,,,,,
+2026-04-29 20:10,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Corners Gaziantep FK O/U 4.5,Over/Si,2.10,0.5213,0.4424,0.0789,0.0946,v3.3-ref,Corners,Local,,,,,,,

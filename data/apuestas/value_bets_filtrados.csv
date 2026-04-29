@@ -271,7 +271,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 23:49,1540880,Shakhtar Donetsk vs Crystal Palace,"('Conference League', True)",Corners Shakhtar Donetsk O/U 3.5,Over/Si,1.73,0.7365,0.5362,0.2003,0.2742,v3.2-fil,Corners,Local,,,,,,,
 2026-04-28 23:50,1540879,Rayo Vallecano vs Strasbourg,"('Conference League', True)",Corners Rayo Vallecano O/U 4.5,Over/Si,1.67,0.7658,0.5570,0.2088,0.2790,v3.2-fil,Corners,Local,,,,,,,
 2026-04-28 23:50,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,2.10,0.5384,0.4430,0.0954,0.1306,v3.2-fil,Tarjetas,Total,,2.10,+0.00,2026-04-29 21:40,,,exact
-2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.82,0.6635,0.5211,0.1425,0.2076,v3.2-fil,Tarjetas,Total,,,,,,,
+2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.82,0.6635,0.5211,0.1425,0.2076,v3.2-fil,Tarjetas,Total,,1.80,+1.11,2026-04-29 23:10,,,exact
 2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners Universitario O/U 4.5,Over/Si,1.73,0.7421,0.5366,0.2055,0.2817,v3.2-fil,Corners,Local,,,,,,,
 2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 10.5,Over/Si,3.25,0.4337,0.2909,0.1428,0.4094,v3.2-fil,Corners,Total,,,,,,,
 2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 8.5,Over/Si,1.80,0.6557,0.5263,0.1294,0.1803,v3.2-fil,Corners,Total,,,,,,,
