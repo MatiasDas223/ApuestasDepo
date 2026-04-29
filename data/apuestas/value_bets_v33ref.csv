@@ -3012,3 +3012,8 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",BTTS,Under/No,2.50,0.4489,0.3750,0.0739,0.1223,v3.3-ref,BTTS,Total,,,,,,,
 2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles tot. O/U 1.5,Under/No,5.50,0.2445,0.1717,0.0728,0.3448,v3.3-ref,Goles,Total,,,,,,,
 2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Gaziantep FK O/U 1.5,Over/Si,2.50,0.4330,0.3750,0.0580,0.0826,v3.3-ref,Goles,Local,,,,,,,
+2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 11.5,Under/No,1.28,0.8000,0.7315,0.0686,0.0281,v3.3-ref,Corners,Total,,,,,,,
+2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 10.5,Under/No,1.44,0.7079,0.6451,0.0627,0.0222,v3.3-ref,Corners,Total,,,,,,,
+2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 12.5,Under/No,1.17,0.8698,0.8109,0.0589,0.0141,v3.3-ref,Corners,Total,,,,,,,
+2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 13.5,Under/No,1.10,0.9193,0.8642,0.0551,0.0113,v3.3-ref,Corners,Total,,,,,,,
+2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 7.5,Under/No,3.25,0.3404,0.2909,0.0496,0.1063,v3.3-ref,Corners,Total,,,,,,,
