@@ -1,19 +1,361 @@
 {
-  "fetched_at": "2026-04-29 16:03:40",
+  "fetched_at": "2026-04-29 18:36:47",
   "data": {
     "fixture_id": 1535177,
-    "home": null,
-    "away": null,
-    "confirmed": false
+    "home": {
+      "team_id": 476,
+      "team_name": "Deportivo Riestra",
+      "formation": "3-4-2-1",
+      "coach_id": 28184,
+      "coach_name": "Gustavo Benitez",
+      "startXI": [
+        {
+          "id": 5774,
+          "name": "Ignacio Arce",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 294447,
+          "name": "Facundo Miño",
+          "number": 24,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 75690,
+          "name": "Juan Randazzo",
+          "number": 19,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 296833,
+          "name": "Rodrigo Gallo",
+          "number": 13,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 106338,
+          "name": "Ángel Stringa",
+          "number": 35,
+          "pos": "M",
+          "grid": "3:4"
+        },
+        {
+          "id": 59338,
+          "name": "Yonatan Goitia",
+          "number": 27,
+          "pos": "M",
+          "grid": "3:3"
+        },
+        {
+          "id": 5800,
+          "name": "Nicolas Watson",
+          "number": 16,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 59056,
+          "name": "Rodrigo Sayavedra",
+          "number": 28,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 278607,
+          "name": "Gonzalo Flores",
+          "number": 32,
+          "pos": "F",
+          "grid": "4:2"
+        },
+        {
+          "id": 427280,
+          "name": "Mauro Smarra",
+          "number": 31,
+          "pos": "F",
+          "grid": "4:1"
+        },
+        {
+          "id": 411409,
+          "name": "Gabriel Obredor",
+          "number": 40,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 537141,
+          "name": "Iván López",
+          "number": 12,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 5570,
+          "name": "Mariano Bracamonte",
+          "number": 36,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 5545,
+          "name": "Cristian Paz",
+          "number": 22,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 278365,
+          "name": "Pedro Ramírez",
+          "number": 5,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 106319,
+          "name": "Antony Alonso",
+          "number": 7,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 440094,
+          "name": "Benjamin Perez",
+          "number": 45,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 263698,
+          "name": "Johnson Nsumoh",
+          "number": 11,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 536919,
+          "name": "Patricio Madero",
+          "number": 25,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 294454,
+          "name": "Pablo Monje",
+          "number": 14,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 5478,
+          "name": "José Ingratti",
+          "number": 21,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 642910,
+          "name": "Lautaro Duarte",
+          "number": 34,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 59355,
+          "name": "Jonathan Herrera",
+          "number": 9,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 2365,
+      "team_name": "Atletico Torque",
+      "formation": "4-3-3",
+      "coach_id": 26924,
+      "coach_name": "Marcelo Mendez",
+      "startXI": [
+        {
+          "id": 92808,
+          "name": "Franco Torgnascioli",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 354649,
+          "name": "Eduardo Agüero",
+          "number": 17,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 51542,
+          "name": "Franco Romero",
+          "number": 2,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 8528,
+          "name": "Gary Kagelmacher",
+          "number": 24,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 51745,
+          "name": "Facundo Silvera",
+          "number": 26,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 51436,
+          "name": "Gonzalo Montes",
+          "number": 20,
+          "pos": "M",
+          "grid": "3:3"
+        },
+        {
+          "id": 51440,
+          "name": "Pablo Siles",
+          "number": 8,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 311333,
+          "name": "Kevin Silva",
+          "number": 3,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 289476,
+          "name": "Esteban Obregón",
+          "number": 10,
+          "pos": "F",
+          "grid": "4:3"
+        },
+        {
+          "id": 51871,
+          "name": "Salomón Rodríguez",
+          "number": 9,
+          "pos": "F",
+          "grid": "4:2"
+        },
+        {
+          "id": 636223,
+          "name": "Ramiro Lecchini",
+          "number": 18,
+          "pos": "F",
+          "grid": "4:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 51448,
+          "name": "Gastón Rodríguez",
+          "number": 13,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 590527,
+          "name": "Mathías Aguiar",
+          "number": 12,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 460092,
+          "name": "José Tarán",
+          "number": 27,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 460089,
+          "name": "Lucas Duré",
+          "number": 23,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 197515,
+          "name": "Juan Quintana",
+          "number": 30,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 352490,
+          "name": "Diogo Guzmán",
+          "number": 19,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 289478,
+          "name": "Bautista Kociubinski",
+          "number": 14,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 283337,
+          "name": "Sebastián Cáceres",
+          "number": 32,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 463465,
+          "name": "Facundo Martinez",
+          "number": 29,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": null,
+          "name": "Yonatan Muñoz",
+          "number": 31,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": null,
+          "name": "Alexander da Silva",
+          "number": 11,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": null,
+          "name": "Nicolas Perez",
+          "number": 21,
+          "pos": "M",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
   },
   "resumen": {
     "fixture_id": 1535177,
-    "confirmed": false,
-    "home_xi_size": 0,
-    "away_xi_size": 0,
-    "home_formation": null,
-    "away_formation": null,
-    "home_coach": null,
-    "away_coach": null
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "3-4-2-1",
+    "away_formation": "4-3-3",
+    "home_coach": "Gustavo Benitez",
+    "away_coach": "Marcelo Mendez"
   }
 }

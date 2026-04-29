@@ -173,13 +173,13 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",Goles Coquimbo Unido O/U 0.5,Over/Si,1.62,0.6977,0.5759,0.1218,0.1303,v3.6,Goles,Visitante,L,1.83,-11.48,2026-04-29 01:44,,,exact
 2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",Goles Coquimbo Unido O/U 1.5,Over/Si,4.33,0.3380,0.2170,0.1210,0.4635,v3.6,Goles,Visitante,L,6.00,-27.83,2026-04-29 01:44,,,exact
 2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",BTTS,Over/Si,2.10,0.5250,0.4430,0.0820,0.1025,v3.6,BTTS,Total,L,2.25,-6.67,2026-04-29 01:44,,,exact
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.53,0.7821,0.6087,0.1734,0.1966,v3.6,Goles,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,2.35,0.5736,0.4005,0.1730,0.3478,v3.6,Goles,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.22,0.9062,0.7663,0.1399,0.1055,v3.6,Goles,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Under/No,5.00,0.3147,0.1896,0.1251,0.5734,v3.6,Goles,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 0.5,Over/Si,1.83,0.6983,0.5000,0.1983,0.2778,v3.6,Goles,Visitante,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 1.5,Over/Si,6.00,0.3378,0.1573,0.1805,1.0266,v3.6,Goles,Visitante,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",BTTS,Over/Si,2.05,0.4950,0.4533,0.0417,0.0147,v3.6,BTTS,Total,,,,,,,
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.53,0.7821,0.6087,0.1734,0.1966,v3.6,Goles,Total,,1.53,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,2.35,0.5736,0.4005,0.1730,0.3478,v3.6,Goles,Total,,2.40,-2.08,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.22,0.9062,0.7663,0.1399,0.1055,v3.6,Goles,Total,,1.22,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Under/No,5.00,0.3147,0.1896,0.1251,0.5734,v3.6,Goles,Total,,5.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 0.5,Over/Si,1.83,0.6983,0.5000,0.1983,0.2778,v3.6,Goles,Visitante,,2.00,-8.50,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 1.5,Over/Si,6.00,0.3378,0.1573,0.1805,1.0266,v3.6,Goles,Visitante,,6.50,-7.69,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",BTTS,Over/Si,2.05,0.4950,0.4533,0.0417,0.0147,v3.6,BTTS,Total,,2.10,-2.38,2026-04-29 21:40,,,exact
 2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Over/Si,2.50,0.5229,0.3750,0.1479,0.3071,v3.6,Goles,Total,,,,,,,
 2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",BTTS,Over/Si,2.05,0.5713,0.4533,0.1180,0.1712,v3.6,BTTS,Total,,,,,,,
 2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",BTTS,Over/Si,2.00,0.5093,0.4667,0.0427,0.0186,v3.6,BTTS,Total,,,,,,,
@@ -193,15 +193,15 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Goles Boston River O/U 0.5,Over/Si,1.73,0.6966,0.5362,0.1604,0.2050,v3.6,Goles,Visitante,L,1.73,+0.00,2026-04-29 01:44,,,exact
 2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Goles Boston River O/U 1.5,Over/Si,5.00,0.3376,0.1896,0.1479,0.6878,v3.6,Goles,Visitante,L,5.00,+0.00,2026-04-29 01:44,,,exact
 2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",BTTS,Over/Si,2.00,0.5170,0.4638,0.0532,0.0339,v3.6,BTTS,Total,L,2.10,-4.76,2026-04-29 01:44,,,exact
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles Atletico Torque O/U 0.5,Over/Si,1.62,0.6976,0.5759,0.1217,0.1301,v3.6,Goles,Visitante,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles Atletico Torque O/U 1.5,Over/Si,4.33,0.3337,0.2170,0.1167,0.4451,v3.6,Goles,Visitante,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",BTTS,Over/Si,2.38,0.4893,0.3913,0.0980,0.1646,v3.6,BTTS,Total,,,,,,,
-2026-04-27 20:59,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Puerto Cabello O/U 0.5,Over/Si,1.62,0.6980,0.5759,0.1221,0.1308,v3.6,Goles,Visitante,,,,,,,
-2026-04-27 20:59,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Puerto Cabello O/U 1.5,Over/Si,4.00,0.3369,0.2337,0.1031,0.3474,v3.6,Goles,Visitante,,,,,,,
-2026-04-27 20:59,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",BTTS,Over/Si,2.10,0.5341,0.4430,0.0912,0.1217,v3.6,BTTS,Total,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 1.5,Under/No,1.80,0.6739,0.5148,0.1591,0.2131,v3.6,Goles,Visitante,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 2.5,Under/No,1.22,0.8847,0.7663,0.1184,0.0793,v3.6,Goles,Visitante,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 0.5,Under/No,4.50,0.3094,0.2077,0.1017,0.3923,v3.6,Goles,Visitante,,,,,,,
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles Atletico Torque O/U 0.5,Over/Si,1.62,0.6976,0.5759,0.1217,0.1301,v3.6,Goles,Visitante,,1.67,-2.99,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles Atletico Torque O/U 1.5,Over/Si,4.33,0.3337,0.2170,0.1167,0.4451,v3.6,Goles,Visitante,,4.33,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",BTTS,Over/Si,2.38,0.4893,0.3913,0.0980,0.1646,v3.6,BTTS,Total,,2.50,-4.80,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Puerto Cabello O/U 0.5,Over/Si,1.62,0.6980,0.5759,0.1221,0.1308,v3.6,Goles,Visitante,,1.67,-2.99,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Puerto Cabello O/U 1.5,Over/Si,4.00,0.3369,0.2337,0.1031,0.3474,v3.6,Goles,Visitante,,4.33,-7.62,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",BTTS,Over/Si,2.10,0.5341,0.4430,0.0912,0.1217,v3.6,BTTS,Total,,2.20,-4.55,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 1.5,Under/No,1.80,0.6739,0.5148,0.1591,0.2131,v3.6,Goles,Visitante,,1.83,-1.64,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 2.5,Under/No,1.22,0.8847,0.7663,0.1184,0.0793,v3.6,Goles,Visitante,,1.25,-2.40,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 0.5,Under/No,4.50,0.3094,0.2077,0.1017,0.3923,v3.6,Goles,Visitante,,5.00,-10.00,2026-04-29 21:40,,,exact
 2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",BTTS,Over/Si,1.91,0.5299,0.4852,0.0447,0.0121,v3.6,BTTS,Total,,,,,,,
 2026-04-27 21:00,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Goles Olimpia O/U 0.5,Over/Si,1.62,0.6979,0.5759,0.1220,0.1306,v3.6,Goles,Visitante,,,,,,,
 2026-04-27 21:00,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Goles Olimpia O/U 1.5,Over/Si,4.00,0.3367,0.2337,0.1030,0.3470,v3.6,Goles,Visitante,,,,,,,
@@ -218,9 +218,9 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 12:10,1535182,Deportivo Recoleta vs Deportivo Cuenca,"('Copa Sudamericana', True)",BTTS,Over/Si,1.91,0.5365,0.4852,0.0513,0.0247,v3.6,BTTS,Total,L,1.91,+0.00,2026-04-29 00:14,,,exact
 2026-04-28 23:49,1540871,SC Braga vs SC Freiburg,"('Europa League', True)",Goles tot. O/U 2.5,Over/Si,2.20,0.5575,0.4315,0.1260,0.2265,v3.6,Goles,Total,,,,,,,
 2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles Atletico-MG O/U 0.5,Over/Si,1.57,0.7058,0.5890,0.1168,0.1082,v3.6,Goles,Visitante,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 0.5,Over/Si,1.83,0.6972,0.5000,0.1972,0.2758,v3.6,Goles,Visitante,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 1.5,Over/Si,6.00,0.3354,0.1573,0.1781,1.0125,v3.6,Goles,Visitante,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",BTTS,Over/Si,2.50,0.4735,0.3750,0.0985,0.1838,v3.6,BTTS,Total,,,,,,,
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 0.5,Over/Si,1.83,0.6972,0.5000,0.1972,0.2758,v3.6,Goles,Visitante,,2.00,-8.50,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 1.5,Over/Si,6.00,0.3354,0.1573,0.1781,1.0125,v3.6,Goles,Visitante,,7.00,-14.29,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",BTTS,Over/Si,2.50,0.4735,0.3750,0.0985,0.1838,v3.6,BTTS,Total,,2.62,-4.58,2026-04-29 21:40,,,exact
 2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",BTTS,Over/Si,2.05,0.5333,0.4533,0.0800,0.0934,v3.6,BTTS,Total,,,,,,,
 2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles Burnley O/U 0.5,Over/Si,1.73,0.6960,0.5362,0.1598,0.2041,v3.6,Goles,Visitante,,,,,,,
 2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles Burnley O/U 1.5,Over/Si,4.50,0.3340,0.2077,0.1263,0.5030,v3.6,Goles,Visitante,,,,,,,
@@ -243,3 +243,18 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 1.5,Under/No,1.83,0.6646,0.5000,0.1646,0.2163,v3.6,Goles,Visitante,,,,,,,
 2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 2.5,Under/No,1.25,0.8825,0.7500,0.1325,0.1031,v3.6,Goles,Visitante,,,,,,,
 2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 0.5,Under/No,5.00,0.3038,0.1896,0.1142,0.5190,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles Penarol O/U 0.5,Over/Si,2.00,0.6948,0.4638,0.2310,0.3895,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles Penarol O/U 1.5,Over/Si,7.00,0.3316,0.1358,0.1958,1.3213,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",BTTS,Over/Si,2.50,0.4952,0.3750,0.1202,0.2380,v3.6,BTTS,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 0.5,Over/Si,1.80,0.6961,0.5148,0.1813,0.2529,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 1.5,Over/Si,5.00,0.3348,0.1896,0.1452,0.6742,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",BTTS,Over/Si,2.00,0.5300,0.4667,0.0634,0.0601,v3.6,BTTS,Total,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Goles America de Cali O/U 0.5,Over/Si,1.73,0.6517,0.5362,0.1155,0.1274,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",BTTS,Over/Si,2.25,0.4598,0.4110,0.0488,0.0346,v3.6,BTTS,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.57,0.7216,0.5890,0.1326,0.1329,v3.6,Goles,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Macara O/U 0.5,Over/Si,1.57,0.6971,0.5890,0.1081,0.0944,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Macara O/U 1.5,Over/Si,4.00,0.3355,0.2337,0.1018,0.3420,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",BTTS,Over/Si,2.25,0.5272,0.4110,0.1162,0.1863,v3.6,BTTS,Total,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Goles Gimnasia Y Tiro O/U 0.5,Over/Si,2.00,0.6993,0.4638,0.2355,0.3987,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Goles Gimnasia Y Tiro O/U 1.5,Over/Si,6.00,0.3350,0.1561,0.1789,1.0101,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",BTTS,Over/Si,2.50,0.5115,0.3750,0.1365,0.2787,v3.6,BTTS,Total,,,,,,,

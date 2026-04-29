@@ -1,19 +1,361 @@
 {
-  "fetched_at": "2026-04-29 16:04:11",
+  "fetched_at": "2026-04-29 18:37:19",
   "data": {
     "fixture_id": 1535175,
-    "home": null,
-    "away": null,
-    "confirmed": false
+    "home": {
+      "team_id": 2808,
+      "team_name": "Caracas FC",
+      "formation": "4-2-3-1",
+      "coach_id": 21942,
+      "coach_name": "Fernando Aristeguieta",
+      "startXI": [
+        {
+          "id": 354028,
+          "name": "Frankarlos Benítez",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 565384,
+          "name": "Eduardo Fereira",
+          "number": 2,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 52629,
+          "name": "Jesús Quintero",
+          "number": 4,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 2447,
+          "name": "Luis Mago",
+          "number": 19,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 565332,
+          "name": "Jesus Yendis",
+          "number": 13,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 52931,
+          "name": "Christian Larotonda",
+          "number": 15,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 562640,
+          "name": "Wilfred Correa",
+          "number": 33,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 456032,
+          "name": "Charly Vegas",
+          "number": 37,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 70106,
+          "name": "Irving Gudiño",
+          "number": 8,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 52963,
+          "name": "Michael Covea",
+          "number": 10,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 70873,
+          "name": "Adrián Fernández",
+          "number": 9,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 565476,
+          "name": "Juan Vegas",
+          "number": 12,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 565496,
+          "name": "Luigi Pagano",
+          "number": 3,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 493872,
+          "name": "Aytor Herrera",
+          "number": 30,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 506752,
+          "name": "Angel Figueroa",
+          "number": 22,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 565383,
+          "name": "Luis Maestre",
+          "number": 20,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 414408,
+          "name": "Miguel Vegas",
+          "number": 5,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 52598,
+          "name": "Robert Hernández",
+          "number": 7,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 565529,
+          "name": "Rodhier Lezama",
+          "number": 35,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 655582,
+          "name": "Ryan Palma",
+          "number": 43,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 482323,
+          "name": "Chris Martinez",
+          "number": 34,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 638443,
+          "name": "Sebastián González",
+          "number": 27,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 565336,
+          "name": "Mauricio Márquez",
+          "number": 11,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 436,
+      "team_name": "Racing Club",
+      "formation": "4-3-3",
+      "coach_id": 649,
+      "coach_name": "Gustavo Costas",
+      "startXI": [
+        {
+          "id": 6364,
+          "name": "Facundo Cambeses",
+          "number": 25,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 197520,
+          "name": "Gastón Martirena",
+          "number": 15,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 125177,
+          "name": "Nazareno Colombo",
+          "number": 23,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 890,
+          "name": "Marcos Rojo",
+          "number": 6,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 6608,
+          "name": "Gabriel Rojas",
+          "number": 27,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 6008,
+          "name": "Bruno Zuculini",
+          "number": 36,
+          "pos": "M",
+          "grid": "3:3"
+        },
+        {
+          "id": 472128,
+          "name": "Alan Forneris",
+          "number": 8,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 363341,
+          "name": "Baltasar Rodriguez",
+          "number": 20,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 170127,
+          "name": "Santiago Solari",
+          "number": 28,
+          "pos": "F",
+          "grid": "4:3"
+        },
+        {
+          "id": 421048,
+          "name": "Tomás Pérez",
+          "number": 58,
+          "pos": "F",
+          "grid": "4:2"
+        },
+        {
+          "id": 51241,
+          "name": "Tomás Conechny",
+          "number": 17,
+          "pos": "F",
+          "grid": "4:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 5624,
+          "name": "Matías Tagliamonte",
+          "number": 30,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 6573,
+          "name": "Franco Pardo",
+          "number": 18,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 289466,
+          "name": "Marco Di Cesare",
+          "number": 3,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 63937,
+          "name": "Agustín García Basso",
+          "number": 2,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 295508,
+          "name": "Ezequiel Cannavo",
+          "number": 4,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 310181,
+          "name": "Ignacio Rodríguez",
+          "number": 19,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 415029,
+          "name": "Gonzalo Sosa",
+          "number": 44,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 6719,
+          "name": "Matko Miljevic",
+          "number": 10,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 6528,
+          "name": "Duván Vergara",
+          "number": 7,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 169928,
+          "name": "Adrián Fernández",
+          "number": 24,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 2477,
+          "name": "Matías Zaracho",
+          "number": 11,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 344165,
+          "name": "Damián Pizarro",
+          "number": 14,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
   },
   "resumen": {
     "fixture_id": 1535175,
-    "confirmed": false,
-    "home_xi_size": 0,
-    "away_xi_size": 0,
-    "home_formation": null,
-    "away_formation": null,
-    "home_coach": null,
-    "away_coach": null
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "4-2-3-1",
+    "away_formation": "4-3-3",
+    "home_coach": "Fernando Aristeguieta",
+    "away_coach": "Gustavo Costas"
   }
 }

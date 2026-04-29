@@ -1951,43 +1951,43 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:55,1535279,Sporting Cristal vs Junior,"('Copa Libertadores', True)",Corners tot. O/U 5.5,Under/No,10.00,0.1511,0.0960,0.0551,0.5114,v3.4-shrink,Corners,Total,L,10.00,+0.00,2026-04-29 01:44,,,exact
 2026-04-27 20:55,1535279,Sporting Cristal vs Junior,"('Copa Libertadores', True)",Corners tot. O/U 13.5,Under/No,1.11,0.9039,0.8540,0.0499,0.0042,v3.4-shrink,Corners,Total,W,1.11,-0.09,2026-04-29 01:44,,,exact
 2026-04-27 20:55,1535279,Sporting Cristal vs Junior,"('Copa Libertadores', True)",Corners tot. O/U 10.5,Under/No,1.53,0.6980,0.6523,0.0457,0.0700,v3.4-shrink,Corners,Total,L,1.53,-0.20,2026-04-29 01:44,,,exact
-2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Tiros Santa Fe O/U 11.5,Under/No,1.80,0.8098,0.5147,0.2951,0.4577,v3.4-shrink,Tiros,Visitante,,,,,,,
-2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.67,0.7787,0.5228,0.2559,0.2972,v3.4-shrink,Tarjetas,Total,,,,,,,
-2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Arco Santa Fe O/U 3.5,Under/No,1.83,0.6833,0.5000,0.1833,0.2525,v3.4-shrink,Arco,Visitante,,,,,,,
-2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Tiros tot. O/U 23.5,Under/No,1.83,0.6594,0.5000,0.1594,0.2087,v3.4-shrink,Tiros,Total,,,,,,,
-2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Arco tot. O/U 7.5,Under/No,1.83,0.6370,0.5000,0.1370,0.1677,v3.4-shrink,Arco,Total,,,,,,,
-2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Tarjetas tot. O/U 4.5,Under/No,1.98,0.6209,0.5063,0.1145,0.2262,v3.4-shrink,Tarjetas,Total,,,,,,,
-2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Corners Platense O/U 4.5,Over/Si,1.61,0.6741,0.5767,0.0975,0.0887,v3.4-shrink,Corners,Local,,,,,,,
-2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Corners Santa Fe O/U 3.5,Under/No,1.73,0.6288,0.5366,0.0922,0.0860,v3.4-shrink,Corners,Visitante,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Mirassol O/U 1.5,Under/No,3.25,0.6213,0.2904,0.3309,1.0191,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",DC -> Empate o Always Ready (X2),,3.75,0.5776,0.2525,0.3251,1.1661,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners Always Ready O/U 2.5,Over/Si,2.00,0.7857,0.4638,0.3219,0.5714,v3.4-shrink,Corners,Visitante,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Mirassol O/U 2.5,Under/No,1.73,0.8537,0.5362,0.3175,0.4768,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Tiros Always Ready O/U 7.5,Over/Si,1.73,0.7846,0.5366,0.2480,0.3550,v3.4-shrink,Tiros,Visitante,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",1X2 -> Always Ready gana,,11.00,0.3028,0.0870,0.2158,2.3310,v3.4-shrink,1X2,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Arco tot. O/U 11.5,Under/No,1.73,0.7212,0.5362,0.1850,0.2477,v3.4-shrink,Arco,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Mirassol O/U 0.5,Under/No,10.00,0.2707,0.0958,0.1749,1.7072,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.53,0.7821,0.6087,0.1734,0.1966,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,2.35,0.5736,0.4005,0.1730,0.3478,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Tarjetas tot. O/U 6.5,Under/No,1.80,0.6949,0.5263,0.1686,0.2508,v3.4-shrink,Tarjetas,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Tiros tot. O/U 31.5,Under/No,1.73,0.7035,0.5366,0.1669,0.2150,v3.4-shrink,Tiros,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 0.5,Over/Si,1.83,0.6545,0.5000,0.1545,0.1978,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.22,0.9062,0.7663,0.1399,0.1055,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 1.5,Over/Si,6.00,0.2894,0.1573,0.1321,0.7365,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Arco Always Ready O/U 2.5,Over/Si,1.61,0.7031,0.5767,0.1264,0.1355,v3.4-shrink,Arco,Visitante,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Under/No,5.00,0.3147,0.1896,0.1251,0.5734,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",1X2 -> Empate,,6.00,0.2748,0.1595,0.1153,0.6488,v3.4-shrink,1X2,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 11.5,Over/Si,3.00,0.4224,0.3124,0.1100,0.2671,v3.4-shrink,Corners,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 9.5,Over/Si,1.80,0.6312,0.5263,0.1049,0.1361,v3.4-shrink,Corners,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 12.5,Over/Si,4.00,0.3286,0.2340,0.0945,0.3142,v3.4-shrink,Corners,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 13.5,Over/Si,6.00,0.2462,0.1579,0.0883,0.4769,v3.4-shrink,Corners,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 8.5,Over/Si,1.44,0.7312,0.6451,0.0861,0.0559,v3.4-shrink,Corners,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners Mirassol O/U 7.5,Under/No,1.67,0.6362,0.5570,0.0792,0.0625,v3.4-shrink,Corners,Local,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 14.5,Over/Si,9.00,0.1794,0.1063,0.0730,0.6145,v3.4-shrink,Corners,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 7.5,Over/Si,1.25,0.8200,0.7500,0.0700,0.0250,v3.4-shrink,Corners,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners Mirassol O/U 6.5,Under/No,2.10,0.5028,0.4430,0.0598,0.0559,v3.4-shrink,Corners,Local,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 6.5,Over/Si,1.12,0.8895,0.8421,0.0474,0.0007,v3.4-shrink,Corners,Total,,,,,,,
-2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 2.5,Over/Si,21.00,0.0924,0.0459,0.0465,0.9394,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Tiros Santa Fe O/U 11.5,Under/No,1.80,0.8098,0.5147,0.2951,0.4577,v3.4-shrink,Tiros,Visitante,,,,2026-04-29 21:40,1.58,+13.72,single_heur
+2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.67,0.7787,0.5228,0.2559,0.2972,v3.4-shrink,Tarjetas,Total,,1.67,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Arco Santa Fe O/U 3.5,Under/No,1.83,0.6833,0.5000,0.1833,0.2525,v3.4-shrink,Arco,Visitante,,1.83,-0.16,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Tiros tot. O/U 23.5,Under/No,1.83,0.6594,0.5000,0.1594,0.2087,v3.4-shrink,Tiros,Total,,1.83,-0.16,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Arco tot. O/U 7.5,Under/No,1.83,0.6370,0.5000,0.1370,0.1677,v3.4-shrink,Arco,Total,,1.83,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Tarjetas tot. O/U 4.5,Under/No,1.98,0.6209,0.5063,0.1145,0.2262,v3.4-shrink,Tarjetas,Total,,2.00,-1.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Corners Platense O/U 4.5,Over/Si,1.61,0.6741,0.5767,0.0975,0.0887,v3.4-shrink,Corners,Local,,1.62,-0.62,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Corners Santa Fe O/U 3.5,Under/No,1.73,0.6288,0.5366,0.0922,0.0860,v3.4-shrink,Corners,Visitante,,1.62,+6.79,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Mirassol O/U 1.5,Under/No,3.25,0.6213,0.2904,0.3309,1.0191,v3.4-shrink,Goles,Local,,3.40,-4.41,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",DC -> Empate o Always Ready (X2),,3.75,0.5776,0.2525,0.3251,1.1661,v3.4-shrink,Doble Oportunidad,Total,,4.00,-6.25,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners Always Ready O/U 2.5,Over/Si,2.00,0.7857,0.4638,0.3219,0.5714,v3.4-shrink,Corners,Visitante,,2.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Mirassol O/U 2.5,Under/No,1.73,0.8537,0.5362,0.3175,0.4768,v3.4-shrink,Goles,Local,,1.80,-3.89,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Tiros Always Ready O/U 7.5,Over/Si,1.73,0.7846,0.5366,0.2480,0.3550,v3.4-shrink,Tiros,Visitante,,1.80,-3.89,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",1X2 -> Always Ready gana,,11.00,0.3028,0.0870,0.2158,2.3310,v3.4-shrink,1X2,Total,,11.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Arco tot. O/U 11.5,Under/No,1.73,0.7212,0.5362,0.1850,0.2477,v3.4-shrink,Arco,Total,,1.73,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Mirassol O/U 0.5,Under/No,10.00,0.2707,0.0958,0.1749,1.7072,v3.4-shrink,Goles,Local,,11.00,-9.09,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.53,0.7821,0.6087,0.1734,0.1966,v3.4-shrink,Goles,Total,,1.53,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,2.35,0.5736,0.4005,0.1730,0.3478,v3.4-shrink,Goles,Total,,2.40,-2.08,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Tarjetas tot. O/U 6.5,Under/No,1.80,0.6949,0.5263,0.1686,0.2508,v3.4-shrink,Tarjetas,Total,,1.80,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Tiros tot. O/U 31.5,Under/No,1.73,0.7035,0.5366,0.1669,0.2150,v3.4-shrink,Tiros,Total,,,,2026-04-29 21:40,1.51,+14.78,single_heur
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 0.5,Over/Si,1.83,0.6545,0.5000,0.1545,0.1978,v3.4-shrink,Goles,Visitante,,2.00,-8.50,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.22,0.9062,0.7663,0.1399,0.1055,v3.4-shrink,Goles,Total,,1.22,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 1.5,Over/Si,6.00,0.2894,0.1573,0.1321,0.7365,v3.4-shrink,Goles,Visitante,,6.50,-7.69,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Arco Always Ready O/U 2.5,Over/Si,1.61,0.7031,0.5767,0.1264,0.1355,v3.4-shrink,Arco,Visitante,,1.61,-0.31,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Under/No,5.00,0.3147,0.1896,0.1251,0.5734,v3.4-shrink,Goles,Total,,5.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",1X2 -> Empate,,6.00,0.2748,0.1595,0.1153,0.6488,v3.4-shrink,1X2,Total,,6.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 11.5,Over/Si,3.00,0.4224,0.3124,0.1100,0.2671,v3.4-shrink,Corners,Total,,3.50,-14.29,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 9.5,Over/Si,1.80,0.6312,0.5263,0.1049,0.1361,v3.4-shrink,Corners,Total,,2.02,-10.89,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 12.5,Over/Si,4.00,0.3286,0.2340,0.0945,0.3142,v3.4-shrink,Corners,Total,,5.00,-20.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 13.5,Over/Si,6.00,0.2462,0.1579,0.0883,0.4769,v3.4-shrink,Corners,Total,,8.00,-25.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 8.5,Over/Si,1.44,0.7312,0.6451,0.0861,0.0559,v3.4-shrink,Corners,Total,,1.57,-8.34,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners Mirassol O/U 7.5,Under/No,1.67,0.6362,0.5570,0.0792,0.0625,v3.4-shrink,Corners,Local,,1.67,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 14.5,Over/Si,9.00,0.1794,0.1063,0.0730,0.6145,v3.4-shrink,Corners,Total,,11.00,-18.18,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 7.5,Over/Si,1.25,0.8200,0.7500,0.0700,0.0250,v3.4-shrink,Corners,Total,,1.33,-6.23,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners Mirassol O/U 6.5,Under/No,2.10,0.5028,0.4430,0.0598,0.0559,v3.4-shrink,Corners,Local,,1.83,+14.75,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners tot. O/U 6.5,Over/Si,1.12,0.8895,0.8421,0.0474,0.0007,v3.4-shrink,Corners,Total,,1.18,-5.17,2026-04-29 21:40,,,exact
+2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 2.5,Over/Si,21.00,0.0924,0.0459,0.0465,0.9394,v3.4-shrink,Goles,Visitante,,23.00,-8.70,2026-04-29 21:40,,,exact
 2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Corners U. Catolica O/U 3.5,Under/No,2.20,0.5028,0.4241,0.0787,0.1062,v3.4-shrink,Corners,Visitante,,,,,,,
 2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",1X2 -> U. Catolica gana,,3.50,0.3498,0.2711,0.0787,0.2243,v3.4-shrink,1X2,Total,,,,,,,
 2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles Barcelona SC O/U 1.5,Under/No,1.57,0.6576,0.5890,0.0686,0.0324,v3.4-shrink,Goles,Local,,,,,,,
@@ -2139,52 +2139,52 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Corners tot. O/U 9.5,Over/Si,1.98,0.5421,0.4789,0.0632,0.0734,v3.4-shrink,Corners,Total,L,1.98,+0.00,2026-04-29 01:44,,,exact
 2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Corners tot. O/U 10.5,Over/Si,2.50,0.4334,0.3750,0.0584,0.0834,v3.4-shrink,Corners,Total,L,2.50,+0.00,2026-04-29 01:44,,,exact
 2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Corners tot. O/U 12.5,Over/Si,5.00,0.2460,0.1891,0.0569,0.2302,v3.4-shrink,Corners,Total,L,5.00,+0.00,2026-04-29 01:44,,,exact
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Tiros Atletico Torque O/U 10.5,Under/No,1.83,0.6592,0.5000,0.1592,0.2083,v3.4-shrink,Tiros,Visitante,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Tiros tot. O/U 22.5,Under/No,1.83,0.6319,0.5000,0.1319,0.1582,v3.4-shrink,Tiros,Total,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Corners Deportivo Riestra O/U 4.5,Over/Si,2.00,0.5833,0.4638,0.1195,0.1666,v3.4-shrink,Corners,Local,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Arco Deportivo Riestra O/U 3.5,Over/Si,2.00,0.5719,0.4634,0.1086,0.1439,v3.4-shrink,Arco,Local,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Corners Atletico Torque O/U 4.5,Under/No,1.67,0.6540,0.5570,0.0970,0.0922,v3.4-shrink,Corners,Visitante,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles Atletico Torque O/U 0.5,Over/Si,1.62,0.6417,0.5759,0.0657,0.0395,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Arco tot. O/U 6.5,Over/Si,1.83,0.5646,0.5000,0.0646,0.0349,v3.4-shrink,Arco,Total,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.57,0.6533,0.5890,0.0643,0.0256,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles tot. O/U 0.5,Over/Si,1.14,0.8922,0.8283,0.0639,0.0172,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",BTTS,Over/Si,2.38,0.4487,0.3913,0.0574,0.0680,v3.4-shrink,BTTS,Total,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Over/Si,2.88,0.3844,0.3271,0.0573,0.1070,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles Atletico Torque O/U 1.5,Over/Si,4.33,0.2718,0.2170,0.0548,0.1770,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Over/Si,2.50,0.4940,0.3750,0.1190,0.2349,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Corners Juventud O/U 4.5,Over/Si,1.83,0.6112,0.5000,0.1112,0.1184,v3.4-shrink,Corners,Local,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.44,0.7418,0.6453,0.0964,0.0681,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Juventud O/U 1.5,Over/Si,2.50,0.4663,0.3750,0.0913,0.1658,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Over/Si,5.00,0.2754,0.1896,0.0858,0.3770,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Puerto Cabello O/U 0.5,Over/Si,1.62,0.6610,0.5759,0.0851,0.0708,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",BTTS,Over/Si,2.10,0.5236,0.4430,0.0807,0.0996,v3.4-shrink,BTTS,Total,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles tot. O/U 0.5,Over/Si,1.11,0.9291,0.8541,0.0750,0.0313,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Corners Puerto Cabello O/U 3.5,Under/No,2.00,0.5338,0.4638,0.0700,0.0675,v3.4-shrink,Corners,Visitante,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Juventud O/U 0.5,Over/Si,1.30,0.7917,0.7234,0.0683,0.0293,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Puerto Cabello O/U 1.5,Over/Si,4.00,0.2938,0.2337,0.0601,0.1752,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",DC -> Juventud o Puerto Cabello (12),,1.36,0.7467,0.6925,0.0542,0.0156,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Juventud O/U 2.5,Over/Si,6.00,0.2098,0.1573,0.0525,0.2587,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles tot. O/U 4.5,Over/Si,11.00,0.1302,0.0871,0.0431,0.4322,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Tiros Racing Club O/U 13.5,Under/No,2.00,0.7772,0.4634,0.3138,0.5544,v3.4-shrink,Tiros,Visitante,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Tiros tot. O/U 24.5,Under/No,1.83,0.7514,0.5000,0.2514,0.3774,v3.4-shrink,Tiros,Total,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Arco Racing Club O/U 4.5,Under/No,1.80,0.7475,0.5147,0.2328,0.3454,v3.4-shrink,Arco,Visitante,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",DC -> Caracas FC o Empate (1X),,2.00,0.6942,0.4698,0.2244,0.3884,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",1X2 -> Caracas FC gana,,4.75,0.4152,0.1987,0.2165,0.9722,v3.4-shrink,1X2,Total,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Corners Caracas FC O/U 3.5,Over/Si,2.00,0.6740,0.4638,0.2102,0.3480,v3.4-shrink,Corners,Local,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 1.5,Under/No,1.80,0.7150,0.5148,0.2001,0.2869,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Corners Racing Club O/U 4.5,Under/No,2.10,0.6329,0.4430,0.1899,0.3290,v3.4-shrink,Corners,Visitante,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 2.5,Under/No,1.22,0.9096,0.7663,0.1433,0.1097,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 0.5,Under/No,4.50,0.3458,0.2077,0.1380,0.5560,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Caracas FC O/U 1.5,Over/Si,4.00,0.3670,0.2337,0.1333,0.4679,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Caracas FC O/U 0.5,Over/Si,1.57,0.7220,0.5890,0.1330,0.1336,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Tiros Caracas FC O/U 9.5,Over/Si,1.73,0.5995,0.5366,0.0629,0.0353,v3.4-shrink,Tiros,Local,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Caracas FC O/U 2.5,Over/Si,13.00,0.1363,0.0741,0.0622,0.7715,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Arco Caracas FC O/U 3.5,Over/Si,2.20,0.4851,0.4233,0.0618,0.0672,v3.4-shrink,Arco,Local,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Under/No,1.28,0.7933,0.7322,0.0611,0.0154,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Arco tot. O/U 7.5,Under/No,1.67,0.6066,0.5576,0.0490,0.0106,v3.4-shrink,Arco,Total,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles tot. O/U 4.5,Under/No,1.10,0.9127,0.8642,0.0485,0.0039,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Under/No,1.75,0.5862,0.5395,0.0467,0.0258,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Under/No,3.40,0.3214,0.2766,0.0448,0.0927,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Tiros Atletico Torque O/U 10.5,Under/No,1.83,0.6592,0.5000,0.1592,0.2083,v3.4-shrink,Tiros,Visitante,,,,2026-04-29 21:40,1.53,+19.80,single_heur
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Tiros tot. O/U 22.5,Under/No,1.83,0.6319,0.5000,0.1319,0.1582,v3.4-shrink,Tiros,Total,,,,2026-04-29 21:40,1.35,+35.37,single_heur
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Corners Deportivo Riestra O/U 4.5,Over/Si,2.00,0.5833,0.4638,0.1195,0.1666,v3.4-shrink,Corners,Local,,1.83,+9.29,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Arco Deportivo Riestra O/U 3.5,Over/Si,2.00,0.5719,0.4634,0.1086,0.1439,v3.4-shrink,Arco,Local,,2.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Corners Atletico Torque O/U 4.5,Under/No,1.67,0.6540,0.5570,0.0970,0.0922,v3.4-shrink,Corners,Visitante,,1.67,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles Atletico Torque O/U 0.5,Over/Si,1.62,0.6417,0.5759,0.0657,0.0395,v3.4-shrink,Goles,Visitante,,1.67,-2.99,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Arco tot. O/U 6.5,Over/Si,1.83,0.5646,0.5000,0.0646,0.0349,v3.4-shrink,Arco,Total,,2.00,-8.50,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.57,0.6533,0.5890,0.0643,0.0256,v3.4-shrink,Goles,Total,,1.67,-5.99,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles tot. O/U 0.5,Over/Si,1.14,0.8922,0.8283,0.0639,0.0172,v3.4-shrink,Goles,Total,,1.14,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",BTTS,Over/Si,2.38,0.4487,0.3913,0.0574,0.0680,v3.4-shrink,BTTS,Total,,2.50,-4.80,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Over/Si,2.88,0.3844,0.3271,0.0573,0.1070,v3.4-shrink,Goles,Total,,3.10,-7.10,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles Atletico Torque O/U 1.5,Over/Si,4.33,0.2718,0.2170,0.0548,0.1770,v3.4-shrink,Goles,Visitante,,4.33,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Over/Si,2.50,0.4940,0.3750,0.1190,0.2349,v3.4-shrink,Goles,Total,,2.50,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Corners Juventud O/U 4.5,Over/Si,1.83,0.6112,0.5000,0.1112,0.1184,v3.4-shrink,Corners,Local,,1.73,+5.78,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.44,0.7418,0.6453,0.0964,0.0681,v3.4-shrink,Goles,Total,,1.44,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Juventud O/U 1.5,Over/Si,2.50,0.4663,0.3750,0.0913,0.1658,v3.4-shrink,Goles,Local,,2.38,+5.04,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Over/Si,5.00,0.2754,0.1896,0.0858,0.3770,v3.4-shrink,Goles,Total,,5.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Puerto Cabello O/U 0.5,Over/Si,1.62,0.6610,0.5759,0.0851,0.0708,v3.4-shrink,Goles,Visitante,,1.67,-2.99,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",BTTS,Over/Si,2.10,0.5236,0.4430,0.0807,0.0996,v3.4-shrink,BTTS,Total,,2.20,-4.55,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles tot. O/U 0.5,Over/Si,1.11,0.9291,0.8541,0.0750,0.0313,v3.4-shrink,Goles,Total,,1.11,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Corners Puerto Cabello O/U 3.5,Under/No,2.00,0.5338,0.4638,0.0700,0.0675,v3.4-shrink,Corners,Visitante,,1.83,+9.29,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Juventud O/U 0.5,Over/Si,1.30,0.7917,0.7234,0.0683,0.0293,v3.4-shrink,Goles,Local,,1.30,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Puerto Cabello O/U 1.5,Over/Si,4.00,0.2938,0.2337,0.0601,0.1752,v3.4-shrink,Goles,Visitante,,4.33,-7.62,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",DC -> Juventud o Puerto Cabello (12),,1.36,0.7467,0.6925,0.0542,0.0156,v3.4-shrink,Doble Oportunidad,Total,,1.36,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles Juventud O/U 2.5,Over/Si,6.00,0.2098,0.1573,0.0525,0.2587,v3.4-shrink,Goles,Local,,6.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Goles tot. O/U 4.5,Over/Si,11.00,0.1302,0.0871,0.0431,0.4322,v3.4-shrink,Goles,Total,,11.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Tiros Racing Club O/U 13.5,Under/No,2.00,0.7772,0.4634,0.3138,0.5544,v3.4-shrink,Tiros,Visitante,,,,2026-04-29 21:40,2.29,-12.71,single_heur
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Tiros tot. O/U 24.5,Under/No,1.83,0.7514,0.5000,0.2514,0.3774,v3.4-shrink,Tiros,Total,,,,2026-04-29 21:40,1.53,+19.80,single_heur
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Arco Racing Club O/U 4.5,Under/No,1.80,0.7475,0.5147,0.2328,0.3454,v3.4-shrink,Arco,Visitante,,1.80,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",DC -> Caracas FC o Empate (1X),,2.00,0.6942,0.4698,0.2244,0.3884,v3.4-shrink,Doble Oportunidad,Total,,2.30,-13.04,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",1X2 -> Caracas FC gana,,4.75,0.4152,0.1987,0.2165,0.9722,v3.4-shrink,1X2,Total,,6.25,-24.00,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Corners Caracas FC O/U 3.5,Over/Si,2.00,0.6740,0.4638,0.2102,0.3480,v3.4-shrink,Corners,Local,,2.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 1.5,Under/No,1.80,0.7150,0.5148,0.2001,0.2869,v3.4-shrink,Goles,Visitante,,1.83,-1.64,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Corners Racing Club O/U 4.5,Under/No,2.10,0.6329,0.4430,0.1899,0.3290,v3.4-shrink,Corners,Visitante,,2.10,+0.00,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 2.5,Under/No,1.22,0.9096,0.7663,0.1433,0.1097,v3.4-shrink,Goles,Visitante,,1.25,-2.40,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Racing Club O/U 0.5,Under/No,4.50,0.3458,0.2077,0.1380,0.5560,v3.4-shrink,Goles,Visitante,,5.00,-10.00,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Caracas FC O/U 1.5,Over/Si,4.00,0.3670,0.2337,0.1333,0.4679,v3.4-shrink,Goles,Local,,5.00,-20.00,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Caracas FC O/U 0.5,Over/Si,1.57,0.7220,0.5890,0.1330,0.1336,v3.4-shrink,Goles,Local,,1.80,-12.78,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Tiros Caracas FC O/U 9.5,Over/Si,1.73,0.5995,0.5366,0.0629,0.0353,v3.4-shrink,Tiros,Local,,,,2026-04-29 21:40,2.23,-22.56,single_heur
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles Caracas FC O/U 2.5,Over/Si,13.00,0.1363,0.0741,0.0622,0.7715,v3.4-shrink,Goles,Local,,19.00,-31.58,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Arco Caracas FC O/U 3.5,Over/Si,2.20,0.4851,0.4233,0.0618,0.0672,v3.4-shrink,Arco,Local,,,,2026-04-29 21:40,2.23,-1.52,single_heur
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Under/No,1.28,0.7933,0.7322,0.0611,0.0154,v3.4-shrink,Goles,Total,,1.22,+4.92,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Arco tot. O/U 7.5,Under/No,1.67,0.6066,0.5576,0.0490,0.0106,v3.4-shrink,Arco,Total,,1.73,-3.47,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles tot. O/U 4.5,Under/No,1.10,0.9127,0.8642,0.0485,0.0039,v3.4-shrink,Goles,Total,,1.07,+2.80,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Under/No,1.75,0.5862,0.5395,0.0467,0.0258,v3.4-shrink,Goles,Total,,1.70,+2.94,2026-04-29 21:40,,,exact
+2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Under/No,3.40,0.3214,0.2766,0.0448,0.0927,v3.4-shrink,Goles,Total,,3.00,+13.33,2026-04-29 21:40,,,exact
 2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Tiros Gremio O/U 12.5,Under/No,1.91,0.8588,0.4853,0.3735,0.6395,v3.4-shrink,Tiros,Visitante,,,,,,,
 2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Tiros Palestino O/U 10.5,Over/Si,1.80,0.8771,0.5147,0.3624,0.5787,v3.4-shrink,Tiros,Local,,,,,,,
 2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Corners Gremio O/U 4.5,Under/No,1.83,0.8313,0.5000,0.3313,0.5212,v3.4-shrink,Corners,Visitante,,,,,,,
@@ -2284,8 +2284,8 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 23:50,1540879,Rayo Vallecano vs Strasbourg,"('Conference League', True)",Corners Rayo Vallecano O/U 4.5,Over/Si,1.67,0.7661,0.5570,0.2091,0.2795,v3.4-shrink,Corners,Local,,,,,,,
 2026-04-28 23:50,1540879,Rayo Vallecano vs Strasbourg,"('Conference League', True)",Corners Strasbourg O/U 4.5,Under/No,1.67,0.6382,0.5570,0.0812,0.0658,v3.4-shrink,Corners,Visitante,,,,,,,
 2026-04-28 23:50,1540879,Rayo Vallecano vs Strasbourg,"('Conference League', True)",DC -> Rayo Vallecano o Strasbourg (12),,1.33,0.7540,0.7032,0.0508,0.0029,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
-2026-04-28 23:50,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,2.10,0.5380,0.4430,0.0950,0.1298,v3.4-shrink,Tarjetas,Total,,,,,,,
-2026-04-28 23:50,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",BTTS,Over/Si,2.25,0.4770,0.4110,0.0660,0.0733,v3.4-shrink,BTTS,Total,,,,,,,
+2026-04-28 23:50,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,2.10,0.5380,0.4430,0.0950,0.1298,v3.4-shrink,Tarjetas,Total,,2.10,+0.00,2026-04-29 21:40,,,exact
+2026-04-28 23:50,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",BTTS,Over/Si,2.25,0.4770,0.4110,0.0660,0.0733,v3.4-shrink,BTTS,Total,,2.10,+7.14,2026-04-29 21:40,,,exact
 2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.82,0.6629,0.5211,0.1418,0.2064,v3.4-shrink,Tarjetas,Total,,,,,,,
 2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Tarjetas tot. O/U 4.5,Under/No,2.10,0.4903,0.4430,0.0473,0.0296,v3.4-shrink,Tarjetas,Total,,,,,,,
 2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles Barcelona SC O/U 0.5,Under/No,3.75,0.2964,0.2500,0.0464,0.1116,v3.4-shrink,Goles,Local,,,,,,,
@@ -2298,11 +2298,11 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 14.5,Over/Si,15.00,0.1206,0.0643,0.0563,0.8089,v3.4-shrink,Corners,Total,,,,,,,
 2026-04-28 23:52,1535274,Independ. Rivadavia vs Deportivo La Guaira,"('Copa Libertadores', True)",Goles Independ. Rivadavia O/U 2.5,Under/No,1.40,0.7287,0.6627,0.0660,0.0202,v3.4-shrink,Goles,Local,,,,,,,
 2026-04-28 23:52,1535267,Bolívar vs Fluminense,"('Copa Libertadores', True)",Goles Bolívar O/U 2.5,Under/No,1.25,0.8119,0.7500,0.0619,0.0149,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,1.91,0.6083,0.4852,0.1231,0.1619,v3.4-shrink,Tarjetas,Total,,,,,,,
-2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",1X2 -> Atletico Torque gana,,4.00,0.3134,0.2384,0.0750,0.2537,v3.4-shrink,1X2,Total,,,,,,,
-2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",DC -> Empate o Atletico Torque (X2),,1.70,0.6019,0.5489,0.0530,0.0232,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
-2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Corners Atletico Torque O/U 3.5,Under/No,2.20,0.4710,0.4241,0.0469,0.0361,v3.4-shrink,Corners,Visitante,,,,,,,
-2026-04-28 23:53,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Over/Si,1.62,0.6257,0.5759,0.0497,0.0136,v3.4-shrink,Tarjetas,Total,,,,,,,
+2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,1.91,0.6083,0.4852,0.1231,0.1619,v3.4-shrink,Tarjetas,Total,,2.00,-4.50,2026-04-29 21:40,,,exact
+2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",1X2 -> Atletico Torque gana,,4.00,0.3134,0.2384,0.0750,0.2537,v3.4-shrink,1X2,Total,,3.90,+2.56,2026-04-29 21:40,,,exact
+2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",DC -> Empate o Atletico Torque (X2),,1.70,0.6019,0.5489,0.0530,0.0232,v3.4-shrink,Doble Oportunidad,Total,,1.62,+4.94,2026-04-29 21:40,,,exact
+2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Corners Atletico Torque O/U 3.5,Under/No,2.20,0.4710,0.4241,0.0469,0.0361,v3.4-shrink,Corners,Visitante,,2.20,+0.00,2026-04-29 21:40,,,exact
+2026-04-28 23:53,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Over/Si,1.62,0.6257,0.5759,0.0497,0.0136,v3.4-shrink,Tarjetas,Total,,2.00,-19.00,2026-04-29 21:40,,,exact
 2026-04-28 23:53,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",DC -> Palestino o Gremio (12),,1.36,0.7365,0.6923,0.0442,0.0016,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
 2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,1.80,0.7958,0.5263,0.2695,0.4325,v3.4-shrink,Tarjetas,Total,,,,,,,
 2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners Atletico-MG O/U 2.5,Over/Si,1.67,0.7483,0.5570,0.1913,0.2497,v3.4-shrink,Corners,Visitante,,,,,,,
@@ -2317,18 +2317,18 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 23:54,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Corners tot. O/U 12.5,Over/Si,6.00,0.2084,0.1579,0.0505,0.2505,v3.4-shrink,Corners,Total,,,,,,,
 2026-04-28 23:54,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Corners tot. O/U 10.5,Over/Si,2.75,0.3875,0.3373,0.0502,0.0657,v3.4-shrink,Corners,Total,,,,,,,
 2026-04-28 23:54,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Goles Vasco DA Gama O/U 0.5,Under/No,4.00,0.2746,0.2337,0.0409,0.0983,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",1X2 -> Santa Fe gana,,5.50,0.3403,0.1714,0.1689,0.8714,v3.4-shrink,1X2,Total,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 0.5,Over/Si,1.83,0.6592,0.5000,0.1592,0.2064,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",DC -> Empate o Santa Fe (X2),,1.91,0.6317,0.4954,0.1363,0.2065,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 1.5,Over/Si,6.00,0.2935,0.1573,0.1362,0.7611,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Platense O/U 1.5,Under/No,1.53,0.6866,0.6087,0.0779,0.0506,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",BTTS,Over/Si,2.50,0.4471,0.3750,0.0721,0.1177,v3.4-shrink,BTTS,Total,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Platense O/U 2.5,Under/No,1.14,0.8933,0.8283,0.0650,0.0183,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Over/Si,1.57,0.6480,0.5890,0.0590,0.0174,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Corners Platense O/U 5.5,Over/Si,2.00,0.5208,0.4638,0.0570,0.0416,v3.4-shrink,Corners,Local,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Platense O/U 0.5,Under/No,3.50,0.3224,0.2678,0.0546,0.1284,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Over/Si,2.88,0.3800,0.3271,0.0529,0.0944,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 2.5,Over/Si,21.00,0.0952,0.0459,0.0493,0.9992,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",1X2 -> Santa Fe gana,,5.50,0.3403,0.1714,0.1689,0.8714,v3.4-shrink,1X2,Total,,5.75,-4.35,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 0.5,Over/Si,1.83,0.6592,0.5000,0.1592,0.2064,v3.4-shrink,Goles,Visitante,,2.00,-8.50,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",DC -> Empate o Santa Fe (X2),,1.91,0.6317,0.4954,0.1363,0.2065,v3.4-shrink,Doble Oportunidad,Total,,2.10,-9.05,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 1.5,Over/Si,6.00,0.2935,0.1573,0.1362,0.7611,v3.4-shrink,Goles,Visitante,,7.00,-14.29,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Platense O/U 1.5,Under/No,1.53,0.6866,0.6087,0.0779,0.0506,v3.4-shrink,Goles,Local,,1.62,-5.56,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",BTTS,Over/Si,2.50,0.4471,0.3750,0.0721,0.1177,v3.4-shrink,BTTS,Total,,2.62,-4.58,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Platense O/U 2.5,Under/No,1.14,0.8933,0.8283,0.0650,0.0183,v3.4-shrink,Goles,Local,,1.17,-2.56,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Over/Si,1.57,0.6480,0.5890,0.0590,0.0174,v3.4-shrink,Goles,Total,,1.53,+2.61,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Corners Platense O/U 5.5,Over/Si,2.00,0.5208,0.4638,0.0570,0.0416,v3.4-shrink,Corners,Local,,2.00,+0.00,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Platense O/U 0.5,Under/No,3.50,0.3224,0.2678,0.0546,0.1284,v3.4-shrink,Goles,Local,,3.75,-6.67,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Over/Si,2.88,0.3800,0.3271,0.0529,0.0944,v3.4-shrink,Goles,Total,,2.70,+6.67,2026-04-29 21:40,,,exact
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 2.5,Over/Si,21.00,0.0952,0.0459,0.0493,0.9992,v3.4-shrink,Goles,Visitante,,26.00,-19.23,2026-04-29 21:40,,,exact
 2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Club Nacional O/U 0.5,Over/Si,1.53,0.7138,0.6087,0.1051,0.0922,v3.4-shrink,Goles,Visitante,,,,,,,
 2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Over/Si,2.50,0.4755,0.3750,0.1005,0.1887,v3.4-shrink,Goles,Total,,,,,,,
 2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Club Nacional O/U 1.5,Over/Si,3.50,0.3522,0.2678,0.0844,0.2326,v3.4-shrink,Goles,Visitante,,,,,,,
@@ -2493,3 +2493,94 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 2.5,Under/No,1.25,0.8826,0.7500,0.1326,0.1032,v3.4-shrink,Goles,Visitante,,,,,,,
 2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 0.5,Under/No,5.00,0.3045,0.1896,0.1149,0.5227,v3.4-shrink,Goles,Visitante,,,,,,,
 2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Mantova O/U 2.5,Over/Si,13.00,0.1758,0.0741,0.1017,1.2855,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tarjetas tot. O/U 6.5,Under/No,1.73,0.8275,0.5362,0.2913,0.4316,v3.4-shrink,Tarjetas,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,2.20,0.6976,0.4241,0.2735,0.5348,v3.4-shrink,Tarjetas,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tiros Penarol O/U 8.5,Over/Si,1.83,0.7596,0.5000,0.2596,0.3923,v3.4-shrink,Tiros,Visitante,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Arco Corinthians O/U 5.5,Under/No,1.91,0.7188,0.4853,0.2335,0.3722,v3.4-shrink,Arco,Local,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners Penarol O/U 3.5,Over/Si,1.80,0.7242,0.5148,0.2094,0.3035,v3.4-shrink,Corners,Visitante,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Arco Penarol O/U 3.5,Over/Si,2.20,0.6154,0.4233,0.1920,0.3538,v3.4-shrink,Arco,Visitante,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles Penarol O/U 0.5,Over/Si,2.00,0.6371,0.4638,0.1733,0.2742,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",DC -> Empate o Penarol (X2),,2.30,0.5606,0.4108,0.1498,0.2894,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",1X2 -> Penarol gana,,6.50,0.2842,0.1445,0.1397,0.8474,v3.4-shrink,1X2,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles Penarol O/U 1.5,Over/Si,7.00,0.2675,0.1358,0.1317,0.8726,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tiros tot. O/U 22.5,Over/Si,1.73,0.6469,0.5366,0.1102,0.1171,v3.4-shrink,Tiros,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tiros Corinthians O/U 14.5,Under/No,1.73,0.6426,0.5366,0.1060,0.1098,v3.4-shrink,Tiros,Local,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Arco tot. O/U 9.5,Under/No,1.83,0.6023,0.5000,0.1023,0.1023,v3.4-shrink,Arco,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",BTTS,Over/Si,2.50,0.4680,0.3750,0.0930,0.1700,v3.4-shrink,BTTS,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles Corinthians O/U 1.5,Under/No,1.73,0.6145,0.5362,0.0783,0.0631,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners Corinthians O/U 5.5,Under/No,1.73,0.6116,0.5362,0.0754,0.0580,v3.4-shrink,Corners,Local,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners tot. O/U 10.5,Over/Si,2.62,0.4265,0.3549,0.0717,0.1196,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles Corinthians O/U 2.5,Under/No,1.20,0.8499,0.7830,0.0669,0.0198,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners tot. O/U 9.5,Over/Si,2.00,0.5346,0.4737,0.0609,0.0692,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners tot. O/U 11.5,Over/Si,3.50,0.3247,0.2685,0.0562,0.1366,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Over/Si,1.50,0.6772,0.6250,0.0522,0.0158,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners tot. O/U 12.5,Over/Si,5.00,0.2386,0.1891,0.0494,0.1927,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles Corinthians O/U 0.5,Under/No,4.33,0.2661,0.2170,0.0491,0.1520,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners tot. O/U 13.5,Over/Si,8.00,0.1683,0.1192,0.0490,0.3462,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Arco tot. O/U 8.5,Under/No,2.10,0.4913,0.4430,0.0483,0.0316,v3.4-shrink,Arco,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles Penarol O/U 2.5,Over/Si,26.00,0.0814,0.0374,0.0440,1.1156,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners tot. O/U 7.5,Over/Si,1.33,0.7526,0.7091,0.0434,0.0032,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Over/Si,2.50,0.4154,0.3750,0.0404,0.0386,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",DC -> Empate o Cusco (X2),,3.00,0.5417,0.3154,0.2263,0.6250,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Independiente Medellin O/U 2.5,Under/No,1.50,0.8105,0.6250,0.1855,0.2157,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Independiente Medellin O/U 1.5,Under/No,2.50,0.5571,0.3750,0.1821,0.3926,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",1X2 -> Cusco gana,,8.00,0.2851,0.1179,0.1672,1.2808,v3.4-shrink,1X2,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 0.5,Over/Si,1.80,0.6751,0.5148,0.1603,0.2152,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners Independiente Medellin O/U 6.5,Under/No,1.73,0.6868,0.5362,0.1506,0.1881,v3.4-shrink,Corners,Local,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 1.5,Over/Si,5.00,0.3110,0.1896,0.1213,0.5548,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners Cusco O/U 2.5,Over/Si,1.83,0.6167,0.5000,0.1167,0.1285,v3.4-shrink,Corners,Visitante,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Independiente Medellin O/U 0.5,Under/No,7.00,0.2241,0.1358,0.0883,0.5689,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.44,0.7304,0.6453,0.0851,0.0518,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,2.15,0.5122,0.4372,0.0750,0.1013,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners tot. O/U 7.5,Under/No,3.00,0.3863,0.3124,0.0739,0.1590,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",1X2 -> Empate,,5.00,0.2566,0.1886,0.0680,0.2829,v3.4-shrink,1X2,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners tot. O/U 9.5,Under/No,1.67,0.6244,0.5570,0.0674,0.0428,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners tot. O/U 10.5,Under/No,1.40,0.7266,0.6627,0.0640,0.0173,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.17,0.8735,0.8104,0.0631,0.0220,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners tot. O/U 11.5,Under/No,1.25,0.8100,0.7500,0.0600,0.0126,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",BTTS,Over/Si,2.00,0.5236,0.4667,0.0570,0.0473,v3.4-shrink,BTTS,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 2.5,Over/Si,19.00,0.1058,0.0509,0.0549,1.0110,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners tot. O/U 6.5,Under/No,4.33,0.2669,0.2169,0.0500,0.1565,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Under/No,4.33,0.2620,0.2170,0.0450,0.1345,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Tiros America de Cali O/U 9.5,Under/No,1.91,0.7159,0.4853,0.2306,0.3666,v3.4-shrink,Tiros,Visitante,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Tiros tot. O/U 22.5,Under/No,2.00,0.6596,0.4634,0.1962,0.3191,v3.4-shrink,Tiros,Total,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,2.10,0.6056,0.4430,0.1626,0.2718,v3.4-shrink,Tarjetas,Total,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Arco tot. O/U 7.5,Under/No,1.83,0.6386,0.5000,0.1386,0.1687,v3.4-shrink,Arco,Total,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Arco America de Cali O/U 3.5,Under/No,1.61,0.7065,0.5767,0.1299,0.1410,v3.4-shrink,Arco,Visitante,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Corners Tigre O/U 4.5,Over/Si,2.10,0.5357,0.4430,0.0928,0.1251,v3.4-shrink,Corners,Local,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Arco Tigre O/U 4.5,Under/No,1.67,0.6324,0.5576,0.0748,0.0536,v3.4-shrink,Arco,Local,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Goles America de Cali O/U 0.5,Over/Si,1.73,0.6069,0.5362,0.0707,0.0499,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",1X2 -> America de Cali gana,,4.50,0.2771,0.2109,0.0661,0.2469,v3.4-shrink,1X2,Total,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",DC -> Empate o America de Cali (X2),,1.83,0.5667,0.5093,0.0574,0.0371,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Corners tot. O/U 9.5,Over/Si,3.25,0.3424,0.2909,0.0516,0.1128,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Corners tot. O/U 7.5,Over/Si,1.73,0.5803,0.5362,0.0441,0.0040,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Tiros Tigre O/U 12.5,Under/No,1.91,0.5278,0.4853,0.0425,0.0076,v3.4-shrink,Tiros,Local,,,,,,,
+2026-04-29 18:39,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Tiros RB Bragantino O/U 11.5,Over/Si,1.83,0.7432,0.5000,0.2432,0.3622,v3.4-shrink,Tiros,Local,,,,,,,
+2026-04-29 18:39,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Tiros River Plate O/U 11.5,Under/No,1.73,0.7607,0.5366,0.2241,0.3137,v3.4-shrink,Tiros,Visitante,,,,,,,
+2026-04-29 18:39,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Arco River Plate O/U 3.5,Under/No,2.10,0.6099,0.4424,0.1675,0.2808,v3.4-shrink,Arco,Visitante,,,,,,,
+2026-04-29 18:39,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Corners River Plate O/U 4.5,Under/No,1.83,0.6409,0.5000,0.1409,0.1748,v3.4-shrink,Corners,Visitante,,,,,,,
+2026-04-29 18:39,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Arco RB Bragantino O/U 3.5,Over/Si,1.67,0.6926,0.5576,0.1350,0.1539,v3.4-shrink,Arco,Local,,,,,,,
+2026-04-29 18:39,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Corners RB Bragantino O/U 4.5,Over/Si,1.80,0.6146,0.5147,0.0999,0.1063,v3.4-shrink,Corners,Local,,,,,,,
+2026-04-29 18:39,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Tiros tot. O/U 23.5,Over/Si,1.91,0.5364,0.4853,0.0511,0.0240,v3.4-shrink,Tiros,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.57,0.7216,0.5890,0.1326,0.1329,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Over/Si,2.70,0.4662,0.3478,0.1184,0.2587,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",BTTS,Over/Si,2.25,0.5131,0.4110,0.1022,0.1546,v3.4-shrink,BTTS,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Alianza Atletico O/U 1.5,Over/Si,3.00,0.4083,0.3119,0.0964,0.2250,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Alianza Atletico O/U 0.5,Over/Si,1.40,0.7563,0.6627,0.0937,0.0588,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Over/Si,6.00,0.2504,0.1573,0.0930,0.5021,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Macara O/U 0.5,Over/Si,1.57,0.6787,0.5890,0.0897,0.0656,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Macara O/U 1.5,Over/Si,4.00,0.3135,0.2337,0.0798,0.2539,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles tot. O/U 0.5,Over/Si,1.12,0.9219,0.8427,0.0792,0.0325,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Corners Macara O/U 4.5,Under/No,1.67,0.6351,0.5570,0.0781,0.0607,v3.4-shrink,Corners,Visitante,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles tot. O/U 4.5,Over/Si,15.00,0.1139,0.0643,0.0496,0.7084,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Alianza Atletico O/U 2.5,Over/Si,8.00,0.1673,0.1189,0.0484,0.3387,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Corners tot. O/U 7.5,Under/No,3.50,0.3115,0.2685,0.0430,0.0903,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",DC -> Empate o Gimnasia Y Tiro (X2),,2.62,0.5730,0.3617,0.2113,0.5013,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Goles Gimnasia Y Tiro O/U 0.5,Over/Si,2.00,0.6595,0.4638,0.1957,0.3189,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",1X2 -> Gimnasia Y Tiro gana,,6.50,0.3004,0.1425,0.1578,0.9523,v3.4-shrink,1X2,Total,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Goles Gimnasia Y Tiro O/U 1.5,Over/Si,6.00,0.2901,0.1561,0.1340,0.7407,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Goles Velez Sarsfield O/U 2.5,Under/No,1.28,0.8479,0.7322,0.1157,0.0853,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Goles Velez Sarsfield O/U 1.5,Under/No,1.83,0.6138,0.5000,0.1138,0.1233,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",BTTS,Over/Si,2.50,0.4850,0.3750,0.1100,0.2124,v3.4-shrink,BTTS,Total,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Goles Velez Sarsfield O/U 0.5,Under/No,4.50,0.2634,0.2063,0.0570,0.1852,v3.4-shrink,Goles,Local,,,,,,,
+2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",1X2 -> Empate,,4.00,0.2727,0.2316,0.0411,0.0906,v3.4-shrink,1X2,Total,,,,,,,
