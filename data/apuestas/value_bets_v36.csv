@@ -218,3 +218,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 12:10,1535182,Deportivo Recoleta vs Deportivo Cuenca,"('Copa Sudamericana', True)",BTTS,Over/Si,1.91,0.5365,0.4852,0.0513,0.0247,v3.6,BTTS,Total,L,1.91,+0.00,2026-04-29 00:14,,,exact
 2026-04-28 23:49,1540871,SC Braga vs SC Freiburg,"('Europa League', True)",Goles tot. O/U 2.5,Over/Si,2.20,0.5575,0.4315,0.1260,0.2265,v3.6,Goles,Total,,,,,,,
 2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles Atletico-MG O/U 0.5,Over/Si,1.57,0.7058,0.5890,0.1168,0.1082,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 0.5,Over/Si,1.83,0.6972,0.5000,0.1972,0.2758,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 1.5,Over/Si,6.00,0.3354,0.1573,0.1781,1.0125,v3.6,Goles,Visitante,,,,,,,
+2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",BTTS,Over/Si,2.50,0.4735,0.3750,0.0985,0.1838,v3.6,BTTS,Total,,,,,,,
+2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",BTTS,Over/Si,2.05,0.5333,0.4533,0.0800,0.0934,v3.6,BTTS,Total,,,,,,,
