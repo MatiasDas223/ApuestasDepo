@@ -1,0 +1,74 @@
+{
+  "fetched_at": "2026-04-25 00:36:51",
+  "data": {
+    "home_team_id": 523,
+    "away_team_id": 801,
+    "home": [
+      {
+        "player_id": 362061,
+        "player_name": "B. Cremaschi",
+        "photo": "https://media.api-sports.io/football/players/362061.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 523,
+        "fixture_id": 1378201
+      },
+      {
+        "player_id": 292543,
+        "player_name": "M. Frigan",
+        "photo": "https://media.api-sports.io/football/players/292543.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 523,
+        "fixture_id": 1378201
+      }
+    ],
+    "away": [
+      {
+        "player_id": 485960,
+        "player_name": "D. Denoon",
+        "photo": "https://media.api-sports.io/football/players/485960.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 801,
+        "fixture_id": 1378201
+      },
+      {
+        "player_id": 341226,
+        "player_name": "R. Durosinmi",
+        "photo": "https://media.api-sports.io/football/players/341226.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 801,
+        "fixture_id": 1378201
+      },
+      {
+        "player_id": 30723,
+        "player_name": "M. Marin",
+        "photo": "https://media.api-sports.io/football/players/30723.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 801,
+        "fixture_id": 1378201
+      },
+      {
+        "player_id": 20959,
+        "player_name": "M. Tramoni",
+        "photo": "https://media.api-sports.io/football/players/20959.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 801,
+        "fixture_id": 1378201
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1378201,
+    "home_total": 2,
+    "home_missing": 2,
+    "home_questionable": 0,
+    "away_total": 4,
+    "away_missing": 4,
+    "away_questionable": 0
+  }
+}

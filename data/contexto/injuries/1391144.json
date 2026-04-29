@@ -1,0 +1,128 @@
+{
+  "fetched_at": "2026-04-21 13:29:33",
+  "data": {
+    "home_team_id": 798,
+    "away_team_id": 532,
+    "home": [
+      {
+        "player_id": 152955,
+        "player_name": "L. Bergstrom",
+        "photo": "https://media.api-sports.io/football/players/152955.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 798,
+        "fixture_id": 1391144
+      },
+      {
+        "player_id": 313059,
+        "player_name": "M. Joseph",
+        "photo": "https://media.api-sports.io/football/players/313059.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 798,
+        "fixture_id": 1391144
+      },
+      {
+        "player_id": 140831,
+        "player_name": "Z. Luvumbo",
+        "photo": "https://media.api-sports.io/football/players/140831.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 798,
+        "fixture_id": 1391144
+      },
+      {
+        "player_id": 46733,
+        "player_name": "A. Raillo",
+        "photo": "https://media.api-sports.io/football/players/46733.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 798,
+        "fixture_id": 1391144
+      },
+      {
+        "player_id": 411424,
+        "player_name": "J. Salas",
+        "photo": "https://media.api-sports.io/football/players/411424.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 798,
+        "fixture_id": 1391144
+      }
+    ],
+    "away": [
+      {
+        "player_id": 183848,
+        "player_name": "J. Agirrezabala",
+        "photo": "https://media.api-sports.io/football/players/183848.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 532,
+        "fixture_id": 1391144
+      },
+      {
+        "player_id": 48372,
+        "player_name": "E. Comert",
+        "photo": "https://media.api-sports.io/football/players/48372.png",
+        "type": "Missing Fixture",
+        "reason": "Abdominal strain",
+        "team_id": 532,
+        "fixture_id": 1391144
+      },
+      {
+        "player_id": 181582,
+        "player_name": "J. Copete",
+        "photo": "https://media.api-sports.io/football/players/181582.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 532,
+        "fixture_id": 1391144
+      },
+      {
+        "player_id": 916,
+        "player_name": "M. Diakhaby",
+        "photo": "https://media.api-sports.io/football/players/916.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 532,
+        "fixture_id": 1391144
+      },
+      {
+        "player_id": 47251,
+        "player_name": "D. Foulquier",
+        "photo": "https://media.api-sports.io/football/players/47251.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 532,
+        "fixture_id": 1391144
+      },
+      {
+        "player_id": 47277,
+        "player_name": "U. Nunez",
+        "photo": "https://media.api-sports.io/football/players/47277.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 532,
+        "fixture_id": 1391144
+      },
+      {
+        "player_id": 21153,
+        "player_name": "B. Santamaria",
+        "photo": "https://media.api-sports.io/football/players/21153.png",
+        "type": "Missing Fixture",
+        "reason": "Stomach Disorder",
+        "team_id": 532,
+        "fixture_id": 1391144
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1391144,
+    "home_total": 5,
+    "home_missing": 5,
+    "home_questionable": 0,
+    "away_total": 7,
+    "away_missing": 7,
+    "away_questionable": 0
+  }
+}

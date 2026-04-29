@@ -1,0 +1,14 @@
+{
+  "event_id": 63039247,
+  "odds": {
+    "tc_over_9.5": 1.95,
+    "tc_under_9.5": 1.85
+  },
+  "resumen": {
+    "mapeados": [
+      "Corners Totals (1 lineas)"
+    ],
+    "no_disponibles": [],
+    "parciales": []
+  }
+}

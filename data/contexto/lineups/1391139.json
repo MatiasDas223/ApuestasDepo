@@ -1,0 +1,347 @@
+{
+  "fetched_at": "2026-04-21 13:29:25",
+  "data": {
+    "fixture_id": 1391139,
+    "home": {
+      "team_id": 531,
+      "team_name": "Athletic Club",
+      "formation": "4-2-3-1",
+      "coach_id": 1582,
+      "coach_name": "Ernesto Valverde",
+      "startXI": [
+        {
+          "id": 47270,
+          "name": "Unai Simón",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 47299,
+          "name": "Andoni Gorosabel",
+          "number": 2,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 47271,
+          "name": "Yeray Álvarez",
+          "number": 5,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 622,
+          "name": "Aymeric Laporte",
+          "number": 14,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 47273,
+          "name": "Yuri Berchiche",
+          "number": 17,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 47007,
+          "name": "Iñigo Ruiz de Galarreta",
+          "number": 16,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 383780,
+          "name": "Mikel Jauregizar",
+          "number": 18,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 47294,
+          "name": "Iñaki Williams",
+          "number": 9,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 30510,
+          "name": "Álex Berenguer",
+          "number": 7,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 183799,
+          "name": "Nico Williams",
+          "number": 10,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 47291,
+          "name": "Gorka Guruzeta",
+          "number": 11,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 312468,
+          "name": "Alex Padilla",
+          "number": 27,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 47278,
+          "name": "Daniel Vivian",
+          "number": 3,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 183849,
+          "name": "Aitor Paredes",
+          "number": 4,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 182181,
+          "name": "Jesús Areso",
+          "number": 12,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 336998,
+          "name": "Adama Boiro",
+          "number": 19,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 128398,
+          "name": "Oihan Sancet",
+          "number": 8,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 84086,
+          "name": "Robert Navarro",
+          "number": 23,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 286593,
+          "name": "Nico Serrano",
+          "number": 22,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 332308,
+          "name": "Unai Gómez",
+          "number": 20,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 332309,
+          "name": "Alejandro Rego",
+          "number": 30,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 47418,
+          "name": "Mikel Vesga",
+          "number": 6,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 183776,
+          "name": "Urko Izeta",
+          "number": 25,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 727,
+      "team_name": "Osasuna",
+      "formation": "4-2-3-1",
+      "coach_id": 13592,
+      "coach_name": "Alessio Lisci",
+      "startXI": [
+        {
+          "id": 46646,
+          "name": "Sergio Herrera",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 21701,
+          "name": "Valentin Rosier",
+          "number": 19,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 279822,
+          "name": "Flavien Boyomo",
+          "number": 22,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 182592,
+          "name": "Jorge Herrando",
+          "number": 5,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 47566,
+          "name": "Javi Galán",
+          "number": 20,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 46662,
+          "name": "Jon Moncayola",
+          "number": 7,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 1825,
+          "name": "Lucas Torro",
+          "number": 6,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 46658,
+          "name": "Ruben Garcia",
+          "number": 14,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 67939,
+          "name": "Aimar Oroz",
+          "number": 10,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 338751,
+          "name": "Victor Muñoz",
+          "number": 21,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 46746,
+          "name": "Ante Budimir",
+          "number": 17,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 47448,
+          "name": "Aitor Fernández",
+          "number": 13,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 348029,
+          "name": "Dimitrios Stamatakis",
+          "number": 31,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 181259,
+          "name": "Abel Bretones",
+          "number": 23,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 46967,
+          "name": "Juan Cruz",
+          "number": 3,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 421044,
+          "name": "Iñigo Arguibide",
+          "number": 41,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 182621,
+          "name": "Iker Muñoz",
+          "number": 8,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 264470,
+          "name": "Raúl Moro",
+          "number": 18,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 47574,
+          "name": "Moi Gomez",
+          "number": 16,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 46667,
+          "name": "Kike Barja",
+          "number": 11,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 146751,
+          "name": "Raúl García de Haro",
+          "number": 9,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
+  },
+  "resumen": {
+    "fixture_id": 1391139,
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "4-2-3-1",
+    "away_formation": "4-2-3-1",
+    "home_coach": "Ernesto Valverde",
+    "away_coach": "Alessio Lisci"
+  }
+}

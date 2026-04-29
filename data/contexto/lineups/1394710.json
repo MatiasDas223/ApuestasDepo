@@ -1,0 +1,333 @@
+{
+  "fetched_at": "2026-04-25 11:05:46",
+  "data": {
+    "fixture_id": 1394710,
+    "home": {
+      "team_id": 1001,
+      "team_name": "Kayserispor",
+      "formation": "4-3-3",
+      "coach_id": 28601,
+      "coach_name": "Erling Moe",
+      "startXI": [
+        {
+          "id": 37111,
+          "name": "Bilal Bayazit",
+          "number": 25,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 303015,
+          "name": "Jadel Katongo",
+          "number": 2,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 61987,
+          "name": "Semih Guler",
+          "number": 6,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 67,
+          "name": "Stefano Denswil",
+          "number": 4,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 22245,
+          "name": "Lionel Carole",
+          "number": 23,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 50239,
+          "name": "Furkan Soyalp",
+          "number": 33,
+          "pos": "M",
+          "grid": "3:3"
+        },
+        {
+          "id": 2709,
+          "name": "Youssef Aït Bennasser",
+          "number": 15,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 127280,
+          "name": "Denis Makarov",
+          "number": 18,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 1985,
+          "name": "Dorukhan Toköz",
+          "number": 24,
+          "pos": "F",
+          "grid": "4:3"
+        },
+        {
+          "id": 2093,
+          "name": "German Onugkha",
+          "number": 9,
+          "pos": "F",
+          "grid": "4:2"
+        },
+        {
+          "id": 53659,
+          "name": "Miguel Cardoso",
+          "number": 7,
+          "pos": "F",
+          "grid": "4:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 134492,
+          "name": "Onurcan Piri",
+          "number": 1,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 706,
+          "name": "Joshua Brenet",
+          "number": 30,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 303017,
+          "name": "Sam Mather",
+          "number": 11,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 24962,
+          "name": "Laszlo Benes",
+          "number": 8,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 41447,
+          "name": "João Mendes",
+          "number": 10,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 25076,
+          "name": "Görkem Sağlam",
+          "number": 61,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 50221,
+          "name": "Burak Kapacak",
+          "number": 17,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 24860,
+          "name": "Carlos Mané",
+          "number": 20,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 843,
+          "name": "Fedor Chalov",
+          "number": 63,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 68079,
+          "name": "Indrit Tuci",
+          "number": 22,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 1007,
+      "team_name": "Rizespor",
+      "formation": "4-1-4-1",
+      "coach_id": 27478,
+      "coach_name": "Recep Ucar",
+      "startXI": [
+        {
+          "id": 64190,
+          "name": "Yahia Fofana",
+          "number": 75,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 151943,
+          "name": "Mithat Pala",
+          "number": 54,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 2335,
+          "name": "Attila Mocsi",
+          "number": 4,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 20661,
+          "name": "Modibo Sagnan",
+          "number": 27,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 15579,
+          "name": "Casper Højer",
+          "number": 5,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 27039,
+          "name": "Giannis Papanikolaou",
+          "number": 6,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 162418,
+          "name": "Adedire Mebude",
+          "number": 17,
+          "pos": "M",
+          "grid": "4:4"
+        },
+        {
+          "id": 180644,
+          "name": "Ibrahim Olawoyin",
+          "number": 10,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 20953,
+          "name": "Qazim Laci",
+          "number": 20,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 43056,
+          "name": "Valentin Mihăilă",
+          "number": 7,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 11012,
+          "name": "Ali Sowe",
+          "number": 9,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 333526,
+          "name": "Efe Doğan",
+          "number": 35,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 163042,
+          "name": "Erdem Canpolat",
+          "number": 1,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 613183,
+          "name": "Yakup Ayan",
+          "number": 94,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 385760,
+          "name": "Furkan Orak",
+          "number": 70,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 151971,
+          "name": "Taha Şahin",
+          "number": 37,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 292363,
+          "name": "Emir Ortakaya",
+          "number": 65,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 550864,
+          "name": "Muhamed Buljubašić",
+          "number": 18,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 8601,
+          "name": "Frantzdy Pierrot",
+          "number": 19,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 37440,
+          "name": "Halil Dervişoğlu",
+          "number": 11,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 383860,
+          "name": "Emrecan Bulut",
+          "number": 99,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
+  },
+  "resumen": {
+    "fixture_id": 1394710,
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "4-3-3",
+    "away_formation": "4-1-4-1",
+    "home_coach": "Erling Moe",
+    "away_coach": "Recep Ucar"
+  }
+}

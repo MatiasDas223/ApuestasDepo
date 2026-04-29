@@ -1,0 +1,92 @@
+{
+  "fetched_at": "2026-04-22 08:34:14",
+  "data": {
+    "home_team_id": 44,
+    "away_team_id": 50,
+    "home": [
+      {
+        "player_id": 25628,
+        "player_name": "J. Beyer",
+        "photo": "https://media.api-sports.io/football/players/25628.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 44,
+        "fixture_id": 1379302
+      },
+      {
+        "player_id": 19827,
+        "player_name": "J. Cullen",
+        "photo": "https://media.api-sports.io/football/players/19827.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 44,
+        "fixture_id": 1379302
+      },
+      {
+        "player_id": 180560,
+        "player_name": "H. Mejbri",
+        "photo": "https://media.api-sports.io/football/players/180560.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 44,
+        "fixture_id": 1379302
+      },
+      {
+        "player_id": 19331,
+        "player_name": "C. Roberts",
+        "photo": "https://media.api-sports.io/football/players/19331.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 44,
+        "fixture_id": 1379302
+      },
+      {
+        "player_id": 123469,
+        "player_name": "Z. Amdouni",
+        "photo": "https://media.api-sports.io/football/players/123469.png",
+        "type": "Questionable",
+        "reason": "Knee Injury",
+        "team_id": 44,
+        "fixture_id": 1379302
+      }
+    ],
+    "away": [
+      {
+        "player_id": 567,
+        "player_name": "R. Dias",
+        "photo": "https://media.api-sports.io/football/players/567.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 50,
+        "fixture_id": 1379302
+      },
+      {
+        "player_id": 129033,
+        "player_name": "J. Gvardiol",
+        "photo": "https://media.api-sports.io/football/players/129033.png",
+        "type": "Missing Fixture",
+        "reason": "Broken Leg",
+        "team_id": 50,
+        "fixture_id": 1379302
+      },
+      {
+        "player_id": 44,
+        "player_name": "Rodri",
+        "photo": "https://media.api-sports.io/football/players/44.png",
+        "type": "Missing Fixture",
+        "reason": "Groin Injury",
+        "team_id": 50,
+        "fixture_id": 1379302
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1379302,
+    "home_total": 5,
+    "home_missing": 4,
+    "home_questionable": 1,
+    "away_total": 3,
+    "away_missing": 3,
+    "away_questionable": 0
+  }
+}

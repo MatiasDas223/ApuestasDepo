@@ -1,0 +1,319 @@
+{
+  "fetched_at": "2026-04-25 10:56:52",
+  "data": {
+    "fixture_id": 1379307,
+    "home": {
+      "team_id": 48,
+      "team_name": "West Ham",
+      "formation": "4-4-1-1",
+      "coach_id": 16,
+      "coach_name": "Nuno Espirito Santo",
+      "startXI": [
+        {
+          "id": 15870,
+          "name": "Mads Hermansen",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 171,
+          "name": "Kyle Walker-Peters",
+          "number": 2,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 1445,
+          "name": "Konstantinos Mavropanos",
+          "number": 15,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 21998,
+          "name": "Axel Disasi",
+          "number": 4,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 409303,
+          "name": "El Hadji Malick Diouf",
+          "number": 12,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 19428,
+          "name": "Jarrod Bowen",
+          "number": 20,
+          "pos": "M",
+          "grid": "3:4"
+        },
+        {
+          "id": 1243,
+          "name": "Tomáš Souček",
+          "number": 28,
+          "pos": "M",
+          "grid": "3:3"
+        },
+        {
+          "id": 336585,
+          "name": "Mateus Fernandes",
+          "number": 18,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 37724,
+          "name": "Crysencio Summerville",
+          "number": 7,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 301187,
+          "name": "Pablo Felipe",
+          "number": 19,
+          "pos": "F",
+          "grid": "4:1"
+        },
+        {
+          "id": 50856,
+          "name": "Valentín Castellanos",
+          "number": 11,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 253,
+          "name": "Alphonse Aréola",
+          "number": 23,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 138,
+          "name": "Jean-Clair Todibo",
+          "number": 25,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 327730,
+          "name": "Oliver Scarles",
+          "number": 30,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 18846,
+          "name": "Aaron Wan-Bissaka",
+          "number": 29,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 326176,
+          "name": "Soungoutou Magassa",
+          "number": 27,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 284446,
+          "name": "Freddie Potts",
+          "number": 32,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 401278,
+          "name": "Mohamadou Kanté",
+          "number": 55,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 2939,
+          "name": "Callum Wilson",
+          "number": 9,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 18753,
+          "name": "Adama Traore",
+          "number": 17,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 45,
+      "team_name": "Everton",
+      "formation": "4-2-3-1",
+      "coach_id": 0,
+      "coach_name": null,
+      "startXI": [
+        {
+          "id": 2932,
+          "name": "Jordan Pickford",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 270139,
+          "name": "Jake O'Brien",
+          "number": 15,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 2936,
+          "name": "James Tarkowski",
+          "number": 6,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 2934,
+          "name": "Michael Keane",
+          "number": 5,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 2165,
+          "name": "Vitaliy Mykolenko",
+          "number": 16,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 2990,
+          "name": "Idrissa Gana Gueye",
+          "number": 27,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 895,
+          "name": "James Garner",
+          "number": 37,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 18929,
+          "name": "Dwight McNeil",
+          "number": 7,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 148099,
+          "name": "Kiernan Dewsbury-Hall",
+          "number": 22,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 18592,
+          "name": "Iliman Ndiaye",
+          "number": 10,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 343684,
+          "name": "Thierno Barry",
+          "number": 11,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 18860,
+          "name": "Mark Travers",
+          "number": 12,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 138417,
+          "name": "Nathan Patterson",
+          "number": 2,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 18758,
+          "name": "Séamus Coleman",
+          "number": 23,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 304317,
+          "name": "Tyler Dibling",
+          "number": 20,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 195993,
+          "name": "Carlos Alcaraz",
+          "number": 24,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 202854,
+          "name": "Merlin Röhl",
+          "number": 34,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 284500,
+          "name": "Tim Iroegbunam",
+          "number": 42,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 405360,
+          "name": "Harrison Armstrong",
+          "number": 45,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 334037,
+          "name": "Tyrique George",
+          "number": 19,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
+  },
+  "resumen": {
+    "fixture_id": 1379307,
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "4-4-1-1",
+    "away_formation": "4-2-3-1",
+    "home_coach": "Nuno Espirito Santo",
+    "away_coach": null
+  }
+}

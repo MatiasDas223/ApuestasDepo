@@ -1,0 +1,56 @@
+{
+  "fetched_at": "2026-04-27 08:37:01",
+  "data": {
+    "home_team_id": 540,
+    "away_team_id": 539,
+    "home": [
+      {
+        "player_id": 47349,
+        "player_name": "J. Puado",
+        "photo": "https://media.api-sports.io/football/players/47349.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 540,
+        "fixture_id": 1391132
+      }
+    ],
+    "away": [
+      {
+        "player_id": 46941,
+        "player_name": "U. Elgezabal",
+        "photo": "https://media.api-sports.io/football/players/46941.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 539,
+        "fixture_id": 1391132
+      },
+      {
+        "player_id": 192032,
+        "player_name": "I. Romero",
+        "photo": "https://media.api-sports.io/football/players/192032.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 539,
+        "fixture_id": 1391132
+      },
+      {
+        "player_id": 579287,
+        "player_name": "K. Tunde",
+        "photo": "https://media.api-sports.io/football/players/579287.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 539,
+        "fixture_id": 1391132
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1391132,
+    "home_total": 1,
+    "home_missing": 1,
+    "home_questionable": 0,
+    "away_total": 3,
+    "away_missing": 3,
+    "away_questionable": 0
+  }
+}

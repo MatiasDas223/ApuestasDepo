@@ -4,8 +4,10 @@ id,nombre,pais
 11,CONMEBOL Sudamericana,World
 13,Copa Libertadores,Mundial
 39,Premier League,England
+45,"('FA Cup', True)",?
 71,Serie A,Brazil
 78,Bundesliga,Germany
+81,"('DFB Pokal', True)",?
 113,Allsvenskan,Sweden
 128,Liga Profesional,Argentina
 130,Copa Argentina,Argentina

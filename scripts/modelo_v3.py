@@ -658,8 +658,18 @@ def compute_match_params(team_local: str | int, team_visitante: str | int,
 # Simulación Monte Carlo
 # ─────────────────────────────────────────────────────────────────────────────
 
-def run_simulation(params: dict, n: int = N_SIM_DEFAULT) -> dict:
-    """Ejecuta n iteraciones de Monte Carlo. Devuelve listas de resultados simulados."""
+def run_simulation(params: dict, n: int = N_SIM_DEFAULT, seed: int | None = None) -> dict:
+    """
+    Ejecuta n iteraciones de Monte Carlo. Devuelve listas de resultados simulados.
+
+    Si `seed` se pasa, siembra el RNG global antes de empezar. Útil para Common
+    Random Numbers entre variantes del mismo fixture (v3.2/v3.3-ref/v3.4-shrink):
+    mercados con params idénticos entre variantes salen sincronizados; cuando
+    una distribución anterior en el loop tiene params distintos y consume una
+    cantidad distinta de randoms, los mercados posteriores divergen.
+    """
+    if seed is not None:
+        random.seed(seed)
     lam_l  = params['lambda_local']
     lam_v  = params['lambda_vis']
     mu_tl  = params['mu_tarjetas_local']
@@ -813,10 +823,15 @@ def compute_probabilities(sim: dict) -> dict:
 # Detección de value bets  (sin cambios respecto a V2)
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _remove_vig(*odds_list: float) -> list[float]:
+def _remove_vig(*odds_list: float, expected_sum: float = 1.0) -> list[float]:
+    """De-viggea una lista de cuotas. Por defecto asume que las probabilidades
+    fair de los outcomes suman 1 (mercados mutuamente excluyentes y exhaustivos:
+    1X2, Over/Under, BTTS). Para mercados solapados como Doble Oportunidad
+    (1X+12+X2 suman 2 porque cada outcome elemental aparece en 2 mercados),
+    pasar expected_sum=2.0."""
     implied = [1 / o for o in odds_list]
     total   = sum(implied)
-    return [p / total for p in implied]
+    return [p * expected_sum / total for p in implied]
 
 
 def find_value_bets(probs: dict, odds: dict, min_edge: float = MIN_EDGE) -> list[dict]:
@@ -843,7 +858,7 @@ def find_value_bets(probs: dict, odds: dict, min_edge: float = MIN_EDGE) -> list
 
     # Doble oportunidad
     if all(k in odds for k in ('dc_1x', 'dc_12', 'dc_x2')):
-        fp_1x, fp_12, fp_x2 = _remove_vig(odds['dc_1x'], odds['dc_12'], odds['dc_x2'])
+        fp_1x, fp_12, fp_x2 = _remove_vig(odds['dc_1x'], odds['dc_12'], odds['dc_x2'], expected_sum=2.0)
         check('DC ->Local o Empate (1X)',  probs['1X'], odds['dc_1x'], fp_1x)
         check('DC ->Local o Visita (12)',  probs['12'], odds['dc_12'], fp_12)
         check('DC ->Empate o Visita (X2)', probs['X2'], odds['dc_x2'], fp_x2)

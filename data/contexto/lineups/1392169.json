@@ -1,0 +1,361 @@
+{
+  "fetched_at": "2026-04-25 11:03:26",
+  "data": {
+    "fixture_id": 1392169,
+    "home": {
+      "team_id": 720,
+      "team_name": "Valladolid",
+      "formation": "4-2-3-1",
+      "coach_id": 27703,
+      "coach_name": "Fran Escriba",
+      "startXI": [
+        {
+          "id": 309917,
+          "name": "Alvaro Aceves",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 46824,
+          "name": "Ivan Alejo",
+          "number": 14,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 197196,
+          "name": "Ramón Martínez",
+          "number": 5,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 298064,
+          "name": "David Torres",
+          "number": 4,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 46651,
+          "name": "Carlos Clerc",
+          "number": 18,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 20641,
+          "name": "Julien Ponceau",
+          "number": 21,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 14341,
+          "name": "Stanko Jurić",
+          "number": 24,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 270516,
+          "name": "Peter González",
+          "number": 22,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 331004,
+          "name": "Chuky",
+          "number": 20,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 292219,
+          "name": "Stipe Biuk",
+          "number": 17,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 122233,
+          "name": "Marcos André",
+          "number": 10,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 329663,
+          "name": "Guilherme Fernandes",
+          "number": 13,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 285422,
+          "name": "Pablo Tomeo",
+          "number": 15,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 20946,
+          "name": "Clément Michelin",
+          "number": 2,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 405722,
+          "name": "Hugo San Modesto",
+          "number": 30,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 390438,
+          "name": "Mohamed Jaouab",
+          "number": 23,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 181463,
+          "name": "Víctor Meseguer",
+          "number": 8,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 551359,
+          "name": "Mario Maroto",
+          "number": 16,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 195510,
+          "name": "Lucas Sanseviero",
+          "number": 19,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 104793,
+          "name": "Amath Ndiaye",
+          "number": 11,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 191422,
+          "name": "Mathis Lachuer",
+          "number": 6,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 162028,
+          "name": "Juanmi Latasa",
+          "number": 9,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 586418,
+          "name": "Brain Obosso",
+          "number": 40,
+          "pos": "M",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 9585,
+      "team_name": "Real Sociedad II",
+      "formation": "4-4-2",
+      "coach_id": 25383,
+      "coach_name": "Ion Ansotegi",
+      "startXI": [
+        {
+          "id": 189831,
+          "name": "Egoitz Arana",
+          "number": 13,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 287653,
+          "name": "Alberto Dadie",
+          "number": 22,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 627226,
+          "name": "Unax Larrañaga",
+          "number": 39,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 296757,
+          "name": "Jon Balda",
+          "number": 3,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 332643,
+          "name": "Unax Agote",
+          "number": 23,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 445881,
+          "name": "Lander Astiazaran",
+          "number": 17,
+          "pos": "M",
+          "grid": "3:4"
+        },
+        {
+          "id": 454301,
+          "name": "Tomy Carbonell",
+          "number": 14,
+          "pos": "M",
+          "grid": "3:3"
+        },
+        {
+          "id": 469672,
+          "name": "Ibai Aguirre",
+          "number": 31,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 449063,
+          "name": "Alex Marchal",
+          "number": 19,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 403561,
+          "name": "Gorka Carrera Zarranz",
+          "number": 18,
+          "pos": "F",
+          "grid": "4:2"
+        },
+        {
+          "id": 402168,
+          "name": "Arkaitz Mariezkurrena",
+          "number": 10,
+          "pos": "F",
+          "grid": "4:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 431160,
+          "name": "Theo Folgado",
+          "number": 32,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 551407,
+          "name": "Anartz Segurola",
+          "number": 36,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 551408,
+          "name": "Iker Calderon",
+          "number": 37,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 438271,
+          "name": "Jon Garro",
+          "number": 29,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 551382,
+          "name": "Dario Ramirez",
+          "number": 26,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 441218,
+          "name": "Gorka Gorosabel",
+          "number": 16,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 551356,
+          "name": "Jon Eceizabarrena",
+          "number": 21,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 389022,
+          "name": "Mikel Rodriguez",
+          "number": 8,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 353634,
+          "name": "Alex Lebarbier",
+          "number": 6,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 551406,
+          "name": "Joan Oleaga",
+          "number": 34,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 412738,
+          "name": "Dani Díaz",
+          "number": 7,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 564057,
+          "name": "Jakes Gorosabel",
+          "number": 33,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
+  },
+  "resumen": {
+    "fixture_id": 1392169,
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "4-2-3-1",
+    "away_formation": "4-4-2",
+    "home_coach": "Fran Escriba",
+    "away_coach": "Ion Ansotegi"
+  }
+}

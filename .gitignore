@@ -34,3 +34,9 @@ logs/
 
 # Cache de odds (se generan en tiempo de ejecucion)
 data/odds/*.json
+
+# Caches y backups locales (no se versionan, regenerables)
+data/apuestas/_analysis_cache.pkl
+data/apuestas/_backup_*/
+data/apuestas/backup_*/
+scripts/bt_*.pkl

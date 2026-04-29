@@ -1,0 +1,128 @@
+{
+  "fetched_at": "2026-04-25 00:32:59",
+  "data": {
+    "home_team_id": 164,
+    "away_team_id": 157,
+    "home": [
+      {
+        "player_id": 394735,
+        "player_name": "M. Dal",
+        "photo": "https://media.api-sports.io/football/players/394735.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 164,
+        "fixture_id": 1388583
+      },
+      {
+        "player_id": 162946,
+        "player_name": "B. Hollerbach",
+        "photo": "https://media.api-sports.io/football/players/162946.png",
+        "type": "Missing Fixture",
+        "reason": "Achilles Tendon Injury",
+        "team_id": 164,
+        "fixture_id": 1388583
+      },
+      {
+        "player_id": 2906,
+        "player_name": "Lee Jae-Sung",
+        "photo": "https://media.api-sports.io/football/players/2906.png",
+        "type": "Missing Fixture",
+        "reason": "Toe Injury",
+        "team_id": 164,
+        "fixture_id": 1388583
+      },
+      {
+        "player_id": 25066,
+        "player_name": "M. Leitsch",
+        "photo": "https://media.api-sports.io/football/players/25066.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 164,
+        "fixture_id": 1388583
+      },
+      {
+        "player_id": 20617,
+        "player_name": "Silas",
+        "photo": "https://media.api-sports.io/football/players/20617.png",
+        "type": "Missing Fixture",
+        "reason": "Broken shinbone",
+        "team_id": 164,
+        "fixture_id": 1388583
+      }
+    ],
+    "away": [
+      {
+        "player_id": 325975,
+        "player_name": "T. Bischof",
+        "photo": "https://media.api-sports.io/football/players/325975.png",
+        "type": "Missing Fixture",
+        "reason": "Calf Injury",
+        "team_id": 157,
+        "fixture_id": 1388583
+      },
+      {
+        "player_id": 568042,
+        "player_name": "M. Cardozo",
+        "photo": "https://media.api-sports.io/football/players/568042.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 157,
+        "fixture_id": 1388583
+      },
+      {
+        "player_id": 510,
+        "player_name": "S. Gnabry",
+        "photo": "https://media.api-sports.io/football/players/510.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 157,
+        "fixture_id": 1388583
+      },
+      {
+        "player_id": 494131,
+        "player_name": "L. Karl",
+        "photo": "https://media.api-sports.io/football/players/494131.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 157,
+        "fixture_id": 1388583
+      },
+      {
+        "player_id": 524214,
+        "player_name": "C. Kiala",
+        "photo": "https://media.api-sports.io/football/players/524214.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 157,
+        "fixture_id": 1388583
+      },
+      {
+        "player_id": 496738,
+        "player_name": "W. Mike",
+        "photo": "https://media.api-sports.io/football/players/496738.png",
+        "type": "Missing Fixture",
+        "reason": "Hip Injury",
+        "team_id": 157,
+        "fixture_id": 1388583
+      },
+      {
+        "player_id": 498,
+        "player_name": "S. Ulreich",
+        "photo": "https://media.api-sports.io/football/players/498.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 157,
+        "fixture_id": 1388583
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1388583,
+    "home_total": 5,
+    "home_missing": 5,
+    "home_questionable": 0,
+    "away_total": 7,
+    "away_missing": 7,
+    "away_questionable": 0
+  }
+}

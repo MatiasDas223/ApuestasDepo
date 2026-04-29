@@ -1,0 +1,65 @@
+{
+  "fetched_at": "2026-04-25 10:58:04",
+  "data": {
+    "home_team_id": 120,
+    "away_team_id": 119,
+    "home": [
+      {
+        "player_id": 41210,
+        "player_name": "Kaio Pantaleao",
+        "photo": "https://media.api-sports.io/football/players/41210.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 120,
+        "fixture_id": 1492233
+      },
+      {
+        "player_id": 104792,
+        "player_name": "C. Ramos",
+        "photo": "https://media.api-sports.io/football/players/104792.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 120,
+        "fixture_id": 1492233
+      },
+      {
+        "player_id": 51581,
+        "player_name": "S. Rodriguez",
+        "photo": "https://media.api-sports.io/football/players/51581.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 120,
+        "fixture_id": 1492233
+      }
+    ],
+    "away": [
+      {
+        "player_id": 10167,
+        "player_name": "Ronaldo",
+        "photo": "https://media.api-sports.io/football/players/10167.png",
+        "type": "Questionable",
+        "reason": "Muscle Injury",
+        "team_id": 119,
+        "fixture_id": 1492233
+      },
+      {
+        "player_id": 22231,
+        "player_name": "Thiago Maia",
+        "photo": "https://media.api-sports.io/football/players/22231.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 119,
+        "fixture_id": 1492233
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1492233,
+    "home_total": 3,
+    "home_missing": 3,
+    "home_questionable": 0,
+    "away_total": 2,
+    "away_missing": 0,
+    "away_questionable": 2
+  }
+}

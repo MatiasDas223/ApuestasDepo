@@ -1,0 +1,101 @@
+{
+  "fetched_at": "2026-04-23 08:45:02",
+  "data": {
+    "home_team_id": 374,
+    "away_team_id": 366,
+    "home": [
+      {
+        "player_id": 71343,
+        "player_name": "A. Keita",
+        "photo": "https://media.api-sports.io/football/players/71343.png",
+        "type": "Missing Fixture",
+        "reason": "Achilles Tendon Injury",
+        "team_id": 374,
+        "fixture_id": 1494141
+      },
+      {
+        "player_id": 634897,
+        "player_name": "S. Lawal",
+        "photo": "https://media.api-sports.io/football/players/634897.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 374,
+        "fixture_id": 1494141
+      },
+      {
+        "player_id": 268133,
+        "player_name": "M. Stolt",
+        "photo": "https://media.api-sports.io/football/players/268133.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 374,
+        "fixture_id": 1494141
+      },
+      {
+        "player_id": 345816,
+        "player_name": "N. Chourak",
+        "photo": "https://media.api-sports.io/football/players/345816.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 374,
+        "fixture_id": 1494141
+      }
+    ],
+    "away": [
+      {
+        "player_id": 15670,
+        "player_name": "A. Mucolli",
+        "photo": "https://media.api-sports.io/football/players/15670.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 366,
+        "fixture_id": 1494141
+      },
+      {
+        "player_id": 48008,
+        "player_name": "J. Rasheed",
+        "photo": "https://media.api-sports.io/football/players/48008.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 366,
+        "fixture_id": 1494141
+      },
+      {
+        "player_id": 465899,
+        "player_name": "N. Tolf",
+        "photo": "https://media.api-sports.io/football/players/465899.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 366,
+        "fixture_id": 1494141
+      },
+      {
+        "player_id": 269559,
+        "player_name": "L. Kahed",
+        "photo": "https://media.api-sports.io/football/players/269559.png",
+        "type": "Questionable",
+        "reason": "Hip Injury",
+        "team_id": 366,
+        "fixture_id": 1494141
+      },
+      {
+        "player_id": 38702,
+        "player_name": "R. Lundqvist",
+        "photo": "https://media.api-sports.io/football/players/38702.png",
+        "type": "Questionable",
+        "reason": "Health problems",
+        "team_id": 366,
+        "fixture_id": 1494141
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1494141,
+    "home_total": 4,
+    "home_missing": 3,
+    "home_questionable": 1,
+    "away_total": 5,
+    "away_missing": 3,
+    "away_questionable": 2
+  }
+}

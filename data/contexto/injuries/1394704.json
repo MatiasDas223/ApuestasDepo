@@ -1,0 +1,65 @@
+{
+  "fetched_at": "2026-04-23 23:24:24",
+  "data": {
+    "home_team_id": 564,
+    "away_team_id": 1004,
+    "home": [
+      {
+        "player_id": 263676,
+        "player_name": "A. Fayzullaev",
+        "photo": "https://media.api-sports.io/football/players/263676.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 564,
+        "fixture_id": 1394704
+      },
+      {
+        "player_id": 137223,
+        "player_name": "J. Opoku",
+        "photo": "https://media.api-sports.io/football/players/137223.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 564,
+        "fixture_id": 1394704
+      }
+    ],
+    "away": [
+      {
+        "player_id": 50067,
+        "player_name": "H. Hajradinovic",
+        "photo": "https://media.api-sports.io/football/players/50067.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 1004,
+        "fixture_id": 1394704
+      },
+      {
+        "player_id": 21618,
+        "player_name": "J. Allevinah",
+        "photo": "https://media.api-sports.io/football/players/21618.png",
+        "type": "Questionable",
+        "reason": "Inactive",
+        "team_id": 1004,
+        "fixture_id": 1394704
+      },
+      {
+        "player_id": 49870,
+        "player_name": "K. Corekci",
+        "photo": "https://media.api-sports.io/football/players/49870.png",
+        "type": "Questionable",
+        "reason": "Inactive",
+        "team_id": 1004,
+        "fixture_id": 1394704
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1394704,
+    "home_total": 2,
+    "home_missing": 2,
+    "home_questionable": 0,
+    "away_total": 3,
+    "away_missing": 1,
+    "away_questionable": 2
+  }
+}

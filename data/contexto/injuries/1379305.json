@@ -1,0 +1,119 @@
+{
+  "fetched_at": "2026-04-27 08:37:15",
+  "data": {
+    "home_team_id": 33,
+    "away_team_id": 55,
+    "home": [
+      {
+        "player_id": 382452,
+        "player_name": "P. Dorgu",
+        "photo": "https://media.api-sports.io/football/players/382452.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 33,
+        "fixture_id": 1379305
+      },
+      {
+        "player_id": 342970,
+        "player_name": "L. Yoro",
+        "photo": "https://media.api-sports.io/football/players/342970.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 33,
+        "fixture_id": 1379305
+      },
+      {
+        "player_id": 532,
+        "player_name": "M. de Ligt",
+        "photo": "https://media.api-sports.io/football/players/532.png",
+        "type": "Missing Fixture",
+        "reason": "Back Injury",
+        "team_id": 33,
+        "fixture_id": 1379305
+      },
+      {
+        "player_id": 20589,
+        "player_name": "B. Mbeumo",
+        "photo": "https://media.api-sports.io/football/players/20589.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 33,
+        "fixture_id": 1379305
+      }
+    ],
+    "away": [
+      {
+        "player_id": 153066,
+        "player_name": "F. Carvalho",
+        "photo": "https://media.api-sports.io/football/players/153066.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 55,
+        "fixture_id": 1379305
+      },
+      {
+        "player_id": 19362,
+        "player_name": "J. Dasilva",
+        "photo": "https://media.api-sports.io/football/players/19362.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 55,
+        "fixture_id": 1379305
+      },
+      {
+        "player_id": 393193,
+        "player_name": "K. Furo",
+        "photo": "https://media.api-sports.io/football/players/393193.png",
+        "type": "Missing Fixture",
+        "reason": "Groin Injury",
+        "team_id": 55,
+        "fixture_id": 1379305
+      },
+      {
+        "player_id": 292,
+        "player_name": "J. Henderson",
+        "photo": "https://media.api-sports.io/football/players/292.png",
+        "type": "Missing Fixture",
+        "reason": "Knock",
+        "team_id": 55,
+        "fixture_id": 1379305
+      },
+      {
+        "player_id": 19346,
+        "player_name": "R. Henry",
+        "photo": "https://media.api-sports.io/football/players/19346.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 55,
+        "fixture_id": 1379305
+      },
+      {
+        "player_id": 25073,
+        "player_name": "V. Janelt",
+        "photo": "https://media.api-sports.io/football/players/25073.png",
+        "type": "Missing Fixture",
+        "reason": "Foot Injury",
+        "team_id": 55,
+        "fixture_id": 1379305
+      },
+      {
+        "player_id": 319517,
+        "player_name": "A. Milambo",
+        "photo": "https://media.api-sports.io/football/players/319517.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 55,
+        "fixture_id": 1379305
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1379305,
+    "home_total": 4,
+    "home_missing": 3,
+    "home_questionable": 1,
+    "away_total": 7,
+    "away_missing": 7,
+    "away_questionable": 0
+  }
+}

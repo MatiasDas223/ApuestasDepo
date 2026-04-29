@@ -1,0 +1,18 @@
+{
+  "fetched_at": "2026-04-27 20:56:27",
+  "data": {
+    "home_team_id": 2540,
+    "away_team_id": 2356,
+    "home": [],
+    "away": []
+  },
+  "resumen": {
+    "fixture_id": 1535280,
+    "home_total": 0,
+    "home_missing": 0,
+    "home_questionable": 0,
+    "away_total": 0,
+    "away_missing": 0,
+    "away_questionable": 0
+  }
+}

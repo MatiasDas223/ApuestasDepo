@@ -1,0 +1,74 @@
+{
+  "fetched_at": "2026-04-28 12:07:05",
+  "data": {
+    "home_team_id": 530,
+    "away_team_id": 42,
+    "home": [
+      {
+        "player_id": 336594,
+        "player_name": "P. Barrios",
+        "photo": "https://media.api-sports.io/football/players/336594.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 530,
+        "fixture_id": 1540842
+      },
+      {
+        "player_id": 31,
+        "player_name": "J. M. Gimenez",
+        "photo": "https://media.api-sports.io/football/players/31.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 530,
+        "fixture_id": 1540842
+      }
+    ],
+    "away": [
+      {
+        "player_id": 47311,
+        "player_name": "M. Merino",
+        "photo": "https://media.api-sports.io/football/players/47311.png",
+        "type": "Missing Fixture",
+        "reason": "Foot Injury",
+        "team_id": 42,
+        "fixture_id": 1540842
+      },
+      {
+        "player_id": 157052,
+        "player_name": "R. Calafiori",
+        "photo": "https://media.api-sports.io/football/players/157052.png",
+        "type": "Questionable",
+        "reason": "Knock",
+        "team_id": 42,
+        "fixture_id": 1540842
+      },
+      {
+        "player_id": 978,
+        "player_name": "K. Havertz",
+        "photo": "https://media.api-sports.io/football/players/978.png",
+        "type": "Questionable",
+        "reason": "Knee Injury",
+        "team_id": 42,
+        "fixture_id": 1540842
+      },
+      {
+        "player_id": 38746,
+        "player_name": "J. Timber",
+        "photo": "https://media.api-sports.io/football/players/38746.png",
+        "type": "Questionable",
+        "reason": "Ankle Injury",
+        "team_id": 42,
+        "fixture_id": 1540842
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1540842,
+    "home_total": 2,
+    "home_missing": 1,
+    "home_questionable": 1,
+    "away_total": 4,
+    "away_missing": 1,
+    "away_questionable": 3
+  }
+}

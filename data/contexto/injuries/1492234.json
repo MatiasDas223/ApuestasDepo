@@ -1,0 +1,119 @@
+{
+  "fetched_at": "2026-04-26 14:05:45",
+  "data": {
+    "home_team_id": 794,
+    "away_team_id": 121,
+    "home": [
+      {
+        "player_id": 297893,
+        "player_name": "Alix Vinicius",
+        "photo": "https://media.api-sports.io/football/players/297893.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 794,
+        "fixture_id": 1492234
+      },
+      {
+        "player_id": 468162,
+        "player_name": "Davi Gomes",
+        "photo": "https://media.api-sports.io/football/players/468162.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 794,
+        "fixture_id": 1492234
+      },
+      {
+        "player_id": 41544,
+        "player_name": "Eduardo Santos",
+        "photo": "https://media.api-sports.io/football/players/41544.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 794,
+        "fixture_id": 1492234
+      },
+      {
+        "player_id": 266856,
+        "player_name": "Fabricio",
+        "photo": "https://media.api-sports.io/football/players/266856.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 794,
+        "fixture_id": 1492234
+      },
+      {
+        "player_id": 354791,
+        "player_name": "J. Herrera",
+        "photo": "https://media.api-sports.io/football/players/354791.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 794,
+        "fixture_id": 1492234
+      },
+      {
+        "player_id": 152410,
+        "player_name": "G. Rodriguez",
+        "photo": "https://media.api-sports.io/football/players/152410.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 794,
+        "fixture_id": 1492234
+      },
+      {
+        "player_id": 51571,
+        "player_name": "A. Sant'Anna",
+        "photo": "https://media.api-sports.io/football/players/51571.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 794,
+        "fixture_id": 1492234
+      },
+      {
+        "player_id": 279800,
+        "player_name": "Vanderlan",
+        "photo": "https://media.api-sports.io/football/players/279800.png",
+        "type": "Missing Fixture",
+        "reason": "Health problems",
+        "team_id": 794,
+        "fixture_id": 1492234
+      }
+    ],
+    "away": [
+      {
+        "player_id": 10083,
+        "player_name": "Murilo",
+        "photo": "https://media.api-sports.io/football/players/10083.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card",
+        "team_id": 121,
+        "fixture_id": 1492234
+      },
+      {
+        "player_id": 51466,
+        "player_name": "J. Piquerez",
+        "photo": "https://media.api-sports.io/football/players/51466.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 121,
+        "fixture_id": 1492234
+      },
+      {
+        "player_id": 987,
+        "player_name": "Paulinho",
+        "photo": "https://media.api-sports.io/football/players/987.png",
+        "type": "Questionable",
+        "reason": "Leg Injury",
+        "team_id": 121,
+        "fixture_id": 1492234
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1492234,
+    "home_total": 8,
+    "home_missing": 8,
+    "home_questionable": 0,
+    "away_total": 3,
+    "away_missing": 2,
+    "away_questionable": 1
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "fetched_at": "2026-04-25 20:01:50",
+  "data": {
+    "home_team_id": 503,
+    "away_team_id": 505,
+    "home": [
+      {
+        "player_id": 243,
+        "player_name": "Z. Aboukhlal",
+        "photo": "https://media.api-sports.io/football/players/243.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 503,
+        "fixture_id": 1378202
+      },
+      {
+        "player_id": 138777,
+        "player_name": "F. Anjorin",
+        "photo": "https://media.api-sports.io/football/players/138777.png",
+        "type": "Missing Fixture",
+        "reason": "Hip Injury",
+        "team_id": 503,
+        "fixture_id": 1378202
+      },
+      {
+        "player_id": 343332,
+        "player_name": "Z. Savva",
+        "photo": "https://media.api-sports.io/football/players/343332.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 503,
+        "fixture_id": 1378202
+      },
+      {
+        "player_id": 156490,
+        "player_name": "N. Nkounkou",
+        "photo": "https://media.api-sports.io/football/players/156490.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 503,
+        "fixture_id": 1378202
+      },
+      {
+        "player_id": 2495,
+        "player_name": "D. Zapata",
+        "photo": "https://media.api-sports.io/football/players/2495.png",
+        "type": "Questionable",
+        "reason": "Thigh Injury",
+        "team_id": 503,
+        "fixture_id": 1378202
+      }
+    ],
+    "away": [
+      {
+        "player_id": 10077,
+        "player_name": "Luis Henrique",
+        "photo": "https://media.api-sports.io/football/players/10077.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 505,
+        "fixture_id": 1378202
+      },
+      {
+        "player_id": 31009,
+        "player_name": "A. Bastoni",
+        "photo": "https://media.api-sports.io/football/players/31009.png",
+        "type": "Questionable",
+        "reason": "Leg Injury",
+        "team_id": 505,
+        "fixture_id": 1378202
+      },
+      {
+        "player_id": 217,
+        "player_name": "L. Martinez",
+        "photo": "https://media.api-sports.io/football/players/217.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 505,
+        "fixture_id": 1378202
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1378202,
+    "home_total": 5,
+    "home_missing": 3,
+    "home_questionable": 2,
+    "away_total": 3,
+    "away_missing": 1,
+    "away_questionable": 2
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "fetched_at": "2026-04-25 10:59:46",
+  "data": {
+    "home_team_id": 500,
+    "away_team_id": 497,
+    "home": [
+      {
+        "player_id": 873,
+        "player_name": "F. Bernardeschi",
+        "photo": "https://media.api-sports.io/football/players/873.png",
+        "type": "Missing Fixture",
+        "reason": "Hip Injury",
+        "team_id": 500,
+        "fixture_id": 1378194
+      },
+      {
+        "player_id": 30853,
+        "player_name": "K. Bonifazi",
+        "photo": "https://media.api-sports.io/football/players/30853.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 500,
+        "fixture_id": 1378194
+      },
+      {
+        "player_id": 31099,
+        "player_name": "N. Casale",
+        "photo": "https://media.api-sports.io/football/players/31099.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 500,
+        "fixture_id": 1378194
+      },
+      {
+        "player_id": 93016,
+        "player_name": "T. Dallinga",
+        "photo": "https://media.api-sports.io/football/players/93016.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 500,
+        "fixture_id": 1378194
+      },
+      {
+        "player_id": 2998,
+        "player_name": "L. Skorupski",
+        "photo": "https://media.api-sports.io/football/players/2998.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 500,
+        "fixture_id": 1378194
+      }
+    ],
+    "away": [
+      {
+        "player_id": 15811,
+        "player_name": "A. Dovbyk",
+        "photo": "https://media.api-sports.io/football/players/15811.png",
+        "type": "Missing Fixture",
+        "reason": "Groin Injury",
+        "team_id": 497,
+        "fixture_id": 1378194
+      },
+      {
+        "player_id": 129643,
+        "player_name": "E. Ferguson",
+        "photo": "https://media.api-sports.io/football/players/129643.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 497,
+        "fixture_id": 1378194
+      },
+      {
+        "player_id": 22147,
+        "player_name": "M. Kone",
+        "photo": "https://media.api-sports.io/football/players/22147.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 497,
+        "fixture_id": 1378194
+      },
+      {
+        "player_id": 782,
+        "player_name": "L. Pellegrini",
+        "photo": "https://media.api-sports.io/football/players/782.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 497,
+        "fixture_id": 1378194
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1378194,
+    "home_total": 5,
+    "home_missing": 5,
+    "home_questionable": 0,
+    "away_total": 4,
+    "away_missing": 4,
+    "away_questionable": 0
+  }
+}

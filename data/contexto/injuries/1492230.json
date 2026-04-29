@@ -1,0 +1,137 @@
+{
+  "fetched_at": "2026-04-26 14:05:34",
+  "data": {
+    "home_team_id": 134,
+    "away_team_id": 136,
+    "home": [
+      {
+        "player_id": 10091,
+        "player_name": "Jadson",
+        "photo": "https://media.api-sports.io/football/players/10091.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 134,
+        "fixture_id": 1492230
+      }
+    ],
+    "away": [
+      {
+        "player_id": 54692,
+        "player_name": "Camutanga",
+        "photo": "https://media.api-sports.io/football/players/54692.png",
+        "type": "Missing Fixture",
+        "reason": "Broken Leg",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 135136,
+        "player_name": "Claudinho",
+        "photo": "https://media.api-sports.io/football/players/135136.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 156942,
+        "player_name": "Dudu",
+        "photo": "https://media.api-sports.io/football/players/156942.png",
+        "type": "Missing Fixture",
+        "reason": "Back Injury",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 136124,
+        "player_name": "Edu",
+        "photo": "https://media.api-sports.io/football/players/136124.png",
+        "type": "Missing Fixture",
+        "reason": "Achilles Tendon Injury",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 197031,
+        "player_name": "Fintelman",
+        "photo": "https://media.api-sports.io/football/players/197031.png",
+        "type": "Missing Fixture",
+        "reason": "Hip Injury",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 41357,
+        "player_name": "Jamerson",
+        "photo": "https://media.api-sports.io/football/players/41357.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 311518,
+        "player_name": "Nathan Mendes",
+        "photo": "https://media.api-sports.io/football/players/311518.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 41299,
+        "player_name": "Neris",
+        "photo": "https://media.api-sports.io/football/players/41299.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 41580,
+        "player_name": "H. Pedro",
+        "photo": "https://media.api-sports.io/football/players/41580.png",
+        "type": "Missing Fixture",
+        "reason": "Hand Injury",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 141294,
+        "player_name": "R. Ramos",
+        "photo": "https://media.api-sports.io/football/players/141294.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 127621,
+        "player_name": "Riccieli",
+        "photo": "https://media.api-sports.io/football/players/127621.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 136,
+        "fixture_id": 1492230
+      },
+      {
+        "player_id": 9726,
+        "player_name": "Renato Kayzer",
+        "photo": "https://media.api-sports.io/football/players/9726.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 136,
+        "fixture_id": 1492230
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1492230,
+    "home_total": 1,
+    "home_missing": 1,
+    "home_questionable": 0,
+    "away_total": 12,
+    "away_missing": 11,
+    "away_questionable": 1
+  }
+}

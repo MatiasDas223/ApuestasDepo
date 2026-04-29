@@ -1,0 +1,119 @@
+{
+  "fetched_at": "2026-04-25 10:59:58",
+  "data": {
+    "home_team_id": 504,
+    "away_team_id": 867,
+    "home": [
+      {
+        "player_id": 59421,
+        "player_name": "D. Mosquera",
+        "photo": "https://media.api-sports.io/football/players/59421.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 504,
+        "fixture_id": 1378203
+      },
+      {
+        "player_id": 22239,
+        "player_name": "C. Niasse",
+        "photo": "https://media.api-sports.io/football/players/22239.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 504,
+        "fixture_id": 1378203
+      },
+      {
+        "player_id": 368260,
+        "player_name": "G. Orban",
+        "photo": "https://media.api-sports.io/football/players/368260.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 504,
+        "fixture_id": 1378203
+      },
+      {
+        "player_id": 153408,
+        "player_name": "D. Oyegoke",
+        "photo": "https://media.api-sports.io/football/players/153408.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 504,
+        "fixture_id": 1378203
+      },
+      {
+        "player_id": 418,
+        "player_name": "S. Serdar",
+        "photo": "https://media.api-sports.io/football/players/418.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 504,
+        "fixture_id": 1378203
+      }
+    ],
+    "away": [
+      {
+        "player_id": 335071,
+        "player_name": "M. Berisha",
+        "photo": "https://media.api-sports.io/football/players/335071.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 867,
+        "fixture_id": 1378203
+      },
+      {
+        "player_id": 280431,
+        "player_name": "S. Fofana",
+        "photo": "https://media.api-sports.io/football/players/280431.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 867,
+        "fixture_id": 1378203
+      },
+      {
+        "player_id": 291589,
+        "player_name": "K. Gaspar",
+        "photo": "https://media.api-sports.io/football/players/291589.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 867,
+        "fixture_id": 1378203
+      },
+      {
+        "player_id": 31507,
+        "player_name": "R. Sottil",
+        "photo": "https://media.api-sports.io/football/players/31507.png",
+        "type": "Missing Fixture",
+        "reason": "Back Injury",
+        "team_id": 867,
+        "fixture_id": 1378203
+      },
+      {
+        "player_id": 455316,
+        "player_name": "Tiago Gabriel",
+        "photo": "https://media.api-sports.io/football/players/455316.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 867,
+        "fixture_id": 1378203
+      },
+      {
+        "player_id": 436260,
+        "player_name": "F. Camarda",
+        "photo": "https://media.api-sports.io/football/players/436260.png",
+        "type": "Questionable",
+        "reason": "Shoulder Injury",
+        "team_id": 867,
+        "fixture_id": 1378203
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1378203,
+    "home_total": 5,
+    "home_missing": 5,
+    "home_questionable": 0,
+    "away_total": 6,
+    "away_missing": 5,
+    "away_questionable": 1
+  }
+}

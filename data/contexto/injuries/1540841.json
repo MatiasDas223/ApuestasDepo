@@ -1,0 +1,101 @@
+{
+  "fetched_at": "2026-04-28 12:06:51",
+  "data": {
+    "home_team_id": 85,
+    "away_team_id": 157,
+    "home": [
+      {
+        "player_id": 471107,
+        "player_name": "Q. Ndjantou",
+        "photo": "https://media.api-sports.io/football/players/471107.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 85,
+        "fixture_id": 1540841
+      }
+    ],
+    "away": [
+      {
+        "player_id": 325975,
+        "player_name": "T. Bischof",
+        "photo": "https://media.api-sports.io/football/players/325975.png",
+        "type": "Missing Fixture",
+        "reason": "Calf Injury",
+        "team_id": 157,
+        "fixture_id": 1540841
+      },
+      {
+        "player_id": 568042,
+        "player_name": "M. Cardozo",
+        "photo": "https://media.api-sports.io/football/players/568042.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 157,
+        "fixture_id": 1540841
+      },
+      {
+        "player_id": 510,
+        "player_name": "S. Gnabry",
+        "photo": "https://media.api-sports.io/football/players/510.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 157,
+        "fixture_id": 1540841
+      },
+      {
+        "player_id": 8,
+        "player_name": "R. Guerreiro",
+        "photo": "https://media.api-sports.io/football/players/8.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 157,
+        "fixture_id": 1540841
+      },
+      {
+        "player_id": 494131,
+        "player_name": "L. Karl",
+        "photo": "https://media.api-sports.io/football/players/494131.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 157,
+        "fixture_id": 1540841
+      },
+      {
+        "player_id": 524214,
+        "player_name": "C. Kiala",
+        "photo": "https://media.api-sports.io/football/players/524214.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 157,
+        "fixture_id": 1540841
+      },
+      {
+        "player_id": 496738,
+        "player_name": "W. Mike",
+        "photo": "https://media.api-sports.io/football/players/496738.png",
+        "type": "Missing Fixture",
+        "reason": "Hip Injury",
+        "team_id": 157,
+        "fixture_id": 1540841
+      },
+      {
+        "player_id": 630895,
+        "player_name": "B. Ndiaye",
+        "photo": "https://media.api-sports.io/football/players/630895.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 157,
+        "fixture_id": 1540841
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1540841,
+    "home_total": 1,
+    "home_missing": 1,
+    "home_questionable": 0,
+    "away_total": 8,
+    "away_missing": 8,
+    "away_questionable": 0
+  }
+}

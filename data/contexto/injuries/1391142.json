@@ -1,0 +1,110 @@
+{
+  "fetched_at": "2026-04-21 13:29:50",
+  "data": {
+    "home_team_id": 547,
+    "away_team_id": 543,
+    "home": [
+      {
+        "player_id": 47153,
+        "player_name": "Juan Carlos",
+        "photo": "https://media.api-sports.io/football/players/47153.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 547,
+        "fixture_id": 1391142
+      },
+      {
+        "player_id": 47520,
+        "player_name": "Portu",
+        "photo": "https://media.api-sports.io/football/players/47520.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 547,
+        "fixture_id": 1391142
+      },
+      {
+        "player_id": 155,
+        "player_name": "A. Ruiz",
+        "photo": "https://media.api-sports.io/football/players/155.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 547,
+        "fixture_id": 1391142
+      },
+      {
+        "player_id": 161670,
+        "player_name": "V. Vanat",
+        "photo": "https://media.api-sports.io/football/players/161670.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 547,
+        "fixture_id": 1391142
+      },
+      {
+        "player_id": 127,
+        "player_name": "M. ter Stegen",
+        "photo": "https://media.api-sports.io/football/players/127.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 547,
+        "fixture_id": 1391142
+      },
+      {
+        "player_id": 547,
+        "player_name": "D. van de Beek",
+        "photo": "https://media.api-sports.io/football/players/547.png",
+        "type": "Missing Fixture",
+        "reason": "Achilles Tendon Injury",
+        "team_id": 547,
+        "fixture_id": 1391142
+      }
+    ],
+    "away": [
+      {
+        "player_id": 9971,
+        "player_name": "Antony",
+        "photo": "https://media.api-sports.io/football/players/9971.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 543,
+        "fixture_id": 1391142
+      },
+      {
+        "player_id": 1564,
+        "player_name": "J. Firpo",
+        "photo": "https://media.api-sports.io/football/players/1564.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 543,
+        "fixture_id": 1391142
+      },
+      {
+        "player_id": 47302,
+        "player_name": "D. Llorente",
+        "photo": "https://media.api-sports.io/football/players/47302.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 543,
+        "fixture_id": 1391142
+      },
+      {
+        "player_id": 334574,
+        "player_name": "A. Ortiz",
+        "photo": "https://media.api-sports.io/football/players/334574.png",
+        "type": "Missing Fixture",
+        "reason": "Shoulder Injury",
+        "team_id": 543,
+        "fixture_id": 1391142
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1391142,
+    "home_total": 6,
+    "home_missing": 6,
+    "home_questionable": 0,
+    "away_total": 4,
+    "away_missing": 4,
+    "away_questionable": 0
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "fetched_at": "2026-04-25 20:02:27",
+  "data": {
+    "home_team_id": 364,
+    "away_team_id": 363,
+    "home": [
+      {
+        "player_id": 37880,
+        "player_name": "M. Anderson",
+        "photo": "https://media.api-sports.io/football/players/37880.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 364,
+        "fixture_id": 1494147
+      },
+      {
+        "player_id": 55313,
+        "player_name": "S. Haarala",
+        "photo": "https://media.api-sports.io/football/players/55313.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 364,
+        "fixture_id": 1494147
+      },
+      {
+        "player_id": 47955,
+        "player_name": "M. Nilsson",
+        "photo": "https://media.api-sports.io/football/players/47955.png",
+        "type": "Missing Fixture",
+        "reason": "Elbow Injury",
+        "team_id": 364,
+        "fixture_id": 1494147
+      },
+      {
+        "player_id": 48283,
+        "player_name": "A. Stahl",
+        "photo": "https://media.api-sports.io/football/players/48283.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 364,
+        "fixture_id": 1494147
+      },
+      {
+        "player_id": 139575,
+        "player_name": "D. Stensson",
+        "photo": "https://media.api-sports.io/football/players/139575.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 364,
+        "fixture_id": 1494147
+      },
+      {
+        "player_id": 131309,
+        "player_name": "N. Zugelj",
+        "photo": "https://media.api-sports.io/football/players/131309.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 364,
+        "fixture_id": 1494147
+      }
+    ],
+    "away": [
+      {
+        "player_id": 198655,
+        "player_name": "P. Abraham",
+        "photo": "https://media.api-sports.io/football/players/198655.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 363,
+        "fixture_id": 1494147
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1494147,
+    "home_total": 6,
+    "home_missing": 6,
+    "home_questionable": 0,
+    "away_total": 1,
+    "away_missing": 0,
+    "away_questionable": 1
+  }
+}

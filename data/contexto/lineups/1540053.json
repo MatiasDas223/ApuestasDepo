@@ -1,0 +1,19 @@
+{
+  "fetched_at": "2026-04-22 18:17:23",
+  "data": {
+    "fixture_id": 1540053,
+    "home": null,
+    "away": null,
+    "confirmed": false
+  },
+  "resumen": {
+    "fixture_id": 1540053,
+    "confirmed": false,
+    "home_xi_size": 0,
+    "away_xi_size": 0,
+    "home_formation": null,
+    "away_formation": null,
+    "home_coach": null,
+    "away_coach": null
+  }
+}

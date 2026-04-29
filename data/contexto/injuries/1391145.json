@@ -1,0 +1,110 @@
+{
+  "fetched_at": "2026-04-23 08:43:39",
+  "data": {
+    "home_team_id": 728,
+    "away_team_id": 540,
+    "home": [
+      {
+        "player_id": 47543,
+        "player_name": "A. Garcia",
+        "photo": "https://media.api-sports.io/football/players/47543.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 728,
+        "fixture_id": 1391145
+      },
+      {
+        "player_id": 18895,
+        "player_name": "F. Lejeune",
+        "photo": "https://media.api-sports.io/football/players/18895.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 728,
+        "fixture_id": 1391145
+      },
+      {
+        "player_id": 1847,
+        "player_name": "Luiz Felipe",
+        "photo": "https://media.api-sports.io/football/players/1847.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 728,
+        "fixture_id": 1391145
+      },
+      {
+        "player_id": 333378,
+        "player_name": "D. Mendez",
+        "photo": "https://media.api-sports.io/football/players/333378.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 728,
+        "fixture_id": 1391145
+      },
+      {
+        "player_id": 358431,
+        "player_name": "N. Mendy",
+        "photo": "https://media.api-sports.io/football/players/358431.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 728,
+        "fixture_id": 1391145
+      },
+      {
+        "player_id": 122657,
+        "player_name": "R. Nteka",
+        "photo": "https://media.api-sports.io/football/players/122657.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 728,
+        "fixture_id": 1391145
+      },
+      {
+        "player_id": 290740,
+        "player_name": "I. Akhomach",
+        "photo": "https://media.api-sports.io/football/players/290740.png",
+        "type": "Questionable",
+        "reason": "Ankle Injury",
+        "team_id": 728,
+        "fixture_id": 1391145
+      },
+      {
+        "player_id": 11379,
+        "player_name": "A. Batalla",
+        "photo": "https://media.api-sports.io/football/players/11379.png",
+        "type": "Questionable",
+        "reason": "Muscle Injury",
+        "team_id": 728,
+        "fixture_id": 1391145
+      }
+    ],
+    "away": [
+      {
+        "player_id": 183699,
+        "player_name": "U. Gonzalez",
+        "photo": "https://media.api-sports.io/football/players/183699.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 540,
+        "fixture_id": 1391145
+      },
+      {
+        "player_id": 47349,
+        "player_name": "J. Puado",
+        "photo": "https://media.api-sports.io/football/players/47349.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 540,
+        "fixture_id": 1391145
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1391145,
+    "home_total": 8,
+    "home_missing": 6,
+    "home_questionable": 2,
+    "away_total": 2,
+    "away_missing": 2,
+    "away_questionable": 0
+  }
+}

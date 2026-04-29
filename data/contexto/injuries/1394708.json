@@ -1,0 +1,128 @@
+{
+  "fetched_at": "2026-04-25 20:04:31",
+  "data": {
+    "home_team_id": 997,
+    "away_team_id": 7411,
+    "home": [
+      {
+        "player_id": 2774,
+        "player_name": "P. Etebo",
+        "photo": "https://media.api-sports.io/football/players/2774.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 997,
+        "fixture_id": 1394708
+      },
+      {
+        "player_id": 297610,
+        "player_name": "M. Kyabou",
+        "photo": "https://media.api-sports.io/football/players/297610.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 997,
+        "fixture_id": 1394708
+      },
+      {
+        "player_id": 456,
+        "player_name": "H. Onyekuru",
+        "photo": "https://media.api-sports.io/football/players/456.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 997,
+        "fixture_id": 1394708
+      },
+      {
+        "player_id": 61813,
+        "player_name": "A. Sahindere",
+        "photo": "https://media.api-sports.io/football/players/61813.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 997,
+        "fixture_id": 1394708
+      },
+      {
+        "player_id": 105871,
+        "player_name": "Z. Zuzek",
+        "photo": "https://media.api-sports.io/football/players/105871.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 997,
+        "fixture_id": 1394708
+      },
+      {
+        "player_id": 202992,
+        "player_name": "S. Onur",
+        "photo": "https://media.api-sports.io/football/players/202992.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 997,
+        "fixture_id": 1394708
+      }
+    ],
+    "away": [
+      {
+        "player_id": 63034,
+        "player_name": "M. Cinan",
+        "photo": "https://media.api-sports.io/football/players/63034.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 7411,
+        "fixture_id": 1394708
+      },
+      {
+        "player_id": 550863,
+        "player_name": "A. Jovanovic",
+        "photo": "https://media.api-sports.io/football/players/550863.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 7411,
+        "fixture_id": 1394708
+      },
+      {
+        "player_id": 3314,
+        "player_name": "Show",
+        "photo": "https://media.api-sports.io/football/players/3314.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card",
+        "team_id": 7411,
+        "fixture_id": 1394708
+      },
+      {
+        "player_id": 40392,
+        "player_name": "M. Wieteska",
+        "photo": "https://media.api-sports.io/football/players/40392.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 7411,
+        "fixture_id": 1394708
+      },
+      {
+        "player_id": 180763,
+        "player_name": "B. Balogh",
+        "photo": "https://media.api-sports.io/football/players/180763.png",
+        "type": "Questionable",
+        "reason": "Inactive",
+        "team_id": 7411,
+        "fixture_id": 1394708
+      },
+      {
+        "player_id": 1331,
+        "player_name": "B. Petkovic",
+        "photo": "https://media.api-sports.io/football/players/1331.png",
+        "type": "Questionable",
+        "reason": "Inactive",
+        "team_id": 7411,
+        "fixture_id": 1394708
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1394708,
+    "home_total": 6,
+    "home_missing": 5,
+    "home_questionable": 1,
+    "away_total": 6,
+    "away_missing": 4,
+    "away_questionable": 2
+  }
+}

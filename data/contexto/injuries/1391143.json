@@ -1,0 +1,74 @@
+{
+  "fetched_at": "2026-04-23 08:43:30",
+  "data": {
+    "home_team_id": 539,
+    "away_team_id": 536,
+    "home": [
+      {
+        "player_id": 47225,
+        "player_name": "R. Brugue",
+        "photo": "https://media.api-sports.io/football/players/47225.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 539,
+        "fixture_id": 1391143
+      },
+      {
+        "player_id": 46941,
+        "player_name": "U. Elgezabal",
+        "photo": "https://media.api-sports.io/football/players/46941.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 539,
+        "fixture_id": 1391143
+      }
+    ],
+    "away": [
+      {
+        "player_id": 2280,
+        "player_name": "C. Azpilicueta",
+        "photo": "https://media.api-sports.io/football/players/2280.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 536,
+        "fixture_id": 1391143
+      },
+      {
+        "player_id": 2924,
+        "player_name": "A. Januzaj",
+        "photo": "https://media.api-sports.io/football/players/2924.png",
+        "type": "Missing Fixture",
+        "reason": "Coach's decision",
+        "team_id": 536,
+        "fixture_id": 1391143
+      },
+      {
+        "player_id": 47389,
+        "player_name": "Joan Jordan",
+        "photo": "https://media.api-sports.io/football/players/47389.png",
+        "type": "Missing Fixture",
+        "reason": "Coach's decision",
+        "team_id": 536,
+        "fixture_id": 1391143
+      },
+      {
+        "player_id": 433,
+        "player_name": "Marcao",
+        "photo": "https://media.api-sports.io/football/players/433.png",
+        "type": "Missing Fixture",
+        "reason": "Wrist Injury",
+        "team_id": 536,
+        "fixture_id": 1391143
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1391143,
+    "home_total": 2,
+    "home_missing": 2,
+    "home_questionable": 0,
+    "away_total": 4,
+    "away_missing": 4,
+    "away_questionable": 0
+  }
+}

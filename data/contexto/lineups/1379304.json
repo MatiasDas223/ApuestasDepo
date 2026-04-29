@@ -1,0 +1,319 @@
+{
+  "fetched_at": "2026-04-25 10:56:40",
+  "data": {
+    "fixture_id": 1379304,
+    "home": {
+      "team_id": 40,
+      "team_name": "Liverpool",
+      "formation": "4-2-3-1",
+      "coach_id": 2006,
+      "coach_name": "Arne Slot",
+      "startXI": [
+        {
+          "id": 18889,
+          "name": "Freddie Woodman",
+          "number": 28,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 1096,
+          "name": "Dominik Szoboszlai",
+          "number": 8,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 1145,
+          "name": "Ibrahima Konaté",
+          "number": 5,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 290,
+          "name": "Virgil van Dijk",
+          "number": 4,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 289,
+          "name": "Andy Robertson",
+          "number": 26,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 6716,
+          "name": "Alexis Mac Allister",
+          "number": 10,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 293,
+          "name": "Curtis Jones",
+          "number": 17,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 306,
+          "name": "Mohamed Salah",
+          "number": 11,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 203224,
+          "name": "Florian Wirtz",
+          "number": 7,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 247,
+          "name": "Cody Gakpo",
+          "number": 18,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 2864,
+          "name": "Alexander Isak",
+          "number": 9,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 342467,
+          "name": "Ármin Pécsi",
+          "number": 41,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 206254,
+          "name": "Miloš Kerkez",
+          "number": 6,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 284,
+          "name": "Joe Gomez",
+          "number": 2,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 152654,
+          "name": "Jeremie Frimpong",
+          "number": 30,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 397997,
+          "name": "Trey Nyoni",
+          "number": 42,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 542,
+          "name": "Ryan Gravenberch",
+          "number": 38,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 452685,
+          "name": "Rio Ngumoha",
+          "number": 73,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 30410,
+          "name": "Federico Chiesa",
+          "number": 14,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 498377,
+          "name": "Will Wright",
+          "number": 79,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 52,
+      "team_name": "Crystal Palace",
+      "formation": "3-4-2-1",
+      "coach_id": 1534,
+      "coach_name": "Oliver Glasner",
+      "startXI": [
+        {
+          "id": 19088,
+          "name": "Dean Henderson",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 126949,
+          "name": "Chris Richards",
+          "number": 26,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 20995,
+          "name": "Maxence Lacroix",
+          "number": 5,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 412759,
+          "name": "Jaydee Canvot",
+          "number": 23,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 13736,
+          "name": "Daniel Muñoz",
+          "number": 2,
+          "pos": "M",
+          "grid": "3:4"
+        },
+        {
+          "id": 2601,
+          "name": "Daichi Kamada",
+          "number": 18,
+          "pos": "M",
+          "grid": "3:3"
+        },
+        {
+          "id": 288102,
+          "name": "Adam Wharton",
+          "number": 20,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 182201,
+          "name": "Tyrick Mitchell",
+          "number": 3,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 129711,
+          "name": "Brennan Johnson",
+          "number": 11,
+          "pos": "F",
+          "grid": "4:2"
+        },
+        {
+          "id": 2218,
+          "name": "Ismaïla Sarr",
+          "number": 7,
+          "pos": "F",
+          "grid": "4:1"
+        },
+        {
+          "id": 25927,
+          "name": "Jean-Philippe Mateta",
+          "number": 14,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 22157,
+          "name": "Walter Benitez",
+          "number": 44,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 278898,
+          "name": "Chadi Riad",
+          "number": 34,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 18862,
+          "name": "Nathaniel Clyne",
+          "number": 17,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 2490,
+          "name": "Jefferson Lerma",
+          "number": 8,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 26303,
+          "name": "Borna Sosa",
+          "number": 24,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 286458,
+          "name": "Justin Devenny",
+          "number": 55,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 18806,
+          "name": "Will Hughes",
+          "number": 19,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 2032,
+          "name": "Jørgen Strand Larsen",
+          "number": 22,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 184226,
+          "name": "Yéremy Pino",
+          "number": 10,
+          "pos": "M",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
+  },
+  "resumen": {
+    "fixture_id": 1379304,
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "4-2-3-1",
+    "away_formation": "3-4-2-1",
+    "home_coach": "Arne Slot",
+    "away_coach": "Oliver Glasner"
+  }
+}

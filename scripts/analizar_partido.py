@@ -500,7 +500,7 @@ def analizar_value_bets(probs, odds, team_local, team_visita, min_edge=MIN_EDGE)
 
     # Doble oportunidad
     if all(k in o for k in ('dc_1x', 'dc_12', 'dc_x2')):
-        fp_1x, fp_12, fp_x2 = _remove_vig(o['dc_1x'], o['dc_12'], o['dc_x2'])
+        fp_1x, fp_12, fp_x2 = _remove_vig(o['dc_1x'], o['dc_12'], o['dc_x2'], expected_sum=2.0)
         for pk, fp, bk, lbl in [
             ('1X', fp_1x, o['dc_1x'], f'DC -> {team_local} o Empate (1X)'),
             ('12', fp_12, o['dc_12'], f'DC -> {team_local} o {team_visita} (12)'),
@@ -730,6 +730,7 @@ _VB_COLS = [
     'mercado', 'lado', 'odds', 'modelo_prob', 'implied_prob',
     'edge', 'ev_pct', 'metodo', 'categoria', 'alcance', 'resultado',
     'odds_close', 'clv_pct', 'fecha_cierre',
+    'odds_close_est', 'clv_pct_est', 'clv_method',
 ]
 
 
@@ -956,7 +957,7 @@ def _collect_all_market_entries(probs, odds, team_local, team_visita):
 
     # Doble oportunidad
     if all(k in o for k in ('dc_1x', 'dc_12', 'dc_x2')):
-        fp_1x, fp_12, fp_x2 = _remove_vig(o['dc_1x'], o['dc_12'], o['dc_x2'])
+        fp_1x, fp_12, fp_x2 = _remove_vig(o['dc_1x'], o['dc_12'], o['dc_x2'], expected_sum=2.0)
         for pk, fp, bk, lbl, lado in [
             ('1X', fp_1x, o['dc_1x'], f'DC -> {team_local} o Empate (1X)',       ''),
             ('12', fp_12, o['dc_12'], f'DC -> {team_local} o {team_visita} (12)', ''),

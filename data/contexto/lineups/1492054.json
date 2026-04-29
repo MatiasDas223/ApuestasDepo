@@ -1,0 +1,35 @@
+{
+  "fetched_at": "2026-04-24 21:05:40",
+  "data": {
+    "fixture_id": 1492054,
+    "home": {
+      "team_id": 436,
+      "team_name": "Racing Club",
+      "formation": null,
+      "coach_id": 649,
+      "coach_name": "Gustavo Costas",
+      "startXI": [],
+      "subs": []
+    },
+    "away": {
+      "team_id": 2432,
+      "team_name": "Barracas Central",
+      "formation": null,
+      "coach_id": 25849,
+      "coach_name": "Dario Insua Ruben",
+      "startXI": [],
+      "subs": []
+    },
+    "confirmed": false
+  },
+  "resumen": {
+    "fixture_id": 1492054,
+    "confirmed": false,
+    "home_xi_size": 0,
+    "away_xi_size": 0,
+    "home_formation": null,
+    "away_formation": null,
+    "home_coach": "Gustavo Costas",
+    "away_coach": "Dario Insua Ruben"
+  }
+}

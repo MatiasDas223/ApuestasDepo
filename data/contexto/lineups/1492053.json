@@ -1,0 +1,35 @@
+{
+  "fetched_at": "2026-04-24 21:05:27",
+  "data": {
+    "fixture_id": 1492053,
+    "home": {
+      "team_id": 1064,
+      "team_name": "Platense",
+      "formation": null,
+      "coach_id": 25911,
+      "coach_name": "Walter Zunino",
+      "startXI": [],
+      "subs": []
+    },
+    "away": {
+      "team_id": 460,
+      "team_name": "San Lorenzo",
+      "formation": null,
+      "coach_id": 28185,
+      "coach_name": "Gustavo Alvarez",
+      "startXI": [],
+      "subs": []
+    },
+    "confirmed": false
+  },
+  "resumen": {
+    "fixture_id": 1492053,
+    "confirmed": false,
+    "home_xi_size": 0,
+    "away_xi_size": 0,
+    "home_formation": null,
+    "away_formation": null,
+    "home_coach": "Walter Zunino",
+    "away_coach": "Gustavo Alvarez"
+  }
+}

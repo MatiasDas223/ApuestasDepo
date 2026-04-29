@@ -1,0 +1,361 @@
+{
+  "fetched_at": "2026-04-21 13:29:33",
+  "data": {
+    "fixture_id": 1391144,
+    "home": {
+      "team_id": 798,
+      "team_name": "Mallorca",
+      "formation": "4-2-3-1",
+      "coach_id": 27832,
+      "coach_name": "Martin Demichelis",
+      "startXI": [
+        {
+          "id": 179139,
+          "name": "Leo Román",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 26302,
+          "name": "Pablo Maffeo",
+          "number": 23,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 414,
+          "name": "Omar Mascarell",
+          "number": 5,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 46738,
+          "name": "Martin Valjent",
+          "number": 24,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 64268,
+          "name": "Johan Mojica",
+          "number": 22,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 1701,
+          "name": "Manu Morlanes",
+          "number": 8,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 47336,
+          "name": "Sergi Darder",
+          "number": 10,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": null,
+          "name": "Takuma Asano",
+          "number": 11,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 285909,
+          "name": "Pablo Torre",
+          "number": 20,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 190485,
+          "name": "Samú Costa",
+          "number": 12,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 50048,
+          "name": "Vedat Muriqi",
+          "number": 7,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 47399,
+          "name": "Iván Cuéllar",
+          "number": 25,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 30924,
+          "name": "Marash Kumbulla",
+          "number": 4,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 335697,
+          "name": "David López",
+          "number": 27,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 108519,
+          "name": "Mateu Morey",
+          "number": 2,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 920,
+          "name": "Toni Lato",
+          "number": 3,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 491248,
+          "name": "Jan Virgili",
+          "number": 17,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": null,
+          "name": "Cesc Riba",
+          "number": 28,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 629089,
+          "name": "Jandro García",
+          "number": 39,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 405074,
+          "name": "Justin-Noel Kalumba",
+          "number": 30,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 293604,
+          "name": "Javi Llabrés",
+          "number": 19,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 107194,
+          "name": "Antonio Sánchez",
+          "number": 6,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 46751,
+          "name": "Abdon",
+          "number": 9,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 532,
+      "team_name": "Valencia",
+      "formation": "4-4-2",
+      "coach_id": 25638,
+      "coach_name": "Carlos Corberan",
+      "startXI": [
+        {
+          "id": 47527,
+          "name": "Stole Dimitrievski",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 1482,
+          "name": "Thierry Correia",
+          "number": 12,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 47463,
+          "name": "Pepelu",
+          "number": 18,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 333672,
+          "name": "César Tárrega",
+          "number": 5,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 918,
+          "name": "Jose Gaya",
+          "number": 14,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 162127,
+          "name": "Diego López",
+          "number": 16,
+          "pos": "M",
+          "grid": "3:4"
+        },
+        {
+          "id": 48465,
+          "name": "Filip Ugrinić",
+          "number": 23,
+          "pos": "M",
+          "grid": "3:3"
+        },
+        {
+          "id": 2476,
+          "name": "Guido Rodríguez",
+          "number": 2,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 138776,
+          "name": "Largie Ramazani",
+          "number": 17,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 6010,
+          "name": "Lucas Beltrán",
+          "number": 15,
+          "pos": "F",
+          "grid": "4:2"
+        },
+        {
+          "id": 31406,
+          "name": "Umar Sadiq",
+          "number": 6,
+          "pos": "F",
+          "grid": "4:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 913,
+          "name": "Cristian Rivero",
+          "number": 13,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 162175,
+          "name": "Jesús Vázquez",
+          "number": 21,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 315701,
+          "name": "Rubén Iranzo",
+          "number": 26,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 2470,
+          "name": "Renzo Saravia",
+          "number": 20,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 623732,
+          "name": "Joel Fontanet Paredes",
+          "number": 40,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 41157,
+          "name": "André Almeida",
+          "number": 10,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 315699,
+          "name": "Javier Guerra",
+          "number": 8,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 406043,
+          "name": "Lucas Núñez",
+          "number": 29,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 46933,
+          "name": "Luis Rioja",
+          "number": 11,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 47264,
+          "name": "Hugo Duro",
+          "number": 9,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 83,
+          "name": "Arnaut Danjuma",
+          "number": 7,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 1708,
+          "name": "Dani Raba",
+          "number": 19,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
+  },
+  "resumen": {
+    "fixture_id": 1391144,
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "4-2-3-1",
+    "away_formation": "4-4-2",
+    "home_coach": "Martin Demichelis",
+    "away_coach": "Carlos Corberan"
+  }
+}

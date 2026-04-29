@@ -1,0 +1,119 @@
+{
+  "fetched_at": "2026-04-25 11:05:46",
+  "data": {
+    "home_team_id": 1001,
+    "away_team_id": 1007,
+    "home": [
+      {
+        "player_id": 546518,
+        "player_name": "A. Burak",
+        "photo": "https://media.api-sports.io/football/players/546518.png",
+        "type": "Missing Fixture",
+        "reason": "Suspended",
+        "team_id": 1001,
+        "fixture_id": 1394710
+      },
+      {
+        "player_id": 22245,
+        "player_name": "L. Carole",
+        "photo": "https://media.api-sports.io/football/players/22245.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 1001,
+        "fixture_id": 1394710
+      },
+      {
+        "player_id": 128904,
+        "player_name": "Y. Celtik",
+        "photo": "https://media.api-sports.io/football/players/128904.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 1001,
+        "fixture_id": 1394710
+      },
+      {
+        "player_id": 620048,
+        "player_name": "K. Cihan",
+        "photo": "https://media.api-sports.io/football/players/620048.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 1001,
+        "fixture_id": 1394710
+      },
+      {
+        "player_id": 2686,
+        "player_name": "M. Hosseini",
+        "photo": "https://media.api-sports.io/football/players/2686.png",
+        "type": "Missing Fixture",
+        "reason": "Health problems",
+        "team_id": 1001,
+        "fixture_id": 1394710
+      },
+      {
+        "player_id": 706,
+        "player_name": "J. Brenet",
+        "photo": "https://media.api-sports.io/football/players/706.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 1001,
+        "fixture_id": 1394710
+      }
+    ],
+    "away": [
+      {
+        "player_id": 62490,
+        "player_name": "S. Akaydin",
+        "photo": "https://media.api-sports.io/football/players/62490.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card",
+        "team_id": 1007,
+        "fixture_id": 1394710
+      },
+      {
+        "player_id": 50202,
+        "player_name": "T. Antalyali",
+        "photo": "https://media.api-sports.io/football/players/50202.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 1007,
+        "fixture_id": 1394710
+      },
+      {
+        "player_id": 289306,
+        "player_name": "L. Augusto",
+        "photo": "https://media.api-sports.io/football/players/289306.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 1007,
+        "fixture_id": 1394710
+      },
+      {
+        "player_id": 127164,
+        "player_name": "A. Zeqiri",
+        "photo": "https://media.api-sports.io/football/players/127164.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 1007,
+        "fixture_id": 1394710
+      },
+      {
+        "player_id": 531312,
+        "player_name": "K. Alikulov",
+        "photo": "https://media.api-sports.io/football/players/531312.png",
+        "type": "Questionable",
+        "reason": "Knee Injury",
+        "team_id": 1007,
+        "fixture_id": 1394710
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1394710,
+    "home_total": 6,
+    "home_missing": 5,
+    "home_questionable": 1,
+    "away_total": 5,
+    "away_missing": 4,
+    "away_questionable": 1
+  }
+}

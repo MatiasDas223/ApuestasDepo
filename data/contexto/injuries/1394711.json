@@ -1,0 +1,119 @@
+{
+  "fetched_at": "2026-04-27 08:41:18",
+  "data": {
+    "home_team_id": 607,
+    "away_team_id": 998,
+    "home": [
+      {
+        "player_id": 62417,
+        "player_name": "U. Akyol",
+        "photo": "https://media.api-sports.io/football/players/62417.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 607,
+        "fixture_id": 1394711
+      },
+      {
+        "player_id": 37175,
+        "player_name": "R. Bazoer",
+        "photo": "https://media.api-sports.io/football/players/37175.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 607,
+        "fixture_id": 1394711
+      },
+      {
+        "player_id": 94576,
+        "player_name": "M. Bjorlo",
+        "photo": "https://media.api-sports.io/football/players/94576.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 607,
+        "fixture_id": 1394711
+      },
+      {
+        "player_id": 14691,
+        "player_name": "J. Calusic",
+        "photo": "https://media.api-sports.io/football/players/14691.png",
+        "type": "Missing Fixture",
+        "reason": "Suspended",
+        "team_id": 607,
+        "fixture_id": 1394711
+      },
+      {
+        "player_id": 40472,
+        "player_name": "Guilherme",
+        "photo": "https://media.api-sports.io/football/players/40472.png",
+        "type": "Missing Fixture",
+        "reason": "Suspended",
+        "team_id": 607,
+        "fixture_id": 1394711
+      },
+      {
+        "player_id": 194880,
+        "player_name": "A. Ndao",
+        "photo": "https://media.api-sports.io/football/players/194880.png",
+        "type": "Missing Fixture",
+        "reason": "Suspended",
+        "team_id": 607,
+        "fixture_id": 1394711
+      },
+      {
+        "player_id": 144656,
+        "player_name": "J. Muleka",
+        "photo": "https://media.api-sports.io/football/players/144656.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 607,
+        "fixture_id": 1394711
+      },
+      {
+        "player_id": 50063,
+        "player_name": "U. Yazgili",
+        "photo": "https://media.api-sports.io/football/players/50063.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 607,
+        "fixture_id": 1394711
+      }
+    ],
+    "away": [
+      {
+        "player_id": 496868,
+        "player_name": "T. E. Ince",
+        "photo": "https://media.api-sports.io/football/players/496868.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 998,
+        "fixture_id": 1394711
+      },
+      {
+        "player_id": 49860,
+        "player_name": "E. Visca",
+        "photo": "https://media.api-sports.io/football/players/49860.png",
+        "type": "Missing Fixture",
+        "reason": "Foot Injury",
+        "team_id": 998,
+        "fixture_id": 1394711
+      },
+      {
+        "player_id": 63627,
+        "player_name": "A. Batagov",
+        "photo": "https://media.api-sports.io/football/players/63627.png",
+        "type": "Questionable",
+        "reason": "Knee Injury",
+        "team_id": 998,
+        "fixture_id": 1394711
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1394711,
+    "home_total": 8,
+    "home_missing": 6,
+    "home_questionable": 2,
+    "away_total": 3,
+    "away_missing": 2,
+    "away_questionable": 1
+  }
+}

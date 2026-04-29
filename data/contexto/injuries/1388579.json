@@ -1,0 +1,74 @@
+{
+  "fetched_at": "2026-04-25 19:59:50",
+  "data": {
+    "home_team_id": 165,
+    "away_team_id": 160,
+    "home": [
+      {
+        "player_id": 7334,
+        "player_name": "K. Adeyemi",
+        "photo": "https://media.api-sports.io/football/players/7334.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 165,
+        "fixture_id": 1388579
+      },
+      {
+        "player_id": 864,
+        "player_name": "E. Can",
+        "photo": "https://media.api-sports.io/football/players/864.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 165,
+        "fixture_id": 1388579
+      },
+      {
+        "player_id": 637,
+        "player_name": "F. Nmecha",
+        "photo": "https://media.api-sports.io/football/players/637.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 165,
+        "fixture_id": 1388579
+      },
+      {
+        "player_id": 506,
+        "player_name": "N. Sule",
+        "photo": "https://media.api-sports.io/football/players/506.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 165,
+        "fixture_id": 1388579
+      }
+    ],
+    "away": [
+      {
+        "player_id": 191160,
+        "player_name": "J. Makengo",
+        "photo": "https://media.api-sports.io/football/players/191160.png",
+        "type": "Questionable",
+        "reason": "Muscle Injury",
+        "team_id": 160,
+        "fixture_id": 1388579
+      },
+      {
+        "player_id": 163022,
+        "player_name": "P. Osterhage",
+        "photo": "https://media.api-sports.io/football/players/163022.png",
+        "type": "Questionable",
+        "reason": "Knee Injury",
+        "team_id": 160,
+        "fixture_id": 1388579
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1388579,
+    "home_total": 4,
+    "home_missing": 4,
+    "home_questionable": 0,
+    "away_total": 2,
+    "away_missing": 0,
+    "away_questionable": 2
+  }
+}

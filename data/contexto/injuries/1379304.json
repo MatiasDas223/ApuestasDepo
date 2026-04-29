@@ -1,0 +1,137 @@
+{
+  "fetched_at": "2026-04-25 10:56:40",
+  "data": {
+    "home_team_id": 40,
+    "away_team_id": 52,
+    "home": [
+      {
+        "player_id": 310187,
+        "player_name": "S. Bajcetic",
+        "photo": "https://media.api-sports.io/football/players/310187.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 40,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 180317,
+        "player_name": "C. Bradley",
+        "photo": "https://media.api-sports.io/football/players/180317.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 40,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 174565,
+        "player_name": "H. Ekitike",
+        "photo": "https://media.api-sports.io/football/players/174565.png",
+        "type": "Missing Fixture",
+        "reason": "Achilles Tendon Injury",
+        "team_id": 40,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 8500,
+        "player_name": "W. Endo",
+        "photo": "https://media.api-sports.io/football/players/8500.png",
+        "type": "Missing Fixture",
+        "reason": "Foot Injury",
+        "team_id": 40,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 409047,
+        "player_name": "G. Leoni",
+        "photo": "https://media.api-sports.io/football/players/409047.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 40,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 24760,
+        "player_name": "G. Mamardashvili",
+        "photo": "https://media.api-sports.io/football/players/24760.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 40,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 280,
+        "player_name": "Alisson",
+        "photo": "https://media.api-sports.io/football/players/280.png",
+        "type": "Questionable",
+        "reason": "Muscle Injury",
+        "team_id": 40,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 284,
+        "player_name": "J. Gomez",
+        "photo": "https://media.api-sports.io/football/players/284.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 40,
+        "fixture_id": 1379304
+      }
+    ],
+    "away": [
+      {
+        "player_id": 3339,
+        "player_name": "C. Doucoure",
+        "photo": "https://media.api-sports.io/football/players/3339.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 52,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 137303,
+        "player_name": "E. Guessand",
+        "photo": "https://media.api-sports.io/football/players/137303.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 52,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 1468,
+        "player_name": "E. Nketiah",
+        "photo": "https://media.api-sports.io/football/players/1468.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 52,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 18862,
+        "player_name": "N. Clyne",
+        "photo": "https://media.api-sports.io/football/players/18862.png",
+        "type": "Questionable",
+        "reason": "Illness",
+        "team_id": 52,
+        "fixture_id": 1379304
+      },
+      {
+        "player_id": 288102,
+        "player_name": "A. Wharton",
+        "photo": "https://media.api-sports.io/football/players/288102.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 52,
+        "fixture_id": 1379304
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1379304,
+    "home_total": 8,
+    "home_missing": 6,
+    "home_questionable": 2,
+    "away_total": 5,
+    "away_missing": 3,
+    "away_questionable": 2
+  }
+}

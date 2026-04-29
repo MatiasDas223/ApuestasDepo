@@ -1,0 +1,128 @@
+{
+  "fetched_at": "2026-04-25 10:57:16",
+  "data": {
+    "home_team_id": 175,
+    "away_team_id": 167,
+    "home": [
+      {
+        "player_id": 8483,
+        "player_name": "J. Dompe",
+        "photo": "https://media.api-sports.io/football/players/8483.png",
+        "type": "Missing Fixture",
+        "reason": "Foot Injury",
+        "team_id": 175,
+        "fixture_id": 1388581
+      },
+      {
+        "player_id": 1427,
+        "player_name": "A. S. Lokonga",
+        "photo": "https://media.api-sports.io/football/players/1427.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 175,
+        "fixture_id": 1388581
+      },
+      {
+        "player_id": 48489,
+        "player_name": "M. Muheim",
+        "photo": "https://media.api-sports.io/football/players/48489.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 175,
+        "fixture_id": 1388581
+      },
+      {
+        "player_id": 73879,
+        "player_name": "P. Otele",
+        "photo": "https://media.api-sports.io/football/players/73879.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card",
+        "team_id": 175,
+        "fixture_id": 1388581
+      },
+      {
+        "player_id": 1167,
+        "player_name": "Y. Poulsen",
+        "photo": "https://media.api-sports.io/football/players/1167.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 175,
+        "fixture_id": 1388581
+      },
+      {
+        "player_id": 470282,
+        "player_name": "A. Rossing-Lelesiit",
+        "photo": "https://media.api-sports.io/football/players/470282.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 175,
+        "fixture_id": 1388581
+      },
+      {
+        "player_id": 387521,
+        "player_name": "L. Vuskovic",
+        "photo": "https://media.api-sports.io/football/players/387521.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 175,
+        "fixture_id": 1388581
+      }
+    ],
+    "away": [
+      {
+        "player_id": 127631,
+        "player_name": "V. Gendrey",
+        "photo": "https://media.api-sports.io/football/players/127631.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 167,
+        "fixture_id": 1388581
+      },
+      {
+        "player_id": 66019,
+        "player_name": "A. Hlozek",
+        "photo": "https://media.api-sports.io/football/players/66019.png",
+        "type": "Missing Fixture",
+        "reason": "Calf Injury",
+        "team_id": 167,
+        "fixture_id": 1388581
+      },
+      {
+        "player_id": 33067,
+        "player_name": "K. Machida",
+        "photo": "https://media.api-sports.io/football/players/33067.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 167,
+        "fixture_id": 1388581
+      },
+      {
+        "player_id": 18964,
+        "player_name": "Bernardo",
+        "photo": "https://media.api-sports.io/football/players/18964.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 167,
+        "fixture_id": 1388581
+      },
+      {
+        "player_id": 37153,
+        "player_name": "W. Burger",
+        "photo": "https://media.api-sports.io/football/players/37153.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 167,
+        "fixture_id": 1388581
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1388581,
+    "home_total": 7,
+    "home_missing": 7,
+    "home_questionable": 0,
+    "away_total": 5,
+    "away_missing": 3,
+    "away_questionable": 2
+  }
+}
