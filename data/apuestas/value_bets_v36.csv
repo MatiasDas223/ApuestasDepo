@@ -170,9 +170,9 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:54,1535281,UCV vs Rosario Central,"('Copa Libertadores', True)",Goles Rosario Central O/U 0.5,Under/No,4.50,0.3249,0.2077,0.1172,0.4622,v3.6,Goles,Visitante,L,5.00,-10.00,2026-04-28 23:44,,,exact
 2026-04-27 20:54,1535281,UCV vs Rosario Central,"('Copa Libertadores', True)",BTTS,Over/Si,2.10,0.5220,0.4430,0.0790,0.0962,v3.6,BTTS,Total,L,1.95,+7.69,2026-04-28 23:44,,,exact
 2026-04-27 20:54,1535270,Cruzeiro vs Boca Juniors,"('Copa Libertadores', True)",BTTS,Over/Si,2.00,0.5308,0.4667,0.0641,0.0616,v3.6,BTTS,Total,L,2.00,+0.00,2026-04-29 00:14,,,exact
-2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",Goles Coquimbo Unido O/U 0.5,Over/Si,1.62,0.6977,0.5759,0.1218,0.1303,v3.6,Goles,Visitante,,1.83,-11.48,2026-04-29 01:44,,,exact
-2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",Goles Coquimbo Unido O/U 1.5,Over/Si,4.33,0.3380,0.2170,0.1210,0.4635,v3.6,Goles,Visitante,,6.00,-27.83,2026-04-29 01:44,,,exact
-2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",BTTS,Over/Si,2.10,0.5250,0.4430,0.0820,0.1025,v3.6,BTTS,Total,,2.25,-6.67,2026-04-29 01:44,,,exact
+2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",Goles Coquimbo Unido O/U 0.5,Over/Si,1.62,0.6977,0.5759,0.1218,0.1303,v3.6,Goles,Visitante,L,1.83,-11.48,2026-04-29 01:44,,,exact
+2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",Goles Coquimbo Unido O/U 1.5,Over/Si,4.33,0.3380,0.2170,0.1210,0.4635,v3.6,Goles,Visitante,L,6.00,-27.83,2026-04-29 01:44,,,exact
+2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",BTTS,Over/Si,2.10,0.5250,0.4430,0.0820,0.1025,v3.6,BTTS,Total,L,2.25,-6.67,2026-04-29 01:44,,,exact
 2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.53,0.7821,0.6087,0.1734,0.1966,v3.6,Goles,Total,,,,,,,
 2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,2.35,0.5736,0.4005,0.1730,0.3478,v3.6,Goles,Total,,,,,,,
 2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.22,0.9062,0.7663,0.1399,0.1055,v3.6,Goles,Total,,,,,,,
@@ -190,9 +190,9 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:57,1535171,Barracas Central vs A. Italiano,"('Copa Sudamericana', True)",Goles A. Italiano O/U 1.5,Over/Si,4.33,0.3364,0.2170,0.1194,0.4568,v3.6,Goles,Visitante,L,5.00,-13.40,2026-04-28 23:44,,,exact
 2026-04-27 20:57,1535171,Barracas Central vs A. Italiano,"('Copa Sudamericana', True)",BTTS,Over/Si,2.10,0.5132,0.4430,0.0702,0.0777,v3.6,BTTS,Total,W,2.25,-6.67,2026-04-28 23:44,,,exact
 2026-04-27 20:58,1535179,Millonarios vs Sao Paulo,"('Copa Sudamericana', True)",BTTS,Over/Si,2.00,0.5317,0.4638,0.0679,0.0634,v3.6,BTTS,Total,L,2.00,+0.00,2026-04-29 00:14,,,exact
-2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Goles Boston River O/U 0.5,Over/Si,1.73,0.6966,0.5362,0.1604,0.2050,v3.6,Goles,Visitante,,1.73,+0.00,2026-04-29 01:44,,,exact
-2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Goles Boston River O/U 1.5,Over/Si,5.00,0.3376,0.1896,0.1479,0.6878,v3.6,Goles,Visitante,,5.00,+0.00,2026-04-29 01:44,,,exact
-2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",BTTS,Over/Si,2.00,0.5170,0.4638,0.0532,0.0339,v3.6,BTTS,Total,,2.10,-4.76,2026-04-29 01:44,,,exact
+2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Goles Boston River O/U 0.5,Over/Si,1.73,0.6966,0.5362,0.1604,0.2050,v3.6,Goles,Visitante,L,1.73,+0.00,2026-04-29 01:44,,,exact
+2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Goles Boston River O/U 1.5,Over/Si,5.00,0.3376,0.1896,0.1479,0.6878,v3.6,Goles,Visitante,L,5.00,+0.00,2026-04-29 01:44,,,exact
+2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",BTTS,Over/Si,2.00,0.5170,0.4638,0.0532,0.0339,v3.6,BTTS,Total,L,2.10,-4.76,2026-04-29 01:44,,,exact
 2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles Atletico Torque O/U 0.5,Over/Si,1.62,0.6976,0.5759,0.1217,0.1301,v3.6,Goles,Visitante,,,,,,,
 2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Goles Atletico Torque O/U 1.5,Over/Si,4.33,0.3337,0.2170,0.1167,0.4451,v3.6,Goles,Visitante,,,,,,,
 2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",BTTS,Over/Si,2.38,0.4893,0.3913,0.0980,0.1646,v3.6,BTTS,Total,,,,,,,

@@ -230,8 +230,8 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:54,1535270,Cruzeiro vs Boca Juniors,"('Copa Libertadores', True)",Corners Cruzeiro O/U 4.5,Over/Si,1.73,0.6928,0.5362,0.1566,0.1986,v3.2-fil,Corners,Local,W,1.73,+0.00,2026-04-29 00:14,,,exact
 2026-04-27 20:54,1535270,Cruzeiro vs Boca Juniors,"('Copa Libertadores', True)",Corners Cruzeiro O/U 5.5,Over/Si,2.20,0.5442,0.4241,0.1201,0.1972,v3.2-fil,Corners,Local,L,2.20,+0.00,2026-04-29 00:14,,,exact
 2026-04-27 20:54,1535270,Cruzeiro vs Boca Juniors,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,2.00,0.5677,0.4638,0.1039,0.1354,v3.2-fil,Tarjetas,Total,L,2.00,+0.00,2026-04-29 00:14,,,exact
-2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",Corners Deportes Tolima O/U 4.5,Over/Si,2.00,0.5736,0.4638,0.1098,0.1473,v3.2-fil,Corners,Local,,1.73,+15.61,2026-04-29 01:44,,,exact
-2026-04-27 20:55,1535279,Sporting Cristal vs Junior,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.73,0.6530,0.5362,0.1168,0.1297,v3.2-fil,Tarjetas,Total,,2.00,-13.50,2026-04-29 01:44,,,exact
+2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",Corners Deportes Tolima O/U 4.5,Over/Si,2.00,0.5736,0.4638,0.1098,0.1473,v3.2-fil,Corners,Local,L,1.73,+15.61,2026-04-29 01:44,,,exact
+2026-04-27 20:55,1535279,Sporting Cristal vs Junior,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.73,0.6530,0.5362,0.1168,0.1297,v3.2-fil,Tarjetas,Total,W,2.00,-13.50,2026-04-29 01:44,,,exact
 2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.67,0.7770,0.5228,0.2542,0.2944,v3.2-fil,Tarjetas,Total,,,,,,,
 2026-04-27 20:55,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Tarjetas tot. O/U 4.5,Under/No,1.98,0.6162,0.5063,0.1099,0.2171,v3.2-fil,Tarjetas,Total,,,,,,,
 2026-04-27 20:55,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Corners Always Ready O/U 2.5,Over/Si,2.00,0.7841,0.4638,0.3203,0.5683,v3.2-fil,Corners,Visitante,,,,,,,
@@ -250,7 +250,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:58,1535179,Millonarios vs Sao Paulo,"('Copa Sudamericana', True)",Goles Millonarios O/U 1.5,Over/Si,2.25,0.5775,0.4110,0.1665,0.2994,v3.2-fil,Goles,Local,L,2.10,+7.14,2026-04-29 00:14,,,exact
 2026-04-27 20:58,1535179,Millonarios vs Sao Paulo,"('Copa Sudamericana', True)",Corners tot. O/U 8.5,Over/Si,1.73,0.6214,0.5069,0.1145,0.0731,v3.2-fil,Corners,Total,W,1.83,-5.46,2026-04-29 00:14,,,exact
 2026-04-27 20:58,1535179,Millonarios vs Sao Paulo,"('Copa Sudamericana', True)",Corners tot. O/U 10.5,Over/Si,3.25,0.3981,0.2909,0.1072,0.2937,v3.2-fil,Corners,Total,W,3.25,+0.00,2026-04-29 00:14,,,exact
-2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Corners O'Higgins O/U 5.5,Over/Si,1.80,0.6218,0.5148,0.1070,0.1193,v3.2-fil,Corners,Local,,1.80,+0.00,2026-04-29 01:44,,,exact
+2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Corners O'Higgins O/U 5.5,Over/Si,1.80,0.6218,0.5148,0.1070,0.1193,v3.2-fil,Corners,Local,L,1.80,+0.00,2026-04-29 01:44,,,exact
 2026-04-27 20:58,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Corners Deportivo Riestra O/U 4.5,Over/Si,2.00,0.5843,0.4638,0.1205,0.1686,v3.2-fil,Corners,Local,,,,,,,
 2026-04-27 20:58,1535178,Juventud vs Puerto Cabello,"('Copa Sudamericana', True)",Corners Juventud O/U 4.5,Over/Si,1.83,0.6099,0.5000,0.1099,0.1160,v3.2-fil,Corners,Local,,,,,,,
 2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Corners Caracas FC O/U 3.5,Over/Si,2.00,0.6754,0.4638,0.2116,0.3509,v3.2-fil,Corners,Local,,,,,,,
