@@ -153,23 +153,23 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-26 22:03,1492049,Huracan vs Argentinos JRS,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.62,0.7300,0.5759,0.1541,0.1827,v3.6,Goles,Total,W,1.67,-2.99,2026-04-27 23:44,,,exact
 2026-04-26 22:03,1492049,Huracan vs Argentinos JRS,"('Liga Profesional', False)",BTTS,Over/Si,2.25,0.5452,0.4110,0.1342,0.2266,v3.6,BTTS,Total,W,2.38,-5.46,2026-04-27 23:44,,,exact
 2026-04-26 22:04,1378195,Cagliari vs Atalanta,"('Serie A', False)",BTTS,Under/No,1.95,0.5208,0.4800,0.0408,0.0156,v3.6,BTTS,Total,L,1.95,+0.00,2026-04-27 16:14,,,exact
-2026-04-26 22:04,1540841,Paris Saint Germain vs Bayern München,"('Champions League', True)",Goles Bayern München O/U 1.5,Under/No,1.83,0.6462,0.5000,0.1462,0.1825,v3.6,Goles,Visitante,,1.91,-4.19,2026-04-28 18:44,,,exact
-2026-04-26 22:04,1540841,Paris Saint Germain vs Bayern München,"('Champions League', True)",Goles Bayern München O/U 2.5,Under/No,1.25,0.8694,0.7500,0.1194,0.0867,v3.6,Goles,Visitante,,1.28,-2.34,2026-04-28 18:44,,,exact
-2026-04-26 22:04,1540841,Paris Saint Germain vs Bayern München,"('Champions League', True)",BTTS,Under/No,3.00,0.3805,0.3119,0.0685,0.1414,v3.6,BTTS,Total,,3.00,+0.00,2026-04-28 18:44,,,exact
-2026-04-26 22:04,1535275,Lanus vs LDU de Quito,"('Copa Libertadores', True)",Goles LDU de Quito O/U 0.5,Over/Si,1.73,0.6719,0.5362,0.1357,0.1623,v3.6,Goles,Visitante,,2.10,-17.62,2026-04-28 21:49,,,exact
-2026-04-26 22:04,1535275,Lanus vs LDU de Quito,"('Copa Libertadores', True)",BTTS,Over/Si,2.10,0.4887,0.4430,0.0457,0.0262,v3.6,BTTS,Total,,2.62,-19.85,2026-04-28 21:49,,,exact
-2026-04-26 22:05,1535183,San Lorenzo vs Santos,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Over/Si,2.60,0.5066,0.3627,0.1438,0.3171,v3.6,Goles,Total,,2.70,-3.70,2026-04-28 21:49,,,exact
-2026-04-26 22:05,1535183,San Lorenzo vs Santos,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.50,0.7503,0.6250,0.1253,0.1254,v3.6,Goles,Total,,1.50,+0.00,2026-04-28 21:49,,,exact
-2026-04-26 22:05,1535183,San Lorenzo vs Santos,"('Copa Sudamericana', True)",BTTS,Over/Si,2.20,0.5349,0.4241,0.1108,0.1767,v3.6,BTTS,Total,,2.10,+4.76,2026-04-28 21:49,,,exact
+2026-04-26 22:04,1540841,Paris Saint Germain vs Bayern München,"('Champions League', True)",Goles Bayern München O/U 1.5,Under/No,1.83,0.6462,0.5000,0.1462,0.1825,v3.6,Goles,Visitante,L,1.91,-4.19,2026-04-28 18:44,,,exact
+2026-04-26 22:04,1540841,Paris Saint Germain vs Bayern München,"('Champions League', True)",Goles Bayern München O/U 2.5,Under/No,1.25,0.8694,0.7500,0.1194,0.0867,v3.6,Goles,Visitante,L,1.28,-2.34,2026-04-28 18:44,,,exact
+2026-04-26 22:04,1540841,Paris Saint Germain vs Bayern München,"('Champions League', True)",BTTS,Under/No,3.00,0.3805,0.3119,0.0685,0.1414,v3.6,BTTS,Total,L,3.00,+0.00,2026-04-28 18:44,,,exact
+2026-04-26 22:04,1535275,Lanus vs LDU de Quito,"('Copa Libertadores', True)",Goles LDU de Quito O/U 0.5,Over/Si,1.73,0.6719,0.5362,0.1357,0.1623,v3.6,Goles,Visitante,L,2.10,-17.62,2026-04-28 21:49,,,exact
+2026-04-26 22:04,1535275,Lanus vs LDU de Quito,"('Copa Libertadores', True)",BTTS,Over/Si,2.10,0.4887,0.4430,0.0457,0.0262,v3.6,BTTS,Total,L,2.62,-19.85,2026-04-28 21:49,,,exact
+2026-04-26 22:05,1535183,San Lorenzo vs Santos,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Over/Si,2.60,0.5066,0.3627,0.1438,0.3171,v3.6,Goles,Total,L,2.70,-3.70,2026-04-28 21:49,,,exact
+2026-04-26 22:05,1535183,San Lorenzo vs Santos,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.50,0.7503,0.6250,0.1253,0.1254,v3.6,Goles,Total,W,1.50,+0.00,2026-04-28 21:49,,,exact
+2026-04-26 22:05,1535183,San Lorenzo vs Santos,"('Copa Sudamericana', True)",BTTS,Over/Si,2.20,0.5349,0.4241,0.1108,0.1767,v3.6,BTTS,Total,W,2.10,+4.76,2026-04-28 21:49,,,exact
 2026-04-27 20:52,1492049,Huracan vs Argentinos JRS,"('Liga Profesional', False)",Goles Argentinos JRS O/U 1.5,Over/Si,3.75,0.3525,0.2500,0.1025,0.3219,v3.6,Goles,Visitante,W,3.75,+0.00,2026-04-27 23:54,,,exact
 2026-04-27 20:52,1492049,Huracan vs Argentinos JRS,"('Liga Profesional', False)",Goles Argentinos JRS O/U 0.5,Over/Si,1.53,0.7098,0.6087,0.1011,0.0859,v3.6,Goles,Visitante,W,1.53,+0.00,2026-04-27 23:54,,,exact
 2026-04-27 20:53,1540871,SC Braga vs SC Freiburg,"('Europa League', True)",BTTS,Over/Si,1.91,0.5651,0.5000,0.0651,0.0793,v3.6,BTTS,Total,,,,,,,
 2026-04-27 20:53,1540880,Shakhtar Donetsk vs Crystal Palace,"('Conference League', True)",BTTS,Over/Si,1.83,0.5633,0.5000,0.0633,0.0309,v3.6,BTTS,Total,,,,,,,
-2026-04-27 20:54,1535281,UCV vs Rosario Central,"('Copa Libertadores', True)",Goles Rosario Central O/U 1.5,Under/No,1.83,0.6920,0.5000,0.1920,0.2663,v3.6,Goles,Visitante,,1.91,-4.19,2026-04-28 23:44,,,exact
-2026-04-27 20:54,1535281,UCV vs Rosario Central,"('Copa Libertadores', True)",Goles Rosario Central O/U 2.5,Under/No,1.25,0.8963,0.7500,0.1463,0.1204,v3.6,Goles,Visitante,,1.28,-2.34,2026-04-28 23:44,,,exact
-2026-04-27 20:54,1535281,UCV vs Rosario Central,"('Copa Libertadores', True)",Goles Rosario Central O/U 0.5,Under/No,4.50,0.3249,0.2077,0.1172,0.4622,v3.6,Goles,Visitante,,5.00,-10.00,2026-04-28 23:44,,,exact
-2026-04-27 20:54,1535281,UCV vs Rosario Central,"('Copa Libertadores', True)",BTTS,Over/Si,2.10,0.5220,0.4430,0.0790,0.0962,v3.6,BTTS,Total,,1.95,+7.69,2026-04-28 23:44,,,exact
-2026-04-27 20:54,1535270,Cruzeiro vs Boca Juniors,"('Copa Libertadores', True)",BTTS,Over/Si,2.00,0.5308,0.4667,0.0641,0.0616,v3.6,BTTS,Total,,2.00,+0.00,2026-04-29 00:14,,,exact
+2026-04-27 20:54,1535281,UCV vs Rosario Central,"('Copa Libertadores', True)",Goles Rosario Central O/U 1.5,Under/No,1.83,0.6920,0.5000,0.1920,0.2663,v3.6,Goles,Visitante,L,1.91,-4.19,2026-04-28 23:44,,,exact
+2026-04-27 20:54,1535281,UCV vs Rosario Central,"('Copa Libertadores', True)",Goles Rosario Central O/U 2.5,Under/No,1.25,0.8963,0.7500,0.1463,0.1204,v3.6,Goles,Visitante,L,1.28,-2.34,2026-04-28 23:44,,,exact
+2026-04-27 20:54,1535281,UCV vs Rosario Central,"('Copa Libertadores', True)",Goles Rosario Central O/U 0.5,Under/No,4.50,0.3249,0.2077,0.1172,0.4622,v3.6,Goles,Visitante,L,5.00,-10.00,2026-04-28 23:44,,,exact
+2026-04-27 20:54,1535281,UCV vs Rosario Central,"('Copa Libertadores', True)",BTTS,Over/Si,2.10,0.5220,0.4430,0.0790,0.0962,v3.6,BTTS,Total,L,1.95,+7.69,2026-04-28 23:44,,,exact
+2026-04-27 20:54,1535270,Cruzeiro vs Boca Juniors,"('Copa Libertadores', True)",BTTS,Over/Si,2.00,0.5308,0.4667,0.0641,0.0616,v3.6,BTTS,Total,L,2.00,+0.00,2026-04-29 00:14,,,exact
 2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",Goles Coquimbo Unido O/U 0.5,Over/Si,1.62,0.6977,0.5759,0.1218,0.1303,v3.6,Goles,Visitante,,1.83,-11.48,2026-04-29 01:44,,,exact
 2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",Goles Coquimbo Unido O/U 1.5,Over/Si,4.33,0.3380,0.2170,0.1210,0.4635,v3.6,Goles,Visitante,,6.00,-27.83,2026-04-29 01:44,,,exact
 2026-04-27 20:54,1535271,Deportes Tolima vs Coquimbo Unido,"('Copa Libertadores', True)",BTTS,Over/Si,2.10,0.5250,0.4430,0.0820,0.1025,v3.6,BTTS,Total,,2.25,-6.67,2026-04-29 01:44,,,exact
@@ -186,10 +186,10 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:56,1535274,Independ. Rivadavia vs Deportivo La Guaira,"('Copa Libertadores', True)",Goles Deportivo La Guaira O/U 0.5,Over/Si,1.91,0.6977,0.4852,0.2125,0.3326,v3.6,Goles,Visitante,,,,,,,
 2026-04-27 20:56,1535274,Independ. Rivadavia vs Deportivo La Guaira,"('Copa Libertadores', True)",Goles Deportivo La Guaira O/U 1.5,Over/Si,6.00,0.3367,0.1573,0.1794,1.0204,v3.6,Goles,Visitante,,,,,,,
 2026-04-27 20:56,1535274,Independ. Rivadavia vs Deportivo La Guaira,"('Copa Libertadores', True)",BTTS,Over/Si,2.25,0.5644,0.4110,0.1534,0.2698,v3.6,BTTS,Total,,,,,,,
-2026-04-27 20:57,1535171,Barracas Central vs A. Italiano,"('Copa Sudamericana', True)",Goles A. Italiano O/U 0.5,Over/Si,1.67,0.6969,0.5570,0.1399,0.1638,v3.6,Goles,Visitante,,1.73,-3.47,2026-04-28 23:44,,,exact
-2026-04-27 20:57,1535171,Barracas Central vs A. Italiano,"('Copa Sudamericana', True)",Goles A. Italiano O/U 1.5,Over/Si,4.33,0.3364,0.2170,0.1194,0.4568,v3.6,Goles,Visitante,,5.00,-13.40,2026-04-28 23:44,,,exact
-2026-04-27 20:57,1535171,Barracas Central vs A. Italiano,"('Copa Sudamericana', True)",BTTS,Over/Si,2.10,0.5132,0.4430,0.0702,0.0777,v3.6,BTTS,Total,,2.25,-6.67,2026-04-28 23:44,,,exact
-2026-04-27 20:58,1535179,Millonarios vs Sao Paulo,"('Copa Sudamericana', True)",BTTS,Over/Si,2.00,0.5317,0.4638,0.0679,0.0634,v3.6,BTTS,Total,,2.00,+0.00,2026-04-29 00:14,,,exact
+2026-04-27 20:57,1535171,Barracas Central vs A. Italiano,"('Copa Sudamericana', True)",Goles A. Italiano O/U 0.5,Over/Si,1.67,0.6969,0.5570,0.1399,0.1638,v3.6,Goles,Visitante,W,1.73,-3.47,2026-04-28 23:44,,,exact
+2026-04-27 20:57,1535171,Barracas Central vs A. Italiano,"('Copa Sudamericana', True)",Goles A. Italiano O/U 1.5,Over/Si,4.33,0.3364,0.2170,0.1194,0.4568,v3.6,Goles,Visitante,L,5.00,-13.40,2026-04-28 23:44,,,exact
+2026-04-27 20:57,1535171,Barracas Central vs A. Italiano,"('Copa Sudamericana', True)",BTTS,Over/Si,2.10,0.5132,0.4430,0.0702,0.0777,v3.6,BTTS,Total,W,2.25,-6.67,2026-04-28 23:44,,,exact
+2026-04-27 20:58,1535179,Millonarios vs Sao Paulo,"('Copa Sudamericana', True)",BTTS,Over/Si,2.00,0.5317,0.4638,0.0679,0.0634,v3.6,BTTS,Total,L,2.00,+0.00,2026-04-29 00:14,,,exact
 2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Goles Boston River O/U 0.5,Over/Si,1.73,0.6966,0.5362,0.1604,0.2050,v3.6,Goles,Visitante,,1.73,+0.00,2026-04-29 01:44,,,exact
 2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",Goles Boston River O/U 1.5,Over/Si,5.00,0.3376,0.1896,0.1479,0.6878,v3.6,Goles,Visitante,,5.00,+0.00,2026-04-29 01:44,,,exact
 2026-04-27 20:58,1535180,O'Higgins vs Boston River,"('Copa Sudamericana', True)",BTTS,Over/Si,2.00,0.5170,0.4638,0.0532,0.0339,v3.6,BTTS,Total,,2.10,-4.76,2026-04-29 01:44,,,exact
@@ -208,11 +208,13 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 21:00,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",BTTS,Over/Si,2.00,0.5318,0.4638,0.0680,0.0636,v3.6,BTTS,Total,,,,,,,
 2026-04-27 21:00,1535174,Carabobo FC vs Blooming,"('Copa Sudamericana', True)",Goles Blooming O/U 0.5,Over/Si,1.62,0.6977,0.5759,0.1218,0.1303,v3.6,Goles,Visitante,,,,,,,
 2026-04-27 21:00,1535174,Carabobo FC vs Blooming,"('Copa Sudamericana', True)",Goles Blooming O/U 1.5,Over/Si,4.00,0.3367,0.2337,0.1030,0.3468,v3.6,Goles,Visitante,,,,,,,
-2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Under/No,2.00,0.7307,0.4638,0.2669,0.4613,v3.6,Goles,Total,,2.00,+0.00,2026-04-28 21:49,,,exact
-2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Under/No,3.50,0.5137,0.2708,0.2429,0.7981,v3.6,Goles,Total,,3.50,+0.00,2026-04-28 21:49,,,exact
-2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles tot. O/U 4.5,Under/No,1.44,0.8735,0.6453,0.2282,0.2579,v3.6,Goles,Total,,1.44,+0.00,2026-04-28 21:49,,,exact
-2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Under/No,8.00,0.2612,0.1189,0.1422,1.0894,v3.6,Goles,Total,,8.00,+0.00,2026-04-28 21:49,,,exact
-2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles Independiente Petrolero O/U 0.5,Over/Si,2.25,0.6969,0.4110,0.2859,0.5681,v3.6,Goles,Visitante,,2.25,+0.00,2026-04-28 21:49,,,exact
-2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles Independiente Petrolero O/U 1.5,Over/Si,9.00,0.3358,0.1063,0.2295,2.0218,v3.6,Goles,Visitante,,9.00,+0.00,2026-04-28 21:49,,,exact
-2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",BTTS,Over/Si,2.38,0.5265,0.3913,0.1352,0.2530,v3.6,BTTS,Total,,2.50,-4.80,2026-04-28 21:49,,,exact
-2026-04-28 12:10,1535182,Deportivo Recoleta vs Deportivo Cuenca,"('Copa Sudamericana', True)",BTTS,Over/Si,1.91,0.5365,0.4852,0.0513,0.0247,v3.6,BTTS,Total,,1.91,+0.00,2026-04-29 00:14,,,exact
+2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Under/No,2.00,0.7307,0.4638,0.2669,0.4613,v3.6,Goles,Total,W,2.00,+0.00,2026-04-28 21:49,,,exact
+2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Under/No,3.50,0.5137,0.2708,0.2429,0.7981,v3.6,Goles,Total,L,3.50,+0.00,2026-04-28 21:49,,,exact
+2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles tot. O/U 4.5,Under/No,1.44,0.8735,0.6453,0.2282,0.2579,v3.6,Goles,Total,W,1.44,+0.00,2026-04-28 21:49,,,exact
+2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Under/No,8.00,0.2612,0.1189,0.1422,1.0894,v3.6,Goles,Total,L,8.00,+0.00,2026-04-28 21:49,,,exact
+2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles Independiente Petrolero O/U 0.5,Over/Si,2.25,0.6969,0.4110,0.2859,0.5681,v3.6,Goles,Visitante,L,2.25,+0.00,2026-04-28 21:49,,,exact
+2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",Goles Independiente Petrolero O/U 1.5,Over/Si,9.00,0.3358,0.1063,0.2295,2.0218,v3.6,Goles,Visitante,L,9.00,+0.00,2026-04-28 21:49,,,exact
+2026-04-28 12:09,1535172,Botafogo vs Independiente Petrolero,"('Copa Sudamericana', True)",BTTS,Over/Si,2.38,0.5265,0.3913,0.1352,0.2530,v3.6,BTTS,Total,L,2.50,-4.80,2026-04-28 21:49,,,exact
+2026-04-28 12:10,1535182,Deportivo Recoleta vs Deportivo Cuenca,"('Copa Sudamericana', True)",BTTS,Over/Si,1.91,0.5365,0.4852,0.0513,0.0247,v3.6,BTTS,Total,L,1.91,+0.00,2026-04-29 00:14,,,exact
+2026-04-28 23:49,1540871,SC Braga vs SC Freiburg,"('Europa League', True)",Goles tot. O/U 2.5,Over/Si,2.20,0.5575,0.4315,0.1260,0.2265,v3.6,Goles,Total,,,,,,,
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles Atletico-MG O/U 0.5,Over/Si,1.57,0.7058,0.5890,0.1168,0.1082,v3.6,Goles,Visitante,,,,,,,
