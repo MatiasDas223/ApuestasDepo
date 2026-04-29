@@ -1,19 +1,361 @@
 {
-  "fetched_at": "2026-04-29 16:01:40",
+  "fetched_at": "2026-04-29 18:33:52",
   "data": {
     "fixture_id": 1535278,
-    "home": null,
-    "away": null,
-    "confirmed": false
+    "home": {
+      "team_id": 1064,
+      "team_name": "Platense",
+      "formation": "4-2-3-1",
+      "coach_id": 25911,
+      "coach_name": "Walter Zunino",
+      "startXI": [
+        {
+          "id": 6045,
+          "name": "Matías Borgogno",
+          "number": 20,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 129905,
+          "name": "Agustín Lagos",
+          "number": 4,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 459866,
+          "name": "Mateo Mendia",
+          "number": 34,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 10377,
+          "name": "Víctor Cuesta",
+          "number": 31,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 353488,
+          "name": "Tomás Ariel Silva",
+          "number": 3,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 355274,
+          "name": "Pablo Ferreira",
+          "number": 26,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 6400,
+          "name": "Ivan Gómez",
+          "number": 5,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 6059,
+          "name": "Guido Mainero",
+          "number": 7,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 58544,
+          "name": "Nicolás Retamar",
+          "number": 43,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 322307,
+          "name": "Franco Zapiola",
+          "number": 10,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 463850,
+          "name": "Tomas Nasif",
+          "number": 9,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 129888,
+          "name": "Nicolás Sumavil",
+          "number": 22,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 170010,
+          "name": "Juan Ignacio Saborido",
+          "number": 25,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 366554,
+          "name": "Eugenio Raggio",
+          "number": 6,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 524454,
+          "name": "Celías Ingenthron",
+          "number": 38,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 196750,
+          "name": "Juan Gauto",
+          "number": 33,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 51694,
+          "name": "Martín Barrios",
+          "number": 24,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 475729,
+          "name": "Felipe Bussio",
+          "number": 17,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 5947,
+          "name": "Bautista Merlini",
+          "number": 18,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 459877,
+          "name": "Santiago Dalmasso",
+          "number": 27,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 451011,
+          "name": "Manuel Tucker",
+          "number": 28,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 6653,
+          "name": "Leonardo Heredia",
+          "number": 23,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 6591,
+          "name": "Gonzalo Lencina",
+          "number": 99,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 1139,
+      "team_name": "Santa Fe",
+      "formation": "3-4-2-1",
+      "coach_id": 25748,
+      "coach_name": "Jose Lopez Fierro",
+      "startXI": [
+        {
+          "id": 13496,
+          "name": "Andrés Mosquera",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 13287,
+          "name": "Christian Mafla",
+          "number": 32,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 2486,
+          "name": "Helibelton Palacios",
+          "number": 13,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 6639,
+          "name": "Emanuel Olivera",
+          "number": 18,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 13258,
+          "name": "Victor Moreno",
+          "number": 3,
+          "pos": "M",
+          "grid": "3:4"
+        },
+        {
+          "id": 46720,
+          "name": "Daniel Torres",
+          "number": 16,
+          "pos": "M",
+          "grid": "3:3"
+        },
+        {
+          "id": 35751,
+          "name": "Omar Fernández",
+          "number": 8,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 356522,
+          "name": "Kilian Toscano",
+          "number": 6,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 281743,
+          "name": "Franco Fagúndez",
+          "number": 9,
+          "pos": "F",
+          "grid": "4:2"
+        },
+        {
+          "id": 49892,
+          "name": "Hugo Rodallega",
+          "number": 11,
+          "pos": "F",
+          "grid": "4:1"
+        },
+        {
+          "id": 323288,
+          "name": "Luis Palacios",
+          "number": 14,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 538305,
+          "name": "Weibmar Asprilla",
+          "number": 12,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 35902,
+          "name": "Jeison Angulo",
+          "number": 24,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 306718,
+          "name": "Yeicar Perlaza",
+          "number": 27,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 10420,
+          "name": "Juan Quintero",
+          "number": 2,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 59617,
+          "name": "Jhon Meléndez",
+          "number": 5,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 59416,
+          "name": "Ivan Scarpeta",
+          "number": 15,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 608593,
+          "name": "Jhojan Torres",
+          "number": 7,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 538250,
+          "name": "Kevin Cortes",
+          "number": 30,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 13485,
+          "name": "Alexis Zapata",
+          "number": 10,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 538244,
+          "name": "Martin Palacios",
+          "number": 40,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 35667,
+          "name": "Nahuel Bustos",
+          "number": 19,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 13755,
+          "name": "Jader Obrian",
+          "number": 77,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
   },
   "resumen": {
     "fixture_id": 1535278,
-    "confirmed": false,
-    "home_xi_size": 0,
-    "away_xi_size": 0,
-    "home_formation": null,
-    "away_formation": null,
-    "home_coach": null,
-    "away_coach": null
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "4-2-3-1",
+    "away_formation": "3-4-2-1",
+    "home_coach": "Walter Zunino",
+    "away_coach": "Jose Lopez Fierro"
   }
 }

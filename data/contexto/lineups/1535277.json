@@ -1,19 +1,361 @@
 {
-  "fetched_at": "2026-04-29 16:01:55",
+  "fetched_at": "2026-04-29 18:34:08",
   "data": {
     "fixture_id": 1535277,
-    "home": null,
-    "away": null,
-    "confirmed": false
+    "home": {
+      "team_id": 7848,
+      "team_name": "Mirassol",
+      "formation": "4-2-3-1",
+      "coach_id": 14040,
+      "coach_name": "Guanaes Rafael",
+      "startXI": [
+        {
+          "id": 10226,
+          "name": "Walter",
+          "number": 22,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 156191,
+          "name": "Igor Formiga",
+          "number": 32,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 115525,
+          "name": "João Victor",
+          "number": 34,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 80654,
+          "name": "Willian Machado",
+          "number": 3,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 9946,
+          "name": "Reinaldo",
+          "number": 6,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 9613,
+          "name": "Neto Moura",
+          "number": 25,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 133183,
+          "name": "José Aldo",
+          "number": 21,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 10025,
+          "name": "Shaylon",
+          "number": 7,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 44348,
+          "name": "Eduardo",
+          "number": 33,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 9429,
+          "name": "Alesson",
+          "number": 77,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 41430,
+          "name": "André Luis",
+          "number": 99,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 9337,
+          "name": "Alex Muralha",
+          "number": 23,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 9907,
+          "name": "Victor Luis",
+          "number": 12,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 10488,
+          "name": "Rodrigues",
+          "number": 97,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 9771,
+          "name": "Daniel Borges",
+          "number": 20,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 10030,
+          "name": "Yuri",
+          "number": 5,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 276452,
+          "name": "Denilson",
+          "number": 8,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 65837,
+          "name": "Lucas Mugni",
+          "number": 26,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 80474,
+          "name": "Chico",
+          "number": 10,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 95392,
+          "name": "Antonio Galeano",
+          "number": 27,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 9935,
+          "name": "Carlos Eduardo",
+          "number": 96,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 9371,
+          "name": "Nathan Fogaça",
+          "number": 9,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 54238,
+          "name": "Edson Carioca",
+          "number": 95,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 3700,
+      "team_name": "Always Ready",
+      "formation": "4-1-4-1",
+      "coach_id": 27462,
+      "coach_name": "Julio Baldivieso",
+      "startXI": [
+        {
+          "id": 52561,
+          "name": "Alain Baroja",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 66000,
+          "name": "Richet Gomez",
+          "number": 22,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 354347,
+          "name": "Héctor Cuellar",
+          "number": 13,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 13654,
+          "name": "Alex Rambal",
+          "number": 21,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 65831,
+          "name": "Marcelo Suárez",
+          "number": 5,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 307065,
+          "name": "Rai Lima",
+          "number": 6,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 13145,
+          "name": "Yhormar Hurtado",
+          "number": 27,
+          "pos": "M",
+          "grid": "4:4"
+        },
+        {
+          "id": 65789,
+          "name": "Fernando Saucedo",
+          "number": 20,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 513550,
+          "name": "Jesús Maraude",
+          "number": 10,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 12380,
+          "name": "Joel Amoroso",
+          "number": 7,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 35731,
+          "name": "Enrique Triverio",
+          "number": 9,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 404942,
+          "name": "Enzo Rodriguez",
+          "number": 99,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 379097,
+          "name": "Santiago Paz",
+          "number": 12,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 409879,
+          "name": "Damian Medina",
+          "number": 14,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 503619,
+          "name": "Nicolas Villarroel",
+          "number": 4,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 446790,
+          "name": "Dieguito Rodriguez",
+          "number": 15,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 372201,
+          "name": "Carlitos Rodriguez",
+          "number": 18,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 65645,
+          "name": "Dario Torrico",
+          "number": 19,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 653420,
+          "name": "Juan Pablo Gómez",
+          "number": 8,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 404644,
+          "name": "Fernando Nava",
+          "number": 17,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 452338,
+          "name": "Felipe Pasadore",
+          "number": 16,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 310022,
+          "name": "Juan Godoy",
+          "number": 23,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 516772,
+          "name": "Máximo Mamani",
+          "number": 26,
+          "pos": "M",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
   },
   "resumen": {
     "fixture_id": 1535277,
-    "confirmed": false,
-    "home_xi_size": 0,
-    "away_xi_size": 0,
-    "home_formation": null,
-    "away_formation": null,
-    "home_coach": null,
-    "away_coach": null
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "4-2-3-1",
+    "away_formation": "4-1-4-1",
+    "home_coach": "Guanaes Rafael",
+    "away_coach": "Julio Baldivieso"
   }
 }
