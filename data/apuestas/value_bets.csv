@@ -4297,22 +4297,22 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:52,1492049,Huracan vs Argentinos JRS,"('Liga Profesional', False)",Tiros tot. O/U 20.5,Under/No,1.91,0.6711,0.4853,0.1858,0.2811,v3.2,Tiros,Total,W,1.91,+0.05,2026-04-27 23:54,,,exact
 2026-04-27 20:52,1492049,Huracan vs Argentinos JRS,"('Liga Profesional', False)",Arco tot. O/U 6.5,Under/No,2.10,0.5927,0.4424,0.1504,0.2447,v3.2,Arco,Total,W,2.10,+0.00,2026-04-27 23:54,,,exact
 2026-04-27 20:52,1492049,Huracan vs Argentinos JRS,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.67,0.6008,0.5570,0.0438,0.0033,v3.2,Goles,Total,W,1.67,+0.00,2026-04-27 23:54,,,exact
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles Atletico Madrid O/U 1.5,Over/Si,2.75,0.5450,0.3373,0.2076,0.4987,v3.2,Goles,Local,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",1X2 -> Atletico Madrid gana,,2.88,0.5237,0.3325,0.1912,0.5083,v3.2,1X2,Total,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles Atletico Madrid O/U 0.5,Over/Si,1.40,0.8390,0.6627,0.1763,0.1746,v3.2,Goles,Local,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles Atletico Madrid O/U 2.5,Over/Si,8.00,0.2738,0.1189,0.1548,1.1902,v3.2,Goles,Local,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles tot. O/U 2.5,Over/Si,2.20,0.5769,0.4315,0.1454,0.2692,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles tot. O/U 3.5,Over/Si,4.33,0.3520,0.2198,0.1321,0.5240,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",DC -> Atletico Madrid o Empate (1X),,1.50,0.7540,0.6300,0.1239,0.1310,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles tot. O/U 1.5,Over/Si,1.40,0.8035,0.6818,0.1217,0.1249,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Tiros Atletico Madrid O/U 11.5,Under/No,1.80,0.6326,0.5147,0.1179,0.1386,v3.2,Tiros,Local,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",BTTS,Over/Si,1.95,0.5822,0.4800,0.1022,0.1353,v3.2,BTTS,Total,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Tiros tot. O/U 23.5,Under/No,1.80,0.6048,0.5147,0.0901,0.0887,v3.2,Tiros,Total,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles tot. O/U 4.5,Over/Si,9.00,0.1840,0.1063,0.0778,0.6562,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",DC -> Atletico Madrid o Arsenal (12),,1.36,0.7697,0.6949,0.0748,0.0468,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles tot. O/U 0.5,Over/Si,1.08,0.9504,0.8811,0.0694,0.0265,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Corners Arsenal O/U 4.5,Over/Si,1.73,0.5993,0.5362,0.0631,0.0368,v3.2,Corners,Visitante,,,,,,,
-2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Corners Atletico Madrid O/U 4.5,Under/No,1.83,0.5521,0.5000,0.0521,0.0104,v3.2,Corners,Local,,,,,,,
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles Atletico Madrid O/U 1.5,Over/Si,2.75,0.5450,0.3373,0.2076,0.4987,v3.2,Goles,Local,,3.40,-19.12,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",1X2 -> Atletico Madrid gana,,2.88,0.5237,0.3325,0.1912,0.5083,v3.2,1X2,Total,,3.20,-10.00,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles Atletico Madrid O/U 0.5,Over/Si,1.40,0.8390,0.6627,0.1763,0.1746,v3.2,Goles,Local,,1.44,-2.78,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles Atletico Madrid O/U 2.5,Over/Si,8.00,0.2738,0.1189,0.1548,1.1902,v3.2,Goles,Local,,10.00,-20.00,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles tot. O/U 2.5,Over/Si,2.20,0.5769,0.4315,0.1454,0.2692,v3.2,Goles,Total,,2.20,+0.00,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles tot. O/U 3.5,Over/Si,4.33,0.3520,0.2198,0.1321,0.5240,v3.2,Goles,Total,,4.00,+8.25,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",DC -> Atletico Madrid o Empate (1X),,1.50,0.7540,0.6300,0.1239,0.1310,v3.2,Doble Oportunidad,Total,,1.57,-4.46,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles tot. O/U 1.5,Over/Si,1.40,0.8035,0.6818,0.1217,0.1249,v3.2,Goles,Total,,1.40,+0.00,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Tiros Atletico Madrid O/U 11.5,Under/No,1.80,0.6326,0.5147,0.1179,0.1386,v3.2,Tiros,Local,,2.00,-10.00,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",BTTS,Over/Si,1.95,0.5822,0.4800,0.1022,0.1353,v3.2,BTTS,Total,,1.95,+0.00,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Tiros tot. O/U 23.5,Under/No,1.80,0.6048,0.5147,0.0901,0.0887,v3.2,Tiros,Total,,1.83,-1.80,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles tot. O/U 4.5,Over/Si,9.00,0.1840,0.1063,0.0778,0.6562,v3.2,Goles,Total,,8.00,+12.50,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",DC -> Atletico Madrid o Arsenal (12),,1.36,0.7697,0.6949,0.0748,0.0468,v3.2,Doble Oportunidad,Total,,1.33,+2.26,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Goles tot. O/U 0.5,Over/Si,1.08,0.9504,0.8811,0.0694,0.0265,v3.2,Goles,Total,,1.08,+0.00,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Corners Arsenal O/U 4.5,Over/Si,1.73,0.5993,0.5362,0.0631,0.0368,v3.2,Corners,Visitante,,1.67,+3.59,2026-04-29 18:40,,,exact
+2026-04-27 20:52,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Corners Atletico Madrid O/U 4.5,Under/No,1.83,0.5521,0.5000,0.0521,0.0104,v3.2,Corners,Local,,1.83,+0.00,2026-04-29 18:40,,,exact
 2026-04-27 20:52,1540872,Nottingham Forest vs Aston Villa,"('Europa League', True)",Goles Aston Villa O/U 0.5,Under/No,3.25,0.4899,0.2904,0.1995,0.5923,v3.2,Goles,Visitante,,,,,,,
 2026-04-27 20:52,1540872,Nottingham Forest vs Aston Villa,"('Europa League', True)",Goles Aston Villa O/U 1.5,Under/No,1.44,0.8408,0.6453,0.1954,0.2107,v3.2,Goles,Visitante,,,,,,,
 2026-04-27 20:52,1540872,Nottingham Forest vs Aston Villa,"('Europa League', True)",1X2 -> Nottingham Forest gana,,2.50,0.5379,0.3740,0.1640,0.3448,v3.2,1X2,Total,,,,,,,
@@ -4787,8 +4787,8 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 12:10,1535182,Deportivo Recoleta vs Deportivo Cuenca,"('Copa Sudamericana', True)",Goles tot. O/U 0.5,Over/Si,1.10,0.9248,0.8642,0.0606,0.0173,v3.2,Goles,Total,L,1.10,+0.00,2026-04-29 00:14,,,exact
 2026-04-28 12:10,1535182,Deportivo Recoleta vs Deportivo Cuenca,"('Copa Sudamericana', True)",DC -> Deportivo Recoleta o Deportivo Cuenca (12),,1.36,0.7453,0.6881,0.0572,0.0136,v3.2,Doble Oportunidad,Total,L,1.40,-2.86,2026-04-29 00:14,,,exact
 2026-04-28 12:10,1535182,Deportivo Recoleta vs Deportivo Cuenca,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Over/Si,4.33,0.2586,0.2170,0.0416,0.1198,v3.2,Goles,Total,L,4.33,+0.00,2026-04-29 00:14,,,exact
-2026-04-28 23:49,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Tarjetas tot. O/U 4.5,Under/No,1.78,0.7066,0.5316,0.1750,0.2577,v3.2,Tarjetas,Total,,,,,,,
-2026-04-28 23:49,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Tarjetas tot. O/U 3.5,Under/No,2.10,0.5161,0.4430,0.0732,0.0839,v3.2,Tarjetas,Total,,,,,,,
+2026-04-28 23:49,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Tarjetas tot. O/U 4.5,Under/No,1.78,0.7066,0.5316,0.1750,0.2577,v3.2,Tarjetas,Total,,1.78,+0.00,2026-04-29 18:40,,,exact
+2026-04-28 23:49,1540842,Atletico Madrid vs Arsenal,"('Champions League', True)",Tarjetas tot. O/U 3.5,Under/No,2.10,0.5161,0.4430,0.0732,0.0839,v3.2,Tarjetas,Total,,1.88,+11.70,2026-04-29 18:40,,,exact
 2026-04-28 23:49,1540880,Shakhtar Donetsk vs Crystal Palace,"('Conference League', True)",Corners Shakhtar Donetsk O/U 3.5,Over/Si,1.73,0.7365,0.5362,0.2003,0.2742,v3.2,Corners,Local,,,,,,,
 2026-04-28 23:49,1540880,Shakhtar Donetsk vs Crystal Palace,"('Conference League', True)",Corners Crystal Palace O/U 4.5,Under/No,2.00,0.6103,0.4638,0.1465,0.2207,v3.2,Corners,Visitante,,,,,,,
 2026-04-28 23:50,1540879,Rayo Vallecano vs Strasbourg,"('Conference League', True)",Corners Rayo Vallecano O/U 4.5,Over/Si,1.67,0.7658,0.5570,0.2088,0.2790,v3.2,Corners,Local,,,,,,,
