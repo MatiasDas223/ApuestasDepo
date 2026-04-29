@@ -7,7 +7,7 @@ REM Pensado para schedule cada 4h en el servidor.
 cd /d "%~dp0\.."
 
 echo ==== %DATE% %TIME% PIPELINE START ==== >> "data\pipeline.log"
-python "scripts\pipeline.py" >> "data\pipeline.log" 2>&1
+python "scripts\pipeline.py" --horas 48 >> "data\pipeline.log" 2>&1
 echo ==== %DATE% %TIME% PIPELINE END (exit %ERRORLEVEL%) ==== >> "data\pipeline.log"
 
 call "%~dp0auto_commit_push.bat" "auto: pipeline run"

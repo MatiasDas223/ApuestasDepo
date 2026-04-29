@@ -1,0 +1,137 @@
+{
+  "fetched_at": "2026-04-29 18:28:10",
+  "data": {
+    "home_team_id": 547,
+    "away_team_id": 798,
+    "home": [
+      {
+        "player_id": 47153,
+        "player_name": "Juan Carlos",
+        "photo": "https://media.api-sports.io/football/players/47153.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 547,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 47547,
+        "player_name": "A. Moreno",
+        "photo": "https://media.api-sports.io/football/players/47547.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 547,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 47520,
+        "player_name": "Portu",
+        "photo": "https://media.api-sports.io/football/players/47520.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 547,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 155,
+        "player_name": "A. Ruiz",
+        "photo": "https://media.api-sports.io/football/players/155.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 547,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 161670,
+        "player_name": "V. Vanat",
+        "photo": "https://media.api-sports.io/football/players/161670.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 547,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 127,
+        "player_name": "M. ter Stegen",
+        "photo": "https://media.api-sports.io/football/players/127.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 547,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 547,
+        "player_name": "D. van de Beek",
+        "photo": "https://media.api-sports.io/football/players/547.png",
+        "type": "Missing Fixture",
+        "reason": "Achilles Tendon Injury",
+        "team_id": 547,
+        "fixture_id": 1391154
+      }
+    ],
+    "away": [
+      {
+        "player_id": 152955,
+        "player_name": "L. Bergstrom",
+        "photo": "https://media.api-sports.io/football/players/152955.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 798,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 313059,
+        "player_name": "M. Joseph",
+        "photo": "https://media.api-sports.io/football/players/313059.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 798,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 30924,
+        "player_name": "M. Kumbulla",
+        "photo": "https://media.api-sports.io/football/players/30924.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 798,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 140831,
+        "player_name": "Z. Luvumbo",
+        "photo": "https://media.api-sports.io/football/players/140831.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 798,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 46733,
+        "player_name": "A. Raillo",
+        "photo": "https://media.api-sports.io/football/players/46733.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 798,
+        "fixture_id": 1391154
+      },
+      {
+        "player_id": 411424,
+        "player_name": "J. Salas",
+        "photo": "https://media.api-sports.io/football/players/411424.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 798,
+        "fixture_id": 1391154
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1391154,
+    "home_total": 7,
+    "home_missing": 7,
+    "home_questionable": 0,
+    "away_total": 6,
+    "away_missing": 6,
+    "away_questionable": 0
+  }
+}
