@@ -1,0 +1,74 @@
+{
+  "fetched_at": "2026-04-29 18:41:10",
+  "data": {
+    "home_team_id": 3573,
+    "away_team_id": 549,
+    "home": [
+      {
+        "player_id": 312948,
+        "player_name": "A. Ablak",
+        "photo": "https://media.api-sports.io/football/players/312948.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 3573,
+        "fixture_id": 1394714
+      },
+      {
+        "player_id": 21008,
+        "player_name": "S. M'Bakata",
+        "photo": "https://media.api-sports.io/football/players/21008.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 3573,
+        "fixture_id": 1394714
+      },
+      {
+        "player_id": 451,
+        "player_name": "B. Ndiaye",
+        "photo": "https://media.api-sports.io/football/players/451.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 3573,
+        "fixture_id": 1394714
+      }
+    ],
+    "away": [
+      {
+        "player_id": 1998,
+        "player_name": "K. Kayra Yilmaz",
+        "photo": "https://media.api-sports.io/football/players/1998.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 549,
+        "fixture_id": 1394714
+      },
+      {
+        "player_id": 1987,
+        "player_name": "R. Yilmaz",
+        "photo": "https://media.api-sports.io/football/players/1987.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 549,
+        "fixture_id": 1394714
+      },
+      {
+        "player_id": 1479,
+        "player_name": "T. Djalo",
+        "photo": "https://media.api-sports.io/football/players/1479.png",
+        "type": "Questionable",
+        "reason": "Coach's decision",
+        "team_id": 549,
+        "fixture_id": 1394714
+      }
+    ]
+  },
+  "resumen": {
+    "fixture_id": 1394714,
+    "home_total": 3,
+    "home_missing": 2,
+    "home_questionable": 1,
+    "away_total": 3,
+    "away_missing": 2,
+    "away_questionable": 1
+  }
+}

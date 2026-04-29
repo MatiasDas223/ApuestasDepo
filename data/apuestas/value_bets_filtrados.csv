@@ -297,3 +297,4 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners Penarol O/U 3.5,Over/Si,1.80,0.7272,0.5148,0.2124,0.3090,v3.2-fil,Corners,Visitante,,,,,,,
 2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners Cusco O/U 2.5,Over/Si,1.83,0.6155,0.5000,0.1155,0.1263,v3.2-fil,Corners,Visitante,,,,,,,
 2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,2.10,0.6079,0.4430,0.1650,0.2767,v3.2-fil,Tarjetas,Total,,,,,,,
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Rizespor O/U 1.5,Over/Si,1.91,0.6387,0.4852,0.1535,0.2199,v3.2-fil,Goles,Local,,,,,,,
