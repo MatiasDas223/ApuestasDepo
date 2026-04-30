@@ -292,11 +292,11 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Carrarese O/U 1.5,Over/Si,2.00,0.6615,0.4638,0.1977,0.3230,v3.2-fil,Goles,Local,,,,,,,
 2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners Carrarese O/U 4.5,Over/Si,1.80,0.6609,0.5148,0.1461,0.1896,v3.2-fil,Corners,Local,,,,,,,
 2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners Mantova O/U 3.5,Over/Si,1.73,0.7496,0.5362,0.2134,0.2968,v3.2-fil,Corners,Local,,,,,,,
-2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tarjetas tot. O/U 6.5,Under/No,1.73,0.8286,0.5362,0.2924,0.4334,v3.2-fil,Tarjetas,Total,,,,,,,
-2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,2.20,0.6998,0.4241,0.2757,0.5396,v3.2-fil,Tarjetas,Total,,,,,,,
-2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners Penarol O/U 3.5,Over/Si,1.80,0.7272,0.5148,0.2124,0.3090,v3.2-fil,Corners,Visitante,,,,,,,
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tarjetas tot. O/U 6.5,Under/No,1.73,0.8286,0.5362,0.2924,0.4334,v3.2-fil,Tarjetas,Total,,1.73,+0.00,2026-04-30 23:16,,,exact
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,2.20,0.6998,0.4241,0.2757,0.5396,v3.2-fil,Tarjetas,Total,,2.00,+10.00,2026-04-30 23:16,,,exact
+2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners Penarol O/U 3.5,Over/Si,1.80,0.7272,0.5148,0.2124,0.3090,v3.2-fil,Corners,Visitante,,2.00,-10.00,2026-04-30 23:16,,,exact
 2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners Cusco O/U 2.5,Over/Si,1.83,0.6155,0.5000,0.1155,0.1263,v3.2-fil,Corners,Visitante,,,,,,,
-2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,2.10,0.6079,0.4430,0.1650,0.2767,v3.2-fil,Tarjetas,Total,,,,,,,
+2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,2.10,0.6079,0.4430,0.1650,0.2767,v3.2-fil,Tarjetas,Total,,2.10,+0.00,2026-04-30 23:16,,,exact
 2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Rizespor O/U 1.5,Over/Si,1.91,0.6387,0.4852,0.1535,0.2199,v3.2-fil,Goles,Local,,,,,,,
 2026-04-29 20:01,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 3.5,Over/Si,2.75,0.4939,0.3437,0.1503,0.3583,v3.2-fil,Goles,Total,,,,,,,
 2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Corners Central Cordoba de Santiago O/U 3.5,Over/Si,1.91,0.7036,0.4853,0.2183,0.3432,v3.2-fil,Corners,Local,,,,,,,

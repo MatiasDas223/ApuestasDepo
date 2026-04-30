@@ -1,8 +1,6 @@
 {
   "event_id": 70916808,
   "odds": {
-    "tc_over_10.5": 3.25,
-    "tc_under_9.5": 1.533,
     "tc_over_11.5": 4.5,
     "tc_under_10.5": 1.333,
     "tc_over_12.5": 7.0,
@@ -23,6 +21,8 @@
     "tc_under_6.5": 3.75,
     "tc_over_8.5": 1.8,
     "tc_under_7.5": 2.625,
+    "tc_over_10.5": 3.25,
+    "tc_under_9.5": 1.533,
     "tc_under_8.5": 1.975
   },
   "resumen": {
