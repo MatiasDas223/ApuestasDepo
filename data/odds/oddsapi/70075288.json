@@ -1,6 +1,10 @@
 {
   "event_id": 70075288,
   "odds": {
+    "tc_over_12.5": 5.5,
+    "tc_under_11.5": 1.222,
+    "tc_over_13.5": 9.0,
+    "tc_under_12.5": 1.142,
     "tc_over_4.5": 1.04,
     "tc_under_3.5": 21.0,
     "tc_over_5.5": 1.1,
@@ -15,10 +19,6 @@
     "tc_under_9.5": 1.666,
     "tc_over_11.5": 4.0,
     "tc_under_10.5": 1.4,
-    "tc_over_12.5": 6.0,
-    "tc_under_11.5": 1.222,
-    "tc_over_13.5": 9.0,
-    "tc_under_12.5": 1.125,
     "tc_over_14.5": 13.0,
     "tc_under_13.5": 1.071,
     "tc_over_15.5": 17.0,
@@ -27,16 +27,16 @@
     "tc_under_15.5": 1.02,
     "tc_over_9.5": 1.9,
     "tc_under_8.5": 1.9,
-    "cv_over_3.5": 1.909,
-    "cv_under_3.5": 1.8,
-    "cl_over_5.5": 2.0,
-    "cl_under_5.5": 1.727
+    "cl_over_5.5": 1.8,
+    "cl_under_5.5": 1.909,
+    "cv_over_2.5": 1.571,
+    "cv_under_2.5": 2.25
   },
   "resumen": {
     "mapeados": [
       "Alternative Corners (12 lineas)",
-      "Team Corners Away (1 lineas)",
-      "Team Corners Home (1 lineas)"
+      "Team Corners Home (1 lineas)",
+      "Team Corners Away (1 lineas)"
     ],
     "no_disponibles": [],
     "parciales": []
