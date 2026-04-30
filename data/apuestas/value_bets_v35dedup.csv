@@ -3278,3 +3278,4 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:09,1378204,Atalanta vs Genoa,"('Serie A', False)",Corners Genoa O/U 2.5,Over/Si,1.67,0.6185,0.5570,0.0614,0.0328,v3.5-dedup,Corners,Visitante,,,,,,,
 2026-04-30 00:09,1378204,Atalanta vs Genoa,"('Serie A', False)",Goles Genoa O/U 0.5,Over/Si,1.57,0.6414,0.5890,0.0524,0.0071,v3.5-dedup,Goles,Visitante,,,,,,,
 2026-04-30 00:09,1378204,Atalanta vs Genoa,"('Serie A', False)",Arco Atalanta O/U 5.5,Over/Si,1.91,0.5296,0.4853,0.0443,0.0111,v3.5-dedup,Arco,Local,,,,,,,
+2026-04-30 00:11,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 11.5,Under/No,1.28,0.7996,0.7315,0.0682,0.0275,v3.5-dedup,Corners,Total,,,,,,,
