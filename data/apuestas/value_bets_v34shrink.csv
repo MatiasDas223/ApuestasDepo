@@ -2030,12 +2030,12 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners Palmeiras O/U 5.5,Under/No,1.67,0.6154,0.5570,0.0584,0.0278,v3.4-shrink,Corners,Visitante,W,1.67,+0.00,2026-04-30 00:10,,,exact
 2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners tot. O/U 11.5,Over/Si,3.40,0.3339,0.2766,0.0573,0.1353,v3.4-shrink,Corners,Total,L,3.75,-9.33,2026-04-30 00:10,,,exact
 2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Arco Cerro Porteno O/U 4.5,Over/Si,2.10,0.4996,0.4424,0.0573,0.0492,v3.4-shrink,Arco,Local,L,,,2026-04-30 00:10,2.03,+3.45,single_heur
-2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.80,0.7591,0.5263,0.2328,0.3663,v3.4-shrink,Tarjetas,Total,,1.80,+0.00,2026-04-30 01:40,,,exact
-2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners Universitario O/U 4.5,Over/Si,1.73,0.6264,0.5366,0.0897,0.0817,v3.4-shrink,Corners,Local,,1.67,+3.59,2026-04-30 01:40,,,exact
-2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 10.5,Over/Si,3.25,0.3551,0.2909,0.0643,0.1542,v3.4-shrink,Corners,Total,,3.25,+0.00,2026-04-30 01:40,,,exact
-2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 8.5,Over/Si,1.80,0.5794,0.5263,0.0531,0.0429,v3.4-shrink,Corners,Total,,1.80,+0.00,2026-04-30 01:40,,,exact
-2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 7.5,Over/Si,1.44,0.6928,0.6451,0.0477,0.0005,v3.4-shrink,Corners,Total,,1.44,-0.28,2026-04-30 01:40,,,exact
-2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 11.5,Over/Si,4.33,0.2623,0.2169,0.0454,0.1367,v3.4-shrink,Corners,Total,,4.33,-0.07,2026-04-30 01:40,,,exact
+2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.80,0.7591,0.5263,0.2328,0.3663,v3.4-shrink,Tarjetas,Total,L,1.80,+0.00,2026-04-30 01:40,,,exact
+2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners Universitario O/U 4.5,Over/Si,1.73,0.6264,0.5366,0.0897,0.0817,v3.4-shrink,Corners,Local,W,1.67,+3.59,2026-04-30 01:40,,,exact
+2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 10.5,Over/Si,3.25,0.3551,0.2909,0.0643,0.1542,v3.4-shrink,Corners,Total,W,3.25,+0.00,2026-04-30 01:40,,,exact
+2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 8.5,Over/Si,1.80,0.5794,0.5263,0.0531,0.0429,v3.4-shrink,Corners,Total,W,1.80,+0.00,2026-04-30 01:40,,,exact
+2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 7.5,Over/Si,1.44,0.6928,0.6451,0.0477,0.0005,v3.4-shrink,Corners,Total,W,1.44,-0.28,2026-04-30 01:40,,,exact
+2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 11.5,Over/Si,4.33,0.2623,0.2169,0.0454,0.1367,v3.4-shrink,Corners,Total,W,4.33,-0.07,2026-04-30 01:40,,,exact
 2026-04-27 20:56,1535274,Independ. Rivadavia vs Deportivo La Guaira,"('Copa Libertadores', True)",Goles Deportivo La Guaira O/U 0.5,Over/Si,1.91,0.6624,0.4852,0.1772,0.2652,v3.4-shrink,Goles,Visitante,,,,,,,
 2026-04-27 20:56,1535274,Independ. Rivadavia vs Deportivo La Guaira,"('Copa Libertadores', True)",Corners Independ. Rivadavia O/U 4.5,Over/Si,1.62,0.7278,0.5759,0.1519,0.1791,v3.4-shrink,Corners,Local,,,,,,,
 2026-04-27 20:56,1535274,Independ. Rivadavia vs Deportivo La Guaira,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.80,0.6776,0.5263,0.1513,0.2197,v3.4-shrink,Tarjetas,Total,,,,,,,
@@ -2291,11 +2291,11 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles Barcelona SC O/U 0.5,Under/No,3.75,0.2964,0.2500,0.0464,0.1116,v3.4-shrink,Goles,Local,L,3.75,+0.00,2026-04-29 23:10,,,exact
 2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Arco tot. O/U 7.5,Over/Si,1.73,0.6518,0.5362,0.1156,0.1276,v3.4-shrink,Arco,Total,W,2.00,-13.50,2026-04-30 00:10,,,exact
 2026-04-28 23:51,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners tot. O/U 9.5,Over/Si,1.90,0.5441,0.5000,0.0441,0.0338,v3.4-shrink,Corners,Total,L,1.90,+0.00,2026-04-30 00:10,,,exact
-2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 12.5,Over/Si,6.50,0.2463,0.1460,0.1003,0.6008,v3.4-shrink,Corners,Total,,6.50,+0.00,2026-04-30 01:40,,,exact
-2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 6.5,Over/Si,1.25,0.8449,0.7500,0.0949,0.0562,v3.4-shrink,Corners,Total,,1.25,+0.00,2026-04-30 01:40,,,exact
-2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 13.5,Over/Si,11.00,0.1751,0.0871,0.0879,0.9258,v3.4-shrink,Corners,Total,,10.00,+10.00,2026-04-30 01:40,,,exact
-2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 5.5,Over/Si,1.11,0.9131,0.8540,0.0591,0.0145,v3.4-shrink,Corners,Total,,1.11,-0.09,2026-04-30 01:40,,,exact
-2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 14.5,Over/Si,15.00,0.1206,0.0643,0.0563,0.8089,v3.4-shrink,Corners,Total,,15.00,+0.00,2026-04-30 01:40,,,exact
+2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 12.5,Over/Si,6.50,0.2463,0.1460,0.1003,0.6008,v3.4-shrink,Corners,Total,L,6.50,+0.00,2026-04-30 01:40,,,exact
+2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 6.5,Over/Si,1.25,0.8449,0.7500,0.0949,0.0562,v3.4-shrink,Corners,Total,W,1.25,+0.00,2026-04-30 01:40,,,exact
+2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 13.5,Over/Si,11.00,0.1751,0.0871,0.0879,0.9258,v3.4-shrink,Corners,Total,L,10.00,+10.00,2026-04-30 01:40,,,exact
+2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 5.5,Over/Si,1.11,0.9131,0.8540,0.0591,0.0145,v3.4-shrink,Corners,Total,W,1.11,-0.09,2026-04-30 01:40,,,exact
+2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 14.5,Over/Si,15.00,0.1206,0.0643,0.0563,0.8089,v3.4-shrink,Corners,Total,L,15.00,+0.00,2026-04-30 01:40,,,exact
 2026-04-28 23:52,1535274,Independ. Rivadavia vs Deportivo La Guaira,"('Copa Libertadores', True)",Goles Independ. Rivadavia O/U 2.5,Under/No,1.40,0.7287,0.6627,0.0660,0.0202,v3.4-shrink,Goles,Local,,,,,,,
 2026-04-28 23:52,1535267,Bolívar vs Fluminense,"('Copa Libertadores', True)",Goles Bolívar O/U 2.5,Under/No,1.25,0.8119,0.7500,0.0619,0.0149,v3.4-shrink,Goles,Local,,,,,,,
 2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,1.91,0.6083,0.4852,0.1231,0.1619,v3.4-shrink,Tarjetas,Total,L,2.00,-4.50,2026-04-29 21:40,,,exact
@@ -2329,15 +2329,15 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Platense O/U 0.5,Under/No,3.50,0.3224,0.2678,0.0546,0.1284,v3.4-shrink,Goles,Local,L,3.75,-6.67,2026-04-29 21:40,,,exact
 2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Over/Si,2.88,0.3800,0.3271,0.0529,0.0944,v3.4-shrink,Goles,Total,W,2.70,+6.67,2026-04-29 21:40,,,exact
 2026-04-29 12:02,1535278,Platense vs Santa Fe,"('Copa Libertadores', True)",Goles Santa Fe O/U 2.5,Over/Si,21.00,0.0952,0.0459,0.0493,0.9992,v3.4-shrink,Goles,Visitante,L,26.00,-19.23,2026-04-29 21:40,,,exact
-2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Club Nacional O/U 0.5,Over/Si,1.53,0.7138,0.6087,0.1051,0.0922,v3.4-shrink,Goles,Visitante,,1.53,+0.00,2026-04-30 01:40,,,exact
-2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Over/Si,2.50,0.4755,0.3750,0.1005,0.1887,v3.4-shrink,Goles,Total,,2.50,+0.00,2026-04-30 01:40,,,exact
-2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Club Nacional O/U 1.5,Over/Si,3.50,0.3522,0.2678,0.0844,0.2326,v3.4-shrink,Goles,Visitante,,3.75,-6.67,2026-04-30 01:40,,,exact
-2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Over/Si,1.44,0.7279,0.6453,0.0826,0.0482,v3.4-shrink,Goles,Total,,1.44,+0.00,2026-04-30 01:40,,,exact
-2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",BTTS,Over/Si,2.05,0.5268,0.4533,0.0735,0.0800,v3.4-shrink,BTTS,Total,,2.05,+0.00,2026-04-30 01:40,,,exact
-2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Over/Si,5.00,0.2609,0.1896,0.0713,0.3047,v3.4-shrink,Goles,Total,,5.00,+0.00,2026-04-30 01:40,,,exact
-2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",1X2 -> Club Nacional gana,,3.40,0.3439,0.2793,0.0646,0.1694,v3.4-shrink,1X2,Total,,3.60,-5.56,2026-04-30 01:40,,,exact
-2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles tot. O/U 0.5,Over/Si,1.10,0.9236,0.8642,0.0594,0.0160,v3.4-shrink,Goles,Total,,1.10,+0.00,2026-04-30 01:40,,,exact
-2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Club Nacional O/U 2.5,Over/Si,11.00,0.1303,0.0871,0.0431,0.4330,v3.4-shrink,Goles,Visitante,,11.00,+0.00,2026-04-30 01:40,,,exact
+2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Club Nacional O/U 0.5,Over/Si,1.53,0.7138,0.6087,0.1051,0.0922,v3.4-shrink,Goles,Visitante,W,1.53,+0.00,2026-04-30 01:40,,,exact
+2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Over/Si,2.50,0.4755,0.3750,0.1005,0.1887,v3.4-shrink,Goles,Total,W,2.50,+0.00,2026-04-30 01:40,,,exact
+2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Club Nacional O/U 1.5,Over/Si,3.50,0.3522,0.2678,0.0844,0.2326,v3.4-shrink,Goles,Visitante,W,3.75,-6.67,2026-04-30 01:40,,,exact
+2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Over/Si,1.44,0.7279,0.6453,0.0826,0.0482,v3.4-shrink,Goles,Total,W,1.44,+0.00,2026-04-30 01:40,,,exact
+2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",BTTS,Over/Si,2.05,0.5268,0.4533,0.0735,0.0800,v3.4-shrink,BTTS,Total,W,2.05,+0.00,2026-04-30 01:40,,,exact
+2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Over/Si,5.00,0.2609,0.1896,0.0713,0.3047,v3.4-shrink,Goles,Total,W,5.00,+0.00,2026-04-30 01:40,,,exact
+2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",1X2 -> Club Nacional gana,,3.40,0.3439,0.2793,0.0646,0.1694,v3.4-shrink,1X2,Total,L,3.60,-5.56,2026-04-30 01:40,,,exact
+2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles tot. O/U 0.5,Over/Si,1.10,0.9236,0.8642,0.0594,0.0160,v3.4-shrink,Goles,Total,W,1.10,+0.00,2026-04-30 01:40,,,exact
+2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Club Nacional O/U 2.5,Over/Si,11.00,0.1303,0.0871,0.0431,0.4330,v3.4-shrink,Goles,Visitante,L,11.00,+0.00,2026-04-30 01:40,,,exact
 2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Tiros Mallorca O/U 11.5,Under/No,1.73,0.6780,0.5366,0.1413,0.1709,v3.4-shrink,Tiros,Visitante,,,,,,,
 2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Tiros tot. O/U 24.5,Under/No,1.91,0.6161,0.4853,0.1308,0.1761,v3.4-shrink,Tiros,Total,,,,,,,
 2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Arco Mallorca O/U 3.5,Under/No,2.00,0.5856,0.4634,0.1222,0.1712,v3.4-shrink,Arco,Visitante,,,,,,,
@@ -2993,3 +2993,12 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Corners Eibar O/U 4.5,Over/Si,1.67,0.6085,0.5570,0.0514,0.0161,v3.4-shrink,Corners,Local,,,,,,,
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",1X2 -> Eibar gana,,2.05,0.5001,0.4531,0.0470,0.0251,v3.4-shrink,1X2,Total,,,,,,,
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Malaga O/U 2.5,Over/Si,10.00,0.1413,0.0958,0.0455,0.4131,v3.4-shrink,Goles,Visitante,,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Corners Banfield O/U 3.5,Under/No,2.10,0.7019,0.4424,0.2595,0.4739,v3.4-shrink,Corners,Visitante,,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Corners Barracas Central O/U 3.5,Over/Si,1.73,0.7751,0.5366,0.2385,0.3386,v3.4-shrink,Corners,Local,,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Tiros Barracas Central O/U 12.5,Over/Si,2.00,0.6207,0.4634,0.1573,0.2414,v3.4-shrink,Tiros,Local,,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Arco Barracas Central O/U 4.5,Over/Si,2.20,0.5189,0.4233,0.0956,0.1416,v3.4-shrink,Arco,Local,,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Tiros Banfield O/U 11.5,Under/No,1.80,0.5944,0.5147,0.0797,0.0700,v3.4-shrink,Tiros,Visitante,,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Arco tot. O/U 7.5,Over/Si,1.83,0.5492,0.5000,0.0492,0.0067,v3.4-shrink,Arco,Total,,,,,,,
+2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Arco Osasuna O/U 4.5,Under/No,1.61,0.6570,0.5767,0.0803,0.0610,v3.4-shrink,Arco,Local,,,,,,,
+2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Tiros Osasuna O/U 12.5,Under/No,1.73,0.6044,0.5366,0.0678,0.0439,v3.4-shrink,Tiros,Local,,,,,,,
+2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Arco Barcelona O/U 5.5,Over/Si,2.00,0.5090,0.4634,0.0456,0.0180,v3.4-shrink,Arco,Visitante,,,,,,,
