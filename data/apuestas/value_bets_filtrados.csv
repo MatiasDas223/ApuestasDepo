@@ -337,3 +337,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Eibar O/U 1.5,Over/Si,2.20,0.6619,0.4241,0.2378,0.4562,v3.2-fil,Goles,Local,,,,,,,
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 2.5,Over/Si,2.10,0.6228,0.4474,0.1754,0.3079,v3.2-fil,Goles,Total,,,,,,,
 2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Corners Barracas Central O/U 3.5,Over/Si,1.73,0.7740,0.5366,0.2374,0.3367,v3.2-fil,Corners,Local,,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners Başakşehir O/U 3.5,Over/Si,1.91,0.6938,0.4852,0.2086,0.3251,v3.2-fil,Corners,Visitante,,,,,,,
+2026-04-30 04:17,1394720,Trabzonspor vs Göztepe,"('Super Lig', False)",Corners Göztepe O/U 3.5,Over/Si,1.80,0.6260,0.5148,0.1111,0.1267,v3.2-fil,Corners,Visitante,,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners Samsunspor O/U 3.5,Over/Si,1.80,0.7457,0.5148,0.2309,0.3422,v3.2-fil,Corners,Local,,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Samsunspor O/U 1.5,Over/Si,3.25,0.4590,0.2904,0.1686,0.4918,v3.2-fil,Goles,Local,,,,,,,
