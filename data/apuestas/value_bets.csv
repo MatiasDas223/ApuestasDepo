@@ -4507,39 +4507,39 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Corners U. Catolica O/U 3.5,Under/No,2.20,0.5014,0.4241,0.0773,0.1031,v3.2,Corners,Visitante,,1.91,+15.18,2026-04-29 23:10,,,exact
 2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.07,0.9523,0.8937,0.0586,0.0190,v3.2,Goles,Total,,1.07,+0.00,2026-04-29 23:10,,,exact
 2026-04-27 20:55,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Corners tot. O/U 9.5,Under/No,1.67,0.6131,0.5570,0.0561,0.0239,v3.2,Corners,Total,,1.67,+0.00,2026-04-29 23:10,,,exact
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Arco Estudiantes L.P. O/U 3.5,Over/Si,2.00,0.7397,0.4634,0.2763,0.4794,v3.2,Arco,Local,,,,,,,
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Tiros Estudiantes L.P. O/U 12.5,Over/Si,1.91,0.7102,0.4853,0.2249,0.3557,v3.2,Tiros,Local,,,,,,,
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Arco tot. O/U 6.5,Over/Si,1.67,0.7647,0.5570,0.2077,0.2771,v3.2,Arco,Total,,,,,,,
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Corners Estudiantes L.P. O/U 4.5,Over/Si,2.00,0.6258,0.4638,0.1620,0.2515,v3.2,Corners,Local,,,,,,,
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Corners Flamengo O/U 4.5,Under/No,2.00,0.6153,0.4638,0.1515,0.2306,v3.2,Corners,Visitante,,,,,,,
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Tiros Flamengo O/U 11.5,Under/No,2.00,0.5862,0.4634,0.1228,0.1724,v3.2,Tiros,Visitante,,,,,,,
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",1X2 -> Estudiantes L.P. gana,,3.25,0.4009,0.2909,0.1100,0.3029,v3.2,1X2,Total,,,,,,,
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Estudiantes L.P. O/U 0.5,Over/Si,1.50,0.7101,0.6250,0.0851,0.0652,v3.2,Goles,Local,,,,,,,
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Estudiantes L.P. O/U 1.5,Over/Si,3.50,0.3506,0.2678,0.0828,0.2271,v3.2,Goles,Local,,,,,,,
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",DC -> Estudiantes L.P. o Empate (1X),,1.53,0.6823,0.6106,0.0717,0.0439,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Tiros tot. O/U 24.5,Over/Si,1.83,0.5509,0.5000,0.0509,0.0098,v3.2,Tiros,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles Palmeiras O/U 1.5,Under/No,1.62,0.7716,0.5759,0.1957,0.2500,v3.2,Goles,Visitante,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",DC -> Cerro Porteno o Empate (1X),,1.80,0.7022,0.5231,0.1791,0.2639,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",1X2 -> Cerro Porteno gana,,4.33,0.3931,0.2186,0.1744,0.7020,v3.2,1X2,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles Palmeiras O/U 0.5,Under/No,3.75,0.4059,0.2500,0.1559,0.5222,v3.2,Goles,Visitante,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners Cerro Porteno O/U 4.5,Over/Si,2.20,0.5742,0.4241,0.1501,0.2633,v3.2,Corners,Local,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles Palmeiras O/U 2.5,Under/No,1.17,0.9372,0.8104,0.1268,0.0965,v3.2,Goles,Visitante,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.67,0.6311,0.5262,0.1050,0.0514,v3.2,Tarjetas,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Arco Palmeiras O/U 4.5,Under/No,2.10,0.5446,0.4424,0.1022,0.1436,v3.2,Arco,Visitante,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Tiros Cerro Porteno O/U 11.5,Over/Si,1.73,0.6272,0.5366,0.0906,0.0832,v3.2,Tiros,Local,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,1.60,0.6803,0.5897,0.0905,0.0884,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles Cerro Porteno O/U 0.5,Over/Si,1.62,0.6627,0.5759,0.0868,0.0737,v3.2,Goles,Local,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.20,0.8610,0.7830,0.0780,0.0332,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",BTTS,Under/No,1.75,0.6062,0.5333,0.0729,0.0609,v3.2,BTTS,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Under/No,2.75,0.4102,0.3373,0.0729,0.1280,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Tiros Palmeiras O/U 13.5,Under/No,1.80,0.5782,0.5147,0.0635,0.0408,v3.2,Tiros,Visitante,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles Cerro Porteno O/U 1.5,Over/Si,4.00,0.2935,0.2337,0.0598,0.1739,v3.2,Goles,Local,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Arco Cerro Porteno O/U 4.5,Over/Si,2.10,0.5018,0.4424,0.0594,0.0538,v3.2,Arco,Local,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners tot. O/U 11.5,Over/Si,3.40,0.3352,0.2766,0.0586,0.1396,v3.2,Corners,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners Palmeiras O/U 5.5,Under/No,1.67,0.6154,0.5570,0.0584,0.0278,v3.2,Corners,Visitante,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.06,0.9490,0.9042,0.0448,0.0059,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners tot. O/U 13.5,Over/Si,7.00,0.1765,0.1358,0.0407,0.2356,v3.2,Corners,Total,,,,,,,
-2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners tot. O/U 12.5,Over/Si,4.50,0.2485,0.2079,0.0406,0.1180,v3.2,Corners,Total,,,,,,,
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Arco Estudiantes L.P. O/U 3.5,Over/Si,2.00,0.7397,0.4634,0.2763,0.4794,v3.2,Arco,Local,,2.25,-11.11,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Tiros Estudiantes L.P. O/U 12.5,Over/Si,1.91,0.7102,0.4853,0.2249,0.3557,v3.2,Tiros,Local,,1.91,+0.05,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Arco tot. O/U 6.5,Over/Si,1.67,0.7647,0.5570,0.2077,0.2771,v3.2,Arco,Total,,1.67,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Corners Estudiantes L.P. O/U 4.5,Over/Si,2.00,0.6258,0.4638,0.1620,0.2515,v3.2,Corners,Local,,1.91,+4.71,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Corners Flamengo O/U 4.5,Under/No,2.00,0.6153,0.4638,0.1515,0.2306,v3.2,Corners,Visitante,,1.91,+4.71,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Tiros Flamengo O/U 11.5,Under/No,2.00,0.5862,0.4634,0.1228,0.1724,v3.2,Tiros,Visitante,,2.00,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",1X2 -> Estudiantes L.P. gana,,3.25,0.4009,0.2909,0.1100,0.3029,v3.2,1X2,Total,,3.60,-9.72,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Estudiantes L.P. O/U 0.5,Over/Si,1.50,0.7101,0.6250,0.0851,0.0652,v3.2,Goles,Local,,1.53,-1.96,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Estudiantes L.P. O/U 1.5,Over/Si,3.50,0.3506,0.2678,0.0828,0.2271,v3.2,Goles,Local,,3.75,-6.67,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",DC -> Estudiantes L.P. o Empate (1X),,1.53,0.6823,0.6106,0.0717,0.0439,v3.2,Doble Oportunidad,Total,,1.62,-5.56,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Tiros tot. O/U 24.5,Over/Si,1.83,0.5509,0.5000,0.0509,0.0098,v3.2,Tiros,Total,,1.83,-0.16,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles Palmeiras O/U 1.5,Under/No,1.62,0.7716,0.5759,0.1957,0.2500,v3.2,Goles,Visitante,,1.62,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",DC -> Cerro Porteno o Empate (1X),,1.80,0.7022,0.5231,0.1791,0.2639,v3.2,Doble Oportunidad,Total,,1.95,-7.69,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",1X2 -> Cerro Porteno gana,,4.33,0.3931,0.2186,0.1744,0.7020,v3.2,1X2,Total,,5.00,-13.40,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles Palmeiras O/U 0.5,Under/No,3.75,0.4059,0.2500,0.1559,0.5222,v3.2,Goles,Visitante,,3.75,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners Cerro Porteno O/U 4.5,Over/Si,2.20,0.5742,0.4241,0.1501,0.2633,v3.2,Corners,Local,,1.83,+20.22,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles Palmeiras O/U 2.5,Under/No,1.17,0.9372,0.8104,0.1268,0.0965,v3.2,Goles,Visitante,,1.17,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.67,0.6311,0.5262,0.1050,0.0514,v3.2,Tarjetas,Total,,1.67,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Arco Palmeiras O/U 4.5,Under/No,2.10,0.5446,0.4424,0.1022,0.1436,v3.2,Arco,Visitante,,1.83,+14.57,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Tiros Cerro Porteno O/U 11.5,Over/Si,1.73,0.6272,0.5366,0.0906,0.0832,v3.2,Tiros,Local,,1.73,+0.17,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,1.60,0.6803,0.5897,0.0905,0.0884,v3.2,Goles,Total,,1.53,+4.58,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles Cerro Porteno O/U 0.5,Over/Si,1.62,0.6627,0.5759,0.0868,0.0737,v3.2,Goles,Local,,1.73,-6.36,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.20,0.8610,0.7830,0.0780,0.0332,v3.2,Goles,Total,,1.20,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",BTTS,Under/No,1.75,0.6062,0.5333,0.0729,0.0609,v3.2,BTTS,Total,,1.67,+4.79,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles tot. O/U 1.5,Under/No,2.75,0.4102,0.3373,0.0729,0.1280,v3.2,Goles,Total,,2.75,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Tiros Palmeiras O/U 13.5,Under/No,1.80,0.5782,0.5147,0.0635,0.0408,v3.2,Tiros,Visitante,,1.80,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles Cerro Porteno O/U 1.5,Over/Si,4.00,0.2935,0.2337,0.0598,0.1739,v3.2,Goles,Local,,4.50,-11.11,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Arco Cerro Porteno O/U 4.5,Over/Si,2.10,0.5018,0.4424,0.0594,0.0538,v3.2,Arco,Local,,,,2026-04-30 00:10,2.03,+3.45,single_heur
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners tot. O/U 11.5,Over/Si,3.40,0.3352,0.2766,0.0586,0.1396,v3.2,Corners,Total,,3.75,-9.33,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners Palmeiras O/U 5.5,Under/No,1.67,0.6154,0.5570,0.0584,0.0278,v3.2,Corners,Visitante,,1.67,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Goles tot. O/U 4.5,Under/No,1.06,0.9490,0.9042,0.0448,0.0059,v3.2,Goles,Total,,1.06,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners tot. O/U 13.5,Over/Si,7.00,0.1765,0.1358,0.0407,0.2356,v3.2,Corners,Total,,8.00,-12.50,2026-04-30 00:10,,,exact
+2026-04-27 20:56,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners tot. O/U 12.5,Over/Si,4.50,0.2485,0.2079,0.0406,0.1180,v3.2,Corners,Total,,5.50,-18.18,2026-04-30 00:10,,,exact
 2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.80,0.7572,0.5263,0.2309,0.3630,v3.2,Tarjetas,Total,,,,,,,
 2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners Universitario O/U 4.5,Over/Si,1.73,0.6275,0.5366,0.0909,0.0837,v3.2,Corners,Local,,,,,,,
 2026-04-27 20:56,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 10.5,Over/Si,3.25,0.3550,0.2909,0.0642,0.1538,v3.2,Corners,Total,,,,,,,
@@ -4703,23 +4703,23 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Tiros Caracas FC O/U 9.5,Over/Si,1.73,0.5994,0.5366,0.0628,0.0352,v3.2,Tiros,Local,,,,2026-04-29 21:40,2.23,-22.56,single_heur
 2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Arco Caracas FC O/U 3.5,Over/Si,2.20,0.4829,0.4233,0.0595,0.0623,v3.2,Arco,Local,,,,2026-04-29 21:40,2.23,-1.52,single_heur
 2026-04-27 20:59,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Arco tot. O/U 7.5,Under/No,1.67,0.6111,0.5576,0.0535,0.0182,v3.2,Arco,Total,,1.73,-3.47,2026-04-29 21:40,,,exact
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Tiros Gremio O/U 12.5,Under/No,1.91,0.8590,0.4853,0.3737,0.6399,v3.2,Tiros,Visitante,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Tiros Palestino O/U 10.5,Over/Si,1.80,0.8777,0.5147,0.3630,0.5798,v3.2,Tiros,Local,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Corners Gremio O/U 4.5,Under/No,1.83,0.8297,0.5000,0.3297,0.5184,v3.2,Corners,Visitante,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Arco Palestino O/U 3.5,Over/Si,2.20,0.7317,0.4233,0.3084,0.6097,v3.2,Arco,Local,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Corners Palestino O/U 4.5,Over/Si,2.00,0.7590,0.4638,0.2951,0.5179,v3.2,Corners,Local,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Arco Gremio O/U 3.5,Under/No,2.10,0.6341,0.4424,0.1917,0.3316,v3.2,Arco,Visitante,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",1X2 -> Palestino gana,,3.30,0.3949,0.2858,0.1092,0.3033,v3.2,1X2,Total,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles Gremio O/U 1.5,Under/No,1.50,0.7336,0.6250,0.1086,0.1004,v3.2,Goles,Visitante,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",DC -> Palestino o Empate (1X),,1.62,0.6871,0.5866,0.1004,0.1131,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Arco tot. O/U 7.5,Over/Si,2.00,0.5545,0.4634,0.0911,0.1090,v3.2,Arco,Total,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles Gremio O/U 0.5,Under/No,3.40,0.3651,0.2766,0.0885,0.2414,v3.2,Goles,Visitante,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles Gremio O/U 2.5,Under/No,1.12,0.9179,0.8427,0.0752,0.0281,v3.2,Goles,Visitante,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Under/No,1.22,0.8241,0.7663,0.0578,0.0054,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles Palestino O/U 1.5,Over/Si,3.40,0.3281,0.2766,0.0515,0.1155,v3.2,Goles,Local,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",BTTS,Under/No,1.80,0.5634,0.5148,0.0486,0.0141,v3.2,BTTS,Total,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Under/No,1.62,0.6286,0.5814,0.0472,0.0183,v3.2,Goles,Total,,,,,,,
-2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Under/No,3.00,0.3582,0.3119,0.0463,0.0746,v3.2,Goles,Total,,,,,,,
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Tiros Gremio O/U 12.5,Under/No,1.91,0.8590,0.4853,0.3737,0.6399,v3.2,Tiros,Visitante,,1.73,+10.60,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Tiros Palestino O/U 10.5,Over/Si,1.80,0.8777,0.5147,0.3630,0.5798,v3.2,Tiros,Local,,,,2026-04-30 00:10,1.58,+13.72,single_heur
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Corners Gremio O/U 4.5,Under/No,1.83,0.8297,0.5000,0.3297,0.5184,v3.2,Corners,Visitante,,1.73,+5.78,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Arco Palestino O/U 3.5,Over/Si,2.20,0.7317,0.4233,0.3084,0.6097,v3.2,Arco,Local,,2.00,+10.00,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Corners Palestino O/U 4.5,Over/Si,2.00,0.7590,0.4638,0.2951,0.5179,v3.2,Corners,Local,,1.83,+9.29,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Arco Gremio O/U 3.5,Under/No,2.10,0.6341,0.4424,0.1917,0.3316,v3.2,Arco,Visitante,,,,2026-04-30 00:10,1.95,+7.48,single_heur
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",1X2 -> Palestino gana,,3.30,0.3949,0.2858,0.1092,0.3033,v3.2,1X2,Total,,3.25,+1.54,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles Gremio O/U 1.5,Under/No,1.50,0.7336,0.6250,0.1086,0.1004,v3.2,Goles,Visitante,,1.40,+7.14,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",DC -> Palestino o Empate (1X),,1.62,0.6871,0.5866,0.1004,0.1131,v3.2,Doble Oportunidad,Total,,1.53,+5.88,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Arco tot. O/U 7.5,Over/Si,2.00,0.5545,0.4634,0.0911,0.1090,v3.2,Arco,Total,,1.80,+11.11,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles Gremio O/U 0.5,Under/No,3.40,0.3651,0.2766,0.0885,0.2414,v3.2,Goles,Visitante,,3.00,+13.33,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles Gremio O/U 2.5,Under/No,1.12,0.9179,0.8427,0.0752,0.0281,v3.2,Goles,Visitante,,1.10,+1.82,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Under/No,1.22,0.8241,0.7663,0.0578,0.0054,v3.2,Goles,Total,,1.18,+3.39,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles Palestino O/U 1.5,Over/Si,3.40,0.3281,0.2766,0.0515,0.1155,v3.2,Goles,Local,,3.40,+0.00,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",BTTS,Under/No,1.80,0.5634,0.5148,0.0486,0.0141,v3.2,BTTS,Total,,1.73,+4.05,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Under/No,1.62,0.6286,0.5814,0.0472,0.0183,v3.2,Goles,Total,,1.53,+5.88,2026-04-30 00:10,,,exact
+2026-04-27 20:59,1535181,Palestino vs Gremio,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Under/No,3.00,0.3582,0.3119,0.0463,0.0746,v3.2,Goles,Total,,2.62,+14.50,2026-04-30 00:10,,,exact
 2026-04-27 21:00,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Corners Vasco DA Gama O/U 4.5,Over/Si,1.67,0.7233,0.5570,0.1663,0.2079,v3.2,Corners,Local,,,,,,,
 2026-04-27 21:00,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Arco tot. O/U 8.5,Over/Si,2.00,0.6283,0.4634,0.1649,0.2566,v3.2,Arco,Total,,,,,,,
 2026-04-27 21:00,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Tiros Vasco DA Gama O/U 14.5,Over/Si,1.91,0.6472,0.4853,0.1619,0.2354,v3.2,Tiros,Local,,,,,,,
@@ -4799,12 +4799,12 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 23:50,1535277,Mirassol vs Always Ready,"('Copa Libertadores', True)",Goles Always Ready O/U 1.5,Over/Si,7.00,0.1831,0.1358,0.0473,0.2815,v3.2,Goles,Visitante,,6.50,+7.69,2026-04-29 21:40,,,exact
 2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,1.82,0.6635,0.5211,0.1425,0.2076,v3.2,Tarjetas,Total,,1.80,+1.11,2026-04-29 23:10,,,exact
 2026-04-28 23:51,1535266,Barcelona SC vs U. Catolica,"('Copa Libertadores', True)",Tarjetas tot. O/U 4.5,Under/No,2.10,0.4898,0.4430,0.0469,0.0287,v3.2,Tarjetas,Total,,2.10,+0.00,2026-04-29 23:10,,,exact
-2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Arco tot. O/U 7.5,Over/Si,1.73,0.6533,0.5362,0.1171,0.1302,v3.2,Arco,Total,,,,,,,
-2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Flamengo O/U 1.5,Under/No,1.44,0.7097,0.6453,0.0643,0.0219,v3.2,Goles,Visitante,,,,,,,
-2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Flamengo O/U 0.5,Under/No,3.25,0.3429,0.2904,0.0525,0.1144,v3.2,Goles,Visitante,,,,,,,
-2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles tot. O/U 0.5,Over/Si,1.11,0.9016,0.8541,0.0474,0.0008,v3.2,Goles,Total,,,,,,,
-2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Estudiantes L.P. O/U 2.5,Over/Si,11.00,0.1296,0.0871,0.0425,0.4259,v3.2,Goles,Local,,,,,,,
-2026-04-28 23:51,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners tot. O/U 9.5,Over/Si,1.90,0.5455,0.5000,0.0455,0.0365,v3.2,Corners,Total,,,,,,,
+2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Arco tot. O/U 7.5,Over/Si,1.73,0.6533,0.5362,0.1171,0.1302,v3.2,Arco,Total,,2.00,-13.50,2026-04-30 00:10,,,exact
+2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Flamengo O/U 1.5,Under/No,1.44,0.7097,0.6453,0.0643,0.0219,v3.2,Goles,Visitante,,1.40,+2.86,2026-04-30 00:10,,,exact
+2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Flamengo O/U 0.5,Under/No,3.25,0.3429,0.2904,0.0525,0.1144,v3.2,Goles,Visitante,,3.00,+8.33,2026-04-30 00:10,,,exact
+2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles tot. O/U 0.5,Over/Si,1.11,0.9016,0.8541,0.0474,0.0008,v3.2,Goles,Total,,1.11,+0.00,2026-04-30 00:10,,,exact
+2026-04-28 23:51,1535272,Estudiantes L.P. vs Flamengo,"('Copa Libertadores', True)",Goles Estudiantes L.P. O/U 2.5,Over/Si,11.00,0.1296,0.0871,0.0425,0.4259,v3.2,Goles,Local,,11.00,+0.00,2026-04-30 00:10,,,exact
+2026-04-28 23:51,1535268,Cerro Porteno vs Palmeiras,"('Copa Libertadores', True)",Corners tot. O/U 9.5,Over/Si,1.90,0.5455,0.5000,0.0455,0.0365,v3.2,Corners,Total,,1.90,+0.00,2026-04-30 00:10,,,exact
 2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 12.5,Over/Si,6.50,0.2458,0.1460,0.0998,0.5976,v3.2,Corners,Total,,,,,,,
 2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 6.5,Over/Si,1.25,0.8452,0.7500,0.0952,0.0566,v3.2,Corners,Total,,,,,,,
 2026-04-28 23:51,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Corners tot. O/U 13.5,Over/Si,11.00,0.1756,0.0871,0.0885,0.9317,v3.2,Corners,Total,,,,,,,
@@ -4816,20 +4816,20 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,1.91,0.6067,0.4852,0.1215,0.1588,v3.2,Tarjetas,Total,,2.00,-4.50,2026-04-29 21:40,,,exact
 2026-04-28 23:52,1535177,Deportivo Riestra vs Atletico Torque,"('Copa Sudamericana', True)",Corners Atletico Torque O/U 3.5,Under/No,2.20,0.4695,0.4241,0.0454,0.0328,v3.2,Corners,Visitante,,2.20,+0.00,2026-04-29 21:40,,,exact
 2026-04-28 23:53,1535175,Caracas FC vs Racing Club,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Over/Si,1.62,0.6226,0.5759,0.0467,0.0086,v3.2,Tarjetas,Total,,2.00,-19.00,2026-04-29 21:40,,,exact
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,1.80,0.7968,0.5263,0.2704,0.4342,v3.2,Tarjetas,Total,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners Atletico-MG O/U 2.5,Over/Si,1.67,0.7481,0.5570,0.1911,0.2493,v3.2,Corners,Visitante,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners Atletico-MG O/U 3.5,Over/Si,2.10,0.5588,0.4430,0.1158,0.1734,v3.2,Corners,Visitante,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",BTTS,Under/No,1.83,0.6149,0.5000,0.1149,0.1252,v3.2,BTTS,Total,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners Cienciano O/U 4.5,Over/Si,1.83,0.6108,0.5000,0.1108,0.1178,v3.2,Corners,Local,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles Atletico-MG O/U 1.5,Under/No,1.25,0.8578,0.7500,0.1078,0.0722,v3.2,Goles,Visitante,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles Atletico-MG O/U 0.5,Under/No,2.25,0.5160,0.4110,0.1050,0.1610,v3.2,Goles,Visitante,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Under/No,1.28,0.8117,0.7322,0.0795,0.0390,v3.2,Goles,Total,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Under/No,1.75,0.6121,0.5395,0.0727,0.0712,v3.2,Goles,Total,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",1X2 -> Cienciano gana,,1.80,0.5951,0.5282,0.0669,0.0711,v3.2,1X2,Total,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners Cienciano O/U 5.5,Under/No,1.91,0.5480,0.4852,0.0629,0.0468,v3.2,Corners,Local,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles Atletico-MG O/U 2.5,Under/No,1.05,0.9707,0.9129,0.0578,0.0192,v3.2,Goles,Visitante,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Under/No,3.25,0.3436,0.2904,0.0532,0.1168,v3.2,Goles,Total,,,,,,,
-2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners tot. O/U 8.5,Over/Si,1.73,0.5783,0.5362,0.0421,0.0004,v3.2,Corners,Total,,,,,,,
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,1.80,0.7968,0.5263,0.2704,0.4342,v3.2,Tarjetas,Total,,1.80,+0.00,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners Atletico-MG O/U 2.5,Over/Si,1.67,0.7481,0.5570,0.1911,0.2493,v3.2,Corners,Visitante,,1.67,+0.00,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners Atletico-MG O/U 3.5,Over/Si,2.10,0.5588,0.4430,0.1158,0.1734,v3.2,Corners,Visitante,,2.00,+5.00,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",BTTS,Under/No,1.83,0.6149,0.5000,0.1149,0.1252,v3.2,BTTS,Total,,1.83,+0.00,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners Cienciano O/U 4.5,Over/Si,1.83,0.6108,0.5000,0.1108,0.1178,v3.2,Corners,Local,,1.83,+0.00,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles Atletico-MG O/U 1.5,Under/No,1.25,0.8578,0.7500,0.1078,0.0722,v3.2,Goles,Visitante,,1.25,+0.00,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles Atletico-MG O/U 0.5,Under/No,2.25,0.5160,0.4110,0.1050,0.1610,v3.2,Goles,Visitante,,2.25,+0.00,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles tot. O/U 3.5,Under/No,1.28,0.8117,0.7322,0.0795,0.0390,v3.2,Goles,Total,,1.25,+2.40,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Under/No,1.75,0.6121,0.5395,0.0727,0.0712,v3.2,Goles,Total,,1.70,+2.94,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",1X2 -> Cienciano gana,,1.80,0.5951,0.5282,0.0669,0.0711,v3.2,1X2,Total,,1.91,-5.76,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners Cienciano O/U 5.5,Under/No,1.91,0.5480,0.4852,0.0629,0.0468,v3.2,Corners,Local,,1.67,+14.37,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles Atletico-MG O/U 2.5,Under/No,1.05,0.9707,0.9129,0.0578,0.0192,v3.2,Goles,Visitante,,1.04,+0.96,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Under/No,3.25,0.3436,0.2904,0.0532,0.1168,v3.2,Goles,Total,,3.25,+0.00,2026-04-30 00:10,,,exact
+2026-04-28 23:53,1535176,Cienciano vs Atletico-MG,"('Copa Sudamericana', True)",Corners tot. O/U 8.5,Over/Si,1.73,0.5783,0.5362,0.0421,0.0004,v3.2,Corners,Total,,1.73,+0.00,2026-04-30 00:10,,,exact
 2026-04-28 23:54,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Goles Vasco DA Gama O/U 1.5,Under/No,1.73,0.6956,0.5362,0.1595,0.2035,v3.2,Goles,Local,,,,,,,
 2026-04-28 23:54,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,1.67,0.6896,0.5570,0.1325,0.1516,v3.2,Tarjetas,Total,,,,,,,
 2026-04-28 23:54,1535185,Vasco DA Gama vs Olimpia,"('Copa Sudamericana', True)",Goles Vasco DA Gama O/U 2.5,Under/No,1.20,0.8972,0.7830,0.1142,0.0766,v3.2,Goles,Local,,,,,,,
