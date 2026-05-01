@@ -4200,3 +4200,5 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 04:05,1391153,Getafe vs Rayo Vallecano,"('La Liga', False)",Arco Getafe O/U 4.5,Under/No,1.61,0.8406,0.5767,0.2639,0.3575,v3.3-ref,Arco,Local,,,,,,,
 2026-05-01 04:05,1391153,Getafe vs Rayo Vallecano,"('La Liga', False)",Arco Rayo Vallecano O/U 3.5,Under/No,1.73,0.5806,0.5366,0.0440,0.0027,v3.3-ref,Arco,Visitante,,,,,,,
 2026-05-01 04:09,1388593,FC St. Pauli vs FSV Mainz 05,"('Bundesliga', False)",Goles tot. O/U 3.5,Over/Si,4.00,0.2784,0.2381,0.0403,0.1135,v3.3-ref,Goles,Total,,,,,,,
+2026-05-01 04:21,1392173,Racing Santander vs Huesca,"('LaLiga 2', False)",Corners tot. O/U 7.5,Under/No,3.75,0.3039,0.2500,0.0539,0.1396,v3.3-ref,Corners,Total,,,,,,,
+2026-05-01 04:21,1392173,Racing Santander vs Huesca,"('LaLiga 2', False)",Corners tot. O/U 8.5,Under/No,2.50,0.4184,0.3750,0.0434,0.0459,v3.3-ref,Corners,Total,,,,,,,
