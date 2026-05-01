@@ -318,5 +318,5 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Galatasaray O/U 2.5,Under/No,1.40,0.8956,0.6627,0.2330,0.2539,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Galatasaray O/U 0.5,Under/No,6.50,0.3290,0.1459,0.1832,1.1388,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",BTTS,Under/No,2.20,0.4732,0.4241,0.0491,0.0411,v3.6,BTTS,Total,,,,,,,
-2026-04-30 12:14,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Over/Si,2.40,0.5243,0.3893,0.1350,0.2583,v3.6,Goles,Total,,,,,,,
-2026-04-30 12:14,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",BTTS,Over/Si,2.00,0.5688,0.4638,0.1050,0.1376,v3.6,BTTS,Total,,,,,,,
+2026-04-30 12:14,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Goles tot. O/U 2.5,Over/Si,2.40,0.5243,0.3893,0.1350,0.2583,v3.6,Goles,Total,,2.40,+0.00,2026-05-01 00:10,,,exact
+2026-04-30 12:14,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",BTTS,Over/Si,2.00,0.5688,0.4638,0.1050,0.1376,v3.6,BTTS,Total,,2.00,+0.00,2026-05-01 00:10,,,exact
