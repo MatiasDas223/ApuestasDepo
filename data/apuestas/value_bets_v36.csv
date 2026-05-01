@@ -246,15 +246,15 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles Penarol O/U 0.5,Over/Si,2.00,0.6948,0.4638,0.2310,0.3895,v3.6,Goles,Visitante,,2.25,-11.11,2026-04-30 23:16,,,exact
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles Penarol O/U 1.5,Over/Si,7.00,0.3316,0.1358,0.1958,1.3213,v3.6,Goles,Visitante,,9.00,-22.22,2026-04-30 23:16,,,exact
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",BTTS,Over/Si,2.50,0.4952,0.3750,0.1202,0.2380,v3.6,BTTS,Total,,2.75,-9.09,2026-04-30 23:16,,,exact
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 0.5,Over/Si,1.80,0.6961,0.5148,0.1813,0.2529,v3.6,Goles,Visitante,,,,,,,
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 1.5,Over/Si,5.00,0.3348,0.1896,0.1452,0.6742,v3.6,Goles,Visitante,,,,,,,
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",BTTS,Over/Si,2.00,0.5300,0.4667,0.0634,0.0601,v3.6,BTTS,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 0.5,Over/Si,1.80,0.6961,0.5148,0.1813,0.2529,v3.6,Goles,Visitante,,1.83,-1.64,2026-05-01 01:40,,,exact
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 1.5,Over/Si,5.00,0.3348,0.1896,0.1452,0.6742,v3.6,Goles,Visitante,,5.50,-9.09,2026-05-01 01:40,,,exact
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",BTTS,Over/Si,2.00,0.5300,0.4667,0.0634,0.0601,v3.6,BTTS,Total,,2.05,-2.44,2026-05-01 01:40,,,exact
 2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Goles America de Cali O/U 0.5,Over/Si,1.73,0.6517,0.5362,0.1155,0.1274,v3.6,Goles,Visitante,,1.80,-3.89,2026-04-30 23:16,,,exact
 2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",BTTS,Over/Si,2.25,0.4598,0.4110,0.0488,0.0346,v3.6,BTTS,Total,,2.25,+0.00,2026-04-30 23:16,,,exact
-2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.57,0.7216,0.5890,0.1326,0.1329,v3.6,Goles,Total,,,,,,,
-2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Macara O/U 0.5,Over/Si,1.57,0.6971,0.5890,0.1081,0.0944,v3.6,Goles,Visitante,,,,,,,
-2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Macara O/U 1.5,Over/Si,4.00,0.3355,0.2337,0.1018,0.3420,v3.6,Goles,Visitante,,,,,,,
-2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",BTTS,Over/Si,2.25,0.5272,0.4110,0.1162,0.1863,v3.6,BTTS,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.57,0.7216,0.5890,0.1326,0.1329,v3.6,Goles,Total,,1.50,+4.67,2026-05-01 01:40,,,exact
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Macara O/U 0.5,Over/Si,1.57,0.6971,0.5890,0.1081,0.0944,v3.6,Goles,Visitante,,1.57,+0.00,2026-05-01 01:40,,,exact
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles Macara O/U 1.5,Over/Si,4.00,0.3355,0.2337,0.1018,0.3420,v3.6,Goles,Visitante,,3.75,+6.67,2026-05-01 01:40,,,exact
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",BTTS,Over/Si,2.25,0.5272,0.4110,0.1162,0.1863,v3.6,BTTS,Total,,2.20,+2.27,2026-05-01 01:40,,,exact
 2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Goles Gimnasia Y Tiro O/U 0.5,Over/Si,2.00,0.6993,0.4638,0.2355,0.3987,v3.6,Goles,Visitante,,1.91,+4.71,2026-04-30 23:16,,,exact
 2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Goles Gimnasia Y Tiro O/U 1.5,Over/Si,6.00,0.3350,0.1561,0.1789,1.0101,v3.6,Goles,Visitante,,5.50,+9.09,2026-04-30 23:16,,,exact
 2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",BTTS,Over/Si,2.50,0.5115,0.3750,0.1365,0.2787,v3.6,BTTS,Total,,2.38,+5.04,2026-04-30 23:16,,,exact

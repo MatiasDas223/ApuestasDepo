@@ -2979,15 +2979,15 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Goles tot. O/U 2.5,Under/No,1.50,0.7261,0.6250,0.1011,0.0892,v3.5-dedup,Goles,Total,,1.40,+7.14,2026-04-30 23:16,,,exact
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners Corinthians O/U 5.5,Under/No,1.73,0.6108,0.5362,0.0746,0.0567,v3.5-dedup,Corners,Local,,1.91,-9.42,2026-04-30 23:16,,,exact
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners tot. O/U 10.5,Over/Si,2.62,0.4272,0.3549,0.0723,0.1213,v3.5-dedup,Corners,Total,,2.62,-0.19,2026-04-30 23:16,,,exact
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",DC -> Empate o Cusco (X2),,3.00,0.4982,0.3154,0.1828,0.4946,v3.5-dedup,Doble Oportunidad,Total,,,,,,,
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",1X2 -> Cusco gana,,8.00,0.2435,0.1179,0.1256,0.9477,v3.5-dedup,1X2,Total,,,,,,,
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",1X2 -> Empate,,5.00,0.2547,0.1886,0.0661,0.2736,v3.5-dedup,1X2,Total,,,,,,,
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Independiente Medellin O/U 2.5,Under/No,1.50,0.8002,0.6250,0.1752,0.2002,v3.5-dedup,Goles,Local,,,,,,,
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners Independiente Medellin O/U 6.5,Under/No,1.73,0.6881,0.5362,0.1519,0.1904,v3.5-dedup,Corners,Local,,,,,,,
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners Cusco O/U 2.5,Over/Si,1.83,0.6155,0.5000,0.1155,0.1263,v3.5-dedup,Corners,Visitante,,,,,,,
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 0.5,Over/Si,1.80,0.6264,0.5148,0.1116,0.1275,v3.5-dedup,Goles,Visitante,,,,,,,
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.44,0.7542,0.6453,0.1089,0.0860,v3.5-dedup,Goles,Total,,,,,,,
-2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners tot. O/U 7.5,Under/No,3.00,0.3874,0.3124,0.0751,0.1623,v3.5-dedup,Corners,Total,,,,,,,
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",DC -> Empate o Cusco (X2),,3.00,0.4982,0.3154,0.1828,0.4946,v3.5-dedup,Doble Oportunidad,Total,,3.00,+0.00,2026-05-01 01:40,,,exact
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",1X2 -> Cusco gana,,8.00,0.2435,0.1179,0.1256,0.9477,v3.5-dedup,1X2,Total,,8.00,+0.00,2026-05-01 01:40,,,exact
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",1X2 -> Empate,,5.00,0.2547,0.1886,0.0661,0.2736,v3.5-dedup,1X2,Total,,4.75,+5.26,2026-05-01 01:40,,,exact
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Independiente Medellin O/U 2.5,Under/No,1.50,0.8002,0.6250,0.1752,0.2002,v3.5-dedup,Goles,Local,,1.50,+0.00,2026-05-01 01:40,,,exact
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners Independiente Medellin O/U 6.5,Under/No,1.73,0.6881,0.5362,0.1519,0.1904,v3.5-dedup,Corners,Local,,1.73,+0.00,2026-05-01 01:40,,,exact
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners Cusco O/U 2.5,Over/Si,1.83,0.6155,0.5000,0.1155,0.1263,v3.5-dedup,Corners,Visitante,,1.73,+5.78,2026-05-01 01:40,,,exact
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles Cusco O/U 0.5,Over/Si,1.80,0.6264,0.5148,0.1116,0.1275,v3.5-dedup,Goles,Visitante,,1.83,-1.64,2026-05-01 01:40,,,exact
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Goles tot. O/U 3.5,Under/No,1.44,0.7542,0.6453,0.1089,0.0860,v3.5-dedup,Goles,Total,,1.40,+2.86,2026-05-01 01:40,,,exact
+2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners tot. O/U 7.5,Under/No,3.00,0.3874,0.3124,0.0751,0.1623,v3.5-dedup,Corners,Total,,3.00,+0.00,2026-05-01 01:40,,,exact
 2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",BTTS,Under/No,1.57,0.6894,0.5890,0.1004,0.0824,v3.5-dedup,BTTS,Total,,1.57,+0.00,2026-04-30 23:16,,,exact
 2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",DC -> Empate o America de Cali (X2),,1.83,0.5937,0.5093,0.0844,0.0865,v3.5-dedup,Doble Oportunidad,Total,,1.83,+0.00,2026-04-30 23:16,,,exact
 2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",1X2 -> Empate,,3.25,0.3406,0.2921,0.0485,0.1070,v3.5-dedup,1X2,Total,,3.25,+0.00,2026-04-30 23:16,,,exact
@@ -3011,9 +3011,9 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:39,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Arco RB Bragantino O/U 3.5,Over/Si,1.67,0.6933,0.5576,0.1357,0.1551,v3.5-dedup,Arco,Local,,1.67,+0.24,2026-05-01 00:10,,,exact
 2026-04-29 18:39,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Corners RB Bragantino O/U 4.5,Over/Si,1.80,0.6137,0.5147,0.0990,0.1047,v3.5-dedup,Corners,Local,,1.67,+7.78,2026-05-01 00:10,,,exact
 2026-04-29 18:39,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Tiros tot. O/U 23.5,Over/Si,1.91,0.5321,0.4853,0.0468,0.0158,v3.5-dedup,Tiros,Total,,,,2026-05-01 00:10,1.40,+36.72,single_heur
-2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Corners Macara O/U 4.5,Under/No,1.67,0.6361,0.5570,0.0791,0.0623,v3.5-dedup,Corners,Visitante,,,,,,,
-2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.57,0.6431,0.5890,0.0541,0.0097,v3.5-dedup,Goles,Total,,,,,,,
-2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Corners tot. O/U 7.5,Under/No,3.50,0.3147,0.2685,0.0461,0.1013,v3.5-dedup,Corners,Total,,,,,,,
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Corners Macara O/U 4.5,Under/No,1.67,0.6361,0.5570,0.0791,0.0623,v3.5-dedup,Corners,Visitante,,1.67,+0.00,2026-05-01 01:40,,,exact
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Goles tot. O/U 1.5,Over/Si,1.57,0.6431,0.5890,0.0541,0.0097,v3.5-dedup,Goles,Total,,1.50,+4.67,2026-05-01 01:40,,,exact
+2026-04-29 18:39,1535170,Alianza Atletico vs Macara,"('Copa Sudamericana', True)",Corners tot. O/U 7.5,Under/No,3.50,0.3147,0.2685,0.0461,0.1013,v3.5-dedup,Corners,Total,,2.75,+27.27,2026-05-01 01:40,,,exact
 2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",DC -> Empate o Gimnasia Y Tiro (X2),,2.62,0.5824,0.3617,0.2207,0.5258,v3.5-dedup,Doble Oportunidad,Total,,2.50,+4.80,2026-04-30 23:16,,,exact
 2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",1X2 -> Gimnasia Y Tiro gana,,6.50,0.2656,0.1425,0.1231,0.7265,v3.5-dedup,1X2,Total,,7.00,-7.14,2026-04-30 23:16,,,exact
 2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",1X2 -> Empate,,4.00,0.3168,0.2316,0.0852,0.2670,v3.5-dedup,1X2,Total,,4.10,-2.44,2026-04-30 23:16,,,exact
