@@ -3733,6 +3733,6 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 04:14,1378212,Sassuolo vs AC Milan,"('Serie A', False)",Tiros Sassuolo O/U 9.5,Under/No,1.91,0.5254,0.4853,0.0401,0.0030,v3.5-dedup,Tiros,Local,,,,,,,
 2026-05-01 08:06,1391150,Real Betis vs Oviedo,"('La Liga', False)",Arco Real Betis O/U 6.5,Under/No,1.67,0.6388,0.5576,0.0812,0.0643,v3.5-dedup,Arco,Local,,,,,,,
 2026-05-01 08:06,1391150,Real Betis vs Oviedo,"('La Liga', False)",Arco Oviedo O/U 3.5,Under/No,1.80,0.5948,0.5147,0.0802,0.0707,v3.5-dedup,Arco,Visitante,,,,,,,
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",1X2 -> Albacete gana,,5.00,0.2427,0.1885,0.0542,0.2134,v3.5-dedup,1X2,Total,,,,,,,
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.40,0.7191,0.6627,0.0564,0.0067,v3.5-dedup,Goles,Total,,,,,,,
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 1.5,Under/No,2.00,0.5146,0.4638,0.0508,0.0292,v3.5-dedup,Goles,Local,,,,,,,
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",1X2 -> Albacete gana,,5.00,0.2427,0.1885,0.0542,0.2134,v3.5-dedup,1X2,Total,,5.00,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.40,0.7191,0.6627,0.0564,0.0067,v3.5-dedup,Goles,Total,,1.40,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 1.5,Under/No,2.00,0.5146,0.4638,0.0508,0.0292,v3.5-dedup,Goles,Local,,2.00,+0.00,2026-05-01 13:55,,,exact

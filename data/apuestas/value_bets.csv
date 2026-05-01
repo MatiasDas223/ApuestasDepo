@@ -6367,8 +6367,8 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 08:05,1391150,Real Betis vs Oviedo,"('La Liga', False)",Corners tot. O/U 10.5,Under/No,1.50,0.6861,0.6250,0.0611,0.0291,v3.2,Corners,Total,,,,,,,
 2026-05-01 08:05,1391150,Real Betis vs Oviedo,"('La Liga', False)",Corners tot. O/U 11.5,Under/No,1.30,0.7756,0.7234,0.0522,0.0083,v3.2,Corners,Total,,,,,,,
 2026-05-01 08:05,1391150,Real Betis vs Oviedo,"('La Liga', False)",Corners tot. O/U 6.5,Under/No,5.00,0.2331,0.1891,0.0440,0.1655,v3.2,Corners,Total,,,,,,,
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.40,0.7191,0.6627,0.0564,0.0067,v3.2,Goles,Total,,,,,,,
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",1X2 -> Albacete gana,,5.00,0.2427,0.1885,0.0542,0.2134,v3.2,1X2,Total,,,,,,,
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 1.5,Under/No,2.00,0.5146,0.4638,0.0508,0.0292,v3.2,Goles,Local,,,,,,,
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 2.5,Under/No,1.30,0.7731,0.7234,0.0496,0.0050,v3.2,Goles,Local,,,,,,,
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 2.5,Under/No,2.08,0.4991,0.4541,0.0451,0.0382,v3.2,Goles,Total,,,,,,,
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.40,0.7191,0.6627,0.0564,0.0067,v3.2,Goles,Total,,1.40,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",1X2 -> Albacete gana,,5.00,0.2427,0.1885,0.0542,0.2134,v3.2,1X2,Total,,5.00,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 1.5,Under/No,2.00,0.5146,0.4638,0.0508,0.0292,v3.2,Goles,Local,,2.00,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 2.5,Under/No,1.30,0.7731,0.7234,0.0496,0.0050,v3.2,Goles,Local,,1.30,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 2.5,Under/No,2.08,0.4991,0.4541,0.0451,0.0382,v3.2,Goles,Total,,2.08,+0.00,2026-05-01 13:55,,,exact
