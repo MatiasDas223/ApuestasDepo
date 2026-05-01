@@ -2601,7 +2601,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles Zaragoza O/U 2.5,Over/Si,5.50,0.2173,0.1717,0.0457,0.1954,v3.4-shrink,Goles,Local,,,,,,,
 2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners Zaragoza O/U 5.5,Under/No,1.62,0.6215,0.5759,0.0456,0.0068,v3.4-shrink,Corners,Local,,,,,,,
 2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles tot. O/U 0.5,Over/Si,1.07,0.9385,0.8937,0.0447,0.0042,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",1X2 -> Rizespor gana,,2.05,0.4950,0.4457,0.0493,0.0148,v3.4-shrink,1X2,Total,,,,,,,
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",1X2 -> Rizespor gana,,2.05,0.4950,0.4457,0.0493,0.0148,v3.4-shrink,1X2,Total,,1.85,+10.81,2026-05-01 13:40,,,exact
 2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Beşiktaş O/U 1.5,Under/No,2.25,0.6569,0.4110,0.2459,0.4780,v3.4-shrink,Goles,Visitante,,,,,,,
 2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Beşiktaş O/U 2.5,Under/No,1.40,0.8742,0.6627,0.2115,0.2239,v3.4-shrink,Goles,Visitante,,,,,,,
 2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",DC -> Gaziantep FK o Empate (1X),,1.95,0.6943,0.4854,0.2089,0.3539,v3.4-shrink,Doble Oportunidad,Total,,,,,,,

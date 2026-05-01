@@ -297,7 +297,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Corners Penarol O/U 3.5,Over/Si,1.80,0.7272,0.5148,0.2124,0.3090,v3.2-fil,Corners,Visitante,W,2.00,-10.00,2026-04-30 23:16,,,exact
 2026-04-29 18:36,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners Cusco O/U 2.5,Over/Si,1.83,0.6155,0.5000,0.1155,0.1263,v3.2-fil,Corners,Visitante,L,1.73,+5.78,2026-05-01 01:40,,,exact
 2026-04-29 18:38,1535184,Tigre vs America de Cali,"('Copa Sudamericana', True)",Tarjetas tot. O/U 5.5,Under/No,2.10,0.6079,0.4430,0.1650,0.2767,v3.2-fil,Tarjetas,Total,W,2.10,+0.00,2026-04-30 23:16,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Rizespor O/U 1.5,Over/Si,1.91,0.6387,0.4852,0.1535,0.2199,v3.2-fil,Goles,Local,,,,,,,
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Rizespor O/U 1.5,Over/Si,1.91,0.6387,0.4852,0.1535,0.2199,v3.2-fil,Goles,Local,,1.80,+6.11,2026-05-01 13:40,,,exact
 2026-04-29 20:01,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 3.5,Over/Si,2.75,0.4939,0.3437,0.1503,0.3583,v3.2-fil,Goles,Total,,,,,,,
 2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Corners Central Cordoba de Santiago O/U 3.5,Over/Si,1.91,0.7036,0.4853,0.2183,0.3432,v3.2-fil,Corners,Local,,,,,,,
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Goles Villarreal O/U 1.5,Over/Si,1.62,0.7668,0.5759,0.1909,0.2422,v3.2-fil,Goles,Local,,,,,,,
