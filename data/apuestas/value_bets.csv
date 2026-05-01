@@ -4860,65 +4860,65 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Universitario O/U 0.5,Under/No,3.25,0.3830,0.2904,0.0926,0.2448,v3.2,Goles,Local,L,3.00,+8.33,2026-04-30 01:40,,,exact
 2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Club Nacional O/U 2.5,Over/Si,11.00,0.1566,0.0871,0.0695,0.7226,v3.2,Goles,Visitante,L,11.00,+0.00,2026-04-30 01:40,,,exact
 2026-04-29 12:03,1535280,Universitario vs Club Nacional,"('Copa Libertadores', True)",Goles Universitario O/U 2.5,Under/No,1.10,0.9256,0.8642,0.0615,0.0182,v3.2,Goles,Local,L,1.10,+0.00,2026-04-30 01:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",1X2 -> Girona gana,,2.00,0.6741,0.4751,0.1990,0.3483,v3.2,1X2,Total,,2.00,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Girona O/U 1.5,Over/Si,1.83,0.6411,0.5000,0.1411,0.1733,v3.2,Goles,Local,,2.00,-8.50,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Tiros Mallorca O/U 11.5,Under/No,1.73,0.6776,0.5366,0.1410,0.1702,v3.2,Tiros,Visitante,,,,2026-05-01 18:40,1.64,+5.17,single_heur
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Girona O/U 2.5,Over/Si,4.00,0.3721,0.2337,0.1384,0.4884,v3.2,Goles,Local,,4.33,-7.62,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Tiros tot. O/U 24.5,Under/No,1.91,0.6156,0.4853,0.1303,0.1752,v3.2,Tiros,Total,,1.80,+6.11,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Arco Mallorca O/U 3.5,Under/No,2.00,0.5878,0.4634,0.1244,0.1756,v3.2,Arco,Visitante,,1.80,+11.11,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Mallorca O/U 1.5,Under/No,1.40,0.7859,0.6627,0.1233,0.1003,v3.2,Goles,Visitante,,1.36,+2.94,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",DC -> Girona o Empate (1X),,1.25,0.8640,0.7488,0.1152,0.0800,v3.2,Doble Oportunidad,Total,,1.25,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Corners Mallorca O/U 3.5,Under/No,1.83,0.6119,0.5000,0.1119,0.1199,v3.2,Corners,Visitante,,1.91,-4.19,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Mallorca O/U 0.5,Under/No,3.00,0.4217,0.3119,0.1098,0.2651,v3.2,Goles,Visitante,,2.75,+9.09,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Arco tot. O/U 8.5,Under/No,2.00,0.5714,0.4638,0.1075,0.1427,v3.2,Arco,Total,,1.67,+19.76,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Girona O/U 0.5,Over/Si,1.18,0.8881,0.7923,0.0958,0.0479,v3.2,Goles,Local,,1.20,-1.67,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Corners Girona O/U 5.5,Over/Si,1.83,0.5935,0.5000,0.0935,0.0861,v3.2,Corners,Local,,1.80,+1.67,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",DC -> Girona o Mallorca (12),,1.28,0.8101,0.7312,0.0789,0.0369,v3.2,Doble Oportunidad,Total,,1.30,-1.54,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Mallorca O/U 2.5,Under/No,1.08,0.9421,0.8811,0.0610,0.0174,v3.2,Goles,Visitante,,1.08,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles tot. O/U 2.5,Over/Si,1.80,0.5864,0.5263,0.0601,0.0556,v3.2,Goles,Total,,1.91,-5.76,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Tiros Girona O/U 13.5,Under/No,1.80,0.5654,0.5147,0.0507,0.0176,v3.2,Tiros,Local,,,,2026-05-01 18:40,1.64,+9.42,single_heur
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles tot. O/U 1.5,Over/Si,1.25,0.8079,0.7619,0.0460,0.0099,v3.2,Goles,Total,,1.25,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles tot. O/U 3.5,Over/Si,3.00,0.3641,0.3182,0.0460,0.0924,v3.2,Goles,Total,,3.20,-6.25,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",BTTS,Under/No,2.10,0.4862,0.4430,0.0433,0.0211,v3.2,BTTS,Total,,2.10,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 3.5,Over/Si,2.75,0.4935,0.3437,0.1498,0.3570,v3.2,Goles,Total,,2.75,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles Leeds O/U 2.5,Over/Si,2.50,0.5208,0.3750,0.1458,0.3019,v3.2,Goles,Local,,2.50,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 2.5,Over/Si,1.67,0.7045,0.5685,0.1360,0.1765,v3.2,Goles,Total,,1.67,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles Leeds O/U 1.5,Over/Si,1.50,0.7601,0.6250,0.1351,0.1402,v3.2,Goles,Local,,1.44,+4.17,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Tiros Burnley O/U 8.5,Under/No,1.80,0.6460,0.5147,0.1313,0.1628,v3.2,Tiros,Visitante,,,,2026-05-01 18:40,1.64,+9.42,single_heur
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Tiros tot. O/U 25.5,Under/No,1.91,0.6111,0.4853,0.1258,0.1666,v3.2,Tiros,Total,,,,2026-05-01 18:40,1.53,+25.04,single_heur
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 4.5,Over/Si,5.00,0.3012,0.1896,0.1116,0.5061,v3.2,Goles,Total,,5.00,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Tarjetas tot. O/U 3.5,Over/Si,2.25,0.5197,0.4110,0.1087,0.1694,v3.2,Tarjetas,Total,,2.05,+9.76,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",1X2 -> Leeds gana,,1.42,0.7647,0.6645,0.1002,0.0859,v3.2,1X2,Total,,1.36,+4.41,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 1.5,Over/Si,1.22,0.8769,0.7802,0.0967,0.0698,v3.2,Goles,Total,,1.22,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Arco Burnley O/U 2.5,Under/No,1.91,0.5584,0.4853,0.0731,0.0660,v3.2,Arco,Visitante,,1.91,+0.05,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",BTTS,Over/Si,1.95,0.5492,0.4800,0.0692,0.0710,v3.2,BTTS,Total,,1.95,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Corners Leeds O/U 6.5,Under/No,1.73,0.6041,0.5362,0.0679,0.0451,v3.2,Corners,Local,,1.67,+3.59,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Tiros Leeds O/U 17.5,Under/No,1.73,0.5975,0.5366,0.0608,0.0318,v3.2,Tiros,Local,,,,2026-05-01 18:40,1.58,+9.30,single_heur
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",DC -> Leeds o Burnley (12),,1.18,0.8595,0.7994,0.0601,0.0142,v3.2,Doble Oportunidad,Total,,1.18,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles Leeds O/U 0.5,Over/Si,1.08,0.9364,0.8811,0.0553,0.0113,v3.2,Goles,Local,,1.08,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Corners Burnley O/U 3.5,Over/Si,2.10,0.4981,0.4430,0.0552,0.0461,v3.2,Corners,Visitante,,2.00,+5.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles Burnley O/U 0.5,Over/Si,1.73,0.5868,0.5362,0.0506,0.0152,v3.2,Goles,Visitante,,1.73,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 0.5,Over/Si,1.04,0.9740,0.9259,0.0481,0.0129,v3.2,Goles,Total,,1.04,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Corners tot. O/U 9.5,Under/No,2.00,0.5053,0.4638,0.0415,0.0106,v3.2,Corners,Total,,2.00,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Lecce O/U 0.5,Under/No,3.00,0.5985,0.3119,0.2866,0.7956,v3.2,Goles,Visitante,,3.00,+0.00,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Lecce O/U 1.5,Under/No,1.40,0.9037,0.6627,0.2410,0.2652,v3.2,Goles,Visitante,,1.40,+0.00,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Tiros Lecce O/U 12.5,Under/No,1.73,0.7630,0.5366,0.2264,0.3177,v3.2,Tiros,Visitante,,,,2026-05-01 18:25,1.53,+13.26,single_heur
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",DC -> Pisa o Empate (1X),,1.53,0.8350,0.6154,0.2196,0.2776,v3.2,Doble Oportunidad,Total,,1.57,-2.55,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",1X2 -> Pisa gana,,3.20,0.5141,0.2965,0.2176,0.6450,v3.2,1X2,Total,,3.50,-8.57,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Tiros tot. O/U 22.5,Under/No,2.00,0.6631,0.4634,0.1998,0.3263,v3.2,Tiros,Total,,1.83,+9.11,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",BTTS,Under/No,1.70,0.7246,0.5467,0.1780,0.2319,v3.2,BTTS,Total,,1.67,+1.80,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles tot. O/U 2.5,Under/No,1.53,0.7664,0.6203,0.1460,0.1725,v3.2,Goles,Total,,1.44,+6.25,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles tot. O/U 1.5,Under/No,2.62,0.5037,0.3641,0.1397,0.3198,v3.2,Goles,Total,,2.50,+4.80,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Lecce O/U 2.5,Under/No,1.10,0.9838,0.8642,0.1196,0.0822,v3.2,Goles,Visitante,,1.10,+0.00,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Arco tot. O/U 6.5,Under/No,1.83,0.6191,0.5000,0.1191,0.1330,v3.2,Arco,Total,,2.00,-8.50,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Arco Lecce O/U 3.5,Under/No,1.61,0.6955,0.5767,0.1188,0.1232,v3.2,Arco,Visitante,,1.91,-15.66,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles tot. O/U 3.5,Under/No,1.17,0.9098,0.8104,0.0995,0.0645,v3.2,Goles,Total,,1.17,+0.00,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Corners Lecce O/U 4.5,Under/No,1.80,0.6018,0.5148,0.0870,0.0833,v3.2,Corners,Visitante,,1.67,+7.78,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Corners Pisa O/U 4.5,Over/Si,1.83,0.5786,0.5000,0.0786,0.0589,v3.2,Corners,Local,,1.73,+5.78,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles tot. O/U 4.5,Under/No,1.05,0.9715,0.9129,0.0586,0.0201,v3.2,Goles,Total,,1.05,+0.00,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Pisa O/U 0.5,Over/Si,1.50,0.6829,0.6250,0.0579,0.0243,v3.2,Goles,Local,,1.57,-4.46,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Pisa O/U 1.5,Over/Si,3.50,0.3202,0.2678,0.0524,0.1206,v3.2,Goles,Local,,3.75,-6.67,2026-05-01 18:25,,,exact
-2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles tot. O/U 0.5,Under/No,6.50,0.1910,0.1459,0.0451,0.2416,v3.2,Goles,Total,,6.50,+0.00,2026-05-01 18:25,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",1X2 -> Girona gana,,2.00,0.6741,0.4751,0.1990,0.3483,v3.2,1X2,Total,L,2.00,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Girona O/U 1.5,Over/Si,1.83,0.6411,0.5000,0.1411,0.1733,v3.2,Goles,Local,L,2.00,-8.50,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Tiros Mallorca O/U 11.5,Under/No,1.73,0.6776,0.5366,0.1410,0.1702,v3.2,Tiros,Visitante,W,,,2026-05-01 18:40,1.64,+5.17,single_heur
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Girona O/U 2.5,Over/Si,4.00,0.3721,0.2337,0.1384,0.4884,v3.2,Goles,Local,L,4.33,-7.62,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Tiros tot. O/U 24.5,Under/No,1.91,0.6156,0.4853,0.1303,0.1752,v3.2,Tiros,Total,W,1.80,+6.11,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Arco Mallorca O/U 3.5,Under/No,2.00,0.5878,0.4634,0.1244,0.1756,v3.2,Arco,Visitante,L,1.80,+11.11,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Mallorca O/U 1.5,Under/No,1.40,0.7859,0.6627,0.1233,0.1003,v3.2,Goles,Visitante,W,1.36,+2.94,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",DC -> Girona o Empate (1X),,1.25,0.8640,0.7488,0.1152,0.0800,v3.2,Doble Oportunidad,Total,L,1.25,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Corners Mallorca O/U 3.5,Under/No,1.83,0.6119,0.5000,0.1119,0.1199,v3.2,Corners,Visitante,W,1.91,-4.19,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Mallorca O/U 0.5,Under/No,3.00,0.4217,0.3119,0.1098,0.2651,v3.2,Goles,Visitante,L,2.75,+9.09,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Arco tot. O/U 8.5,Under/No,2.00,0.5714,0.4638,0.1075,0.1427,v3.2,Arco,Total,W,1.67,+19.76,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Girona O/U 0.5,Over/Si,1.18,0.8881,0.7923,0.0958,0.0479,v3.2,Goles,Local,L,1.20,-1.67,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Corners Girona O/U 5.5,Over/Si,1.83,0.5935,0.5000,0.0935,0.0861,v3.2,Corners,Local,L,1.80,+1.67,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",DC -> Girona o Mallorca (12),,1.28,0.8101,0.7312,0.0789,0.0369,v3.2,Doble Oportunidad,Total,W,1.30,-1.54,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles Mallorca O/U 2.5,Under/No,1.08,0.9421,0.8811,0.0610,0.0174,v3.2,Goles,Visitante,W,1.08,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles tot. O/U 2.5,Over/Si,1.80,0.5864,0.5263,0.0601,0.0556,v3.2,Goles,Total,L,1.91,-5.76,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Tiros Girona O/U 13.5,Under/No,1.80,0.5654,0.5147,0.0507,0.0176,v3.2,Tiros,Local,L,,,2026-05-01 18:40,1.64,+9.42,single_heur
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles tot. O/U 1.5,Over/Si,1.25,0.8079,0.7619,0.0460,0.0099,v3.2,Goles,Total,L,1.25,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",Goles tot. O/U 3.5,Over/Si,3.00,0.3641,0.3182,0.0460,0.0924,v3.2,Goles,Total,L,3.20,-6.25,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1391154,Girona vs Mallorca,"('La Liga', False)",BTTS,Under/No,2.10,0.4862,0.4430,0.0433,0.0211,v3.2,BTTS,Total,W,2.10,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 3.5,Over/Si,2.75,0.4935,0.3437,0.1498,0.3570,v3.2,Goles,Total,W,2.75,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles Leeds O/U 2.5,Over/Si,2.50,0.5208,0.3750,0.1458,0.3019,v3.2,Goles,Local,W,2.50,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 2.5,Over/Si,1.67,0.7045,0.5685,0.1360,0.1765,v3.2,Goles,Total,W,1.67,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles Leeds O/U 1.5,Over/Si,1.50,0.7601,0.6250,0.1351,0.1402,v3.2,Goles,Local,W,1.44,+4.17,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Tiros Burnley O/U 8.5,Under/No,1.80,0.6460,0.5147,0.1313,0.1628,v3.2,Tiros,Visitante,L,,,2026-05-01 18:40,1.64,+9.42,single_heur
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Tiros tot. O/U 25.5,Under/No,1.91,0.6111,0.4853,0.1258,0.1666,v3.2,Tiros,Total,L,,,2026-05-01 18:40,1.53,+25.04,single_heur
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 4.5,Over/Si,5.00,0.3012,0.1896,0.1116,0.5061,v3.2,Goles,Total,L,5.00,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Tarjetas tot. O/U 3.5,Over/Si,2.25,0.5197,0.4110,0.1087,0.1694,v3.2,Tarjetas,Total,W,2.05,+9.76,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",1X2 -> Leeds gana,,1.42,0.7647,0.6645,0.1002,0.0859,v3.2,1X2,Total,W,1.36,+4.41,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 1.5,Over/Si,1.22,0.8769,0.7802,0.0967,0.0698,v3.2,Goles,Total,W,1.22,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Arco Burnley O/U 2.5,Under/No,1.91,0.5584,0.4853,0.0731,0.0660,v3.2,Arco,Visitante,L,1.91,+0.05,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",BTTS,Over/Si,1.95,0.5492,0.4800,0.0692,0.0710,v3.2,BTTS,Total,W,1.95,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Corners Leeds O/U 6.5,Under/No,1.73,0.6041,0.5362,0.0679,0.0451,v3.2,Corners,Local,W,1.67,+3.59,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Tiros Leeds O/U 17.5,Under/No,1.73,0.5975,0.5366,0.0608,0.0318,v3.2,Tiros,Local,L,,,2026-05-01 18:40,1.58,+9.30,single_heur
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",DC -> Leeds o Burnley (12),,1.18,0.8595,0.7994,0.0601,0.0142,v3.2,Doble Oportunidad,Total,W,1.18,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles Leeds O/U 0.5,Over/Si,1.08,0.9364,0.8811,0.0553,0.0113,v3.2,Goles,Local,W,1.08,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Corners Burnley O/U 3.5,Over/Si,2.10,0.4981,0.4430,0.0552,0.0461,v3.2,Corners,Visitante,L,2.00,+5.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles Burnley O/U 0.5,Over/Si,1.73,0.5868,0.5362,0.0506,0.0152,v3.2,Goles,Visitante,W,1.73,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Goles tot. O/U 0.5,Over/Si,1.04,0.9740,0.9259,0.0481,0.0129,v3.2,Goles,Total,W,1.04,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:28,1379315,Leeds vs Burnley,"('Premier League', False)",Corners tot. O/U 9.5,Under/No,2.00,0.5053,0.4638,0.0415,0.0106,v3.2,Corners,Total,W,2.00,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Lecce O/U 0.5,Under/No,3.00,0.5985,0.3119,0.2866,0.7956,v3.2,Goles,Visitante,L,3.00,+0.00,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Lecce O/U 1.5,Under/No,1.40,0.9037,0.6627,0.2410,0.2652,v3.2,Goles,Visitante,L,1.40,+0.00,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Tiros Lecce O/U 12.5,Under/No,1.73,0.7630,0.5366,0.2264,0.3177,v3.2,Tiros,Visitante,W,,,2026-05-01 18:25,1.53,+13.26,single_heur
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",DC -> Pisa o Empate (1X),,1.53,0.8350,0.6154,0.2196,0.2776,v3.2,Doble Oportunidad,Total,L,1.57,-2.55,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",1X2 -> Pisa gana,,3.20,0.5141,0.2965,0.2176,0.6450,v3.2,1X2,Total,L,3.50,-8.57,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Tiros tot. O/U 22.5,Under/No,2.00,0.6631,0.4634,0.1998,0.3263,v3.2,Tiros,Total,L,1.83,+9.11,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",BTTS,Under/No,1.70,0.7246,0.5467,0.1780,0.2319,v3.2,BTTS,Total,L,1.67,+1.80,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles tot. O/U 2.5,Under/No,1.53,0.7664,0.6203,0.1460,0.1725,v3.2,Goles,Total,L,1.44,+6.25,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles tot. O/U 1.5,Under/No,2.62,0.5037,0.3641,0.1397,0.3198,v3.2,Goles,Total,L,2.50,+4.80,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Lecce O/U 2.5,Under/No,1.10,0.9838,0.8642,0.1196,0.0822,v3.2,Goles,Visitante,W,1.10,+0.00,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Arco tot. O/U 6.5,Under/No,1.83,0.6191,0.5000,0.1191,0.1330,v3.2,Arco,Total,L,2.00,-8.50,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Arco Lecce O/U 3.5,Under/No,1.61,0.6955,0.5767,0.1188,0.1232,v3.2,Arco,Visitante,L,1.91,-15.66,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles tot. O/U 3.5,Under/No,1.17,0.9098,0.8104,0.0995,0.0645,v3.2,Goles,Total,W,1.17,+0.00,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Corners Lecce O/U 4.5,Under/No,1.80,0.6018,0.5148,0.0870,0.0833,v3.2,Corners,Visitante,W,1.67,+7.78,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Corners Pisa O/U 4.5,Over/Si,1.83,0.5786,0.5000,0.0786,0.0589,v3.2,Corners,Local,W,1.73,+5.78,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles tot. O/U 4.5,Under/No,1.05,0.9715,0.9129,0.0586,0.0201,v3.2,Goles,Total,W,1.05,+0.00,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Pisa O/U 0.5,Over/Si,1.50,0.6829,0.6250,0.0579,0.0243,v3.2,Goles,Local,W,1.57,-4.46,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Pisa O/U 1.5,Over/Si,3.50,0.3202,0.2678,0.0524,0.1206,v3.2,Goles,Local,L,3.75,-6.67,2026-05-01 18:25,,,exact
+2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Goles tot. O/U 0.5,Under/No,6.50,0.1910,0.1459,0.0451,0.2416,v3.2,Goles,Total,L,6.50,+0.00,2026-05-01 18:25,,,exact
 2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners Sampdoria O/U 4.5,Over/Si,1.80,0.6281,0.5148,0.1133,0.1306,v3.2,Corners,Local,L,1.73,+4.05,2026-05-01 12:40,,,exact
 2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners tot. O/U 8.5,Over/Si,1.73,0.5922,0.5362,0.0560,0.0246,v3.2,Corners,Total,L,1.73,+0.00,2026-05-01 12:40,,,exact
 2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Goles tot. O/U 2.5,Over/Si,2.05,0.5110,0.4605,0.0505,0.0476,v3.2,Goles,Total,L,2.20,-6.82,2026-05-01 12:40,,,exact
@@ -5139,15 +5139,15 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles tot. O/U 4.5,Under/No,1.12,0.9063,0.8427,0.0636,0.0151,v3.2,Goles,Total,W,1.12,+0.00,2026-05-01 16:10,,,exact
 2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners Leganes O/U 3.5,Over/Si,1.83,0.5523,0.5000,0.0523,0.0107,v3.2,Corners,Visitante,L,1.67,+9.58,2026-05-01 16:10,,,exact
 2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles Leganes O/U 2.5,Under/No,1.04,0.9725,0.9259,0.0465,0.0114,v3.2,Goles,Visitante,W,1.04,+0.00,2026-05-01 16:10,,,exact
-2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners Granada CF O/U 3.5,Over/Si,1.73,0.6343,0.5362,0.0981,0.0973,v3.2,Corners,Visitante,,1.67,+3.59,2026-05-01 18:40,,,exact
-2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",1X2 -> Zaragoza gana,,2.25,0.4995,0.4153,0.0841,0.1238,v3.2,1X2,Total,,1.95,+15.38,2026-05-01 18:40,,,exact
-2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles Zaragoza O/U 1.5,Over/Si,2.25,0.4790,0.4110,0.0680,0.0777,v3.2,Goles,Local,,2.20,+2.27,2026-05-01 18:40,,,exact
-2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles Zaragoza O/U 0.5,Over/Si,1.28,0.7989,0.7322,0.0667,0.0226,v3.2,Goles,Local,,1.25,+2.40,2026-05-01 18:40,,,exact
-2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles tot. O/U 2.5,Over/Si,2.15,0.5016,0.4372,0.0644,0.0784,v3.2,Goles,Total,,2.15,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles tot. O/U 1.5,Over/Si,1.36,0.7486,0.6881,0.0605,0.0180,v3.2,Goles,Total,,1.36,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",DC -> Zaragoza o Granada CF (12),,1.36,0.7511,0.6988,0.0523,0.0215,v3.2,Doble Oportunidad,Total,,1.36,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles Zaragoza O/U 2.5,Over/Si,5.50,0.2210,0.1717,0.0493,0.2156,v3.2,Goles,Local,,5.00,+10.00,2026-05-01 18:40,,,exact
-2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners Zaragoza O/U 5.5,Under/No,1.62,0.6217,0.5759,0.0457,0.0071,v3.2,Corners,Local,,1.67,-2.99,2026-05-01 18:40,,,exact
+2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners Granada CF O/U 3.5,Over/Si,1.73,0.6343,0.5362,0.0981,0.0973,v3.2,Corners,Visitante,W,1.67,+3.59,2026-05-01 18:40,,,exact
+2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",1X2 -> Zaragoza gana,,2.25,0.4995,0.4153,0.0841,0.1238,v3.2,1X2,Total,L,1.95,+15.38,2026-05-01 18:40,,,exact
+2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles Zaragoza O/U 1.5,Over/Si,2.25,0.4790,0.4110,0.0680,0.0777,v3.2,Goles,Local,L,2.20,+2.27,2026-05-01 18:40,,,exact
+2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles Zaragoza O/U 0.5,Over/Si,1.28,0.7989,0.7322,0.0667,0.0226,v3.2,Goles,Local,L,1.25,+2.40,2026-05-01 18:40,,,exact
+2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles tot. O/U 2.5,Over/Si,2.15,0.5016,0.4372,0.0644,0.0784,v3.2,Goles,Total,L,2.15,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles tot. O/U 1.5,Over/Si,1.36,0.7486,0.6881,0.0605,0.0180,v3.2,Goles,Total,L,1.36,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",DC -> Zaragoza o Granada CF (12),,1.36,0.7511,0.6988,0.0523,0.0215,v3.2,Doble Oportunidad,Total,W,1.36,+0.00,2026-05-01 18:40,,,exact
+2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles Zaragoza O/U 2.5,Over/Si,5.50,0.2210,0.1717,0.0493,0.2156,v3.2,Goles,Local,L,5.00,+10.00,2026-05-01 18:40,,,exact
+2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners Zaragoza O/U 5.5,Under/No,1.62,0.6217,0.5759,0.0457,0.0071,v3.2,Corners,Local,L,1.67,-2.99,2026-05-01 18:40,,,exact
 2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",1X2 -> Rizespor gana,,2.05,0.6304,0.4457,0.1847,0.2924,v3.2,1X2,Total,W,1.85,+10.81,2026-05-01 13:40,,,exact
 2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Rizespor O/U 1.5,Over/Si,1.91,0.6387,0.4852,0.1535,0.2199,v3.2,Goles,Local,W,1.80,+6.11,2026-05-01 13:40,,,exact
 2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Rizespor O/U 2.5,Over/Si,4.00,0.3694,0.2337,0.1357,0.4775,v3.2,Goles,Local,W,3.50,+14.29,2026-05-01 13:40,,,exact
@@ -6373,3 +6373,20 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 2.5,Under/No,1.30,0.7731,0.7234,0.0496,0.0050,v3.2,Goles,Local,W,1.30,+0.00,2026-05-01 13:55,,,exact
 2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 2.5,Under/No,2.08,0.4991,0.4541,0.0451,0.0382,v3.2,Goles,Total,W,2.08,+0.00,2026-05-01 13:55,,,exact
 2026-05-01 16:09,1388593,FC St. Pauli vs FSV Mainz 05,"('Bundesliga', False)",Goles FC St. Pauli O/U 2.5,Over/Si,7.00,0.1761,0.1358,0.0403,0.2328,v3.2,Goles,Local,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Corners Talleres Cordoba O/U 3.5,Under/No,1.80,0.7361,0.5148,0.2213,0.3250,v3.2,Corners,Visitante,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Corners Union Santa Fe O/U 4.5,Over/Si,1.73,0.7188,0.5362,0.1826,0.2436,v3.2,Corners,Local,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Tarjetas tot. O/U 5.5,Under/No,1.83,0.6705,0.5000,0.1705,0.2270,v3.2,Tarjetas,Total,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Talleres Cordoba O/U 0.5,Under/No,2.38,0.5567,0.3913,0.1654,0.3250,v3.2,Goles,Visitante,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",BTTS,Under/No,1.70,0.7078,0.5467,0.1612,0.2033,v3.2,BTTS,Total,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 2.5,Under/No,1.50,0.7683,0.6250,0.1433,0.1525,v3.2,Goles,Total,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Talleres Cordoba O/U 1.5,Under/No,1.25,0.8818,0.7500,0.1318,0.1023,v3.2,Goles,Visitante,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 1.5,Under/No,2.50,0.5047,0.3750,0.1297,0.2616,v3.2,Goles,Total,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 3.5,Under/No,1.17,0.9134,0.8104,0.1030,0.0686,v3.2,Goles,Total,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Arco tot. O/U 8.5,Under/No,1.80,0.5876,0.5148,0.0728,0.0577,v3.2,Arco,Total,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",DC -> Union Santa Fe o Empate (1X),,1.28,0.8005,0.7323,0.0682,0.0246,v3.2,Doble Oportunidad,Total,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Talleres Cordoba O/U 2.5,Under/No,1.05,0.9781,0.9129,0.0653,0.0270,v3.2,Goles,Visitante,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Union Santa Fe O/U 1.5,Under/No,1.44,0.7094,0.6453,0.0641,0.0216,v3.2,Goles,Local,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 4.5,Under/No,1.05,0.9722,0.9129,0.0594,0.0208,v3.2,Goles,Total,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",1X2 -> Union Santa Fe gana,,2.30,0.4700,0.4135,0.0565,0.0810,v3.2,1X2,Total,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Union Santa Fe O/U 0.5,Under/No,3.25,0.3412,0.2904,0.0508,0.1089,v3.2,Goles,Local,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 0.5,Under/No,6.50,0.1901,0.1459,0.0442,0.2357,v3.2,Goles,Total,,,,,,,
