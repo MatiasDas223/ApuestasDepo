@@ -3731,3 +3731,5 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 04:05,1391153,Getafe vs Rayo Vallecano,"('La Liga', False)",Arco Getafe O/U 4.5,Under/No,1.61,0.8406,0.5767,0.2639,0.3575,v3.5-dedup,Arco,Local,,,,,,,
 2026-05-01 04:05,1391153,Getafe vs Rayo Vallecano,"('La Liga', False)",Arco Rayo Vallecano O/U 3.5,Under/No,1.73,0.5806,0.5366,0.0440,0.0027,v3.5-dedup,Arco,Visitante,,,,,,,
 2026-05-01 04:14,1378212,Sassuolo vs AC Milan,"('Serie A', False)",Tiros Sassuolo O/U 9.5,Under/No,1.91,0.5254,0.4853,0.0401,0.0030,v3.5-dedup,Tiros,Local,,,,,,,
+2026-05-01 08:06,1391150,Real Betis vs Oviedo,"('La Liga', False)",Arco Real Betis O/U 6.5,Under/No,1.67,0.6388,0.5576,0.0812,0.0643,v3.5-dedup,Arco,Local,,,,,,,
+2026-05-01 08:06,1391150,Real Betis vs Oviedo,"('La Liga', False)",Arco Oviedo O/U 3.5,Under/No,1.80,0.5948,0.5147,0.0802,0.0707,v3.5-dedup,Arco,Visitante,,,,,,,
