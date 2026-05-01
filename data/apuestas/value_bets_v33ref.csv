@@ -4214,3 +4214,4 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 2.5,Under/No,1.30,0.7738,0.7234,0.0504,0.0059,v3.3-ref,Goles,Local,W,1.30,+0.00,2026-05-01 13:55,,,exact
 2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 2.5,Under/No,2.08,0.4990,0.4541,0.0449,0.0379,v3.3-ref,Goles,Total,W,2.08,+0.00,2026-05-01 13:55,,,exact
 2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",DC -> Empate o Albacete (X2),,2.10,0.4899,0.4485,0.0414,0.0287,v3.3-ref,Doble Oportunidad,Total,W,2.10,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 16:09,1388593,FC St. Pauli vs FSV Mainz 05,"('Bundesliga', False)",Goles FC St. Pauli O/U 2.5,Over/Si,7.00,0.1761,0.1358,0.0403,0.2328,v3.3-ref,Goles,Local,,,,,,,
