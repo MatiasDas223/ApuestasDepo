@@ -3613,3 +3613,4 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Union Santa Fe O/U 1.5,Over/Si,2.62,0.4062,0.3547,0.0516,0.0643,v3.4-shrink,Goles,Local,,,,,,,
 2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",1X2 -> Union Santa Fe gana,,2.30,0.4587,0.4135,0.0452,0.0550,v3.4-shrink,1X2,Total,,,,,,,
 2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Union Santa Fe O/U 0.5,Over/Si,1.33,0.7525,0.7096,0.0429,0.0009,v3.4-shrink,Goles,Local,,,,,,,
+2026-05-01 20:12,1492245,Internacional vs Fluminense,"('Brasileirao Serie A', False)",DC -> Internacional o Fluminense (12),,1.36,0.7388,0.6988,0.0400,0.0048,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
