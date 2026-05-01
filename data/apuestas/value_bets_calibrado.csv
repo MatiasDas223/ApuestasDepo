@@ -3539,147 +3539,147 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Corners tot. O/U 5.5,Under/No,8.00,0.1633,0.1192,0.0440,0.3061,v3.2-cal,Corners,Total,,8.00,+0.00,2026-05-01 18:25,,,exact
 2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Corners tot. O/U 7.5,Under/No,3.25,0.3333,0.2909,0.0425,0.0833,v3.2-cal,Corners,Total,,3.25,+0.00,2026-05-01 18:25,,,exact
 2026-04-29 18:29,1378210,Pisa vs Lecce,"('Serie A', False)",Corners tot. O/U 6.5,Under/No,4.50,0.2479,0.2079,0.0400,0.1157,v3.2-cal,Corners,Total,,4.50,+0.00,2026-05-01 18:25,,,exact
-2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners Sampdoria O/U 4.5,Over/Si,1.80,0.6667,0.5148,0.1518,0.2000,v3.2-cal,Corners,Local,,1.73,+4.05,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,6.50,0.2479,0.1460,0.1020,0.6116,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,10.52,-38.24,extrap
-2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Goles Sampdoria O/U 1.5,Over/Si,2.20,0.5000,0.4241,0.0759,0.1000,v3.2-cal,Goles,Local,,2.50,-12.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Goles Sudtirol O/U 0.5,Over/Si,1.44,0.7119,0.6453,0.0665,0.0251,v3.2-cal,Goles,Visitante,,1.44,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Goles Sudtirol O/U 2.5,Over/Si,9.00,0.1707,0.1063,0.0645,0.5366,v3.2-cal,Goles,Visitante,,10.00,-10.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,10.00,0.1579,0.0960,0.0619,0.5789,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,93.41,-89.29,extrap
-2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners Sudtirol O/U 3.5,Under/No,2.10,0.5000,0.4430,0.0570,0.0500,v3.2-cal,Corners,Visitante,,2.10,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners tot. O/U 10.5,Over/Si,3.00,0.3690,0.3124,0.0566,0.1071,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,2.76,+8.81,extrap
-2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners tot. O/U 9.5,Over/Si,2.00,0.5000,0.4467,0.0533,0.0000,v3.2-cal,Corners,Total,,2.00,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",DC -> Sampdoria o Sudtirol (12),,1.36,0.7482,0.7050,0.0432,0.0176,v3.2-cal,Doble Oportunidad,Total,,1.36,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",1X2 -> Bari gana,,3.00,0.6167,0.3157,0.3010,0.8502,v3.2-cal,1X2,Total,,2.88,+4.17,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",DC -> Bari o Empate (1X),,1.50,0.8430,0.6300,0.2130,0.2645,v3.2-cal,Doble Oportunidad,Total,,1.50,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles Virtus Entella O/U 1.5,Under/No,1.50,0.8158,0.6250,0.1908,0.2237,v3.2-cal,Goles,Visitante,,1.44,+4.17,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles Bari O/U 1.5,Over/Si,2.75,0.5000,0.3373,0.1627,0.3750,v3.2-cal,Goles,Local,,2.75,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles Virtus Entella O/U 0.5,Under/No,3.25,0.4509,0.2904,0.1605,0.4655,v3.2-cal,Goles,Visitante,,3.25,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles Bari O/U 0.5,Over/Si,1.36,0.7794,0.6881,0.0913,0.0600,v3.2-cal,Goles,Local,,1.36,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles Bari O/U 2.5,Over/Si,7.00,0.2206,0.1358,0.0848,0.5441,v3.2-cal,Goles,Local,,8.00,-12.50,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",DC -> Bari o Virtus Entella (12),,1.36,0.7737,0.6949,0.0788,0.0522,v3.2-cal,Doble Oportunidad,Total,,1.36,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",BTTS,Under/No,1.95,0.5575,0.4800,0.0775,0.0870,v3.2-cal,BTTS,Total,,1.95,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles tot. O/U 1.5,Over/Si,1.33,0.7634,0.7096,0.0538,0.0154,v3.2-cal,Goles,Total,,1.33,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles tot. O/U 2.5,Over/Si,2.10,0.5000,0.4474,0.0526,0.0500,v3.2-cal,Goles,Total,,2.10,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles tot. O/U 0.5,Over/Si,1.07,0.9390,0.8937,0.0453,0.0048,v3.2-cal,Goles,Total,,1.07,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners Empoli O/U 5.5,Over/Si,2.10,0.6667,0.4430,0.2237,0.4000,v3.2-cal,Corners,Local,,2.00,+5.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",1X2 -> Empoli gana,,2.20,0.5747,0.4248,0.1500,0.2644,v3.2-cal,1X2,Total,,2.15,+2.33,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 10.5,Over/Si,2.62,0.4937,0.3549,0.1388,0.2959,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,2.08,+25.91,extrap
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners Avellino O/U 3.5,Under/No,2.00,0.5686,0.4638,0.1048,0.1373,v3.2-cal,Corners,Visitante,,2.20,-9.09,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles Empoli O/U 1.5,Over/Si,2.25,0.5000,0.4110,0.0890,0.1250,v3.2-cal,Goles,Local,,2.25,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 8.5,Over/Si,1.61,0.6386,0.5533,0.0853,0.0313,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,1.68,-4.42,extrap
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 11.5,Over/Si,3.75,0.3333,0.2500,0.0833,0.2500,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,2.36,+59.01,extrap
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",DC -> Empoli o Empate (1X),,1.33,0.7998,0.7209,0.0789,0.0638,v3.2-cal,Doble Oportunidad,Total,,1.30,+2.31,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,2.72,+102.12,extrap
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",DC -> Empoli o Avellino (12),,1.36,0.7749,0.7050,0.0699,0.0539,v3.2-cal,Doble Oportunidad,Total,,1.36,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles Avellino O/U 0.5,Over/Si,1.44,0.7119,0.6453,0.0665,0.0251,v3.2-cal,Goles,Visitante,,1.44,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles Avellino O/U 2.5,Over/Si,9.00,0.1707,0.1063,0.0645,0.5366,v3.2-cal,Goles,Visitante,,10.00,-10.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles Empoli O/U 2.5,Over/Si,5.50,0.2333,0.1717,0.0616,0.2833,v3.2-cal,Goles,Local,,5.50,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles tot. O/U 1.5,Over/Si,1.33,0.7634,0.7096,0.0538,0.0154,v3.2-cal,Goles,Total,,1.36,-2.21,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles tot. O/U 2.5,Over/Si,2.10,0.5000,0.4474,0.0526,0.0500,v3.2-cal,Goles,Total,,2.15,-2.33,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 14.5,Over/Si,13.00,0.1250,0.0741,0.0509,0.6250,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,3.93,+230.75,extrap
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles tot. O/U 0.5,Over/Si,1.07,0.9390,0.8937,0.0453,0.0048,v3.2-cal,Goles,Total,,1.08,-0.93,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,8.00,0.1633,0.1192,0.0440,0.3061,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,3.22,+148.77,extrap
-2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 7.5,Over/Si,1.33,0.7521,0.7091,0.0429,0.0025,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,1.54,-13.52,extrap
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Venezia O/U 1.5,Under/No,2.10,0.6286,0.4430,0.1856,0.3200,v3.2-cal,Goles,Visitante,,2.10,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",DC -> Spezia o Empate (1X),,2.05,0.6326,0.4569,0.1757,0.2969,v3.2-cal,Doble Oportunidad,Total,,2.15,-4.65,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",1X2 -> Spezia gana,,4.50,0.3821,0.2083,0.1738,0.7193,v3.2-cal,1X2,Total,,4.75,-5.26,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Venezia O/U 0.5,Under/No,6.00,0.2881,0.1573,0.1308,0.7288,v3.2-cal,Goles,Visitante,,6.00,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners Venezia O/U 4.5,Under/No,2.10,0.5686,0.4430,0.1257,0.1941,v3.2-cal,Corners,Visitante,,2.10,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles tot. O/U 3.5,Under/No,1.44,0.7634,0.6453,0.1181,0.0994,v3.2-cal,Goles,Total,,1.44,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Venezia O/U 2.5,Under/No,1.33,0.8276,0.7096,0.1180,0.1007,v3.2-cal,Goles,Visitante,,1.33,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Spezia O/U 0.5,Over/Si,1.40,0.7794,0.6627,0.1168,0.0912,v3.2-cal,Goles,Local,,1.44,-2.78,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Spezia O/U 2.5,Over/Si,9.00,0.2206,0.1063,0.1143,0.9853,v3.2-cal,Goles,Local,,10.00,-10.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Spezia O/U 1.5,Over/Si,3.00,0.4091,0.3119,0.0972,0.2273,v3.2-cal,Goles,Local,,3.40,-11.76,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners Spezia O/U 4.5,Over/Si,2.10,0.5370,0.4430,0.0941,0.1278,v3.2-cal,Corners,Local,,2.10,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners tot. O/U 6.5,Under/No,5.00,0.2479,0.1891,0.0588,0.2397,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,4.58,+9.29,single_heur
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners tot. O/U 7.5,Under/No,3.40,0.3333,0.2766,0.0567,0.1333,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,3.05,+11.48,single_heur
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles tot. O/U 2.5,Under/No,2.10,0.5000,0.4474,0.0526,0.0500,v3.2-cal,Goles,Total,,2.15,-2.33,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners tot. O/U 5.5,Under/No,9.00,0.1579,0.1063,0.0515,0.4211,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,9.15,-1.64,single_heur
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles tot. O/U 4.5,Under/No,1.17,0.8571,0.8104,0.0468,0.0029,v3.2-cal,Goles,Total,,1.17,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,4.50,0.2479,0.2079,0.0400,0.1157,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,4.58,-1.64,single_heur
-2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles tot. O/U 3.5,Over/Si,2.62,0.5000,0.3547,0.1453,0.3100,v3.2-cal,Goles,Total,,2.62,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles Palermo O/U 2.5,Over/Si,3.00,0.4091,0.3119,0.0972,0.2273,v3.2-cal,Goles,Local,,3.25,-7.69,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",1X2 -> Palermo gana,,1.55,0.6823,0.6057,0.0766,0.0576,v3.2-cal,1X2,Total,,1.80,-13.89,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles tot. O/U 1.5,Over/Si,1.20,0.8571,0.7830,0.0741,0.0286,v3.2-cal,Goles,Total,,1.22,-1.64,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles tot. O/U 2.5,Over/Si,1.70,0.6087,0.5526,0.0561,0.0348,v3.2-cal,Goles,Total,,1.70,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles Palermo O/U 1.5,Over/Si,1.62,0.6296,0.5759,0.0537,0.0200,v3.2-cal,Goles,Local,,1.67,-2.99,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners Palermo O/U 5.5,Under/No,1.91,0.5370,0.4852,0.0519,0.0257,v3.2-cal,Corners,Local,,1.91,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles tot. O/U 4.5,Over/Si,5.00,0.2366,0.1896,0.0469,0.1828,v3.2-cal,Goles,Total,,5.00,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles Catanzaro O/U 0.5,Over/Si,1.50,0.6667,0.6250,0.0417,0.0000,v3.2-cal,Goles,Visitante,,1.44,+4.17,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",1X2 -> Juve Stabia gana,,3.30,0.4425,0.2846,0.1580,0.4603,v3.2-cal,1X2,Total,,3.60,-8.33,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Frosinone O/U 1.5,Under/No,1.83,0.6286,0.5000,0.1286,0.1503,v3.2-cal,Goles,Visitante,,1.83,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",DC -> Juve Stabia o Empate (1X),,1.70,0.6809,0.5546,0.1263,0.1575,v3.2-cal,Doble Oportunidad,Total,,1.80,-5.56,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Juve Stabia O/U 1.5,Over/Si,2.50,0.5000,0.3750,0.1250,0.2500,v3.2-cal,Goles,Local,,2.62,-4.58,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles tot. O/U 1.5,Over/Si,1.22,0.8571,0.7663,0.0909,0.0457,v3.2-cal,Goles,Total,,1.22,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Corners tot. O/U 8.5,Over/Si,1.61,0.6386,0.5533,0.0853,0.0313,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,1.59,+1.13,extrap
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Corners tot. O/U 11.5,Over/Si,3.75,0.3333,0.2500,0.0833,0.2500,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,4.38,-14.48,extrap
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Frosinone O/U 0.5,Under/No,4.50,0.2881,0.2077,0.0804,0.2966,v3.2-cal,Goles,Visitante,,5.00,-10.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Frosinone O/U 2.5,Under/No,1.25,0.8293,0.7500,0.0793,0.0366,v3.2-cal,Goles,Visitante,,1.25,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,10.56,-47.92,extrap
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Corners Juve Stabia O/U 4.5,Over/Si,2.20,0.5000,0.4241,0.0759,0.1000,v3.2-cal,Corners,Local,,2.20,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Juve Stabia O/U 2.5,Over/Si,6.50,0.2206,0.1459,0.0747,0.4338,v3.2-cal,Goles,Local,,7.00,-7.14,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Juve Stabia O/U 0.5,Over/Si,1.33,0.7794,0.7096,0.0698,0.0366,v3.2-cal,Goles,Local,,1.33,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles tot. O/U 3.5,Over/Si,2.75,0.3913,0.3373,0.0540,0.0761,v3.2-cal,Goles,Total,,2.75,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles tot. O/U 2.5,Under/No,2.08,0.5000,0.4541,0.0459,0.0400,v3.2-cal,Goles,Total,,2.08,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,8.00,0.1633,0.1192,0.0440,0.3061,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,93.74,-91.47,extrap
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners Padova O/U 4.5,Over/Si,2.00,0.6667,0.4638,0.2029,0.3333,v3.2-cal,Corners,Local,,2.00,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles Pescara O/U 1.5,Under/No,1.73,0.7119,0.5362,0.1757,0.2315,v3.2-cal,Goles,Visitante,,1.73,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",DC -> Padova o Empate (1X),,1.62,0.7397,0.5818,0.1579,0.1983,v3.2-cal,Doble Oportunidad,Total,,1.53,+5.88,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",1X2 -> Padova gana,,2.70,0.4984,0.3479,0.1504,0.3456,v3.2-cal,1X2,Total,,2.75,-1.82,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles tot. O/U 3.5,Under/No,1.44,0.7634,0.6453,0.1181,0.0994,v3.2-cal,Goles,Total,,1.44,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,6.50,0.2479,0.1460,0.1020,0.6116,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,9.02,-27.97,single_heur
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles Padova O/U 1.5,Over/Si,2.25,0.5000,0.4110,0.0890,0.1250,v3.2-cal,Goles,Local,,2.20,+2.27,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners tot. O/U 11.5,Over/Si,3.25,0.3690,0.2909,0.0782,0.1994,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,3.11,+4.44,single_heur
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles Pescara O/U 0.5,Under/No,4.33,0.2881,0.2170,0.0711,0.2476,v3.2-cal,Goles,Visitante,,4.33,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners tot. O/U 14.5,Over/Si,10.00,0.1579,0.0960,0.0619,0.5789,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,94.99,-89.47,single_heur
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners Pescara O/U 4.5,Under/No,2.10,0.5000,0.4430,0.0570,0.0500,v3.2-cal,Corners,Visitante,,2.10,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles tot. O/U 2.5,Under/No,2.10,0.5000,0.4474,0.0526,0.0500,v3.2-cal,Goles,Total,,2.10,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles Padova O/U 2.5,Over/Si,5.50,0.2206,0.1717,0.0489,0.2132,v3.2-cal,Goles,Local,,5.00,+10.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles tot. O/U 4.5,Under/No,1.17,0.8571,0.8104,0.0468,0.0029,v3.2-cal,Goles,Total,,1.17,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,4.50,0.2500,0.2079,0.0421,0.1250,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,4.63,-2.76,single_heur
-2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners tot. O/U 8.5,Over/Si,1.50,0.6667,0.6250,0.0417,0.0000,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,1.57,-4.42,single_heur
-2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Goles Reggiana O/U 0.5,Under/No,2.38,0.6286,0.3913,0.2373,0.4960,v3.2-cal,Goles,Visitante,,2.38,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Corners Reggiana O/U 2.5,Over/Si,1.67,0.6970,0.5570,0.1399,0.1639,v3.2-cal,Corners,Visitante,,1.62,+3.09,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",BTTS,Under/No,1.91,0.6216,0.5000,0.1216,0.1873,v3.2-cal,BTTS,Total,,1.95,-2.05,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Goles tot. O/U 4.5,Under/No,1.14,0.9390,0.8283,0.1107,0.0705,v3.2-cal,Goles,Total,,1.12,+1.79,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Goles tot. O/U 3.5,Under/No,1.40,0.7634,0.6627,0.1008,0.0688,v3.2-cal,Goles,Total,,1.36,+2.94,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",1X2 -> Modena gana,,1.62,0.6767,0.5801,0.0967,0.0963,v3.2-cal,1X2,Total,,1.67,-2.99,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",DC -> Modena o Empate (1X),,1.18,0.8876,0.8052,0.0823,0.0473,v3.2-cal,Doble Oportunidad,Total,,1.17,+0.85,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Goles Reggiana O/U 1.5,Under/No,1.25,0.8293,0.7500,0.0793,0.0366,v3.2-cal,Goles,Visitante,,1.25,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",DC -> Modena o Reggiana (12),,1.28,0.7892,0.7423,0.0469,0.0102,v3.2-cal,Doble Oportunidad,Total,,1.25,+2.40,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Goles Modena O/U 0.5,Under/No,5.50,0.2164,0.1717,0.0447,0.1901,v3.2-cal,Goles,Local,,5.50,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",1X2 -> Carrarese gana,,2.30,0.7726,0.4100,0.3626,0.7769,v3.2-cal,1X2,Total,,2.25,+2.22,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Cesena O/U 0.5,Under/No,3.40,0.6286,0.2766,0.3520,1.1371,v3.2-cal,Goles,Visitante,,3.40,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",DC -> Carrarese o Empate (1X),,1.36,0.9305,0.6923,0.2382,0.2655,v3.2-cal,Doble Oportunidad,Total,,1.36,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",BTTS,Under/No,2.20,0.6344,0.4241,0.2103,0.3957,v3.2-cal,BTTS,Total,,2.25,-2.22,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Cesena O/U 1.5,Under/No,1.50,0.8293,0.6250,0.2043,0.2439,v3.2-cal,Goles,Visitante,,1.50,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Carrarese O/U 2.5,Over/Si,4.50,0.4091,0.2077,0.2013,0.8409,v3.2-cal,Goles,Local,,4.33,+3.93,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Carrarese O/U 1.5,Over/Si,2.00,0.6296,0.4638,0.1658,0.2593,v3.2-cal,Goles,Local,,2.00,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Cesena O/U 2.5,Under/No,1.12,1.0000,0.8427,0.1573,0.1200,v3.2-cal,Goles,Visitante,,1.12,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners Carrarese O/U 4.5,Over/Si,1.80,0.6667,0.5148,0.1518,0.2000,v3.2-cal,Corners,Local,,1.67,+7.78,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",DC -> Carrarese o Cesena (12),,1.33,0.8421,0.7079,0.1341,0.1199,v3.2-cal,Doble Oportunidad,Total,,1.30,+2.31,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners Cesena O/U 4.5,Under/No,1.62,0.6842,0.5759,0.1083,0.1084,v3.2-cal,Corners,Visitante,,1.62,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles tot. O/U 3.5,Under/No,1.40,0.7634,0.6627,0.1008,0.0688,v3.2-cal,Goles,Total,,1.44,-2.78,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,6.00,0.2479,0.1579,0.0900,0.4876,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,1.51,+296.80,extrap
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners tot. O/U 8.5,Over/Si,1.67,0.6386,0.5570,0.0815,0.0664,v3.2-cal,Corners,Total,,1.67,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners Cesena O/U 3.5,Under/No,2.20,0.5000,0.4241,0.0759,0.1000,v3.2-cal,Corners,Visitante,,2.20,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Carrarese O/U 0.5,Over/Si,1.22,0.8286,0.7663,0.0623,0.0109,v3.2-cal,Goles,Local,,1.20,+1.67,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,9.00,0.1579,0.1063,0.0515,0.4211,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,1.43,+530.36,extrap
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 1.5,Under/No,1.83,0.7119,0.5000,0.2119,0.3027,v3.2-cal,Goles,Visitante,,1.91,-4.19,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",DC -> Mantova o Empate (1X),,2.05,0.6651,0.4594,0.2058,0.3635,v3.2-cal,Doble Oportunidad,Total,,2.15,-4.65,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",1X2 -> Mantova gana,,5.00,0.3929,0.1880,0.2048,0.9643,v3.2-cal,1X2,Total,,5.25,-4.76,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners Mantova O/U 3.5,Over/Si,1.73,0.6949,0.5362,0.1587,0.2022,v3.2-cal,Corners,Local,,1.62,+6.79,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Mantova O/U 0.5,Over/Si,1.53,0.7667,0.6087,0.1580,0.1730,v3.2-cal,Goles,Local,,1.53,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners Monza O/U 4.5,Under/No,2.10,0.5686,0.4430,0.1257,0.1941,v3.2-cal,Corners,Visitante,,1.91,+9.95,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Mantova O/U 1.5,Over/Si,3.75,0.3704,0.2500,0.1204,0.3889,v3.2-cal,Goles,Local,,3.75,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 0.5,Under/No,5.00,0.2881,0.1896,0.0985,0.4407,v3.2-cal,Goles,Visitante,,5.50,-9.09,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Mantova O/U 2.5,Over/Si,13.00,0.1714,0.0741,0.0974,1.2286,v3.2-cal,Goles,Local,,13.00,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles tot. O/U 4.5,Under/No,1.11,0.9390,0.8541,0.0849,0.0423,v3.2-cal,Goles,Total,,1.11,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 2.5,Under/No,1.25,0.8293,0.7500,0.0793,0.0366,v3.2-cal,Goles,Visitante,,1.28,-2.34,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners tot. O/U 10.5,Over/Si,3.00,0.3690,0.3124,0.0566,0.1071,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,3.40,-11.80,extrap
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles tot. O/U 3.5,Under/No,1.33,0.7634,0.7096,0.0538,0.0154,v3.2-cal,Goles,Total,,1.33,+0.00,2026-05-01 12:40,,,exact
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,9.00,0.1579,0.1063,0.0515,0.4211,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,93.97,-90.42,extrap
-2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners tot. O/U 8.5,Under/No,2.10,0.4937,0.4430,0.0507,0.0367,v3.2-cal,Corners,Total,,2.10,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners Sampdoria O/U 4.5,Over/Si,1.80,0.6667,0.5148,0.1518,0.2000,v3.2-cal,Corners,Local,L,1.73,+4.05,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,6.50,0.2479,0.1460,0.1020,0.6116,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,10.52,-38.24,extrap
+2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Goles Sampdoria O/U 1.5,Over/Si,2.20,0.5000,0.4241,0.0759,0.1000,v3.2-cal,Goles,Local,L,2.50,-12.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Goles Sudtirol O/U 0.5,Over/Si,1.44,0.7119,0.6453,0.0665,0.0251,v3.2-cal,Goles,Visitante,L,1.44,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Goles Sudtirol O/U 2.5,Over/Si,9.00,0.1707,0.1063,0.0645,0.5366,v3.2-cal,Goles,Visitante,L,10.00,-10.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,10.00,0.1579,0.0960,0.0619,0.5789,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,93.41,-89.29,extrap
+2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners Sudtirol O/U 3.5,Under/No,2.10,0.5000,0.4430,0.0570,0.0500,v3.2-cal,Corners,Visitante,W,2.10,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners tot. O/U 10.5,Over/Si,3.00,0.3690,0.3124,0.0566,0.1071,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,2.76,+8.81,extrap
+2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",Corners tot. O/U 9.5,Over/Si,2.00,0.5000,0.4467,0.0533,0.0000,v3.2-cal,Corners,Total,L,2.00,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419953,Sampdoria vs Sudtirol,"('Coppa Italia', True)",DC -> Sampdoria o Sudtirol (12),,1.36,0.7482,0.7050,0.0432,0.0176,v3.2-cal,Doble Oportunidad,Total,W,1.36,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",1X2 -> Bari gana,,3.00,0.6167,0.3157,0.3010,0.8502,v3.2-cal,1X2,Total,W,2.88,+4.17,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",DC -> Bari o Empate (1X),,1.50,0.8430,0.6300,0.2130,0.2645,v3.2-cal,Doble Oportunidad,Total,W,1.50,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles Virtus Entella O/U 1.5,Under/No,1.50,0.8158,0.6250,0.1908,0.2237,v3.2-cal,Goles,Visitante,W,1.44,+4.17,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles Bari O/U 1.5,Over/Si,2.75,0.5000,0.3373,0.1627,0.3750,v3.2-cal,Goles,Local,W,2.75,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles Virtus Entella O/U 0.5,Under/No,3.25,0.4509,0.2904,0.1605,0.4655,v3.2-cal,Goles,Visitante,W,3.25,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles Bari O/U 0.5,Over/Si,1.36,0.7794,0.6881,0.0913,0.0600,v3.2-cal,Goles,Local,W,1.36,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles Bari O/U 2.5,Over/Si,7.00,0.2206,0.1358,0.0848,0.5441,v3.2-cal,Goles,Local,L,8.00,-12.50,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",DC -> Bari o Virtus Entella (12),,1.36,0.7737,0.6949,0.0788,0.0522,v3.2-cal,Doble Oportunidad,Total,W,1.36,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",BTTS,Under/No,1.95,0.5575,0.4800,0.0775,0.0870,v3.2-cal,BTTS,Total,W,1.95,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles tot. O/U 1.5,Over/Si,1.33,0.7634,0.7096,0.0538,0.0154,v3.2-cal,Goles,Total,W,1.33,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles tot. O/U 2.5,Over/Si,2.10,0.5000,0.4474,0.0526,0.0500,v3.2-cal,Goles,Total,L,2.10,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:30,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Goles tot. O/U 0.5,Over/Si,1.07,0.9390,0.8937,0.0453,0.0048,v3.2-cal,Goles,Total,W,1.07,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners Empoli O/U 5.5,Over/Si,2.10,0.6667,0.4430,0.2237,0.4000,v3.2-cal,Corners,Local,L,2.00,+5.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",1X2 -> Empoli gana,,2.20,0.5747,0.4248,0.1500,0.2644,v3.2-cal,1X2,Total,W,2.15,+2.33,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 10.5,Over/Si,2.62,0.4937,0.3549,0.1388,0.2959,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,2.08,+25.91,extrap
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners Avellino O/U 3.5,Under/No,2.00,0.5686,0.4638,0.1048,0.1373,v3.2-cal,Corners,Visitante,W,2.20,-9.09,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles Empoli O/U 1.5,Over/Si,2.25,0.5000,0.4110,0.0890,0.1250,v3.2-cal,Goles,Local,L,2.25,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 8.5,Over/Si,1.61,0.6386,0.5533,0.0853,0.0313,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,1.68,-4.42,extrap
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 11.5,Over/Si,3.75,0.3333,0.2500,0.0833,0.2500,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,2.36,+59.01,extrap
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",DC -> Empoli o Empate (1X),,1.33,0.7998,0.7209,0.0789,0.0638,v3.2-cal,Doble Oportunidad,Total,W,1.30,+2.31,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,2.72,+102.12,extrap
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",DC -> Empoli o Avellino (12),,1.36,0.7749,0.7050,0.0699,0.0539,v3.2-cal,Doble Oportunidad,Total,W,1.36,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles Avellino O/U 0.5,Over/Si,1.44,0.7119,0.6453,0.0665,0.0251,v3.2-cal,Goles,Visitante,L,1.44,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles Avellino O/U 2.5,Over/Si,9.00,0.1707,0.1063,0.0645,0.5366,v3.2-cal,Goles,Visitante,L,10.00,-10.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles Empoli O/U 2.5,Over/Si,5.50,0.2333,0.1717,0.0616,0.2833,v3.2-cal,Goles,Local,L,5.50,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles tot. O/U 1.5,Over/Si,1.33,0.7634,0.7096,0.0538,0.0154,v3.2-cal,Goles,Total,L,1.36,-2.21,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles tot. O/U 2.5,Over/Si,2.10,0.5000,0.4474,0.0526,0.0500,v3.2-cal,Goles,Total,L,2.15,-2.33,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 14.5,Over/Si,13.00,0.1250,0.0741,0.0509,0.6250,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,3.93,+230.75,extrap
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Goles tot. O/U 0.5,Over/Si,1.07,0.9390,0.8937,0.0453,0.0048,v3.2-cal,Goles,Total,W,1.08,-0.93,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,8.00,0.1633,0.1192,0.0440,0.3061,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,3.22,+148.77,extrap
+2026-04-29 18:31,1419959,Empoli vs Avellino,"('Coppa Italia', True)",Corners tot. O/U 7.5,Over/Si,1.33,0.7521,0.7091,0.0429,0.0025,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,1.54,-13.52,extrap
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Venezia O/U 1.5,Under/No,2.10,0.6286,0.4430,0.1856,0.3200,v3.2-cal,Goles,Visitante,L,2.10,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",DC -> Spezia o Empate (1X),,2.05,0.6326,0.4569,0.1757,0.2969,v3.2-cal,Doble Oportunidad,Total,W,2.15,-4.65,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",1X2 -> Spezia gana,,4.50,0.3821,0.2083,0.1738,0.7193,v3.2-cal,1X2,Total,L,4.75,-5.26,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Venezia O/U 0.5,Under/No,6.00,0.2881,0.1573,0.1308,0.7288,v3.2-cal,Goles,Visitante,L,6.00,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners Venezia O/U 4.5,Under/No,2.10,0.5686,0.4430,0.1257,0.1941,v3.2-cal,Corners,Visitante,L,2.10,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles tot. O/U 3.5,Under/No,1.44,0.7634,0.6453,0.1181,0.0994,v3.2-cal,Goles,Total,L,1.44,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Venezia O/U 2.5,Under/No,1.33,0.8276,0.7096,0.1180,0.1007,v3.2-cal,Goles,Visitante,W,1.33,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Spezia O/U 0.5,Over/Si,1.40,0.7794,0.6627,0.1168,0.0912,v3.2-cal,Goles,Local,W,1.44,-2.78,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Spezia O/U 2.5,Over/Si,9.00,0.2206,0.1063,0.1143,0.9853,v3.2-cal,Goles,Local,L,10.00,-10.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles Spezia O/U 1.5,Over/Si,3.00,0.4091,0.3119,0.0972,0.2273,v3.2-cal,Goles,Local,W,3.40,-11.76,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners Spezia O/U 4.5,Over/Si,2.10,0.5370,0.4430,0.0941,0.1278,v3.2-cal,Corners,Local,W,2.10,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners tot. O/U 6.5,Under/No,5.00,0.2479,0.1891,0.0588,0.2397,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,4.58,+9.29,single_heur
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners tot. O/U 7.5,Under/No,3.40,0.3333,0.2766,0.0567,0.1333,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,3.05,+11.48,single_heur
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles tot. O/U 2.5,Under/No,2.10,0.5000,0.4474,0.0526,0.0500,v3.2-cal,Goles,Total,L,2.15,-2.33,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners tot. O/U 5.5,Under/No,9.00,0.1579,0.1063,0.0515,0.4211,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,9.15,-1.64,single_heur
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Goles tot. O/U 4.5,Under/No,1.17,0.8571,0.8104,0.0468,0.0029,v3.2-cal,Goles,Total,W,1.17,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419955,Spezia vs Venezia,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,4.50,0.2479,0.2079,0.0400,0.1157,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,4.58,-1.64,single_heur
+2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles tot. O/U 3.5,Over/Si,2.62,0.5000,0.3547,0.1453,0.3100,v3.2-cal,Goles,Total,W,2.62,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles Palermo O/U 2.5,Over/Si,3.00,0.4091,0.3119,0.0972,0.2273,v3.2-cal,Goles,Local,W,3.25,-7.69,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",1X2 -> Palermo gana,,1.55,0.6823,0.6057,0.0766,0.0576,v3.2-cal,1X2,Total,W,1.80,-13.89,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles tot. O/U 1.5,Over/Si,1.20,0.8571,0.7830,0.0741,0.0286,v3.2-cal,Goles,Total,W,1.22,-1.64,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles tot. O/U 2.5,Over/Si,1.70,0.6087,0.5526,0.0561,0.0348,v3.2-cal,Goles,Total,W,1.70,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles Palermo O/U 1.5,Over/Si,1.62,0.6296,0.5759,0.0537,0.0200,v3.2-cal,Goles,Local,W,1.67,-2.99,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners Palermo O/U 5.5,Under/No,1.91,0.5370,0.4852,0.0519,0.0257,v3.2-cal,Corners,Local,W,1.91,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles tot. O/U 4.5,Over/Si,5.00,0.2366,0.1896,0.0469,0.1828,v3.2-cal,Goles,Total,W,5.00,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:31,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Goles Catanzaro O/U 0.5,Over/Si,1.50,0.6667,0.6250,0.0417,0.0000,v3.2-cal,Goles,Visitante,W,1.44,+4.17,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",1X2 -> Juve Stabia gana,,3.30,0.4425,0.2846,0.1580,0.4603,v3.2-cal,1X2,Total,L,3.60,-8.33,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Frosinone O/U 1.5,Under/No,1.83,0.6286,0.5000,0.1286,0.1503,v3.2-cal,Goles,Visitante,W,1.83,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",DC -> Juve Stabia o Empate (1X),,1.70,0.6809,0.5546,0.1263,0.1575,v3.2-cal,Doble Oportunidad,Total,L,1.80,-5.56,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Juve Stabia O/U 1.5,Over/Si,2.50,0.5000,0.3750,0.1250,0.2500,v3.2-cal,Goles,Local,L,2.62,-4.58,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles tot. O/U 1.5,Over/Si,1.22,0.8571,0.7663,0.0909,0.0457,v3.2-cal,Goles,Total,L,1.22,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Corners tot. O/U 8.5,Over/Si,1.61,0.6386,0.5533,0.0853,0.0313,v3.2-cal,Corners,Total,W,,,2026-05-01 12:40,1.59,+1.13,extrap
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Corners tot. O/U 11.5,Over/Si,3.75,0.3333,0.2500,0.0833,0.2500,v3.2-cal,Corners,Total,W,,,2026-05-01 12:40,4.38,-14.48,extrap
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Frosinone O/U 0.5,Under/No,4.50,0.2881,0.2077,0.0804,0.2966,v3.2-cal,Goles,Visitante,L,5.00,-10.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Frosinone O/U 2.5,Under/No,1.25,0.8293,0.7500,0.0793,0.0366,v3.2-cal,Goles,Visitante,W,1.25,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,W,,,2026-05-01 12:40,10.56,-47.92,extrap
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Corners Juve Stabia O/U 4.5,Over/Si,2.20,0.5000,0.4241,0.0759,0.1000,v3.2-cal,Corners,Local,W,2.20,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Juve Stabia O/U 2.5,Over/Si,6.50,0.2206,0.1459,0.0747,0.4338,v3.2-cal,Goles,Local,L,7.00,-7.14,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles Juve Stabia O/U 0.5,Over/Si,1.33,0.7794,0.7096,0.0698,0.0366,v3.2-cal,Goles,Local,L,1.33,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles tot. O/U 3.5,Over/Si,2.75,0.3913,0.3373,0.0540,0.0761,v3.2-cal,Goles,Total,L,2.75,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Goles tot. O/U 2.5,Under/No,2.08,0.5000,0.4541,0.0459,0.0400,v3.2-cal,Goles,Total,W,2.08,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419952,Juve Stabia vs Frosinone,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,8.00,0.1633,0.1192,0.0440,0.3061,v3.2-cal,Corners,Total,W,,,2026-05-01 12:40,93.74,-91.47,extrap
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners Padova O/U 4.5,Over/Si,2.00,0.6667,0.4638,0.2029,0.3333,v3.2-cal,Corners,Local,L,2.00,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles Pescara O/U 1.5,Under/No,1.73,0.7119,0.5362,0.1757,0.2315,v3.2-cal,Goles,Visitante,W,1.73,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",DC -> Padova o Empate (1X),,1.62,0.7397,0.5818,0.1579,0.1983,v3.2-cal,Doble Oportunidad,Total,W,1.53,+5.88,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",1X2 -> Padova gana,,2.70,0.4984,0.3479,0.1504,0.3456,v3.2-cal,1X2,Total,W,2.75,-1.82,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles tot. O/U 3.5,Under/No,1.44,0.7634,0.6453,0.1181,0.0994,v3.2-cal,Goles,Total,W,1.44,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,6.50,0.2479,0.1460,0.1020,0.6116,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,9.02,-27.97,single_heur
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles Padova O/U 1.5,Over/Si,2.25,0.5000,0.4110,0.0890,0.1250,v3.2-cal,Goles,Local,L,2.20,+2.27,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners tot. O/U 11.5,Over/Si,3.25,0.3690,0.2909,0.0782,0.1994,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,3.11,+4.44,single_heur
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles Pescara O/U 0.5,Under/No,4.33,0.2881,0.2170,0.0711,0.2476,v3.2-cal,Goles,Visitante,W,4.33,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners tot. O/U 14.5,Over/Si,10.00,0.1579,0.0960,0.0619,0.5789,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,94.99,-89.47,single_heur
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners Pescara O/U 4.5,Under/No,2.10,0.5000,0.4430,0.0570,0.0500,v3.2-cal,Corners,Visitante,L,2.10,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles tot. O/U 2.5,Under/No,2.10,0.5000,0.4474,0.0526,0.0500,v3.2-cal,Goles,Total,W,2.10,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles Padova O/U 2.5,Over/Si,5.50,0.2206,0.1717,0.0489,0.2132,v3.2-cal,Goles,Local,L,5.00,+10.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Goles tot. O/U 4.5,Under/No,1.17,0.8571,0.8104,0.0468,0.0029,v3.2-cal,Goles,Total,W,1.17,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,4.50,0.2500,0.2079,0.0421,0.1250,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,4.63,-2.76,single_heur
+2026-04-29 18:32,1419960,Padova vs Pescara,"('Coppa Italia', True)",Corners tot. O/U 8.5,Over/Si,1.50,0.6667,0.6250,0.0417,0.0000,v3.2-cal,Corners,Total,W,,,2026-05-01 12:40,1.57,-4.42,single_heur
+2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Goles Reggiana O/U 0.5,Under/No,2.38,0.6286,0.3913,0.2373,0.4960,v3.2-cal,Goles,Visitante,L,2.38,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Corners Reggiana O/U 2.5,Over/Si,1.67,0.6970,0.5570,0.1399,0.1639,v3.2-cal,Corners,Visitante,W,1.62,+3.09,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",BTTS,Under/No,1.91,0.6216,0.5000,0.1216,0.1873,v3.2-cal,BTTS,Total,L,1.95,-2.05,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Goles tot. O/U 4.5,Under/No,1.14,0.9390,0.8283,0.1107,0.0705,v3.2-cal,Goles,Total,W,1.12,+1.79,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Goles tot. O/U 3.5,Under/No,1.40,0.7634,0.6627,0.1008,0.0688,v3.2-cal,Goles,Total,W,1.36,+2.94,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",1X2 -> Modena gana,,1.62,0.6767,0.5801,0.0967,0.0963,v3.2-cal,1X2,Total,W,1.67,-2.99,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",DC -> Modena o Empate (1X),,1.18,0.8876,0.8052,0.0823,0.0473,v3.2-cal,Doble Oportunidad,Total,W,1.17,+0.85,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Goles Reggiana O/U 1.5,Under/No,1.25,0.8293,0.7500,0.0793,0.0366,v3.2-cal,Goles,Visitante,W,1.25,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",DC -> Modena o Reggiana (12),,1.28,0.7892,0.7423,0.0469,0.0102,v3.2-cal,Doble Oportunidad,Total,W,1.25,+2.40,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419957,Modena vs Reggiana,"('Coppa Italia', True)",Goles Modena O/U 0.5,Under/No,5.50,0.2164,0.1717,0.0447,0.1901,v3.2-cal,Goles,Local,L,5.50,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",1X2 -> Carrarese gana,,2.30,0.7726,0.4100,0.3626,0.7769,v3.2-cal,1X2,Total,L,2.25,+2.22,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Cesena O/U 0.5,Under/No,3.40,0.6286,0.2766,0.3520,1.1371,v3.2-cal,Goles,Visitante,W,3.40,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",DC -> Carrarese o Empate (1X),,1.36,0.9305,0.6923,0.2382,0.2655,v3.2-cal,Doble Oportunidad,Total,W,1.36,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",BTTS,Under/No,2.20,0.6344,0.4241,0.2103,0.3957,v3.2-cal,BTTS,Total,W,2.25,-2.22,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Cesena O/U 1.5,Under/No,1.50,0.8293,0.6250,0.2043,0.2439,v3.2-cal,Goles,Visitante,W,1.50,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Carrarese O/U 2.5,Over/Si,4.50,0.4091,0.2077,0.2013,0.8409,v3.2-cal,Goles,Local,L,4.33,+3.93,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Carrarese O/U 1.5,Over/Si,2.00,0.6296,0.4638,0.1658,0.2593,v3.2-cal,Goles,Local,L,2.00,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Cesena O/U 2.5,Under/No,1.12,1.0000,0.8427,0.1573,0.1200,v3.2-cal,Goles,Visitante,W,1.12,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners Carrarese O/U 4.5,Over/Si,1.80,0.6667,0.5148,0.1518,0.2000,v3.2-cal,Corners,Local,W,1.67,+7.78,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",DC -> Carrarese o Cesena (12),,1.33,0.8421,0.7079,0.1341,0.1199,v3.2-cal,Doble Oportunidad,Total,L,1.30,+2.31,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners Cesena O/U 4.5,Under/No,1.62,0.6842,0.5759,0.1083,0.1084,v3.2-cal,Corners,Visitante,W,1.62,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles tot. O/U 3.5,Under/No,1.40,0.7634,0.6627,0.1008,0.0688,v3.2-cal,Goles,Total,W,1.44,-2.78,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,6.00,0.2479,0.1579,0.0900,0.4876,v3.2-cal,Corners,Total,W,,,2026-05-01 12:40,1.51,+296.80,extrap
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners tot. O/U 8.5,Over/Si,1.67,0.6386,0.5570,0.0815,0.0664,v3.2-cal,Corners,Total,W,1.67,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners Cesena O/U 3.5,Under/No,2.20,0.5000,0.4241,0.0759,0.1000,v3.2-cal,Corners,Visitante,L,2.20,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Goles Carrarese O/U 0.5,Over/Si,1.22,0.8286,0.7663,0.0623,0.0109,v3.2-cal,Goles,Local,L,1.20,+1.67,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419954,Carrarese vs Cesena,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,9.00,0.1579,0.1063,0.0515,0.4211,v3.2-cal,Corners,Total,W,,,2026-05-01 12:40,1.43,+530.36,extrap
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 1.5,Under/No,1.83,0.7119,0.5000,0.2119,0.3027,v3.2-cal,Goles,Visitante,L,1.91,-4.19,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",DC -> Mantova o Empate (1X),,2.05,0.6651,0.4594,0.2058,0.3635,v3.2-cal,Doble Oportunidad,Total,W,2.15,-4.65,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",1X2 -> Mantova gana,,5.00,0.3929,0.1880,0.2048,0.9643,v3.2-cal,1X2,Total,W,5.25,-4.76,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners Mantova O/U 3.5,Over/Si,1.73,0.6949,0.5362,0.1587,0.2022,v3.2-cal,Corners,Local,L,1.62,+6.79,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Mantova O/U 0.5,Over/Si,1.53,0.7667,0.6087,0.1580,0.1730,v3.2-cal,Goles,Local,W,1.53,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners Monza O/U 4.5,Under/No,2.10,0.5686,0.4430,0.1257,0.1941,v3.2-cal,Corners,Visitante,L,1.91,+9.95,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Mantova O/U 1.5,Over/Si,3.75,0.3704,0.2500,0.1204,0.3889,v3.2-cal,Goles,Local,W,3.75,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 0.5,Under/No,5.00,0.2881,0.1896,0.0985,0.4407,v3.2-cal,Goles,Visitante,L,5.50,-9.09,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Mantova O/U 2.5,Over/Si,13.00,0.1714,0.0741,0.0974,1.2286,v3.2-cal,Goles,Local,W,13.00,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles tot. O/U 4.5,Under/No,1.11,0.9390,0.8541,0.0849,0.0423,v3.2-cal,Goles,Total,L,1.11,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles Monza O/U 2.5,Under/No,1.25,0.8293,0.7500,0.0793,0.0366,v3.2-cal,Goles,Visitante,W,1.28,-2.34,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners tot. O/U 10.5,Over/Si,3.00,0.3690,0.3124,0.0566,0.1071,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,3.40,-11.80,extrap
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Goles tot. O/U 3.5,Under/No,1.33,0.7634,0.7096,0.0538,0.0154,v3.2-cal,Goles,Total,L,1.33,+0.00,2026-05-01 12:40,,,exact
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners tot. O/U 13.5,Over/Si,9.00,0.1579,0.1063,0.0515,0.4211,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,93.97,-90.42,extrap
+2026-04-29 18:33,1419956,Mantova vs Monza,"('Coppa Italia', True)",Corners tot. O/U 8.5,Under/No,2.10,0.4937,0.4430,0.0507,0.0367,v3.2-cal,Corners,Total,W,2.10,+0.00,2026-05-01 12:40,,,exact
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tiros Penarol O/U 8.5,Over/Si,1.83,0.7817,0.5000,0.2817,0.4328,v3.2-cal,Tiros,Visitante,W,,,2026-04-30 23:16,1.64,+11.25,single_heur
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tarjetas tot. O/U 6.5,Under/No,1.73,0.7941,0.5362,0.2579,0.3738,v3.2-cal,Tarjetas,Total,W,1.73,+0.00,2026-04-30 23:16,,,exact
 2026-04-29 18:36,1535269,Corinthians vs Penarol,"('Copa Libertadores', True)",Tarjetas tot. O/U 5.5,Under/No,2.20,0.6667,0.4241,0.2426,0.4667,v3.2-cal,Tarjetas,Total,W,2.00,+10.00,2026-04-30 23:16,,,exact
@@ -3781,19 +3781,19 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Corners tot. O/U 14.5,Over/Si,15.00,0.1098,0.0640,0.0458,0.6463,v3.2-cal,Corners,Total,,15.00,+0.00,2026-04-30 23:16,,,exact
 2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Corners tot. O/U 10.5,Over/Si,3.25,0.3333,0.2909,0.0425,0.0833,v3.2-cal,Corners,Total,,3.25,+0.00,2026-04-30 23:16,,,exact
 2026-04-29 18:39,1540860,Velez Sarsfield vs Gimnasia Y Tiro,"('Copa Argentina', True)",Corners tot. O/U 11.5,Over/Si,4.50,0.2479,0.2079,0.0400,0.1157,v3.2-cal,Corners,Total,,4.50,+0.00,2026-04-30 23:16,,,exact
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",BTTS,Under/No,1.83,0.6085,0.5000,0.1085,0.1136,v3.2-cal,BTTS,Total,,1.80,+1.67,2026-05-01 16:10,,,exact
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles tot. O/U 4.5,Under/No,1.12,0.9390,0.8427,0.0963,0.0517,v3.2-cal,Goles,Total,,1.12,+0.00,2026-05-01 16:10,,,exact
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles Leganes O/U 0.5,Under/No,2.25,0.5000,0.4110,0.0890,0.1250,v3.2-cal,Goles,Visitante,,2.25,+0.00,2026-05-01 16:10,,,exact
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",1X2 -> Deportivo La Coruna gana,,1.67,0.6360,0.5558,0.0803,0.0622,v3.2-cal,1X2,Total,,1.53,+9.15,2026-05-01 16:10,,,exact
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles Leganes O/U 1.5,Under/No,1.25,0.8293,0.7500,0.0793,0.0366,v3.2-cal,Goles,Visitante,,1.22,+2.46,2026-05-01 16:10,,,exact
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners tot. O/U 6.5,Under/No,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,,,,2026-05-01 16:10,5.60,-1.70,extrap
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",DC -> Deportivo La Coruna o Empate (1X),,1.18,0.8660,0.8023,0.0637,0.0218,v3.2-cal,Doble Oportunidad,Total,,1.17,+0.85,2026-05-01 16:10,,,exact
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners tot. O/U 5.5,Under/No,9.00,0.1633,0.1063,0.0569,0.4694,v3.2-cal,Corners,Total,,,,2026-05-01 16:10,13.60,-33.82,extrap
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners tot. O/U 7.5,Under/No,3.40,0.3333,0.2766,0.0567,0.1333,v3.2-cal,Corners,Total,,,,2026-05-01 16:10,3.52,-3.47,extrap
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.33,0.7634,0.7096,0.0538,0.0154,v3.2-cal,Goles,Total,,1.33,+0.00,2026-05-01 16:10,,,exact
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners tot. O/U 4.5,Under/No,17.00,0.1098,0.0569,0.0529,0.8659,v3.2-cal,Corners,Total,,,,2026-05-01 16:10,93.84,-81.88,extrap
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles Leganes O/U 2.5,Over/Si,13.00,0.1250,0.0741,0.0509,0.6250,v3.2-cal,Goles,Visitante,,13.00,+0.00,2026-05-01 16:10,,,exact
-2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners tot. O/U 12.5,Over/Si,4.50,0.2479,0.2079,0.0400,0.1157,v3.2-cal,Corners,Total,,,,2026-05-01 16:10,3.91,+15.14,extrap
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",BTTS,Under/No,1.83,0.6085,0.5000,0.1085,0.1136,v3.2-cal,BTTS,Total,L,1.80,+1.67,2026-05-01 16:10,,,exact
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles tot. O/U 4.5,Under/No,1.12,0.9390,0.8427,0.0963,0.0517,v3.2-cal,Goles,Total,W,1.12,+0.00,2026-05-01 16:10,,,exact
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles Leganes O/U 0.5,Under/No,2.25,0.5000,0.4110,0.0890,0.1250,v3.2-cal,Goles,Visitante,L,2.25,+0.00,2026-05-01 16:10,,,exact
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",1X2 -> Deportivo La Coruna gana,,1.67,0.6360,0.5558,0.0803,0.0622,v3.2-cal,1X2,Total,W,1.53,+9.15,2026-05-01 16:10,,,exact
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles Leganes O/U 1.5,Under/No,1.25,0.8293,0.7500,0.0793,0.0366,v3.2-cal,Goles,Visitante,W,1.22,+2.46,2026-05-01 16:10,,,exact
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners tot. O/U 6.5,Under/No,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,L,,,2026-05-01 16:10,5.60,-1.70,extrap
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",DC -> Deportivo La Coruna o Empate (1X),,1.18,0.8660,0.8023,0.0637,0.0218,v3.2-cal,Doble Oportunidad,Total,W,1.17,+0.85,2026-05-01 16:10,,,exact
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners tot. O/U 5.5,Under/No,9.00,0.1633,0.1063,0.0569,0.4694,v3.2-cal,Corners,Total,L,,,2026-05-01 16:10,13.60,-33.82,extrap
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners tot. O/U 7.5,Under/No,3.40,0.3333,0.2766,0.0567,0.1333,v3.2-cal,Corners,Total,L,,,2026-05-01 16:10,3.52,-3.47,extrap
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.33,0.7634,0.7096,0.0538,0.0154,v3.2-cal,Goles,Total,W,1.33,+0.00,2026-05-01 16:10,,,exact
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners tot. O/U 4.5,Under/No,17.00,0.1098,0.0569,0.0529,0.8659,v3.2-cal,Corners,Total,L,,,2026-05-01 16:10,93.84,-81.88,extrap
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles Leganes O/U 2.5,Over/Si,13.00,0.1250,0.0741,0.0509,0.6250,v3.2-cal,Goles,Visitante,L,13.00,+0.00,2026-05-01 16:10,,,exact
+2026-04-29 18:40,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Corners tot. O/U 12.5,Over/Si,4.50,0.2479,0.2079,0.0400,0.1157,v3.2-cal,Corners,Total,L,,,2026-05-01 16:10,3.91,+15.14,extrap
 2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles Zaragoza O/U 1.5,Over/Si,2.25,0.5000,0.4110,0.0890,0.1250,v3.2-cal,Goles,Local,,2.20,+2.27,2026-05-01 18:40,,,exact
 2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",1X2 -> Zaragoza gana,,2.25,0.4995,0.4153,0.0841,0.1238,v3.2-cal,1X2,Total,,1.95,+15.38,2026-05-01 18:40,,,exact
 2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners Zaragoza O/U 4.5,Under/No,2.20,0.5000,0.4241,0.0759,0.1000,v3.2-cal,Corners,Local,,2.20,+0.00,2026-05-01 18:40,,,exact
@@ -3804,52 +3804,52 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",DC -> Zaragoza o Granada CF (12),,1.36,0.7511,0.6988,0.0523,0.0215,v3.2-cal,Doble Oportunidad,Total,,1.36,+0.00,2026-05-01 18:40,,,exact
 2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles Zaragoza O/U 2.5,Over/Si,5.50,0.2206,0.1717,0.0489,0.2132,v3.2-cal,Goles,Local,,5.00,+10.00,2026-05-01 18:40,,,exact
 2026-04-29 18:40,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Goles tot. O/U 0.5,Over/Si,1.07,0.9390,0.8937,0.0453,0.0048,v3.2-cal,Goles,Total,,1.07,+0.00,2026-05-01 18:40,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",1X2 -> Rizespor gana,,2.05,0.6304,0.4457,0.1847,0.2924,v3.2-cal,1X2,Total,,1.85,+10.81,2026-05-01 13:40,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Rizespor O/U 1.5,Over/Si,1.91,0.6296,0.4852,0.1445,0.2026,v3.2-cal,Goles,Local,,1.80,+6.11,2026-05-01 13:40,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Rizespor O/U 2.5,Over/Si,4.00,0.3704,0.2337,0.1367,0.4815,v3.2-cal,Goles,Local,,3.50,+14.29,2026-05-01 13:40,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",DC -> Rizespor o Empate (1X),,1.36,0.8292,0.6992,0.1300,0.1277,v3.2-cal,Doble Oportunidad,Total,,1.22,+11.48,2026-05-01 13:40,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles tot. O/U 3.5,Over/Si,2.75,0.4666,0.3373,0.1293,0.2832,v3.2-cal,Goles,Total,,2.62,+4.96,2026-05-01 13:40,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles tot. O/U 1.5,Over/Si,1.22,0.8571,0.7663,0.0909,0.0457,v3.2-cal,Goles,Total,,1.20,+1.67,2026-05-01 13:40,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles tot. O/U 2.5,Over/Si,1.80,0.6087,0.5263,0.0824,0.0957,v3.2-cal,Goles,Total,,1.70,+5.88,2026-05-01 13:40,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",DC -> Rizespor o Konyaspor (12),,1.30,0.8012,0.7314,0.0698,0.0416,v3.2-cal,Doble Oportunidad,Total,,1.28,+1.56,2026-05-01 13:40,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Konyaspor O/U 1.5,Under/No,1.44,0.7119,0.6453,0.0665,0.0251,v3.2-cal,Goles,Visitante,,1.40,+2.86,2026-05-01 13:40,,,exact
-2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles tot. O/U 4.5,Over/Si,5.50,0.2366,0.1717,0.0649,0.3011,v3.2-cal,Goles,Total,,5.00,+10.00,2026-05-01 13:40,,,exact
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Beşiktaş O/U 1.5,Under/No,2.25,0.7119,0.4110,0.3009,0.6017,v3.2-cal,Goles,Visitante,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",DC -> Gaziantep FK o Empate (1X),,1.95,0.6734,0.4854,0.1880,0.3132,v3.2-cal,Doble Oportunidad,Total,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles tot. O/U 3.5,Under/No,1.62,0.7634,0.5759,0.1875,0.2368,v3.2-cal,Goles,Total,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",1X2 -> Gaziantep FK gana,,3.90,0.4192,0.2377,0.1815,0.6350,v3.2-cal,1X2,Total,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Beşiktaş O/U 2.5,Under/No,1.40,0.8293,0.6627,0.1666,0.1610,v3.2-cal,Goles,Visitante,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Beşiktaş O/U 0.5,Under/No,6.50,0.2881,0.1459,0.1423,0.8729,v3.2-cal,Goles,Visitante,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles tot. O/U 2.5,Under/No,2.50,0.5000,0.3750,0.1250,0.2500,v3.2-cal,Goles,Total,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles tot. O/U 4.5,Under/No,1.25,0.8571,0.7500,0.1071,0.0714,v3.2-cal,Goles,Total,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",BTTS,Under/No,2.50,0.4489,0.3750,0.0739,0.1223,v3.2-cal,BTTS,Total,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles tot. O/U 1.5,Under/No,5.50,0.2366,0.1717,0.0649,0.3011,v3.2-cal,Goles,Total,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Gaziantep FK O/U 2.5,Over/Si,6.00,0.2206,0.1573,0.0633,0.3235,v3.2-cal,Goles,Local,,,,,,,
-2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Gaziantep FK O/U 0.5,Over/Si,1.30,0.7794,0.7234,0.0560,0.0132,v3.2-cal,Goles,Local,,,,,,,
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",1X2 -> Rizespor gana,,2.05,0.6304,0.4457,0.1847,0.2924,v3.2-cal,1X2,Total,W,1.85,+10.81,2026-05-01 13:40,,,exact
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Rizespor O/U 1.5,Over/Si,1.91,0.6296,0.4852,0.1445,0.2026,v3.2-cal,Goles,Local,W,1.80,+6.11,2026-05-01 13:40,,,exact
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Rizespor O/U 2.5,Over/Si,4.00,0.3704,0.2337,0.1367,0.4815,v3.2-cal,Goles,Local,W,3.50,+14.29,2026-05-01 13:40,,,exact
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",DC -> Rizespor o Empate (1X),,1.36,0.8292,0.6992,0.1300,0.1277,v3.2-cal,Doble Oportunidad,Total,W,1.22,+11.48,2026-05-01 13:40,,,exact
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles tot. O/U 3.5,Over/Si,2.75,0.4666,0.3373,0.1293,0.2832,v3.2-cal,Goles,Total,W,2.62,+4.96,2026-05-01 13:40,,,exact
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles tot. O/U 1.5,Over/Si,1.22,0.8571,0.7663,0.0909,0.0457,v3.2-cal,Goles,Total,W,1.20,+1.67,2026-05-01 13:40,,,exact
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles tot. O/U 2.5,Over/Si,1.80,0.6087,0.5263,0.0824,0.0957,v3.2-cal,Goles,Total,W,1.70,+5.88,2026-05-01 13:40,,,exact
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",DC -> Rizespor o Konyaspor (12),,1.30,0.8012,0.7314,0.0698,0.0416,v3.2-cal,Doble Oportunidad,Total,W,1.28,+1.56,2026-05-01 13:40,,,exact
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles Konyaspor O/U 1.5,Under/No,1.44,0.7119,0.6453,0.0665,0.0251,v3.2-cal,Goles,Visitante,L,1.40,+2.86,2026-05-01 13:40,,,exact
+2026-04-29 18:41,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Goles tot. O/U 4.5,Over/Si,5.50,0.2366,0.1717,0.0649,0.3011,v3.2-cal,Goles,Total,W,5.00,+10.00,2026-05-01 13:40,,,exact
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Beşiktaş O/U 1.5,Under/No,2.25,0.7119,0.4110,0.3009,0.6017,v3.2-cal,Goles,Visitante,L,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",DC -> Gaziantep FK o Empate (1X),,1.95,0.6734,0.4854,0.1880,0.3132,v3.2-cal,Doble Oportunidad,Total,L,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles tot. O/U 3.5,Under/No,1.62,0.7634,0.5759,0.1875,0.2368,v3.2-cal,Goles,Total,W,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",1X2 -> Gaziantep FK gana,,3.90,0.4192,0.2377,0.1815,0.6350,v3.2-cal,1X2,Total,L,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Beşiktaş O/U 2.5,Under/No,1.40,0.8293,0.6627,0.1666,0.1610,v3.2-cal,Goles,Visitante,W,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Beşiktaş O/U 0.5,Under/No,6.50,0.2881,0.1459,0.1423,0.8729,v3.2-cal,Goles,Visitante,L,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles tot. O/U 2.5,Under/No,2.50,0.5000,0.3750,0.1250,0.2500,v3.2-cal,Goles,Total,W,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles tot. O/U 4.5,Under/No,1.25,0.8571,0.7500,0.1071,0.0714,v3.2-cal,Goles,Total,W,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",BTTS,Under/No,2.50,0.4489,0.3750,0.0739,0.1223,v3.2-cal,BTTS,Total,W,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles tot. O/U 1.5,Under/No,5.50,0.2366,0.1717,0.0649,0.3011,v3.2-cal,Goles,Total,L,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Gaziantep FK O/U 2.5,Over/Si,6.00,0.2206,0.1573,0.0633,0.3235,v3.2-cal,Goles,Local,L,,,,,,
+2026-04-29 18:41,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Goles Gaziantep FK O/U 0.5,Over/Si,1.30,0.7794,0.7234,0.0560,0.0132,v3.2-cal,Goles,Local,L,,,,,,
 2026-04-29 20:01,1378210,Pisa vs Lecce,"('Serie A', False)",Goles Pisa O/U 1.5,Over/Si,3.50,0.3625,0.2678,0.0948,0.2689,v3.2-cal,Goles,Local,,3.75,-6.67,2026-05-01 18:25,,,exact
-2026-04-29 20:02,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Corners tot. O/U 6.5,Under/No,5.00,0.2479,0.1891,0.0588,0.2397,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,4.19,+19.44,single_heur
-2026-04-29 20:02,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,5.00,0.2479,0.1891,0.0588,0.2397,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,5.45,-8.33,single_heur
-2026-04-29 20:02,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Corners tot. O/U 7.5,Under/No,3.25,0.3333,0.2909,0.0425,0.0833,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,2.90,+11.94,single_heur
-2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 7.5,Under/No,3.25,0.3690,0.2909,0.0782,0.1994,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,2.94,+10.41,single_heur
-2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 6.5,Under/No,5.00,0.2479,0.1891,0.0588,0.2397,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,4.31,+15.91,single_heur
-2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 5.5,Under/No,9.00,0.1633,0.1063,0.0569,0.4694,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,8.07,+11.52,single_heur
-2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 4.5,Under/No,15.00,0.1098,0.0643,0.0455,0.6463,v3.2-cal,Corners,Total,,,,2026-05-01 12:40,62.51,-76.00,single_heur
+2026-04-29 20:02,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Corners tot. O/U 6.5,Under/No,5.00,0.2479,0.1891,0.0588,0.2397,v3.2-cal,Corners,Total,W,,,2026-05-01 12:40,4.19,+19.44,single_heur
+2026-04-29 20:02,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Corners tot. O/U 12.5,Over/Si,5.00,0.2479,0.1891,0.0588,0.2397,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,5.45,-8.33,single_heur
+2026-04-29 20:02,1419958,Bari vs Virtus Entella,"('Coppa Italia', True)",Corners tot. O/U 7.5,Under/No,3.25,0.3333,0.2909,0.0425,0.0833,v3.2-cal,Corners,Total,W,,,2026-05-01 12:40,2.90,+11.94,single_heur
+2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 7.5,Under/No,3.25,0.3690,0.2909,0.0782,0.1994,v3.2-cal,Corners,Total,W,,,2026-05-01 12:40,2.94,+10.41,single_heur
+2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 6.5,Under/No,5.00,0.2479,0.1891,0.0588,0.2397,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,4.31,+15.91,single_heur
+2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 5.5,Under/No,9.00,0.1633,0.1063,0.0569,0.4694,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,8.07,+11.52,single_heur
+2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 4.5,Under/No,15.00,0.1098,0.0643,0.0455,0.6463,v3.2-cal,Corners,Total,L,,,2026-05-01 12:40,62.51,-76.00,single_heur
 2026-04-29 20:07,1535273,Independiente Medellin vs Cusco,"('Copa Libertadores', True)",Corners tot. O/U 5.5,Under/No,7.00,0.2098,0.1358,0.0740,0.4688,v3.2-cal,Corners,Total,L,7.00,+0.00,2026-05-01 01:40,,,exact
-2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 6.5,Under/No,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,,,,2026-05-01 13:55,5.08,+8.25,single_heur
-2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 7.5,Under/No,3.40,0.3333,0.2766,0.0567,0.1333,v3.2-cal,Corners,Total,,,,2026-05-01 13:55,3.31,+2.73,single_heur
-2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 11.5,Over/Si,3.40,0.3333,0.2766,0.0567,0.1333,v3.2-cal,Corners,Total,,,,2026-05-01 13:55,3.03,+12.16,single_heur
-2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 4.5,Under/No,17.00,0.1098,0.0569,0.0529,0.8659,v3.2-cal,Corners,Total,,,,2026-05-01 13:55,94.93,-82.09,single_heur
-2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 5.5,Under/No,9.00,0.1579,0.1063,0.0515,0.4211,v3.2-cal,Corners,Total,,,,2026-05-01 13:55,10.93,-17.67,single_heur
-2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 12.5,Over/Si,4.50,0.2479,0.2079,0.0400,0.1157,v3.2-cal,Corners,Total,,,,2026-05-01 13:55,4.45,+1.04,single_heur
+2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 6.5,Under/No,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,L,,,2026-05-01 13:55,5.08,+8.25,single_heur
+2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 7.5,Under/No,3.40,0.3333,0.2766,0.0567,0.1333,v3.2-cal,Corners,Total,L,,,2026-05-01 13:55,3.31,+2.73,single_heur
+2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 11.5,Over/Si,3.40,0.3333,0.2766,0.0567,0.1333,v3.2-cal,Corners,Total,L,,,2026-05-01 13:55,3.03,+12.16,single_heur
+2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 4.5,Under/No,17.00,0.1098,0.0569,0.0529,0.8659,v3.2-cal,Corners,Total,L,,,2026-05-01 13:55,94.93,-82.09,single_heur
+2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 5.5,Under/No,9.00,0.1579,0.1063,0.0515,0.4211,v3.2-cal,Corners,Total,L,,,2026-05-01 13:55,10.93,-17.67,single_heur
+2026-04-29 20:09,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Corners tot. O/U 12.5,Over/Si,4.50,0.2479,0.2079,0.0400,0.1157,v3.2-cal,Corners,Total,L,,,2026-05-01 13:55,4.45,+1.04,single_heur
 2026-04-29 20:10,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners tot. O/U 12.5,Over/Si,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,,,,2026-05-01 18:40,16.39,-66.43,extrap
 2026-04-29 20:10,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners tot. O/U 4.5,Under/No,15.00,0.1098,0.0643,0.0455,0.6463,v3.2-cal,Corners,Total,,,,2026-05-01 18:40,93.68,-83.99,extrap
 2026-04-29 20:10,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners tot. O/U 5.5,Under/No,8.00,0.1633,0.1192,0.0440,0.3061,v3.2-cal,Corners,Total,,,,2026-05-01 18:40,93.68,-91.46,extrap
 2026-04-29 20:10,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners tot. O/U 13.5,Over/Si,8.00,0.1633,0.1192,0.0440,0.3061,v3.2-cal,Corners,Total,,,,2026-05-01 18:40,93.68,-91.46,extrap
 2026-04-29 20:10,1392182,Zaragoza vs Granada CF,"('LaLiga 2', False)",Corners tot. O/U 6.5,Under/No,4.50,0.2479,0.2079,0.0400,0.1157,v3.2-cal,Corners,Total,,,,2026-05-01 18:40,7.23,-37.77,extrap
-2026-04-29 20:10,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Corners tot. O/U 13.5,Over/Si,6.00,0.2479,0.1579,0.0900,0.4876,v3.2-cal,Corners,Total,,,,,,,
-2026-04-29 20:10,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Corners Gaziantep FK O/U 4.5,Over/Si,2.10,0.5000,0.4424,0.0576,0.0500,v3.2-cal,Corners,Local,,,,,,,
-2026-04-29 20:10,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Corners tot. O/U 14.5,Over/Si,9.00,0.1633,0.1063,0.0569,0.4694,v3.2-cal,Corners,Total,,,,,,,
-2026-04-29 20:10,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Corners tot. O/U 11.5,Over/Si,3.00,0.3690,0.3124,0.0566,0.1071,v3.2-cal,Corners,Total,,,,,,,
+2026-04-29 20:10,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Corners tot. O/U 13.5,Over/Si,6.00,0.2479,0.1579,0.0900,0.4876,v3.2-cal,Corners,Total,L,,,,,,
+2026-04-29 20:10,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Corners Gaziantep FK O/U 4.5,Over/Si,2.10,0.5000,0.4424,0.0576,0.0500,v3.2-cal,Corners,Local,W,,,,,,
+2026-04-29 20:10,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Corners tot. O/U 14.5,Over/Si,9.00,0.1633,0.1063,0.0569,0.4694,v3.2-cal,Corners,Total,L,,,,,,
+2026-04-29 20:10,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Corners tot. O/U 11.5,Over/Si,3.00,0.3690,0.3124,0.0566,0.1071,v3.2-cal,Corners,Total,L,,,,,,
 2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",1X2 -> Barracas Central gana,,2.50,0.5093,0.3702,0.1392,0.2734,v3.2-cal,1X2,Total,,,,,,,
 2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Barracas Central O/U 0.5,Over/Si,1.44,0.7667,0.6453,0.1213,0.1040,v3.2-cal,Goles,Local,,,,,,,
 2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Barracas Central O/U 1.5,Over/Si,3.40,0.3704,0.2766,0.0938,0.2593,v3.2-cal,Goles,Local,,,,,,,
@@ -5089,18 +5089,18 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 08:05,1391150,Real Betis vs Oviedo,"('La Liga', False)",Corners tot. O/U 5.5,Under/No,9.00,0.1633,0.1063,0.0569,0.4694,v3.2-cal,Corners,Total,,,,,,,
 2026-05-01 08:05,1391150,Real Betis vs Oviedo,"('La Liga', False)",Corners tot. O/U 4.5,Under/No,17.00,0.1098,0.0569,0.0529,0.8659,v3.2-cal,Corners,Total,,,,,,,
 2026-05-01 08:05,1391150,Real Betis vs Oviedo,"('La Liga', False)",Corners tot. O/U 10.5,Under/No,1.50,0.6667,0.6250,0.0417,0.0000,v3.2-cal,Corners,Total,,,,,,,
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.40,0.7634,0.6627,0.1008,0.0688,v3.2-cal,Goles,Total,,1.40,+0.00,2026-05-01 13:55,,,exact
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles Albacete O/U 0.5,Over/Si,1.50,0.7119,0.6250,0.0869,0.0678,v3.2-cal,Goles,Visitante,,1.50,+0.00,2026-05-01 13:55,,,exact
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles Albacete O/U 2.5,Over/Si,10.00,0.1707,0.0958,0.0749,0.7073,v3.2-cal,Goles,Visitante,,10.00,+0.00,2026-05-01 13:55,,,exact
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 2.5,Under/No,1.30,0.7794,0.7234,0.0560,0.0132,v3.2-cal,Goles,Local,,1.30,+0.00,2026-05-01 13:55,,,exact
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",1X2 -> Albacete gana,,5.00,0.2427,0.1885,0.0542,0.2134,v3.2-cal,1X2,Total,,5.00,+0.00,2026-05-01 13:55,,,exact
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 0.5,Under/No,5.50,0.2206,0.1717,0.0489,0.2132,v3.2-cal,Goles,Local,,5.50,+0.00,2026-05-01 13:55,,,exact
-2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 2.5,Under/No,2.08,0.5000,0.4541,0.0459,0.0400,v3.2-cal,Goles,Total,,2.08,+0.00,2026-05-01 13:55,,,exact
-2026-05-01 08:23,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Corners Rizespor O/U 5.5,Over/Si,2.20,0.5000,0.4233,0.0767,0.1000,v3.2-cal,Corners,Local,,2.20,+0.00,2026-05-01 13:40,,,exact
-2026-05-01 08:23,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Corners tot. O/U 6.5,Under/No,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,,,,2026-05-01 13:40,4.58,+20.22,single_heur
-2026-05-01 08:23,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Corners tot. O/U 5.5,Under/No,10.00,0.1579,0.0960,0.0619,0.5789,v3.2-cal,Corners,Total,,,,2026-05-01 13:40,9.15,+9.29,single_heur
-2026-05-01 08:23,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Corners Konyaspor O/U 4.5,Over/Si,2.10,0.5000,0.4424,0.0576,0.0500,v3.2-cal,Corners,Visitante,,2.10,+0.00,2026-05-01 13:40,,,exact
-2026-05-01 08:23,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Corners tot. O/U 11.5,Over/Si,3.25,0.3333,0.2909,0.0425,0.0833,v3.2-cal,Corners,Total,,,,2026-05-01 13:40,3.05,+6.56,single_heur
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.40,0.7634,0.6627,0.1008,0.0688,v3.2-cal,Goles,Total,W,1.40,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles Albacete O/U 0.5,Over/Si,1.50,0.7119,0.6250,0.0869,0.0678,v3.2-cal,Goles,Visitante,W,1.50,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles Albacete O/U 2.5,Over/Si,10.00,0.1707,0.0958,0.0749,0.7073,v3.2-cal,Goles,Visitante,L,10.00,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 2.5,Under/No,1.30,0.7794,0.7234,0.0560,0.0132,v3.2-cal,Goles,Local,W,1.30,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",1X2 -> Albacete gana,,5.00,0.2427,0.1885,0.0542,0.2134,v3.2-cal,1X2,Total,W,5.00,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles FC Andorra O/U 0.5,Under/No,5.50,0.2206,0.1717,0.0489,0.2132,v3.2-cal,Goles,Local,W,5.50,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles tot. O/U 2.5,Under/No,2.08,0.5000,0.4541,0.0459,0.0400,v3.2-cal,Goles,Total,W,2.08,+0.00,2026-05-01 13:55,,,exact
+2026-05-01 08:23,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Corners Rizespor O/U 5.5,Over/Si,2.20,0.5000,0.4233,0.0767,0.1000,v3.2-cal,Corners,Local,L,2.20,+0.00,2026-05-01 13:40,,,exact
+2026-05-01 08:23,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Corners tot. O/U 6.5,Under/No,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,W,,,2026-05-01 13:40,4.58,+20.22,single_heur
+2026-05-01 08:23,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Corners tot. O/U 5.5,Under/No,10.00,0.1579,0.0960,0.0619,0.5789,v3.2-cal,Corners,Total,W,,,2026-05-01 13:40,9.15,+9.29,single_heur
+2026-05-01 08:23,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Corners Konyaspor O/U 4.5,Over/Si,2.10,0.5000,0.4424,0.0576,0.0500,v3.2-cal,Corners,Visitante,L,2.10,+0.00,2026-05-01 13:40,,,exact
+2026-05-01 08:23,1394718,Rizespor vs Konyaspor,"('Super Lig', False)",Corners tot. O/U 11.5,Over/Si,3.25,0.3333,0.2909,0.0425,0.0833,v3.2-cal,Corners,Total,L,,,2026-05-01 13:40,3.05,+6.56,single_heur
 2026-05-01 12:22,1394715,Fatih Karagümrük vs Gençlerbirliği S.K.,"('Super Lig', False)",Corners tot. O/U 12.5,Over/Si,5.50,0.2479,0.1719,0.0760,0.3636,v3.2-cal,Corners,Total,,,,,,,
 2026-05-01 12:22,1394715,Fatih Karagümrük vs Gençlerbirliği S.K.,"('Super Lig', False)",Corners tot. O/U 7.5,Under/No,3.00,0.3690,0.3124,0.0566,0.1071,v3.2-cal,Corners,Total,,,,,,,
 2026-05-01 12:22,1394715,Fatih Karagümrük vs Gençlerbirliği S.K.,"('Super Lig', False)",Corners tot. O/U 13.5,Over/Si,9.00,0.1579,0.1063,0.0515,0.4211,v3.2-cal,Corners,Total,,,,,,,
