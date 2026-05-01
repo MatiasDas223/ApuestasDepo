@@ -3730,3 +3730,4 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 04:05,1391153,Getafe vs Rayo Vallecano,"('La Liga', False)",Tiros tot. O/U 22.5,Under/No,1.91,0.7695,0.4853,0.2842,0.4690,v3.5-dedup,Tiros,Total,,,,,,,
 2026-05-01 04:05,1391153,Getafe vs Rayo Vallecano,"('La Liga', False)",Arco Getafe O/U 4.5,Under/No,1.61,0.8406,0.5767,0.2639,0.3575,v3.5-dedup,Arco,Local,,,,,,,
 2026-05-01 04:05,1391153,Getafe vs Rayo Vallecano,"('La Liga', False)",Arco Rayo Vallecano O/U 3.5,Under/No,1.73,0.5806,0.5366,0.0440,0.0027,v3.5-dedup,Arco,Visitante,,,,,,,
+2026-05-01 04:14,1378212,Sassuolo vs AC Milan,"('Serie A', False)",Tiros Sassuolo O/U 9.5,Under/No,1.91,0.5254,0.4853,0.0401,0.0030,v3.5-dedup,Tiros,Local,,,,,,,
