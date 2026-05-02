@@ -5504,23 +5504,23 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:07,1492240,Atletico Paranaense vs Gremio,"('Brasileirao Serie A', False)",Goles tot. O/U 1.5,Over/Si,1.33,0.7865,0.7188,0.0677,0.0460,v3.2,Goles,Total,,,,,,,
 2026-04-30 00:07,1492240,Atletico Paranaense vs Gremio,"('Brasileirao Serie A', False)",Goles tot. O/U 3.5,Over/Si,3.50,0.3341,0.2708,0.0633,0.1694,v3.2,Goles,Total,,,,,,,
 2026-04-30 00:07,1492240,Atletico Paranaense vs Gremio,"('Brasileirao Serie A', False)",Goles tot. O/U 0.5,Over/Si,1.06,0.9463,0.8996,0.0467,0.0031,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",BTTS,Under/No,1.95,0.6771,0.4800,0.1971,0.3204,v3.2,BTTS,Total,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles tot. O/U 2.5,Under/No,1.73,0.7421,0.5483,0.1938,0.2839,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Torino O/U 0.5,Under/No,2.75,0.5175,0.3373,0.1801,0.4231,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles tot. O/U 1.5,Under/No,3.20,0.4748,0.2982,0.1765,0.5192,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Torino O/U 1.5,Under/No,1.33,0.8581,0.7096,0.1485,0.1412,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles tot. O/U 3.5,Under/No,1.25,0.8980,0.7619,0.1361,0.1225,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Udinese O/U 1.5,Under/No,1.53,0.6987,0.6087,0.0900,0.0689,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles tot. O/U 4.5,Under/No,1.08,0.9663,0.8811,0.0853,0.0436,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Torino O/U 2.5,Under/No,1.07,0.9709,0.8937,0.0772,0.0389,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Udinese O/U 2.5,Under/No,1.14,0.9020,0.8283,0.0736,0.0282,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",DC -> Udinese o Empate (1X),,1.33,0.7814,0.7079,0.0735,0.0393,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Arco Udinese O/U 4.5,Under/No,1.61,0.6463,0.5767,0.0696,0.0437,v3.2,Arco,Local,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Udinese O/U 0.5,Under/No,3.50,0.3296,0.2678,0.0618,0.1535,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles tot. O/U 0.5,Under/No,8.50,0.1699,0.1118,0.0581,0.4444,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Tiros tot. O/U 22.5,Over/Si,1.91,0.5342,0.4853,0.0489,0.0199,v3.2,Tiros,Total,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",1X2 -> Udinese gana,,2.30,0.4619,0.4140,0.0479,0.0623,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Tiros Torino O/U 10.5,Over/Si,1.91,0.5318,0.4853,0.0465,0.0152,v3.2,Tiros,Visitante,,,,,,,
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",BTTS,Under/No,1.95,0.6771,0.4800,0.1971,0.3204,v3.2,BTTS,Total,,1.91,+2.09,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles tot. O/U 2.5,Under/No,1.73,0.7421,0.5483,0.1938,0.2839,v3.2,Goles,Total,,1.73,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Torino O/U 0.5,Under/No,2.75,0.5175,0.3373,0.1801,0.4231,v3.2,Goles,Visitante,,2.50,+10.00,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles tot. O/U 1.5,Under/No,3.20,0.4748,0.2982,0.1765,0.5192,v3.2,Goles,Total,,3.40,-5.88,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Torino O/U 1.5,Under/No,1.33,0.8581,0.7096,0.1485,0.1412,v3.2,Goles,Visitante,,1.28,+3.91,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles tot. O/U 3.5,Under/No,1.25,0.8980,0.7619,0.1361,0.1225,v3.2,Goles,Total,,1.28,-2.34,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Udinese O/U 1.5,Under/No,1.53,0.6987,0.6087,0.0900,0.0689,v3.2,Goles,Local,,1.67,-8.38,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles tot. O/U 4.5,Under/No,1.08,0.9663,0.8811,0.0853,0.0436,v3.2,Goles,Total,,1.10,-1.82,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Torino O/U 2.5,Under/No,1.07,0.9709,0.8937,0.0772,0.0389,v3.2,Goles,Visitante,,1.05,+1.90,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Udinese O/U 2.5,Under/No,1.14,0.9020,0.8283,0.0736,0.0282,v3.2,Goles,Local,,1.18,-3.39,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",DC -> Udinese o Empate (1X),,1.33,0.7814,0.7079,0.0735,0.0393,v3.2,Doble Oportunidad,Total,,1.22,+9.02,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Arco Udinese O/U 4.5,Under/No,1.61,0.6463,0.5767,0.0696,0.0437,v3.2,Arco,Local,,1.61,-0.31,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles Udinese O/U 0.5,Under/No,3.50,0.3296,0.2678,0.0618,0.1535,v3.2,Goles,Local,,4.00,-12.50,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Goles tot. O/U 0.5,Under/No,8.50,0.1699,0.1118,0.0581,0.4444,v3.2,Goles,Total,,9.00,-5.56,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Tiros tot. O/U 22.5,Over/Si,1.91,0.5342,0.4853,0.0489,0.0199,v3.2,Tiros,Total,,,,2026-05-02 12:40,1.53,+25.04,single_heur
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",1X2 -> Udinese gana,,2.30,0.4619,0.4140,0.0479,0.0623,v3.2,1X2,Total,,2.00,+15.00,2026-05-02 12:40,,,exact
+2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Tiros Torino O/U 10.5,Over/Si,1.91,0.5318,0.4853,0.0465,0.0152,v3.2,Tiros,Visitante,,1.73,+10.60,2026-05-02 12:40,,,exact
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros tot. O/U 23.5,Under/No,1.80,0.7192,0.5147,0.2045,0.2946,v3.2,Tiros,Total,,,,,,,
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",1X2 -> Como gana,,2.25,0.6256,0.4231,0.2026,0.4077,v3.2,1X2,Total,,,,,,,
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Como O/U 1.5,Over/Si,2.25,0.6041,0.4110,0.1931,0.3592,v3.2,Goles,Local,,,,,,,
@@ -5559,48 +5559,48 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:09,1378204,Atalanta vs Genoa,"('Serie A', False)",1X2 -> Genoa gana,,5.50,0.2164,0.1720,0.0444,0.1902,v3.2,1X2,Total,,,,,,,
 2026-04-30 00:09,1378204,Atalanta vs Genoa,"('Serie A', False)",Arco Atalanta O/U 5.5,Over/Si,1.91,0.5296,0.4853,0.0443,0.0111,v3.2,Arco,Local,,,,,,,
 2026-04-30 00:09,1378204,Atalanta vs Genoa,"('Serie A', False)",DC -> Empate o Genoa (X2),,2.30,0.4486,0.4079,0.0407,0.0319,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners Sirius O/U 6.5,Under/No,1.73,0.7906,0.5366,0.2539,0.3653,v3.2,Corners,Local,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Sirius O/U 2.5,Over/Si,2.62,0.5859,0.3547,0.2312,0.5351,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Sirius O/U 1.5,Over/Si,1.53,0.8064,0.6087,0.1977,0.2338,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",1X2 -> Sirius gana,,1.48,0.8189,0.6220,0.1969,0.2120,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 3.5,Over/Si,2.62,0.5340,0.3547,0.1793,0.3991,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 2.5,Over/Si,1.67,0.7354,0.5628,0.1726,0.2281,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 9.5,Under/No,2.50,0.5271,0.3750,0.1521,0.3176,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 10.5,Under/No,1.95,0.6347,0.4845,0.1502,0.2377,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 4.5,Over/Si,5.00,0.3382,0.1896,0.1486,0.6912,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 8.5,Under/No,3.50,0.4120,0.2685,0.1434,0.4420,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 1.5,Over/Si,1.20,0.8946,0.7830,0.1116,0.0735,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 7.5,Under/No,5.00,0.2978,0.1891,0.1087,0.4891,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 13.5,Under/No,1.22,0.8690,0.7660,0.1030,0.0619,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",DC -> Sirius o Kalmar FF (12),,1.22,0.8852,0.7828,0.1024,0.0799,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 12.5,Under/No,1.33,0.8081,0.7091,0.0989,0.0772,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 11.5,Under/No,1.57,0.7298,0.6365,0.0933,0.1465,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners Kalmar FF O/U 4.5,Over/Si,2.20,0.5154,0.4233,0.0921,0.1339,v3.2,Corners,Visitante,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 6.5,Under/No,9.00,0.1963,0.1063,0.0899,0.7664,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Sirius O/U 0.5,Over/Si,1.10,0.9527,0.8642,0.0885,0.0479,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",DC -> Sirius o Empate (1X),,1.12,0.9337,0.8527,0.0810,0.0458,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 14.5,Under/No,1.12,0.9145,0.8421,0.0724,0.0288,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 0.5,Over/Si,1.04,0.9784,0.9259,0.0524,0.0175,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 5.5,Under/No,15.00,0.1163,0.0643,0.0521,0.7447,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Kalmar FF O/U 0.5,Under/No,2.25,0.4534,0.4110,0.0424,0.0201,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",1X2 -> BK Hacken gana,,2.38,0.5459,0.3874,0.1585,0.2992,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",DC -> Empate o BK Hacken (X2),,1.44,0.7750,0.6560,0.1190,0.1159,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 1.5,Over/Si,2.20,0.5389,0.4241,0.1148,0.1855,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 11.5,Under/No,1.61,0.6557,0.5533,0.1025,0.0590,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 1.5,Under/No,1.53,0.7074,0.6087,0.0987,0.0823,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 9.5,Under/No,2.62,0.4456,0.3549,0.0908,0.1698,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 0.5,Over/Si,1.25,0.8365,0.7500,0.0865,0.0456,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 8.5,Under/No,3.75,0.3361,0.2500,0.0861,0.2603,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 2.5,Over/Si,5.00,0.2721,0.1896,0.0824,0.3603,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners BK Hacken O/U 5.5,Under/No,1.80,0.5957,0.5147,0.0810,0.0722,v3.2,Corners,Visitante,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 12.5,Under/No,1.40,0.7424,0.6627,0.0797,0.0393,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 0.5,Under/No,3.50,0.3449,0.2678,0.0771,0.2071,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 2.5,Under/No,1.14,0.9035,0.8283,0.0752,0.0300,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 10.5,Under/No,1.80,0.5561,0.4897,0.0665,0.0011,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 13.5,Under/No,1.25,0.8150,0.7500,0.0650,0.0188,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 7.5,Under/No,5.50,0.2358,0.1719,0.0639,0.2968,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 6.5,Under/No,10.00,0.1487,0.0960,0.0527,0.4870,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",DC -> Degerfors IF o BK Hacken (12),,1.30,0.7709,0.7266,0.0443,0.0022,v3.2,Doble Oportunidad,Total,,,,,,,
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners Sirius O/U 6.5,Under/No,1.73,0.7906,0.5366,0.2539,0.3653,v3.2,Corners,Local,,1.73,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Sirius O/U 2.5,Over/Si,2.62,0.5859,0.3547,0.2312,0.5351,v3.2,Goles,Local,,2.62,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Sirius O/U 1.5,Over/Si,1.53,0.8064,0.6087,0.1977,0.2338,v3.2,Goles,Local,,1.53,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",1X2 -> Sirius gana,,1.48,0.8189,0.6220,0.1969,0.2120,v3.2,1X2,Total,,1.44,+2.78,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 3.5,Over/Si,2.62,0.5340,0.3547,0.1793,0.3991,v3.2,Goles,Total,,2.62,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 2.5,Over/Si,1.67,0.7354,0.5628,0.1726,0.2281,v3.2,Goles,Total,,1.67,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 9.5,Under/No,2.50,0.5271,0.3750,0.1521,0.3176,v3.2,Corners,Total,,,,2026-05-02 12:40,2.29,+9.29,single_heur
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 10.5,Under/No,1.95,0.6347,0.4845,0.1502,0.2377,v3.2,Corners,Total,,1.83,+6.56,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 4.5,Over/Si,5.00,0.3382,0.1896,0.1486,0.6912,v3.2,Goles,Total,,5.00,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 8.5,Under/No,3.50,0.4120,0.2685,0.1434,0.4420,v3.2,Corners,Total,,,,2026-05-02 12:40,3.05,+14.75,single_heur
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 1.5,Over/Si,1.20,0.8946,0.7830,0.1116,0.0735,v3.2,Goles,Total,,1.20,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 7.5,Under/No,5.00,0.2978,0.1891,0.1087,0.4891,v3.2,Corners,Total,,,,2026-05-02 12:40,4.58,+9.29,single_heur
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 13.5,Under/No,1.22,0.8690,0.7660,0.1030,0.0619,v3.2,Corners,Total,,,,2026-05-02 12:40,1.14,+6.67,single_heur
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",DC -> Sirius o Kalmar FF (12),,1.22,0.8852,0.7828,0.1024,0.0799,v3.2,Doble Oportunidad,Total,,1.18,+3.39,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 12.5,Under/No,1.33,0.8081,0.7091,0.0989,0.0772,v3.2,Corners,Total,,,,2026-05-02 12:40,1.31,+1.75,single_heur
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 11.5,Under/No,1.57,0.7298,0.6365,0.0933,0.1465,v3.2,Corners,Total,,,,2026-05-02 12:40,1.53,+2.95,single_heur
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners Kalmar FF O/U 4.5,Over/Si,2.20,0.5154,0.4233,0.0921,0.1339,v3.2,Corners,Visitante,,2.20,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 6.5,Under/No,9.00,0.1963,0.1063,0.0899,0.7664,v3.2,Corners,Total,,,,2026-05-02 12:40,9.15,-1.64,single_heur
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Sirius O/U 0.5,Over/Si,1.10,0.9527,0.8642,0.0885,0.0479,v3.2,Goles,Local,,1.10,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",DC -> Sirius o Empate (1X),,1.12,0.9337,0.8527,0.0810,0.0458,v3.2,Doble Oportunidad,Total,,1.12,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 14.5,Under/No,1.12,0.9145,0.8421,0.0724,0.0288,v3.2,Corners,Total,,,,2026-05-02 12:40,1.02,+10.16,single_heur
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 0.5,Over/Si,1.04,0.9784,0.9259,0.0524,0.0175,v3.2,Goles,Total,,1.03,+0.97,2026-05-02 12:40,,,exact
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 5.5,Under/No,15.00,0.1163,0.0643,0.0521,0.7447,v3.2,Corners,Total,,,,2026-05-02 12:40,91.50,-83.61,single_heur
+2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Kalmar FF O/U 0.5,Under/No,2.25,0.4534,0.4110,0.0424,0.0201,v3.2,Goles,Visitante,,2.20,+2.27,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",1X2 -> BK Hacken gana,,2.38,0.5459,0.3874,0.1585,0.2992,v3.2,1X2,Total,,2.40,-0.83,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",DC -> Empate o BK Hacken (X2),,1.44,0.7750,0.6560,0.1190,0.1159,v3.2,Doble Oportunidad,Total,,1.40,+2.86,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 1.5,Over/Si,2.20,0.5389,0.4241,0.1148,0.1855,v3.2,Goles,Visitante,,2.20,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 11.5,Under/No,1.61,0.6557,0.5533,0.1025,0.0590,v3.2,Corners,Total,,,,2026-05-02 12:40,1.78,-9.71,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 1.5,Under/No,1.53,0.7074,0.6087,0.0987,0.0823,v3.2,Goles,Local,,1.50,+2.00,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 9.5,Under/No,2.62,0.4456,0.3549,0.0908,0.1698,v3.2,Corners,Total,,,,2026-05-02 12:40,1.86,+41.12,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 0.5,Over/Si,1.25,0.8365,0.7500,0.0865,0.0456,v3.2,Goles,Visitante,,1.25,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 8.5,Under/No,3.75,0.3361,0.2500,0.0861,0.2603,v3.2,Corners,Total,,,,2026-05-02 12:40,1.90,+97.82,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 2.5,Over/Si,5.00,0.2721,0.1896,0.0824,0.3603,v3.2,Goles,Visitante,,5.00,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners BK Hacken O/U 5.5,Under/No,1.80,0.5957,0.5147,0.0810,0.0722,v3.2,Corners,Visitante,,1.67,+7.78,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 12.5,Under/No,1.40,0.7424,0.6627,0.0797,0.0393,v3.2,Corners,Total,,,,2026-05-02 12:40,1.75,-19.93,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 0.5,Under/No,3.50,0.3449,0.2678,0.0771,0.2071,v3.2,Goles,Local,,3.40,+2.94,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 2.5,Under/No,1.14,0.9035,0.8283,0.0752,0.0300,v3.2,Goles,Local,,1.12,+1.79,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 10.5,Under/No,1.80,0.5561,0.4897,0.0665,0.0011,v3.2,Corners,Total,,1.82,-1.10,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 13.5,Under/No,1.25,0.8150,0.7500,0.0650,0.0188,v3.2,Corners,Total,,,,2026-05-02 12:40,1.72,-27.12,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 7.5,Under/No,5.50,0.2358,0.1719,0.0639,0.2968,v3.2,Corners,Total,,,,2026-05-02 12:40,1.94,+184.02,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 6.5,Under/No,10.00,0.1487,0.0960,0.0527,0.4870,v3.2,Corners,Total,,,,2026-05-02 12:40,1.98,+405.30,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",DC -> Degerfors IF o BK Hacken (12),,1.30,0.7709,0.7266,0.0443,0.0022,v3.2,Doble Oportunidad,Total,,1.33,-2.26,2026-05-02 12:40,,,exact
 2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 9.5,Under/No,1.80,0.6314,0.5148,0.1165,0.1364,v3.2,Corners,Total,,,,,,,
 2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners Cultural Leonesa O/U 5.5,Under/No,1.73,0.6413,0.5362,0.1051,0.1095,v3.2,Corners,Local,,,,,,,
 2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 7.5,Under/No,3.25,0.3913,0.2909,0.1004,0.2717,v3.2,Corners,Total,,,,,,,
