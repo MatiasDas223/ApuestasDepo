@@ -5354,81 +5354,81 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",1X2 -> Arsenal gana,,1.45,0.7044,0.6539,0.0505,0.0214,v3.2,1X2,Total,,,,,,,
 2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Arco Fulham O/U 2.5,Over/Si,2.00,0.5126,0.4634,0.0492,0.0251,v3.2,Arco,Visitante,,,,,,,
 2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 2.5,Under/No,1.02,0.9854,0.9434,0.0420,0.0051,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 4.5,Over/Si,2.50,0.7827,0.3797,0.4030,0.9567,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 2.5,Over/Si,1.57,0.9296,0.5890,0.3406,0.4594,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 3.5,Over/Si,1.67,0.8926,0.5685,0.3241,0.4906,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",1X2 -> Bayern München gana,,1.25,0.9750,0.7590,0.2160,0.2188,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.25,0.9587,0.7619,0.1968,0.1983,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Tiros tot. O/U 28.5,Over/Si,1.83,0.6915,0.5000,0.1915,0.2676,v3.2,Tiros,Total,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Arco tot. O/U 10.5,Over/Si,2.00,0.6534,0.4638,0.1896,0.3068,v3.2,Arco,Total,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 1.5,Over/Si,1.17,0.9799,0.8104,0.1695,0.1465,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",DC -> Bayern München o 1. FC Heidenheim (12),,1.10,0.9820,0.8684,0.1136,0.0802,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",DC -> Bayern München o Empate (1X),,1.07,0.9930,0.8928,0.1003,0.0625,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Corners 1. FC Heidenheim O/U 2.5,Under/No,1.91,0.5812,0.4853,0.0958,0.1094,v3.2,Corners,Visitante,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.07,0.9895,0.8937,0.0957,0.0588,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 0.5,Under/No,2.38,0.4802,0.3913,0.0889,0.1428,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 1.5,Under/No,1.25,0.8356,0.7500,0.0856,0.0445,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Corners Bayern München O/U 6.5,Over/Si,1.83,0.5802,0.5000,0.0802,0.0636,v3.2,Corners,Local,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Tiros 1. FC Heidenheim O/U 9.5,Under/No,2.00,0.5250,0.4634,0.0616,0.0500,v3.2,Tiros,Visitante,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",BTTS,Under/No,2.20,0.4817,0.4241,0.0576,0.0597,v3.2,BTTS,Total,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 0.5,Over/Si,1.02,0.9972,0.9434,0.0538,0.0171,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 2.5,Under/No,1.05,0.9626,0.9129,0.0497,0.0107,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros Werder Bremen O/U 15.5,Over/Si,1.80,0.6874,0.5147,0.1727,0.2374,v3.2,Tiros,Local,,,,,,,
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco Werder Bremen O/U 4.5,Over/Si,1.73,0.7031,0.5366,0.1665,0.2142,v3.2,Arco,Local,,,,,,,
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco tot. O/U 8.5,Over/Si,1.83,0.6645,0.5000,0.1645,0.2181,v3.2,Arco,Total,,,,,,,
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Corners FC Augsburg O/U 3.5,Under/No,2.10,0.5925,0.4424,0.1501,0.2443,v3.2,Corners,Visitante,,,,,,,
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros tot. O/U 27.5,Over/Si,1.73,0.6858,0.5366,0.1491,0.1843,v3.2,Tiros,Total,,,,,,,
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Corners Werder Bremen O/U 5.5,Over/Si,2.00,0.5671,0.4634,0.1038,0.1343,v3.2,Corners,Local,,,,,,,
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros FC Augsburg O/U 11.5,Over/Si,1.80,0.5629,0.5147,0.0482,0.0133,v3.2,Tiros,Visitante,,,,,,,
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco FC Augsburg O/U 3.5,Over/Si,1.83,0.5481,0.5000,0.0481,0.0046,v3.2,Arco,Visitante,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 2.5,Over/Si,3.00,0.5997,0.3119,0.2878,0.7991,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 1.5,Over/Si,1.67,0.8165,0.5570,0.2595,0.3636,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 4.5,Over/Si,3.20,0.5423,0.2982,0.2441,0.7355,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",1X2 -> 1899 Hoffenheim gana,,2.25,0.6415,0.4221,0.2194,0.4434,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Tiros 1899 Hoffenheim O/U 14.5,Over/Si,2.00,0.6824,0.4634,0.2190,0.3648,v3.2,Tiros,Local,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 3.5,Over/Si,1.91,0.7184,0.5000,0.2184,0.3721,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.36,0.8652,0.7018,0.1634,0.1767,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Tiros tot. O/U 26.5,Over/Si,1.83,0.6528,0.5000,0.1528,0.1967,v3.2,Tiros,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",DC -> 1899 Hoffenheim o Empate (1X),,1.44,0.7990,0.6516,0.1474,0.1506,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Arco 1899 Hoffenheim O/U 4.5,Over/Si,1.67,0.6976,0.5576,0.1400,0.1622,v3.2,Arco,Local,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 0.5,Over/Si,1.12,0.9548,0.8427,0.1121,0.0694,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",BTTS,Over/Si,1.36,0.7962,0.6881,0.1081,0.0828,v3.2,BTTS,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.11,0.9554,0.8541,0.1013,0.0605,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Arco tot. O/U 9.5,Over/Si,1.80,0.6150,0.5148,0.1002,0.1070,v3.2,Arco,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",DC -> 1899 Hoffenheim o VfB Stuttgart (12),,1.22,0.8425,0.7691,0.0734,0.0278,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners VfB Stuttgart O/U 4.5,Under/No,1.91,0.5552,0.4852,0.0700,0.0605,v3.2,Corners,Visitante,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners 1899 Hoffenheim O/U 4.5,Over/Si,1.67,0.6202,0.5570,0.0632,0.0357,v3.2,Corners,Local,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners tot. O/U 9.5,Under/No,2.10,0.4857,0.4430,0.0428,0.0200,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",1X2 -> Eintracht Frankfurt gana,,1.70,0.6687,0.5579,0.1108,0.1368,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 1.5,Over/Si,1.57,0.6892,0.5890,0.1002,0.0820,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 2.5,Over/Si,2.75,0.4281,0.3373,0.0907,0.1772,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners Hamburger SV O/U 3.5,Under/No,2.00,0.5294,0.4634,0.0661,0.0589,v3.2,Corners,Visitante,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.57,0.6682,0.6025,0.0657,0.0491,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 9.5,Under/No,1.95,0.5453,0.4868,0.0585,0.0634,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 8.5,Under/No,2.50,0.4305,0.3750,0.0555,0.0764,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Tiros Eintracht Frankfurt O/U 14.5,Over/Si,1.80,0.5695,0.5147,0.0548,0.0250,v3.2,Tiros,Local,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Tiros tot. O/U 25.5,Over/Si,1.91,0.5396,0.4853,0.0543,0.0301,v3.2,Tiros,Total,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",DC -> Eintracht Frankfurt o Empate (1X),,1.18,0.8489,0.7949,0.0541,0.0018,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 0.5,Over/Si,1.11,0.9081,0.8541,0.0540,0.0080,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Hamburger SV O/U 1.5,Under/No,1.40,0.7162,0.6627,0.0535,0.0027,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",DC -> Eintracht Frankfurt o Hamburger SV (12),,1.22,0.8197,0.7688,0.0509,0.0001,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.17,0.8582,0.8104,0.0478,0.0041,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Hamburger SV O/U 2.5,Under/No,1.10,0.9104,0.8642,0.0462,0.0015,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 7.5,Under/No,3.50,0.3143,0.2685,0.0457,0.0999,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners 1. FC Köln O/U 4.5,Under/No,1.83,0.6261,0.5000,0.1261,0.1457,v3.2,Corners,Visitante,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",1X2 -> Union Berlin gana,,2.45,0.4689,0.3853,0.0836,0.1488,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 1.5,Over/Si,2.25,0.4920,0.4110,0.0810,0.1070,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Tiros 1. FC Köln O/U 11.5,Under/No,1.83,0.5666,0.5000,0.0666,0.0385,v3.2,Tiros,Visitante,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 10.5,Under/No,1.67,0.6230,0.5570,0.0659,0.0404,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 8.5,Under/No,2.75,0.4025,0.3373,0.0651,0.1068,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 0.5,Over/Si,1.25,0.8075,0.7500,0.0575,0.0094,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Tiros tot. O/U 25.5,Under/No,1.91,0.5426,0.4853,0.0573,0.0358,v3.2,Tiros,Total,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 11.5,Under/No,1.40,0.7198,0.6627,0.0572,0.0077,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 2.5,Over/Si,5.50,0.2288,0.1717,0.0571,0.2583,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 7.5,Under/No,4.00,0.2898,0.2340,0.0558,0.1592,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.91,0.5524,0.5000,0.0524,0.0551,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 12.5,Under/No,1.25,0.8006,0.7500,0.0506,0.0008,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 6.5,Under/No,6.50,0.1903,0.1460,0.0443,0.2367,v3.2,Corners,Total,,,,,,,
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 4.5,Over/Si,2.50,0.7827,0.3797,0.4030,0.9567,v3.2,Goles,Total,,2.30,+8.70,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 2.5,Over/Si,1.57,0.9296,0.5890,0.3406,0.4594,v3.2,Goles,Local,,1.57,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 3.5,Over/Si,1.67,0.8926,0.5685,0.3241,0.4906,v3.2,Goles,Total,,1.57,+6.37,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",1X2 -> Bayern München gana,,1.25,0.9750,0.7590,0.2160,0.2188,v3.2,1X2,Total,,1.27,-1.57,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.25,0.9587,0.7619,0.1968,0.1983,v3.2,Goles,Total,,1.22,+2.46,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Tiros tot. O/U 28.5,Over/Si,1.83,0.6915,0.5000,0.1915,0.2676,v3.2,Tiros,Total,,,,2026-05-02 13:10,1.53,+19.80,single_heur
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Arco tot. O/U 10.5,Over/Si,2.00,0.6534,0.4638,0.1896,0.3068,v3.2,Arco,Total,,2.00,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 1.5,Over/Si,1.17,0.9799,0.8104,0.1695,0.1465,v3.2,Goles,Local,,1.17,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",DC -> Bayern München o 1. FC Heidenheim (12),,1.10,0.9820,0.8684,0.1136,0.0802,v3.2,Doble Oportunidad,Total,,1.10,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",DC -> Bayern München o Empate (1X),,1.07,0.9930,0.8928,0.1003,0.0625,v3.2,Doble Oportunidad,Total,,1.07,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Corners 1. FC Heidenheim O/U 2.5,Under/No,1.91,0.5812,0.4853,0.0958,0.1094,v3.2,Corners,Visitante,,1.91,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.07,0.9895,0.8937,0.0957,0.0588,v3.2,Goles,Total,,1.06,+0.94,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 0.5,Under/No,2.38,0.4802,0.3913,0.0889,0.1428,v3.2,Goles,Visitante,,2.62,-9.16,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 1.5,Under/No,1.25,0.8356,0.7500,0.0856,0.0445,v3.2,Goles,Visitante,,1.33,-6.02,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Corners Bayern München O/U 6.5,Over/Si,1.83,0.5802,0.5000,0.0802,0.0636,v3.2,Corners,Local,,1.83,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Tiros 1. FC Heidenheim O/U 9.5,Under/No,2.00,0.5250,0.4634,0.0616,0.0500,v3.2,Tiros,Visitante,,1.91,+4.77,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",BTTS,Under/No,2.20,0.4817,0.4241,0.0576,0.0597,v3.2,BTTS,Total,,2.50,-12.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 0.5,Over/Si,1.02,0.9972,0.9434,0.0538,0.0171,v3.2,Goles,Local,,1.02,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 2.5,Under/No,1.05,0.9626,0.9129,0.0497,0.0107,v3.2,Goles,Visitante,,1.07,-1.87,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros Werder Bremen O/U 15.5,Over/Si,1.80,0.6874,0.5147,0.1727,0.2374,v3.2,Tiros,Local,,,,2026-05-02 13:10,2.23,-19.43,single_heur
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco Werder Bremen O/U 4.5,Over/Si,1.73,0.7031,0.5366,0.1665,0.2142,v3.2,Arco,Local,,1.73,+0.17,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco tot. O/U 8.5,Over/Si,1.83,0.6645,0.5000,0.1645,0.2181,v3.2,Arco,Total,,1.83,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Corners FC Augsburg O/U 3.5,Under/No,2.10,0.5925,0.4424,0.1501,0.2443,v3.2,Corners,Visitante,,2.00,+5.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros tot. O/U 27.5,Over/Si,1.73,0.6858,0.5366,0.1491,0.1843,v3.2,Tiros,Total,,1.91,-9.38,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Corners Werder Bremen O/U 5.5,Over/Si,2.00,0.5671,0.4634,0.1038,0.1343,v3.2,Corners,Local,,1.83,+9.29,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros FC Augsburg O/U 11.5,Over/Si,1.80,0.5629,0.5147,0.0482,0.0133,v3.2,Tiros,Visitante,,,,2026-05-02 13:10,1.64,+9.42,single_heur
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco FC Augsburg O/U 3.5,Over/Si,1.83,0.5481,0.5000,0.0481,0.0046,v3.2,Arco,Visitante,,1.83,-0.16,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 2.5,Over/Si,3.00,0.5997,0.3119,0.2878,0.7991,v3.2,Goles,Local,,3.25,-7.69,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 1.5,Over/Si,1.67,0.8165,0.5570,0.2595,0.3636,v3.2,Goles,Local,,1.67,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 4.5,Over/Si,3.20,0.5423,0.2982,0.2441,0.7355,v3.2,Goles,Total,,3.20,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",1X2 -> 1899 Hoffenheim gana,,2.25,0.6415,0.4221,0.2194,0.4434,v3.2,1X2,Total,,2.40,-6.25,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Tiros 1899 Hoffenheim O/U 14.5,Over/Si,2.00,0.6824,0.4634,0.2190,0.3648,v3.2,Tiros,Local,,1.83,+9.11,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 3.5,Over/Si,1.91,0.7184,0.5000,0.2184,0.3721,v3.2,Goles,Total,,2.00,-4.50,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.36,0.8652,0.7018,0.1634,0.1767,v3.2,Goles,Total,,1.40,-2.86,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Tiros tot. O/U 26.5,Over/Si,1.83,0.6528,0.5000,0.1528,0.1967,v3.2,Tiros,Total,,,,2026-05-02 13:10,1.53,+19.80,single_heur
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",DC -> 1899 Hoffenheim o Empate (1X),,1.44,0.7990,0.6516,0.1474,0.1506,v3.2,Doble Oportunidad,Total,,1.50,-4.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Arco 1899 Hoffenheim O/U 4.5,Over/Si,1.67,0.6976,0.5576,0.1400,0.1622,v3.2,Arco,Local,,1.67,+0.24,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 0.5,Over/Si,1.12,0.9548,0.8427,0.1121,0.0694,v3.2,Goles,Local,,1.14,-1.75,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",BTTS,Over/Si,1.36,0.7962,0.6881,0.1081,0.0828,v3.2,BTTS,Total,,1.33,+2.26,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.11,0.9554,0.8541,0.1013,0.0605,v3.2,Goles,Total,,1.11,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Arco tot. O/U 9.5,Over/Si,1.80,0.6150,0.5148,0.1002,0.1070,v3.2,Arco,Total,,1.80,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",DC -> 1899 Hoffenheim o VfB Stuttgart (12),,1.22,0.8425,0.7691,0.0734,0.0278,v3.2,Doble Oportunidad,Total,,1.22,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners VfB Stuttgart O/U 4.5,Under/No,1.91,0.5552,0.4852,0.0700,0.0605,v3.2,Corners,Visitante,,1.83,+4.37,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners 1899 Hoffenheim O/U 4.5,Over/Si,1.67,0.6202,0.5570,0.0632,0.0357,v3.2,Corners,Local,,1.67,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners tot. O/U 9.5,Under/No,2.10,0.4857,0.4430,0.0428,0.0200,v3.2,Corners,Total,,2.10,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",1X2 -> Eintracht Frankfurt gana,,1.70,0.6687,0.5579,0.1108,0.1368,v3.2,1X2,Total,,1.75,-2.86,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 1.5,Over/Si,1.57,0.6892,0.5890,0.1002,0.0820,v3.2,Goles,Local,,1.57,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 2.5,Over/Si,2.75,0.4281,0.3373,0.0907,0.1772,v3.2,Goles,Local,,2.75,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners Hamburger SV O/U 3.5,Under/No,2.00,0.5294,0.4634,0.0661,0.0589,v3.2,Corners,Visitante,,1.83,+9.29,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.57,0.6682,0.6025,0.0657,0.0491,v3.2,Goles,Total,,1.50,+4.67,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 9.5,Under/No,1.95,0.5453,0.4868,0.0585,0.0634,v3.2,Corners,Total,,1.95,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 8.5,Under/No,2.50,0.4305,0.3750,0.0555,0.0764,v3.2,Corners,Total,,2.50,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Tiros Eintracht Frankfurt O/U 14.5,Over/Si,1.80,0.5695,0.5147,0.0548,0.0250,v3.2,Tiros,Local,,1.80,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Tiros tot. O/U 25.5,Over/Si,1.91,0.5396,0.4853,0.0543,0.0301,v3.2,Tiros,Total,,1.83,+4.20,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",DC -> Eintracht Frankfurt o Empate (1X),,1.18,0.8489,0.7949,0.0541,0.0018,v3.2,Doble Oportunidad,Total,,1.22,-3.28,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 0.5,Over/Si,1.11,0.9081,0.8541,0.0540,0.0080,v3.2,Goles,Local,,1.11,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Hamburger SV O/U 1.5,Under/No,1.40,0.7162,0.6627,0.0535,0.0027,v3.2,Goles,Visitante,,1.50,-6.67,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",DC -> Eintracht Frankfurt o Hamburger SV (12),,1.22,0.8197,0.7688,0.0509,0.0001,v3.2,Doble Oportunidad,Total,,1.22,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.17,0.8582,0.8104,0.0478,0.0041,v3.2,Goles,Total,,1.14,+2.63,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Hamburger SV O/U 2.5,Under/No,1.10,0.9104,0.8642,0.0462,0.0015,v3.2,Goles,Visitante,,1.11,-0.90,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 7.5,Under/No,3.50,0.3143,0.2685,0.0457,0.0999,v3.2,Corners,Total,,3.50,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners 1. FC Köln O/U 4.5,Under/No,1.83,0.6261,0.5000,0.1261,0.1457,v3.2,Corners,Visitante,,1.73,+5.78,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",1X2 -> Union Berlin gana,,2.45,0.4689,0.3853,0.0836,0.1488,v3.2,1X2,Total,,2.45,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 1.5,Over/Si,2.25,0.4920,0.4110,0.0810,0.1070,v3.2,Goles,Local,,2.10,+7.14,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Tiros 1. FC Köln O/U 11.5,Under/No,1.83,0.5666,0.5000,0.0666,0.0385,v3.2,Tiros,Visitante,,1.73,+5.96,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 10.5,Under/No,1.67,0.6230,0.5570,0.0659,0.0404,v3.2,Corners,Total,,1.67,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 8.5,Under/No,2.75,0.4025,0.3373,0.0651,0.1068,v3.2,Corners,Total,,2.75,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 0.5,Over/Si,1.25,0.8075,0.7500,0.0575,0.0094,v3.2,Goles,Local,,1.22,+2.46,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Tiros tot. O/U 25.5,Under/No,1.91,0.5426,0.4853,0.0573,0.0358,v3.2,Tiros,Total,,1.83,+4.20,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 11.5,Under/No,1.40,0.7198,0.6627,0.0572,0.0077,v3.2,Corners,Total,,1.40,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 2.5,Over/Si,5.50,0.2288,0.1717,0.0571,0.2583,v3.2,Goles,Local,,4.50,+22.22,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 7.5,Under/No,4.00,0.2898,0.2340,0.0558,0.1592,v3.2,Corners,Total,,4.00,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.91,0.5524,0.5000,0.0524,0.0551,v3.2,Goles,Total,,1.73,+10.40,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 12.5,Under/No,1.25,0.8006,0.7500,0.0506,0.0008,v3.2,Corners,Total,,1.25,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 6.5,Under/No,6.50,0.1903,0.1460,0.0443,0.2367,v3.2,Corners,Total,,6.50,+0.00,2026-05-02 13:10,,,exact
 2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles RB Leipzig O/U 1.5,Under/No,1.83,0.6470,0.5000,0.1470,0.1840,v3.2,Goles,Visitante,,,,,,,
 2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 3.5,Under/No,1.91,0.6428,0.5000,0.1428,0.2277,v3.2,Goles,Total,,,,,,,
 2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles RB Leipzig O/U 2.5,Under/No,1.25,0.8698,0.7500,0.1198,0.0872,v3.2,Goles,Visitante,,,,,,,
@@ -5928,7 +5928,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 00:08,1379310,Aston Villa vs Tottenham,"('Premier League', False)",Corners tot. O/U 5.5,Under/No,13.00,0.1187,0.0741,0.0446,0.5428,v3.2,Corners,Total,,,,,,,
 2026-05-01 00:08,1379310,Aston Villa vs Tottenham,"('Premier League', False)",BTTS,Under/No,2.25,0.4553,0.4110,0.0443,0.0244,v3.2,BTTS,Total,,,,,,,
 2026-05-01 00:08,1379310,Aston Villa vs Tottenham,"('Premier League', False)",Goles tot. O/U 0.5,Over/Si,1.04,0.9675,0.9259,0.0416,0.0062,v3.2,Goles,Total,,,,,,,
-2026-05-01 00:10,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.28,0.7859,0.7455,0.0404,0.0060,v3.2,Goles,Total,,,,,,,
+2026-05-01 00:10,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.28,0.7859,0.7455,0.0404,0.0060,v3.2,Goles,Total,,1.22,+4.92,2026-05-02 13:10,,,exact
 2026-05-01 00:10,1388593,FC St. Pauli vs FSV Mainz 05,"('Bundesliga', False)",Tiros tot. O/U 25.5,Under/No,1.83,0.7527,0.5000,0.2527,0.3796,v3.2,Tiros,Total,,,,,,,
 2026-05-01 00:10,1388593,FC St. Pauli vs FSV Mainz 05,"('Bundesliga', False)",Arco tot. O/U 8.5,Under/No,1.91,0.7356,0.4852,0.2504,0.4049,v3.2,Arco,Total,,,,,,,
 2026-05-01 00:10,1388593,FC St. Pauli vs FSV Mainz 05,"('Bundesliga', False)",Tiros FSV Mainz 05 O/U 12.5,Under/No,1.83,0.7451,0.5000,0.2451,0.3657,v3.2,Tiros,Visitante,,,,,,,

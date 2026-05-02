@@ -290,10 +290,10 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",BTTS,Under/No,2.38,0.5041,0.3913,0.1128,0.1998,v3.6,BTTS,Total,,,,,,,
 2026-04-30 00:05,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 0.5,Over/Si,1.73,0.6862,0.5362,0.1500,0.1871,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 00:05,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 1.5,Over/Si,4.50,0.3209,0.2077,0.1131,0.4440,v3.6,Goles,Visitante,,,,,,,
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",BTTS,Under/No,2.38,0.4450,0.3913,0.0537,0.0591,v3.6,BTTS,Total,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles VfB Stuttgart O/U 1.5,Under/No,1.91,0.6282,0.4852,0.1430,0.1999,v3.6,Goles,Visitante,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles VfB Stuttgart O/U 2.5,Under/No,1.28,0.8584,0.7322,0.1262,0.0988,v3.6,Goles,Visitante,,,,,,,
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",BTTS,Under/No,3.00,0.3929,0.3119,0.0809,0.1786,v3.6,BTTS,Total,,,,,,,
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",BTTS,Under/No,2.38,0.4450,0.3913,0.0537,0.0591,v3.6,BTTS,Total,,2.50,-4.80,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles VfB Stuttgart O/U 1.5,Under/No,1.91,0.6282,0.4852,0.1430,0.1999,v3.6,Goles,Visitante,,2.00,-4.50,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles VfB Stuttgart O/U 2.5,Under/No,1.28,0.8584,0.7322,0.1262,0.0988,v3.6,Goles,Visitante,,1.30,-1.54,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",BTTS,Under/No,3.00,0.3929,0.3119,0.0809,0.1786,v3.6,BTTS,Total,,3.25,-7.69,2026-05-02 13:10,,,exact
 2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 3.5,Under/No,1.91,0.6938,0.5000,0.1938,0.3252,v3.6,Goles,Total,,,,,,,
 2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 2.5,Under/No,3.20,0.4683,0.2982,0.1701,0.4986,v3.6,Goles,Total,,,,,,,
 2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 4.5,Under/No,1.36,0.8490,0.7018,0.1473,0.1547,v3.6,Goles,Total,,,,,,,
