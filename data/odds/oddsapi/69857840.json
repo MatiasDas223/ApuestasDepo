@@ -26,35 +26,35 @@
     "tc_over_8.5": 1.95,
     "cards_over_4.5": 1.825,
     "cards_under_4.5": 1.975,
-    "sla_over_2.5": 1.666,
-    "sla_under_2.5": 2.1,
     "ts_over_22.5": 1.909,
     "ts_under_22.5": 1.8,
     "ta_over_7.5": 1.909,
     "ta_under_7.5": 1.8,
     "cv_over_4.5": 1.8,
     "cv_under_4.5": 1.909,
+    "cl_over_3.5": 1.909,
+    "cl_under_3.5": 1.8,
     "sva_over_4.5": 2.0,
     "sva_under_4.5": 1.727,
     "sl_over_9.5": 1.909,
     "sl_under_9.5": 1.8,
+    "sla_over_2.5": 1.666,
+    "sla_under_2.5": 2.1,
     "sv_over_12.5": 1.833,
-    "sv_under_12.5": 1.833,
-    "cl_over_3.5": 1.909,
-    "cl_under_3.5": 1.8
+    "sv_under_12.5": 1.833
   },
   "resumen": {
     "mapeados": [
       "Alternative Corners (11 lineas)",
       "Bookings Totals (1 lineas)",
-      "Team Shots on Target Home (1 lineas)",
       "Match Shots (1 lineas)",
       "Match Shots on Target (1 lineas)",
       "Team Corners Away (1 lineas)",
+      "Team Corners Home (1 lineas)",
       "Team Shots on Target Away (1 lineas)",
       "Team Shots Home (1 lineas)",
-      "Team Shots Away (1 lineas)",
-      "Team Corners Home (1 lineas)"
+      "Team Shots on Target Home (1 lineas)",
+      "Team Shots Away (1 lineas)"
     ],
     "no_disponibles": [],
     "parciales": []

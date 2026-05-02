@@ -5178,15 +5178,15 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 13.5,Under/No,1.10,0.9193,0.8642,0.0551,0.0113,v3.2,Corners,Total,W,,,2026-05-01 12:40,1.01,+8.59,single_heur
 2026-04-29 20:03,1419951,Palermo vs Catanzaro,"('Coppa Italia', True)",Corners tot. O/U 7.5,Under/No,3.25,0.3404,0.2909,0.0496,0.1063,v3.2,Corners,Total,W,,,2026-05-01 12:40,2.94,+10.41,single_heur
 2026-04-29 20:10,1394714,Gaziantep FK vs Beşiktaş,"('Super Lig', False)",Corners Gaziantep FK O/U 4.5,Over/Si,2.10,0.5213,0.4424,0.0789,0.0946,v3.2,Corners,Local,W,,,,,,
-2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",1X2 -> Barracas Central gana,,2.50,0.5093,0.3702,0.1392,0.2734,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Banfield O/U 1.5,Under/No,1.25,0.8493,0.7500,0.0993,0.0616,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Banfield O/U 0.5,Under/No,2.25,0.5065,0.4110,0.0955,0.1396,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Barracas Central O/U 1.5,Over/Si,3.40,0.3680,0.2766,0.0914,0.2511,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",DC -> Barracas Central o Empate (1X),,1.33,0.8027,0.7150,0.0877,0.0676,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Barracas Central O/U 0.5,Over/Si,1.44,0.7211,0.6453,0.0757,0.0383,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",BTTS,Under/No,1.57,0.6441,0.5890,0.0551,0.0112,v3.2,BTTS,Total,,,,,,,
-2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Barracas Central O/U 2.5,Over/Si,10.00,0.1406,0.0958,0.0448,0.4065,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Banfield O/U 2.5,Under/No,1.04,0.9683,0.9259,0.0424,0.0070,v3.2,Goles,Visitante,,,,,,,
+2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",1X2 -> Barracas Central gana,,2.50,0.5093,0.3702,0.1392,0.2734,v3.2,1X2,Total,L,,,,,,
+2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Banfield O/U 1.5,Under/No,1.25,0.8493,0.7500,0.0993,0.0616,v3.2,Goles,Visitante,L,,,,,,
+2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Banfield O/U 0.5,Under/No,2.25,0.5065,0.4110,0.0955,0.1396,v3.2,Goles,Visitante,L,,,,,,
+2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Barracas Central O/U 1.5,Over/Si,3.40,0.3680,0.2766,0.0914,0.2511,v3.2,Goles,Local,L,,,,,,
+2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",DC -> Barracas Central o Empate (1X),,1.33,0.8027,0.7150,0.0877,0.0676,v3.2,Doble Oportunidad,Total,L,,,,,,
+2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Barracas Central O/U 0.5,Over/Si,1.44,0.7211,0.6453,0.0757,0.0383,v3.2,Goles,Local,W,,,,,,
+2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",BTTS,Under/No,1.57,0.6441,0.5890,0.0551,0.0112,v3.2,BTTS,Total,L,,,,,,
+2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Barracas Central O/U 2.5,Over/Si,10.00,0.1406,0.0958,0.0448,0.4065,v3.2,Goles,Local,L,,,,,,
+2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Banfield O/U 2.5,Under/No,1.04,0.9683,0.9259,0.0424,0.0070,v3.2,Goles,Visitante,W,,,,,,
 2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Corners Boca Juniors O/U 4.5,Under/No,1.91,0.7328,0.4853,0.2474,0.3988,v3.2,Corners,Visitante,,1.91,+0.00,2026-05-02 18:55,,,exact
 2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Corners Central Cordoba de Santiago O/U 3.5,Over/Si,1.91,0.7036,0.4853,0.2183,0.3432,v3.2,Corners,Local,,1.91,+0.00,2026-05-02 18:55,,,exact
 2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Tarjetas tot. O/U 4.5,Over/Si,1.82,0.7266,0.5197,0.2069,0.3261,v3.2,Tarjetas,Total,,1.82,+0.00,2026-05-02 18:55,,,exact
@@ -5254,43 +5254,43 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Goles tot. O/U 4.5,Over/Si,4.33,0.2709,0.2198,0.0511,0.1729,v3.2,Goles,Total,W,4.00,+8.25,2026-05-02 11:24,,,exact
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Goles tot. O/U 1.5,Over/Si,1.17,0.8614,0.8104,0.0510,0.0078,v3.2,Goles,Total,W,1.17,+0.00,2026-05-02 11:24,,,exact
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Corners tot. O/U 11.5,Over/Si,3.25,0.3347,0.2909,0.0438,0.0876,v3.2,Corners,Total,L,3.25,+0.00,2026-05-02 11:24,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Tiros Atletico Madrid O/U 10.5,Under/No,1.83,0.6760,0.5000,0.1760,0.2390,v3.2,Tiros,Visitante,,,,2026-05-02 13:55,1.53,+19.80,single_heur
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Corners Atletico Madrid O/U 4.5,Under/No,1.73,0.6972,0.5362,0.1610,0.2062,v3.2,Corners,Visitante,,1.67,+3.59,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Corners Valencia O/U 4.5,Over/Si,1.62,0.7311,0.5759,0.1552,0.1843,v3.2,Corners,Local,,1.62,+0.00,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 2.5,Over/Si,1.80,0.6466,0.5263,0.1203,0.1639,v3.2,Goles,Total,,1.80,+0.00,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Tiros tot. O/U 23.5,Under/No,2.00,0.5767,0.4634,0.1133,0.1534,v3.2,Tiros,Total,,1.83,+9.11,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",BTTS,Over/Si,1.75,0.6442,0.5333,0.1109,0.1273,v3.2,BTTS,Total,,1.80,-2.78,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 3.5,Over/Si,3.00,0.4265,0.3182,0.1083,0.2794,v3.2,Goles,Total,,3.20,-6.25,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Atletico Madrid O/U 1.5,Over/Si,3.00,0.4165,0.3119,0.1046,0.2496,v3.2,Goles,Visitante,,3.50,-14.29,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Atletico Madrid O/U 0.5,Over/Si,1.40,0.7579,0.6627,0.0952,0.0610,v3.2,Goles,Visitante,,1.50,-6.67,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 1.5,Over/Si,1.25,0.8444,0.7619,0.0825,0.0555,v3.2,Goles,Total,,1.25,+0.00,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 4.5,Over/Si,5.50,0.2427,0.1717,0.0710,0.3350,v3.2,Goles,Total,,5.50,+0.00,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Valencia O/U 1.5,Over/Si,1.83,0.5667,0.5000,0.0667,0.0370,v3.2,Goles,Local,,1.73,+5.78,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Arco Atletico Madrid O/U 3.5,Under/No,2.00,0.5262,0.4634,0.0629,0.0525,v3.2,Arco,Visitante,,1.67,+20.05,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Arco tot. O/U 8.5,Under/No,1.73,0.5973,0.5362,0.0611,0.0334,v3.2,Arco,Total,,1.83,-5.46,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Valencia O/U 0.5,Over/Si,1.18,0.8501,0.7923,0.0578,0.0031,v3.2,Goles,Local,,1.14,+3.51,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Atletico Madrid O/U 2.5,Over/Si,8.00,0.1730,0.1189,0.0540,0.3838,v3.2,Goles,Visitante,,10.00,-20.00,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 0.5,Over/Si,1.05,0.9638,0.9129,0.0509,0.0120,v3.2,Goles,Total,,1.05,+0.00,2026-05-02 13:55,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Valencia O/U 2.5,Over/Si,3.75,0.3006,0.2500,0.0506,0.1274,v3.2,Goles,Local,,3.40,+10.29,2026-05-02 13:55,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",1X2 -> Alaves gana,,2.70,0.6493,0.3505,0.2988,0.7532,v3.2,1X2,Total,,2.75,-1.82,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 1.5,Over/Si,2.50,0.6219,0.3750,0.2469,0.5547,v3.2,Goles,Local,,2.62,-4.58,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",DC -> Alaves o Empate (1X),,1.50,0.8478,0.6259,0.2219,0.2717,v3.2,Doble Oportunidad,Total,,1.50,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 2.5,Over/Si,6.50,0.3528,0.1459,0.2069,1.2930,v3.2,Goles,Local,,6.50,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 0.5,Over/Si,1.30,0.8798,0.7234,0.1564,0.1437,v3.2,Goles,Local,,1.33,-2.26,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Athletic Club O/U 1.5,Under/No,1.50,0.7676,0.6250,0.1426,0.1514,v3.2,Goles,Visitante,,1.50,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Arco tot. O/U 8.5,Under/No,1.83,0.6288,0.5000,0.1288,0.1507,v3.2,Arco,Total,,1.83,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Arco Alaves O/U 4.5,Under/No,1.67,0.6855,0.5576,0.1279,0.1421,v3.2,Arco,Local,,1.67,+0.24,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Athletic Club O/U 0.5,Under/No,3.40,0.4009,0.2766,0.1243,0.3631,v3.2,Goles,Visitante,,3.40,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 2.5,Over/Si,2.00,0.5806,0.4737,0.1069,0.1612,v3.2,Goles,Total,,2.00,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Athletic Club O/U 2.5,Under/No,1.12,0.9349,0.8427,0.0922,0.0471,v3.2,Goles,Visitante,,1.12,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 3.5,Over/Si,3.50,0.3583,0.2708,0.0874,0.2540,v3.2,Goles,Total,,3.50,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",DC -> Alaves o Athletic Club (12),,1.30,0.8015,0.7222,0.0794,0.0420,v3.2,Doble Oportunidad,Total,,1.30,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 1.5,Over/Si,1.30,0.8050,0.7292,0.0758,0.0465,v3.2,Goles,Total,,1.33,-2.26,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Arco Athletic Club O/U 4.5,Under/No,1.67,0.6254,0.5576,0.0678,0.0419,v3.2,Arco,Visitante,,1.67,+0.24,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Corners Athletic Club O/U 4.5,Over/Si,1.83,0.5662,0.5000,0.0662,0.0361,v3.2,Corners,Visitante,,1.83,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Tiros Alaves O/U 11.5,Under/No,1.83,0.5629,0.5000,0.0629,0.0317,v3.2,Tiros,Local,,2.00,-8.50,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 0.5,Over/Si,1.06,0.9519,0.9042,0.0478,0.0090,v3.2,Goles,Total,,1.06,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 4.5,Over/Si,6.50,0.1893,0.1459,0.0434,0.2304,v3.2,Goles,Total,,7.00,-7.14,2026-05-02 16:10,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Tiros Atletico Madrid O/U 10.5,Under/No,1.83,0.6760,0.5000,0.1760,0.2390,v3.2,Tiros,Visitante,L,,,2026-05-02 13:55,1.53,+19.80,single_heur
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Corners Atletico Madrid O/U 4.5,Under/No,1.73,0.6972,0.5362,0.1610,0.2062,v3.2,Corners,Visitante,L,1.67,+3.59,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Corners Valencia O/U 4.5,Over/Si,1.62,0.7311,0.5759,0.1552,0.1843,v3.2,Corners,Local,L,1.62,+0.00,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 2.5,Over/Si,1.80,0.6466,0.5263,0.1203,0.1639,v3.2,Goles,Total,L,1.80,+0.00,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Tiros tot. O/U 23.5,Under/No,2.00,0.5767,0.4634,0.1133,0.1534,v3.2,Tiros,Total,L,1.83,+9.11,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",BTTS,Over/Si,1.75,0.6442,0.5333,0.1109,0.1273,v3.2,BTTS,Total,L,1.80,-2.78,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 3.5,Over/Si,3.00,0.4265,0.3182,0.1083,0.2794,v3.2,Goles,Total,L,3.20,-6.25,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Atletico Madrid O/U 1.5,Over/Si,3.00,0.4165,0.3119,0.1046,0.2496,v3.2,Goles,Visitante,W,3.50,-14.29,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Atletico Madrid O/U 0.5,Over/Si,1.40,0.7579,0.6627,0.0952,0.0610,v3.2,Goles,Visitante,W,1.50,-6.67,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 1.5,Over/Si,1.25,0.8444,0.7619,0.0825,0.0555,v3.2,Goles,Total,W,1.25,+0.00,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 4.5,Over/Si,5.50,0.2427,0.1717,0.0710,0.3350,v3.2,Goles,Total,L,5.50,+0.00,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Valencia O/U 1.5,Over/Si,1.83,0.5667,0.5000,0.0667,0.0370,v3.2,Goles,Local,L,1.73,+5.78,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Arco Atletico Madrid O/U 3.5,Under/No,2.00,0.5262,0.4634,0.0629,0.0525,v3.2,Arco,Visitante,L,1.67,+20.05,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Arco tot. O/U 8.5,Under/No,1.73,0.5973,0.5362,0.0611,0.0334,v3.2,Arco,Total,W,1.83,-5.46,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Valencia O/U 0.5,Over/Si,1.18,0.8501,0.7923,0.0578,0.0031,v3.2,Goles,Local,L,1.14,+3.51,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Atletico Madrid O/U 2.5,Over/Si,8.00,0.1730,0.1189,0.0540,0.3838,v3.2,Goles,Visitante,L,10.00,-20.00,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 0.5,Over/Si,1.05,0.9638,0.9129,0.0509,0.0120,v3.2,Goles,Total,W,1.05,+0.00,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Valencia O/U 2.5,Over/Si,3.75,0.3006,0.2500,0.0506,0.1274,v3.2,Goles,Local,L,3.40,+10.29,2026-05-02 13:55,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",1X2 -> Alaves gana,,2.70,0.6493,0.3505,0.2988,0.7532,v3.2,1X2,Total,L,2.75,-1.82,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 1.5,Over/Si,2.50,0.6219,0.3750,0.2469,0.5547,v3.2,Goles,Local,W,2.62,-4.58,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",DC -> Alaves o Empate (1X),,1.50,0.8478,0.6259,0.2219,0.2717,v3.2,Doble Oportunidad,Total,L,1.50,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 2.5,Over/Si,6.50,0.3528,0.1459,0.2069,1.2930,v3.2,Goles,Local,L,6.50,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 0.5,Over/Si,1.30,0.8798,0.7234,0.1564,0.1437,v3.2,Goles,Local,W,1.33,-2.26,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Athletic Club O/U 1.5,Under/No,1.50,0.7676,0.6250,0.1426,0.1514,v3.2,Goles,Visitante,L,1.50,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Arco tot. O/U 8.5,Under/No,1.83,0.6288,0.5000,0.1288,0.1507,v3.2,Arco,Total,W,1.83,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Arco Alaves O/U 4.5,Under/No,1.67,0.6855,0.5576,0.1279,0.1421,v3.2,Arco,Local,W,1.67,+0.24,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Athletic Club O/U 0.5,Under/No,3.40,0.4009,0.2766,0.1243,0.3631,v3.2,Goles,Visitante,L,3.40,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 2.5,Over/Si,2.00,0.5806,0.4737,0.1069,0.1612,v3.2,Goles,Total,W,2.00,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Athletic Club O/U 2.5,Under/No,1.12,0.9349,0.8427,0.0922,0.0471,v3.2,Goles,Visitante,L,1.12,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 3.5,Over/Si,3.50,0.3583,0.2708,0.0874,0.2540,v3.2,Goles,Total,W,3.50,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",DC -> Alaves o Athletic Club (12),,1.30,0.8015,0.7222,0.0794,0.0420,v3.2,Doble Oportunidad,Total,W,1.30,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 1.5,Over/Si,1.30,0.8050,0.7292,0.0758,0.0465,v3.2,Goles,Total,W,1.33,-2.26,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Arco Athletic Club O/U 4.5,Under/No,1.67,0.6254,0.5576,0.0678,0.0419,v3.2,Arco,Visitante,W,1.67,+0.24,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Corners Athletic Club O/U 4.5,Over/Si,1.83,0.5662,0.5000,0.0662,0.0361,v3.2,Corners,Visitante,W,1.83,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Tiros Alaves O/U 11.5,Under/No,1.83,0.5629,0.5000,0.0629,0.0317,v3.2,Tiros,Local,W,2.00,-8.50,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 0.5,Over/Si,1.06,0.9519,0.9042,0.0478,0.0090,v3.2,Goles,Total,W,1.06,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 4.5,Over/Si,6.50,0.1893,0.1459,0.0434,0.2304,v3.2,Goles,Total,W,7.00,-7.14,2026-05-02 16:10,,,exact
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",1X2 -> Osasuna gana,,4.20,0.4258,0.2267,0.1991,0.7884,v3.2,1X2,Total,,4.50,-6.67,2026-05-02 18:40,,,exact
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",DC -> Osasuna o Empate (1X),,2.00,0.6572,0.4762,0.1810,0.3143,v3.2,Doble Oportunidad,Total,,2.05,-2.44,2026-05-02 18:40,,,exact
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Osasuna O/U 1.5,Over/Si,2.50,0.5165,0.3750,0.1415,0.2913,v3.2,Goles,Local,,3.00,-16.67,2026-05-02 18:40,,,exact
@@ -5299,160 +5299,160 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Osasuna O/U 0.5,Over/Si,1.30,0.8230,0.7234,0.0996,0.0699,v3.2,Goles,Local,,1.40,-7.14,2026-05-02 18:40,,,exact
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Osasuna O/U 2.5,Over/Si,6.00,0.2540,0.1573,0.0967,0.5241,v3.2,Goles,Local,,8.00,-25.00,2026-05-02 18:40,,,exact
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 0.5,Under/No,6.50,0.2135,0.1459,0.0676,0.3878,v3.2,Goles,Visitante,,6.50,+0.00,2026-05-02 18:40,,,exact
-2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Tiros Brighton O/U 12.5,Over/Si,2.00,0.5469,0.4634,0.0835,0.0937,v3.2,Tiros,Visitante,,1.91,+4.77,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Corners Newcastle O/U 5.5,Over/Si,2.00,0.5359,0.4638,0.0721,0.0719,v3.2,Corners,Local,,2.00,+0.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Corners Brighton O/U 4.5,Under/No,1.91,0.5573,0.4852,0.0721,0.0644,v3.2,Corners,Visitante,,1.83,+4.37,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Goles Newcastle O/U 1.5,Over/Si,2.10,0.5061,0.4430,0.0631,0.0628,v3.2,Goles,Local,,2.10,+0.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",1X2 -> Newcastle gana,,2.50,0.4348,0.3805,0.0543,0.0870,v3.2,1X2,Total,,2.55,-1.96,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Goles tot. O/U 1.5,Over/Si,1.22,0.8231,0.7802,0.0429,0.0042,v3.2,Goles,Total,,1.20,+1.67,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Goles tot. O/U 3.5,Over/Si,2.75,0.3860,0.3437,0.0423,0.0616,v3.2,Goles,Total,,2.62,+4.96,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Goles tot. O/U 2.5,Over/Si,1.67,0.6105,0.5685,0.0421,0.0196,v3.2,Goles,Total,,1.67,+0.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Corners Wolves O/U 4.5,Under/No,1.73,0.7719,0.5362,0.2357,0.3353,v3.2,Corners,Local,,1.80,-3.89,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Tarjetas tot. O/U 3.5,Over/Si,1.83,0.7172,0.5000,0.2172,0.3125,v3.2,Tarjetas,Total,,1.85,-1.08,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Corners Sunderland O/U 4.5,Over/Si,1.73,0.7119,0.5362,0.1757,0.2315,v3.2,Corners,Visitante,,1.73,+0.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles Wolves O/U 0.5,Over/Si,1.40,0.7899,0.6627,0.1273,0.1059,v3.2,Goles,Local,,1.44,-2.78,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",1X2 -> Wolves gana,,3.10,0.4312,0.3068,0.1244,0.3368,v3.2,1X2,Total,,3.60,-13.89,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles Wolves O/U 1.5,Over/Si,2.75,0.4617,0.3373,0.1243,0.2695,v3.2,Goles,Local,,3.25,-15.38,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles Wolves O/U 2.5,Over/Si,8.00,0.2050,0.1189,0.0861,0.6402,v3.2,Goles,Local,,9.00,-11.11,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",DC -> Wolves o Empate (1X),,1.57,0.6768,0.5949,0.0820,0.0626,v3.2,Doble Oportunidad,Total,,1.73,-9.25,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles tot. O/U 2.5,Over/Si,2.00,0.5483,0.4737,0.0746,0.0965,v3.2,Goles,Total,,1.91,+4.71,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles tot. O/U 3.5,Over/Si,3.75,0.3229,0.2545,0.0684,0.2109,v3.2,Goles,Total,,3.40,+10.29,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles tot. O/U 1.5,Over/Si,1.33,0.7806,0.7188,0.0618,0.0383,v3.2,Goles,Total,,1.28,+3.91,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",BTTS,Over/Si,1.80,0.5773,0.5200,0.0573,0.0391,v3.2,BTTS,Total,,1.80,+0.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles tot. O/U 0.5,Over/Si,1.06,0.9436,0.8996,0.0440,0.0002,v3.2,Goles,Total,,1.05,+0.95,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles West Ham O/U 1.5,Under/No,1.50,0.7930,0.6250,0.1680,0.1895,v3.2,Goles,Visitante,,1.44,+4.17,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles West Ham O/U 0.5,Under/No,3.40,0.4306,0.2766,0.1540,0.4641,v3.2,Goles,Visitante,,3.25,+4.62,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Tiros West Ham O/U 11.5,Under/No,1.91,0.6331,0.4853,0.1478,0.2086,v3.2,Tiros,Visitante,,,,2026-05-02 13:40,1.64,+16.11,single_heur
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",BTTS,Under/No,2.38,0.5220,0.3913,0.1307,0.2425,v3.2,BTTS,Total,,2.25,+5.78,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Corners Brentford O/U 5.5,Under/No,1.83,0.6233,0.5000,0.1233,0.1406,v3.2,Corners,Local,,1.83,+0.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",1X2 -> Brentford gana,,1.95,0.6073,0.4850,0.1223,0.1843,v3.2,1X2,Total,,1.85,+5.41,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Tiros tot. O/U 26.5,Under/No,1.83,0.6080,0.5000,0.1080,0.1145,v3.2,Tiros,Total,,,,2026-05-02 13:40,1.35,+35.37,single_heur
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Arco West Ham O/U 3.5,Under/No,2.00,0.5671,0.4634,0.1037,0.1342,v3.2,Arco,Visitante,,1.83,+9.11,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 3.5,Under/No,1.53,0.7198,0.6203,0.0994,0.1012,v3.2,Goles,Total,,1.57,-2.55,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",DC -> Brentford o Empate (1X),,1.28,0.8331,0.7377,0.0954,0.0663,v3.2,Doble Oportunidad,Total,,1.25,+2.40,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles West Ham O/U 2.5,Under/No,1.11,0.9459,0.8541,0.0918,0.0499,v3.2,Goles,Visitante,,1.10,+0.91,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 2.5,Under/No,2.30,0.5001,0.4133,0.0869,0.1503,v3.2,Goles,Total,,2.38,-3.36,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Corners West Ham O/U 4.5,Over/Si,2.00,0.5466,0.4638,0.0828,0.0932,v3.2,Corners,Visitante,,2.00,+0.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 4.5,Under/No,1.20,0.8670,0.7895,0.0776,0.0404,v3.2,Goles,Total,,1.22,-1.64,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Arco Brentford O/U 4.5,Over/Si,1.73,0.5998,0.5366,0.0632,0.0358,v3.2,Arco,Local,,1.83,-5.62,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Corners tot. O/U 8.5,Under/No,3.00,0.3675,0.3124,0.0551,0.1024,v3.2,Corners,Total,,3.00,+0.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Corners tot. O/U 10.5,Under/No,1.73,0.5891,0.5362,0.0529,0.0191,v3.2,Corners,Total,,1.73,+0.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Corners tot. O/U 7.5,Under/No,4.33,0.2615,0.2169,0.0447,0.1333,v3.2,Corners,Total,,4.33,-0.07,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 1.5,Under/No,4.50,0.2539,0.2105,0.0433,0.1424,v3.2,Goles,Total,,5.00,-10.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tiros tot. O/U 25.5,Under/No,1.80,0.6663,0.5147,0.1517,0.1994,v3.2,Tiros,Total,,,,2026-05-02 16:10,1.31,+37.48,single_heur
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",BTTS,Under/No,1.80,0.6669,0.5200,0.1469,0.2003,v3.2,BTTS,Total,,1.75,+2.86,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tarjetas tot. O/U 3.5,Under/No,1.75,0.6820,0.5395,0.1425,0.1934,v3.2,Tarjetas,Total,,1.62,+8.02,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 0.5,Under/No,2.00,0.6058,0.4638,0.1420,0.2117,v3.2,Goles,Visitante,,1.91,+4.71,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tiros Arsenal O/U 16.5,Under/No,1.73,0.6556,0.5366,0.1190,0.1322,v3.2,Tiros,Local,,,,2026-05-02 16:10,1.30,+33.46,single_heur
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 1.5,Under/No,1.18,0.9088,0.7923,0.1165,0.0723,v3.2,Goles,Visitante,,1.17,+0.85,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles tot. O/U 2.5,Under/No,2.00,0.5765,0.4737,0.1028,0.1529,v3.2,Goles,Total,,1.91,+4.71,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles tot. O/U 3.5,Under/No,1.40,0.7838,0.6818,0.1019,0.0973,v3.2,Goles,Total,,1.33,+5.26,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tiros Fulham O/U 8.5,Under/No,2.00,0.5609,0.4634,0.0976,0.1219,v3.2,Tiros,Visitante,,2.00,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles tot. O/U 4.5,Under/No,1.14,0.9061,0.8283,0.0778,0.0329,v3.2,Goles,Total,,1.12,+1.79,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles tot. O/U 1.5,Under/No,4.00,0.3153,0.2381,0.0772,0.2613,v3.2,Goles,Total,,3.75,+6.67,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Arco tot. O/U 7.5,Over/Si,1.91,0.5389,0.4852,0.0537,0.0292,v3.2,Arco,Total,,1.80,+6.11,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",1X2 -> Arsenal gana,,1.45,0.7044,0.6539,0.0505,0.0214,v3.2,1X2,Total,,1.44,+0.69,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Arco Fulham O/U 2.5,Over/Si,2.00,0.5126,0.4634,0.0492,0.0251,v3.2,Arco,Visitante,,1.80,+11.11,2026-05-02 16:10,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 2.5,Under/No,1.02,0.9854,0.9434,0.0420,0.0051,v3.2,Goles,Visitante,,1.02,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 4.5,Over/Si,2.50,0.7827,0.3797,0.4030,0.9567,v3.2,Goles,Total,,2.30,+8.70,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 2.5,Over/Si,1.57,0.9296,0.5890,0.3406,0.4594,v3.2,Goles,Local,,1.57,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 3.5,Over/Si,1.67,0.8926,0.5685,0.3241,0.4906,v3.2,Goles,Total,,1.57,+6.37,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",1X2 -> Bayern München gana,,1.25,0.9750,0.7590,0.2160,0.2188,v3.2,1X2,Total,,1.27,-1.57,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.25,0.9587,0.7619,0.1968,0.1983,v3.2,Goles,Total,,1.22,+2.46,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Tiros tot. O/U 28.5,Over/Si,1.83,0.6915,0.5000,0.1915,0.2676,v3.2,Tiros,Total,,,,2026-05-02 13:10,1.53,+19.80,single_heur
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Arco tot. O/U 10.5,Over/Si,2.00,0.6534,0.4638,0.1896,0.3068,v3.2,Arco,Total,,2.00,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 1.5,Over/Si,1.17,0.9799,0.8104,0.1695,0.1465,v3.2,Goles,Local,,1.17,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",DC -> Bayern München o 1. FC Heidenheim (12),,1.10,0.9820,0.8684,0.1136,0.0802,v3.2,Doble Oportunidad,Total,,1.10,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",DC -> Bayern München o Empate (1X),,1.07,0.9930,0.8928,0.1003,0.0625,v3.2,Doble Oportunidad,Total,,1.07,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Corners 1. FC Heidenheim O/U 2.5,Under/No,1.91,0.5812,0.4853,0.0958,0.1094,v3.2,Corners,Visitante,,1.91,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.07,0.9895,0.8937,0.0957,0.0588,v3.2,Goles,Total,,1.06,+0.94,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 0.5,Under/No,2.38,0.4802,0.3913,0.0889,0.1428,v3.2,Goles,Visitante,,2.62,-9.16,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 1.5,Under/No,1.25,0.8356,0.7500,0.0856,0.0445,v3.2,Goles,Visitante,,1.33,-6.02,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Corners Bayern München O/U 6.5,Over/Si,1.83,0.5802,0.5000,0.0802,0.0636,v3.2,Corners,Local,,1.83,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Tiros 1. FC Heidenheim O/U 9.5,Under/No,2.00,0.5250,0.4634,0.0616,0.0500,v3.2,Tiros,Visitante,,1.91,+4.77,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",BTTS,Under/No,2.20,0.4817,0.4241,0.0576,0.0597,v3.2,BTTS,Total,,2.50,-12.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 0.5,Over/Si,1.02,0.9972,0.9434,0.0538,0.0171,v3.2,Goles,Local,,1.02,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 2.5,Under/No,1.05,0.9626,0.9129,0.0497,0.0107,v3.2,Goles,Visitante,,1.07,-1.87,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros Werder Bremen O/U 15.5,Over/Si,1.80,0.6874,0.5147,0.1727,0.2374,v3.2,Tiros,Local,,,,2026-05-02 13:10,2.23,-19.43,single_heur
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco Werder Bremen O/U 4.5,Over/Si,1.73,0.7031,0.5366,0.1665,0.2142,v3.2,Arco,Local,,1.73,+0.17,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco tot. O/U 8.5,Over/Si,1.83,0.6645,0.5000,0.1645,0.2181,v3.2,Arco,Total,,1.83,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Corners FC Augsburg O/U 3.5,Under/No,2.10,0.5925,0.4424,0.1501,0.2443,v3.2,Corners,Visitante,,2.00,+5.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros tot. O/U 27.5,Over/Si,1.73,0.6858,0.5366,0.1491,0.1843,v3.2,Tiros,Total,,1.91,-9.38,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Corners Werder Bremen O/U 5.5,Over/Si,2.00,0.5671,0.4634,0.1038,0.1343,v3.2,Corners,Local,,1.83,+9.29,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros FC Augsburg O/U 11.5,Over/Si,1.80,0.5629,0.5147,0.0482,0.0133,v3.2,Tiros,Visitante,,,,2026-05-02 13:10,1.64,+9.42,single_heur
-2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco FC Augsburg O/U 3.5,Over/Si,1.83,0.5481,0.5000,0.0481,0.0046,v3.2,Arco,Visitante,,1.83,-0.16,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 2.5,Over/Si,3.00,0.5997,0.3119,0.2878,0.7991,v3.2,Goles,Local,,3.25,-7.69,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 1.5,Over/Si,1.67,0.8165,0.5570,0.2595,0.3636,v3.2,Goles,Local,,1.67,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 4.5,Over/Si,3.20,0.5423,0.2982,0.2441,0.7355,v3.2,Goles,Total,,3.20,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",1X2 -> 1899 Hoffenheim gana,,2.25,0.6415,0.4221,0.2194,0.4434,v3.2,1X2,Total,,2.40,-6.25,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Tiros 1899 Hoffenheim O/U 14.5,Over/Si,2.00,0.6824,0.4634,0.2190,0.3648,v3.2,Tiros,Local,,1.83,+9.11,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 3.5,Over/Si,1.91,0.7184,0.5000,0.2184,0.3721,v3.2,Goles,Total,,2.00,-4.50,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.36,0.8652,0.7018,0.1634,0.1767,v3.2,Goles,Total,,1.40,-2.86,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Tiros tot. O/U 26.5,Over/Si,1.83,0.6528,0.5000,0.1528,0.1967,v3.2,Tiros,Total,,,,2026-05-02 13:10,1.53,+19.80,single_heur
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",DC -> 1899 Hoffenheim o Empate (1X),,1.44,0.7990,0.6516,0.1474,0.1506,v3.2,Doble Oportunidad,Total,,1.50,-4.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Arco 1899 Hoffenheim O/U 4.5,Over/Si,1.67,0.6976,0.5576,0.1400,0.1622,v3.2,Arco,Local,,1.67,+0.24,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 0.5,Over/Si,1.12,0.9548,0.8427,0.1121,0.0694,v3.2,Goles,Local,,1.14,-1.75,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",BTTS,Over/Si,1.36,0.7962,0.6881,0.1081,0.0828,v3.2,BTTS,Total,,1.33,+2.26,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.11,0.9554,0.8541,0.1013,0.0605,v3.2,Goles,Total,,1.11,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Arco tot. O/U 9.5,Over/Si,1.80,0.6150,0.5148,0.1002,0.1070,v3.2,Arco,Total,,1.80,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",DC -> 1899 Hoffenheim o VfB Stuttgart (12),,1.22,0.8425,0.7691,0.0734,0.0278,v3.2,Doble Oportunidad,Total,,1.22,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners VfB Stuttgart O/U 4.5,Under/No,1.91,0.5552,0.4852,0.0700,0.0605,v3.2,Corners,Visitante,,1.83,+4.37,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners 1899 Hoffenheim O/U 4.5,Over/Si,1.67,0.6202,0.5570,0.0632,0.0357,v3.2,Corners,Local,,1.67,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners tot. O/U 9.5,Under/No,2.10,0.4857,0.4430,0.0428,0.0200,v3.2,Corners,Total,,2.10,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",1X2 -> Eintracht Frankfurt gana,,1.70,0.6687,0.5579,0.1108,0.1368,v3.2,1X2,Total,,1.75,-2.86,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 1.5,Over/Si,1.57,0.6892,0.5890,0.1002,0.0820,v3.2,Goles,Local,,1.57,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 2.5,Over/Si,2.75,0.4281,0.3373,0.0907,0.1772,v3.2,Goles,Local,,2.75,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners Hamburger SV O/U 3.5,Under/No,2.00,0.5294,0.4634,0.0661,0.0589,v3.2,Corners,Visitante,,1.83,+9.29,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.57,0.6682,0.6025,0.0657,0.0491,v3.2,Goles,Total,,1.50,+4.67,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 9.5,Under/No,1.95,0.5453,0.4868,0.0585,0.0634,v3.2,Corners,Total,,1.95,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 8.5,Under/No,2.50,0.4305,0.3750,0.0555,0.0764,v3.2,Corners,Total,,2.50,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Tiros Eintracht Frankfurt O/U 14.5,Over/Si,1.80,0.5695,0.5147,0.0548,0.0250,v3.2,Tiros,Local,,1.80,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Tiros tot. O/U 25.5,Over/Si,1.91,0.5396,0.4853,0.0543,0.0301,v3.2,Tiros,Total,,1.83,+4.20,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",DC -> Eintracht Frankfurt o Empate (1X),,1.18,0.8489,0.7949,0.0541,0.0018,v3.2,Doble Oportunidad,Total,,1.22,-3.28,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 0.5,Over/Si,1.11,0.9081,0.8541,0.0540,0.0080,v3.2,Goles,Local,,1.11,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Hamburger SV O/U 1.5,Under/No,1.40,0.7162,0.6627,0.0535,0.0027,v3.2,Goles,Visitante,,1.50,-6.67,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",DC -> Eintracht Frankfurt o Hamburger SV (12),,1.22,0.8197,0.7688,0.0509,0.0001,v3.2,Doble Oportunidad,Total,,1.22,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.17,0.8582,0.8104,0.0478,0.0041,v3.2,Goles,Total,,1.14,+2.63,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Hamburger SV O/U 2.5,Under/No,1.10,0.9104,0.8642,0.0462,0.0015,v3.2,Goles,Visitante,,1.11,-0.90,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 7.5,Under/No,3.50,0.3143,0.2685,0.0457,0.0999,v3.2,Corners,Total,,3.50,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners 1. FC Köln O/U 4.5,Under/No,1.83,0.6261,0.5000,0.1261,0.1457,v3.2,Corners,Visitante,,1.73,+5.78,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",1X2 -> Union Berlin gana,,2.45,0.4689,0.3853,0.0836,0.1488,v3.2,1X2,Total,,2.45,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 1.5,Over/Si,2.25,0.4920,0.4110,0.0810,0.1070,v3.2,Goles,Local,,2.10,+7.14,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Tiros 1. FC Köln O/U 11.5,Under/No,1.83,0.5666,0.5000,0.0666,0.0385,v3.2,Tiros,Visitante,,1.73,+5.96,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 10.5,Under/No,1.67,0.6230,0.5570,0.0659,0.0404,v3.2,Corners,Total,,1.67,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 8.5,Under/No,2.75,0.4025,0.3373,0.0651,0.1068,v3.2,Corners,Total,,2.75,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 0.5,Over/Si,1.25,0.8075,0.7500,0.0575,0.0094,v3.2,Goles,Local,,1.22,+2.46,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Tiros tot. O/U 25.5,Under/No,1.91,0.5426,0.4853,0.0573,0.0358,v3.2,Tiros,Total,,1.83,+4.20,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 11.5,Under/No,1.40,0.7198,0.6627,0.0572,0.0077,v3.2,Corners,Total,,1.40,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 2.5,Over/Si,5.50,0.2288,0.1717,0.0571,0.2583,v3.2,Goles,Local,,4.50,+22.22,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 7.5,Under/No,4.00,0.2898,0.2340,0.0558,0.1592,v3.2,Corners,Total,,4.00,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.91,0.5524,0.5000,0.0524,0.0551,v3.2,Goles,Total,,1.73,+10.40,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 12.5,Under/No,1.25,0.8006,0.7500,0.0506,0.0008,v3.2,Corners,Total,,1.25,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 6.5,Under/No,6.50,0.1903,0.1460,0.0443,0.2367,v3.2,Corners,Total,,6.50,+0.00,2026-05-02 13:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles RB Leipzig O/U 1.5,Under/No,1.83,0.6470,0.5000,0.1470,0.1840,v3.2,Goles,Visitante,,1.83,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 3.5,Under/No,1.91,0.6428,0.5000,0.1428,0.2277,v3.2,Goles,Total,,1.91,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles RB Leipzig O/U 2.5,Under/No,1.25,0.8698,0.7500,0.1198,0.0872,v3.2,Goles,Visitante,,1.25,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 2.5,Under/No,3.20,0.4175,0.2982,0.1192,0.3360,v3.2,Goles,Total,,3.20,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Tiros Bayer Leverkusen O/U 15.5,Under/No,1.73,0.6470,0.5366,0.1104,0.1173,v3.2,Tiros,Local,,,,2026-05-02 16:10,1.51,+14.78,single_heur
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 4.5,Under/No,1.36,0.8110,0.7018,0.1092,0.1030,v3.2,Goles,Total,,1.40,-2.86,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 10.5,Under/No,1.61,0.6526,0.5533,0.0993,0.0539,v3.2,Corners,Total,,1.57,+2.48,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",BTTS,Under/No,3.00,0.4077,0.3119,0.0958,0.2231,v3.2,BTTS,Total,,3.00,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles RB Leipzig O/U 0.5,Under/No,4.50,0.2888,0.2077,0.0811,0.2997,v3.2,Goles,Visitante,,5.00,-10.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 9.5,Under/No,2.00,0.5434,0.4638,0.0796,0.0868,v3.2,Corners,Total,,1.98,+1.01,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Tiros tot. O/U 27.5,Under/No,1.80,0.5920,0.5147,0.0773,0.0656,v3.2,Tiros,Total,,2.00,-10.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 8.5,Under/No,2.62,0.4250,0.3549,0.0701,0.1155,v3.2,Corners,Total,,2.50,+4.80,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners RB Leipzig O/U 4.5,Under/No,1.67,0.6202,0.5576,0.0626,0.0333,v3.2,Corners,Visitante,,1.62,+3.09,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",DC -> Bayer Leverkusen o Empate (1X),,1.40,0.7335,0.6732,0.0603,0.0269,v3.2,Doble Oportunidad,Total,,1.40,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 11.5,Under/No,1.36,0.7477,0.6876,0.0601,0.0191,v3.2,Corners,Total,,1.33,+2.03,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 7.5,Under/No,3.75,0.3093,0.2500,0.0593,0.1599,v3.2,Corners,Total,,3.75,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 12.5,Under/No,1.22,0.8217,0.7660,0.0557,0.0042,v3.2,Corners,Total,,1.20,+1.67,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",1X2 -> Bayer Leverkusen gana,,2.10,0.4998,0.4486,0.0512,0.0496,v3.2,1X2,Total,,2.20,-4.55,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 1.5,Under/No,6.50,0.1959,0.1459,0.0500,0.2732,v3.2,Goles,Total,,7.00,-7.14,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 6.5,Under/No,6.00,0.2069,0.1579,0.0490,0.2413,v3.2,Corners,Total,,5.50,+9.09,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles Bayer Leverkusen O/U 2.5,Under/No,1.36,0.7366,0.6881,0.0486,0.0018,v3.2,Goles,Local,,1.36,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners Bayer Leverkusen O/U 5.5,Under/No,1.80,0.5627,0.5147,0.0480,0.0129,v3.2,Corners,Local,,1.73,+4.05,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Arco tot. O/U 9.5,Over/Si,2.00,0.5111,0.4634,0.0477,0.0221,v3.2,Arco,Total,,2.00,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles Bayer Leverkusen O/U 1.5,Under/No,2.20,0.4687,0.4241,0.0446,0.0312,v3.2,Goles,Local,,2.20,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Tiros Brighton O/U 12.5,Over/Si,2.00,0.5469,0.4634,0.0835,0.0937,v3.2,Tiros,Visitante,W,1.91,+4.77,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Corners Newcastle O/U 5.5,Over/Si,2.00,0.5359,0.4638,0.0721,0.0719,v3.2,Corners,Local,L,2.00,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Corners Brighton O/U 4.5,Under/No,1.91,0.5573,0.4852,0.0721,0.0644,v3.2,Corners,Visitante,L,1.83,+4.37,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Goles Newcastle O/U 1.5,Over/Si,2.10,0.5061,0.4430,0.0631,0.0628,v3.2,Goles,Local,W,2.10,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",1X2 -> Newcastle gana,,2.50,0.4348,0.3805,0.0543,0.0870,v3.2,1X2,Total,W,2.55,-1.96,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Goles tot. O/U 1.5,Over/Si,1.22,0.8231,0.7802,0.0429,0.0042,v3.2,Goles,Total,W,1.20,+1.67,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Goles tot. O/U 3.5,Over/Si,2.75,0.3860,0.3437,0.0423,0.0616,v3.2,Goles,Total,W,2.62,+4.96,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Goles tot. O/U 2.5,Over/Si,1.67,0.6105,0.5685,0.0421,0.0196,v3.2,Goles,Total,W,1.67,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Corners Wolves O/U 4.5,Under/No,1.73,0.7719,0.5362,0.2357,0.3353,v3.2,Corners,Local,L,1.80,-3.89,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Tarjetas tot. O/U 3.5,Over/Si,1.83,0.7172,0.5000,0.2172,0.3125,v3.2,Tarjetas,Total,W,1.85,-1.08,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Corners Sunderland O/U 4.5,Over/Si,1.73,0.7119,0.5362,0.1757,0.2315,v3.2,Corners,Visitante,L,1.73,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles Wolves O/U 0.5,Over/Si,1.40,0.7899,0.6627,0.1273,0.1059,v3.2,Goles,Local,W,1.44,-2.78,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",1X2 -> Wolves gana,,3.10,0.4312,0.3068,0.1244,0.3368,v3.2,1X2,Total,L,3.60,-13.89,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles Wolves O/U 1.5,Over/Si,2.75,0.4617,0.3373,0.1243,0.2695,v3.2,Goles,Local,L,3.25,-15.38,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles Wolves O/U 2.5,Over/Si,8.00,0.2050,0.1189,0.0861,0.6402,v3.2,Goles,Local,L,9.00,-11.11,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",DC -> Wolves o Empate (1X),,1.57,0.6768,0.5949,0.0820,0.0626,v3.2,Doble Oportunidad,Total,W,1.73,-9.25,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles tot. O/U 2.5,Over/Si,2.00,0.5483,0.4737,0.0746,0.0965,v3.2,Goles,Total,L,1.91,+4.71,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles tot. O/U 3.5,Over/Si,3.75,0.3229,0.2545,0.0684,0.2109,v3.2,Goles,Total,L,3.40,+10.29,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles tot. O/U 1.5,Over/Si,1.33,0.7806,0.7188,0.0618,0.0383,v3.2,Goles,Total,W,1.28,+3.91,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",BTTS,Over/Si,1.80,0.5773,0.5200,0.0573,0.0391,v3.2,BTTS,Total,W,1.80,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Goles tot. O/U 0.5,Over/Si,1.06,0.9436,0.8996,0.0440,0.0002,v3.2,Goles,Total,W,1.05,+0.95,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles West Ham O/U 1.5,Under/No,1.50,0.7930,0.6250,0.1680,0.1895,v3.2,Goles,Visitante,W,1.44,+4.17,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles West Ham O/U 0.5,Under/No,3.40,0.4306,0.2766,0.1540,0.4641,v3.2,Goles,Visitante,W,3.25,+4.62,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Tiros West Ham O/U 11.5,Under/No,1.91,0.6331,0.4853,0.1478,0.2086,v3.2,Tiros,Visitante,L,,,2026-05-02 13:40,1.64,+16.11,single_heur
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",BTTS,Under/No,2.38,0.5220,0.3913,0.1307,0.2425,v3.2,BTTS,Total,W,2.25,+5.78,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Corners Brentford O/U 5.5,Under/No,1.83,0.6233,0.5000,0.1233,0.1406,v3.2,Corners,Local,W,1.83,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",1X2 -> Brentford gana,,1.95,0.6073,0.4850,0.1223,0.1843,v3.2,1X2,Total,W,1.85,+5.41,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Tiros tot. O/U 26.5,Under/No,1.83,0.6080,0.5000,0.1080,0.1145,v3.2,Tiros,Total,L,,,2026-05-02 13:40,1.35,+35.37,single_heur
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Arco West Ham O/U 3.5,Under/No,2.00,0.5671,0.4634,0.1037,0.1342,v3.2,Arco,Visitante,L,1.83,+9.11,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 3.5,Under/No,1.53,0.7198,0.6203,0.0994,0.1012,v3.2,Goles,Total,W,1.57,-2.55,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",DC -> Brentford o Empate (1X),,1.28,0.8331,0.7377,0.0954,0.0663,v3.2,Doble Oportunidad,Total,W,1.25,+2.40,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles West Ham O/U 2.5,Under/No,1.11,0.9459,0.8541,0.0918,0.0499,v3.2,Goles,Visitante,W,1.10,+0.91,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 2.5,Under/No,2.30,0.5001,0.4133,0.0869,0.1503,v3.2,Goles,Total,L,2.38,-3.36,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Corners West Ham O/U 4.5,Over/Si,2.00,0.5466,0.4638,0.0828,0.0932,v3.2,Corners,Visitante,W,2.00,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 4.5,Under/No,1.20,0.8670,0.7895,0.0776,0.0404,v3.2,Goles,Total,W,1.22,-1.64,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Arco Brentford O/U 4.5,Over/Si,1.73,0.5998,0.5366,0.0632,0.0358,v3.2,Arco,Local,W,1.83,-5.62,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Corners tot. O/U 8.5,Under/No,3.00,0.3675,0.3124,0.0551,0.1024,v3.2,Corners,Total,W,3.00,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Corners tot. O/U 10.5,Under/No,1.73,0.5891,0.5362,0.0529,0.0191,v3.2,Corners,Total,W,1.73,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Corners tot. O/U 7.5,Under/No,4.33,0.2615,0.2169,0.0447,0.1333,v3.2,Corners,Total,L,4.33,-0.07,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 1.5,Under/No,4.50,0.2539,0.2105,0.0433,0.1424,v3.2,Goles,Total,L,5.00,-10.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tiros tot. O/U 25.5,Under/No,1.80,0.6663,0.5147,0.1517,0.1994,v3.2,Tiros,Total,L,,,2026-05-02 16:10,1.31,+37.48,single_heur
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",BTTS,Under/No,1.80,0.6669,0.5200,0.1469,0.2003,v3.2,BTTS,Total,W,1.75,+2.86,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tarjetas tot. O/U 3.5,Under/No,1.75,0.6820,0.5395,0.1425,0.1934,v3.2,Tarjetas,Total,W,1.62,+8.02,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 0.5,Under/No,2.00,0.6058,0.4638,0.1420,0.2117,v3.2,Goles,Visitante,W,1.91,+4.71,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tiros Arsenal O/U 16.5,Under/No,1.73,0.6556,0.5366,0.1190,0.1322,v3.2,Tiros,Local,L,,,2026-05-02 16:10,1.30,+33.46,single_heur
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 1.5,Under/No,1.18,0.9088,0.7923,0.1165,0.0723,v3.2,Goles,Visitante,W,1.17,+0.85,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles tot. O/U 2.5,Under/No,2.00,0.5765,0.4737,0.1028,0.1529,v3.2,Goles,Total,L,1.91,+4.71,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles tot. O/U 3.5,Under/No,1.40,0.7838,0.6818,0.1019,0.0973,v3.2,Goles,Total,W,1.33,+5.26,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tiros Fulham O/U 8.5,Under/No,2.00,0.5609,0.4634,0.0976,0.1219,v3.2,Tiros,Visitante,L,2.00,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles tot. O/U 4.5,Under/No,1.14,0.9061,0.8283,0.0778,0.0329,v3.2,Goles,Total,W,1.12,+1.79,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles tot. O/U 1.5,Under/No,4.00,0.3153,0.2381,0.0772,0.2613,v3.2,Goles,Total,L,3.75,+6.67,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Arco tot. O/U 7.5,Over/Si,1.91,0.5389,0.4852,0.0537,0.0292,v3.2,Arco,Total,W,1.80,+6.11,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",1X2 -> Arsenal gana,,1.45,0.7044,0.6539,0.0505,0.0214,v3.2,1X2,Total,W,1.44,+0.69,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Arco Fulham O/U 2.5,Over/Si,2.00,0.5126,0.4634,0.0492,0.0251,v3.2,Arco,Visitante,L,1.80,+11.11,2026-05-02 16:10,,,exact
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 2.5,Under/No,1.02,0.9854,0.9434,0.0420,0.0051,v3.2,Goles,Visitante,W,1.02,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 4.5,Over/Si,2.50,0.7827,0.3797,0.4030,0.9567,v3.2,Goles,Total,W,2.30,+8.70,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 2.5,Over/Si,1.57,0.9296,0.5890,0.3406,0.4594,v3.2,Goles,Local,W,1.57,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 3.5,Over/Si,1.67,0.8926,0.5685,0.3241,0.4906,v3.2,Goles,Total,W,1.57,+6.37,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",1X2 -> Bayern München gana,,1.25,0.9750,0.7590,0.2160,0.2188,v3.2,1X2,Total,L,1.27,-1.57,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.25,0.9587,0.7619,0.1968,0.1983,v3.2,Goles,Total,W,1.22,+2.46,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Tiros tot. O/U 28.5,Over/Si,1.83,0.6915,0.5000,0.1915,0.2676,v3.2,Tiros,Total,W,,,2026-05-02 13:10,1.53,+19.80,single_heur
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Arco tot. O/U 10.5,Over/Si,2.00,0.6534,0.4638,0.1896,0.3068,v3.2,Arco,Total,W,2.00,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 1.5,Over/Si,1.17,0.9799,0.8104,0.1695,0.1465,v3.2,Goles,Local,W,1.17,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",DC -> Bayern München o 1. FC Heidenheim (12),,1.10,0.9820,0.8684,0.1136,0.0802,v3.2,Doble Oportunidad,Total,L,1.10,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",DC -> Bayern München o Empate (1X),,1.07,0.9930,0.8928,0.1003,0.0625,v3.2,Doble Oportunidad,Total,W,1.07,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Corners 1. FC Heidenheim O/U 2.5,Under/No,1.91,0.5812,0.4853,0.0958,0.1094,v3.2,Corners,Visitante,L,1.91,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.07,0.9895,0.8937,0.0957,0.0588,v3.2,Goles,Total,W,1.06,+0.94,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 0.5,Under/No,2.38,0.4802,0.3913,0.0889,0.1428,v3.2,Goles,Visitante,L,2.62,-9.16,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 1.5,Under/No,1.25,0.8356,0.7500,0.0856,0.0445,v3.2,Goles,Visitante,L,1.33,-6.02,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Corners Bayern München O/U 6.5,Over/Si,1.83,0.5802,0.5000,0.0802,0.0636,v3.2,Corners,Local,W,1.83,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Tiros 1. FC Heidenheim O/U 9.5,Under/No,2.00,0.5250,0.4634,0.0616,0.0500,v3.2,Tiros,Visitante,L,1.91,+4.77,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",BTTS,Under/No,2.20,0.4817,0.4241,0.0576,0.0597,v3.2,BTTS,Total,L,2.50,-12.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 0.5,Over/Si,1.02,0.9972,0.9434,0.0538,0.0171,v3.2,Goles,Local,W,1.02,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles 1. FC Heidenheim O/U 2.5,Under/No,1.05,0.9626,0.9129,0.0497,0.0107,v3.2,Goles,Visitante,L,1.07,-1.87,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros Werder Bremen O/U 15.5,Over/Si,1.80,0.6874,0.5147,0.1727,0.2374,v3.2,Tiros,Local,L,,,2026-05-02 13:10,2.23,-19.43,single_heur
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco Werder Bremen O/U 4.5,Over/Si,1.73,0.7031,0.5366,0.1665,0.2142,v3.2,Arco,Local,L,1.73,+0.17,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco tot. O/U 8.5,Over/Si,1.83,0.6645,0.5000,0.1645,0.2181,v3.2,Arco,Total,W,1.83,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Corners FC Augsburg O/U 3.5,Under/No,2.10,0.5925,0.4424,0.1501,0.2443,v3.2,Corners,Visitante,W,2.00,+5.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros tot. O/U 27.5,Over/Si,1.73,0.6858,0.5366,0.1491,0.1843,v3.2,Tiros,Total,W,1.91,-9.38,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Corners Werder Bremen O/U 5.5,Over/Si,2.00,0.5671,0.4634,0.1038,0.1343,v3.2,Corners,Local,W,1.83,+9.29,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Tiros FC Augsburg O/U 11.5,Over/Si,1.80,0.5629,0.5147,0.0482,0.0133,v3.2,Tiros,Visitante,W,,,2026-05-02 13:10,1.64,+9.42,single_heur
+2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",Arco FC Augsburg O/U 3.5,Over/Si,1.83,0.5481,0.5000,0.0481,0.0046,v3.2,Arco,Visitante,W,1.83,-0.16,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 2.5,Over/Si,3.00,0.5997,0.3119,0.2878,0.7991,v3.2,Goles,Local,W,3.25,-7.69,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 1.5,Over/Si,1.67,0.8165,0.5570,0.2595,0.3636,v3.2,Goles,Local,W,1.67,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 4.5,Over/Si,3.20,0.5423,0.2982,0.2441,0.7355,v3.2,Goles,Total,W,3.20,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",1X2 -> 1899 Hoffenheim gana,,2.25,0.6415,0.4221,0.2194,0.4434,v3.2,1X2,Total,L,2.40,-6.25,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Tiros 1899 Hoffenheim O/U 14.5,Over/Si,2.00,0.6824,0.4634,0.2190,0.3648,v3.2,Tiros,Local,W,1.83,+9.11,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 3.5,Over/Si,1.91,0.7184,0.5000,0.2184,0.3721,v3.2,Goles,Total,W,2.00,-4.50,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.36,0.8652,0.7018,0.1634,0.1767,v3.2,Goles,Total,W,1.40,-2.86,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Tiros tot. O/U 26.5,Over/Si,1.83,0.6528,0.5000,0.1528,0.1967,v3.2,Tiros,Total,W,,,2026-05-02 13:10,1.53,+19.80,single_heur
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",DC -> 1899 Hoffenheim o Empate (1X),,1.44,0.7990,0.6516,0.1474,0.1506,v3.2,Doble Oportunidad,Total,W,1.50,-4.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Arco 1899 Hoffenheim O/U 4.5,Over/Si,1.67,0.6976,0.5576,0.1400,0.1622,v3.2,Arco,Local,W,1.67,+0.24,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles 1899 Hoffenheim O/U 0.5,Over/Si,1.12,0.9548,0.8427,0.1121,0.0694,v3.2,Goles,Local,W,1.14,-1.75,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",BTTS,Over/Si,1.36,0.7962,0.6881,0.1081,0.0828,v3.2,BTTS,Total,W,1.33,+2.26,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.11,0.9554,0.8541,0.1013,0.0605,v3.2,Goles,Total,W,1.11,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Arco tot. O/U 9.5,Over/Si,1.80,0.6150,0.5148,0.1002,0.1070,v3.2,Arco,Total,W,1.80,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",DC -> 1899 Hoffenheim o VfB Stuttgart (12),,1.22,0.8425,0.7691,0.0734,0.0278,v3.2,Doble Oportunidad,Total,L,1.22,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners VfB Stuttgart O/U 4.5,Under/No,1.91,0.5552,0.4852,0.0700,0.0605,v3.2,Corners,Visitante,L,1.83,+4.37,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners 1899 Hoffenheim O/U 4.5,Over/Si,1.67,0.6202,0.5570,0.0632,0.0357,v3.2,Corners,Local,L,1.67,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:05,1388592,1899 Hoffenheim vs VfB Stuttgart,"('Bundesliga', False)",Corners tot. O/U 9.5,Under/No,2.10,0.4857,0.4430,0.0428,0.0200,v3.2,Corners,Total,W,2.10,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",1X2 -> Eintracht Frankfurt gana,,1.70,0.6687,0.5579,0.1108,0.1368,v3.2,1X2,Total,L,1.75,-2.86,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 1.5,Over/Si,1.57,0.6892,0.5890,0.1002,0.0820,v3.2,Goles,Local,L,1.57,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 2.5,Over/Si,2.75,0.4281,0.3373,0.0907,0.1772,v3.2,Goles,Local,L,2.75,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners Hamburger SV O/U 3.5,Under/No,2.00,0.5294,0.4634,0.0661,0.0589,v3.2,Corners,Visitante,L,1.83,+9.29,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.57,0.6682,0.6025,0.0657,0.0491,v3.2,Goles,Total,W,1.50,+4.67,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 9.5,Under/No,1.95,0.5453,0.4868,0.0585,0.0634,v3.2,Corners,Total,L,1.95,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 8.5,Under/No,2.50,0.4305,0.3750,0.0555,0.0764,v3.2,Corners,Total,L,2.50,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Tiros Eintracht Frankfurt O/U 14.5,Over/Si,1.80,0.5695,0.5147,0.0548,0.0250,v3.2,Tiros,Local,L,1.80,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Tiros tot. O/U 25.5,Over/Si,1.91,0.5396,0.4853,0.0543,0.0301,v3.2,Tiros,Total,L,1.83,+4.20,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",DC -> Eintracht Frankfurt o Empate (1X),,1.18,0.8489,0.7949,0.0541,0.0018,v3.2,Doble Oportunidad,Total,L,1.22,-3.28,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Eintracht Frankfurt O/U 0.5,Over/Si,1.11,0.9081,0.8541,0.0540,0.0080,v3.2,Goles,Local,W,1.11,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Hamburger SV O/U 1.5,Under/No,1.40,0.7162,0.6627,0.0535,0.0027,v3.2,Goles,Visitante,L,1.50,-6.67,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",DC -> Eintracht Frankfurt o Hamburger SV (12),,1.22,0.8197,0.7688,0.0509,0.0001,v3.2,Doble Oportunidad,Total,W,1.22,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.17,0.8582,0.8104,0.0478,0.0041,v3.2,Goles,Total,W,1.14,+2.63,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Goles Hamburger SV O/U 2.5,Under/No,1.10,0.9104,0.8642,0.0462,0.0015,v3.2,Goles,Visitante,W,1.11,-0.90,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388590,Eintracht Frankfurt vs Hamburger SV,"('Bundesliga', False)",Corners tot. O/U 7.5,Under/No,3.50,0.3143,0.2685,0.0457,0.0999,v3.2,Corners,Total,L,3.50,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners 1. FC Köln O/U 4.5,Under/No,1.83,0.6261,0.5000,0.1261,0.1457,v3.2,Corners,Visitante,L,1.73,+5.78,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",1X2 -> Union Berlin gana,,2.45,0.4689,0.3853,0.0836,0.1488,v3.2,1X2,Total,L,2.45,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 1.5,Over/Si,2.25,0.4920,0.4110,0.0810,0.1070,v3.2,Goles,Local,W,2.10,+7.14,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Tiros 1. FC Köln O/U 11.5,Under/No,1.83,0.5666,0.5000,0.0666,0.0385,v3.2,Tiros,Visitante,W,1.73,+5.96,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 10.5,Under/No,1.67,0.6230,0.5570,0.0659,0.0404,v3.2,Corners,Total,W,1.67,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 8.5,Under/No,2.75,0.4025,0.3373,0.0651,0.1068,v3.2,Corners,Total,W,2.75,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 0.5,Over/Si,1.25,0.8075,0.7500,0.0575,0.0094,v3.2,Goles,Local,W,1.22,+2.46,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Tiros tot. O/U 25.5,Under/No,1.91,0.5426,0.4853,0.0573,0.0358,v3.2,Tiros,Total,W,1.83,+4.20,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 11.5,Under/No,1.40,0.7198,0.6627,0.0572,0.0077,v3.2,Corners,Total,W,1.40,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles Union Berlin O/U 2.5,Over/Si,5.50,0.2288,0.1717,0.0571,0.2583,v3.2,Goles,Local,L,4.50,+22.22,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 7.5,Under/No,4.00,0.2898,0.2340,0.0558,0.1592,v3.2,Corners,Total,W,4.00,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles tot. O/U 2.5,Over/Si,1.91,0.5524,0.5000,0.0524,0.0551,v3.2,Goles,Total,W,1.73,+10.40,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 12.5,Under/No,1.25,0.8006,0.7500,0.0506,0.0008,v3.2,Corners,Total,W,1.25,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Corners tot. O/U 6.5,Under/No,6.50,0.1903,0.1460,0.0443,0.2367,v3.2,Corners,Total,L,6.50,+0.00,2026-05-02 13:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles RB Leipzig O/U 1.5,Under/No,1.83,0.6470,0.5000,0.1470,0.1840,v3.2,Goles,Visitante,W,1.83,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 3.5,Under/No,1.91,0.6428,0.5000,0.1428,0.2277,v3.2,Goles,Total,L,1.91,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles RB Leipzig O/U 2.5,Under/No,1.25,0.8698,0.7500,0.1198,0.0872,v3.2,Goles,Visitante,W,1.25,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 2.5,Under/No,3.20,0.4175,0.2982,0.1192,0.3360,v3.2,Goles,Total,L,3.20,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Tiros Bayer Leverkusen O/U 15.5,Under/No,1.73,0.6470,0.5366,0.1104,0.1173,v3.2,Tiros,Local,L,,,2026-05-02 16:10,1.51,+14.78,single_heur
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 4.5,Under/No,1.36,0.8110,0.7018,0.1092,0.1030,v3.2,Goles,Total,L,1.40,-2.86,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 10.5,Under/No,1.61,0.6526,0.5533,0.0993,0.0539,v3.2,Corners,Total,W,1.57,+2.48,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",BTTS,Under/No,3.00,0.4077,0.3119,0.0958,0.2231,v3.2,BTTS,Total,L,3.00,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles RB Leipzig O/U 0.5,Under/No,4.50,0.2888,0.2077,0.0811,0.2997,v3.2,Goles,Visitante,L,5.00,-10.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 9.5,Under/No,2.00,0.5434,0.4638,0.0796,0.0868,v3.2,Corners,Total,L,1.98,+1.01,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Tiros tot. O/U 27.5,Under/No,1.80,0.5920,0.5147,0.0773,0.0656,v3.2,Tiros,Total,L,2.00,-10.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 8.5,Under/No,2.62,0.4250,0.3549,0.0701,0.1155,v3.2,Corners,Total,L,2.50,+4.80,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners RB Leipzig O/U 4.5,Under/No,1.67,0.6202,0.5576,0.0626,0.0333,v3.2,Corners,Visitante,W,1.62,+3.09,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",DC -> Bayer Leverkusen o Empate (1X),,1.40,0.7335,0.6732,0.0603,0.0269,v3.2,Doble Oportunidad,Total,W,1.40,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 11.5,Under/No,1.36,0.7477,0.6876,0.0601,0.0191,v3.2,Corners,Total,W,1.33,+2.03,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 7.5,Under/No,3.75,0.3093,0.2500,0.0593,0.1599,v3.2,Corners,Total,L,3.75,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 12.5,Under/No,1.22,0.8217,0.7660,0.0557,0.0042,v3.2,Corners,Total,W,1.20,+1.67,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",1X2 -> Bayer Leverkusen gana,,2.10,0.4998,0.4486,0.0512,0.0496,v3.2,1X2,Total,W,2.20,-4.55,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles tot. O/U 1.5,Under/No,6.50,0.1959,0.1459,0.0500,0.2732,v3.2,Goles,Total,L,7.00,-7.14,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners tot. O/U 6.5,Under/No,6.00,0.2069,0.1579,0.0490,0.2413,v3.2,Corners,Total,L,5.50,+9.09,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles Bayer Leverkusen O/U 2.5,Under/No,1.36,0.7366,0.6881,0.0486,0.0018,v3.2,Goles,Local,L,1.36,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners Bayer Leverkusen O/U 5.5,Under/No,1.80,0.5627,0.5147,0.0480,0.0129,v3.2,Corners,Local,L,1.73,+4.05,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Arco tot. O/U 9.5,Over/Si,2.00,0.5111,0.4634,0.0477,0.0221,v3.2,Arco,Total,W,2.00,+0.00,2026-05-02 16:10,,,exact
+2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles Bayer Leverkusen O/U 1.5,Under/No,2.20,0.4687,0.4241,0.0446,0.0312,v3.2,Goles,Local,L,2.20,+0.00,2026-05-02 16:10,,,exact
 2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles Botafogo O/U 1.5,Over/Si,1.67,0.7208,0.5570,0.1637,0.2037,v3.2,Goles,Local,,1.62,+3.09,2026-05-02 18:40,,,exact
 2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles Botafogo O/U 2.5,Over/Si,3.00,0.4679,0.3119,0.1560,0.4037,v3.2,Goles,Local,,2.75,+9.09,2026-05-02 18:40,,,exact
 2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",1X2 -> Botafogo gana,,1.53,0.7612,0.6070,0.1542,0.1647,v3.2,1X2,Total,,1.50,+2.00,2026-05-02 18:40,,,exact
@@ -5521,29 +5521,29 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Tiros tot. O/U 22.5,Over/Si,1.91,0.5342,0.4853,0.0489,0.0199,v3.2,Tiros,Total,W,,,2026-05-02 12:40,1.53,+25.04,single_heur
 2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",1X2 -> Udinese gana,,2.30,0.4619,0.4140,0.0479,0.0623,v3.2,1X2,Total,W,2.00,+15.00,2026-05-02 12:40,,,exact
 2026-04-30 00:08,1378213,Udinese vs Torino,"('Serie A', False)",Tiros Torino O/U 10.5,Over/Si,1.91,0.5318,0.4853,0.0465,0.0152,v3.2,Tiros,Visitante,L,1.73,+10.60,2026-05-02 12:40,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros tot. O/U 23.5,Under/No,1.80,0.7192,0.5147,0.2045,0.2946,v3.2,Tiros,Total,,1.91,-5.71,2026-05-02 15:40,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",1X2 -> Como gana,,2.25,0.6256,0.4231,0.2026,0.4077,v3.2,1X2,Total,,2.25,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Como O/U 1.5,Over/Si,2.25,0.6041,0.4110,0.1931,0.3592,v3.2,Goles,Local,,2.25,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Como O/U 2.5,Over/Si,5.50,0.3324,0.1717,0.1607,0.8280,v3.2,Goles,Local,,5.50,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros Como O/U 12.5,Under/No,1.91,0.6452,0.4853,0.1599,0.2317,v3.2,Tiros,Local,,,,2026-05-02 15:40,2.40,-20.56,single_heur
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Como O/U 0.5,Over/Si,1.28,0.8691,0.7322,0.1369,0.1125,v3.2,Goles,Local,,1.28,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco tot. O/U 7.5,Under/No,2.00,0.5847,0.4638,0.1209,0.1694,v3.2,Arco,Total,,2.00,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 2.5,Over/Si,2.10,0.5726,0.4517,0.1209,0.2024,v3.2,Goles,Total,,2.10,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros Napoli O/U 10.5,Under/No,1.73,0.6572,0.5366,0.1206,0.1351,v3.2,Tiros,Visitante,,,,2026-05-02 15:40,1.53,+13.26,single_heur
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco Napoli O/U 3.5,Under/No,1.80,0.6337,0.5147,0.1190,0.1407,v3.2,Arco,Visitante,,2.00,-10.00,2026-05-02 15:40,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",DC -> Como o Empate (1X),,1.33,0.8327,0.7209,0.1118,0.1075,v3.2,Doble Oportunidad,Total,,1.30,+2.31,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 3.5,Over/Si,4.00,0.3492,0.2381,0.1111,0.3968,v3.2,Goles,Total,,4.00,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 1.5,Over/Si,1.36,0.7976,0.7018,0.0959,0.0847,v3.2,Goles,Total,,1.36,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",DC -> Como o Napoli (12),,1.36,0.7929,0.7050,0.0879,0.0784,v3.2,Doble Oportunidad,Total,,1.33,+2.26,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners tot. O/U 8.5,Under/No,1.80,0.5947,0.5263,0.0684,0.0705,v3.2,Corners,Total,,1.73,+4.05,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners tot. O/U 6.5,Under/No,3.40,0.3410,0.2766,0.0645,0.1596,v3.2,Corners,Total,,,,2026-05-02 15:20,3.05,+11.37,extrap
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco Como O/U 4.5,Under/No,1.67,0.6219,0.5576,0.0643,0.0361,v3.2,Arco,Local,,1.91,-12.52,2026-05-02 15:40,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 4.5,Over/Si,8.00,0.1815,0.1189,0.0625,0.4516,v3.2,Goles,Total,,8.00,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners tot. O/U 9.5,Under/No,1.44,0.7069,0.6451,0.0618,0.0208,v3.2,Corners,Total,,,,2026-05-02 15:20,1.44,-0.09,extrap
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 0.5,Over/Si,1.07,0.9488,0.8882,0.0606,0.0153,v3.2,Goles,Total,,1.07,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners tot. O/U 5.5,Under/No,5.50,0.2224,0.1719,0.0505,0.2234,v3.2,Corners,Total,,,,2026-05-02 15:20,4.87,+13.02,extrap
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Napoli O/U 1.5,Under/No,1.33,0.7551,0.7096,0.0455,0.0043,v3.2,Goles,Visitante,,1.33,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners Como O/U 4.5,Under/No,1.73,0.5796,0.5362,0.0435,0.0028,v3.2,Corners,Local,,1.67,+3.59,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros tot. O/U 23.5,Under/No,1.80,0.7192,0.5147,0.2045,0.2946,v3.2,Tiros,Total,L,1.91,-5.71,2026-05-02 15:40,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",1X2 -> Como gana,,2.25,0.6256,0.4231,0.2026,0.4077,v3.2,1X2,Total,L,2.25,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Como O/U 1.5,Over/Si,2.25,0.6041,0.4110,0.1931,0.3592,v3.2,Goles,Local,L,2.25,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Como O/U 2.5,Over/Si,5.50,0.3324,0.1717,0.1607,0.8280,v3.2,Goles,Local,L,5.50,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros Como O/U 12.5,Under/No,1.91,0.6452,0.4853,0.1599,0.2317,v3.2,Tiros,Local,L,,,2026-05-02 15:40,2.40,-20.56,single_heur
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Como O/U 0.5,Over/Si,1.28,0.8691,0.7322,0.1369,0.1125,v3.2,Goles,Local,L,1.28,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco tot. O/U 7.5,Under/No,2.00,0.5847,0.4638,0.1209,0.1694,v3.2,Arco,Total,W,2.00,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 2.5,Over/Si,2.10,0.5726,0.4517,0.1209,0.2024,v3.2,Goles,Total,L,2.10,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros Napoli O/U 10.5,Under/No,1.73,0.6572,0.5366,0.1206,0.1351,v3.2,Tiros,Visitante,W,,,2026-05-02 15:40,1.53,+13.26,single_heur
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco Napoli O/U 3.5,Under/No,1.80,0.6337,0.5147,0.1190,0.1407,v3.2,Arco,Visitante,W,2.00,-10.00,2026-05-02 15:40,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",DC -> Como o Empate (1X),,1.33,0.8327,0.7209,0.1118,0.1075,v3.2,Doble Oportunidad,Total,W,1.30,+2.31,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 3.5,Over/Si,4.00,0.3492,0.2381,0.1111,0.3968,v3.2,Goles,Total,L,4.00,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 1.5,Over/Si,1.36,0.7976,0.7018,0.0959,0.0847,v3.2,Goles,Total,L,1.36,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",DC -> Como o Napoli (12),,1.36,0.7929,0.7050,0.0879,0.0784,v3.2,Doble Oportunidad,Total,L,1.33,+2.26,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners tot. O/U 8.5,Under/No,1.80,0.5947,0.5263,0.0684,0.0705,v3.2,Corners,Total,W,1.73,+4.05,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners tot. O/U 6.5,Under/No,3.40,0.3410,0.2766,0.0645,0.1596,v3.2,Corners,Total,W,,,2026-05-02 15:20,3.05,+11.37,extrap
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco Como O/U 4.5,Under/No,1.67,0.6219,0.5576,0.0643,0.0361,v3.2,Arco,Local,L,1.91,-12.52,2026-05-02 15:40,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 4.5,Over/Si,8.00,0.1815,0.1189,0.0625,0.4516,v3.2,Goles,Total,L,8.00,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners tot. O/U 9.5,Under/No,1.44,0.7069,0.6451,0.0618,0.0208,v3.2,Corners,Total,W,,,2026-05-02 15:20,1.44,-0.09,extrap
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 0.5,Over/Si,1.07,0.9488,0.8882,0.0606,0.0153,v3.2,Goles,Total,L,1.07,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners tot. O/U 5.5,Under/No,5.50,0.2224,0.1719,0.0505,0.2234,v3.2,Corners,Total,W,,,2026-05-02 15:20,4.87,+13.02,extrap
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Napoli O/U 1.5,Under/No,1.33,0.7551,0.7096,0.0455,0.0043,v3.2,Goles,Visitante,W,1.33,+0.00,2026-05-02 15:20,,,exact
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners Como O/U 4.5,Under/No,1.73,0.5796,0.5362,0.0435,0.0028,v3.2,Corners,Local,W,1.67,+3.59,2026-05-02 15:20,,,exact
 2026-04-30 00:09,1378204,Atalanta vs Genoa,"('Serie A', False)",Tiros Genoa O/U 9.5,Over/Si,2.00,0.6580,0.4634,0.1946,0.3159,v3.2,Tiros,Visitante,,2.00,+0.00,2026-05-02 18:25,,,exact
 2026-04-30 00:09,1378204,Atalanta vs Genoa,"('Serie A', False)",Tiros tot. O/U 26.5,Over/Si,1.83,0.6042,0.5000,0.1042,0.1075,v3.2,Tiros,Total,,1.83,-0.16,2026-05-02 18:25,,,exact
 2026-04-30 00:09,1378204,Atalanta vs Genoa,"('Serie A', False)",Arco Genoa O/U 3.5,Over/Si,2.20,0.5077,0.4233,0.0844,0.1170,v3.2,Arco,Visitante,,2.20,+0.00,2026-05-02 18:25,,,exact
@@ -5583,49 +5583,49 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 0.5,Over/Si,1.04,0.9784,0.9259,0.0524,0.0175,v3.2,Goles,Total,W,1.03,+0.97,2026-05-02 12:40,,,exact
 2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Corners tot. O/U 5.5,Under/No,15.00,0.1163,0.0643,0.0521,0.7447,v3.2,Corners,Total,L,,,2026-05-02 12:40,91.50,-83.61,single_heur
 2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Kalmar FF O/U 0.5,Under/No,2.25,0.4534,0.4110,0.0424,0.0201,v3.2,Goles,Visitante,L,2.20,+2.27,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",1X2 -> BK Hacken gana,,2.38,0.5459,0.3874,0.1585,0.2992,v3.2,1X2,Total,,2.40,-0.83,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",DC -> Empate o BK Hacken (X2),,1.44,0.7750,0.6560,0.1190,0.1159,v3.2,Doble Oportunidad,Total,,1.40,+2.86,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 1.5,Over/Si,2.20,0.5389,0.4241,0.1148,0.1855,v3.2,Goles,Visitante,,2.20,+0.00,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 11.5,Under/No,1.61,0.6557,0.5533,0.1025,0.0590,v3.2,Corners,Total,,,,2026-05-02 12:40,1.78,-9.71,extrap
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 1.5,Under/No,1.53,0.7074,0.6087,0.0987,0.0823,v3.2,Goles,Local,,1.50,+2.00,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 9.5,Under/No,2.62,0.4456,0.3549,0.0908,0.1698,v3.2,Corners,Total,,,,2026-05-02 12:40,1.86,+41.12,extrap
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 0.5,Over/Si,1.25,0.8365,0.7500,0.0865,0.0456,v3.2,Goles,Visitante,,1.25,+0.00,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 8.5,Under/No,3.75,0.3361,0.2500,0.0861,0.2603,v3.2,Corners,Total,,,,2026-05-02 12:40,1.90,+97.82,extrap
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 2.5,Over/Si,5.00,0.2721,0.1896,0.0824,0.3603,v3.2,Goles,Visitante,,5.00,+0.00,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners BK Hacken O/U 5.5,Under/No,1.80,0.5957,0.5147,0.0810,0.0722,v3.2,Corners,Visitante,,1.67,+7.78,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 12.5,Under/No,1.40,0.7424,0.6627,0.0797,0.0393,v3.2,Corners,Total,,,,2026-05-02 12:40,1.75,-19.93,extrap
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 0.5,Under/No,3.50,0.3449,0.2678,0.0771,0.2071,v3.2,Goles,Local,,3.40,+2.94,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 2.5,Under/No,1.14,0.9035,0.8283,0.0752,0.0300,v3.2,Goles,Local,,1.12,+1.79,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 10.5,Under/No,1.80,0.5561,0.4897,0.0665,0.0011,v3.2,Corners,Total,,1.82,-1.10,2026-05-02 12:40,,,exact
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 13.5,Under/No,1.25,0.8150,0.7500,0.0650,0.0188,v3.2,Corners,Total,,,,2026-05-02 12:40,1.72,-27.12,extrap
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 7.5,Under/No,5.50,0.2358,0.1719,0.0639,0.2968,v3.2,Corners,Total,,,,2026-05-02 12:40,1.94,+184.02,extrap
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 6.5,Under/No,10.00,0.1487,0.0960,0.0527,0.4870,v3.2,Corners,Total,,,,2026-05-02 12:40,1.98,+405.30,extrap
-2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",DC -> Degerfors IF o BK Hacken (12),,1.30,0.7709,0.7266,0.0443,0.0022,v3.2,Doble Oportunidad,Total,,1.33,-2.26,2026-05-02 12:40,,,exact
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 9.5,Under/No,1.80,0.6314,0.5148,0.1165,0.1364,v3.2,Corners,Total,,1.80,+0.00,2026-05-02 13:55,,,exact
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners Cultural Leonesa O/U 5.5,Under/No,1.73,0.6413,0.5362,0.1051,0.1095,v3.2,Corners,Local,,1.67,+3.59,2026-05-02 13:55,,,exact
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 7.5,Under/No,3.25,0.3913,0.2909,0.1004,0.2717,v3.2,Corners,Total,,,,2026-05-02 13:55,2.78,+17.05,extrap
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 10.5,Under/No,1.44,0.7323,0.6451,0.0872,0.0575,v3.2,Corners,Total,,,,2026-05-02 13:55,1.79,-19.43,extrap
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 11.5,Under/No,1.28,0.8148,0.7315,0.0834,0.0471,v3.2,Corners,Total,,,,2026-05-02 13:55,1.79,-28.38,extrap
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 6.5,Under/No,5.00,0.2714,0.1891,0.0823,0.3572,v3.2,Corners,Total,,,,2026-05-02 13:55,4.40,+13.62,extrap
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 12.5,Under/No,1.17,0.8771,0.8109,0.0662,0.0227,v3.2,Corners,Total,,,,2026-05-02 13:55,1.79,-34.54,extrap
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 5.5,Under/No,9.00,0.1695,0.1063,0.0632,0.5258,v3.2,Corners,Total,,,,2026-05-02 13:55,10.60,-15.09,extrap
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.28,0.7853,0.7322,0.0530,0.0051,v3.2,Goles,Total,,1.33,-3.76,2026-05-02 13:55,,,exact
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles Cultural Leonesa O/U 1.5,Under/No,1.67,0.6064,0.5570,0.0493,0.0126,v3.2,Goles,Local,,1.83,-8.74,2026-05-02 13:55,,,exact
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles tot. O/U 2.5,Under/No,1.75,0.5810,0.5395,0.0416,0.0168,v3.2,Goles,Total,,1.90,-7.89,2026-05-02 13:55,,,exact
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles tot. O/U 1.5,Under/No,3.40,0.3175,0.2766,0.0409,0.0795,v3.2,Goles,Total,,3.75,-9.33,2026-05-02 13:55,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Corners Cordoba O/U 3.5,Over/Si,1.67,0.7900,0.5570,0.2330,0.3193,v3.2,Corners,Visitante,,1.80,-7.22,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Corners Castellón O/U 5.5,Under/No,1.73,0.7417,0.5362,0.2055,0.2831,v3.2,Corners,Local,,1.83,-5.46,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 2.5,Over/Si,2.50,0.5781,0.3750,0.2031,0.4453,v3.2,Goles,Local,,2.20,+13.64,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 1.5,Over/Si,1.50,0.8019,0.6250,0.1769,0.2028,v3.2,Goles,Local,,1.36,+10.29,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 3.5,Over/Si,2.10,0.6073,0.4430,0.1643,0.2753,v3.2,Goles,Total,,2.00,+5.00,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 4.5,Over/Si,3.75,0.4134,0.2500,0.1634,0.5502,v3.2,Goles,Total,,3.40,+10.29,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 2.5,Over/Si,1.48,0.7939,0.6373,0.1566,0.1749,v3.2,Goles,Total,,1.44,+2.78,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",1X2 -> Castellón gana,,1.57,0.7347,0.5954,0.1392,0.1534,v3.2,1X2,Total,,1.40,+12.14,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 1.5,Over/Si,1.14,0.9245,0.8283,0.0962,0.0540,v3.2,Goles,Total,,1.12,+1.79,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",DC -> Castellón o Empate (1X),,1.18,0.8766,0.7958,0.0807,0.0344,v3.2,Doble Oportunidad,Total,,1.12,+5.36,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 0.5,Over/Si,1.08,0.9510,0.8811,0.0700,0.0271,v3.2,Goles,Local,,1.07,+0.93,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",DC -> Castellón o Cordoba (12),,1.18,0.8581,0.7958,0.0622,0.0125,v3.2,Doble Oportunidad,Total,,1.17,+0.85,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",BTTS,Over/Si,1.53,0.6659,0.6087,0.0572,0.0189,v3.2,BTTS,Total,,1.62,-5.56,2026-05-02 16:10,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",1X2 -> BK Hacken gana,,2.38,0.5459,0.3874,0.1585,0.2992,v3.2,1X2,Total,L,2.40,-0.83,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",DC -> Empate o BK Hacken (X2),,1.44,0.7750,0.6560,0.1190,0.1159,v3.2,Doble Oportunidad,Total,W,1.40,+2.86,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 1.5,Over/Si,2.20,0.5389,0.4241,0.1148,0.1855,v3.2,Goles,Visitante,L,2.20,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 11.5,Under/No,1.61,0.6557,0.5533,0.1025,0.0590,v3.2,Corners,Total,W,,,2026-05-02 12:40,1.78,-9.71,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 1.5,Under/No,1.53,0.7074,0.6087,0.0987,0.0823,v3.2,Goles,Local,W,1.50,+2.00,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 9.5,Under/No,2.62,0.4456,0.3549,0.0908,0.1698,v3.2,Corners,Total,W,,,2026-05-02 12:40,1.86,+41.12,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 0.5,Over/Si,1.25,0.8365,0.7500,0.0865,0.0456,v3.2,Goles,Visitante,W,1.25,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 8.5,Under/No,3.75,0.3361,0.2500,0.0861,0.2603,v3.2,Corners,Total,W,,,2026-05-02 12:40,1.90,+97.82,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles BK Hacken O/U 2.5,Over/Si,5.00,0.2721,0.1896,0.0824,0.3603,v3.2,Goles,Visitante,L,5.00,+0.00,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners BK Hacken O/U 5.5,Under/No,1.80,0.5957,0.5147,0.0810,0.0722,v3.2,Corners,Visitante,W,1.67,+7.78,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 12.5,Under/No,1.40,0.7424,0.6627,0.0797,0.0393,v3.2,Corners,Total,W,,,2026-05-02 12:40,1.75,-19.93,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 0.5,Under/No,3.50,0.3449,0.2678,0.0771,0.2071,v3.2,Goles,Local,L,3.40,+2.94,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 2.5,Under/No,1.14,0.9035,0.8283,0.0752,0.0300,v3.2,Goles,Local,W,1.12,+1.79,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 10.5,Under/No,1.80,0.5561,0.4897,0.0665,0.0011,v3.2,Corners,Total,W,1.82,-1.10,2026-05-02 12:40,,,exact
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 13.5,Under/No,1.25,0.8150,0.7500,0.0650,0.0188,v3.2,Corners,Total,W,,,2026-05-02 12:40,1.72,-27.12,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 7.5,Under/No,5.50,0.2358,0.1719,0.0639,0.2968,v3.2,Corners,Total,L,,,2026-05-02 12:40,1.94,+184.02,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners tot. O/U 6.5,Under/No,10.00,0.1487,0.0960,0.0527,0.4870,v3.2,Corners,Total,L,,,2026-05-02 12:40,1.98,+405.30,extrap
+2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",DC -> Degerfors IF o BK Hacken (12),,1.30,0.7709,0.7266,0.0443,0.0022,v3.2,Doble Oportunidad,Total,L,1.33,-2.26,2026-05-02 12:40,,,exact
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 9.5,Under/No,1.80,0.6314,0.5148,0.1165,0.1364,v3.2,Corners,Total,W,1.80,+0.00,2026-05-02 13:55,,,exact
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners Cultural Leonesa O/U 5.5,Under/No,1.73,0.6413,0.5362,0.1051,0.1095,v3.2,Corners,Local,W,1.67,+3.59,2026-05-02 13:55,,,exact
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 7.5,Under/No,3.25,0.3913,0.2909,0.1004,0.2717,v3.2,Corners,Total,L,,,2026-05-02 13:55,2.78,+17.05,extrap
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 10.5,Under/No,1.44,0.7323,0.6451,0.0872,0.0575,v3.2,Corners,Total,W,,,2026-05-02 13:55,1.79,-19.43,extrap
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 11.5,Under/No,1.28,0.8148,0.7315,0.0834,0.0471,v3.2,Corners,Total,W,,,2026-05-02 13:55,1.79,-28.38,extrap
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 6.5,Under/No,5.00,0.2714,0.1891,0.0823,0.3572,v3.2,Corners,Total,L,,,2026-05-02 13:55,4.40,+13.62,extrap
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 12.5,Under/No,1.17,0.8771,0.8109,0.0662,0.0227,v3.2,Corners,Total,W,,,2026-05-02 13:55,1.79,-34.54,extrap
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 5.5,Under/No,9.00,0.1695,0.1063,0.0632,0.5258,v3.2,Corners,Total,L,,,2026-05-02 13:55,10.60,-15.09,extrap
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.28,0.7853,0.7322,0.0530,0.0051,v3.2,Goles,Total,L,1.33,-3.76,2026-05-02 13:55,,,exact
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles Cultural Leonesa O/U 1.5,Under/No,1.67,0.6064,0.5570,0.0493,0.0126,v3.2,Goles,Local,L,1.83,-8.74,2026-05-02 13:55,,,exact
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles tot. O/U 2.5,Under/No,1.75,0.5810,0.5395,0.0416,0.0168,v3.2,Goles,Total,L,1.90,-7.89,2026-05-02 13:55,,,exact
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles tot. O/U 1.5,Under/No,3.40,0.3175,0.2766,0.0409,0.0795,v3.2,Goles,Total,L,3.75,-9.33,2026-05-02 13:55,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Corners Cordoba O/U 3.5,Over/Si,1.67,0.7900,0.5570,0.2330,0.3193,v3.2,Corners,Visitante,L,1.80,-7.22,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Corners Castellón O/U 5.5,Under/No,1.73,0.7417,0.5362,0.2055,0.2831,v3.2,Corners,Local,L,1.83,-5.46,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 2.5,Over/Si,2.50,0.5781,0.3750,0.2031,0.4453,v3.2,Goles,Local,L,2.20,+13.64,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 1.5,Over/Si,1.50,0.8019,0.6250,0.1769,0.2028,v3.2,Goles,Local,L,1.36,+10.29,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 3.5,Over/Si,2.10,0.6073,0.4430,0.1643,0.2753,v3.2,Goles,Total,L,2.00,+5.00,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 4.5,Over/Si,3.75,0.4134,0.2500,0.1634,0.5502,v3.2,Goles,Total,L,3.40,+10.29,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 2.5,Over/Si,1.48,0.7939,0.6373,0.1566,0.1749,v3.2,Goles,Total,W,1.44,+2.78,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",1X2 -> Castellón gana,,1.57,0.7347,0.5954,0.1392,0.1534,v3.2,1X2,Total,L,1.40,+12.14,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 1.5,Over/Si,1.14,0.9245,0.8283,0.0962,0.0540,v3.2,Goles,Total,W,1.12,+1.79,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",DC -> Castellón o Empate (1X),,1.18,0.8766,0.7958,0.0807,0.0344,v3.2,Doble Oportunidad,Total,L,1.12,+5.36,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 0.5,Over/Si,1.08,0.9510,0.8811,0.0700,0.0271,v3.2,Goles,Local,W,1.07,+0.93,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",DC -> Castellón o Cordoba (12),,1.18,0.8581,0.7958,0.0622,0.0125,v3.2,Doble Oportunidad,Total,W,1.17,+0.85,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",BTTS,Over/Si,1.53,0.6659,0.6087,0.0572,0.0189,v3.2,BTTS,Total,W,1.62,-5.56,2026-05-02 16:10,,,exact
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Eibar O/U 1.5,Over/Si,2.20,0.6619,0.4241,0.2378,0.4562,v3.2,Goles,Local,,2.20,+0.00,2026-05-02 18:40,,,exact
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",1X2 -> Eibar gana,,2.05,0.6735,0.4531,0.2204,0.3807,v3.2,1X2,Total,,1.95,+5.13,2026-05-02 18:40,,,exact
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Eibar O/U 2.5,Over/Si,5.00,0.3984,0.1896,0.2087,0.9918,v3.2,Goles,Local,,5.00,+0.00,2026-05-02 18:40,,,exact
@@ -5639,26 +5639,26 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 0.5,Over/Si,1.07,0.9592,0.8882,0.0710,0.0263,v3.2,Goles,Total,,1.07,+0.00,2026-05-02 18:40,,,exact
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Corners Eibar O/U 4.5,Over/Si,1.67,0.6083,0.5570,0.0513,0.0159,v3.2,Corners,Local,,1.73,-3.47,2026-05-02 18:40,,,exact
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",BTTS,Over/Si,1.83,0.5472,0.5000,0.0472,0.0013,v3.2,BTTS,Total,,1.91,-4.19,2026-05-02 18:40,,,exact
-2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Corners Banfield O/U 3.5,Under/No,2.10,0.7012,0.4424,0.2588,0.4726,v3.2,Corners,Visitante,,,,,,,
-2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Corners Barracas Central O/U 3.5,Over/Si,1.73,0.7740,0.5366,0.2374,0.3367,v3.2,Corners,Local,,,,,,,
-2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Tiros Barracas Central O/U 12.5,Over/Si,2.00,0.6187,0.4634,0.1554,0.2375,v3.2,Tiros,Local,,,,,,,
-2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Arco Barracas Central O/U 4.5,Over/Si,2.20,0.5150,0.4233,0.0917,0.1330,v3.2,Arco,Local,,,,,,,
-2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Tiros Banfield O/U 11.5,Under/No,1.80,0.5959,0.5147,0.0812,0.0726,v3.2,Tiros,Visitante,,,,,,,
-2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Arco tot. O/U 7.5,Over/Si,1.83,0.5457,0.5000,0.0457,0.0003,v3.2,Arco,Total,,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Corners Banfield O/U 3.5,Under/No,2.10,0.7012,0.4424,0.2588,0.4726,v3.2,Corners,Visitante,L,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Corners Barracas Central O/U 3.5,Over/Si,1.73,0.7740,0.5366,0.2374,0.3367,v3.2,Corners,Local,L,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Tiros Barracas Central O/U 12.5,Over/Si,2.00,0.6187,0.4634,0.1554,0.2375,v3.2,Tiros,Local,W,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Arco Barracas Central O/U 4.5,Over/Si,2.20,0.5150,0.4233,0.0917,0.1330,v3.2,Arco,Local,W,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Tiros Banfield O/U 11.5,Under/No,1.80,0.5959,0.5147,0.0812,0.0726,v3.2,Tiros,Visitante,L,,,,,,
+2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Arco tot. O/U 7.5,Over/Si,1.83,0.5457,0.5000,0.0457,0.0003,v3.2,Arco,Total,W,,,,,,
 2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Arco Osasuna O/U 4.5,Under/No,1.61,0.6555,0.5767,0.0788,0.0586,v3.2,Arco,Local,,,,2026-05-02 18:40,1.71,-6.00,single_heur
 2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Tiros Osasuna O/U 12.5,Under/No,1.73,0.6060,0.5366,0.0694,0.0466,v3.2,Tiros,Local,,,,2026-05-02 18:40,1.40,+23.83,single_heur
 2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Arco Barcelona O/U 5.5,Over/Si,2.00,0.5087,0.4634,0.0453,0.0173,v3.2,Arco,Visitante,,2.10,-4.76,2026-05-02 18:40,,,exact
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners Başakşehir O/U 3.5,Over/Si,1.91,0.6938,0.4852,0.2086,0.3251,v3.2,Corners,Visitante,,,,,,,
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles tot. O/U 3.5,Under/No,1.62,0.6998,0.5759,0.1239,0.1337,v3.2,Goles,Total,,,,,,,
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles Fenerbahçe O/U 1.5,Under/No,2.50,0.4868,0.3750,0.1118,0.2170,v3.2,Goles,Local,,,,,,,
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles Fenerbahçe O/U 2.5,Under/No,1.44,0.7525,0.6453,0.1072,0.0836,v3.2,Goles,Local,,,,,,,
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles tot. O/U 4.5,Under/No,1.25,0.8544,0.7500,0.1044,0.0680,v3.2,Goles,Total,,,,,,,
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles tot. O/U 2.5,Under/No,2.50,0.4790,0.3750,0.1040,0.1976,v3.2,Goles,Total,,,,,,,
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 9.5,Over/Si,1.82,0.6001,0.5211,0.0790,0.0921,v3.2,Corners,Total,,,,,,,
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles tot. O/U 1.5,Under/No,5.50,0.2387,0.1717,0.0670,0.3130,v3.2,Goles,Total,,,,,,,
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",BTTS,Under/No,2.25,0.4709,0.4110,0.0599,0.0594,v3.2,BTTS,Total,,,,,,,
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",DC -> Empate o Başakşehir (X2),,2.30,0.4671,0.4137,0.0534,0.0743,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles Fenerbahçe O/U 0.5,Under/No,7.00,0.1809,0.1358,0.0451,0.2664,v3.2,Goles,Local,,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners Başakşehir O/U 3.5,Over/Si,1.91,0.6938,0.4852,0.2086,0.3251,v3.2,Corners,Visitante,L,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles tot. O/U 3.5,Under/No,1.62,0.6998,0.5759,0.1239,0.1337,v3.2,Goles,Total,L,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles Fenerbahçe O/U 1.5,Under/No,2.50,0.4868,0.3750,0.1118,0.2170,v3.2,Goles,Local,L,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles Fenerbahçe O/U 2.5,Under/No,1.44,0.7525,0.6453,0.1072,0.0836,v3.2,Goles,Local,L,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles tot. O/U 4.5,Under/No,1.25,0.8544,0.7500,0.1044,0.0680,v3.2,Goles,Total,W,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles tot. O/U 2.5,Under/No,2.50,0.4790,0.3750,0.1040,0.1976,v3.2,Goles,Total,L,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 9.5,Over/Si,1.82,0.6001,0.5211,0.0790,0.0921,v3.2,Corners,Total,W,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles tot. O/U 1.5,Under/No,5.50,0.2387,0.1717,0.0670,0.3130,v3.2,Goles,Total,L,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",BTTS,Under/No,2.25,0.4709,0.4110,0.0599,0.0594,v3.2,BTTS,Total,L,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",DC -> Empate o Başakşehir (X2),,2.30,0.4671,0.4137,0.0534,0.0743,v3.2,Doble Oportunidad,Total,L,,,,,,
+2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles Fenerbahçe O/U 0.5,Under/No,7.00,0.1809,0.1358,0.0451,0.2664,v3.2,Goles,Local,L,,,,,,
 2026-04-30 04:17,1394720,Trabzonspor vs Göztepe,"('Super Lig', False)",Corners Göztepe O/U 3.5,Over/Si,1.80,0.6260,0.5148,0.1111,0.1267,v3.2,Corners,Visitante,,,,,,,
 2026-04-30 04:17,1394720,Trabzonspor vs Göztepe,"('Super Lig', False)",Goles Göztepe O/U 1.5,Under/No,1.33,0.8095,0.7096,0.0999,0.0766,v3.2,Goles,Visitante,,,,,,,
 2026-04-30 04:17,1394720,Trabzonspor vs Göztepe,"('Super Lig', False)",Goles Göztepe O/U 0.5,Under/No,2.62,0.4504,0.3547,0.0957,0.1799,v3.2,Goles,Visitante,,,,,,,
@@ -5669,20 +5669,20 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 04:17,1394720,Trabzonspor vs Göztepe,"('Super Lig', False)",Goles tot. O/U 4.5,Under/No,1.14,0.8835,0.8283,0.0552,0.0072,v3.2,Goles,Total,,,,,,,
 2026-04-30 04:17,1394720,Trabzonspor vs Göztepe,"('Super Lig', False)",Goles Göztepe O/U 2.5,Under/No,1.06,0.9535,0.9042,0.0493,0.0107,v3.2,Goles,Visitante,,,,,,,
 2026-04-30 04:17,1394720,Trabzonspor vs Göztepe,"('Super Lig', False)",Goles tot. O/U 1.5,Under/No,4.00,0.2821,0.2337,0.0484,0.1284,v3.2,Goles,Total,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners Galatasaray O/U 5.5,Under/No,1.80,0.8100,0.5148,0.2952,0.4581,v3.2,Corners,Visitante,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",DC -> Samsunspor o Empate (1X),,2.25,0.6908,0.4249,0.2659,0.5543,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",1X2 -> Samsunspor gana,,4.75,0.4436,0.1988,0.2447,1.1071,v3.2,1X2,Total,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Galatasaray O/U 1.5,Under/No,2.25,0.6421,0.4110,0.2311,0.4447,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners Samsunspor O/U 3.5,Over/Si,1.80,0.7457,0.5148,0.2309,0.3422,v3.2,Corners,Local,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Galatasaray O/U 2.5,Under/No,1.40,0.8664,0.6627,0.2037,0.2129,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Samsunspor O/U 1.5,Over/Si,3.25,0.4590,0.2904,0.1686,0.4918,v3.2,Goles,Local,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Samsunspor O/U 0.5,Over/Si,1.44,0.7869,0.6453,0.1416,0.1332,v3.2,Goles,Local,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Galatasaray O/U 0.5,Under/No,6.50,0.2862,0.1459,0.1403,0.8604,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Samsunspor O/U 2.5,Over/Si,9.00,0.2022,0.1063,0.0959,0.8198,v3.2,Goles,Local,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 9.5,Under/No,1.85,0.5846,0.5132,0.0714,0.0814,v3.2,Corners,Total,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles tot. O/U 3.5,Under/No,1.50,0.6913,0.6250,0.0663,0.0370,v3.2,Goles,Total,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles tot. O/U 4.5,Under/No,1.20,0.8466,0.7830,0.0636,0.0159,v3.2,Goles,Total,,,,,,,
-2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles tot. O/U 2.5,Under/No,2.25,0.4684,0.4186,0.0498,0.0538,v3.2,Goles,Total,,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners Galatasaray O/U 5.5,Under/No,1.80,0.8100,0.5148,0.2952,0.4581,v3.2,Corners,Visitante,L,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",DC -> Samsunspor o Empate (1X),,2.25,0.6908,0.4249,0.2659,0.5543,v3.2,Doble Oportunidad,Total,W,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",1X2 -> Samsunspor gana,,4.75,0.4436,0.1988,0.2447,1.1071,v3.2,1X2,Total,W,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Galatasaray O/U 1.5,Under/No,2.25,0.6421,0.4110,0.2311,0.4447,v3.2,Goles,Visitante,W,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners Samsunspor O/U 3.5,Over/Si,1.80,0.7457,0.5148,0.2309,0.3422,v3.2,Corners,Local,L,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Galatasaray O/U 2.5,Under/No,1.40,0.8664,0.6627,0.2037,0.2129,v3.2,Goles,Visitante,W,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Samsunspor O/U 1.5,Over/Si,3.25,0.4590,0.2904,0.1686,0.4918,v3.2,Goles,Local,W,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Samsunspor O/U 0.5,Over/Si,1.44,0.7869,0.6453,0.1416,0.1332,v3.2,Goles,Local,W,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Galatasaray O/U 0.5,Under/No,6.50,0.2862,0.1459,0.1403,0.8604,v3.2,Goles,Visitante,L,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Samsunspor O/U 2.5,Over/Si,9.00,0.2022,0.1063,0.0959,0.8198,v3.2,Goles,Local,W,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 9.5,Under/No,1.85,0.5846,0.5132,0.0714,0.0814,v3.2,Corners,Total,W,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles tot. O/U 3.5,Under/No,1.50,0.6913,0.6250,0.0663,0.0370,v3.2,Goles,Total,L,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles tot. O/U 4.5,Under/No,1.20,0.8466,0.7830,0.0636,0.0159,v3.2,Goles,Total,L,,,,,,
+2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles tot. O/U 2.5,Under/No,2.25,0.4684,0.4186,0.0498,0.0538,v3.2,Goles,Total,L,,,,,,
 2026-04-30 12:14,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Goles RB Bragantino O/U 0.5,Over/Si,1.40,0.7296,0.6627,0.0670,0.0215,v3.2,Goles,Local,L,1.40,+0.00,2026-05-01 00:10,,,exact
 2026-04-30 12:14,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",1X2 -> RB Bragantino gana,,2.62,0.4258,0.3601,0.0657,0.1155,v3.2,1X2,Total,L,2.60,+0.77,2026-05-01 00:10,,,exact
 2026-04-30 12:14,1535173,RB Bragantino vs River Plate,"('Copa Sudamericana', True)",Goles RB Bragantino O/U 1.5,Over/Si,3.00,0.3772,0.3119,0.0653,0.1316,v3.2,Goles,Local,L,2.75,+9.09,2026-05-01 00:10,,,exact
@@ -5928,7 +5928,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 00:08,1379310,Aston Villa vs Tottenham,"('Premier League', False)",Corners tot. O/U 5.5,Under/No,13.00,0.1187,0.0741,0.0446,0.5428,v3.2,Corners,Total,,,,,,,
 2026-05-01 00:08,1379310,Aston Villa vs Tottenham,"('Premier League', False)",BTTS,Under/No,2.25,0.4553,0.4110,0.0443,0.0244,v3.2,BTTS,Total,,,,,,,
 2026-05-01 00:08,1379310,Aston Villa vs Tottenham,"('Premier League', False)",Goles tot. O/U 0.5,Over/Si,1.04,0.9675,0.9259,0.0416,0.0062,v3.2,Goles,Total,,,,,,,
-2026-05-01 00:10,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.28,0.7859,0.7455,0.0404,0.0060,v3.2,Goles,Total,,1.22,+4.92,2026-05-02 13:10,,,exact
+2026-05-01 00:10,1388594,Union Berlin vs 1. FC Köln,"('Bundesliga', False)",Goles tot. O/U 1.5,Over/Si,1.28,0.7859,0.7455,0.0404,0.0060,v3.2,Goles,Total,W,1.22,+4.92,2026-05-02 13:10,,,exact
 2026-05-01 00:10,1388593,FC St. Pauli vs FSV Mainz 05,"('Bundesliga', False)",Tiros tot. O/U 25.5,Under/No,1.83,0.7527,0.5000,0.2527,0.3796,v3.2,Tiros,Total,,,,,,,
 2026-05-01 00:10,1388593,FC St. Pauli vs FSV Mainz 05,"('Bundesliga', False)",Arco tot. O/U 8.5,Under/No,1.91,0.7356,0.4852,0.2504,0.4049,v3.2,Arco,Total,,,,,,,
 2026-05-01 00:10,1388593,FC St. Pauli vs FSV Mainz 05,"('Bundesliga', False)",Tiros FSV Mainz 05 O/U 12.5,Under/No,1.83,0.7451,0.5000,0.2451,0.3657,v3.2,Tiros,Visitante,,,,,,,
@@ -6575,12 +6575,16 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-02 00:22,1392179,Almeria vs Mirandes,"('LaLiga 2', False)",Goles Almeria O/U 0.5,Over/Si,1.08,0.9826,0.8811,0.1015,0.0612,v3.2,Goles,Local,,,,,,,
 2026-05-02 00:22,1392179,Almeria vs Mirandes,"('LaLiga 2', False)",BTTS,Over/Si,1.62,0.6485,0.5759,0.0726,0.0506,v3.2,BTTS,Total,,,,,,,
 2026-05-02 00:22,1392179,Almeria vs Mirandes,"('LaLiga 2', False)",Goles tot. O/U 0.5,Over/Si,1.02,0.9939,0.9491,0.0449,0.0138,v3.2,Goles,Total,,,,,,,
-2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners Fenerbahçe O/U 6.5,Under/No,1.73,0.6263,0.5366,0.0897,0.0817,v3.2,Corners,Local,,,,,,,
-2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 11.5,Over/Si,2.75,0.3878,0.3373,0.0504,0.0664,v3.2,Corners,Total,,,,,,,
-2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 12.5,Over/Si,3.75,0.2948,0.2500,0.0448,0.1054,v3.2,Corners,Total,,,,,,,
-2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 13.5,Over/Si,5.50,0.2154,0.1719,0.0434,0.1845,v3.2,Corners,Total,,,,,,,
-2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 7.5,Under/No,3.40,0.3476,0.2766,0.0710,0.1818,v3.2,Corners,Total,,,,,,,
-2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 10.5,Under/No,1.50,0.6906,0.6250,0.0656,0.0359,v3.2,Corners,Total,,,,,,,
-2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 12.5,Under/No,1.18,0.8490,0.7921,0.0569,0.0026,v3.2,Corners,Total,,,,,,,
-2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 11.5,Under/No,1.30,0.7788,0.7234,0.0554,0.0124,v3.2,Corners,Total,,,,,,,
-2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 6.5,Under/No,5.00,0.2376,0.1891,0.0485,0.1879,v3.2,Corners,Total,,,,,,,
+2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners Fenerbahçe O/U 6.5,Under/No,1.73,0.6263,0.5366,0.0897,0.0817,v3.2,Corners,Local,L,,,,,,
+2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 11.5,Over/Si,2.75,0.3878,0.3373,0.0504,0.0664,v3.2,Corners,Total,W,,,,,,
+2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 12.5,Over/Si,3.75,0.2948,0.2500,0.0448,0.1054,v3.2,Corners,Total,L,,,,,,
+2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 13.5,Over/Si,5.50,0.2154,0.1719,0.0434,0.1845,v3.2,Corners,Total,L,,,,,,
+2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 7.5,Under/No,3.40,0.3476,0.2766,0.0710,0.1818,v3.2,Corners,Total,L,,,,,,
+2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 10.5,Under/No,1.50,0.6906,0.6250,0.0656,0.0359,v3.2,Corners,Total,W,,,,,,
+2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 12.5,Under/No,1.18,0.8490,0.7921,0.0569,0.0026,v3.2,Corners,Total,W,,,,,,
+2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 11.5,Under/No,1.30,0.7788,0.7234,0.0554,0.0124,v3.2,Corners,Total,W,,,,,,
+2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 6.5,Under/No,5.00,0.2376,0.1891,0.0485,0.1879,v3.2,Corners,Total,L,,,,,,
+2026-05-02 16:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Tiros Boca Juniors O/U 12.5,Under/No,1.83,0.7905,0.5000,0.2905,0.4489,v3.2,Tiros,Visitante,,1.83,-0.16,2026-05-02 19:05,,,exact
+2026-05-02 16:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Tiros tot. O/U 22.5,Under/No,1.80,0.7693,0.5147,0.2546,0.3848,v3.2,Tiros,Total,,1.80,+0.00,2026-05-02 19:05,,,exact
+2026-05-02 16:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Arco Boca Juniors O/U 4.5,Under/No,1.73,0.7198,0.5366,0.1831,0.2430,v3.2,Arco,Visitante,,1.73,+0.17,2026-05-02 19:05,,,exact
+2026-05-02 16:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Tiros Central Cordoba de Santiago O/U 9.5,Under/No,1.80,0.5888,0.5147,0.0741,0.0598,v3.2,Tiros,Local,,1.80,+0.00,2026-05-02 19:05,,,exact

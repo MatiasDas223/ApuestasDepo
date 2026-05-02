@@ -1,0 +1,35 @@
+{
+  "fetched_at": "2026-05-02 16:01:41",
+  "data": {
+    "fixture_id": 1491941,
+    "home": {
+      "team_id": 1065,
+      "team_name": "Central Cordoba de Santiago",
+      "formation": null,
+      "coach_id": 25834,
+      "coach_name": "Lucas Pusineri",
+      "startXI": [],
+      "subs": []
+    },
+    "away": {
+      "team_id": 451,
+      "team_name": "Boca Juniors",
+      "formation": null,
+      "coach_id": 25722,
+      "coach_name": "Claudio Ubeda",
+      "startXI": [],
+      "subs": []
+    },
+    "confirmed": false
+  },
+  "resumen": {
+    "fixture_id": 1491941,
+    "confirmed": false,
+    "home_xi_size": 0,
+    "away_xi_size": 0,
+    "home_formation": null,
+    "away_formation": null,
+    "home_coach": "Lucas Pusineri",
+    "away_coach": "Claudio Ubeda"
+  }
+}
