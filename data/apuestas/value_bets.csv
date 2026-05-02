@@ -6579,3 +6579,8 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 11.5,Over/Si,2.75,0.3878,0.3373,0.0504,0.0664,v3.2,Corners,Total,,,,,,,
 2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 12.5,Over/Si,3.75,0.2948,0.2500,0.0448,0.1054,v3.2,Corners,Total,,,,,,,
 2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 13.5,Over/Si,5.50,0.2154,0.1719,0.0434,0.1845,v3.2,Corners,Total,,,,,,,
+2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 7.5,Under/No,3.40,0.3476,0.2766,0.0710,0.1818,v3.2,Corners,Total,,,,,,,
+2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 10.5,Under/No,1.50,0.6906,0.6250,0.0656,0.0359,v3.2,Corners,Total,,,,,,,
+2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 12.5,Under/No,1.18,0.8490,0.7921,0.0569,0.0026,v3.2,Corners,Total,,,,,,,
+2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 11.5,Under/No,1.30,0.7788,0.7234,0.0554,0.0124,v3.2,Corners,Total,,,,,,,
+2026-05-02 12:19,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners tot. O/U 6.5,Under/No,5.00,0.2376,0.1891,0.0485,0.1879,v3.2,Corners,Total,,,,,,,
