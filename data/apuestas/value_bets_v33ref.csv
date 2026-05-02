@@ -3042,27 +3042,27 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Corners tot. O/U 8.5,Under/No,1.83,0.5500,0.5000,0.0500,0.0065,v3.3-ref,Corners,Total,,,,,,,
 2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",BTTS,Over/Si,2.38,0.4402,0.3913,0.0489,0.0478,v3.3-ref,BTTS,Total,,,,,,,
 2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Goles Central Cordoba de Santiago O/U 2.5,Over/Si,19.00,0.0917,0.0509,0.0407,0.7419,v3.3-ref,Goles,Local,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Deportivo Riestra O/U 0.5,Under/No,1.73,0.8340,0.5362,0.2978,0.4428,v3.3-ref,Goles,Visitante,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",BTTS,Under/No,1.44,0.8910,0.6453,0.2457,0.2831,v3.3-ref,BTTS,Total,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles tot. O/U 1.5,Under/No,2.20,0.6438,0.4241,0.2197,0.4164,v3.3-ref,Goles,Total,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Tiros Deportivo Riestra O/U 9.5,Under/No,1.73,0.7416,0.5366,0.2050,0.2808,v3.3-ref,Tiros,Visitante,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Tiros Lanus O/U 12.5,Over/Si,1.73,0.7123,0.5366,0.1757,0.2301,v3.3-ref,Tiros,Local,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles tot. O/U 2.5,Under/No,1.36,0.8688,0.6951,0.1737,0.1815,v3.3-ref,Goles,Total,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Arco Deportivo Riestra O/U 3.5,Under/No,1.67,0.7234,0.5576,0.1657,0.2051,v3.3-ref,Arco,Visitante,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Deportivo Riestra O/U 1.5,Under/No,1.11,0.9852,0.8541,0.1311,0.0936,v3.3-ref,Goles,Visitante,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",DC -> Lanus o Empate (1X),,1.17,0.9375,0.8129,0.1246,0.0969,v3.3-ref,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles tot. O/U 0.5,Under/No,5.50,0.2895,0.1717,0.1178,0.5921,v3.3-ref,Goles,Total,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles tot. O/U 3.5,Under/No,1.11,0.9625,0.8541,0.1083,0.0683,v3.3-ref,Goles,Total,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Corners Deportivo Riestra O/U 2.5,Under/No,2.10,0.5379,0.4424,0.0955,0.1296,v3.3-ref,Corners,Visitante,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Lanus O/U 1.5,Under/No,1.50,0.7098,0.6250,0.0848,0.0647,v3.3-ref,Goles,Local,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",1X2 -> Lanus gana,,1.80,0.5899,0.5102,0.0797,0.0618,v3.3-ref,1X2,Total,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Arco Lanus O/U 4.5,Over/Si,1.83,0.5758,0.5000,0.0758,0.0554,v3.3-ref,Arco,Local,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Lanus O/U 0.5,Under/No,3.40,0.3465,0.2766,0.0699,0.1780,v3.3-ref,Goles,Local,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Lanus O/U 2.5,Under/No,1.12,0.9074,0.8427,0.0647,0.0163,v3.3-ref,Goles,Local,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Tarjetas tot. O/U 4.5,Over/Si,1.90,0.5633,0.5000,0.0633,0.0702,v3.3-ref,Tarjetas,Total,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles tot. O/U 4.5,Under/No,1.02,0.9915,0.9434,0.0481,0.0113,v3.3-ref,Goles,Total,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",1X2 -> Empate,,3.00,0.3476,0.3061,0.0415,0.0429,v3.3-ref,1X2,Total,,,,,,,
-2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Deportivo Riestra O/U 2.5,Under/No,1.01,0.9991,0.9579,0.0412,0.0091,v3.3-ref,Goles,Visitante,,,,,,,
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Deportivo Riestra O/U 0.5,Under/No,1.73,0.8340,0.5362,0.2978,0.4428,v3.3-ref,Goles,Visitante,,1.80,-3.89,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",BTTS,Under/No,1.44,0.8910,0.6453,0.2457,0.2831,v3.3-ref,BTTS,Total,,1.44,+0.00,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles tot. O/U 1.5,Under/No,2.20,0.6438,0.4241,0.2197,0.4164,v3.3-ref,Goles,Total,,2.10,+4.76,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Tiros Deportivo Riestra O/U 9.5,Under/No,1.73,0.7416,0.5366,0.2050,0.2808,v3.3-ref,Tiros,Visitante,,,,2026-05-02 17:10,1.53,+13.26,single_heur
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Tiros Lanus O/U 12.5,Over/Si,1.73,0.7123,0.5366,0.1757,0.2301,v3.3-ref,Tiros,Local,,,,2026-05-02 17:10,1.53,+13.26,single_heur
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles tot. O/U 2.5,Under/No,1.36,0.8688,0.6951,0.1737,0.1815,v3.3-ref,Goles,Total,,1.36,+0.00,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Arco Deportivo Riestra O/U 3.5,Under/No,1.67,0.7234,0.5576,0.1657,0.2051,v3.3-ref,Arco,Visitante,,1.67,+0.24,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Deportivo Riestra O/U 1.5,Under/No,1.11,0.9852,0.8541,0.1311,0.0936,v3.3-ref,Goles,Visitante,,1.12,-0.89,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",DC -> Lanus o Empate (1X),,1.17,0.9375,0.8129,0.1246,0.0969,v3.3-ref,Doble Oportunidad,Total,,1.18,-0.85,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles tot. O/U 0.5,Under/No,5.50,0.2895,0.1717,0.1178,0.5921,v3.3-ref,Goles,Total,,5.50,+0.00,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles tot. O/U 3.5,Under/No,1.11,0.9625,0.8541,0.1083,0.0683,v3.3-ref,Goles,Total,,1.11,+0.00,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Corners Deportivo Riestra O/U 2.5,Under/No,2.10,0.5379,0.4424,0.0955,0.1296,v3.3-ref,Corners,Visitante,,2.20,-4.55,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Lanus O/U 1.5,Under/No,1.50,0.7098,0.6250,0.0848,0.0647,v3.3-ref,Goles,Local,,1.44,+4.17,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",1X2 -> Lanus gana,,1.80,0.5899,0.5102,0.0797,0.0618,v3.3-ref,1X2,Total,,1.91,-5.76,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Arco Lanus O/U 4.5,Over/Si,1.83,0.5758,0.5000,0.0758,0.0554,v3.3-ref,Arco,Local,,1.83,-0.16,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Lanus O/U 0.5,Under/No,3.40,0.3465,0.2766,0.0699,0.1780,v3.3-ref,Goles,Local,,3.25,+4.62,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Lanus O/U 2.5,Under/No,1.12,0.9074,0.8427,0.0647,0.0163,v3.3-ref,Goles,Local,,1.11,+0.90,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Tarjetas tot. O/U 4.5,Over/Si,1.90,0.5633,0.5000,0.0633,0.0702,v3.3-ref,Tarjetas,Total,,1.83,+3.83,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles tot. O/U 4.5,Under/No,1.02,0.9915,0.9434,0.0481,0.0113,v3.3-ref,Goles,Total,,1.02,+0.00,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",1X2 -> Empate,,3.00,0.3476,0.3061,0.0415,0.0429,v3.3-ref,1X2,Total,,3.00,+0.00,2026-05-02 17:10,,,exact
+2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Deportivo Riestra O/U 2.5,Under/No,1.01,0.9991,0.9579,0.0412,0.0091,v3.3-ref,Goles,Visitante,,1.01,+0.00,2026-05-02 17:10,,,exact
 2026-04-30 00:01,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",1X2 -> San Lorenzo gana,,3.10,0.5405,0.3009,0.2396,0.6756,v3.3-ref,1X2,Total,,,,,,,
 2026-04-30 00:01,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Arco tot. O/U 7.5,Under/No,2.00,0.6287,0.4634,0.1653,0.2573,v3.3-ref,Arco,Total,,,,,,,
 2026-04-30 00:01,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles Independiente O/U 0.5,Under/No,2.50,0.5225,0.3750,0.1475,0.3062,v3.3-ref,Goles,Visitante,,,,,,,
