@@ -324,7 +324,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles Botafogo O/U 2.5,Over/Si,3.00,0.4679,0.3119,0.1560,0.4037,v3.2-fil,Goles,Local,,,,,,,
 2026-04-30 00:07,1492240,Atletico Paranaense vs Gremio,"('Brasileirao Serie A', False)",Goles Atletico Paranaense O/U 1.5,Over/Si,2.10,0.7124,0.4430,0.2694,0.4961,v3.2-fil,Goles,Local,,,,,,,
 2026-04-30 00:07,1492240,Atletico Paranaense vs Gremio,"('Brasileirao Serie A', False)",Goles Atletico Paranaense O/U 0.5,Over/Si,1.22,0.9195,0.7663,0.1532,0.1218,v3.2-fil,Goles,Local,,,,,,,
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Como O/U 1.5,Over/Si,2.25,0.6041,0.4110,0.1931,0.3592,v3.2-fil,Goles,Local,,,,,,,
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Como O/U 1.5,Over/Si,2.25,0.6041,0.4110,0.1931,0.3592,v3.2-fil,Goles,Local,,2.25,+0.00,2026-05-02 15:20,,,exact
 2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Sirius O/U 2.5,Over/Si,2.62,0.5859,0.3547,0.2312,0.5351,v3.2-fil,Goles,Local,W,2.62,+0.00,2026-05-02 12:40,,,exact
 2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Sirius O/U 1.5,Over/Si,1.53,0.8064,0.6087,0.1977,0.2338,v3.2-fil,Goles,Local,W,1.53,+0.00,2026-05-02 12:40,,,exact
 2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 3.5,Over/Si,2.62,0.5340,0.3547,0.1793,0.3991,v3.2-fil,Goles,Total,W,2.62,+0.00,2026-05-02 12:40,,,exact

@@ -1,16 +1,80 @@
 {
-  "fetched_at": "2026-05-02 08:24:01",
+  "fetched_at": "2026-05-02 12:20:35",
   "data": {
     "home_team_id": 3589,
     "away_team_id": 997,
-    "home": [],
+    "home": [
+      {
+        "player_id": 41477,
+        "player_name": "J. Camacho",
+        "photo": "https://media.api-sports.io/football/players/41477.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 3589,
+        "fixture_id": 1394715
+      },
+      {
+        "player_id": 631629,
+        "player_name": "Kone",
+        "photo": "https://media.api-sports.io/football/players/631629.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 3589,
+        "fixture_id": 1394715
+      },
+      {
+        "player_id": 122393,
+        "player_name": "A. Sivri",
+        "photo": "https://media.api-sports.io/football/players/122393.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 3589,
+        "fixture_id": 1394715
+      },
+      {
+        "player_id": 47500,
+        "player_name": "D. Verde",
+        "photo": "https://media.api-sports.io/football/players/47500.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 3589,
+        "fixture_id": 1394715
+      }
+    ],
     "away": [
       {
+        "player_id": 2774,
+        "player_name": "P. Etebo",
+        "photo": "https://media.api-sports.io/football/players/2774.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 997,
+        "fixture_id": 1394715
+      },
+      {
+        "player_id": 297610,
+        "player_name": "M. Kyabou",
+        "photo": "https://media.api-sports.io/football/players/297610.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 997,
+        "fixture_id": 1394715
+      },
+      {
+        "player_id": 456,
+        "player_name": "H. Onyekuru",
+        "photo": "https://media.api-sports.io/football/players/456.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 997,
+        "fixture_id": 1394715
+      },
+      {
         "player_id": 61813,
-        "player_name": "A. Şahindere",
+        "player_name": "A. Sahindere",
         "photo": "https://media.api-sports.io/football/players/61813.png",
         "type": "Missing Fixture",
-        "reason": "Jumpers knee",
+        "reason": "Knee Injury",
         "team_id": 997,
         "fixture_id": 1394715
       }
@@ -18,11 +82,11 @@
   },
   "resumen": {
     "fixture_id": 1394715,
-    "home_total": 0,
-    "home_missing": 0,
-    "home_questionable": 0,
-    "away_total": 1,
-    "away_missing": 1,
+    "home_total": 4,
+    "home_missing": 3,
+    "home_questionable": 1,
+    "away_total": 4,
+    "away_missing": 4,
     "away_questionable": 0
   }
 }
