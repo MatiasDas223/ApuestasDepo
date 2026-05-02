@@ -2865,19 +2865,19 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",1X2 -> Remo gana,,6.25,0.2092,0.1486,0.0606,0.3075,v3.4-shrink,1X2,Total,,6.25,+0.00,2026-05-02 18:40,,,exact
 2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles Botafogo O/U 2.5,Under/No,1.36,0.7449,0.6881,0.0568,0.0131,v3.4-shrink,Goles,Local,,1.40,-2.86,2026-05-02 18:40,,,exact
 2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",DC -> Empate o Remo (X2),,2.38,0.4461,0.3977,0.0484,0.0617,v3.4-shrink,Doble Oportunidad,Total,,2.50,-4.80,2026-05-02 18:40,,,exact
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Palmeiras O/U 1.5,Under/No,2.20,0.5663,0.4241,0.1422,0.2458,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",DC -> Empate o Santos (X2),,2.62,0.4951,0.3588,0.1363,0.2972,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Palmeiras O/U 2.5,Under/No,1.36,0.8150,0.6881,0.1269,0.1084,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",1X2 -> Santos gana,,6.50,0.2320,0.1432,0.0888,0.5080,v3.4-shrink,1X2,Total,,,,,,,
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles tot. O/U 2.5,Under/No,1.95,0.5739,0.4868,0.0870,0.1191,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Palmeiras O/U 0.5,Under/No,6.50,0.2295,0.1459,0.0836,0.4916,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Santos O/U 0.5,Over/Si,1.80,0.5971,0.5148,0.0822,0.0747,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles tot. O/U 4.5,Under/No,1.12,0.9062,0.8427,0.0635,0.0149,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles tot. O/U 3.5,Under/No,1.33,0.7818,0.7188,0.0630,0.0398,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles tot. O/U 1.5,Under/No,3.75,0.3125,0.2545,0.0581,0.1721,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Santos O/U 1.5,Over/Si,5.00,0.2316,0.1896,0.0419,0.1579,v3.4-shrink,Goles,Visitante,,,,,,,
-2026-04-30 00:07,1492249,Vitoria vs Coritiba,"('Brasileirao Serie A', False)",1X2 -> Vitoria gana,,2.15,0.4984,0.4374,0.0610,0.0716,v3.4-shrink,1X2,Total,,,,,,,
-2026-04-30 00:07,1492249,Vitoria vs Coritiba,"('Brasileirao Serie A', False)",Corners tot. O/U 9.5,Under/No,2.00,0.5041,0.4638,0.0403,0.0081,v3.4-shrink,Corners,Total,,,,,,,
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Palmeiras O/U 1.5,Under/No,2.20,0.5663,0.4241,0.1422,0.2458,v3.4-shrink,Goles,Local,,2.00,+10.00,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",DC -> Empate o Santos (X2),,2.62,0.4951,0.3588,0.1363,0.2972,v3.4-shrink,Doble Oportunidad,Total,,2.38,+10.08,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Palmeiras O/U 2.5,Under/No,1.36,0.8150,0.6881,0.1269,0.1084,v3.4-shrink,Goles,Local,,1.30,+4.62,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",1X2 -> Santos gana,,6.50,0.2320,0.1432,0.0888,0.5080,v3.4-shrink,1X2,Total,,6.50,+0.00,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles tot. O/U 2.5,Under/No,1.95,0.5739,0.4868,0.0870,0.1191,v3.4-shrink,Goles,Total,,1.75,+11.43,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Palmeiras O/U 0.5,Under/No,6.50,0.2295,0.1459,0.0836,0.4916,v3.4-shrink,Goles,Local,,5.50,+18.18,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Santos O/U 0.5,Over/Si,1.80,0.5971,0.5148,0.0822,0.0747,v3.4-shrink,Goles,Visitante,,1.80,+0.00,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles tot. O/U 4.5,Under/No,1.12,0.9062,0.8427,0.0635,0.0149,v3.4-shrink,Goles,Total,,1.10,+1.82,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles tot. O/U 3.5,Under/No,1.33,0.7818,0.7188,0.0630,0.0398,v3.4-shrink,Goles,Total,,1.28,+3.91,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles tot. O/U 1.5,Under/No,3.75,0.3125,0.2545,0.0581,0.1721,v3.4-shrink,Goles,Total,,3.40,+10.29,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Santos O/U 1.5,Over/Si,5.00,0.2316,0.1896,0.0419,0.1579,v3.4-shrink,Goles,Visitante,,5.50,-9.09,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492249,Vitoria vs Coritiba,"('Brasileirao Serie A', False)",1X2 -> Vitoria gana,,2.15,0.4984,0.4374,0.0610,0.0716,v3.4-shrink,1X2,Total,,2.10,+2.38,2026-05-02 21:10,,,exact
+2026-04-30 00:07,1492249,Vitoria vs Coritiba,"('Brasileirao Serie A', False)",Corners tot. O/U 9.5,Under/No,2.00,0.5041,0.4638,0.0403,0.0081,v3.4-shrink,Corners,Total,,2.00,+0.00,2026-05-02 21:10,,,exact
 2026-04-30 00:07,1492240,Atletico Paranaense vs Gremio,"('Brasileirao Serie A', False)",1X2 -> Atletico Paranaense gana,,1.95,0.6445,0.4696,0.1749,0.2568,v3.4-shrink,1X2,Total,,,,,,,
 2026-04-30 00:07,1492240,Atletico Paranaense vs Gremio,"('Brasileirao Serie A', False)",Corners tot. O/U 9.5,Under/No,2.00,0.6000,0.4638,0.1362,0.2000,v3.4-shrink,Corners,Total,,,,,,,
 2026-04-30 00:07,1492240,Atletico Paranaense vs Gremio,"('Brasileirao Serie A', False)",Goles Atletico Paranaense O/U 1.5,Over/Si,2.10,0.5767,0.4430,0.1337,0.2111,v3.4-shrink,Goles,Local,,,,,,,
@@ -3794,5 +3794,5 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-02 16:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Goles Boca Juniors O/U 2.5,Under/No,1.17,0.8762,0.8104,0.0658,0.0251,v3.4-shrink,Goles,Visitante,,1.17,+0.00,2026-05-02 19:05,,,exact
 2026-05-02 16:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Goles Boca Juniors O/U 0.5,Under/No,3.75,0.2961,0.2500,0.0461,0.1105,v3.4-shrink,Goles,Visitante,,3.75,+0.00,2026-05-02 19:05,,,exact
 2026-05-02 16:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",DC -> Central Cordoba de Santiago o Boca Juniors (12),,1.36,0.7381,0.6961,0.0420,0.0038,v3.4-shrink,Doble Oportunidad,Total,,1.36,+0.00,2026-05-02 19:05,,,exact
-2026-05-02 16:08,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Corners tot. O/U 10.5,Under/No,1.73,0.5786,0.5362,0.0424,0.0009,v3.4-shrink,Corners,Total,,,,,,,
+2026-05-02 16:08,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Corners tot. O/U 10.5,Under/No,1.73,0.5786,0.5362,0.0424,0.0009,v3.4-shrink,Corners,Total,,1.73,+0.00,2026-05-02 21:10,,,exact
 2026-05-02 16:13,1392173,Racing Santander vs Huesca,"('LaLiga 2', False)",Goles tot. O/U 4.5,Over/Si,4.50,0.2479,0.2077,0.0402,0.1156,v3.4-shrink,Goles,Total,,,,,,,
