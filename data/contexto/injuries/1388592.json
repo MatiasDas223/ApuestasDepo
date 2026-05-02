@@ -1,18 +1,83 @@
 {
-  "fetched_at": "2026-05-02 04:09:40",
+  "fetched_at": "2026-05-02 08:10:40",
   "data": {
     "home_team_id": 167,
     "away_team_id": 172,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 127631,
+        "player_name": "V. Gendrey",
+        "photo": "https://media.api-sports.io/football/players/127631.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 167,
+        "fixture_id": 1388592
+      },
+      {
+        "player_id": 162964,
+        "player_name": "R. Hranac",
+        "photo": "https://media.api-sports.io/football/players/162964.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 167,
+        "fixture_id": 1388592
+      },
+      {
+        "player_id": 33067,
+        "player_name": "K. Machida",
+        "photo": "https://media.api-sports.io/football/players/33067.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 167,
+        "fixture_id": 1388592
+      },
+      {
+        "player_id": 24854,
+        "player_name": "G. Promel",
+        "photo": "https://media.api-sports.io/football/players/24854.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 167,
+        "fixture_id": 1388592
+      }
+    ],
+    "away": [
+      {
+        "player_id": 323449,
+        "player_name": "A. Al Dakhil",
+        "photo": "https://media.api-sports.io/football/players/323449.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 172,
+        "fixture_id": 1388592
+      },
+      {
+        "player_id": 394734,
+        "player_name": "F. Jeltsch",
+        "photo": "https://media.api-sports.io/football/players/394734.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 172,
+        "fixture_id": 1388592
+      },
+      {
+        "player_id": 398194,
+        "player_name": "L. Jovanovic",
+        "photo": "https://media.api-sports.io/football/players/398194.png",
+        "type": "Missing Fixture",
+        "reason": "Back Injury",
+        "team_id": 172,
+        "fixture_id": 1388592
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1388592,
-    "home_total": 0,
-    "home_missing": 0,
+    "home_total": 4,
+    "home_missing": 4,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "away_total": 3,
+    "away_missing": 3,
     "away_questionable": 0
   }
 }

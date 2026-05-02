@@ -1,18 +1,110 @@
 {
-  "fetched_at": "2026-05-02 04:10:25",
+  "fetched_at": "2026-05-02 08:11:27",
   "data": {
     "home_team_id": 168,
     "away_team_id": 173,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 757,
+        "player_name": "Lucas",
+        "photo": "https://media.api-sports.io/football/players/757.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 168,
+        "fixture_id": 1388587
+      },
+      {
+        "player_id": 663,
+        "player_name": "M. Terrier",
+        "photo": "https://media.api-sports.io/football/players/663.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 168,
+        "fixture_id": 1388587
+      },
+      {
+        "player_id": 26232,
+        "player_name": "M. Flekken",
+        "photo": "https://media.api-sports.io/football/players/26232.png",
+        "type": "Questionable",
+        "reason": "Muscle Injury",
+        "team_id": 168,
+        "fixture_id": 1388587
+      },
+      {
+        "player_id": 505295,
+        "player_name": "C. Kofane",
+        "photo": "https://media.api-sports.io/football/players/505295.png",
+        "type": "Questionable",
+        "reason": "Thigh Injury",
+        "team_id": 168,
+        "fixture_id": 1388587
+      }
+    ],
+    "away": [
+      {
+        "player_id": 343286,
+        "player_name": "E. Banzuzi",
+        "photo": "https://media.api-sports.io/football/players/343286.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 173,
+        "fixture_id": 1388587
+      },
+      {
+        "player_id": 469695,
+        "player_name": "V. Gebel",
+        "photo": "https://media.api-sports.io/football/players/469695.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 173,
+        "fixture_id": 1388587
+      },
+      {
+        "player_id": 371025,
+        "player_name": "S. Sani",
+        "photo": "https://media.api-sports.io/football/players/371025.png",
+        "type": "Missing Fixture",
+        "reason": "Hip Injury",
+        "team_id": 173,
+        "fixture_id": 1388587
+      },
+      {
+        "player_id": 24814,
+        "player_name": "L. Zingerle",
+        "photo": "https://media.api-sports.io/football/players/24814.png",
+        "type": "Missing Fixture",
+        "reason": "Wrist Injury",
+        "team_id": 173,
+        "fixture_id": 1388587
+      },
+      {
+        "player_id": 162761,
+        "player_name": "C. Lukeba",
+        "photo": "https://media.api-sports.io/football/players/162761.png",
+        "type": "Questionable",
+        "reason": "Muscle Injury",
+        "team_id": 173,
+        "fixture_id": 1388587
+      },
+      {
+        "player_id": 25158,
+        "player_name": "D. Raum",
+        "photo": "https://media.api-sports.io/football/players/25158.png",
+        "type": "Questionable",
+        "reason": "Groin Injury",
+        "team_id": 173,
+        "fixture_id": 1388587
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1388587,
-    "home_total": 0,
-    "home_missing": 0,
-    "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
-    "away_questionable": 0
+    "home_total": 4,
+    "home_missing": 2,
+    "home_questionable": 2,
+    "away_total": 6,
+    "away_missing": 4,
+    "away_questionable": 2
   }
 }

@@ -1,18 +1,101 @@
 {
-  "fetched_at": "2026-05-02 04:11:10",
+  "fetched_at": "2026-05-02 08:12:12",
   "data": {
     "home_team_id": 160,
     "away_team_id": 161,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 163022,
+        "player_name": "P. Osterhage",
+        "photo": "https://media.api-sports.io/football/players/163022.png",
+        "type": "Questionable",
+        "reason": "Knee Injury",
+        "team_id": 160,
+        "fixture_id": 1388591
+      },
+      {
+        "player_id": 202919,
+        "player_name": "M. Rosenfelder",
+        "photo": "https://media.api-sports.io/football/players/202919.png",
+        "type": "Questionable",
+        "reason": "Hamstring Injury",
+        "team_id": 160,
+        "fixture_id": 1388591
+      }
+    ],
+    "away": [
+      {
+        "player_id": 25408,
+        "player_name": "M. Arnold",
+        "photo": "https://media.api-sports.io/football/players/25408.png",
+        "type": "Missing Fixture",
+        "reason": "Groin Injury",
+        "team_id": 161,
+        "fixture_id": 1388591
+      },
+      {
+        "player_id": 380503,
+        "player_name": "B. Dardai",
+        "photo": "https://media.api-sports.io/football/players/380503.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 161,
+        "fixture_id": 1388591
+      },
+      {
+        "player_id": 177618,
+        "player_name": "K. Fischer",
+        "photo": "https://media.api-sports.io/football/players/177618.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 161,
+        "fixture_id": 1388591
+      },
+      {
+        "player_id": 30527,
+        "player_name": "Rogerio",
+        "photo": "https://media.api-sports.io/football/players/30527.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 161,
+        "fixture_id": 1388591
+      },
+      {
+        "player_id": 290545,
+        "player_name": "J. Seelt",
+        "photo": "https://media.api-sports.io/football/players/290545.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 161,
+        "fixture_id": 1388591
+      },
+      {
+        "player_id": 1302,
+        "player_name": "J. Wind",
+        "photo": "https://media.api-sports.io/football/players/1302.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 161,
+        "fixture_id": 1388591
+      },
+      {
+        "player_id": 340067,
+        "player_name": "Cleiton",
+        "photo": "https://media.api-sports.io/football/players/340067.png",
+        "type": "Questionable",
+        "reason": "Ankle Injury",
+        "team_id": 161,
+        "fixture_id": 1388591
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1388591,
-    "home_total": 0,
+    "home_total": 2,
     "home_missing": 0,
-    "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
-    "away_questionable": 0
+    "home_questionable": 2,
+    "away_total": 7,
+    "away_missing": 6,
+    "away_questionable": 1
   }
 }

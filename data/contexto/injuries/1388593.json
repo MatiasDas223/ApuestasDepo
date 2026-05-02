@@ -1,18 +1,92 @@
 {
-  "fetched_at": "2026-05-02 04:10:40",
+  "fetched_at": "2026-05-02 08:11:42",
   "data": {
     "home_team_id": 186,
     "away_team_id": 164,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 138873,
+        "player_name": "R. Jones",
+        "photo": "https://media.api-sports.io/football/players/138873.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 186,
+        "fixture_id": 1388593
+      },
+      {
+        "player_id": 20780,
+        "player_name": "M. Pereira Lage",
+        "photo": "https://media.api-sports.io/football/players/20780.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 186,
+        "fixture_id": 1388593
+      },
+      {
+        "player_id": 50863,
+        "player_name": "J. Sands",
+        "photo": "https://media.api-sports.io/football/players/50863.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 186,
+        "fixture_id": 1388593
+      }
+    ],
+    "away": [
+      {
+        "player_id": 394735,
+        "player_name": "M. Dal",
+        "photo": "https://media.api-sports.io/football/players/394735.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 164,
+        "fixture_id": 1388593
+      },
+      {
+        "player_id": 162946,
+        "player_name": "B. Hollerbach",
+        "photo": "https://media.api-sports.io/football/players/162946.png",
+        "type": "Missing Fixture",
+        "reason": "Achilles Tendon Injury",
+        "team_id": 164,
+        "fixture_id": 1388593
+      },
+      {
+        "player_id": 2906,
+        "player_name": "Lee Jae-Sung",
+        "photo": "https://media.api-sports.io/football/players/2906.png",
+        "type": "Missing Fixture",
+        "reason": "Toe Injury",
+        "team_id": 164,
+        "fixture_id": 1388593
+      },
+      {
+        "player_id": 25066,
+        "player_name": "M. Leitsch",
+        "photo": "https://media.api-sports.io/football/players/25066.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 164,
+        "fixture_id": 1388593
+      },
+      {
+        "player_id": 20617,
+        "player_name": "Silas",
+        "photo": "https://media.api-sports.io/football/players/20617.png",
+        "type": "Missing Fixture",
+        "reason": "Broken shinbone",
+        "team_id": 164,
+        "fixture_id": 1388593
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1388593,
-    "home_total": 0,
-    "home_missing": 0,
+    "home_total": 3,
+    "home_missing": 3,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "away_total": 5,
+    "away_missing": 5,
     "away_questionable": 0
   }
 }

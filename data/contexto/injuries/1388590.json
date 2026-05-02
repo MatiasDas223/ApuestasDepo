@@ -1,18 +1,74 @@
 {
-  "fetched_at": "2026-05-02 04:09:55",
+  "fetched_at": "2026-05-02 08:10:55",
   "data": {
     "home_team_id": 169,
     "away_team_id": 175,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 269531,
+        "player_name": "N. Collins",
+        "photo": "https://media.api-sports.io/football/players/269531.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 169,
+        "fixture_id": 1388590
+      },
+      {
+        "player_id": 2598,
+        "player_name": "R. Doan",
+        "photo": "https://media.api-sports.io/football/players/2598.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 169,
+        "fixture_id": 1388590
+      },
+      {
+        "player_id": 26291,
+        "player_name": "J. Grahl",
+        "photo": "https://media.api-sports.io/football/players/26291.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 169,
+        "fixture_id": 1388590
+      }
+    ],
+    "away": [
+      {
+        "player_id": 48489,
+        "player_name": "M. Muheim",
+        "photo": "https://media.api-sports.io/football/players/48489.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 175,
+        "fixture_id": 1388590
+      },
+      {
+        "player_id": 73879,
+        "player_name": "P. Otele",
+        "photo": "https://media.api-sports.io/football/players/73879.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card",
+        "team_id": 175,
+        "fixture_id": 1388590
+      },
+      {
+        "player_id": 470282,
+        "player_name": "A. Rossing-Lelesiit",
+        "photo": "https://media.api-sports.io/football/players/470282.png",
+        "type": "Questionable",
+        "reason": "Ankle Injury",
+        "team_id": 175,
+        "fixture_id": 1388590
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1388590,
-    "home_total": 0,
-    "home_missing": 0,
+    "home_total": 3,
+    "home_missing": 3,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
-    "away_questionable": 0
+    "away_total": 3,
+    "away_missing": 2,
+    "away_questionable": 1
   }
 }

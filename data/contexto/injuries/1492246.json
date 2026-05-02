@@ -1,18 +1,119 @@
 {
-  "fetched_at": "2026-05-02 04:13:42",
+  "fetched_at": "2026-05-02 08:14:44",
   "data": {
     "home_team_id": 7848,
     "away_team_id": 131,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 9789,
+        "player_name": "Igor Carius",
+        "photo": "https://media.api-sports.io/football/players/9789.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 7848,
+        "fixture_id": 1492246
+      },
+      {
+        "player_id": 133183,
+        "player_name": "Jose Aldo",
+        "photo": "https://media.api-sports.io/football/players/133183.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 7848,
+        "fixture_id": 1492246
+      },
+      {
+        "player_id": 153458,
+        "player_name": "Negueba",
+        "photo": "https://media.api-sports.io/football/players/153458.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 7848,
+        "fixture_id": 1492246
+      }
+    ],
+    "away": [
+      {
+        "player_id": 544679,
+        "player_name": "Andre",
+        "photo": "https://media.api-sports.io/football/players/544679.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card",
+        "team_id": 131,
+        "fixture_id": 1492246
+      },
+      {
+        "player_id": 2426,
+        "player_name": "A. Carrillo",
+        "photo": "https://media.api-sports.io/football/players/2426.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 131,
+        "fixture_id": 1492246
+      },
+      {
+        "player_id": 9577,
+        "player_name": "Charles Rigon",
+        "photo": "https://media.api-sports.io/football/players/9577.png",
+        "type": "Missing Fixture",
+        "reason": "Heel Injury",
+        "team_id": 131,
+        "fixture_id": 1492246
+      },
+      {
+        "player_id": 667,
+        "player_name": "M. Depay",
+        "photo": "https://media.api-sports.io/football/players/667.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 131,
+        "fixture_id": 1492246
+      },
+      {
+        "player_id": 463979,
+        "player_name": "Gui Negao",
+        "photo": "https://media.api-sports.io/football/players/463979.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 131,
+        "fixture_id": 1492246
+      },
+      {
+        "player_id": 9992,
+        "player_name": "Gustavo Henrique",
+        "photo": "https://media.api-sports.io/football/players/9992.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 131,
+        "fixture_id": 1492246
+      },
+      {
+        "player_id": 415085,
+        "player_name": "Joao Pedro",
+        "photo": "https://media.api-sports.io/football/players/415085.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 131,
+        "fixture_id": 1492246
+      },
+      {
+        "player_id": 415090,
+        "player_name": "Kayke",
+        "photo": "https://media.api-sports.io/football/players/415090.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 131,
+        "fixture_id": 1492246
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1492246,
-    "home_total": 0,
-    "home_missing": 0,
+    "home_total": 3,
+    "home_missing": 3,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "away_total": 8,
+    "away_missing": 8,
     "away_questionable": 0
   }
 }

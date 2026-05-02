@@ -1,18 +1,74 @@
 {
-  "fetched_at": "2026-05-02 04:12:56",
+  "fetched_at": "2026-05-02 08:13:58",
   "data": {
     "home_team_id": 127,
     "away_team_id": 133,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 10124,
+        "player_name": "Leo Pereira",
+        "photo": "https://media.api-sports.io/football/players/10124.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 127,
+        "fixture_id": 1492244
+      },
+      {
+        "player_id": 1646,
+        "player_name": "Lucas Paqueta",
+        "photo": "https://media.api-sports.io/football/players/1646.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 127,
+        "fixture_id": 1492244
+      },
+      {
+        "player_id": 2560,
+        "player_name": "E. Pulgar",
+        "photo": "https://media.api-sports.io/football/players/2560.png",
+        "type": "Missing Fixture",
+        "reason": "Shoulder Injury",
+        "team_id": 127,
+        "fixture_id": 1492244
+      },
+      {
+        "player_id": 2612,
+        "player_name": "G. de Arrascaeta",
+        "photo": "https://media.api-sports.io/football/players/2612.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 127,
+        "fixture_id": 1492244
+      }
+    ],
+    "away": [
+      {
+        "player_id": 9890,
+        "player_name": "Jair",
+        "photo": "https://media.api-sports.io/football/players/9890.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 133,
+        "fixture_id": 1492244
+      },
+      {
+        "player_id": 280739,
+        "player_name": "Mateus Carvalho",
+        "photo": "https://media.api-sports.io/football/players/280739.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 133,
+        "fixture_id": 1492244
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1492244,
-    "home_total": 0,
-    "home_missing": 0,
-    "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "home_total": 4,
+    "home_missing": 3,
+    "home_questionable": 1,
+    "away_total": 2,
+    "away_missing": 2,
     "away_questionable": 0
   }
 }

@@ -1,18 +1,92 @@
 {
-  "fetched_at": "2026-05-02 04:12:10",
+  "fetched_at": "2026-05-02 08:13:13",
   "data": {
     "home_team_id": 134,
     "away_team_id": 130,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 1909,
+        "player_name": "Luiz Gustavo",
+        "photo": "https://media.api-sports.io/football/players/1909.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 134,
+        "fixture_id": 1492240
+      },
+      {
+        "player_id": 152931,
+        "player_name": "B. Zapelli",
+        "photo": "https://media.api-sports.io/football/players/152931.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 134,
+        "fixture_id": 1492240
+      }
+    ],
+    "away": [
+      {
+        "player_id": 150,
+        "player_name": "Arthur Melo",
+        "photo": "https://media.api-sports.io/football/players/150.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 130,
+        "fixture_id": 1492240
+      },
+      {
+        "player_id": 104,
+        "player_name": "Carlos Vinicius",
+        "photo": "https://media.api-sports.io/football/players/104.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 130,
+        "fixture_id": 1492240
+      },
+      {
+        "player_id": 374,
+        "player_name": "Joao Pedro",
+        "photo": "https://media.api-sports.io/football/players/374.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 130,
+        "fixture_id": 1492240
+      },
+      {
+        "player_id": 10309,
+        "player_name": "Marlon",
+        "photo": "https://media.api-sports.io/football/players/10309.png",
+        "type": "Missing Fixture",
+        "reason": "Broken ankle",
+        "team_id": 130,
+        "fixture_id": 1492240
+      },
+      {
+        "player_id": 424277,
+        "player_name": "Viery",
+        "photo": "https://media.api-sports.io/football/players/424277.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 130,
+        "fixture_id": 1492240
+      },
+      {
+        "player_id": 70566,
+        "player_name": "M. Villasanti",
+        "photo": "https://media.api-sports.io/football/players/70566.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 130,
+        "fixture_id": 1492240
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1492240,
-    "home_total": 0,
-    "home_missing": 0,
+    "home_total": 2,
+    "home_missing": 2,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "away_total": 6,
+    "away_missing": 6,
     "away_questionable": 0
   }
 }

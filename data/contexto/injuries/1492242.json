@@ -1,18 +1,128 @@
 {
-  "fetched_at": "2026-05-02 04:13:27",
+  "fetched_at": "2026-05-02 08:14:28",
   "data": {
     "home_team_id": 132,
     "away_team_id": 794,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 106467,
+        "player_name": "Eduardo Doma",
+        "photo": "https://media.api-sports.io/football/players/106467.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 132,
+        "fixture_id": 1492242
+      },
+      {
+        "player_id": 106467,
+        "player_name": "Eduardo Doma",
+        "photo": "https://media.api-sports.io/football/players/106467.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card",
+        "team_id": 132,
+        "fixture_id": 1492242
+      },
+      {
+        "player_id": 10356,
+        "player_name": "Giovanni Augusto",
+        "photo": "https://media.api-sports.io/football/players/10356.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 132,
+        "fixture_id": 1492242
+      },
+      {
+        "player_id": 455091,
+        "player_name": "Robert Conceicao",
+        "photo": "https://media.api-sports.io/football/players/455091.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 132,
+        "fixture_id": 1492242
+      },
+      {
+        "player_id": 80626,
+        "player_name": "Bruno Matias",
+        "photo": "https://media.api-sports.io/football/players/80626.png",
+        "type": "Questionable",
+        "reason": "Knee Injury",
+        "team_id": 132,
+        "fixture_id": 1492242
+      },
+      {
+        "player_id": 410229,
+        "player_name": "Italo",
+        "photo": "https://media.api-sports.io/football/players/410229.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 132,
+        "fixture_id": 1492242
+      }
+    ],
+    "away": [
+      {
+        "player_id": 468162,
+        "player_name": "Davi Gomes",
+        "photo": "https://media.api-sports.io/football/players/468162.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 794,
+        "fixture_id": 1492242
+      },
+      {
+        "player_id": 41544,
+        "player_name": "Eduardo Santos",
+        "photo": "https://media.api-sports.io/football/players/41544.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 794,
+        "fixture_id": 1492242
+      },
+      {
+        "player_id": 266856,
+        "player_name": "Fabricio",
+        "photo": "https://media.api-sports.io/football/players/266856.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 794,
+        "fixture_id": 1492242
+      },
+      {
+        "player_id": 10481,
+        "player_name": "Juninho Capixaba",
+        "photo": "https://media.api-sports.io/football/players/10481.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 794,
+        "fixture_id": 1492242
+      },
+      {
+        "player_id": 152410,
+        "player_name": "G. Rodriguez",
+        "photo": "https://media.api-sports.io/football/players/152410.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 794,
+        "fixture_id": 1492242
+      },
+      {
+        "player_id": 51571,
+        "player_name": "A. Sant'Anna",
+        "photo": "https://media.api-sports.io/football/players/51571.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 794,
+        "fixture_id": 1492242
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1492242,
-    "home_total": 0,
-    "home_missing": 0,
-    "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "home_total": 6,
+    "home_missing": 4,
+    "home_questionable": 2,
+    "away_total": 6,
+    "away_missing": 6,
     "away_questionable": 0
   }
 }
