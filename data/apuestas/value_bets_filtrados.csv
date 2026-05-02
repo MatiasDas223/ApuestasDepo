@@ -304,10 +304,10 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Goles Villarreal O/U 2.5,Over/Si,2.75,0.5265,0.3373,0.1892,0.4480,v3.2-fil,Goles,Local,W,3.00,-8.33,2026-05-02 11:24,,,exact
 2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Corners Valencia O/U 4.5,Over/Si,1.62,0.7311,0.5759,0.1552,0.1843,v3.2-fil,Corners,Local,,1.62,+0.00,2026-05-02 13:55,,,exact
 2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",BTTS,Over/Si,1.75,0.6442,0.5333,0.1109,0.1273,v3.2-fil,BTTS,Total,,1.80,-2.78,2026-05-02 13:55,,,exact
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 1.5,Over/Si,2.50,0.6219,0.3750,0.2469,0.5547,v3.2-fil,Goles,Local,,,,,,,
-2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 0.5,Over/Si,1.30,0.8798,0.7234,0.1564,0.1437,v3.2-fil,Goles,Local,,,,,,,
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 1.5,Over/Si,2.50,0.6219,0.3750,0.2469,0.5547,v3.2-fil,Goles,Local,,2.62,-4.58,2026-05-02 16:10,,,exact
+2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 0.5,Over/Si,1.30,0.8798,0.7234,0.1564,0.1437,v3.2-fil,Goles,Local,,1.33,-2.26,2026-05-02 16:10,,,exact
 2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Corners Sunderland O/U 4.5,Over/Si,1.73,0.7119,0.5362,0.1757,0.2315,v3.2-fil,Corners,Visitante,,1.73,+0.00,2026-05-02 13:40,,,exact
-2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tarjetas tot. O/U 3.5,Under/No,1.75,0.6820,0.5395,0.1425,0.1934,v3.2-fil,Tarjetas,Total,,,,,,,
+2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tarjetas tot. O/U 3.5,Under/No,1.75,0.6820,0.5395,0.1425,0.1934,v3.2-fil,Tarjetas,Total,,1.62,+8.02,2026-05-02 16:10,,,exact
 2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 4.5,Over/Si,2.50,0.7827,0.3797,0.4030,0.9567,v3.2-fil,Goles,Total,,2.30,+8.70,2026-05-02 13:10,,,exact
 2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 2.5,Over/Si,1.57,0.9296,0.5890,0.3406,0.4594,v3.2-fil,Goles,Local,,1.57,+0.00,2026-05-02 13:10,,,exact
 2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 3.5,Over/Si,1.67,0.8926,0.5685,0.3241,0.4906,v3.2-fil,Goles,Total,,1.57,+6.37,2026-05-02 13:10,,,exact
@@ -329,11 +329,11 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles Sirius O/U 1.5,Over/Si,1.53,0.8064,0.6087,0.1977,0.2338,v3.2-fil,Goles,Local,W,1.53,+0.00,2026-05-02 12:40,,,exact
 2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 3.5,Over/Si,2.62,0.5340,0.3547,0.1793,0.3991,v3.2-fil,Goles,Total,W,2.62,+0.00,2026-05-02 12:40,,,exact
 2026-04-30 00:15,1494160,Sirius vs Kalmar FF,"('Allsvenskan', False)",Goles tot. O/U 2.5,Over/Si,1.67,0.7354,0.5628,0.1726,0.2281,v3.2-fil,Goles,Total,W,1.67,+0.00,2026-05-02 12:40,,,exact
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Corners Cordoba O/U 3.5,Over/Si,1.67,0.7900,0.5570,0.2330,0.3193,v3.2-fil,Corners,Visitante,,,,,,,
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 2.5,Over/Si,2.50,0.5781,0.3750,0.2031,0.4453,v3.2-fil,Goles,Local,,,,,,,
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 1.5,Over/Si,1.50,0.8019,0.6250,0.1769,0.2028,v3.2-fil,Goles,Local,,,,,,,
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 3.5,Over/Si,2.10,0.6073,0.4430,0.1643,0.2753,v3.2-fil,Goles,Total,,,,,,,
-2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 2.5,Over/Si,1.48,0.7939,0.6373,0.1566,0.1749,v3.2-fil,Goles,Total,,,,,,,
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Corners Cordoba O/U 3.5,Over/Si,1.67,0.7900,0.5570,0.2330,0.3193,v3.2-fil,Corners,Visitante,,1.80,-7.22,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 2.5,Over/Si,2.50,0.5781,0.3750,0.2031,0.4453,v3.2-fil,Goles,Local,,2.20,+13.64,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 1.5,Over/Si,1.50,0.8019,0.6250,0.1769,0.2028,v3.2-fil,Goles,Local,,1.36,+10.29,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 3.5,Over/Si,2.10,0.6073,0.4430,0.1643,0.2753,v3.2-fil,Goles,Total,,2.00,+5.00,2026-05-02 16:10,,,exact
+2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles tot. O/U 2.5,Over/Si,1.48,0.7939,0.6373,0.1566,0.1749,v3.2-fil,Goles,Total,,1.44,+2.78,2026-05-02 16:10,,,exact
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Eibar O/U 1.5,Over/Si,2.20,0.6619,0.4241,0.2378,0.4562,v3.2-fil,Goles,Local,,,,,,,
 2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 2.5,Over/Si,2.10,0.6228,0.4474,0.1754,0.3079,v3.2-fil,Goles,Total,,,,,,,
 2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Corners Barracas Central O/U 3.5,Over/Si,1.73,0.7740,0.5366,0.2374,0.3367,v3.2-fil,Corners,Local,,,,,,,
