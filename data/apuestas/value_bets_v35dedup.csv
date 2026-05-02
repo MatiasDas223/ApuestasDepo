@@ -3095,16 +3095,16 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Corners Levante O/U 3.5,Over/Si,1.73,0.5947,0.5362,0.0585,0.0287,v3.5-dedup,Corners,Visitante,,1.73,+0.00,2026-05-02 11:24,,,exact
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Tiros tot. O/U 26.5,Over/Si,2.00,0.5184,0.4634,0.0550,0.0367,v3.5-dedup,Tiros,Total,,,,2026-05-02 11:24,2.40,-16.82,single_heur
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Corners tot. O/U 11.5,Over/Si,3.25,0.3347,0.2909,0.0438,0.0876,v3.5-dedup,Corners,Total,,3.25,+0.00,2026-05-02 11:24,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",BTTS,Over/Si,1.75,0.6442,0.5333,0.1109,0.1273,v3.5-dedup,BTTS,Total,,,,,,,
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Tiros Atletico Madrid O/U 10.5,Under/No,1.83,0.6760,0.5000,0.1760,0.2390,v3.5-dedup,Tiros,Visitante,,,,,,,
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Corners Atletico Madrid O/U 4.5,Under/No,1.73,0.6972,0.5362,0.1610,0.2062,v3.5-dedup,Corners,Visitante,,,,,,,
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Corners Valencia O/U 4.5,Over/Si,1.62,0.7311,0.5759,0.1552,0.1843,v3.5-dedup,Corners,Local,,,,,,,
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 2.5,Over/Si,1.80,0.6466,0.5263,0.1203,0.1639,v3.5-dedup,Goles,Total,,,,,,,
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Tiros tot. O/U 23.5,Under/No,2.00,0.5767,0.4634,0.1133,0.1534,v3.5-dedup,Tiros,Total,,,,,,,
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Atletico Madrid O/U 1.5,Over/Si,3.00,0.4165,0.3119,0.1046,0.2496,v3.5-dedup,Goles,Visitante,,,,,,,
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Valencia O/U 1.5,Over/Si,1.83,0.5667,0.5000,0.0667,0.0370,v3.5-dedup,Goles,Local,,,,,,,
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Arco Atletico Madrid O/U 3.5,Under/No,2.00,0.5262,0.4634,0.0629,0.0525,v3.5-dedup,Arco,Visitante,,,,,,,
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Arco tot. O/U 8.5,Under/No,1.73,0.5973,0.5362,0.0611,0.0334,v3.5-dedup,Arco,Total,,,,,,,
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",BTTS,Over/Si,1.75,0.6442,0.5333,0.1109,0.1273,v3.5-dedup,BTTS,Total,,1.80,-2.78,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Tiros Atletico Madrid O/U 10.5,Under/No,1.83,0.6760,0.5000,0.1760,0.2390,v3.5-dedup,Tiros,Visitante,,,,2026-05-02 13:55,1.53,+19.80,single_heur
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Corners Atletico Madrid O/U 4.5,Under/No,1.73,0.6972,0.5362,0.1610,0.2062,v3.5-dedup,Corners,Visitante,,1.67,+3.59,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Corners Valencia O/U 4.5,Over/Si,1.62,0.7311,0.5759,0.1552,0.1843,v3.5-dedup,Corners,Local,,1.62,+0.00,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles tot. O/U 2.5,Over/Si,1.80,0.6466,0.5263,0.1203,0.1639,v3.5-dedup,Goles,Total,,1.80,+0.00,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Tiros tot. O/U 23.5,Under/No,2.00,0.5767,0.4634,0.1133,0.1534,v3.5-dedup,Tiros,Total,,1.83,+9.11,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Atletico Madrid O/U 1.5,Over/Si,3.00,0.4165,0.3119,0.1046,0.2496,v3.5-dedup,Goles,Visitante,,3.50,-14.29,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Goles Valencia O/U 1.5,Over/Si,1.83,0.5667,0.5000,0.0667,0.0370,v3.5-dedup,Goles,Local,,1.73,+5.78,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Arco Atletico Madrid O/U 3.5,Under/No,2.00,0.5262,0.4634,0.0629,0.0525,v3.5-dedup,Arco,Visitante,,1.67,+20.05,2026-05-02 13:55,,,exact
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",Arco tot. O/U 8.5,Under/No,1.73,0.5973,0.5362,0.0611,0.0334,v3.5-dedup,Arco,Total,,1.83,-5.46,2026-05-02 13:55,,,exact
 2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",1X2 -> Alaves gana,,2.70,0.6493,0.3505,0.2988,0.7532,v3.5-dedup,1X2,Total,,,,,,,
 2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",DC -> Alaves o Empate (1X),,1.50,0.8478,0.6259,0.2219,0.2717,v3.5-dedup,Doble Oportunidad,Total,,,,,,,
 2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",DC -> Alaves o Athletic Club (12),,1.30,0.8015,0.7222,0.0794,0.0420,v3.5-dedup,Doble Oportunidad,Total,,,,,,,
@@ -3296,10 +3296,10 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Goles Degerfors IF O/U 1.5,Under/No,1.53,0.7074,0.6087,0.0987,0.0823,v3.5-dedup,Goles,Local,,1.50,+2.00,2026-05-02 12:40,,,exact
 2026-04-30 00:16,1494153,Degerfors IF vs BK Hacken,"('Allsvenskan', False)",Corners BK Hacken O/U 5.5,Under/No,1.80,0.5957,0.5147,0.0810,0.0722,v3.5-dedup,Corners,Visitante,,1.67,+7.78,2026-05-02 12:40,,,exact
 2026-04-30 00:16,1392175,Deportivo La Coruna vs Leganes,"('LaLiga 2', False)",Goles Leganes O/U 0.5,Under/No,2.25,0.5239,0.4110,0.1129,0.1788,v3.5-dedup,Goles,Visitante,L,2.25,+0.00,2026-05-01 16:10,,,exact
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 9.5,Under/No,1.80,0.6314,0.5148,0.1165,0.1364,v3.5-dedup,Corners,Total,,,,,,,
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners Cultural Leonesa O/U 5.5,Under/No,1.73,0.6413,0.5362,0.1051,0.1095,v3.5-dedup,Corners,Local,,,,,,,
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.28,0.7853,0.7322,0.0530,0.0051,v3.5-dedup,Goles,Total,,,,,,,
-2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles Cultural Leonesa O/U 1.5,Under/No,1.67,0.6064,0.5570,0.0493,0.0126,v3.5-dedup,Goles,Local,,,,,,,
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners tot. O/U 9.5,Under/No,1.80,0.6314,0.5148,0.1165,0.1364,v3.5-dedup,Corners,Total,,1.80,+0.00,2026-05-02 13:55,,,exact
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Corners Cultural Leonesa O/U 5.5,Under/No,1.73,0.6413,0.5362,0.1051,0.1095,v3.5-dedup,Corners,Local,,1.67,+3.59,2026-05-02 13:55,,,exact
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles tot. O/U 3.5,Under/No,1.28,0.7853,0.7322,0.0530,0.0051,v3.5-dedup,Goles,Total,,1.33,-3.76,2026-05-02 13:55,,,exact
+2026-04-30 00:17,1392180,Cultural Leonesa vs Cadiz,"('LaLiga 2', False)",Goles Cultural Leonesa O/U 1.5,Under/No,1.67,0.6064,0.5570,0.0493,0.0126,v3.5-dedup,Goles,Local,,1.83,-8.74,2026-05-02 13:55,,,exact
 2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",1X2 -> Castellón gana,,1.57,0.7347,0.5954,0.1392,0.1534,v3.5-dedup,1X2,Total,,,,,,,
 2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",DC -> Castellón o Empate (1X),,1.18,0.8766,0.7958,0.0807,0.0344,v3.5-dedup,Doble Oportunidad,Total,,,,,,,
 2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",DC -> Castellón o Cordoba (12),,1.18,0.8581,0.7958,0.0622,0.0125,v3.5-dedup,Doble Oportunidad,Total,,,,,,,

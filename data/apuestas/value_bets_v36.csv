@@ -278,7 +278,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.62,0.7152,0.5759,0.1393,0.1586,v3.6,Goles,Total,,,,,,,
 2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",BTTS,Over/Si,2.25,0.5234,0.4110,0.1124,0.1777,v3.6,BTTS,Total,,,,,,,
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",BTTS,Under/No,2.20,0.4806,0.4241,0.0565,0.0574,v3.6,BTTS,Total,,2.25,-2.22,2026-05-02 11:24,,,exact
-2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",BTTS,Over/Si,1.75,0.5773,0.5333,0.0440,0.0103,v3.6,BTTS,Total,,,,,,,
+2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",BTTS,Over/Si,1.75,0.5773,0.5333,0.0440,0.0103,v3.6,BTTS,Total,,1.80,-2.78,2026-05-02 13:55,,,exact
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 1.5,Under/No,2.25,0.6907,0.4110,0.2797,0.5541,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 2.5,Under/No,1.40,0.8948,0.6627,0.2321,0.2527,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 0.5,Under/No,6.50,0.3257,0.1459,0.1798,1.1169,v3.6,Goles,Visitante,,,,,,,
