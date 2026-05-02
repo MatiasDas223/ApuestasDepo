@@ -1,18 +1,56 @@
 {
-  "fetched_at": "2026-05-02 04:05:21",
+  "fetched_at": "2026-05-02 08:06:17",
   "data": {
     "home_team_id": 727,
     "away_team_id": 529,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 338751,
+        "player_name": "V. Munoz",
+        "photo": "https://media.api-sports.io/football/players/338751.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 727,
+        "fixture_id": 1391155
+      }
+    ],
+    "away": [
+      {
+        "player_id": 2282,
+        "player_name": "A. Christensen",
+        "photo": "https://media.api-sports.io/football/players/2282.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 529,
+        "fixture_id": 1391155
+      },
+      {
+        "player_id": 1257,
+        "player_name": "J. Kounde",
+        "photo": "https://media.api-sports.io/football/players/1257.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 529,
+        "fixture_id": 1391155
+      },
+      {
+        "player_id": 386828,
+        "player_name": "Lamine Yamal",
+        "photo": "https://media.api-sports.io/football/players/386828.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 529,
+        "fixture_id": 1391155
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1391155,
-    "home_total": 0,
-    "home_missing": 0,
+    "home_total": 1,
+    "home_missing": 1,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "away_total": 3,
+    "away_missing": 3,
     "away_questionable": 0
   }
 }

@@ -1,18 +1,74 @@
 {
-  "fetched_at": "2026-05-02 04:08:54",
+  "fetched_at": "2026-05-02 08:09:52",
   "data": {
     "home_team_id": 45,
     "away_team_id": 50,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 125743,
+        "player_name": "Beto",
+        "photo": "https://media.api-sports.io/football/players/125743.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 45,
+        "fixture_id": 1379314
+      },
+      {
+        "player_id": 17661,
+        "player_name": "J. Branthwaite",
+        "photo": "https://media.api-sports.io/football/players/17661.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 45,
+        "fixture_id": 1379314
+      },
+      {
+        "player_id": 19187,
+        "player_name": "J. Grealish",
+        "photo": "https://media.api-sports.io/football/players/19187.png",
+        "type": "Missing Fixture",
+        "reason": "Foot Injury",
+        "team_id": 45,
+        "fixture_id": 1379314
+      }
+    ],
+    "away": [
+      {
+        "player_id": 567,
+        "player_name": "R. Dias",
+        "photo": "https://media.api-sports.io/football/players/567.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 50,
+        "fixture_id": 1379314
+      },
+      {
+        "player_id": 129033,
+        "player_name": "J. Gvardiol",
+        "photo": "https://media.api-sports.io/football/players/129033.png",
+        "type": "Missing Fixture",
+        "reason": "Broken Leg",
+        "team_id": 50,
+        "fixture_id": 1379314
+      },
+      {
+        "player_id": 44,
+        "player_name": "Rodri",
+        "photo": "https://media.api-sports.io/football/players/44.png",
+        "type": "Questionable",
+        "reason": "Groin Injury",
+        "team_id": 50,
+        "fixture_id": 1379314
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1379314,
-    "home_total": 0,
-    "home_missing": 0,
+    "home_total": 3,
+    "home_missing": 3,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
-    "away_questionable": 0
+    "away_total": 3,
+    "away_missing": 2,
+    "away_questionable": 1
   }
 }

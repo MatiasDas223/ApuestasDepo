@@ -1,18 +1,65 @@
 {
-  "fetched_at": "2026-05-02 04:05:06",
+  "fetched_at": "2026-05-02 08:06:00",
   "data": {
     "home_team_id": 542,
     "away_team_id": 531,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 608,
+        "player_name": "L. Boye",
+        "photo": "https://media.api-sports.io/football/players/608.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 542,
+        "fixture_id": 1391149
+      },
+      {
+        "player_id": 6638,
+        "player_name": "F. Garces",
+        "photo": "https://media.api-sports.io/football/players/6638.png",
+        "type": "Missing Fixture",
+        "reason": "Suspended",
+        "team_id": 542,
+        "fixture_id": 1391149
+      },
+      {
+        "player_id": 6085,
+        "player_name": "C. Protesoni",
+        "photo": "https://media.api-sports.io/football/players/6085.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 542,
+        "fixture_id": 1391149
+      }
+    ],
+    "away": [
+      {
+        "player_id": 182617,
+        "player_name": "B. Prados Diaz",
+        "photo": "https://media.api-sports.io/football/players/182617.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 531,
+        "fixture_id": 1391149
+      },
+      {
+        "player_id": 287680,
+        "player_name": "M. Sannadi",
+        "photo": "https://media.api-sports.io/football/players/287680.png",
+        "type": "Missing Fixture",
+        "reason": "Coach's decision",
+        "team_id": 531,
+        "fixture_id": 1391149
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1391149,
-    "home_total": 0,
-    "home_missing": 0,
+    "home_total": 3,
+    "home_missing": 3,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "away_total": 2,
+    "away_missing": 2,
     "away_questionable": 0
   }
 }

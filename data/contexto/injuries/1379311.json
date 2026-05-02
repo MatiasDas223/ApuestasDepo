@@ -1,18 +1,65 @@
 {
-  "fetched_at": "2026-05-02 04:07:52",
+  "fetched_at": "2026-05-02 08:08:51",
   "data": {
     "home_team_id": 35,
     "away_team_id": 52,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 18872,
+        "player_name": "L. Cook",
+        "photo": "https://media.api-sports.io/football/players/18872.png",
+        "type": "Questionable",
+        "reason": "Hamstring Injury",
+        "team_id": 35,
+        "fixture_id": 1379311
+      },
+      {
+        "player_id": 363333,
+        "player_name": "J. Soler",
+        "photo": "https://media.api-sports.io/football/players/363333.png",
+        "type": "Questionable",
+        "reason": "Hamstring Injury",
+        "team_id": 35,
+        "fixture_id": 1379311
+      }
+    ],
+    "away": [
+      {
+        "player_id": 3339,
+        "player_name": "C. Doucoure",
+        "photo": "https://media.api-sports.io/football/players/3339.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 52,
+        "fixture_id": 1379311
+      },
+      {
+        "player_id": 137303,
+        "player_name": "E. Guessand",
+        "photo": "https://media.api-sports.io/football/players/137303.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 52,
+        "fixture_id": 1379311
+      },
+      {
+        "player_id": 1468,
+        "player_name": "E. Nketiah",
+        "photo": "https://media.api-sports.io/football/players/1468.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 52,
+        "fixture_id": 1379311
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1379311,
-    "home_total": 0,
+    "home_total": 2,
     "home_missing": 0,
-    "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "home_questionable": 2,
+    "away_total": 3,
+    "away_missing": 3,
     "away_questionable": 0
   }
 }

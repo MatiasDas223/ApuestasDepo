@@ -1,18 +1,155 @@
 {
-  "fetched_at": "2026-05-02 04:08:39",
+  "fetched_at": "2026-05-02 08:09:37",
   "data": {
     "home_team_id": 49,
     "away_team_id": 65,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 152953,
+        "player_name": "L. Colwill",
+        "photo": "https://media.api-sports.io/football/players/152953.png",
+        "type": "Missing Fixture",
+        "reason": "Lacking Match Fitness",
+        "team_id": 49,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 425733,
+        "player_name": null,
+        "photo": "https://media.api-sports.io/football/players/425733.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
+        "team_id": 49,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 286894,
+        "player_name": "J. Gittens",
+        "photo": "https://media.api-sports.io/football/players/286894.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 49,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 286616,
+        "player_name": "F. Jorgensen",
+        "photo": "https://media.api-sports.io/football/players/286616.png",
+        "type": "Missing Fixture",
+        "reason": "Groin Injury",
+        "team_id": 49,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 63577,
+        "player_name": "M. Mudryk",
+        "photo": "https://media.api-sports.io/football/players/63577.png",
+        "type": "Missing Fixture",
+        "reason": "Suspended",
+        "team_id": 49,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 19545,
+        "player_name": "R. James",
+        "photo": "https://media.api-sports.io/football/players/19545.png",
+        "type": "Questionable",
+        "reason": "Hamstring Injury",
+        "team_id": 49,
+        "fixture_id": 1379313
+      }
+    ],
+    "away": [
+      {
+        "player_id": 18739,
+        "player_name": "W. Boly",
+        "photo": "https://media.api-sports.io/football/players/18739.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 65,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 2298,
+        "player_name": "C. Hudson-Odoi",
+        "photo": "https://media.api-sports.io/football/players/2298.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 65,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 70366,
+        "player_name": "John Victor",
+        "photo": "https://media.api-sports.io/football/players/70366.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 65,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 363695,
+        "player_name": "Murillo",
+        "photo": "https://media.api-sports.io/football/players/363695.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 65,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 181806,
+        "player_name": "N. Savona",
+        "photo": "https://media.api-sports.io/football/players/181806.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 65,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 2771,
+        "player_name": "O. Aina",
+        "photo": "https://media.api-sports.io/football/players/2771.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 65,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 362711,
+        "player_name": "Cunha",
+        "photo": "https://media.api-sports.io/football/players/362711.png",
+        "type": "Questionable",
+        "reason": "Shoulder Injury",
+        "team_id": 65,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 48648,
+        "player_name": "D. Ndoye",
+        "photo": "https://media.api-sports.io/football/players/48648.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 65,
+        "fixture_id": 1379313
+      },
+      {
+        "player_id": 22149,
+        "player_name": "I. Sangare",
+        "photo": "https://media.api-sports.io/football/players/22149.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 65,
+        "fixture_id": 1379313
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1379313,
-    "home_total": 0,
-    "home_missing": 0,
-    "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
-    "away_questionable": 0
+    "home_total": 6,
+    "home_missing": 5,
+    "home_questionable": 1,
+    "away_total": 9,
+    "away_missing": 5,
+    "away_questionable": 4
   }
 }

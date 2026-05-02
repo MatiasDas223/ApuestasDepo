@@ -1,18 +1,74 @@
 {
-  "fetched_at": "2026-05-02 04:04:34",
+  "fetched_at": "2026-05-02 08:05:23",
   "data": {
     "home_team_id": 533,
     "away_team_id": 539,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 411702,
+        "player_name": "P. Cabanes",
+        "photo": "https://media.api-sports.io/football/players/411702.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 533,
+        "fixture_id": 1391158
+      },
+      {
+        "player_id": 166,
+        "player_name": "J. Foyth",
+        "photo": "https://media.api-sports.io/football/players/166.png",
+        "type": "Missing Fixture",
+        "reason": "Achilles Tendon Injury",
+        "team_id": 533,
+        "fixture_id": 1391158
+      }
+    ],
+    "away": [
+      {
+        "player_id": 463279,
+        "player_name": "P. Cortes",
+        "photo": "https://media.api-sports.io/football/players/463279.png",
+        "type": "Missing Fixture",
+        "reason": "Illness",
+        "team_id": 539,
+        "fixture_id": 1391158
+      },
+      {
+        "player_id": 734,
+        "player_name": "Dela",
+        "photo": "https://media.api-sports.io/football/players/734.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 539,
+        "fixture_id": 1391158
+      },
+      {
+        "player_id": 46941,
+        "player_name": "U. Elgezabal",
+        "photo": "https://media.api-sports.io/football/players/46941.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 539,
+        "fixture_id": 1391158
+      },
+      {
+        "player_id": 338295,
+        "player_name": "A. Primo",
+        "photo": "https://media.api-sports.io/football/players/338295.png",
+        "type": "Missing Fixture",
+        "reason": "Shoulder Injury",
+        "team_id": 539,
+        "fixture_id": 1391158
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1391158,
-    "home_total": 0,
-    "home_missing": 0,
+    "home_total": 2,
+    "home_missing": 2,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "away_total": 4,
+    "away_missing": 4,
     "away_questionable": 0
   }
 }
