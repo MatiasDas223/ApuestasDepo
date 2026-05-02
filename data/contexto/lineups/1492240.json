@@ -1,0 +1,361 @@
+{
+  "fetched_at": "2026-05-02 20:22:27",
+  "data": {
+    "fixture_id": 1492240,
+    "home": {
+      "team_id": 134,
+      "team_name": "Atletico Paranaense",
+      "formation": "4-2-3-1",
+      "coach_id": 28644,
+      "coach_name": "Joao Correia",
+      "startXI": [
+        {
+          "id": 10112,
+          "name": "Santos",
+          "number": 23,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 58577,
+          "name": "Gastón Benavídez",
+          "number": 29,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 457420,
+          "name": "Arthur Dias",
+          "number": 4,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 13493,
+          "name": "Carlos Terán",
+          "number": 22,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 288704,
+          "name": "Lucas Esquivel",
+          "number": 37,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 140507,
+          "name": "Felipinho",
+          "number": 5,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 13151,
+          "name": "Juan Portilla",
+          "number": 27,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 570392,
+          "name": "Bruno Braga Ramos",
+          "number": 48,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 414661,
+          "name": "João Cruz",
+          "number": 8,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 21394,
+          "name": "Stiven Mendoza",
+          "number": 7,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 13198,
+          "name": "Kevin Viveros",
+          "number": 9,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 321646,
+          "name": "Mycael",
+          "number": 1,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 36258,
+          "name": "Juan Felipe Aguirre",
+          "number": 33,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 9951,
+          "name": "Léo",
+          "number": 3,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 362716,
+          "name": "Leonardo Derik",
+          "number": 6,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 630991,
+          "name": "Claudinho",
+          "number": 26,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 415066,
+          "name": "Gilberto Junior",
+          "number": 2,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 414399,
+          "name": "Dudu",
+          "number": 53,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 630997,
+          "name": "Chiqueti",
+          "number": 47,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 404536,
+          "name": "Isaac",
+          "number": 11,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 457593,
+          "name": "Diogo Riquelme",
+          "number": 63,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 408145,
+          "name": "Leozinho",
+          "number": 21,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 544933,
+          "name": "Renan Peixoto Nepomuceno",
+          "number": 70,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 130,
+      "team_name": "Gremio",
+      "formation": "4-2-3-1",
+      "coach_id": 25743,
+      "coach_name": "Luis Castro",
+      "startXI": [
+        {
+          "id": 2410,
+          "name": "Weverton",
+          "number": 1,
+          "pos": "G",
+          "grid": "1:1"
+        },
+        {
+          "id": 5981,
+          "name": "Cristian Pavón",
+          "number": 7,
+          "pos": "D",
+          "grid": "2:4"
+        },
+        {
+          "id": 9993,
+          "name": "Wagner Leonardo",
+          "number": 3,
+          "pos": "D",
+          "grid": "2:3"
+        },
+        {
+          "id": 2500,
+          "name": "Fabián Balbuena",
+          "number": 2,
+          "pos": "D",
+          "grid": "2:2"
+        },
+        {
+          "id": 647516,
+          "name": "Pedro Gabriel",
+          "number": 54,
+          "pos": "D",
+          "grid": "2:1"
+        },
+        {
+          "id": 129882,
+          "name": "Juan Nardoni",
+          "number": 5,
+          "pos": "M",
+          "grid": "3:2"
+        },
+        {
+          "id": 304867,
+          "name": "Gustavo Martins",
+          "number": 6,
+          "pos": "M",
+          "grid": "3:1"
+        },
+        {
+          "id": 507527,
+          "name": "Gabriel Mec",
+          "number": 37,
+          "pos": "M",
+          "grid": "4:3"
+        },
+        {
+          "id": 408342,
+          "name": "Leonel Pérez",
+          "number": 33,
+          "pos": "M",
+          "grid": "4:2"
+        },
+        {
+          "id": 13616,
+          "name": "José Enamorado",
+          "number": 99,
+          "pos": "M",
+          "grid": "4:1"
+        },
+        {
+          "id": 2737,
+          "name": "Martin Braithwaite",
+          "number": 22,
+          "pos": "F",
+          "grid": "5:1"
+        }
+      ],
+      "subs": [
+        {
+          "id": 309634,
+          "name": "Gabriel Grando",
+          "number": 12,
+          "pos": "G",
+          "grid": null
+        },
+        {
+          "id": 2466,
+          "name": "Walter Kannemann",
+          "number": 4,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 9916,
+          "name": "Marcos Rocha",
+          "number": 14,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 199141,
+          "name": "Erick Noriega",
+          "number": 19,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 510552,
+          "name": "Luis Guedes",
+          "number": 43,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 10527,
+          "name": "Caio Paulista",
+          "number": 38,
+          "pos": "D",
+          "grid": null
+        },
+        {
+          "id": 10314,
+          "name": "Dodi",
+          "number": 17,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 457508,
+          "name": "Riquelme Freitas",
+          "number": 65,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 510554,
+          "name": "Zortéa",
+          "number": 50,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 2294,
+          "name": "Willian",
+          "number": 10,
+          "pos": "M",
+          "grid": null
+        },
+        {
+          "id": 237847,
+          "name": "André Henrique",
+          "number": 77,
+          "pos": "F",
+          "grid": null
+        },
+        {
+          "id": 691,
+          "name": "Tetê",
+          "number": 21,
+          "pos": "F",
+          "grid": null
+        }
+      ]
+    },
+    "confirmed": true
+  },
+  "resumen": {
+    "fixture_id": 1492240,
+    "confirmed": true,
+    "home_xi_size": 11,
+    "away_xi_size": 11,
+    "home_formation": "4-2-3-1",
+    "away_formation": "4-2-3-1",
+    "home_coach": "Joao Correia",
+    "away_coach": "Luis Castro"
+  }
+}

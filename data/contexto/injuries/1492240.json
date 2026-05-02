@@ -1,9 +1,27 @@
 {
-  "fetched_at": "2026-05-02 16:08:25",
+  "fetched_at": "2026-05-02 20:22:27",
   "data": {
     "home_team_id": 134,
     "away_team_id": 130,
     "home": [
+      {
+        "player_id": 10091,
+        "player_name": "Jadson",
+        "photo": "https://media.api-sports.io/football/players/10091.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 134,
+        "fixture_id": 1492240
+      },
+      {
+        "player_id": 9661,
+        "player_name": "Julimar",
+        "photo": "https://media.api-sports.io/football/players/9661.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 134,
+        "fixture_id": 1492240
+      },
       {
         "player_id": 1909,
         "player_name": "Luiz Gustavo",
@@ -25,6 +43,15 @@
     ],
     "away": [
       {
+        "player_id": 1431,
+        "player_name": "F. Amuzu",
+        "photo": "https://media.api-sports.io/football/players/1431.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 130,
+        "fixture_id": 1492240
+      },
+      {
         "player_id": 150,
         "player_name": "Arthur Melo",
         "photo": "https://media.api-sports.io/football/players/150.png",
@@ -43,20 +70,20 @@
         "fixture_id": 1492240
       },
       {
-        "player_id": 374,
-        "player_name": "Joao Pedro",
-        "photo": "https://media.api-sports.io/football/players/374.png",
-        "type": "Missing Fixture",
-        "reason": "Muscle Injury",
-        "team_id": 130,
-        "fixture_id": 1492240
-      },
-      {
         "player_id": 10309,
         "player_name": "Marlon",
         "photo": "https://media.api-sports.io/football/players/10309.png",
         "type": "Missing Fixture",
         "reason": "Broken ankle",
+        "team_id": 130,
+        "fixture_id": 1492240
+      },
+      {
+        "player_id": 576652,
+        "player_name": "Roger",
+        "photo": "https://media.api-sports.io/football/players/576652.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring Injury",
         "team_id": 130,
         "fixture_id": 1492240
       },
@@ -77,16 +104,25 @@
         "reason": "Knee Injury",
         "team_id": 130,
         "fixture_id": 1492240
+      },
+      {
+        "player_id": 374,
+        "player_name": "Joao Pedro",
+        "photo": "https://media.api-sports.io/football/players/374.png",
+        "type": "Questionable",
+        "reason": "Muscle Injury",
+        "team_id": 130,
+        "fixture_id": 1492240
       }
     ]
   },
   "resumen": {
     "fixture_id": 1492240,
-    "home_total": 2,
-    "home_missing": 2,
+    "home_total": 4,
+    "home_missing": 4,
     "home_questionable": 0,
-    "away_total": 6,
-    "away_missing": 6,
-    "away_questionable": 0
+    "away_total": 8,
+    "away_missing": 7,
+    "away_questionable": 1
   }
 }

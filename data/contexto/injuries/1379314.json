@@ -1,18 +1,9 @@
 {
-  "fetched_at": "2026-05-02 16:06:53",
+  "fetched_at": "2026-05-02 20:21:26",
   "data": {
     "home_team_id": 45,
     "away_team_id": 50,
     "home": [
-      {
-        "player_id": 125743,
-        "player_name": "Beto",
-        "photo": "https://media.api-sports.io/football/players/125743.png",
-        "type": "Missing Fixture",
-        "reason": "Injury",
-        "team_id": 45,
-        "fixture_id": 1379314
-      },
       {
         "player_id": 17661,
         "player_name": "J. Branthwaite",
@@ -64,8 +55,8 @@
   },
   "resumen": {
     "fixture_id": 1379314,
-    "home_total": 3,
-    "home_missing": 3,
+    "home_total": 2,
+    "home_missing": 2,
     "home_questionable": 0,
     "away_total": 3,
     "away_missing": 2,
