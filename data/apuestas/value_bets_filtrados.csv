@@ -306,7 +306,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",BTTS,Over/Si,1.75,0.6442,0.5333,0.1109,0.1273,v3.2-fil,BTTS,Total,,,,,,,
 2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 1.5,Over/Si,2.50,0.6219,0.3750,0.2469,0.5547,v3.2-fil,Goles,Local,,,,,,,
 2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles Alaves O/U 0.5,Over/Si,1.30,0.8798,0.7234,0.1564,0.1437,v3.2-fil,Goles,Local,,,,,,,
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Corners Sunderland O/U 4.5,Over/Si,1.73,0.7119,0.5362,0.1757,0.2315,v3.2-fil,Corners,Visitante,,,,,,,
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",Corners Sunderland O/U 4.5,Over/Si,1.73,0.7119,0.5362,0.1757,0.2315,v3.2-fil,Corners,Visitante,,1.73,+0.00,2026-05-02 13:40,,,exact
 2026-04-30 00:04,1379309,Arsenal vs Fulham,"('Premier League', False)",Tarjetas tot. O/U 3.5,Under/No,1.75,0.6820,0.5395,0.1425,0.1934,v3.2-fil,Tarjetas,Total,,,,,,,
 2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles tot. O/U 4.5,Over/Si,2.50,0.7827,0.3797,0.4030,0.9567,v3.2-fil,Goles,Total,,2.30,+8.70,2026-05-02 13:10,,,exact
 2026-04-30 00:05,1388588,Bayern München vs 1. FC Heidenheim,"('Bundesliga', False)",Goles Bayern München O/U 2.5,Over/Si,1.57,0.9296,0.5890,0.3406,0.4594,v3.2-fil,Goles,Local,,1.57,+0.00,2026-05-02 13:10,,,exact

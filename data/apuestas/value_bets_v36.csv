@@ -283,11 +283,11 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 2.5,Under/No,1.40,0.8948,0.6627,0.2321,0.2527,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 0.5,Under/No,6.50,0.3257,0.1459,0.1798,1.1169,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",BTTS,Under/No,2.50,0.4499,0.3750,0.0749,0.1248,v3.6,BTTS,Total,,,,,,,
-2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",BTTS,Under/No,2.25,0.4681,0.4110,0.0571,0.0532,v3.6,BTTS,Total,,,,,,,
-2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",BTTS,Over/Si,1.80,0.5852,0.5200,0.0652,0.0534,v3.6,BTTS,Total,,,,,,,
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 3.5,Under/No,1.53,0.7549,0.6203,0.1346,0.1550,v3.6,Goles,Total,,,,,,,
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 2.5,Under/No,2.30,0.5411,0.4133,0.1278,0.2446,v3.6,Goles,Total,,,,,,,
-2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",BTTS,Under/No,2.38,0.5041,0.3913,0.1128,0.1998,v3.6,BTTS,Total,,,,,,,
+2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",BTTS,Under/No,2.25,0.4681,0.4110,0.0571,0.0532,v3.6,BTTS,Total,,2.25,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379318,Wolves vs Sunderland,"('Premier League', False)",BTTS,Over/Si,1.80,0.5852,0.5200,0.0652,0.0534,v3.6,BTTS,Total,,1.80,+0.00,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 3.5,Under/No,1.53,0.7549,0.6203,0.1346,0.1550,v3.6,Goles,Total,,1.57,-2.55,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",Goles tot. O/U 2.5,Under/No,2.30,0.5411,0.4133,0.1278,0.2446,v3.6,Goles,Total,,2.38,-3.36,2026-05-02 13:40,,,exact
+2026-04-30 00:04,1379312,Brentford vs West Ham,"('Premier League', False)",BTTS,Under/No,2.38,0.5041,0.3913,0.1128,0.1998,v3.6,BTTS,Total,,2.25,+5.78,2026-05-02 13:40,,,exact
 2026-04-30 00:05,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 0.5,Over/Si,1.73,0.6862,0.5362,0.1500,0.1871,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 00:05,1379309,Arsenal vs Fulham,"('Premier League', False)",Goles Fulham O/U 1.5,Over/Si,4.50,0.3209,0.2077,0.1131,0.4440,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 00:05,1388595,Werder Bremen vs FC Augsburg,"('Bundesliga', False)",BTTS,Under/No,2.38,0.4450,0.3913,0.0537,0.0591,v3.6,BTTS,Total,,2.50,-4.80,2026-05-02 13:10,,,exact
