@@ -341,7 +341,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 04:17,1394720,Trabzonspor vs Göztepe,"('Super Lig', False)",Corners Göztepe O/U 3.5,Over/Si,1.80,0.6260,0.5148,0.1111,0.1267,v3.2-fil,Corners,Visitante,L,,,,,,
 2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Corners Samsunspor O/U 3.5,Over/Si,1.80,0.7457,0.5148,0.2309,0.3422,v3.2-fil,Corners,Local,L,,,,,,
 2026-04-30 04:18,1394719,Samsunspor vs Galatasaray,"('Super Lig', False)",Goles Samsunspor O/U 1.5,Over/Si,3.25,0.4590,0.2904,0.1686,0.4918,v3.2-fil,Goles,Local,W,,,,,,
-2026-05-01 00:02,1491946,Platense vs Estudiantes L.P.,"('Liga Profesional', False)",Corners Platense O/U 4.5,Over/Si,2.00,0.6574,0.4634,0.1941,0.3149,v3.2-fil,Corners,Local,,,,,,,
+2026-05-01 00:02,1491946,Platense vs Estudiantes L.P.,"('Liga Profesional', False)",Corners Platense O/U 4.5,Over/Si,2.00,0.6574,0.4634,0.1941,0.3149,v3.2-fil,Corners,Local,,2.00,+0.00,2026-05-02 23:30,,,exact
 2026-05-01 00:03,1491948,River Plate vs Atletico Tucuman,"('Liga Profesional', False)",Goles River Plate O/U 2.5,Over/Si,3.00,0.4728,0.3119,0.1609,0.4184,v3.2-fil,Goles,Local,,,,,,,
 2026-05-01 00:03,1491948,River Plate vs Atletico Tucuman,"('Liga Profesional', False)",Goles River Plate O/U 1.5,Over/Si,1.62,0.7272,0.5759,0.1513,0.1780,v3.2-fil,Goles,Local,,,,,,,
 2026-05-01 00:03,1491949,Rosario Central vs Tigre,"('Liga Profesional', False)",Tarjetas tot. O/U 5.5,Under/No,1.61,0.6366,0.5372,0.0993,0.0281,v3.2-fil,Tarjetas,Total,,,,,,,

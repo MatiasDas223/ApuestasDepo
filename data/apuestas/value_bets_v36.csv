@@ -326,7 +326,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 00:01,1491940,Belgrano Cordoba vs Sarmiento Junin,"('Liga Profesional', False)",BTTS,Over/Si,2.38,0.4972,0.3913,0.1059,0.1834,v3.6,BTTS,Total,,,,,,,
 2026-05-01 00:02,1491943,Gimnasia L.P. vs Argentinos JRS,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,2.70,0.4712,0.3478,0.1233,0.2722,v3.6,Goles,Total,,,,,,,
 2026-05-01 00:02,1491943,Gimnasia L.P. vs Argentinos JRS,"('Liga Profesional', False)",BTTS,Over/Si,2.05,0.5359,0.4533,0.0826,0.0987,v3.6,BTTS,Total,,,,,,,
-2026-05-01 00:03,1491946,Platense vs Estudiantes L.P.,"('Liga Profesional', False)",BTTS,Over/Si,2.38,0.5012,0.3913,0.1099,0.1928,v3.6,BTTS,Total,,,,,,,
+2026-05-01 00:03,1491946,Platense vs Estudiantes L.P.,"('Liga Profesional', False)",BTTS,Over/Si,2.38,0.5012,0.3913,0.1099,0.1928,v3.6,BTTS,Total,,2.38,+0.00,2026-05-02 23:30,,,exact
 2026-05-01 00:03,1491947,Racing Club vs Huracan,"('Liga Profesional', False)",Goles Huracan O/U 0.5,Over/Si,1.67,0.6846,0.5570,0.1276,0.1433,v3.6,Goles,Visitante,,,,,,,
 2026-05-01 00:03,1491947,Racing Club vs Huracan,"('Liga Profesional', False)",Goles Huracan O/U 1.5,Over/Si,4.50,0.3183,0.2077,0.1106,0.4324,v3.6,Goles,Visitante,,,,,,,
 2026-05-01 00:03,1491947,Racing Club vs Huracan,"('Liga Profesional', False)",BTTS,Over/Si,2.20,0.4949,0.4241,0.0708,0.0888,v3.6,BTTS,Total,,,,,,,
