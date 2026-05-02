@@ -404,3 +404,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-02 00:09,1379314,Everton vs Manchester City,"('Premier League', False)",Goles Manchester City O/U 1.5,Under/No,2.50,0.6756,0.3750,0.3006,0.6890,v3.6,Goles,Visitante,,,,,,,
 2026-05-02 00:09,1379314,Everton vs Manchester City,"('Premier League', False)",Goles Manchester City O/U 2.5,Under/No,1.50,0.8870,0.6250,0.2620,0.3304,v3.6,Goles,Visitante,,,,,,,
 2026-05-02 00:09,1379314,Everton vs Manchester City,"('Premier League', False)",Goles Manchester City O/U 0.5,Under/No,7.00,0.3114,0.1358,0.1756,1.1798,v3.6,Goles,Visitante,,,,,,,
+2026-05-02 00:16,1378207,Cremonese vs Lazio,"('Serie A', False)",BTTS,Under/No,1.91,0.5493,0.5000,0.0493,0.0491,v3.6,BTTS,Total,,,,,,,
+2026-05-02 00:17,1378211,AS Roma vs Fiorentina,"('Serie A', False)",Goles Fiorentina O/U 0.5,Over/Si,1.62,0.7163,0.5759,0.1403,0.1603,v3.6,Goles,Visitante,,,,,,,
+2026-05-02 00:17,1378211,AS Roma vs Fiorentina,"('Serie A', False)",Goles Fiorentina O/U 1.5,Over/Si,4.00,0.3576,0.2337,0.1239,0.4305,v3.6,Goles,Visitante,,,,,,,
+2026-05-02 00:17,1378211,AS Roma vs Fiorentina,"('Serie A', False)",BTTS,Over/Si,1.95,0.5630,0.4800,0.0830,0.0979,v3.6,BTTS,Total,,,,,,,

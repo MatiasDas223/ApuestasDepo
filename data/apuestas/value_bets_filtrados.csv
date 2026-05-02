@@ -416,3 +416,4 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-02 00:09,1379313,Chelsea vs Nottingham Forest,"('Premier League', False)",BTTS,Over/Si,1.70,0.6469,0.5467,0.1003,0.0998,v3.2-fil,BTTS,Total,,,,,,,
 2026-05-02 00:09,1379314,Everton vs Manchester City,"('Premier League', False)",Corners Manchester City O/U 6.5,Over/Si,2.10,0.5935,0.4430,0.1505,0.2464,v3.2-fil,Corners,Visitante,,,,,,,
 2026-05-02 00:09,1379314,Everton vs Manchester City,"('Premier League', False)",Tarjetas tot. O/U 3.5,Under/No,1.85,0.5920,0.5132,0.0789,0.0953,v3.2-fil,Tarjetas,Total,,,,,,,
+2026-05-02 00:17,1378211,AS Roma vs Fiorentina,"('Serie A', False)",Corners AS Roma O/U 4.5,Over/Si,1.62,0.7295,0.5759,0.1536,0.1818,v3.2-fil,Corners,Local,,,,,,,
