@@ -1,18 +1,92 @@
 {
-  "fetched_at": "2026-05-02 04:15:14",
+  "fetched_at": "2026-05-02 08:16:17",
   "data": {
     "home_team_id": 496,
     "away_team_id": 504,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 333,
+        "player_name": "A. Milik",
+        "photo": "https://media.api-sports.io/football/players/333.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle Injury",
+        "team_id": 496,
+        "fixture_id": 1378209
+      },
+      {
+        "player_id": 125674,
+        "player_name": "J. Cabal",
+        "photo": "https://media.api-sports.io/football/players/125674.png",
+        "type": "Questionable",
+        "reason": "Muscle Injury",
+        "team_id": 496,
+        "fixture_id": 1378209
+      }
+    ],
+    "away": [
+      {
+        "player_id": 59421,
+        "player_name": "D. Mosquera",
+        "photo": "https://media.api-sports.io/football/players/59421.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 504,
+        "fixture_id": 1378209
+      },
+      {
+        "player_id": 418,
+        "player_name": "S. Serdar",
+        "photo": "https://media.api-sports.io/football/players/418.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 504,
+        "fixture_id": 1378209
+      },
+      {
+        "player_id": 311071,
+        "player_name": "N. Valentini",
+        "photo": "https://media.api-sports.io/football/players/311071.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 504,
+        "fixture_id": 1378209
+      },
+      {
+        "player_id": 25061,
+        "player_name": "A. Bella-Kotchap",
+        "photo": "https://media.api-sports.io/football/players/25061.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 504,
+        "fixture_id": 1378209
+      },
+      {
+        "player_id": 368260,
+        "player_name": "G. Orban",
+        "photo": "https://media.api-sports.io/football/players/368260.png",
+        "type": "Questionable",
+        "reason": "Inactive",
+        "team_id": 504,
+        "fixture_id": 1378209
+      },
+      {
+        "player_id": 153408,
+        "player_name": "D. Oyegoke",
+        "photo": "https://media.api-sports.io/football/players/153408.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 504,
+        "fixture_id": 1378209
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1378209,
-    "home_total": 0,
-    "home_missing": 0,
-    "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
-    "away_questionable": 0
+    "home_total": 2,
+    "home_missing": 1,
+    "home_questionable": 1,
+    "away_total": 6,
+    "away_missing": 3,
+    "away_questionable": 3
   }
 }

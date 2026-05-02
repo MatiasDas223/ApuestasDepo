@@ -1,18 +1,47 @@
 {
-  "fetched_at": "2026-05-02 04:14:27",
+  "fetched_at": "2026-05-02 08:15:31",
   "data": {
     "home_team_id": 499,
     "away_team_id": 495,
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "player_id": 264857,
+        "player_name": "L. Bernasconi",
+        "photo": "https://media.api-sports.io/football/players/264857.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 499,
+        "fixture_id": 1378204
+      }
+    ],
+    "away": [
+      {
+        "player_id": 288769,
+        "player_name": "T. Baldanzi",
+        "photo": "https://media.api-sports.io/football/players/288769.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 495,
+        "fixture_id": 1378204
+      },
+      {
+        "player_id": 284570,
+        "player_name": "B. Norton-Cuffy",
+        "photo": "https://media.api-sports.io/football/players/284570.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
+        "team_id": 495,
+        "fixture_id": 1378204
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1378204,
-    "home_total": 0,
-    "home_missing": 0,
+    "home_total": 1,
+    "home_missing": 1,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
+    "away_total": 2,
+    "away_missing": 2,
     "away_questionable": 0
   }
 }
