@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-02 08:07:18",
+  "fetched_at": "2026-05-02 12:06:46",
   "data": {
     "home_team_id": 540,
     "away_team_id": 541,
@@ -24,6 +24,15 @@
       }
     ],
     "away": [
+      {
+        "player_id": 733,
+        "player_name": "D. Carvajal",
+        "photo": "https://media.api-sports.io/football/players/733.png",
+        "type": "Missing Fixture",
+        "reason": "Toe Injury",
+        "team_id": 541,
+        "fixture_id": 1391152
+      },
       {
         "player_id": 748,
         "player_name": "D. Ceballos",
@@ -85,8 +94,8 @@
     "home_total": 2,
     "home_missing": 2,
     "home_questionable": 0,
-    "away_total": 6,
-    "away_missing": 6,
+    "away_total": 7,
+    "away_missing": 7,
     "away_questionable": 0
   }
 }

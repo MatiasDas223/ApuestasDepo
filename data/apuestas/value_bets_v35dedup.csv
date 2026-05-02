@@ -3849,3 +3849,4 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-02 00:22,1392179,Almeria vs Mirandes,"('LaLiga 2', False)",Corners Mirandes O/U 2.5,Over/Si,1.62,0.7720,0.5759,0.1961,0.2506,v3.5-dedup,Corners,Visitante,,,,,,,
 2026-05-02 00:22,1392179,Almeria vs Mirandes,"('LaLiga 2', False)",Corners Almeria O/U 6.5,Under/No,1.67,0.7521,0.5570,0.1951,0.2561,v3.5-dedup,Corners,Local,,,,,,,
 2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners Fenerbahçe O/U 6.5,Under/No,1.73,0.6263,0.5366,0.0897,0.0817,v3.5-dedup,Corners,Local,,,,,,,
+2026-05-02 12:06,1391150,Real Betis vs Oviedo,"('La Liga', False)",Goles Oviedo O/U 0.5,Over/Si,1.67,0.7641,0.5570,0.2071,0.2761,v3.5-dedup,Goles,Visitante,,,,,,,

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-02 08:09:22",
+  "fetched_at": "2026-05-02 12:08:05",
   "data": {
     "home_team_id": 66,
     "away_team_id": 47,
@@ -14,25 +14,25 @@
         "fixture_id": 1379310
       },
       {
-        "player_id": 464004,
-        "player_name": "Alysson",
-        "photo": "https://media.api-sports.io/football/players/464004.png",
-        "type": "Questionable",
-        "reason": "Injury",
-        "team_id": 66,
-        "fixture_id": 1379310
-      },
-      {
         "player_id": 162714,
         "player_name": "A. Onana",
         "photo": "https://media.api-sports.io/football/players/162714.png",
-        "type": "Questionable",
+        "type": "Missing Fixture",
         "reason": "Injury",
         "team_id": 66,
         "fixture_id": 1379310
       }
     ],
     "away": [
+      {
+        "player_id": 164,
+        "player_name": "B. Davies",
+        "photo": "https://media.api-sports.io/football/players/164.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 47,
+        "fixture_id": 1379310
+      },
       {
         "player_id": 15911,
         "player_name": "M. Kudus",
@@ -88,11 +88,20 @@
         "fixture_id": 1379310
       },
       {
-        "player_id": 164,
-        "player_name": "B. Davies",
-        "photo": "https://media.api-sports.io/football/players/164.png",
-        "type": "Questionable",
-        "reason": "Ankle Injury",
+        "player_id": 18883,
+        "player_name": "D. Solanke",
+        "photo": "https://media.api-sports.io/football/players/18883.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 47,
+        "fixture_id": 1379310
+      },
+      {
+        "player_id": 31354,
+        "player_name": "G. Vicario",
+        "photo": "https://media.api-sports.io/football/players/31354.png",
+        "type": "Missing Fixture",
+        "reason": "Groin Injury",
         "team_id": 47,
         "fixture_id": 1379310
       },
@@ -106,15 +115,6 @@
         "fixture_id": 1379310
       },
       {
-        "player_id": 18883,
-        "player_name": "D. Solanke",
-        "photo": "https://media.api-sports.io/football/players/18883.png",
-        "type": "Questionable",
-        "reason": "Injury",
-        "team_id": 47,
-        "fixture_id": 1379310
-      },
-      {
         "player_id": 204039,
         "player_name": "D. Udogie",
         "photo": "https://media.api-sports.io/football/players/204039.png",
@@ -122,25 +122,16 @@
         "reason": "Injury",
         "team_id": 47,
         "fixture_id": 1379310
-      },
-      {
-        "player_id": 31354,
-        "player_name": "G. Vicario",
-        "photo": "https://media.api-sports.io/football/players/31354.png",
-        "type": "Questionable",
-        "reason": "Groin Injury",
-        "team_id": 47,
-        "fixture_id": 1379310
       }
     ]
   },
   "resumen": {
     "fixture_id": 1379310,
-    "home_total": 3,
-    "home_missing": 1,
-    "home_questionable": 2,
+    "home_total": 2,
+    "home_missing": 2,
+    "home_questionable": 0,
     "away_total": 11,
-    "away_missing": 6,
-    "away_questionable": 5
+    "away_missing": 9,
+    "away_questionable": 2
   }
 }

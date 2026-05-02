@@ -3780,3 +3780,4 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 11.5,Over/Si,2.75,0.3895,0.3373,0.0521,0.0710,v3.4-shrink,Corners,Total,,,,,,,
 2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 12.5,Over/Si,3.75,0.2967,0.2500,0.0467,0.1125,v3.4-shrink,Corners,Total,,,,,,,
 2026-05-02 08:22,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners tot. O/U 13.5,Over/Si,5.50,0.2176,0.1719,0.0457,0.1967,v3.4-shrink,Corners,Total,,,,,,,
+2026-05-02 12:08,1379316,Manchester United vs Liverpool,"('Premier League', False)",Corners tot. O/U 11.5,Under/No,1.44,0.6926,0.6451,0.0475,0.0001,v3.4-shrink,Corners,Total,,,,,,,
