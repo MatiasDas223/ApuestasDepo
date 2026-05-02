@@ -3256,15 +3256,15 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",1X2 -> Como gana,,2.25,0.6256,0.4231,0.2026,0.4077,v3.5-dedup,1X2,Total,,2.25,+0.00,2026-05-02 15:20,,,exact
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",DC -> Como o Empate (1X),,1.33,0.8327,0.7209,0.1118,0.1075,v3.5-dedup,Doble Oportunidad,Total,,1.30,+2.31,2026-05-02 15:20,,,exact
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",DC -> Como o Napoli (12),,1.36,0.7929,0.7050,0.0879,0.0784,v3.5-dedup,Doble Oportunidad,Total,,1.33,+2.26,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros tot. O/U 23.5,Under/No,1.80,0.7192,0.5147,0.2045,0.2946,v3.5-dedup,Tiros,Total,,,,,,,
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros tot. O/U 23.5,Under/No,1.80,0.7192,0.5147,0.2045,0.2946,v3.5-dedup,Tiros,Total,,1.91,-5.71,2026-05-02 15:40,,,exact
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Como O/U 1.5,Over/Si,2.25,0.6041,0.4110,0.1931,0.3592,v3.5-dedup,Goles,Local,,2.25,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros Como O/U 12.5,Under/No,1.91,0.6452,0.4853,0.1599,0.2317,v3.5-dedup,Tiros,Local,,,,,,,
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros Como O/U 12.5,Under/No,1.91,0.6452,0.4853,0.1599,0.2317,v3.5-dedup,Tiros,Local,,,,2026-05-02 15:40,2.40,-20.56,single_heur
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco tot. O/U 7.5,Under/No,2.00,0.5847,0.4638,0.1209,0.1694,v3.5-dedup,Arco,Total,,2.00,+0.00,2026-05-02 15:20,,,exact
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles tot. O/U 2.5,Over/Si,2.10,0.5726,0.4517,0.1209,0.2024,v3.5-dedup,Goles,Total,,2.10,+0.00,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros Napoli O/U 10.5,Under/No,1.73,0.6572,0.5366,0.1206,0.1351,v3.5-dedup,Tiros,Visitante,,,,,,,
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco Napoli O/U 3.5,Under/No,1.80,0.6337,0.5147,0.1190,0.1407,v3.5-dedup,Arco,Visitante,,,,,,,
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Tiros Napoli O/U 10.5,Under/No,1.73,0.6572,0.5366,0.1206,0.1351,v3.5-dedup,Tiros,Visitante,,,,2026-05-02 15:40,1.53,+13.26,single_heur
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco Napoli O/U 3.5,Under/No,1.80,0.6337,0.5147,0.1190,0.1407,v3.5-dedup,Arco,Visitante,,2.00,-10.00,2026-05-02 15:40,,,exact
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners tot. O/U 8.5,Under/No,1.80,0.5947,0.5263,0.0684,0.0705,v3.5-dedup,Corners,Total,,1.73,+4.05,2026-05-02 15:20,,,exact
-2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco Como O/U 4.5,Under/No,1.67,0.6219,0.5576,0.0643,0.0361,v3.5-dedup,Arco,Local,,,,,,,
+2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Arco Como O/U 4.5,Under/No,1.67,0.6219,0.5576,0.0643,0.0361,v3.5-dedup,Arco,Local,,1.91,-12.52,2026-05-02 15:40,,,exact
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Goles Napoli O/U 1.5,Under/No,1.33,0.7551,0.7096,0.0455,0.0043,v3.5-dedup,Goles,Visitante,,1.33,+0.00,2026-05-02 15:20,,,exact
 2026-04-30 00:08,1378206,Como vs Napoli,"('Serie A', False)",Corners Como O/U 4.5,Under/No,1.73,0.5796,0.5362,0.0435,0.0028,v3.5-dedup,Corners,Local,,1.67,+3.59,2026-05-02 15:20,,,exact
 2026-04-30 00:09,1378204,Atalanta vs Genoa,"('Serie A', False)",1X2 -> Genoa gana,,5.50,0.2164,0.1720,0.0444,0.1902,v3.5-dedup,1X2,Total,,,,,,,
