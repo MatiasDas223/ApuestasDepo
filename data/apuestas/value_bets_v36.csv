@@ -268,9 +268,9 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Banfield O/U 0.5,Over/Si,1.57,0.7217,0.5890,0.1327,0.1331,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Goles Banfield O/U 1.5,Over/Si,3.75,0.3661,0.2500,0.1161,0.3729,v3.6,Goles,Visitante,,,,,,,
 2026-04-30 00:01,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",BTTS,Over/Si,2.25,0.5192,0.4110,0.1082,0.1681,v3.6,BTTS,Total,,,,,,,
-2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,2.70,0.4908,0.3478,0.1430,0.3251,v3.6,Goles,Total,,,,,,,
-2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.53,0.7404,0.6087,0.1317,0.1328,v3.6,Goles,Total,,,,,,,
-2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",BTTS,Over/Si,2.38,0.5474,0.3913,0.1561,0.3029,v3.6,BTTS,Total,,,,,,,
+2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,2.70,0.4908,0.3478,0.1430,0.3251,v3.6,Goles,Total,,2.50,+8.00,2026-05-02 18:55,,,exact
+2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.53,0.7404,0.6087,0.1317,0.1328,v3.6,Goles,Total,,1.50,+2.00,2026-05-02 18:55,,,exact
+2026-04-30 00:01,1491941,Central Cordoba de Santiago vs Boca Juniors,"('Liga Profesional', False)",BTTS,Over/Si,2.38,0.5474,0.3913,0.1561,0.3029,v3.6,BTTS,Total,,2.25,+5.78,2026-05-02 18:55,,,exact
 2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Deportivo Riestra O/U 0.5,Over/Si,2.00,0.6156,0.4638,0.1518,0.2313,v3.6,Goles,Visitante,,1.91,+4.71,2026-05-02 17:10,,,exact
 2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Deportivo Riestra O/U 1.5,Over/Si,6.50,0.2492,0.1459,0.1033,0.6196,v3.6,Goles,Visitante,,6.00,+8.33,2026-05-02 17:10,,,exact
 2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",BTTS,Over/Si,2.62,0.4011,0.3547,0.0465,0.0510,v3.6,BTTS,Total,,2.62,+0.00,2026-05-02 17:10,,,exact
