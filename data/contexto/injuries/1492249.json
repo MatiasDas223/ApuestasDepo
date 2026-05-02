@@ -1,9 +1,18 @@
 {
-  "fetched_at": "2026-05-02 08:12:58",
+  "fetched_at": "2026-05-02 12:10:27",
   "data": {
     "home_team_id": 136,
     "away_team_id": 147,
     "home": [
+      {
+        "player_id": 9460,
+        "player_name": "Baralhas",
+        "photo": "https://media.api-sports.io/football/players/9460.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 136,
+        "fixture_id": 1492249
+      },
       {
         "player_id": 54692,
         "player_name": "Camutanga",
@@ -41,11 +50,20 @@
         "fixture_id": 1492249
       },
       {
-        "player_id": 197031,
-        "player_name": "Fintelman",
-        "photo": "https://media.api-sports.io/football/players/197031.png",
+        "player_id": 31384,
+        "player_name": "Gabriel",
+        "photo": "https://media.api-sports.io/football/players/31384.png",
         "type": "Missing Fixture",
-        "reason": "Hip Injury",
+        "reason": "Inactive",
+        "team_id": 136,
+        "fixture_id": 1492249
+      },
+      {
+        "player_id": 308148,
+        "player_name": "Matheusinho",
+        "photo": "https://media.api-sports.io/football/players/308148.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
         "team_id": 136,
         "fixture_id": 1492249
       },
@@ -77,11 +95,38 @@
         "fixture_id": 1492249
       },
       {
+        "player_id": 9549,
+        "player_name": "Erick",
+        "photo": "https://media.api-sports.io/football/players/9549.png",
+        "type": "Questionable",
+        "reason": "Inactive",
+        "team_id": 136,
+        "fixture_id": 1492249
+      },
+      {
+        "player_id": 67944,
+        "player_name": "Ramon",
+        "photo": "https://media.api-sports.io/football/players/67944.png",
+        "type": "Questionable",
+        "reason": "Inactive",
+        "team_id": 136,
+        "fixture_id": 1492249
+      },
+      {
         "player_id": 9726,
         "player_name": "Renato Kayzer",
         "photo": "https://media.api-sports.io/football/players/9726.png",
         "type": "Questionable",
         "reason": "Hamstring Injury",
+        "team_id": 136,
+        "fixture_id": 1492249
+      },
+      {
+        "player_id": 442404,
+        "player_name": "Rene",
+        "photo": "https://media.api-sports.io/football/players/442404.png",
+        "type": "Questionable",
+        "reason": "Inactive",
         "team_id": 136,
         "fixture_id": 1492249
       }
@@ -102,6 +147,15 @@
         "photo": "https://media.api-sports.io/football/players/10416.png",
         "type": "Missing Fixture",
         "reason": "Red Card",
+        "team_id": 147,
+        "fixture_id": 1492249
+      },
+      {
+        "player_id": 143365,
+        "player_name": "Fabinho",
+        "photo": "https://media.api-sports.io/football/players/143365.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
         "team_id": 147,
         "fixture_id": 1492249
       },
@@ -154,11 +208,11 @@
   },
   "resumen": {
     "fixture_id": 1492249,
-    "home_total": 9,
-    "home_missing": 8,
-    "home_questionable": 1,
-    "away_total": 7,
-    "away_missing": 6,
+    "home_total": 14,
+    "home_missing": 10,
+    "home_questionable": 4,
+    "away_total": 8,
+    "away_missing": 7,
     "away_questionable": 1
   }
 }

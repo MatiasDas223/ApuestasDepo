@@ -1,18 +1,9 @@
 {
-  "fetched_at": "2026-05-02 08:12:43",
+  "fetched_at": "2026-05-02 12:10:10",
   "data": {
     "home_team_id": 121,
     "away_team_id": 128,
     "home": [
-      {
-        "player_id": 987,
-        "player_name": "Paulinho",
-        "photo": "https://media.api-sports.io/football/players/987.png",
-        "type": "Missing Fixture",
-        "reason": "Leg Injury",
-        "team_id": 121,
-        "fixture_id": 1492247
-      },
       {
         "player_id": 51466,
         "player_name": "J. Piquerez",
@@ -30,15 +21,42 @@
         "reason": "Ankle Injury",
         "team_id": 121,
         "fixture_id": 1492247
+      },
+      {
+        "player_id": 987,
+        "player_name": "Paulinho",
+        "photo": "https://media.api-sports.io/football/players/987.png",
+        "type": "Questionable",
+        "reason": "Leg Injury",
+        "team_id": 121,
+        "fixture_id": 1492247
       }
     ],
     "away": [
+      {
+        "player_id": 64172,
+        "player_name": "L. Diaz",
+        "photo": "https://media.api-sports.io/football/players/64172.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 128,
+        "fixture_id": 1492247
+      },
       {
         "player_id": 195111,
         "player_name": "Gabriel Menino",
         "photo": "https://media.api-sports.io/football/players/195111.png",
         "type": "Missing Fixture",
         "reason": "Hamstring Injury",
+        "team_id": 128,
+        "fixture_id": 1492247
+      },
+      {
+        "player_id": 506480,
+        "player_name": "Gustavo Henrique",
+        "photo": "https://media.api-sports.io/football/players/506480.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
         "team_id": 128,
         "fixture_id": 1492247
       },
@@ -65,10 +83,10 @@
   "resumen": {
     "fixture_id": 1492247,
     "home_total": 3,
-    "home_missing": 3,
-    "home_questionable": 0,
-    "away_total": 3,
-    "away_missing": 3,
+    "home_missing": 2,
+    "home_questionable": 1,
+    "away_total": 5,
+    "away_missing": 5,
     "away_questionable": 0
   }
 }

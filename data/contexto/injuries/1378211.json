@@ -1,28 +1,110 @@
 {
-  "fetched_at": "2026-05-02 08:17:04",
+  "fetched_at": "2026-05-02 12:14:24",
   "data": {
     "home_team_id": 497,
     "away_team_id": 502,
     "home": [
       {
-        "player_id": 286475,
-        "player_name": "E. Bove",
-        "photo": "https://media.api-sports.io/football/players/286475.png",
+        "player_id": 15811,
+        "player_name": "A. Dovbyk",
+        "photo": "https://media.api-sports.io/football/players/15811.png",
         "type": "Missing Fixture",
-        "reason": "heart problems",
+        "reason": "Groin Injury",
+        "team_id": 497,
+        "fixture_id": 1378211
+      },
+      {
+        "player_id": 277003,
+        "player_name": "N. El Aynaoui",
+        "photo": "https://media.api-sports.io/football/players/277003.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow Cards",
+        "team_id": 497,
+        "fixture_id": 1378211
+      },
+      {
+        "player_id": 129643,
+        "player_name": "E. Ferguson",
+        "photo": "https://media.api-sports.io/football/players/129643.png",
+        "type": "Missing Fixture",
+        "reason": "Ankle Injury",
+        "team_id": 497,
+        "fixture_id": 1378211
+      },
+      {
+        "player_id": 782,
+        "player_name": "L. Pellegrini",
+        "photo": "https://media.api-sports.io/football/players/782.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh Injury",
         "team_id": 497,
         "fixture_id": 1378211
       }
     ],
-    "away": []
+    "away": [
+      {
+        "player_id": 437093,
+        "player_name": "N. Fortini",
+        "photo": "https://media.api-sports.io/football/players/437093.png",
+        "type": "Missing Fixture",
+        "reason": "Back Injury",
+        "team_id": 502,
+        "fixture_id": 1378211
+      },
+      {
+        "player_id": 30422,
+        "player_name": "R. Gosens",
+        "photo": "https://media.api-sports.io/football/players/30422.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 502,
+        "fixture_id": 1378211
+      },
+      {
+        "player_id": 877,
+        "player_name": "M. Kean",
+        "photo": "https://media.api-sports.io/football/players/877.png",
+        "type": "Missing Fixture",
+        "reason": "Calf Injury",
+        "team_id": 502,
+        "fixture_id": 1378211
+      },
+      {
+        "player_id": 138815,
+        "player_name": "T. Lamptey",
+        "photo": "https://media.api-sports.io/football/players/138815.png",
+        "type": "Missing Fixture",
+        "reason": "Knee Injury",
+        "team_id": 502,
+        "fixture_id": 1378211
+      },
+      {
+        "player_id": 136087,
+        "player_name": "F. Parisi",
+        "photo": "https://media.api-sports.io/football/players/136087.png",
+        "type": "Missing Fixture",
+        "reason": "Inactive",
+        "team_id": 502,
+        "fixture_id": 1378211
+      },
+      {
+        "player_id": 575285,
+        "player_name": "L. Balbo",
+        "photo": "https://media.api-sports.io/football/players/575285.png",
+        "type": "Questionable",
+        "reason": "Injury",
+        "team_id": 502,
+        "fixture_id": 1378211
+      }
+    ]
   },
   "resumen": {
     "fixture_id": 1378211,
-    "home_total": 1,
-    "home_missing": 1,
+    "home_total": 4,
+    "home_missing": 4,
     "home_questionable": 0,
-    "away_total": 0,
-    "away_missing": 0,
-    "away_questionable": 0
+    "away_total": 6,
+    "away_missing": 5,
+    "away_questionable": 1
   }
 }
