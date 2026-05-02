@@ -274,9 +274,9 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Deportivo Riestra O/U 0.5,Over/Si,2.00,0.6156,0.4638,0.1518,0.2313,v3.6,Goles,Visitante,,1.91,+4.71,2026-05-02 17:10,,,exact
 2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Goles Deportivo Riestra O/U 1.5,Over/Si,6.50,0.2492,0.1459,0.1033,0.6196,v3.6,Goles,Visitante,,6.00,+8.33,2026-05-02 17:10,,,exact
 2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",BTTS,Over/Si,2.62,0.4011,0.3547,0.0465,0.0510,v3.6,BTTS,Total,,2.62,+0.00,2026-05-02 17:10,,,exact
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,3.10,0.4579,0.3049,0.1530,0.4195,v3.6,Goles,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.62,0.7152,0.5759,0.1393,0.1586,v3.6,Goles,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",BTTS,Over/Si,2.25,0.5234,0.4110,0.1124,0.1777,v3.6,BTTS,Total,,,,,,,
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,3.10,0.4579,0.3049,0.1530,0.4195,v3.6,Goles,Total,,2.88,+7.64,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.62,0.7152,0.5759,0.1393,0.1586,v3.6,Goles,Total,,1.57,+3.18,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",BTTS,Over/Si,2.25,0.5234,0.4110,0.1124,0.1777,v3.6,BTTS,Total,,2.20,+2.27,2026-05-02 21:25,,,exact
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",BTTS,Under/No,2.20,0.4806,0.4241,0.0565,0.0574,v3.6,BTTS,Total,L,2.25,-2.22,2026-05-02 11:24,,,exact
 2026-04-30 00:02,1391157,Valencia vs Atletico Madrid,"('La Liga', False)",BTTS,Over/Si,1.75,0.5773,0.5333,0.0440,0.0103,v3.6,BTTS,Total,L,1.80,-2.78,2026-05-02 13:55,,,exact
 2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 1.5,Under/No,2.25,0.6907,0.4110,0.2797,0.5541,v3.6,Goles,Visitante,,2.20,+2.27,2026-05-02 18:40,,,exact
@@ -386,7 +386,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 00:23,1392176,Las Palmas vs Valladolid,"('LaLiga 2', False)",BTTS,Over/Si,1.83,0.5791,0.5000,0.0791,0.0597,v3.6,BTTS,Total,,,,,,,
 2026-05-01 00:26,1394712,Antalyaspor vs Alanyaspor,"('Super Lig', False)",BTTS,Over/Si,1.73,0.5804,0.5362,0.0442,0.0040,v3.6,BTTS,Total,,,,,,,
 2026-05-01 00:26,1394715,Fatih Karagümrük vs Gençlerbirliği S.K.,"('Super Lig', False)",BTTS,Under/No,2.00,0.5163,0.4638,0.0525,0.0326,v3.6,BTTS,Total,,,,,,,
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",BTTS,Over/Si,2.05,0.5148,0.4533,0.0614,0.0553,v3.6,BTTS,Total,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",BTTS,Over/Si,2.05,0.5148,0.4533,0.0614,0.0553,v3.6,BTTS,Total,,2.05,+0.00,2026-05-02 21:25,,,exact
 2026-05-02 00:02,1491944,Gimnasia M. vs Defensa Y Justicia,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,3.10,0.5522,0.3049,0.2472,0.7118,v3.6,Goles,Total,,,,,,,
 2026-05-02 00:02,1491944,Gimnasia M. vs Defensa Y Justicia,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.62,0.7850,0.5759,0.2091,0.2717,v3.6,Goles,Total,,,,,,,
 2026-05-02 00:02,1491944,Gimnasia M. vs Defensa Y Justicia,"('Liga Profesional', False)",Goles tot. O/U 3.5,Over/Si,6.50,0.3290,0.1459,0.1831,1.1382,v3.6,Goles,Total,,,,,,,

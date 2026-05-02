@@ -2656,20 +2656,20 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Corners Deportivo Riestra O/U 2.5,Under/No,2.10,0.5375,0.4424,0.0951,0.1288,v3.4-shrink,Corners,Visitante,,2.20,-4.55,2026-05-02 17:10,,,exact
 2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Arco Lanus O/U 4.5,Over/Si,1.83,0.5752,0.5000,0.0752,0.0544,v3.4-shrink,Arco,Local,,1.83,-0.16,2026-05-02 17:10,,,exact
 2026-04-30 00:01,1491945,Lanus vs Deportivo Riestra,"('Liga Profesional', False)",Tarjetas tot. O/U 4.5,Over/Si,1.90,0.5616,0.5000,0.0616,0.0671,v3.4-shrink,Tarjetas,Total,,1.83,+3.83,2026-05-02 17:10,,,exact
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles San Lorenzo O/U 1.5,Over/Si,3.75,0.4349,0.2500,0.1849,0.6307,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",1X2 -> San Lorenzo gana,,3.10,0.4740,0.3009,0.1730,0.4693,v3.4-shrink,1X2,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Arco tot. O/U 7.5,Under/No,2.00,0.6257,0.4634,0.1624,0.2515,v3.4-shrink,Arco,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles San Lorenzo O/U 0.5,Over/Si,1.53,0.7705,0.6087,0.1618,0.1788,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,3.10,0.4579,0.3049,0.1530,0.4195,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.62,0.7152,0.5759,0.1393,0.1586,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles San Lorenzo O/U 2.5,Over/Si,13.00,0.1875,0.0741,0.1135,1.4379,v3.4-shrink,Goles,Local,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 0.5,Over/Si,1.17,0.9174,0.8104,0.1071,0.0734,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",DC -> San Lorenzo o Independiente (12),,1.50,0.7368,0.6300,0.1068,0.1052,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 3.5,Over/Si,6.50,0.2458,0.1459,0.0999,0.5977,v3.4-shrink,Goles,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",BTTS,Over/Si,2.25,0.4964,0.4110,0.0854,0.1169,v3.4-shrink,BTTS,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Tarjetas tot. O/U 4.5,Over/Si,1.98,0.5640,0.4803,0.0838,0.1140,v3.4-shrink,Tarjetas,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",DC -> San Lorenzo o Empate (1X),,1.40,0.7372,0.6750,0.0621,0.0320,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 4.5,Over/Si,17.00,0.1109,0.0566,0.0543,0.8856,v3.4-shrink,Goles,Total,,,,,,,
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles San Lorenzo O/U 1.5,Over/Si,3.75,0.4349,0.2500,0.1849,0.6307,v3.4-shrink,Goles,Local,,3.75,+0.00,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",1X2 -> San Lorenzo gana,,3.10,0.4740,0.3009,0.1730,0.4693,v3.4-shrink,1X2,Total,,3.50,-11.43,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Arco tot. O/U 7.5,Under/No,2.00,0.6257,0.4634,0.1624,0.2515,v3.4-shrink,Arco,Total,,1.80,+11.11,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles San Lorenzo O/U 0.5,Over/Si,1.53,0.7705,0.6087,0.1618,0.1788,v3.4-shrink,Goles,Local,,1.53,+0.00,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,3.10,0.4579,0.3049,0.1530,0.4195,v3.4-shrink,Goles,Total,,2.88,+7.64,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.62,0.7152,0.5759,0.1393,0.1586,v3.4-shrink,Goles,Total,,1.57,+3.18,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles San Lorenzo O/U 2.5,Over/Si,13.00,0.1875,0.0741,0.1135,1.4379,v3.4-shrink,Goles,Local,,11.00,+18.18,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 0.5,Over/Si,1.17,0.9174,0.8104,0.1071,0.0734,v3.4-shrink,Goles,Total,,1.14,+2.63,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",DC -> San Lorenzo o Independiente (12),,1.50,0.7368,0.6300,0.1068,0.1052,v3.4-shrink,Doble Oportunidad,Total,,1.44,+4.17,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 3.5,Over/Si,6.50,0.2458,0.1459,0.0999,0.5977,v3.4-shrink,Goles,Total,,6.00,+8.33,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",BTTS,Over/Si,2.25,0.4964,0.4110,0.0854,0.1169,v3.4-shrink,BTTS,Total,,2.20,+2.27,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Tarjetas tot. O/U 4.5,Over/Si,1.98,0.5640,0.4803,0.0838,0.1140,v3.4-shrink,Tarjetas,Total,,1.98,+0.00,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",DC -> San Lorenzo o Empate (1X),,1.40,0.7372,0.6750,0.0621,0.0320,v3.4-shrink,Doble Oportunidad,Total,,1.40,+0.00,2026-05-02 21:25,,,exact
+2026-04-30 00:02,1491950,San Lorenzo vs Independiente,"('Liga Profesional', False)",Goles tot. O/U 4.5,Over/Si,17.00,0.1109,0.0566,0.0543,0.8856,v3.4-shrink,Goles,Total,,15.00,+13.33,2026-05-02 21:25,,,exact
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Tiros Villarreal O/U 15.5,Over/Si,1.83,0.6018,0.5000,0.1018,0.1031,v3.4-shrink,Tiros,Local,W,1.91,-4.14,2026-05-02 11:24,,,exact
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Goles Levante O/U 1.5,Under/No,1.40,0.7549,0.6627,0.0922,0.0568,v3.4-shrink,Goles,Visitante,W,1.36,+2.94,2026-05-02 11:24,,,exact
 2026-04-30 00:02,1391158,Villarreal vs Levante,"('La Liga', False)",Goles tot. O/U 2.5,Under/No,2.38,0.4608,0.3975,0.0634,0.0968,v3.4-shrink,Goles,Total,L,2.50,-4.80,2026-05-02 11:24,,,exact
@@ -3603,16 +3603,16 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles Albacete O/U 0.5,Over/Si,1.50,0.6833,0.6250,0.0583,0.0250,v3.4-shrink,Goles,Visitante,W,1.50,+0.00,2026-05-01 13:55,,,exact
 2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",DC -> Empate o Albacete (X2),,2.10,0.5054,0.4485,0.0569,0.0613,v3.4-shrink,Doble Oportunidad,Total,W,2.10,+0.00,2026-05-01 13:55,,,exact
 2026-05-01 08:20,1396986,FC Andorra vs Albacete,"('LaLiga 2', False)",Goles Albacete O/U 1.5,Over/Si,3.50,0.3184,0.2678,0.0506,0.1144,v3.4-shrink,Goles,Visitante,L,3.50,+0.00,2026-05-01 13:55,,,exact
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Corners Talleres Cordoba O/U 3.5,Under/No,1.80,0.7364,0.5148,0.2216,0.3256,v3.4-shrink,Corners,Visitante,,,,,,,
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Corners Union Santa Fe O/U 4.5,Over/Si,1.73,0.7167,0.5362,0.1805,0.2399,v3.4-shrink,Corners,Local,,,,,,,
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Tarjetas tot. O/U 5.5,Under/No,1.83,0.6678,0.5000,0.1678,0.2220,v3.4-shrink,Tarjetas,Total,,,,,,,
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Arco tot. O/U 8.5,Under/No,1.80,0.5845,0.5148,0.0696,0.0520,v3.4-shrink,Arco,Total,,,,,,,
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.50,0.6910,0.6250,0.0660,0.0365,v3.4-shrink,Goles,Total,,,,,,,
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,2.50,0.4319,0.3750,0.0569,0.0798,v3.4-shrink,Goles,Total,,,,,,,
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 0.5,Over/Si,1.11,0.9095,0.8541,0.0554,0.0096,v3.4-shrink,Goles,Total,,,,,,,
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Union Santa Fe O/U 1.5,Over/Si,2.62,0.4062,0.3547,0.0516,0.0643,v3.4-shrink,Goles,Local,,,,,,,
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",1X2 -> Union Santa Fe gana,,2.30,0.4587,0.4135,0.0452,0.0550,v3.4-shrink,1X2,Total,,,,,,,
-2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Union Santa Fe O/U 0.5,Over/Si,1.33,0.7525,0.7096,0.0429,0.0009,v3.4-shrink,Goles,Local,,,,,,,
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Corners Talleres Cordoba O/U 3.5,Under/No,1.80,0.7364,0.5148,0.2216,0.3256,v3.4-shrink,Corners,Visitante,,1.80,+0.00,2026-05-02 21:25,,,exact
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Corners Union Santa Fe O/U 4.5,Over/Si,1.73,0.7167,0.5362,0.1805,0.2399,v3.4-shrink,Corners,Local,,1.73,+0.00,2026-05-02 21:25,,,exact
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Tarjetas tot. O/U 5.5,Under/No,1.83,0.6678,0.5000,0.1678,0.2220,v3.4-shrink,Tarjetas,Total,,1.85,-1.08,2026-05-02 21:25,,,exact
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Arco tot. O/U 8.5,Under/No,1.80,0.5845,0.5148,0.0696,0.0520,v3.4-shrink,Arco,Total,,1.91,-5.76,2026-05-02 21:25,,,exact
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.50,0.6910,0.6250,0.0660,0.0365,v3.4-shrink,Goles,Total,,1.44,+4.17,2026-05-02 21:25,,,exact
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,2.50,0.4319,0.3750,0.0569,0.0798,v3.4-shrink,Goles,Total,,2.50,+0.00,2026-05-02 21:25,,,exact
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles tot. O/U 0.5,Over/Si,1.11,0.9095,0.8541,0.0554,0.0096,v3.4-shrink,Goles,Total,,1.11,+0.00,2026-05-02 21:25,,,exact
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Union Santa Fe O/U 1.5,Over/Si,2.62,0.4062,0.3547,0.0516,0.0643,v3.4-shrink,Goles,Local,,2.50,+4.80,2026-05-02 21:25,,,exact
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",1X2 -> Union Santa Fe gana,,2.30,0.4587,0.4135,0.0452,0.0550,v3.4-shrink,1X2,Total,,2.20,+4.55,2026-05-02 21:25,,,exact
+2026-05-01 20:04,1491951,Union Santa Fe vs Talleres Cordoba,"('Liga Profesional', False)",Goles Union Santa Fe O/U 0.5,Over/Si,1.33,0.7525,0.7096,0.0429,0.0009,v3.4-shrink,Goles,Local,,1.33,+0.00,2026-05-02 21:25,,,exact
 2026-05-01 20:12,1492245,Internacional vs Fluminense,"('Brasileirao Serie A', False)",DC -> Internacional o Fluminense (12),,1.36,0.7388,0.6988,0.0400,0.0048,v3.4-shrink,Doble Oportunidad,Total,,,,,,,
 2026-05-02 00:02,1491944,Gimnasia M. vs Defensa Y Justicia,"('Liga Profesional', False)",Tiros Defensa Y Justicia O/U 10.5,Under/No,2.00,0.7340,0.4634,0.2706,0.4679,v3.4-shrink,Tiros,Visitante,,,,,,,
 2026-05-02 00:02,1491944,Gimnasia M. vs Defensa Y Justicia,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,3.10,0.5522,0.3049,0.2472,0.7118,v3.4-shrink,Goles,Total,,,,,,,
