@@ -5291,14 +5291,14 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Tiros Alaves O/U 11.5,Under/No,1.83,0.5629,0.5000,0.0629,0.0317,v3.2,Tiros,Local,,2.00,-8.50,2026-05-02 16:10,,,exact
 2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 0.5,Over/Si,1.06,0.9519,0.9042,0.0478,0.0090,v3.2,Goles,Total,,1.06,+0.00,2026-05-02 16:10,,,exact
 2026-04-30 00:03,1391149,Alaves vs Athletic Club,"('La Liga', False)",Goles tot. O/U 4.5,Over/Si,6.50,0.1893,0.1459,0.0434,0.2304,v3.2,Goles,Total,,7.00,-7.14,2026-05-02 16:10,,,exact
-2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",1X2 -> Osasuna gana,,4.20,0.4258,0.2267,0.1991,0.7884,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",DC -> Osasuna o Empate (1X),,2.00,0.6572,0.4762,0.1810,0.3143,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Osasuna O/U 1.5,Over/Si,2.50,0.5165,0.3750,0.1415,0.2913,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 2.5,Under/No,1.40,0.7992,0.6627,0.1365,0.1189,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 1.5,Under/No,2.25,0.5442,0.4110,0.1332,0.2243,v3.2,Goles,Visitante,,,,,,,
-2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Osasuna O/U 0.5,Over/Si,1.30,0.8230,0.7234,0.0996,0.0699,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Osasuna O/U 2.5,Over/Si,6.00,0.2540,0.1573,0.0967,0.5241,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 0.5,Under/No,6.50,0.2135,0.1459,0.0676,0.3878,v3.2,Goles,Visitante,,,,,,,
+2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",1X2 -> Osasuna gana,,4.20,0.4258,0.2267,0.1991,0.7884,v3.2,1X2,Total,,4.50,-6.67,2026-05-02 18:40,,,exact
+2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",DC -> Osasuna o Empate (1X),,2.00,0.6572,0.4762,0.1810,0.3143,v3.2,Doble Oportunidad,Total,,2.05,-2.44,2026-05-02 18:40,,,exact
+2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Osasuna O/U 1.5,Over/Si,2.50,0.5165,0.3750,0.1415,0.2913,v3.2,Goles,Local,,3.00,-16.67,2026-05-02 18:40,,,exact
+2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 2.5,Under/No,1.40,0.7992,0.6627,0.1365,0.1189,v3.2,Goles,Visitante,,1.36,+2.94,2026-05-02 18:40,,,exact
+2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 1.5,Under/No,2.25,0.5442,0.4110,0.1332,0.2243,v3.2,Goles,Visitante,,2.20,+2.27,2026-05-02 18:40,,,exact
+2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Osasuna O/U 0.5,Over/Si,1.30,0.8230,0.7234,0.0996,0.0699,v3.2,Goles,Local,,1.40,-7.14,2026-05-02 18:40,,,exact
+2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Osasuna O/U 2.5,Over/Si,6.00,0.2540,0.1573,0.0967,0.5241,v3.2,Goles,Local,,8.00,-25.00,2026-05-02 18:40,,,exact
+2026-04-30 00:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Goles Barcelona O/U 0.5,Under/No,6.50,0.2135,0.1459,0.0676,0.3878,v3.2,Goles,Visitante,,6.50,+0.00,2026-05-02 18:40,,,exact
 2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Tiros Brighton O/U 12.5,Over/Si,2.00,0.5469,0.4634,0.0835,0.0937,v3.2,Tiros,Visitante,,1.91,+4.77,2026-05-02 13:40,,,exact
 2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Corners Newcastle O/U 5.5,Over/Si,2.00,0.5359,0.4638,0.0721,0.0719,v3.2,Corners,Local,,2.00,+0.00,2026-05-02 13:40,,,exact
 2026-04-30 00:04,1379317,Newcastle vs Brighton,"('Premier League', False)",Corners Brighton O/U 4.5,Under/No,1.91,0.5573,0.4852,0.0721,0.0644,v3.2,Corners,Visitante,,1.83,+4.37,2026-05-02 13:40,,,exact
@@ -5453,18 +5453,18 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Corners Bayer Leverkusen O/U 5.5,Under/No,1.80,0.5627,0.5147,0.0480,0.0129,v3.2,Corners,Local,,1.73,+4.05,2026-05-02 16:10,,,exact
 2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Arco tot. O/U 9.5,Over/Si,2.00,0.5111,0.4634,0.0477,0.0221,v3.2,Arco,Total,,2.00,+0.00,2026-05-02 16:10,,,exact
 2026-04-30 00:06,1388587,Bayer Leverkusen vs RB Leipzig,"('Bundesliga', False)",Goles Bayer Leverkusen O/U 1.5,Under/No,2.20,0.4687,0.4241,0.0446,0.0312,v3.2,Goles,Local,,2.20,+0.00,2026-05-02 16:10,,,exact
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles Botafogo O/U 1.5,Over/Si,1.67,0.7208,0.5570,0.1637,0.2037,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles Botafogo O/U 2.5,Over/Si,3.00,0.4679,0.3119,0.1560,0.4037,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",1X2 -> Botafogo gana,,1.53,0.7612,0.6070,0.1542,0.1647,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles tot. O/U 2.5,Over/Si,1.85,0.6413,0.5132,0.1282,0.1865,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles tot. O/U 3.5,Over/Si,3.20,0.4195,0.2982,0.1212,0.3423,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles tot. O/U 1.5,Over/Si,1.28,0.8398,0.7455,0.0943,0.0750,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",DC -> Botafogo o Remo (12),,1.25,0.8500,0.7572,0.0928,0.0625,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Corners tot. O/U 9.5,Under/No,2.00,0.5504,0.4638,0.0866,0.1008,v3.2,Corners,Total,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles tot. O/U 4.5,Over/Si,6.00,0.2369,0.1573,0.0796,0.4216,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles Botafogo O/U 0.5,Over/Si,1.12,0.9212,0.8427,0.0785,0.0317,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",DC -> Botafogo o Empate (1X),,1.12,0.9113,0.8451,0.0662,0.0206,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles tot. O/U 0.5,Over/Si,1.05,0.9629,0.9129,0.0500,0.0110,v3.2,Goles,Total,,,,,,,
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles Botafogo O/U 1.5,Over/Si,1.67,0.7208,0.5570,0.1637,0.2037,v3.2,Goles,Local,,1.62,+3.09,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles Botafogo O/U 2.5,Over/Si,3.00,0.4679,0.3119,0.1560,0.4037,v3.2,Goles,Local,,2.75,+9.09,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",1X2 -> Botafogo gana,,1.53,0.7612,0.6070,0.1542,0.1647,v3.2,1X2,Total,,1.50,+2.00,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles tot. O/U 2.5,Over/Si,1.85,0.6413,0.5132,0.1282,0.1865,v3.2,Goles,Total,,1.75,+5.71,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles tot. O/U 3.5,Over/Si,3.20,0.4195,0.2982,0.1212,0.3423,v3.2,Goles,Total,,3.00,+6.67,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles tot. O/U 1.5,Over/Si,1.28,0.8398,0.7455,0.0943,0.0750,v3.2,Goles,Total,,1.25,+2.40,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",DC -> Botafogo o Remo (12),,1.25,0.8500,0.7572,0.0928,0.0625,v3.2,Doble Oportunidad,Total,,1.20,+4.17,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Corners tot. O/U 9.5,Under/No,2.00,0.5504,0.4638,0.0866,0.1008,v3.2,Corners,Total,,2.00,+0.00,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles tot. O/U 4.5,Over/Si,6.00,0.2369,0.1573,0.0796,0.4216,v3.2,Goles,Total,,5.50,+9.09,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles Botafogo O/U 0.5,Over/Si,1.12,0.9212,0.8427,0.0785,0.0317,v3.2,Goles,Local,,1.11,+0.90,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",DC -> Botafogo o Empate (1X),,1.12,0.9113,0.8451,0.0662,0.0206,v3.2,Doble Oportunidad,Total,,1.12,+0.00,2026-05-02 18:40,,,exact
+2026-04-30 00:07,1492241,Botafogo vs Remo,"('Brasileirao Serie A', False)",Goles tot. O/U 0.5,Over/Si,1.05,0.9629,0.9129,0.0500,0.0110,v3.2,Goles,Total,,1.04,+0.96,2026-05-02 18:40,,,exact
 2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",BTTS,Under/No,1.75,0.7056,0.5333,0.1722,0.2348,v3.2,BTTS,Total,,,,,,,
 2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",Goles Santos O/U 0.5,Under/No,1.91,0.6563,0.4852,0.1712,0.2536,v3.2,Goles,Visitante,,,,,,,
 2026-04-30 00:07,1492247,Palmeiras vs Santos,"('Brasileirao Serie A', False)",1X2 -> Palmeiras gana,,1.53,0.7372,0.6085,0.1287,0.1280,v3.2,1X2,Total,,,,,,,
@@ -5626,28 +5626,28 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",Goles Castellón O/U 0.5,Over/Si,1.08,0.9510,0.8811,0.0700,0.0271,v3.2,Goles,Local,,1.07,+0.93,2026-05-02 16:10,,,exact
 2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",DC -> Castellón o Cordoba (12),,1.18,0.8581,0.7958,0.0622,0.0125,v3.2,Doble Oportunidad,Total,,1.17,+0.85,2026-05-02 16:10,,,exact
 2026-04-30 00:17,1392178,Castellón vs Cordoba,"('LaLiga 2', False)",BTTS,Over/Si,1.53,0.6659,0.6087,0.0572,0.0189,v3.2,BTTS,Total,,1.62,-5.56,2026-05-02 16:10,,,exact
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Eibar O/U 1.5,Over/Si,2.20,0.6619,0.4241,0.2378,0.4562,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",1X2 -> Eibar gana,,2.05,0.6735,0.4531,0.2204,0.3807,v3.2,1X2,Total,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Eibar O/U 2.5,Over/Si,5.00,0.3984,0.1896,0.2087,0.9918,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 2.5,Over/Si,2.10,0.6228,0.4474,0.1754,0.3079,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 3.5,Over/Si,3.75,0.4009,0.2500,0.1509,0.5035,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Eibar O/U 0.5,Over/Si,1.25,0.8964,0.7500,0.1464,0.1205,v3.2,Goles,Local,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 1.5,Over/Si,1.33,0.8299,0.7096,0.1203,0.1037,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",DC -> Eibar o Empate (1X),,1.28,0.8593,0.7401,0.1192,0.0999,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 4.5,Over/Si,8.00,0.2229,0.1189,0.1039,0.7830,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",DC -> Eibar o Malaga (12),,1.33,0.8142,0.7123,0.1019,0.0829,v3.2,Doble Oportunidad,Total,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 0.5,Over/Si,1.07,0.9592,0.8882,0.0710,0.0263,v3.2,Goles,Total,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Corners Eibar O/U 4.5,Over/Si,1.67,0.6083,0.5570,0.0513,0.0159,v3.2,Corners,Local,,,,,,,
-2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",BTTS,Over/Si,1.83,0.5472,0.5000,0.0472,0.0013,v3.2,BTTS,Total,,,,,,,
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Eibar O/U 1.5,Over/Si,2.20,0.6619,0.4241,0.2378,0.4562,v3.2,Goles,Local,,2.20,+0.00,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",1X2 -> Eibar gana,,2.05,0.6735,0.4531,0.2204,0.3807,v3.2,1X2,Total,,1.95,+5.13,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Eibar O/U 2.5,Over/Si,5.00,0.3984,0.1896,0.2087,0.9918,v3.2,Goles,Local,,5.00,+0.00,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 2.5,Over/Si,2.10,0.6228,0.4474,0.1754,0.3079,v3.2,Goles,Total,,2.15,-2.33,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 3.5,Over/Si,3.75,0.4009,0.2500,0.1509,0.5035,v3.2,Goles,Total,,3.75,+0.00,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles Eibar O/U 0.5,Over/Si,1.25,0.8964,0.7500,0.1464,0.1205,v3.2,Goles,Local,,1.25,+0.00,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 1.5,Over/Si,1.33,0.8299,0.7096,0.1203,0.1037,v3.2,Goles,Total,,1.36,-2.21,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",DC -> Eibar o Empate (1X),,1.28,0.8593,0.7401,0.1192,0.0999,v3.2,Doble Oportunidad,Total,,1.25,+2.40,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 4.5,Over/Si,8.00,0.2229,0.1189,0.1039,0.7830,v3.2,Goles,Total,,9.00,-11.11,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",DC -> Eibar o Malaga (12),,1.33,0.8142,0.7123,0.1019,0.0829,v3.2,Doble Oportunidad,Total,,1.33,+0.00,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Goles tot. O/U 0.5,Over/Si,1.07,0.9592,0.8882,0.0710,0.0263,v3.2,Goles,Total,,1.07,+0.00,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",Corners Eibar O/U 4.5,Over/Si,1.67,0.6083,0.5570,0.0513,0.0159,v3.2,Corners,Local,,1.73,-3.47,2026-05-02 18:40,,,exact
+2026-04-30 00:17,1392181,Eibar vs Malaga,"('LaLiga 2', False)",BTTS,Over/Si,1.83,0.5472,0.5000,0.0472,0.0013,v3.2,BTTS,Total,,1.91,-4.19,2026-05-02 18:40,,,exact
 2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Corners Banfield O/U 3.5,Under/No,2.10,0.7012,0.4424,0.2588,0.4726,v3.2,Corners,Visitante,,,,,,,
 2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Corners Barracas Central O/U 3.5,Over/Si,1.73,0.7740,0.5366,0.2374,0.3367,v3.2,Corners,Local,,,,,,,
 2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Tiros Barracas Central O/U 12.5,Over/Si,2.00,0.6187,0.4634,0.1554,0.2375,v3.2,Tiros,Local,,,,,,,
 2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Arco Barracas Central O/U 4.5,Over/Si,2.20,0.5150,0.4233,0.0917,0.1330,v3.2,Arco,Local,,,,,,,
 2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Tiros Banfield O/U 11.5,Under/No,1.80,0.5959,0.5147,0.0812,0.0726,v3.2,Tiros,Visitante,,,,,,,
 2026-04-30 04:00,1491939,Barracas Central vs Banfield,"('Liga Profesional', False)",Arco tot. O/U 7.5,Over/Si,1.83,0.5457,0.5000,0.0457,0.0003,v3.2,Arco,Total,,,,,,,
-2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Arco Osasuna O/U 4.5,Under/No,1.61,0.6555,0.5767,0.0788,0.0586,v3.2,Arco,Local,,,,,,,
-2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Tiros Osasuna O/U 12.5,Under/No,1.73,0.6060,0.5366,0.0694,0.0466,v3.2,Tiros,Local,,,,,,,
-2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Arco Barcelona O/U 5.5,Over/Si,2.00,0.5087,0.4634,0.0453,0.0173,v3.2,Arco,Visitante,,,,,,,
+2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Arco Osasuna O/U 4.5,Under/No,1.61,0.6555,0.5767,0.0788,0.0586,v3.2,Arco,Local,,,,2026-05-02 18:40,1.71,-6.00,single_heur
+2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Tiros Osasuna O/U 12.5,Under/No,1.73,0.6060,0.5366,0.0694,0.0466,v3.2,Tiros,Local,,,,2026-05-02 18:40,1.40,+23.83,single_heur
+2026-04-30 04:03,1391155,Osasuna vs Barcelona,"('La Liga', False)",Arco Barcelona O/U 5.5,Over/Si,2.00,0.5087,0.4634,0.0453,0.0173,v3.2,Arco,Visitante,,2.10,-4.76,2026-05-02 18:40,,,exact
 2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Corners Başakşehir O/U 3.5,Over/Si,1.91,0.6938,0.4852,0.2086,0.3251,v3.2,Corners,Visitante,,,,,,,
 2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles tot. O/U 3.5,Under/No,1.62,0.6998,0.5759,0.1239,0.1337,v3.2,Goles,Total,,,,,,,
 2026-04-30 04:17,1394713,Fenerbahçe vs Başakşehir,"('Super Lig', False)",Goles Fenerbahçe O/U 1.5,Under/No,2.50,0.4868,0.3750,0.1118,0.2170,v3.2,Goles,Local,,,,,,,
