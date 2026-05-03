@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-03 00:08:51",
+  "fetched_at": "2026-05-03 04:08:37",
   "data": {
     "home_team_id": 505,
     "away_team_id": 523,
@@ -29,7 +29,7 @@
         "player_name": "B. Cremaschi",
         "photo": "https://media.api-sports.io/football/players/362061.png",
         "type": "Missing Fixture",
-        "reason": "Injury",
+        "reason": "Knee Injury",
         "team_id": 523,
         "fixture_id": 1378208
       },

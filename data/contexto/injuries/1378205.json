@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-03 00:08:02",
+  "fetched_at": "2026-05-03 04:07:46",
   "data": {
     "home_team_id": 500,
     "away_team_id": 490,
@@ -23,6 +23,24 @@
         "fixture_id": 1378205
       },
       {
+        "player_id": 31099,
+        "player_name": "N. Casale",
+        "photo": "https://media.api-sports.io/football/players/31099.png",
+        "type": "Missing Fixture",
+        "reason": "Calf Injury",
+        "team_id": 500,
+        "fixture_id": 1378205
+      },
+      {
+        "player_id": 93016,
+        "player_name": "T. Dallinga",
+        "photo": "https://media.api-sports.io/football/players/93016.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 500,
+        "fixture_id": 1378205
+      },
+      {
         "player_id": 41734,
         "player_name": "Joao Mario",
         "photo": "https://media.api-sports.io/football/players/41734.png",
@@ -32,28 +50,10 @@
         "fixture_id": 1378205
       },
       {
-        "player_id": 93016,
-        "player_name": "T. Dallinga",
-        "photo": "https://media.api-sports.io/football/players/93016.png",
-        "type": "Questionable",
-        "reason": "Injury",
-        "team_id": 500,
-        "fixture_id": 1378205
-      },
-      {
-        "player_id": 278095,
-        "player_name": "J. Rowe",
-        "photo": "https://media.api-sports.io/football/players/278095.png",
-        "type": "Questionable",
-        "reason": "Muscle Injury",
-        "team_id": 500,
-        "fixture_id": 1378205
-      },
-      {
         "player_id": 2998,
         "player_name": "L. Skorupski",
         "photo": "https://media.api-sports.io/football/players/2998.png",
-        "type": "Questionable",
+        "type": "Missing Fixture",
         "reason": "Muscle Injury",
         "team_id": 500,
         "fixture_id": 1378205
@@ -88,6 +88,15 @@
         "fixture_id": 1378205
       },
       {
+        "player_id": 30780,
+        "player_name": "L. Mazzitelli",
+        "photo": "https://media.api-sports.io/football/players/30780.png",
+        "type": "Missing Fixture",
+        "reason": "Injury",
+        "team_id": 490,
+        "fixture_id": 1378205
+      },
+      {
         "player_id": 30573,
         "player_name": "L. Pavoletti",
         "photo": "https://media.api-sports.io/football/players/30573.png",
@@ -97,29 +106,11 @@
         "fixture_id": 1378205
       },
       {
-        "player_id": 30780,
-        "player_name": "L. Mazzitelli",
-        "photo": "https://media.api-sports.io/football/players/30780.png",
-        "type": "Questionable",
-        "reason": "Injury",
-        "team_id": 490,
-        "fixture_id": 1378205
-      },
-      {
-        "player_id": 626704,
-        "player_name": "P. Mendy",
-        "photo": "https://media.api-sports.io/football/players/626704.png",
-        "type": "Questionable",
+        "player_id": 419627,
+        "player_name": "O. Raterink",
+        "photo": "https://media.api-sports.io/football/players/419627.png",
+        "type": "Missing Fixture",
         "reason": "Muscle Injury",
-        "team_id": 490,
-        "fixture_id": 1378205
-      },
-      {
-        "player_id": 415155,
-        "player_name": "J. Rodriguez",
-        "photo": "https://media.api-sports.io/football/players/415155.png",
-        "type": "Questionable",
-        "reason": "Injury",
         "team_id": 490,
         "fixture_id": 1378205
       }
@@ -128,10 +119,10 @@
   "resumen": {
     "fixture_id": 1378205,
     "home_total": 6,
-    "home_missing": 3,
-    "home_questionable": 3,
-    "away_total": 7,
-    "away_missing": 4,
-    "away_questionable": 3
+    "home_missing": 6,
+    "home_questionable": 0,
+    "away_total": 6,
+    "away_missing": 6,
+    "away_questionable": 0
   }
 }
