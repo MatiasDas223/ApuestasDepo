@@ -3867,3 +3867,8 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-03 00:01,1491942,Estudiantes de Rio Cuarto vs Instituto Cordoba,"('Liga Profesional', False)",Tiros Estudiantes de Rio Cuarto O/U 11.5,Over/Si,1.80,0.6106,0.5147,0.0959,0.0990,v3.5-dedup,Tiros,Local,,,,,,,
 2026-05-03 00:01,1491942,Estudiantes de Rio Cuarto vs Instituto Cordoba,"('Liga Profesional', False)",Tarjetas tot. O/U 5.5,Under/No,1.67,0.6399,0.5570,0.0829,0.0686,v3.5-dedup,Tarjetas,Total,,,,,,,
 2026-05-03 00:01,1491942,Estudiantes de Rio Cuarto vs Instituto Cordoba,"('Liga Profesional', False)",Corners Instituto Cordoba O/U 4.5,Over/Si,2.00,0.5461,0.4638,0.0823,0.0922,v3.5-dedup,Corners,Visitante,,,,,,,
+2026-05-03 00:09,1540843,Arsenal vs Atletico Madrid,"('Champions League', True)",1X2 -> Arsenal gana,,1.62,0.6742,0.5884,0.0858,0.0921,v3.5-dedup,1X2,Total,,,,,,,
+2026-05-03 00:09,1540843,Arsenal vs Atletico Madrid,"('Champions League', True)",DC -> Arsenal o Empate (1X),,1.17,0.8706,0.8104,0.0602,0.0186,v3.5-dedup,Doble Oportunidad,Total,,,,,,,
+2026-05-03 00:09,1540843,Arsenal vs Atletico Madrid,"('Champions League', True)",DC -> Arsenal o Atletico Madrid (12),,1.25,0.8036,0.7586,0.0450,0.0045,v3.5-dedup,Doble Oportunidad,Total,,,,,,,
+2026-05-03 00:09,1540843,Arsenal vs Atletico Madrid,"('Champions League', True)",Goles Arsenal O/U 1.5,Over/Si,1.80,0.6071,0.5148,0.0923,0.0929,v3.5-dedup,Goles,Local,,,,,,,
+2026-05-03 00:09,1540843,Arsenal vs Atletico Madrid,"('Champions League', True)",Goles Atletico Madrid O/U 0.5,Under/No,2.25,0.4669,0.4110,0.0559,0.0506,v3.5-dedup,Goles,Visitante,,,,,,,

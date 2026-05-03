@@ -411,3 +411,7 @@ fecha_analisis,fixture_id,partido,competicion,mercado,lado,odds,modelo_prob,impl
 2026-05-03 00:01,1491942,Estudiantes de Rio Cuarto vs Instituto Cordoba,"('Liga Profesional', False)",Goles tot. O/U 2.5,Over/Si,3.40,0.4653,0.2812,0.1841,0.5819,v3.6,Goles,Total,,,,,,,
 2026-05-03 00:01,1491942,Estudiantes de Rio Cuarto vs Instituto Cordoba,"('Liga Profesional', False)",Goles tot. O/U 1.5,Over/Si,1.67,0.7197,0.5570,0.1626,0.2018,v3.6,Goles,Total,,,,,,,
 2026-05-03 00:01,1491942,Estudiantes de Rio Cuarto vs Instituto Cordoba,"('Liga Profesional', False)",BTTS,Over/Si,2.50,0.5352,0.3750,0.1602,0.3380,v3.6,BTTS,Total,,,,,,,
+2026-05-03 00:07,1492244,Flamengo vs Vasco DA Gama,"('Brasileirao Serie A', False)",Goles Vasco DA Gama O/U 1.5,Over/Si,4.50,0.3081,0.2077,0.1004,0.3866,v3.6,Goles,Visitante,,,,,,,
+2026-05-03 00:09,1540843,Arsenal vs Atletico Madrid,"('Champions League', True)",Goles Atletico Madrid O/U 0.5,Over/Si,1.57,0.7076,0.5890,0.1186,0.1109,v3.6,Goles,Visitante,,,,,,,
+2026-05-03 00:09,1540843,Arsenal vs Atletico Madrid,"('Champions League', True)",Goles Atletico Madrid O/U 1.5,Over/Si,4.00,0.3456,0.2337,0.1119,0.3824,v3.6,Goles,Visitante,,,,,,,
+2026-05-03 00:09,1540843,Arsenal vs Atletico Madrid,"('Champions League', True)",BTTS,Over/Si,1.95,0.5349,0.4800,0.0549,0.0430,v3.6,BTTS,Total,,,,,,,
